@@ -1,0 +1,67 @@
+nombre,tipo_entidad,rut,categoria_o_giro,fecha_constitucion,representante_o_superior
+Comando de Apoyo a la Fuerza del Ejercito,entidad_publica,61.101.000-1,Ministerio,,Ejército de Chile / Ministerio de Defensa Nacional
+Comision para el Mercado Financiero,entidad_publica,60.819.000-7,Servicio Público Fiscalizador Autónomo,,Consejo de la Comisión para el Mercado Financiero (Relación vía Ministerio de Hacienda)
+Contraloria General de la Republica,entidad_publica,60.103.000-4,Órgano Contralor Constitucionalmente Autónomo,,Autonomía Constitucional
+Corte Suprema de Chile,entidad_publica,60.301.000-0,Poder Judicial,,Corte Suprema de Justicia (Órgano Autónomo Constitucional)
+Direccion ChileCompra,entidad_publica,61.970.200-K,Ministerio,,Ministerio de Hacienda
+Direccion de Finanzas de Carabineros,entidad_publica,60.506.000-5,Ministerio,,Carabineros de Chile / Ministerio del Interior y Seguridad Pública
+Direccion de Inteligencia Policial de Carabineros,entidad_publica,60.506.000-5,Policía,,Carabineros de Chile / Ministerio del Interior y Seguridad Pública
+Fiscalia Nacional Economica,entidad_publica,61.202.000-0,Servicio Público Autónomo,,"Ministerio de Economía, Fomento y Turismo (Supervigilancia)"
+GORE Biobio,entidad_publica,72.260.900-K,GORE,,Gobierno Regional del Biobío (Autónomo)
+Ministerio de Obras Publicas,entidad_publica,61.202.000-0,Ministerio,,Presidencia de la República de Chile
+Municipalidad de Cerro Navia,entidad_publica,69.071.300-4,Municipio,,Concejo Municipal de Cerro Navia (Autónoma)
+Municipalidad de Chillan,entidad_publica,69.140.900-7,Municipio,,Concejo Municipal de Chillán (Autónoma)
+Municipalidad de Machali,entidad_publica,69.080.400-K,Municipio,,Concejo Municipal de Machalí (Autónoma)
+Municipalidad de Maipu,entidad_publica,69.070.300-9,Municipio,,Concejo Municipal de Maipú (Autónoma)
+Municipalidad de Santiago,entidad_publica,69.070.100-6,Municipio,,Concejo Municipal de Santiago (Autónoma)
+Municipalidad de Vitacura,entidad_publica,69.254.900-7,Municipio,,Concejo Municipal de Vitacura (Autónoma)
+Senado de la Republica de Chile,entidad_publica,60.201.000-7,Ministerio,,Congreso Nacional de Chile (Poder Legislativo)
+Seremi MINVU Antofagasta,entidad_publica,61.812.000-7,Ministerio,,Ministerio de Vivienda y Urbanismo (MINVU)
+Servicio Impuestos Internos,entidad_publica,60.803.000-K,Ministerio,,Ministerio de Hacienda
+Servicio Nacional del Consumidor,entidad_publica,60.805.000-0,Servicio Público Descentralizado,,"Ministerio de Economía, Fomento y Turismo"
+Unidad de Analisis Financiero,entidad_publica,61.979.440-0,Servicio Público Fiscalizador,,Ministerio de Hacienda
+Agencia Central de Inteligencia CIA y Escuela de las Americas,entidad_privada,59.301.420-7,"Operaciones de inteligencia exterior, acción política/económica encubierta y adiestramiento militar contrainsurgente (Fort Gulick, Panamá)",1947-09-18,Manuel Contreras Sepulveda
+Agricola Don Pollo Limitada,entidad_privada,78.145.220-3,"Explotación agropecuaria, producción, faenamiento y distribución de carne de ave",1982-10-18,Ramón Covarrubias Matte
+Agrosuper SA,entidad_privada,96.522.000-3,"Producción, procesamiento, faenamiento, distribución y exportación de productos cárnicos (pollo, cerdo, pavo y salmón)",1955-08-10,José Guzmán Vial
+Andes Iron SpA,entidad_privada,76.128.490-8,"Exploración, explotación minera de hierro y cobre, y desarrollo de infraestructura portuaria y desaladora en La Higuera",2010-08-05,Carlos Alberto Delano Abbott
+Asociacion de Productores Avicolas de Chile AG,entidad_privada,70.284.100-3,"Asociación gremial de representación, coordinación y fomento de la industria avícola chilena",1980-04-10,Juan Miguel Ovalle Garces
+Bancard Inversiones Ltda,entidad_privada,96.582.410-3,"Family office, sociedades de inversión bursátil, capital privado y vehículos offshore en Islas Vírgenes Británicas y Luxemburgo",1989-11-14,Sebastian Pinera Echenique
+Banco de Chile,entidad_privada,97.004.000-5,"Institución bancaria, intermediación financiera, operaciones de crédito y servicios bancarios comerciales",1893-10-28,Eduardo Ebensperger Orrego
+Comercializadora y Exportadora Global SpA,entidad_privada,76.987.654-5,"Exportación e importación de insumos tecnológicos, materias primas y bienes de consumo",2019-08-25,Jose Antonio Pavez Campillay
+Consultora Gestion Publica SpA,entidad_privada,77.314.890-2,"Asesorías en gestión pública, transformación digital y estudios estratégicos",2023-03-10,Jorge Valdivia Correa
+Corpesca SA,entidad_privada,96.893.820-7,"Pesca industrial extractiva, producción de harina y aceite de pescado",1999-11-05,Francisco Mujica Ortuzar
+Empresa El Mercurio SAP,entidad_privada,90.193.000-7,"Edición, impresión y distribución de periódicos, medios de comunicación y servicios informativos",1900-06-01,Agustin Edwards Eastman
+Empresas Ariztia SA,entidad_privada,91.533.000-2,"Crianza, faenamiento, elaboración y comercialización de aves, cecinas, quesos y productos agrícolas",1960-03-15,Manuel Ariztía Ruiz
+Empresas CMPC SA,entidad_privada,90.222.000-3,"Fabricación, transformación, comercialización y exportación de celulosa, maderas, papeles y productos tissue",1920-03-12,Francisco Ruiz-Tagle Edwards
+Empresas Penta SA,entidad_privada,96.714.830-K,"Holding financiero, inversiones previsionales, seguros, salud e inmobiliaria",1986-09-12,Carlos Alberto Delano Abbott
+Exportadora y de Gestion Caval Ltda,entidad_privada,76.195.420-2,"Asesorías comerciales, gestión inmobiliaria, inversiones y consultoría estratégica",2012-02-03,Mauricio Valero Illanes
+Factop SpA,entidad_privada,76.419.820-4,"Operaciones de factoring, descuento de documentos y servicios financieros",2016-08-10,Luis Hermosilla Osorio
+Farmacias Ahumada SA,entidad_privada,91.522.000-2,"Comercialización, distribución y venta minorista de productos farmacéuticos, medicinales y artículos de tocador",1968-11-20,Juan Pablo Corvalán Kramer
+Farmacias Cruz Verde SA,entidad_privada,96.677.000-7,"Distribución, droguería, importación y venta al por menor de medicamentos e insumos médicos",1984-01-05,Eduardo Castillo Castillo
+Farmacias Salcobrand SA,entidad_privada,96.516.000-0,"Explotación de farmacias, droguerías, perfumerías y comercialización de productos farmacéuticos",2000-04-10,Matías Verdugo Correa
+Frasim Ltda,entidad_privada,76.091.340-5,"Importación, comercialización de repuestos, insumos industriales y pertrechos",2008-04-15,Jozo Santic Palomino
+Fundacion CEMA Chile,entidad_privada,70.012.450-9,"Asistencia social, capacitación artesanal y administración de centros de madres",1954-10-05,Lucia Hiriart Rodriguez
+Fundacion Democracia Viva,entidad_privada,65.218.940-7,"Participación ciudadana, formación política, estudios sociales y culturales",2022-02-25,Daniel Andrade Schwarze
+Fundacion En Ti,entidad_privada,65.184.310-3,"Capacitación comunitaria, desarrollo social y apoyo barrial",2018-05-14,Camila Polizzi Fonceca
+Fundacion ProCultura,entidad_privada,65.034.810-9,"Promoción cultural, patrimonio, identidad territorial y proyectos comunitarios",2010-03-18,Alberto Larrain Salas
+Gestion Ambiental y Territorial SA,entidad_privada,96.814.520-7,"Consultoría en ingeniería, gestión ambiental, estudios territoriales y asesoría vial",1996-05-14,Roberto Lewin Valdivieso
+Inmobiliaria San Valentino SpA,entidad_privada,77.418.920-3,"Inversiones inmobiliarias, compra, venta y arrendamiento de bienes raíces y establecimientos de salud",2022-04-05,Felipe Sanchez Perez
+Inversiones El Bosque Ltda,entidad_privada,77.412.890-5,"Inversiones inmobiliarias, administración de centros deportivos, gimnasios, estética y eventos",1998-04-14,Claudio Spiniak Vilensky
+Inversiones y Asesorias Pavez SpA,entidad_privada,77.123.456-9,"Inversiones de capital, asesorías tributarias, contables y financieras de empresas",2018-04-12,Jose Antonio Pavez Campillay
+Itelecom Holding Chile SpA,entidad_privada,76.284.190-8,"Ingeniería eléctrica, eficiencia energética, telegestión y alumbrado público LED",2013-07-22,Leon Marcelo Lefort Hernandez
+KDM Empresas SA,entidad_privada,96.648.210-9,"Recolección, transporte, tratamiento y disposición final de residuos sólidos domiciliarios e industriales",1993-11-08,Fernando Leon Steffens
+Mossack Fonseca y Sociedades Offshore Panama,entidad_privada,59.214.830-7,"Servicios jurídicos fiduciarios, incorporación de sociedades offshore y fundaciones de interés privado en Panamá, Bahamas e Islas Vírgenes Británicas",1977-03-18,Gonzalo Delaveau Swett
+Numen Publicidad SpA,entidad_privada,77.492.381-0,"Servicios de publicidad, comunicación estratégica, marketing digital, análisis de redes sociales y sondeos de opinión",2020-07-15,Fernando Cerimedo
+Quiroz y Asociados Consultores SpA,entidad_privada,76.189.345-9,"Asesorías económicas, consultoría macroeconómica, estudios de mercado y libre competencia",1998-05-12,Jorge Quiroz Castro
+Riggs Bank y Sociedades Offshore Ashburton,entidad_privada,59.102.480-9,"Banca privada internacional, fideicomisos offshore y vehículos de inversión en Bahamas, Islas Vírgenes Británicas y EE.UU.",1994-03-22,Oscar Aitken Lavanchy
+SCA Chile SA,entidad_privada,96.529.000-1,"Fabricación y comercialización de productos de papel tissue, pañales y productos absorbentes",1978-08-14,Gonzalo Eguiguren Correa
+SQM SA,entidad_privada,93.007.000-9,"Explotación minera no metálica, producción de litio, yodo y fertilizantes de especialidad",1968-06-29,Patricio Contesse Gonzalez
+Sociedad Benefactora y Educacional Dignidad,entidad_privada,70.145.820-6,"Beneficencia, educación, asistencia médica y explotación agrícola, forestal, industrial e inmobiliaria",1961-09-20,Paul Schafer Schneider
+Sociedad de Inversiones Pampa Calichera SA,entidad_privada,96.524.180-9,Sociedad de inversiones y holding controlador de acciones serie A y B de SQM S.A.,1988-06-21,Julio Ponce Lerou
+Valmoval Ltda,entidad_privada,78.142.930-9,"Fabricación metalmecánica, ensamblaje de armamento ligero (subfusiles PSP) y suministros militares",1984-06-15,Augusto Pinochet Hiriart
+Vita Deportes,entidad_privada,65.089.120-1,Fomento del deporte comunal y administración de recintos deportivos en Vitacura,2001-06-12,Domingo Prieto Urrejola
+Partido Comunista de Chile,partido_politico,65.021.840-K,Apruebo Dignidad / Unidad por Chile,1912-06-04,
+Partido Socialista de Chile,partido_politico,65.014.320-5,Socialismo Democrático (ex Concertación),1933-04-19,
+Renovacion Nacional,partido_politico,65.012.340-9,Chile Vamos,1987-04-29,
+Revolucion Democratica,partido_politico,65.119.420-2,Frente Amplio,2012-01-07,
+Union Democrata Independiente,partido_politico,65.008.910-3,Chile Vamos,1983-09-24,

@@ -1,0 +1,33 @@
+---
+tipo_nodo: tipo_penal
+articulo_cp: "Artículo 233 del Código Penal"
+bien_juridico: "Patrimonio público y deber de custodia funcionaria"
+pena_referencial: "Presidio menor en su grado medio a presidio mayor en su grado máximo e inhabilitación perpetua"
+prescripcion_anos: 10
+tags:
+  - delito/malversacion
+---
+
+# Malversacion de Caudales Publicos
+
+## Tipificación Legal en Chile
+- **Norma**: `= this.articulo_cp`
+- **Bien Jurídico Protegido**: `= this.bien_juridico`
+- **Marco Penal**: `= this.pena_referencial`
+
+El empleado público que, teniendo a su cargo caudales o efectos públicos o de particulares en depósito, consignación o secuestro, los substrajere o consintiere que otro los substraiga.
+
+## Nexos e Imputaciones Vinculadas a este Delito
+```dataview
+TABLE WITHOUT ID
+  file.link AS "Nexo / Transacción",
+  fecha AS "Fecha",
+  entidad_origen AS "Órgano Público",
+  entidad_destino AS "Entidad Receptora",
+  firmante_origen AS "Autorizador",
+  "$" + regexreplace(string(monto_clp), "\B(?=(\d{3})+(?!\d))", ".") AS "Monto (CLP)",
+  causa_vinculada AS "Causa"
+FROM "03_Hechos_y_Nexos"
+WHERE contains(string(delito_imputado), this.file.name)
+SORT fecha DESC
+```
