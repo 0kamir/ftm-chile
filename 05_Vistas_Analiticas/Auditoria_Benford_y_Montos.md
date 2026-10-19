@@ -10,8 +10,8 @@ tags:
 
 # Auditoría Estadística Forense: Ley de Benford y Sesgo de Redondeo
 
-- **Operaciones Monetarias Analizadas (`monto_clp > 0`)**: **59**
-- **Operaciones con Monto Redondo Discrecional (Múltiplos de `$10.000.000 CLP`)**: **45 de 59 (76.3%)**
+- **Operaciones Monetarias Analizadas (`monto_clp > 0`)**: **57**
+- **Operaciones con Monto Redondo Discrecional (Múltiplos de `$10.000.000 CLP`)**: **44 de 57 (77.2%)**
 
 ---
 
@@ -22,21 +22,21 @@ xychart-beta
   title "Distribución del Primer Dígito: Observado (%) vs. Teórico Benford (%)"
   x-axis ["Dígito 1", "Dígito 2", "Dígito 3", "Dígito 4", "Dígito 5", "Dígito 6", "Dígito 7", "Dígito 8", "Dígito 9"]
   y-axis "Frecuencia (%)" 0 --> 45
-  bar [32.2, 25.4, 15.3, 8.5, 5.1, 1.7, 5.1, 3.4, 3.4]
+  bar [31.6, 26.3, 15.8, 7.0, 5.3, 1.8, 5.3, 3.5, 3.5]
   line [30.1, 17.6, 12.5, 9.7, 7.9, 6.7, 5.8, 5.1, 4.6]
 ```
 
 | Primer Dígito ($d$) | Conteo Observado | Frecuencia Observada (%) | Frecuencia Esperada Benford (%) | Desviación ($\Delta$) |
 | :---: | :---: | ---: | ---: | ---: |
-| **1** | 19 | 32.2% | 30.1% | `+2.1%` |
-| **2** | 15 | 25.4% | 17.6% | `+7.8%` |
-| **3** | 9 | 15.3% | 12.5% | `+2.8%` |
-| **4** | 5 | 8.5% | 9.7% | `-1.2%` |
-| **5** | 3 | 5.1% | 7.9% | `-2.8%` |
-| **6** | 1 | 1.7% | 6.7% | `-5.0%` |
-| **7** | 3 | 5.1% | 5.8% | `-0.7%` |
-| **8** | 2 | 3.4% | 5.1% | `-1.7%` |
-| **9** | 2 | 3.4% | 4.6% | `-1.2%` |
+| **1** | 18 | 31.6% | 30.1% | `+1.5%` |
+| **2** | 15 | 26.3% | 17.6% | `+8.7%` |
+| **3** | 9 | 15.8% | 12.5% | `+3.3%` |
+| **4** | 4 | 7.0% | 9.7% | `-2.7%` |
+| **5** | 3 | 5.3% | 7.9% | `-2.6%` |
+| **6** | 1 | 1.8% | 6.7% | `-4.9%` |
+| **7** | 3 | 5.3% | 5.8% | `-0.5%` |
+| **8** | 2 | 3.5% | 5.1% | `-1.6%` |
+| **9** | 2 | 3.5% | 4.6% | `-1.1%` |
 
 ---
 
@@ -86,7 +86,6 @@ En contabilidad forense, los presupuestos basados en cubicaciones reales de obra
 | [[TRX-1996-06-12-Blindaje-Politico-Judicial-ColoniaDignidad-01]] | 1996-06-12 | `gestion_influencia` | [[Union Democrata Independiente]] | [[Sociedad Benefactora y Educacional Dignidad]] | **$240.000.000** | [[Caso Colonia Dignidad]] |
 | [[TRX-2022-10-03-Convenio-DV-01]] | 2022-10-03 | `convenio_directo` | [[Seremi MINVU Antofagasta]] | [[Fundacion Democracia Viva]] | **$200.000.000** | [[Caso Convenios]] |
 | [[TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01]] | 2019-12-11 | `transferencia` | [[Factop SpA]] | [[Senado de la Republica de Chile]] | **$190.000.000** | [[Caso Audios]] |
-| [[TRX-2020-07-08-Asesoria-Itelecom-Hermosilla-01]] | 2020-07-08 | `transferencia` | [[Itelecom Holding Chile SpA]] | [[Factop SpA]] | **$180.000.000** | [[Caso Luminarias LED]] |
 | [[TRX-2022-10-19-Convenio-DV-02]] | 2022-10-19 | `convenio_directo` | [[Seremi MINVU Antofagasta]] | [[Fundacion Democracia Viva]] | **$170.000.000** | [[Caso Convenios]] |
 | [[TRX-2014-02-18-Soborno-Caval-Machali-01]] | 2014-02-18 | `cohecho_soborno` | [[Exportadora y de Gestion Caval Ltda]] | [[Municipalidad de Machali]] | **$140.000.000** | [[Caso Caval]] |
 | [[TRX-2003-11-05-Operacion-Politico-Judicial-Spiniak-01]] | 2003-11-05 | `gestion_influencia` | [[Renovacion Nacional]] | [[Corte Suprema de Chile]] | **$120.000.000** | [[Caso Spiniak]] |

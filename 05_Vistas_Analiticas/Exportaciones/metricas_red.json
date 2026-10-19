@@ -1,8 +1,8 @@
 {
   "resumen": {
-    "total_nodos": 337,
-    "total_aristas": 766,
-    "monto_total_clp": 751224363198
+    "total_nodos": 335,
+    "total_aristas": 743,
+    "monto_total_clp": 750998563198
   },
   "nodos": [
     {
@@ -11,7 +11,7 @@
       "rut": "60.301.000-0",
       "monto_clp": 0,
       "path": "01_Entidades/Publicas/Corte Suprema de Chile.md",
-      "in_degree": 42,
+      "in_degree": 41,
       "out_degree": 0,
       "flujo_emitido_clp": 0,
       "flujo_recibido_clp": 71470000000
@@ -83,17 +83,6 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Lavado de Activos",
-      "tipo_nodo": "tipo_penal",
-      "rut": "",
-      "monto_clp": 0,
-      "path": "00_Meta/Delitos/Lavado de Activos.md",
-      "in_degree": 12,
-      "out_degree": 0,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
       "id": "Augusto Pinochet Ugarte",
       "tipo_nodo": "persona",
       "rut": "1.128.923-1",
@@ -113,6 +102,17 @@
       "in_degree": 11,
       "out_degree": 0,
       "flujo_emitido_clp": 120000000,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "Lavado de Activos",
+      "tipo_nodo": "tipo_penal",
+      "rut": "",
+      "monto_clp": 0,
+      "path": "00_Meta/Delitos/Lavado de Activos.md",
+      "in_degree": 11,
+      "out_degree": 0,
+      "flujo_emitido_clp": 0,
       "flujo_recibido_clp": 0
     },
     {
@@ -171,17 +171,6 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Negociacion Incompatible",
-      "tipo_nodo": "tipo_penal",
-      "rut": "",
-      "monto_clp": 0,
-      "path": "00_Meta/Delitos/Negociacion Incompatible.md",
-      "in_degree": 9,
-      "out_degree": 0,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
       "id": "TRX-2000-05-15-Pacto-Colusion-Precios-Cuotas-CMPC-PISA-01",
       "tipo_nodo": "nexo_transaccion",
       "rut": "",
@@ -224,17 +213,6 @@
       "out_degree": 2,
       "flujo_emitido_clp": 32050000000,
       "flujo_recibido_clp": 75500000000
-    },
-    {
-      "id": "Factop SpA",
-      "tipo_nodo": "entidad_privada",
-      "rut": "76.419.820-4",
-      "monto_clp": 0,
-      "path": "01_Entidades/Privadas/Factop SpA.md",
-      "in_degree": 7,
-      "out_degree": 1,
-      "flujo_emitido_clp": 770000000,
-      "flujo_recibido_clp": 180000000
     },
     {
       "id": "TRX-2022-10-03-Convenio-DV-01",
@@ -325,17 +303,6 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "TRX-2023-08-14-Trato-Directo-ChileCompra-01",
-      "tipo_nodo": "nexo_transaccion",
-      "rut": "",
-      "monto_clp": 45800000,
-      "path": "03_Hechos_y_Nexos/TRX-2023-08-14-Trato-Directo-ChileCompra-01.md",
-      "in_degree": 1,
-      "out_degree": 7,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
       "id": "TRX-2014-05-20-Facturas-LeyReservadaCobre-01",
       "tipo_nodo": "nexo_transaccion",
       "rut": "",
@@ -352,17 +319,6 @@
       "rut": "",
       "monto_clp": 233000000,
       "path": "03_Hechos_y_Nexos/TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01.md",
-      "in_degree": 1,
-      "out_degree": 7,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
-      "id": "TRX-2019-05-14-Soborno-Luminarias-Chillan-01",
-      "tipo_nodo": "nexo_transaccion",
-      "rut": "",
-      "monto_clp": 3200000000,
-      "path": "03_Hechos_y_Nexos/TRX-2019-05-14-Soborno-Luminarias-Chillan-01.md",
       "in_degree": 1,
       "out_degree": 7,
       "flujo_emitido_clp": 0,
@@ -644,15 +600,26 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Luis Hermosilla Osorio",
-      "tipo_nodo": "persona",
-      "rut": "7.014.892-7",
+      "id": "Factop SpA",
+      "tipo_nodo": "entidad_privada",
+      "rut": "76.419.820-4",
       "monto_clp": 0,
-      "path": "01_Entidades/Personas/Luis Hermosilla Osorio.md",
+      "path": "01_Entidades/Privadas/Factop SpA.md",
+      "in_degree": 6,
+      "out_degree": 1,
+      "flujo_emitido_clp": 770000000,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "Negociacion Incompatible",
+      "tipo_nodo": "tipo_penal",
+      "rut": "",
+      "monto_clp": 0,
+      "path": "00_Meta/Delitos/Negociacion Incompatible.md",
       "in_degree": 7,
       "out_degree": 0,
-      "flujo_emitido_clp": 770000000,
-      "flujo_recibido_clp": 180000000
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
     },
     {
       "id": "Caso Audios",
@@ -737,17 +704,6 @@
       "rut": "",
       "monto_clp": 0,
       "path": "03_Hechos_y_Nexos/TRX-2023-02-09-Gestion-Judicial-Hermosilla-Vivanco-01.md",
-      "in_degree": 0,
-      "out_degree": 7,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
-      "id": "TRX-2020-07-08-Asesoria-Itelecom-Hermosilla-01",
-      "tipo_nodo": "nexo_transaccion",
-      "rut": "",
-      "monto_clp": 180000000,
-      "path": "03_Hechos_y_Nexos/TRX-2020-07-08-Asesoria-Itelecom-Hermosilla-01.md",
       "in_degree": 0,
       "out_degree": 7,
       "flujo_emitido_clp": 0,
@@ -1150,6 +1106,17 @@
       "flujo_recibido_clp": 0
     },
     {
+      "id": "Luis Hermosilla Osorio",
+      "tipo_nodo": "persona",
+      "rut": "7.014.892-7",
+      "monto_clp": 0,
+      "path": "01_Entidades/Personas/Luis Hermosilla Osorio.md",
+      "in_degree": 6,
+      "out_degree": 0,
+      "flujo_emitido_clp": 770000000,
+      "flujo_recibido_clp": 0
+    },
+    {
       "id": "Direccion de Inteligencia Policial de Carabineros",
       "tipo_nodo": "entidad_publica",
       "rut": "60.506.000-5",
@@ -1190,6 +1157,17 @@
       "path": "02_Causas/Caso Megafraude Tributario Operacion Tributos.md",
       "in_degree": 5,
       "out_degree": 1,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "TRX-2019-05-14-Soborno-Luminarias-Chillan-01",
+      "tipo_nodo": "nexo_transaccion",
+      "rut": "",
+      "monto_clp": 3200000000,
+      "path": "03_Hechos_y_Nexos/TRX-2019-05-14-Soborno-Luminarias-Chillan-01.md",
+      "in_degree": 0,
+      "out_degree": 6,
       "flujo_emitido_clp": 0,
       "flujo_recibido_clp": 0
     },
@@ -1480,17 +1458,6 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Sentencia-TOP-Chillan-Luminarias-2023",
-      "tipo_nodo": "evidencia_documental",
-      "rut": "",
-      "monto_clp": 0,
-      "path": "04_Evidencias/Sentencia-TOP-Chillan-Luminarias-2023.md",
-      "in_degree": 2,
-      "out_degree": 3,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
       "id": "Sentencia-TOP-Rancagua-Caval-2018",
       "tipo_nodo": "evidencia_documental",
       "rut": "",
@@ -1722,17 +1689,6 @@
       "flujo_recibido_clp": 5300000000
     },
     {
-      "id": "Rodrigo Diaz Worner",
-      "tipo_nodo": "persona",
-      "rut": "10.584.219-8",
-      "monto_clp": 0,
-      "path": "01_Entidades/Personas/Rodrigo Diaz Worner.md",
-      "in_degree": 4,
-      "out_degree": 0,
-      "flujo_emitido_clp": 2849435000,
-      "flujo_recibido_clp": 0
-    },
-    {
       "id": "Carlos Cruz Lorenzen",
       "tipo_nodo": "persona",
       "rut": "6.482.910-6",
@@ -1832,17 +1788,6 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Caso Luminarias LED",
-      "tipo_nodo": "causa_judicial",
-      "rut": "1900418920-4",
-      "monto_clp": 0,
-      "path": "02_Causas/Caso Luminarias LED.md",
-      "in_degree": 3,
-      "out_degree": 1,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
       "id": "Caso Caval",
       "tipo_nodo": "causa_judicial",
       "rut": "1500169916-0",
@@ -1925,17 +1870,6 @@
       "rut": "",
       "monto_clp": 0,
       "path": "04_Evidencias/Informe-Contraloria-Municipalidad-Maipu-2021.md",
-      "in_degree": 1,
-      "out_degree": 3,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
-      "id": "Orden-Compra-MercadoPublico-2023",
-      "tipo_nodo": "evidencia_documental",
-      "rut": "",
-      "monto_clp": 0,
-      "path": "04_Evidencias/Orden-Compra-MercadoPublico-2023.md",
       "in_degree": 1,
       "out_degree": 3,
       "flujo_emitido_clp": 0,
@@ -2228,25 +2162,14 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Leon Marcelo Lefort Hernandez",
+      "id": "Rodrigo Diaz Worner",
       "tipo_nodo": "persona",
-      "rut": "10.394.820-7",
+      "rut": "10.584.219-8",
       "monto_clp": 0,
-      "path": "01_Entidades/Personas/Leon Marcelo Lefort Hernandez.md",
+      "path": "01_Entidades/Personas/Rodrigo Diaz Worner.md",
       "in_degree": 3,
       "out_degree": 0,
-      "flujo_emitido_clp": 3380000000,
-      "flujo_recibido_clp": 0
-    },
-    {
-      "id": "Itelecom Holding Chile SpA",
-      "tipo_nodo": "entidad_privada",
-      "rut": "76.284.190-8",
-      "monto_clp": 0,
-      "path": "01_Entidades/Privadas/Itelecom Holding Chile SpA.md",
-      "in_degree": 2,
-      "out_degree": 1,
-      "flujo_emitido_clp": 3380000000,
+      "flujo_emitido_clp": 2803635000,
       "flujo_recibido_clp": 0
     },
     {
@@ -2420,17 +2343,6 @@
       "rut": "2101094520-3",
       "monto_clp": 0,
       "path": "02_Causas/Caso Municipalidad de Maipu.md",
-      "in_degree": 2,
-      "out_degree": 1,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
-      "id": "Caso Compras Publicas",
-      "tipo_nodo": "causa_judicial",
-      "rut": "2300918450-6",
-      "monto_clp": 0,
-      "path": "02_Causas/Caso Compras Publicas.md",
       "in_degree": 2,
       "out_degree": 1,
       "flujo_emitido_clp": 0,
@@ -2756,6 +2668,28 @@
       "flujo_recibido_clp": 5300000000
     },
     {
+      "id": "Leon Marcelo Lefort Hernandez",
+      "tipo_nodo": "persona",
+      "rut": "10.394.820-7",
+      "monto_clp": 0,
+      "path": "01_Entidades/Personas/Leon Marcelo Lefort Hernandez.md",
+      "in_degree": 2,
+      "out_degree": 0,
+      "flujo_emitido_clp": 3200000000,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "Itelecom Holding Chile SpA",
+      "tipo_nodo": "entidad_privada",
+      "rut": "76.284.190-8",
+      "monto_clp": 0,
+      "path": "01_Entidades/Privadas/Itelecom Holding Chile SpA.md",
+      "in_degree": 1,
+      "out_degree": 1,
+      "flujo_emitido_clp": 3200000000,
+      "flujo_recibido_clp": 0
+    },
+    {
       "id": "Valmoval Ltda",
       "tipo_nodo": "entidad_privada",
       "rut": "78.142.930-9",
@@ -2976,39 +2910,6 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Jorge Valdivia Correa",
-      "tipo_nodo": "persona",
-      "rut": "14.289.310-K",
-      "monto_clp": 0,
-      "path": "01_Entidades/Personas/Jorge Valdivia Correa.md",
-      "in_degree": 2,
-      "out_degree": 0,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 45800000
-    },
-    {
-      "id": "Direccion ChileCompra",
-      "tipo_nodo": "entidad_publica",
-      "rut": "61.970.200-K",
-      "monto_clp": 0,
-      "path": "01_Entidades/Publicas/Direccion ChileCompra.md",
-      "in_degree": 2,
-      "out_degree": 0,
-      "flujo_emitido_clp": 45800000,
-      "flujo_recibido_clp": 0
-    },
-    {
-      "id": "Consultora Gestion Publica SpA",
-      "tipo_nodo": "entidad_privada",
-      "rut": "77.314.890-2",
-      "monto_clp": 0,
-      "path": "01_Entidades/Privadas/Consultora Gestion Publica SpA.md",
-      "in_degree": 1,
-      "out_degree": 1,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 45800000
-    },
-    {
       "id": "Pablo Wagner San Martin",
       "tipo_nodo": "persona",
       "rut": "10.642.810-7",
@@ -3115,6 +3016,17 @@
       "path": "01_Entidades/Partidos/Revolucion Democratica.md",
       "in_degree": 2,
       "out_degree": 0,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "Caso Luminarias LED",
+      "tipo_nodo": "causa_judicial",
+      "rut": "1900418920-4",
+      "monto_clp": 0,
+      "path": "02_Causas/Caso Luminarias LED.md",
+      "in_degree": 1,
+      "out_degree": 1,
       "flujo_emitido_clp": 0,
       "flujo_recibido_clp": 0
     },
@@ -3405,6 +3317,17 @@
       "flujo_recibido_clp": 0
     },
     {
+      "id": "Flujo_Incorporacion_Informacion",
+      "tipo_nodo": "meta_flujo",
+      "rut": "",
+      "monto_clp": 0,
+      "path": "00_Meta/Flujo_Incorporacion_Informacion.md",
+      "in_degree": 0,
+      "out_degree": 0,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
       "id": "Asociacion Ilicita",
       "tipo_nodo": "tipo_penal",
       "rut": "",
@@ -3460,6 +3383,17 @@
       "flujo_recibido_clp": 0
     },
     {
+      "id": "Direccion ChileCompra",
+      "tipo_nodo": "entidad_publica",
+      "rut": "61.970.200-K",
+      "monto_clp": 0,
+      "path": "01_Entidades/Publicas/Direccion ChileCompra.md",
+      "in_degree": 0,
+      "out_degree": 0,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
       "id": "Banco de Chile",
       "tipo_nodo": "entidad_privada",
       "rut": "97.004.000-5",
@@ -3498,6 +3432,17 @@
       "rut": "78.145.220-3",
       "monto_clp": 0,
       "path": "01_Entidades/Privadas/Agricola Don Pollo Limitada.md",
+      "in_degree": 0,
+      "out_degree": 0,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "Drawing 2026-10-18 11.54.03.excalidraw",
+      "tipo_nodo": "desconocido",
+      "rut": "",
+      "monto_clp": 0,
+      "path": "01_Entidades/Partidos/Drawing 2026-10-18 11.54.03.excalidraw.md",
       "in_degree": 0,
       "out_degree": 0,
       "flujo_emitido_clp": 0,
@@ -3702,11 +3647,44 @@
       "flujo_recibido_clp": 0
     },
     {
+      "id": "Cobertura_de_Fuentes",
+      "tipo_nodo": "vista_analitica",
+      "rut": "",
+      "monto_clp": 0,
+      "path": "05_Vistas_Analiticas/Cobertura_de_Fuentes.md",
+      "in_degree": 0,
+      "out_degree": 0,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
       "id": "Dossier_Ejecutivo_Completo",
       "tipo_nodo": "dossier_pericial",
       "rut": "",
       "monto_clp": 0,
       "path": "05_Vistas_Analiticas/Exportaciones/Dossier_Ejecutivo_Completo.md",
+      "in_degree": 0,
+      "out_degree": 0,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "Drawing 2026-10-18 02.19.23.excalidraw",
+      "tipo_nodo": "desconocido",
+      "rut": "",
+      "monto_clp": 0,
+      "path": "Excalidraw/Drawing 2026-10-18 02.19.23.excalidraw.md",
+      "in_degree": 0,
+      "out_degree": 0,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "Drawing 2026-10-18 02.19.43.excalidraw",
+      "tipo_nodo": "desconocido",
+      "rut": "",
+      "monto_clp": 0,
+      "path": "Excalidraw/Drawing 2026-10-18 02.19.43.excalidraw.md",
       "in_degree": 0,
       "out_degree": 0,
       "flujo_emitido_clp": 0,
@@ -4015,12 +3993,6 @@
       "weight": 1
     },
     {
-      "source": "Consultora Gestion Publica SpA",
-      "target": "Jorge Valdivia Correa",
-      "relation": "representante_legal",
-      "weight": 1
-    },
-    {
       "source": "Frasim Ltda",
       "target": "Jozo Santic Palomino",
       "relation": "representante_legal",
@@ -4197,12 +4169,6 @@
     {
       "source": "Caso Pacogate",
       "target": "Malversacion de Caudales Publicos",
-      "relation": "delito_principal",
-      "weight": 1
-    },
-    {
-      "source": "Caso Compras Publicas",
-      "target": "Negociacion Incompatible",
       "relation": "delito_principal",
       "weight": 1
     },
@@ -4915,48 +4881,6 @@
       "weight": 28348928198
     },
     {
-      "source": "TRX-2023-08-14-Trato-Directo-ChileCompra-01",
-      "target": "Direccion ChileCompra",
-      "relation": "entidad_origen",
-      "weight": 45800000
-    },
-    {
-      "source": "TRX-2023-08-14-Trato-Directo-ChileCompra-01",
-      "target": "Consultora Gestion Publica SpA",
-      "relation": "entidad_destino",
-      "weight": 45800000
-    },
-    {
-      "source": "TRX-2023-08-14-Trato-Directo-ChileCompra-01",
-      "target": "Rodrigo Diaz Worner",
-      "relation": "firmante_origen",
-      "weight": 45800000
-    },
-    {
-      "source": "TRX-2023-08-14-Trato-Directo-ChileCompra-01",
-      "target": "Jorge Valdivia Correa",
-      "relation": "firmante_destino",
-      "weight": 45800000
-    },
-    {
-      "source": "TRX-2023-08-14-Trato-Directo-ChileCompra-01",
-      "target": "Caso Compras Publicas",
-      "relation": "causa_vinculada",
-      "weight": 45800000
-    },
-    {
-      "source": "TRX-2023-08-14-Trato-Directo-ChileCompra-01",
-      "target": "Negociacion Incompatible",
-      "relation": "delito_imputado",
-      "weight": 45800000
-    },
-    {
-      "source": "TRX-2023-08-14-Trato-Directo-ChileCompra-01",
-      "target": "Orden-Compra-MercadoPublico-2023",
-      "relation": "evidencia_soporte",
-      "weight": 45800000
-    },
-    {
       "source": "TRX-2014-05-20-Facturas-LeyReservadaCobre-01",
       "target": "Comando de Apoyo a la Fuerza del Ejercito",
       "relation": "entidad_origen",
@@ -5075,54 +4999,6 @@
       "target": "Cohecho",
       "relation": "delito_imputado",
       "weight": 3200000000
-    },
-    {
-      "source": "TRX-2019-05-14-Soborno-Luminarias-Chillan-01",
-      "target": "Sentencia-TOP-Chillan-Luminarias-2023",
-      "relation": "evidencia_soporte",
-      "weight": 3200000000
-    },
-    {
-      "source": "TRX-2020-07-08-Asesoria-Itelecom-Hermosilla-01",
-      "target": "Itelecom Holding Chile SpA",
-      "relation": "entidad_origen",
-      "weight": 180000000
-    },
-    {
-      "source": "TRX-2020-07-08-Asesoria-Itelecom-Hermosilla-01",
-      "target": "Factop SpA",
-      "relation": "entidad_destino",
-      "weight": 180000000
-    },
-    {
-      "source": "TRX-2020-07-08-Asesoria-Itelecom-Hermosilla-01",
-      "target": "Leon Marcelo Lefort Hernandez",
-      "relation": "firmante_origen",
-      "weight": 180000000
-    },
-    {
-      "source": "TRX-2020-07-08-Asesoria-Itelecom-Hermosilla-01",
-      "target": "Luis Hermosilla Osorio",
-      "relation": "firmante_destino",
-      "weight": 180000000
-    },
-    {
-      "source": "TRX-2020-07-08-Asesoria-Itelecom-Hermosilla-01",
-      "target": "Caso Luminarias LED",
-      "relation": "causa_vinculada",
-      "weight": 180000000
-    },
-    {
-      "source": "TRX-2020-07-08-Asesoria-Itelecom-Hermosilla-01",
-      "target": "Lavado de Activos",
-      "relation": "delito_imputado",
-      "weight": 180000000
-    },
-    {
-      "source": "TRX-2020-07-08-Asesoria-Itelecom-Hermosilla-01",
-      "target": "Sentencia-TOP-Chillan-Luminarias-2023",
-      "relation": "evidencia_soporte",
-      "weight": 180000000
     },
     {
       "source": "TRX-2013-07-15-Boletas-Falsas-Penta-UDI-01",
@@ -7663,24 +7539,6 @@
       "weight": 1
     },
     {
-      "source": "Orden-Compra-MercadoPublico-2023",
-      "target": "Direccion ChileCompra",
-      "relation": "organismo_emisor",
-      "weight": 1
-    },
-    {
-      "source": "Orden-Compra-MercadoPublico-2023",
-      "target": "Caso Compras Publicas",
-      "relation": "causa_vinculada",
-      "weight": 1
-    },
-    {
-      "source": "Orden-Compra-MercadoPublico-2023",
-      "target": "TRX-2023-08-14-Trato-Directo-ChileCompra-01",
-      "relation": "nexo_respaldado",
-      "weight": 1
-    },
-    {
       "source": "Auto-Procesamiento-Ministra-Rutherford-2019",
       "target": "Corte Suprema de Chile",
       "relation": "organismo_emisor",
@@ -7713,24 +7571,6 @@
     {
       "source": "Sentencia-3TOP-Santiago-Corpesca-2020",
       "target": "TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01",
-      "relation": "nexo_respaldado",
-      "weight": 1
-    },
-    {
-      "source": "Sentencia-TOP-Chillan-Luminarias-2023",
-      "target": "Corte Suprema de Chile",
-      "relation": "organismo_emisor",
-      "weight": 1
-    },
-    {
-      "source": "Sentencia-TOP-Chillan-Luminarias-2023",
-      "target": "Caso Luminarias LED",
-      "relation": "causa_vinculada",
-      "weight": 1
-    },
-    {
-      "source": "Sentencia-TOP-Chillan-Luminarias-2023",
-      "target": "TRX-2019-05-14-Soborno-Luminarias-Chillan-01",
       "relation": "nexo_respaldado",
       "weight": 1
     },

@@ -21,8 +21,8 @@ tags:
 - **Objeto Social**: `= this.objeto_social`
 - **Gerente General y Controlador**: `= this.representante_legal`
 
-## Contexto Forense y Rol de Nodo Puente
-Sociedad proveedora de alumbrado público protagonista del [[Caso Luminarias LED]]. A través de su controlador [[Leon Marcelo Lefort Hernandez]], estructuró pagos de sobornos para adjudicarse contratos municipales como el de la [[Municipalidad de Chillan]] por **$3.200.000.000 CLP** ([[TRX-2019-05-14-Soborno-Luminarias-Chillan-01]], sancionado en [[Sentencia-TOP-Chillan-Luminarias-2023]]). Adicionalmente, actúa como **nodo puente inter-causal** al conectar financieramente con el abogado [[Luis Hermosilla Osorio]] mediante [[TRX-2020-07-08-Asesoria-Itelecom-Hermosilla-01]], enlazando la red municipal de Ñuble con la red del [[Caso Audios]].
+## Contexto Forense
+Sociedad proveedora de alumbrado público investigada en el [[Caso Luminarias LED]]. La Fiscalía sostiene que, a través de su controlador [[Leon Marcelo Lefort Hernandez]], ofreció sobornos para adjudicarse contratos municipales como el de la [[Municipalidad de Chillan]] ([[TRX-2019-05-14-Soborno-Luminarias-Chillan-01]]). Según la Fiscalía de Ñuble, [[Leon Marcelo Lefort Hernandez]] fue detenido el 05-05-2020 tras entregar presuntamente $37 millones en efectivo a [[Marcelo Campos Henriquez]], quien habría anticipado las bases técnicas de la licitación a [[Itelecom Holding Chile SpA]]. A la fecha de la última verificación (2026-10-19) no se encontró sentencia: la causa registra formalizaciones, prisión preventiva luego sustituida por arresto domiciliario y una acusación contra 15 imputados. Rige la presunción de inocencia.
 
 ## Historial de Nexos y Operaciones Investigadas
 ```dataview

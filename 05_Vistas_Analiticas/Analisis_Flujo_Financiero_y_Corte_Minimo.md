@@ -16,12 +16,12 @@ tags:
 
 ## 1. Métricas Globales de Flujo y Desigualdad Financiera
 
-- **Flujo Máximo Auditado ($f^*$ de Edmonds-Karp)**: **`$751.224.363.198 CLP`** *(100% consistente con la suma de aristas `TRX` con flujo monetario)*
-- **Capacidad del Corte Mínimo ($c(S, T)$)**: **`$751.224.363.198 CLP`** across `36` cuellos de botella primarios.
-- **Coeficiente de Gini por Transacción (`TRX`)**: `0.8057`
-- **Coeficiente de Gini por Causa Penal**: `0.7306`
-- **Coeficiente de Gini por Operador / Firmante**: `0.7670`
-- **Operadores requeridos para interceptar el 100% del flujo**: `30` personas (de un total de `69` firmantes con flujo monetario).
+- **Flujo Máximo Auditado ($f^*$ de Edmonds-Karp)**: **`$750.998.563.198 CLP`** *(100% consistente con la suma de aristas `TRX` con flujo monetario)*
+- **Capacidad del Corte Mínimo ($c(S, T)$)**: **`$750.998.563.198 CLP`** across `35` cuellos de botella primarios.
+- **Coeficiente de Gini por Transacción (`TRX`)**: `0.7994`
+- **Coeficiente de Gini por Causa Penal**: `0.7222`
+- **Coeficiente de Gini por Operador / Firmante**: `0.7639`
+- **Operadores requeridos para interceptar el 100% del flujo**: `30` personas (de un total de `68` firmantes con flujo monetario).
 
 ---
 
@@ -31,36 +31,36 @@ Orden óptimo de congelamiento de activos / medidas precautorias reales para max
 
 | Paso | Operador / Firmante Objetivo | TRX Interceptadas | Monto Marginal Interceptado | Monto Acumulado | % del Flujo Total |
 | :---: | :--- | :---: | :---: | :---: | :---: |
-| **1** | [[Jose Antonio Pavez Campillay]] | `2` | `$265.000.000.000 CLP` | `$265.000.000.000 CLP` | **`35.28%`** |
-| **2** | [[Sebastian Pinera Echenique]] | `4` | `$107.550.000.000 CLP` | `$372.550.000.000 CLP` | **`49.59%`** |
-| **3** | [[Eliodoro Matte Larrain]] | `1` | `$97.500.000.000 CLP` | `$470.050.000.000 CLP` | **`62.57%`** |
-| **4** | [[Agustin Edwards Eastman]] | `3` | `$43.800.000.000 CLP` | `$513.850.000.000 CLP` | **`68.40%`** |
-| **5** | [[Gonzalo Vial Vial]] | `1` | `$38.400.000.000 CLP` | `$552.250.000.000 CLP` | **`73.51%`** |
-| **6** | [[Cathy Barriga Guerra]] | `1` | `$30.972.000.000 CLP` | `$583.222.000.000 CLP` | **`77.64%`** |
-| **7** | [[Flavio Echeverria Cortez]] | `2` | `$29.798.928.198 CLP` | `$613.020.928.198 CLP` | **`81.60%`** |
-| **8** | [[Patricio Contesse Gonzalez]] | `3` | `$25.570.000.000 CLP` | `$638.590.928.198 CLP` | **`85.01%`** |
-| **9** | [[Augusto Pinochet Ugarte]] | `4` | `$24.650.000.000 CLP` | `$663.240.928.198 CLP` | **`88.29%`** |
-| **10** | [[Marcelo Torres Ferrari]] | `2` | `$19.620.000.000 CLP` | `$682.860.928.198 CLP` | **`90.90%`** |
-| **11** | [[Carlos Pavez Tolosa]] | `1` | `$14.200.000.000 CLP` | `$697.060.928.198 CLP` | **`92.79%`** |
-| **12** | [[Sergio Munoz Gajardo]] | `4` | `$13.550.000.000 CLP` | `$710.610.928.198 CLP` | **`94.59%`** |
-| **13** | [[Juan Miguel Fuente-Alba Poblete]] | `2` | `$9.600.000.000 CLP` | `$720.210.928.198 CLP` | **`95.87%`** |
-| **14** | [[Felipe Sanchez Perez]] | `1` | `$8.200.000.000 CLP` | `$728.410.928.198 CLP` | **`96.96%`** |
-| **15** | [[Jorge Zepeda Arancibia]] | `2` | `$5.300.000.000 CLP` | `$733.710.928.198 CLP` | **`97.67%`** |
-| **16** | [[Leon Marcelo Lefort Hernandez]] | `2` | `$3.380.000.000 CLP` | `$737.090.928.198 CLP` | **`98.12%`** |
-| **17** | [[Alberto Larrain Salas]] | `3` | `$3.368.000.000 CLP` | `$740.458.928.198 CLP` | **`98.57%`** |
-| **18** | [[Mauricio Valero Illanes]] | `2` | `$2.640.000.000 CLP` | `$743.098.928.198 CLP` | **`98.92%`** |
-| **19** | [[Jose Codner Chijner]] | `1` | `$2.180.000.000 CLP` | `$745.278.928.198 CLP` | **`99.21%`** |
-| **20** | [[Carlos Cruz Lorenzen]] | `2` | `$1.703.000.000 CLP` | `$746.981.928.198 CLP` | **`99.44%`** |
-| **21** | [[Carlos Alberto Delano Abbott]] | `2` | `$1.416.000.000 CLP` | `$748.397.928.198 CLP` | **`99.62%`** |
-| **22** | [[Luis Hermosilla Osorio]] | `3` | `$770.000.000 CLP` | `$749.167.928.198 CLP` | **`99.73%`** |
-| **23** | [[Domingo Prieto Urrejola]] | `1` | `$759.000.000 CLP` | `$749.926.928.198 CLP` | **`99.83%`** |
-| **24** | [[Carlos Contreras Gutierrez]] | `3` | `$426.000.000 CLP` | `$750.352.928.198 CLP` | **`99.88%`** |
-| **25** | [[Rodrigo Diaz Worner]] | `2` | `$296.435.000 CLP` | `$750.649.363.198 CLP` | **`99.92%`** |
-| **26** | [[Hartmut Hopp Miottel]] | `1` | `$240.000.000 CLP` | `$750.889.363.198 CLP` | **`99.96%`** |
-| **27** | [[Francisco Mujica Ortuzar]] | `1` | `$233.000.000 CLP` | `$751.122.363.198 CLP` | **`99.99%`** |
-| **28** | [[Carlos Eugenio Lavin Garcia-Huidobro]] | `1` | `$42.000.000 CLP` | `$751.164.363.198 CLP` | **`99.99%`** |
-| **29** | [[Camila Flores Oporto]] | `1` | `$35.000.000 CLP` | `$751.199.363.198 CLP` | **`100.00%`** |
-| **30** | [[Alex Smith Leay]] | `1` | `$25.000.000 CLP` | `$751.224.363.198 CLP` | **`100.00%`** |
+| **1** | [[Jose Antonio Pavez Campillay]] | `2` | `$265.000.000.000 CLP` | `$265.000.000.000 CLP` | **`35.29%`** |
+| **2** | [[Sebastian Pinera Echenique]] | `4` | `$107.550.000.000 CLP` | `$372.550.000.000 CLP` | **`49.61%`** |
+| **3** | [[Eliodoro Matte Larrain]] | `1` | `$97.500.000.000 CLP` | `$470.050.000.000 CLP` | **`62.59%`** |
+| **4** | [[Agustin Edwards Eastman]] | `3` | `$43.800.000.000 CLP` | `$513.850.000.000 CLP` | **`68.42%`** |
+| **5** | [[Gonzalo Vial Vial]] | `1` | `$38.400.000.000 CLP` | `$552.250.000.000 CLP` | **`73.54%`** |
+| **6** | [[Cathy Barriga Guerra]] | `1` | `$30.972.000.000 CLP` | `$583.222.000.000 CLP` | **`77.66%`** |
+| **7** | [[Flavio Echeverria Cortez]] | `2` | `$29.798.928.198 CLP` | `$613.020.928.198 CLP` | **`81.63%`** |
+| **8** | [[Patricio Contesse Gonzalez]] | `3` | `$25.570.000.000 CLP` | `$638.590.928.198 CLP` | **`85.03%`** |
+| **9** | [[Augusto Pinochet Ugarte]] | `4` | `$24.650.000.000 CLP` | `$663.240.928.198 CLP` | **`88.31%`** |
+| **10** | [[Marcelo Torres Ferrari]] | `2` | `$19.620.000.000 CLP` | `$682.860.928.198 CLP` | **`90.93%`** |
+| **11** | [[Carlos Pavez Tolosa]] | `1` | `$14.200.000.000 CLP` | `$697.060.928.198 CLP` | **`92.82%`** |
+| **12** | [[Sergio Munoz Gajardo]] | `4` | `$13.550.000.000 CLP` | `$710.610.928.198 CLP` | **`94.62%`** |
+| **13** | [[Juan Miguel Fuente-Alba Poblete]] | `2` | `$9.600.000.000 CLP` | `$720.210.928.198 CLP` | **`95.90%`** |
+| **14** | [[Felipe Sanchez Perez]] | `1` | `$8.200.000.000 CLP` | `$728.410.928.198 CLP` | **`96.99%`** |
+| **15** | [[Jorge Zepeda Arancibia]] | `2` | `$5.300.000.000 CLP` | `$733.710.928.198 CLP` | **`97.70%`** |
+| **16** | [[Alberto Larrain Salas]] | `3` | `$3.368.000.000 CLP` | `$737.078.928.198 CLP` | **`98.15%`** |
+| **17** | [[Leon Marcelo Lefort Hernandez]] | `1` | `$3.200.000.000 CLP` | `$740.278.928.198 CLP` | **`98.57%`** |
+| **18** | [[Mauricio Valero Illanes]] | `2` | `$2.640.000.000 CLP` | `$742.918.928.198 CLP` | **`98.92%`** |
+| **19** | [[Jose Codner Chijner]] | `1` | `$2.180.000.000 CLP` | `$745.098.928.198 CLP` | **`99.21%`** |
+| **20** | [[Carlos Cruz Lorenzen]] | `2` | `$1.703.000.000 CLP` | `$746.801.928.198 CLP` | **`99.44%`** |
+| **21** | [[Carlos Alberto Delano Abbott]] | `2` | `$1.416.000.000 CLP` | `$748.217.928.198 CLP` | **`99.63%`** |
+| **22** | [[Luis Hermosilla Osorio]] | `3` | `$770.000.000 CLP` | `$748.987.928.198 CLP` | **`99.73%`** |
+| **23** | [[Domingo Prieto Urrejola]] | `1` | `$759.000.000 CLP` | `$749.746.928.198 CLP` | **`99.83%`** |
+| **24** | [[Carlos Contreras Gutierrez]] | `3` | `$426.000.000 CLP` | `$750.172.928.198 CLP` | **`99.89%`** |
+| **25** | [[Camila Polizzi Fonceca]] | `1` | `$250.635.000 CLP` | `$750.423.563.198 CLP` | **`99.92%`** |
+| **26** | [[Hartmut Hopp Miottel]] | `1` | `$240.000.000 CLP` | `$750.663.563.198 CLP` | **`99.96%`** |
+| **27** | [[Francisco Mujica Ortuzar]] | `1` | `$233.000.000 CLP` | `$750.896.563.198 CLP` | **`99.99%`** |
+| **28** | [[Carlos Eugenio Lavin Garcia-Huidobro]] | `1` | `$42.000.000 CLP` | `$750.938.563.198 CLP` | **`99.99%`** |
+| **29** | [[Camila Flores Oporto]] | `1` | `$35.000.000 CLP` | `$750.973.563.198 CLP` | **`100.00%`** |
+| **30** | [[Alex Smith Leay]] | `1` | `$25.000.000 CLP` | `$750.998.563.198 CLP` | **`100.00%`** |
 
 ---
 
@@ -116,15 +116,13 @@ Orden óptimo de congelamiento de activos / medidas precautorias reales para max
 | **46** | [[Hernan Larrain Fernandez]] | [[Union Democrata Independiente]] | [[Hartmut Hopp Miottel]] | [[Sociedad Benefactora y Educacional Dignidad]] | `1` | **`$240.000.000 CLP`** | [[Caso Colonia Dignidad]] |
 | **47** | [[Francisco Mujica Ortuzar]] | [[Corpesca SA]] | [[Jaime Orpis Bouchon]] | [[Senado de la Republica de Chile]] | `1` | **`$233.000.000 CLP`** | [[Caso Corpesca]] |
 | **48** | [[Luis Hermosilla Osorio]] | [[Factop SpA]] | [[Andres Chadwick Pinera]] | [[Senado de la Republica de Chile]] | `1` | **`$190.000.000 CLP`** | [[Caso Audios]] |
-| **49** | [[Leon Marcelo Lefort Hernandez]] | [[Itelecom Holding Chile SpA]] | [[Luis Hermosilla Osorio]] | [[Factop SpA]] | `1` | **`$180.000.000 CLP`** | [[Caso Luminarias LED]] |
-| **50** | [[Carlos Alberto Delano Abbott]] | [[Empresas Penta SA]] | [[Jovino Novoa Vasquez]] | [[Union Democrata Independiente]] | `1` | **`$156.000.000 CLP`** | [[Caso Penta]] |
-| **51** | [[Mauricio Valero Illanes]] | [[Exportadora y de Gestion Caval Ltda]] | [[Jorge Silva Menares]] | [[Municipalidad de Machali]] | `1` | **`$140.000.000 CLP`** | [[Caso Caval]] |
-| **52** | [[Pia Guzman Mena]] | [[Renovacion Nacional]] | [[Sergio Munoz Gajardo]] | [[Corte Suprema de Chile]] | `1` | **`$120.000.000 CLP`** | [[Caso Spiniak]] |
-| **53** | [[Luis Hermosilla Osorio]] | [[Factop SpA]] | [[Leonarda Villalobos Muth]] | [[Servicio Impuestos Internos]] | `1` | **`$100.000.000 CLP`** | [[Caso Audios]] |
-| **54** | [[Rodrigo Diaz Worner]] | [[Direccion ChileCompra]] | [[Jorge Valdivia Correa]] | [[Consultora Gestion Publica SpA]] | `1` | **`$45.800.000 CLP`** | [[Caso Compras Publicas]] |
-| **55** | [[Carlos Eugenio Lavin Garcia-Huidobro]] | [[Empresas Penta SA]] | [[Pablo Wagner San Martin]] | [[Servicio Impuestos Internos]] | `1` | **`$42.000.000 CLP`** | [[Caso Penta]] |
-| **56** | [[Senado de la Republica de Chile]] | [[Senado de la Republica de Chile]] | [[Camila Flores Oporto]] | [[Camila Flores Oporto]] | `1` | **`$35.000.000 CLP`** | [[Caso Asignaciones Parlamentarias y Cuota Flores]] |
-| **57** | [[Patricio Marin Lazo]] | [[Direccion de Inteligencia Policial de Carabineros]] | [[Alex Smith Leay]] | [[Direccion de Inteligencia Policial de Carabineros]] | `1` | **`$25.000.000 CLP`** | [[Caso Operacion Huracan]] |
+| **49** | [[Carlos Alberto Delano Abbott]] | [[Empresas Penta SA]] | [[Jovino Novoa Vasquez]] | [[Union Democrata Independiente]] | `1` | **`$156.000.000 CLP`** | [[Caso Penta]] |
+| **50** | [[Mauricio Valero Illanes]] | [[Exportadora y de Gestion Caval Ltda]] | [[Jorge Silva Menares]] | [[Municipalidad de Machali]] | `1` | **`$140.000.000 CLP`** | [[Caso Caval]] |
+| **51** | [[Pia Guzman Mena]] | [[Renovacion Nacional]] | [[Sergio Munoz Gajardo]] | [[Corte Suprema de Chile]] | `1` | **`$120.000.000 CLP`** | [[Caso Spiniak]] |
+| **52** | [[Luis Hermosilla Osorio]] | [[Factop SpA]] | [[Leonarda Villalobos Muth]] | [[Servicio Impuestos Internos]] | `1` | **`$100.000.000 CLP`** | [[Caso Audios]] |
+| **53** | [[Carlos Eugenio Lavin Garcia-Huidobro]] | [[Empresas Penta SA]] | [[Pablo Wagner San Martin]] | [[Servicio Impuestos Internos]] | `1` | **`$42.000.000 CLP`** | [[Caso Penta]] |
+| **54** | [[Senado de la Republica de Chile]] | [[Senado de la Republica de Chile]] | [[Camila Flores Oporto]] | [[Camila Flores Oporto]] | `1` | **`$35.000.000 CLP`** | [[Caso Asignaciones Parlamentarias y Cuota Flores]] |
+| **55** | [[Patricio Marin Lazo]] | [[Direccion de Inteligencia Policial de Carabineros]] | [[Alex Smith Leay]] | [[Direccion de Inteligencia Policial de Carabineros]] | `1` | **`$25.000.000 CLP`** | [[Caso Operacion Huracan]] |
 
 ---
 

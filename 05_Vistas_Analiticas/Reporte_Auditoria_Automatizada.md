@@ -10,8 +10,8 @@ tags:
 
 # Reporte de Auditoría Forense Automatizada (CGR / Ministerio Público)
 
-- **Monto Global Investigado**: **$751.224.363.198 CLP** (Equivalente a **12.601.969.6 UTM**)
-- **Total de Aristas Reificadas (`TRX`)**: **75**
+- **Monto Global Investigado**: **$750.998.563.198 CLP** (Equivalente a **12.598.259.1 UTM**)
+- **Total de Aristas Reificadas (`TRX`)**: **73**
 - **Casos de Fraccionamiento bajo 5.000 UTM detectados**: **1**
 
 ---
@@ -228,102 +228,94 @@ flowchart LR
   N152 --> N92["Senado de la Republica de Chile"]:::priv
   N153(["Luis Hermosilla Osorio"]):::pers -. "autoriza" .-> N152
   N152 -. "suscribe" .-> N154(["Andres Chadwick Pinera"]):::pers
-  N146["Itelecom Holding Chile SpA"]:::pub --> N155("TRX-2020-07-08-Asesoria-Itelecom-Hermosilla-01<br/>$180.000.000"):::trx
-  N155 --> N151["Factop SpA"]:::priv
-  N149(["Leon Marcelo Lefort Hernandez"]):::pers -. "autoriza" .-> N155
-  N155 -. "suscribe" .-> N153(["Luis Hermosilla Osorio"]):::pers
-  N58["Farmacias Salcobrand SA"]:::pub --> N156("TRX-2020-11-25-Compensacion-Indemnizatoria-Consumidores-Farmacias-01<br/>$2.180.000.000"):::trx
-  N156 --> N135["Servicio Nacional del Consumidor"]:::priv
-  N61(["Roberto Belloni Pechini"]):::pers -. "autoriza" .-> N156
-  N156 -. "suscribe" .-> N157(["Jose Codner Chijner"]):::pers
-  N74["Municipalidad de Maipu"]:::pub --> N158("TRX-2020-12-15-Deficit-Maipu-Certificados-01<br/>$30.972.000.000"):::trx
-  N158 --> N74["Municipalidad de Maipu"]:::priv
-  N159(["Cathy Barriga Guerra"]):::pers -. "autoriza" .-> N158
-  N158 -. "suscribe" .-> N159(["Cathy Barriga Guerra"]):::pers
-  N160["Municipalidad de Vitacura"]:::pub --> N162("TRX-2021-04-15-Subvencion-VitaDeportes-01<br/>$759.000.000"):::trx
-  N162 --> N161["Vita Deportes"]:::priv
-  N163(["Raul Torrealba del Pedregal"]):::pers -. "autoriza" .-> N162
-  N162 -. "suscribe" .-> N164(["Domingo Prieto Urrejola"]):::pers
-  N165["Numen Publicidad SpA"]:::pub --> N166("TRX-2022-09-04-Presencia-Cerimedo-Sede-Renovacion-Nacional-01<br/>$0"):::trx
-  N166 --> N41["Renovacion Nacional"]:::priv
-  N167(["Fernando Cerimedo"]):::pers -. "autoriza" .-> N166
-  N166 -. "suscribe" .-> N41(["Renovacion Nacional"]):::pers
-  N168["Fundacion ProCultura"]:::pub --> N170("TRX-2022-09-12-Reunion-Lobby-ProCultura-Biobio-01<br/>$0"):::trx
-  N170 --> N169["GORE Biobio"]:::priv
-  N171(["Alberto Larrain Salas"]):::pers -. "autoriza" .-> N170
-  N170 -. "suscribe" .-> N172(["Rodrigo Diaz Worner"]):::pers
-  N173["Seremi MINVU Antofagasta"]:::pub --> N175("TRX-2022-10-03-Convenio-DV-01<br/>$200.000.000"):::trx
-  N175 --> N174["Fundacion Democracia Viva"]:::priv
-  N176(["Carlos Contreras Gutierrez"]):::pers -. "autoriza" .-> N175
-  N175 -. "suscribe" .-> N177(["Daniel Andrade Schwarze"]):::pers
-  N173["Seremi MINVU Antofagasta"]:::pub --> N178("TRX-2022-10-19-Convenio-DV-02<br/>$170.000.000"):::trx
-  N178 --> N174["Fundacion Democracia Viva"]:::priv
-  N176(["Carlos Contreras Gutierrez"]):::pers -. "autoriza" .-> N178
-  N178 -. "suscribe" .-> N177(["Daniel Andrade Schwarze"]):::pers
-  N173["Seremi MINVU Antofagasta"]:::pub --> N179("TRX-2022-10-28-Convenio-ProCultura-Antofagasta<br/>$500.000.000"):::trx
-  N179 --> N168["Fundacion ProCultura"]:::priv
-  N176(["Carlos Contreras Gutierrez"]):::pers -. "autoriza" .-> N179
-  N179 -. "suscribe" .-> N171(["Alberto Larrain Salas"]):::pers
-  N151["Factop SpA"]:::pub --> N180("TRX-2022-11-15-Gestion-Nombramientos-Hermosilla-Zaliasnik-01<br/>$0"):::trx
-  N180 --> N9["Corte Suprema de Chile"]:::priv
-  N153(["Luis Hermosilla Osorio"]):::pers -. "autoriza" .-> N180
-  N180 -. "suscribe" .-> N181(["Gabriel Zaliasnik Schilkrut"]):::pers
-  N169["GORE Biobio"]:::pub --> N182("TRX-2022-11-18-Convenio-ProCultura-Biobio<br/>$2.553.000.000"):::trx
-  N182 --> N168["Fundacion ProCultura"]:::priv
-  N172(["Rodrigo Diaz Worner"]):::pers -. "autoriza" .-> N182
-  N182 -. "suscribe" .-> N171(["Alberto Larrain Salas"]):::pers
-  N173["Seremi MINVU Antofagasta"]:::pub --> N183("TRX-2022-11-29-Convenio-DV-03<br/>$56.000.000"):::trx
-  N183 --> N174["Fundacion Democracia Viva"]:::priv
-  N176(["Carlos Contreras Gutierrez"]):::pers -. "autoriza" .-> N183
-  N183 -. "suscribe" .-> N177(["Daniel Andrade Schwarze"]):::pers
-  N169["GORE Biobio"]:::pub --> N185("TRX-2022-12-20-Convenio-EnTi-01<br/>$250.635.000"):::trx
-  N185 --> N184["Fundacion En Ti"]:::priv
-  N172(["Rodrigo Diaz Worner"]):::pers -. "autoriza" .-> N185
-  N185 -. "suscribe" .-> N186(["Camila Polizzi Fonceca"]):::pers
-  N187["Municipalidad de Santiago"]:::pub --> N189("TRX-2023-01-20-Compraventa-Clinica-SierraBella-01<br/>$8.200.000.000"):::trx
-  N189 --> N188["Inmobiliaria San Valentino SpA"]:::priv
-  N190(["Iraci Hassler Jacob"]):::pers -. "autoriza" .-> N189
-  N189 -. "suscribe" .-> N191(["Felipe Sanchez Perez"]):::pers
-  N151["Factop SpA"]:::pub --> N192("TRX-2023-02-09-Gestion-Judicial-Hermosilla-Vivanco-01<br/>$0"):::trx
-  N192 --> N9["Corte Suprema de Chile"]:::priv
-  N153(["Luis Hermosilla Osorio"]):::pers -. "autoriza" .-> N192
-  N192 -. "suscribe" .-> N193(["Angela Vivanco Martinez"]):::pers
-  N168["Fundacion ProCultura"]:::pub --> N194("TRX-2023-05-10-Liquidacion-Tributaria-ProCultura-SII-01<br/>$315.000.000"):::trx
-  N194 --> N19["Servicio Impuestos Internos"]:::priv
-  N171(["Alberto Larrain Salas"]):::pers -. "autoriza" .-> N194
-  N194 -. "suscribe" .-> N195(["Leonarda Villalobos Muth"]):::pers
-  N151["Factop SpA"]:::pub --> N196("TRX-2023-06-22-Reunion-Audios-01<br/>$100.000.000"):::trx
-  N196 --> N19["Servicio Impuestos Internos"]:::priv
-  N153(["Luis Hermosilla Osorio"]):::pers -. "autoriza" .-> N196
-  N196 -. "suscribe" .-> N195(["Leonarda Villalobos Muth"]):::pers
-  N96["Contraloria General de la Republica"]:::pub --> N197("TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01<br/>$0"):::trx
-  N197 --> N173["Seremi MINVU Antofagasta"]:::priv
-  N198(["Jorge Bermudez Soto"]):::pers -. "autoriza" .-> N197
-  N197 -. "suscribe" .-> N176(["Carlos Contreras Gutierrez"]):::pers
-  N199["Direccion ChileCompra"]:::pub --> N201("TRX-2023-08-14-Trato-Directo-ChileCompra-01<br/>$45.800.000"):::trx
-  N201 --> N200["Consultora Gestion Publica SpA"]:::priv
-  N172(["Rodrigo Diaz Worner"]):::pers -. "autoriza" .-> N201
-  N201 -. "suscribe" .-> N202(["Jorge Valdivia Correa"]):::pers
-  N151["Factop SpA"]:::pub --> N203("TRX-2023-08-25-Reporte-ROS-Factop-UAF-01<br/>$480.000.000"):::trx
-  N203 --> N116["Unidad de Analisis Financiero"]:::priv
-  N153(["Luis Hermosilla Osorio"]):::pers -. "autoriza" .-> N203
-  N203 -. "suscribe" .-> N118(["Javier Cruz Tamburrino"]):::pers
-  N204["Inversiones y Asesorias Pavez SpA"]:::pub --> N205("TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01<br/>$240.000.000.000"):::trx
-  N205 --> N19["Servicio Impuestos Internos"]:::priv
-  N206(["Jose Antonio Pavez Campillay"]):::pers -. "autoriza" .-> N205
-  N205 -. "suscribe" .-> N207(["Ximena Jimenez Faras"]):::pers
-  N204["Inversiones y Asesorias Pavez SpA"]:::pub --> N209("TRX-2023-12-15-Lavado-Activos-Bienes-Inmuebles-Clan-Pavez-01<br/>$25.000.000.000"):::trx
-  N209 --> N208["Comercializadora y Exportadora Global SpA"]:::priv
-  N206(["Jose Antonio Pavez Campillay"]):::pers -. "autoriza" .-> N209
-  N209 -. "suscribe" .-> N210(["Andres Esteban Galaz Soto"]):::pers
-  N92["Senado de la Republica de Chile"]:::pub --> N212("TRX-2025-10-15-Denuncia-Retencion-Sueldos-Asesores-Flores-01<br/>$35.000.000"):::trx
-  N212 --> N211["Camila Flores Oporto"]:::priv
-  N92(["Senado de la Republica de Chile"]):::pers -. "autoriza" .-> N212
-  N212 -. "suscribe" .-> N211(["Camila Flores Oporto"]):::pers
-  N213["Percy Marin Vera"]:::pub --> N214("TRX-2026-06-20-Extraccion-Difusion-Ilicita-Registros-Intimos-01<br/>$0"):::trx
-  N214 --> N211["Camila Flores Oporto"]:::priv
-  N213(["Percy Marin Vera"]):::pers -. "autoriza" .-> N214
-  N214 -. "suscribe" .-> N211(["Camila Flores Oporto"]):::pers
+  N58["Farmacias Salcobrand SA"]:::pub --> N155("TRX-2020-11-25-Compensacion-Indemnizatoria-Consumidores-Farmacias-01<br/>$2.180.000.000"):::trx
+  N155 --> N135["Servicio Nacional del Consumidor"]:::priv
+  N61(["Roberto Belloni Pechini"]):::pers -. "autoriza" .-> N155
+  N155 -. "suscribe" .-> N156(["Jose Codner Chijner"]):::pers
+  N74["Municipalidad de Maipu"]:::pub --> N157("TRX-2020-12-15-Deficit-Maipu-Certificados-01<br/>$30.972.000.000"):::trx
+  N157 --> N74["Municipalidad de Maipu"]:::priv
+  N158(["Cathy Barriga Guerra"]):::pers -. "autoriza" .-> N157
+  N157 -. "suscribe" .-> N158(["Cathy Barriga Guerra"]):::pers
+  N159["Municipalidad de Vitacura"]:::pub --> N161("TRX-2021-04-15-Subvencion-VitaDeportes-01<br/>$759.000.000"):::trx
+  N161 --> N160["Vita Deportes"]:::priv
+  N162(["Raul Torrealba del Pedregal"]):::pers -. "autoriza" .-> N161
+  N161 -. "suscribe" .-> N163(["Domingo Prieto Urrejola"]):::pers
+  N164["Numen Publicidad SpA"]:::pub --> N165("TRX-2022-09-04-Presencia-Cerimedo-Sede-Renovacion-Nacional-01<br/>$0"):::trx
+  N165 --> N41["Renovacion Nacional"]:::priv
+  N166(["Fernando Cerimedo"]):::pers -. "autoriza" .-> N165
+  N165 -. "suscribe" .-> N41(["Renovacion Nacional"]):::pers
+  N167["Fundacion ProCultura"]:::pub --> N169("TRX-2022-09-12-Reunion-Lobby-ProCultura-Biobio-01<br/>$0"):::trx
+  N169 --> N168["GORE Biobio"]:::priv
+  N170(["Alberto Larrain Salas"]):::pers -. "autoriza" .-> N169
+  N169 -. "suscribe" .-> N171(["Rodrigo Diaz Worner"]):::pers
+  N172["Seremi MINVU Antofagasta"]:::pub --> N174("TRX-2022-10-03-Convenio-DV-01<br/>$200.000.000"):::trx
+  N174 --> N173["Fundacion Democracia Viva"]:::priv
+  N175(["Carlos Contreras Gutierrez"]):::pers -. "autoriza" .-> N174
+  N174 -. "suscribe" .-> N176(["Daniel Andrade Schwarze"]):::pers
+  N172["Seremi MINVU Antofagasta"]:::pub --> N177("TRX-2022-10-19-Convenio-DV-02<br/>$170.000.000"):::trx
+  N177 --> N173["Fundacion Democracia Viva"]:::priv
+  N175(["Carlos Contreras Gutierrez"]):::pers -. "autoriza" .-> N177
+  N177 -. "suscribe" .-> N176(["Daniel Andrade Schwarze"]):::pers
+  N172["Seremi MINVU Antofagasta"]:::pub --> N178("TRX-2022-10-28-Convenio-ProCultura-Antofagasta<br/>$500.000.000"):::trx
+  N178 --> N167["Fundacion ProCultura"]:::priv
+  N175(["Carlos Contreras Gutierrez"]):::pers -. "autoriza" .-> N178
+  N178 -. "suscribe" .-> N170(["Alberto Larrain Salas"]):::pers
+  N151["Factop SpA"]:::pub --> N179("TRX-2022-11-15-Gestion-Nombramientos-Hermosilla-Zaliasnik-01<br/>$0"):::trx
+  N179 --> N9["Corte Suprema de Chile"]:::priv
+  N153(["Luis Hermosilla Osorio"]):::pers -. "autoriza" .-> N179
+  N179 -. "suscribe" .-> N180(["Gabriel Zaliasnik Schilkrut"]):::pers
+  N168["GORE Biobio"]:::pub --> N181("TRX-2022-11-18-Convenio-ProCultura-Biobio<br/>$2.553.000.000"):::trx
+  N181 --> N167["Fundacion ProCultura"]:::priv
+  N171(["Rodrigo Diaz Worner"]):::pers -. "autoriza" .-> N181
+  N181 -. "suscribe" .-> N170(["Alberto Larrain Salas"]):::pers
+  N172["Seremi MINVU Antofagasta"]:::pub --> N182("TRX-2022-11-29-Convenio-DV-03<br/>$56.000.000"):::trx
+  N182 --> N173["Fundacion Democracia Viva"]:::priv
+  N175(["Carlos Contreras Gutierrez"]):::pers -. "autoriza" .-> N182
+  N182 -. "suscribe" .-> N176(["Daniel Andrade Schwarze"]):::pers
+  N168["GORE Biobio"]:::pub --> N184("TRX-2022-12-20-Convenio-EnTi-01<br/>$250.635.000"):::trx
+  N184 --> N183["Fundacion En Ti"]:::priv
+  N171(["Rodrigo Diaz Worner"]):::pers -. "autoriza" .-> N184
+  N184 -. "suscribe" .-> N185(["Camila Polizzi Fonceca"]):::pers
+  N186["Municipalidad de Santiago"]:::pub --> N188("TRX-2023-01-20-Compraventa-Clinica-SierraBella-01<br/>$8.200.000.000"):::trx
+  N188 --> N187["Inmobiliaria San Valentino SpA"]:::priv
+  N189(["Iraci Hassler Jacob"]):::pers -. "autoriza" .-> N188
+  N188 -. "suscribe" .-> N190(["Felipe Sanchez Perez"]):::pers
+  N151["Factop SpA"]:::pub --> N191("TRX-2023-02-09-Gestion-Judicial-Hermosilla-Vivanco-01<br/>$0"):::trx
+  N191 --> N9["Corte Suprema de Chile"]:::priv
+  N153(["Luis Hermosilla Osorio"]):::pers -. "autoriza" .-> N191
+  N191 -. "suscribe" .-> N192(["Angela Vivanco Martinez"]):::pers
+  N167["Fundacion ProCultura"]:::pub --> N193("TRX-2023-05-10-Liquidacion-Tributaria-ProCultura-SII-01<br/>$315.000.000"):::trx
+  N193 --> N19["Servicio Impuestos Internos"]:::priv
+  N170(["Alberto Larrain Salas"]):::pers -. "autoriza" .-> N193
+  N193 -. "suscribe" .-> N194(["Leonarda Villalobos Muth"]):::pers
+  N151["Factop SpA"]:::pub --> N195("TRX-2023-06-22-Reunion-Audios-01<br/>$100.000.000"):::trx
+  N195 --> N19["Servicio Impuestos Internos"]:::priv
+  N153(["Luis Hermosilla Osorio"]):::pers -. "autoriza" .-> N195
+  N195 -. "suscribe" .-> N194(["Leonarda Villalobos Muth"]):::pers
+  N96["Contraloria General de la Republica"]:::pub --> N196("TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01<br/>$0"):::trx
+  N196 --> N172["Seremi MINVU Antofagasta"]:::priv
+  N197(["Jorge Bermudez Soto"]):::pers -. "autoriza" .-> N196
+  N196 -. "suscribe" .-> N175(["Carlos Contreras Gutierrez"]):::pers
+  N151["Factop SpA"]:::pub --> N198("TRX-2023-08-25-Reporte-ROS-Factop-UAF-01<br/>$480.000.000"):::trx
+  N198 --> N116["Unidad de Analisis Financiero"]:::priv
+  N153(["Luis Hermosilla Osorio"]):::pers -. "autoriza" .-> N198
+  N198 -. "suscribe" .-> N118(["Javier Cruz Tamburrino"]):::pers
+  N199["Inversiones y Asesorias Pavez SpA"]:::pub --> N200("TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01<br/>$240.000.000.000"):::trx
+  N200 --> N19["Servicio Impuestos Internos"]:::priv
+  N201(["Jose Antonio Pavez Campillay"]):::pers -. "autoriza" .-> N200
+  N200 -. "suscribe" .-> N202(["Ximena Jimenez Faras"]):::pers
+  N199["Inversiones y Asesorias Pavez SpA"]:::pub --> N204("TRX-2023-12-15-Lavado-Activos-Bienes-Inmuebles-Clan-Pavez-01<br/>$25.000.000.000"):::trx
+  N204 --> N203["Comercializadora y Exportadora Global SpA"]:::priv
+  N201(["Jose Antonio Pavez Campillay"]):::pers -. "autoriza" .-> N204
+  N204 -. "suscribe" .-> N205(["Andres Esteban Galaz Soto"]):::pers
+  N92["Senado de la Republica de Chile"]:::pub --> N207("TRX-2025-10-15-Denuncia-Retencion-Sueldos-Asesores-Flores-01<br/>$35.000.000"):::trx
+  N207 --> N206["Camila Flores Oporto"]:::priv
+  N92(["Senado de la Republica de Chile"]):::pers -. "autoriza" .-> N207
+  N207 -. "suscribe" .-> N206(["Camila Flores Oporto"]):::pers
+  N208["Percy Marin Vera"]:::pub --> N209("TRX-2026-06-20-Extraccion-Difusion-Ilicita-Registros-Intimos-01<br/>$0"):::trx
+  N209 --> N206["Camila Flores Oporto"]:::priv
+  N208(["Percy Marin Vera"]):::pers -. "autoriza" .-> N209
+  N209 -. "suscribe" .-> N206(["Camila Flores Oporto"]):::pers
 ```
 
 ---
@@ -355,7 +347,7 @@ flowchart LR
 | [[Fundacion CEMA Chile]] | 1 | $10.500.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
 | [[Municipalidad de Santiago]] | 1 | $8.200.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
 | [[Sociedad Benefactora y Educacional Dignidad]] | 2 | $5.300.000.000 | **5456** | Alta Concentración / Captura (> 2.500) |
-| [[Itelecom Holding Chile SpA]] | 2 | $3.380.000.000 | **8992** | Alta Concentración / Captura (> 2.500) |
+| [[Itelecom Holding Chile SpA]] | 1 | $3.200.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
 | [[GORE Biobio]] | 2 | $2.803.635.000 | **8372** | Alta Concentración / Captura (> 2.500) |
 | [[Exportadora y de Gestion Caval Ltda]] | 2 | $2.640.000.000 | **8996** | Alta Concentración / Captura (> 2.500) |
 | [[Riggs Bank y Sociedades Offshore Ashburton]] | 1 | $2.450.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
@@ -373,7 +365,6 @@ flowchart LR
 | [[Union Democrata Independiente]] | 1 | $240.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
 | [[Corpesca SA]] | 1 | $233.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
 | [[Renovacion Nacional]] | 1 | $120.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
-| [[Direccion ChileCompra]] | 1 | $45.800.000 | **10000** | Alta Concentración / Captura (> 2.500) |
 | [[Senado de la Republica de Chile]] | 1 | $35.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
 | [[Direccion de Inteligencia Policial de Carabineros]] | 1 | $25.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
 
@@ -383,16 +374,16 @@ flowchart LR
 
 | Posición | Nodo / Entidad | Tipo de Nodo | Intermediación (Brandes) | PageRank Forense | Rol Topológico |
 | :---: | :--- | :--- | ---: | ---: | :--- |
-| 1 | [[Corte Suprema de Chile]] | `entidad_publica` | `0.4166` | `0.0262` | Conector Interregional / Puente Crítico |
-| 2 | [[Servicio Impuestos Internos]] | `entidad_publica` | `0.3500` | `0.0192` | Conector Interregional / Puente Crítico |
-| 3 | [[Sergio Munoz Gajardo]] | `persona` | `0.1049` | `0.0076` | Conector Interregional / Puente Crítico |
-| 4 | [[Augusto Pinochet Ugarte]] | `persona` | `0.0923` | `0.0083` | Conector Interregional / Puente Crítico |
-| 5 | [[Factop SpA]] | `entidad_privada` | `0.0915` | `0.0076` | Conector Interregional / Puente Crítico |
-| 6 | [[Luis Hermosilla Osorio]] | `persona` | `0.0915` | `0.0076` | Conector Interregional / Puente Crítico |
-| 7 | [[Bancard Inversiones Ltda]] | `entidad_privada` | `0.0826` | `0.0075` | Conector Interregional / Puente Crítico |
-| 8 | [[Agrosuper SA]] | `entidad_privada` | `0.0795` | `0.0041` | Conector Interregional / Puente Crítico |
-| 9 | [[Gonzalo Vial Vial]] | `persona` | `0.0795` | `0.0041` | Conector Interregional / Puente Crítico |
-| 10 | [[Asociacion de Productores Avicolas de Chile AG]] | `entidad_privada` | `0.0694` | `0.0042` | Conector Interregional / Puente Crítico |
+| 1 | [[Corte Suprema de Chile]] | `entidad_publica` | `0.4044` | `0.0268` | Conector Interregional / Puente Crítico |
+| 2 | [[Servicio Impuestos Internos]] | `entidad_publica` | `0.3249` | `0.0196` | Conector Interregional / Puente Crítico |
+| 3 | [[Sergio Munoz Gajardo]] | `persona` | `0.1031` | `0.0078` | Conector Interregional / Puente Crítico |
+| 4 | [[Augusto Pinochet Ugarte]] | `persona` | `0.0929` | `0.0085` | Conector Interregional / Puente Crítico |
+| 5 | [[Bancard Inversiones Ltda]] | `entidad_privada` | `0.0831` | `0.0077` | Conector Interregional / Puente Crítico |
+| 6 | [[Agrosuper SA]] | `entidad_privada` | `0.0785` | `0.0042` | Conector Interregional / Puente Crítico |
+| 7 | [[Gonzalo Vial Vial]] | `persona` | `0.0785` | `0.0042` | Conector Interregional / Puente Crítico |
+| 8 | [[Asociacion de Productores Avicolas de Chile AG]] | `entidad_privada` | `0.0686` | `0.0043` | Conector Interregional / Puente Crítico |
+| 9 | [[Juan Miguel Ovalle Garces]] | `persona` | `0.0686` | `0.0043` | Conector Interregional / Puente Crítico |
+| 10 | [[Factop SpA]] | `entidad_privada` | `0.0681` | `0.0068` | Conector Interregional / Puente Crítico |
 
 ---
 
@@ -451,7 +442,6 @@ flowchart LR
 | [[TRX-2018-01-25-Peritaje-Cibercrimen-Descarte-Antorcha-01]] | 2018-01-25 | `peritaje_forense` | [[Corte Suprema de Chile]] | [[Direccion de Inteligencia Policial de Carabineros]] | $0 | 0.0 UTM | Exento (< 5.000 UTM) |
 | [[TRX-2019-05-14-Soborno-Luminarias-Chillan-01]] | 2019-05-14 | `cohecho` | [[Itelecom Holding Chile SpA]] | [[Municipalidad de Chillan]] | $3.200.000.000 | 52585.7 UTM | Afecto (>= 5.000 UTM) |
 | [[TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01]] | 2019-12-11 | `transferencia` | [[Factop SpA]] | [[Senado de la Republica de Chile]] | $190.000.000 | 3122.3 UTM | Exento (< 5.000 UTM) |
-| [[TRX-2020-07-08-Asesoria-Itelecom-Hermosilla-01]] | 2020-07-08 | `transferencia` | [[Itelecom Holding Chile SpA]] | [[Factop SpA]] | $180.000.000 | 2957.9 UTM | Exento (< 5.000 UTM) |
 | [[TRX-2020-11-25-Compensacion-Indemnizatoria-Consumidores-Farmacias-01]] | 2020-11-25 | `compensacion_reparatoria` | [[Farmacias Salcobrand SA]] | [[Servicio Nacional del Consumidor]] | $2.180.000.000 | 35824.0 UTM | Afecto (>= 5.000 UTM) |
 | [[TRX-2020-12-15-Deficit-Maipu-Certificados-01]] | 2020-12-15 | `transferencia` | [[Municipalidad de Maipu]] | [[Municipalidad de Maipu]] | $30.972.000.000 | 606949.0 UTM | Afecto (>= 5.000 UTM) |
 | [[TRX-2021-04-15-Subvencion-VitaDeportes-01]] | 2021-04-15 | `transferencia` | [[Municipalidad de Vitacura]] | [[Vita Deportes]] | $759.000.000 | 14711.6 UTM | Afecto (>= 5.000 UTM) |
@@ -469,7 +459,6 @@ flowchart LR
 | [[TRX-2023-05-10-Liquidacion-Tributaria-ProCultura-SII-01]] | 2023-05-10 | `factura_falsa` | [[Fundacion ProCultura]] | [[Servicio Impuestos Internos]] | $315.000.000 | 5176.4 UTM | Afecto (>= 5.000 UTM) |
 | [[TRX-2023-06-22-Reunion-Audios-01]] | 2023-06-22 | `cohecho` | [[Factop SpA]] | [[Servicio Impuestos Internos]] | $100.000.000 | 1580.7 UTM | Exento (< 5.000 UTM) |
 | [[TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01]] | 2023-06-29 | `resolucion_administrativa` | [[Contraloria General de la Republica]] | [[Seremi MINVU Antofagasta]] | $0 | 0.0 UTM | Exento (< 5.000 UTM) |
-| [[TRX-2023-08-14-Trato-Directo-ChileCompra-01]] | 2023-08-14 | `convenio_directo` | [[Direccion ChileCompra]] | [[Consultora Gestion Publica SpA]] | $45.800.000 | 752.6 UTM | Exento (< 5.000 UTM) |
 | [[TRX-2023-08-25-Reporte-ROS-Factop-UAF-01]] | 2023-08-25 | `factura_falsa` | [[Factop SpA]] | [[Unidad de Analisis Financiero]] | $480.000.000 | 7887.9 UTM | Afecto (>= 5.000 UTM) |
 | [[TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01]] | 2023-12-14 | `factura_falsa` | [[Inversiones y Asesorias Pavez SpA]] | [[Servicio Impuestos Internos]] | $240.000.000.000 | 3943930.5 UTM | Afecto (>= 5.000 UTM) |
 | [[TRX-2023-12-15-Lavado-Activos-Bienes-Inmuebles-Clan-Pavez-01]] | 2023-12-15 | `transferencia` | [[Inversiones y Asesorias Pavez SpA]] | [[Comercializadora y Exportadora Global SpA]] | $25.000.000.000 | 410826.1 UTM | Afecto (>= 5.000 UTM) |

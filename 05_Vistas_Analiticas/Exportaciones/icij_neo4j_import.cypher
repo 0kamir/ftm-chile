@@ -4,6 +4,7 @@
 CREATE CONSTRAINT nodo_id_unique IF NOT EXISTS FOR (n:NodoForense) REQUIRE n.id IS UNIQUE;
 
 // 1. Creación de Nodos Reificados y Entidades
+MERGE (n:NodoForense:Entidad {id: "Flujo_Incorporacion_Informacion"}) SET n.tipo_nodo = "meta_flujo", n.rut = "", n.monto_clp = 0, n.fecha = "";
 MERGE (n:NodoForense:TipoPenal {id: "Asociacion Ilicita"}) SET n.tipo_nodo = "tipo_penal", n.rut = "", n.monto_clp = 0, n.fecha = "";
 MERGE (n:NodoForense:TipoPenal {id: "Cohecho"}) SET n.tipo_nodo = "tipo_penal", n.rut = "", n.monto_clp = 0, n.fecha = "";
 MERGE (n:NodoForense:TipoPenal {id: "Colusion y Atentado a la Libre Competencia"}) SET n.tipo_nodo = "tipo_penal", n.rut = "", n.monto_clp = 0, n.fecha = "";
@@ -61,7 +62,6 @@ MERGE (n:NodoForense:Persona {id: "Javier Cruz Tamburrino"}) SET n.tipo_nodo = "
 MERGE (n:NodoForense:Persona {id: "Jorge Bermudez Soto"}) SET n.tipo_nodo = "persona", n.rut = "10.842.310-2", n.monto_clp = 0, n.fecha = "";
 MERGE (n:NodoForense:Persona {id: "Jorge Quiroz Castro"}) SET n.tipo_nodo = "persona", n.rut = "6.982.415-3", n.monto_clp = 0, n.fecha = "";
 MERGE (n:NodoForense:Persona {id: "Jorge Silva Menares"}) SET n.tipo_nodo = "persona", n.rut = "7.419.620-9", n.monto_clp = 0, n.fecha = "";
-MERGE (n:NodoForense:Persona {id: "Jorge Valdivia Correa"}) SET n.tipo_nodo = "persona", n.rut = "14.289.310-K", n.monto_clp = 0, n.fecha = "";
 MERGE (n:NodoForense:Persona {id: "Jorge Zepeda Arancibia"}) SET n.tipo_nodo = "persona", n.rut = "6.129.485-6", n.monto_clp = 0, n.fecha = "";
 MERGE (n:NodoForense:Persona {id: "Jose Antonio Pavez Campillay"}) SET n.tipo_nodo = "persona", n.rut = "13.845.921-7", n.monto_clp = 0, n.fecha = "";
 MERGE (n:NodoForense:Persona {id: "Jose Codner Chijner"}) SET n.tipo_nodo = "persona", n.rut = "3.948.123-5", n.monto_clp = 0, n.fecha = "";
@@ -131,7 +131,6 @@ MERGE (n:NodoForense:EntidadPrivada {id: "Asociacion de Productores Avicolas de 
 MERGE (n:NodoForense:EntidadPrivada {id: "Bancard Inversiones Ltda"}) SET n.tipo_nodo = "entidad_privada", n.rut = "96.582.410-3", n.monto_clp = 0, n.fecha = "1989-11-14";
 MERGE (n:NodoForense:EntidadPrivada {id: "Banco de Chile"}) SET n.tipo_nodo = "entidad_privada", n.rut = "97.004.000-5", n.monto_clp = 0, n.fecha = "1893-10-28";
 MERGE (n:NodoForense:EntidadPrivada {id: "Comercializadora y Exportadora Global SpA"}) SET n.tipo_nodo = "entidad_privada", n.rut = "76.987.654-5", n.monto_clp = 0, n.fecha = "2019-08-25";
-MERGE (n:NodoForense:EntidadPrivada {id: "Consultora Gestion Publica SpA"}) SET n.tipo_nodo = "entidad_privada", n.rut = "77.314.890-2", n.monto_clp = 0, n.fecha = "2023-03-10";
 MERGE (n:NodoForense:EntidadPrivada {id: "Corpesca SA"}) SET n.tipo_nodo = "entidad_privada", n.rut = "96.893.820-7", n.monto_clp = 0, n.fecha = "1999-11-05";
 MERGE (n:NodoForense:EntidadPrivada {id: "Empresa El Mercurio SAP"}) SET n.tipo_nodo = "entidad_privada", n.rut = "90.193.000-7", n.monto_clp = 0, n.fecha = "1900-06-01";
 MERGE (n:NodoForense:EntidadPrivada {id: "Empresas Ariztia SA"}) SET n.tipo_nodo = "entidad_privada", n.rut = "91.533.000-2", n.monto_clp = 0, n.fecha = "1960-03-15";
@@ -163,6 +162,7 @@ MERGE (n:NodoForense:EntidadPrivada {id: "Sociedad Benefactora y Educacional Dig
 MERGE (n:NodoForense:EntidadPrivada {id: "Sociedad de Inversiones Pampa Calichera SA"}) SET n.tipo_nodo = "entidad_privada", n.rut = "96.524.180-9", n.monto_clp = 0, n.fecha = "1988-06-21";
 MERGE (n:NodoForense:EntidadPrivada {id: "Valmoval Ltda"}) SET n.tipo_nodo = "entidad_privada", n.rut = "78.142.930-9", n.monto_clp = 0, n.fecha = "1984-06-15";
 MERGE (n:NodoForense:EntidadPrivada {id: "Vita Deportes"}) SET n.tipo_nodo = "entidad_privada", n.rut = "65.089.120-1", n.monto_clp = 0, n.fecha = "2001-06-12";
+MERGE (n:NodoForense:Entidad {id: "Drawing 2026-10-18 11.54.03.excalidraw"}) SET n.tipo_nodo = "Otro", n.rut = "", n.monto_clp = 0, n.fecha = "";
 MERGE (n:NodoForense:PartidoPolitico {id: "Partido Comunista de Chile"}) SET n.tipo_nodo = "partido_politico", n.rut = "65.021.840-K", n.monto_clp = 0, n.fecha = "";
 MERGE (n:NodoForense:PartidoPolitico {id: "Partido Socialista de Chile"}) SET n.tipo_nodo = "partido_politico", n.rut = "65.014.320-5", n.monto_clp = 0, n.fecha = "";
 MERGE (n:NodoForense:PartidoPolitico {id: "Renovacion Nacional"}) SET n.tipo_nodo = "partido_politico", n.rut = "65.012.340-9", n.monto_clp = 0, n.fecha = "";
@@ -179,7 +179,6 @@ MERGE (n:NodoForense:CausaJudicial {id: "Caso Colonia Dignidad"}) SET n.tipo_nod
 MERGE (n:NodoForense:CausaJudicial {id: "Caso Colusion de las Farmacias"}) SET n.tipo_nodo = "causa_judicial", n.rut = "ROL-C-184-08-TDLC", n.monto_clp = 0, n.fecha = "";
 MERGE (n:NodoForense:CausaJudicial {id: "Caso Colusion de los Pollos"}) SET n.tipo_nodo = "causa_judicial", n.rut = "ROL-C-236-11-TDLC", n.monto_clp = 0, n.fecha = "";
 MERGE (n:NodoForense:CausaJudicial {id: "Caso Colusion del Papel Tissue"}) SET n.tipo_nodo = "causa_judicial", n.rut = "ROL-C-299-15-TDLC", n.monto_clp = 0, n.fecha = "";
-MERGE (n:NodoForense:CausaJudicial {id: "Caso Compras Publicas"}) SET n.tipo_nodo = "causa_judicial", n.rut = "2300918450-6", n.monto_clp = 0, n.fecha = "";
 MERGE (n:NodoForense:CausaJudicial {id: "Caso Convenios"}) SET n.tipo_nodo = "causa_judicial", n.rut = "2300674512-K", n.monto_clp = 0, n.fecha = "";
 MERGE (n:NodoForense:CausaJudicial {id: "Caso Corpesca"}) SET n.tipo_nodo = "causa_judicial", n.rut = "1300589410-8", n.monto_clp = 0, n.fecha = "";
 MERGE (n:NodoForense:CausaJudicial {id: "Caso Exalmar y Fideicomiso Ciego"}) SET n.tipo_nodo = "causa_judicial", n.rut = "1601089412-7", n.monto_clp = 0, n.fecha = "";
@@ -253,7 +252,6 @@ MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2017-10-15-Remuneracion-Fondos-Re
 MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2018-01-25-Peritaje-Cibercrimen-Descarte-Antorcha-01"}) SET n.tipo_nodo = "nexo_transaccion", n.rut = "", n.monto_clp = 0, n.fecha = "2018-01-25";
 MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2019-05-14-Soborno-Luminarias-Chillan-01"}) SET n.tipo_nodo = "nexo_transaccion", n.rut = "", n.monto_clp = 3200000000, n.fecha = "2019-05-14";
 MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01"}) SET n.tipo_nodo = "nexo_transaccion", n.rut = "", n.monto_clp = 190000000, n.fecha = "2019-12-11";
-MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2020-07-08-Asesoria-Itelecom-Hermosilla-01"}) SET n.tipo_nodo = "nexo_transaccion", n.rut = "", n.monto_clp = 180000000, n.fecha = "2020-07-08";
 MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2020-11-25-Compensacion-Indemnizatoria-Consumidores-Farmacias-01"}) SET n.tipo_nodo = "nexo_transaccion", n.rut = "", n.monto_clp = 2180000000, n.fecha = "2020-11-25";
 MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2020-12-15-Deficit-Maipu-Certificados-01"}) SET n.tipo_nodo = "nexo_transaccion", n.rut = "", n.monto_clp = 30972000000, n.fecha = "2020-12-15";
 MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2021-04-15-Subvencion-VitaDeportes-01"}) SET n.tipo_nodo = "nexo_transaccion", n.rut = "", n.monto_clp = 759000000, n.fecha = "2021-04-15";
@@ -271,7 +269,6 @@ MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2023-02-09-Gestion-Judicial-Hermo
 MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2023-05-10-Liquidacion-Tributaria-ProCultura-SII-01"}) SET n.tipo_nodo = "nexo_transaccion", n.rut = "", n.monto_clp = 315000000, n.fecha = "2023-05-10";
 MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2023-06-22-Reunion-Audios-01"}) SET n.tipo_nodo = "nexo_transaccion", n.rut = "", n.monto_clp = 100000000, n.fecha = "2023-06-22";
 MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01"}) SET n.tipo_nodo = "nexo_transaccion", n.rut = "", n.monto_clp = 0, n.fecha = "2023-06-29";
-MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2023-08-14-Trato-Directo-ChileCompra-01"}) SET n.tipo_nodo = "nexo_transaccion", n.rut = "", n.monto_clp = 45800000, n.fecha = "2023-08-14";
 MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2023-08-25-Reporte-ROS-Factop-UAF-01"}) SET n.tipo_nodo = "nexo_transaccion", n.rut = "", n.monto_clp = 480000000, n.fecha = "2023-08-25";
 MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01"}) SET n.tipo_nodo = "nexo_transaccion", n.rut = "", n.monto_clp = 240000000000, n.fecha = "2023-12-14";
 MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2023-12-15-Lavado-Activos-Bienes-Inmuebles-Clan-Pavez-01"}) SET n.tipo_nodo = "nexo_transaccion", n.rut = "", n.monto_clp = 25000000000, n.fecha = "2023-12-15";
@@ -294,7 +291,6 @@ MERGE (n:NodoForense:EvidenciaDocumental {id: "Informe-BRILAC-PDI-Operacion-Trib
 MERGE (n:NodoForense:EvidenciaDocumental {id: "Informe-Comision-Church-1975-y-Hinchey-CIA-2000"}) SET n.tipo_nodo = "evidencia_documental", n.rut = "", n.monto_clp = 0, n.fecha = "1975-12-18";
 MERGE (n:NodoForense:EvidenciaDocumental {id: "Informe-Contraloria-Municipalidad-Maipu-2021"}) SET n.tipo_nodo = "evidencia_documental", n.rut = "", n.monto_clp = 0, n.fecha = "2021-10-22";
 MERGE (n:NodoForense:EvidenciaDocumental {id: "Informe-ICIJ-SII-PanamaPapers-Chile-2016"}) SET n.tipo_nodo = "evidencia_documental", n.rut = "", n.monto_clp = 0, n.fecha = "2016-04-03";
-MERGE (n:NodoForense:EvidenciaDocumental {id: "Orden-Compra-MercadoPublico-2023"}) SET n.tipo_nodo = "evidencia_documental", n.rut = "", n.monto_clp = 0, n.fecha = "2023-08-14";
 MERGE (n:NodoForense:EvidenciaDocumental {id: "Orden-Entrada-Registro-Congreso-Caso-Flores-2026"}) SET n.tipo_nodo = "evidencia_documental", n.rut = "", n.monto_clp = 0, n.fecha = "2026-04-18";
 MERGE (n:NodoForense:EvidenciaDocumental {id: "Peritaje-Cibercrimen-PDI-SoftwareAntorcha-2018"}) SET n.tipo_nodo = "evidencia_documental", n.rut = "", n.monto_clp = 0, n.fecha = "2018-01-25";
 MERGE (n:NodoForense:EvidenciaDocumental {id: "Querella-SII-Boletas-SQM-2015"}) SET n.tipo_nodo = "evidencia_documental", n.rut = "", n.monto_clp = 0, n.fecha = "2015-03-24";
@@ -317,11 +313,12 @@ MERGE (n:NodoForense:EvidenciaDocumental {id: "Sentencia-Corte-Suprema-MOPGate-2
 MERGE (n:NodoForense:EvidenciaDocumental {id: "Sentencia-TDLC-119-Colusion-Farmacias-2012"}) SET n.tipo_nodo = "evidencia_documental", n.rut = "", n.monto_clp = 0, n.fecha = "2012-01-31";
 MERGE (n:NodoForense:EvidenciaDocumental {id: "Sentencia-TDLC-139-Colusion-Pollos-2014"}) SET n.tipo_nodo = "evidencia_documental", n.rut = "", n.monto_clp = 0, n.fecha = "2014-09-25";
 MERGE (n:NodoForense:EvidenciaDocumental {id: "Sentencia-TDLC-160-Colusion-Tissue-2017"}) SET n.tipo_nodo = "evidencia_documental", n.rut = "", n.monto_clp = 0, n.fecha = "2017-12-14";
-MERGE (n:NodoForense:EvidenciaDocumental {id: "Sentencia-TOP-Chillan-Luminarias-2023"}) SET n.tipo_nodo = "evidencia_documental", n.rut = "", n.monto_clp = 0, n.fecha = "2023-04-28";
 MERGE (n:NodoForense:EvidenciaDocumental {id: "Sentencia-TOP-Rancagua-Caval-2018"}) SET n.tipo_nodo = "evidencia_documental", n.rut = "", n.monto_clp = 0, n.fecha = "2018-07-11";
 MERGE (n:NodoForense:EvidenciaDocumental {id: "Sentencia-TOP-Santiago-Pacogate-2021"}) SET n.tipo_nodo = "evidencia_documental", n.rut = "", n.monto_clp = 0, n.fecha = "2021-05-07";
 MERGE (n:NodoForense:EvidenciaDocumental {id: "Sentencia-TOP-Temuco-OperacionHuracan-2024"}) SET n.tipo_nodo = "evidencia_documental", n.rut = "", n.monto_clp = 0, n.fecha = "2024-04-12";
 MERGE (n:NodoForense:Entidad {id: "Dossier_Ejecutivo_Completo"}) SET n.tipo_nodo = "dossier_pericial", n.rut = "", n.monto_clp = 0, n.fecha = "";
+MERGE (n:NodoForense:Entidad {id: "Drawing 2026-10-18 02.19.23.excalidraw"}) SET n.tipo_nodo = "Otro", n.rut = "", n.monto_clp = 0, n.fecha = "";
+MERGE (n:NodoForense:Entidad {id: "Drawing 2026-10-18 02.19.43.excalidraw"}) SET n.tipo_nodo = "Otro", n.rut = "", n.monto_clp = 0, n.fecha = "";
 
 // 2. Creación de Relaciones Semánticas Dirigidas
 MATCH (a:NodoForense {id: "Andres Chadwick Pinera"}), (b:NodoForense {id: "Union Democrata Independiente"}) MERGE (a)-[:MILITA_EN {propiedad_yaml: "afiliacion_politica"}]->(b);
@@ -373,7 +370,6 @@ MATCH (a:NodoForense {id: "Andes Iron SpA"}), (b:NodoForense {id: "Carlos Albert
 MATCH (a:NodoForense {id: "Asociacion de Productores Avicolas de Chile AG"}), (b:NodoForense {id: "Juan Miguel Ovalle Garces"}) MERGE (a)-[:REPRESENTADA_POR {propiedad_yaml: "representante_legal"}]->(b);
 MATCH (a:NodoForense {id: "Bancard Inversiones Ltda"}), (b:NodoForense {id: "Sebastian Pinera Echenique"}) MERGE (a)-[:REPRESENTADA_POR {propiedad_yaml: "representante_legal"}]->(b);
 MATCH (a:NodoForense {id: "Comercializadora y Exportadora Global SpA"}), (b:NodoForense {id: "Jose Antonio Pavez Campillay"}) MERGE (a)-[:REPRESENTADA_POR {propiedad_yaml: "representante_legal"}]->(b);
-MATCH (a:NodoForense {id: "Consultora Gestion Publica SpA"}), (b:NodoForense {id: "Jorge Valdivia Correa"}) MERGE (a)-[:REPRESENTADA_POR {propiedad_yaml: "representante_legal"}]->(b);
 MATCH (a:NodoForense {id: "Corpesca SA"}), (b:NodoForense {id: "Francisco Mujica Ortuzar"}) MERGE (a)-[:REPRESENTADA_POR {propiedad_yaml: "representante_legal"}]->(b);
 MATCH (a:NodoForense {id: "Empresa El Mercurio SAP"}), (b:NodoForense {id: "Agustin Edwards Eastman"}) MERGE (a)-[:REPRESENTADA_POR {propiedad_yaml: "representante_legal"}]->(b);
 MATCH (a:NodoForense {id: "Empresas Penta SA"}), (b:NodoForense {id: "Carlos Alberto Delano Abbott"}) MERGE (a)-[:REPRESENTADA_POR {propiedad_yaml: "representante_legal"}]->(b);
@@ -410,7 +406,6 @@ MATCH (a:NodoForense {id: "Caso Colonia Dignidad"}), (b:NodoForense {id: "Lavado
 MATCH (a:NodoForense {id: "Caso Colusion de las Farmacias"}), (b:NodoForense {id: "Colusion y Atentado a la Libre Competencia"}) MERGE (a)-[:DELITO_PRINCIPAL {propiedad_yaml: "delito_principal"}]->(b);
 MATCH (a:NodoForense {id: "Caso Colusion de los Pollos"}), (b:NodoForense {id: "Colusion y Atentado a la Libre Competencia"}) MERGE (a)-[:DELITO_PRINCIPAL {propiedad_yaml: "delito_principal"}]->(b);
 MATCH (a:NodoForense {id: "Caso Colusion del Papel Tissue"}), (b:NodoForense {id: "Colusion y Atentado a la Libre Competencia"}) MERGE (a)-[:DELITO_PRINCIPAL {propiedad_yaml: "delito_principal"}]->(b);
-MATCH (a:NodoForense {id: "Caso Compras Publicas"}), (b:NodoForense {id: "Negociacion Incompatible"}) MERGE (a)-[:DELITO_PRINCIPAL {propiedad_yaml: "delito_principal"}]->(b);
 MATCH (a:NodoForense {id: "Caso Convenios"}), (b:NodoForense {id: "Fraude al Fisco"}) MERGE (a)-[:DELITO_PRINCIPAL {propiedad_yaml: "delito_principal"}]->(b);
 MATCH (a:NodoForense {id: "Caso Corpesca"}), (b:NodoForense {id: "Cohecho"}) MERGE (a)-[:DELITO_PRINCIPAL {propiedad_yaml: "delito_principal"}]->(b);
 MATCH (a:NodoForense {id: "Caso Exalmar y Fideicomiso Ciego"}), (b:NodoForense {id: "Negociacion Incompatible"}) MERGE (a)-[:DELITO_PRINCIPAL {propiedad_yaml: "delito_principal"}]->(b);
@@ -782,7 +777,6 @@ MATCH (a:NodoForense {id: "TRX-2019-05-14-Soborno-Luminarias-Chillan-01"}), (b:N
 MATCH (a:NodoForense {id: "TRX-2019-05-14-Soborno-Luminarias-Chillan-01"}), (b:NodoForense {id: "Marcelo Campos Henriquez"}) MERGE (a)-[:SUSCRITO_POR {propiedad_yaml: "firmante_destino"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2019-05-14-Soborno-Luminarias-Chillan-01"}), (b:NodoForense {id: "Caso Luminarias LED"}) MERGE (a)-[:INVESTIGADO_EN {propiedad_yaml: "causa_vinculada"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2019-05-14-Soborno-Luminarias-Chillan-01"}), (b:NodoForense {id: "Cohecho"}) MERGE (a)-[:CONFIGURA_DELITO {propiedad_yaml: "delito_imputado"}]->(b);
-MATCH (a:NodoForense {id: "TRX-2019-05-14-Soborno-Luminarias-Chillan-01"}), (b:NodoForense {id: "Sentencia-TOP-Chillan-Luminarias-2023"}) MERGE (a)-[:RESPALDADO_POR {propiedad_yaml: "evidencia_soporte"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01"}), (b:NodoForense {id: "Factop SpA"}) MERGE (a)-[:ORIGEN_DE_FONDOS {propiedad_yaml: "entidad_origen"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01"}), (b:NodoForense {id: "Senado de la Republica de Chile"}) MERGE (a)-[:DESTINO_DE_FONDOS {propiedad_yaml: "entidad_destino"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01"}), (b:NodoForense {id: "Luis Hermosilla Osorio"}) MERGE (a)-[:AUTORIZADO_POR {propiedad_yaml: "firmante_origen"}]->(b);
@@ -790,13 +784,6 @@ MATCH (a:NodoForense {id: "TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermo
 MATCH (a:NodoForense {id: "TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01"}), (b:NodoForense {id: "Caso Audios"}) MERGE (a)-[:INVESTIGADO_EN {propiedad_yaml: "causa_vinculada"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01"}), (b:NodoForense {id: "Trafico de Influencias"}) MERGE (a)-[:CONFIGURA_DELITO {propiedad_yaml: "delito_imputado"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01"}), (b:NodoForense {id: "Audio-Reunion-Edificio-Alonso-2023"}) MERGE (a)-[:RESPALDADO_POR {propiedad_yaml: "evidencia_soporte"}]->(b);
-MATCH (a:NodoForense {id: "TRX-2020-07-08-Asesoria-Itelecom-Hermosilla-01"}), (b:NodoForense {id: "Itelecom Holding Chile SpA"}) MERGE (a)-[:ORIGEN_DE_FONDOS {propiedad_yaml: "entidad_origen"}]->(b);
-MATCH (a:NodoForense {id: "TRX-2020-07-08-Asesoria-Itelecom-Hermosilla-01"}), (b:NodoForense {id: "Factop SpA"}) MERGE (a)-[:DESTINO_DE_FONDOS {propiedad_yaml: "entidad_destino"}]->(b);
-MATCH (a:NodoForense {id: "TRX-2020-07-08-Asesoria-Itelecom-Hermosilla-01"}), (b:NodoForense {id: "Leon Marcelo Lefort Hernandez"}) MERGE (a)-[:AUTORIZADO_POR {propiedad_yaml: "firmante_origen"}]->(b);
-MATCH (a:NodoForense {id: "TRX-2020-07-08-Asesoria-Itelecom-Hermosilla-01"}), (b:NodoForense {id: "Luis Hermosilla Osorio"}) MERGE (a)-[:SUSCRITO_POR {propiedad_yaml: "firmante_destino"}]->(b);
-MATCH (a:NodoForense {id: "TRX-2020-07-08-Asesoria-Itelecom-Hermosilla-01"}), (b:NodoForense {id: "Caso Luminarias LED"}) MERGE (a)-[:INVESTIGADO_EN {propiedad_yaml: "causa_vinculada"}]->(b);
-MATCH (a:NodoForense {id: "TRX-2020-07-08-Asesoria-Itelecom-Hermosilla-01"}), (b:NodoForense {id: "Lavado de Activos"}) MERGE (a)-[:CONFIGURA_DELITO {propiedad_yaml: "delito_imputado"}]->(b);
-MATCH (a:NodoForense {id: "TRX-2020-07-08-Asesoria-Itelecom-Hermosilla-01"}), (b:NodoForense {id: "Sentencia-TOP-Chillan-Luminarias-2023"}) MERGE (a)-[:RESPALDADO_POR {propiedad_yaml: "evidencia_soporte"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2020-11-25-Compensacion-Indemnizatoria-Consumidores-Farmacias-01"}), (b:NodoForense {id: "Farmacias Salcobrand SA"}) MERGE (a)-[:ORIGEN_DE_FONDOS {propiedad_yaml: "entidad_origen"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2020-11-25-Compensacion-Indemnizatoria-Consumidores-Farmacias-01"}), (b:NodoForense {id: "Servicio Nacional del Consumidor"}) MERGE (a)-[:DESTINO_DE_FONDOS {propiedad_yaml: "entidad_destino"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2020-11-25-Compensacion-Indemnizatoria-Consumidores-Farmacias-01"}), (b:NodoForense {id: "Roberto Belloni Pechini"}) MERGE (a)-[:AUTORIZADO_POR {propiedad_yaml: "firmante_origen"}]->(b);
@@ -916,13 +903,6 @@ MATCH (a:NodoForense {id: "TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01"}), (b
 MATCH (a:NodoForense {id: "TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01"}), (b:NodoForense {id: "Fraude al Fisco"}) MERGE (a)-[:CONFIGURA_DELITO {propiedad_yaml: "delito_imputado"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01"}), (b:NodoForense {id: "Caso Convenios"}) MERGE (a)-[:INVESTIGADO_EN {propiedad_yaml: "causa_vinculada"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01"}), (b:NodoForense {id: "Resolucion-Exenta-MINVU-Antofagasta-2022"}) MERGE (a)-[:RESPALDADO_POR {propiedad_yaml: "evidencia_soporte"}]->(b);
-MATCH (a:NodoForense {id: "TRX-2023-08-14-Trato-Directo-ChileCompra-01"}), (b:NodoForense {id: "Direccion ChileCompra"}) MERGE (a)-[:ORIGEN_DE_FONDOS {propiedad_yaml: "entidad_origen"}]->(b);
-MATCH (a:NodoForense {id: "TRX-2023-08-14-Trato-Directo-ChileCompra-01"}), (b:NodoForense {id: "Consultora Gestion Publica SpA"}) MERGE (a)-[:DESTINO_DE_FONDOS {propiedad_yaml: "entidad_destino"}]->(b);
-MATCH (a:NodoForense {id: "TRX-2023-08-14-Trato-Directo-ChileCompra-01"}), (b:NodoForense {id: "Rodrigo Diaz Worner"}) MERGE (a)-[:AUTORIZADO_POR {propiedad_yaml: "firmante_origen"}]->(b);
-MATCH (a:NodoForense {id: "TRX-2023-08-14-Trato-Directo-ChileCompra-01"}), (b:NodoForense {id: "Jorge Valdivia Correa"}) MERGE (a)-[:SUSCRITO_POR {propiedad_yaml: "firmante_destino"}]->(b);
-MATCH (a:NodoForense {id: "TRX-2023-08-14-Trato-Directo-ChileCompra-01"}), (b:NodoForense {id: "Caso Compras Publicas"}) MERGE (a)-[:INVESTIGADO_EN {propiedad_yaml: "causa_vinculada"}]->(b);
-MATCH (a:NodoForense {id: "TRX-2023-08-14-Trato-Directo-ChileCompra-01"}), (b:NodoForense {id: "Negociacion Incompatible"}) MERGE (a)-[:CONFIGURA_DELITO {propiedad_yaml: "delito_imputado"}]->(b);
-MATCH (a:NodoForense {id: "TRX-2023-08-14-Trato-Directo-ChileCompra-01"}), (b:NodoForense {id: "Orden-Compra-MercadoPublico-2023"}) MERGE (a)-[:RESPALDADO_POR {propiedad_yaml: "evidencia_soporte"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2023-08-25-Reporte-ROS-Factop-UAF-01"}), (b:NodoForense {id: "Factop SpA"}) MERGE (a)-[:ORIGEN_DE_FONDOS {propiedad_yaml: "entidad_origen"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2023-08-25-Reporte-ROS-Factop-UAF-01"}), (b:NodoForense {id: "Unidad de Analisis Financiero"}) MERGE (a)-[:DESTINO_DE_FONDOS {propiedad_yaml: "entidad_destino"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2023-08-25-Reporte-ROS-Factop-UAF-01"}), (b:NodoForense {id: "Luis Hermosilla Osorio"}) MERGE (a)-[:AUTORIZADO_POR {propiedad_yaml: "firmante_origen"}]->(b);
@@ -1009,9 +989,6 @@ MATCH (a:NodoForense {id: "Informe-Contraloria-Municipalidad-Maipu-2021"}), (b:N
 MATCH (a:NodoForense {id: "Informe-ICIJ-SII-PanamaPapers-Chile-2016"}), (b:NodoForense {id: "Servicio Impuestos Internos"}) MERGE (a)-[:EMITIDO_POR {propiedad_yaml: "organismo_emisor"}]->(b);
 MATCH (a:NodoForense {id: "Informe-ICIJ-SII-PanamaPapers-Chile-2016"}), (b:NodoForense {id: "Caso Panama Papers Chile"}) MERGE (a)-[:INVESTIGADO_EN {propiedad_yaml: "causa_vinculada"}]->(b);
 MATCH (a:NodoForense {id: "Informe-ICIJ-SII-PanamaPapers-Chile-2016"}), (b:NodoForense {id: "TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01"}) MERGE (a)-[:ACREDITA_NEXO {propiedad_yaml: "nexo_respaldado"}]->(b);
-MATCH (a:NodoForense {id: "Orden-Compra-MercadoPublico-2023"}), (b:NodoForense {id: "Direccion ChileCompra"}) MERGE (a)-[:EMITIDO_POR {propiedad_yaml: "organismo_emisor"}]->(b);
-MATCH (a:NodoForense {id: "Orden-Compra-MercadoPublico-2023"}), (b:NodoForense {id: "Caso Compras Publicas"}) MERGE (a)-[:INVESTIGADO_EN {propiedad_yaml: "causa_vinculada"}]->(b);
-MATCH (a:NodoForense {id: "Orden-Compra-MercadoPublico-2023"}), (b:NodoForense {id: "TRX-2023-08-14-Trato-Directo-ChileCompra-01"}) MERGE (a)-[:ACREDITA_NEXO {propiedad_yaml: "nexo_respaldado"}]->(b);
 MATCH (a:NodoForense {id: "Orden-Entrada-Registro-Congreso-Caso-Flores-2026"}), (b:NodoForense {id: "Corte Suprema de Chile"}) MERGE (a)-[:EMITIDO_POR {propiedad_yaml: "organismo_emisor"}]->(b);
 MATCH (a:NodoForense {id: "Orden-Entrada-Registro-Congreso-Caso-Flores-2026"}), (b:NodoForense {id: "Caso Asignaciones Parlamentarias y Cuota Flores"}) MERGE (a)-[:INVESTIGADO_EN {propiedad_yaml: "causa_vinculada"}]->(b);
 MATCH (a:NodoForense {id: "Orden-Entrada-Registro-Congreso-Caso-Flores-2026"}), (b:NodoForense {id: "TRX-2025-10-15-Denuncia-Retencion-Sueldos-Asesores-Flores-01"}) MERGE (a)-[:ACREDITA_NEXO {propiedad_yaml: "nexo_respaldado"}]->(b);
@@ -1078,9 +1055,6 @@ MATCH (a:NodoForense {id: "Sentencia-TDLC-139-Colusion-Pollos-2014"}), (b:NodoFo
 MATCH (a:NodoForense {id: "Sentencia-TDLC-160-Colusion-Tissue-2017"}), (b:NodoForense {id: "Corte Suprema de Chile"}) MERGE (a)-[:EMITIDO_POR {propiedad_yaml: "organismo_emisor"}]->(b);
 MATCH (a:NodoForense {id: "Sentencia-TDLC-160-Colusion-Tissue-2017"}), (b:NodoForense {id: "Caso Colusion del Papel Tissue"}) MERGE (a)-[:INVESTIGADO_EN {propiedad_yaml: "causa_vinculada"}]->(b);
 MATCH (a:NodoForense {id: "Sentencia-TDLC-160-Colusion-Tissue-2017"}), (b:NodoForense {id: "TRX-2000-05-15-Pacto-Colusion-Precios-Cuotas-CMPC-PISA-01"}) MERGE (a)-[:ACREDITA_NEXO {propiedad_yaml: "nexo_respaldado"}]->(b);
-MATCH (a:NodoForense {id: "Sentencia-TOP-Chillan-Luminarias-2023"}), (b:NodoForense {id: "Corte Suprema de Chile"}) MERGE (a)-[:EMITIDO_POR {propiedad_yaml: "organismo_emisor"}]->(b);
-MATCH (a:NodoForense {id: "Sentencia-TOP-Chillan-Luminarias-2023"}), (b:NodoForense {id: "Caso Luminarias LED"}) MERGE (a)-[:INVESTIGADO_EN {propiedad_yaml: "causa_vinculada"}]->(b);
-MATCH (a:NodoForense {id: "Sentencia-TOP-Chillan-Luminarias-2023"}), (b:NodoForense {id: "TRX-2019-05-14-Soborno-Luminarias-Chillan-01"}) MERGE (a)-[:ACREDITA_NEXO {propiedad_yaml: "nexo_respaldado"}]->(b);
 MATCH (a:NodoForense {id: "Sentencia-TOP-Rancagua-Caval-2018"}), (b:NodoForense {id: "Corte Suprema de Chile"}) MERGE (a)-[:EMITIDO_POR {propiedad_yaml: "organismo_emisor"}]->(b);
 MATCH (a:NodoForense {id: "Sentencia-TOP-Rancagua-Caval-2018"}), (b:NodoForense {id: "Caso Caval"}) MERGE (a)-[:INVESTIGADO_EN {propiedad_yaml: "causa_vinculada"}]->(b);
 MATCH (a:NodoForense {id: "Sentencia-TOP-Rancagua-Caval-2018"}), (b:NodoForense {id: "TRX-2015-01-29-Facturas-Falsas-Caval-SII-01"}) MERGE (a)-[:ACREDITA_NEXO {propiedad_yaml: "nexo_respaldado"}]->(b);

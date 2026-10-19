@@ -20,7 +20,7 @@ tags:
 - **Superior Jerárquico**: `= this.superior_jerarquico`
 
 ## Contexto en Investigaciones Forenses
-Corporación edilicia de la capital regional de Ñuble. En el [[Caso Luminarias LED]], el Tribunal de Juicio Oral en lo Penal de Chillán ([[Sentencia-TOP-Chillan-Luminarias-2023]]) dio por acreditado que el ex administrador municipal [[Marcelo Campos Henriquez]] recibió sobornos de [[Itelecom Holding Chile SpA]] ([[Leon Marcelo Lefort Hernandez]]) para adjudicar la licitación de recambio de luminarias LED por **$3.200.000.000 CLP** ([[TRX-2019-05-14-Soborno-Luminarias-Chillan-01]]).
+Corporación edilicia de la capital regional de Ñuble. En el [[Caso Luminarias LED]] se investiga la licitación municipal de recambio de luminarias LED adjudicada a [[Itelecom Holding Chile SpA]] ([[TRX-2019-05-14-Soborno-Luminarias-Chillan-01]]). Según la Fiscalía de Ñuble, [[Leon Marcelo Lefort Hernandez]] fue detenido el 05-05-2020 tras entregar presuntamente $37 millones en efectivo a [[Marcelo Campos Henriquez]], quien habría anticipado las bases técnicas de la licitación a [[Itelecom Holding Chile SpA]]. A la fecha de la última verificación (2026-10-19) no se encontró sentencia: la causa registra formalizaciones, prisión preventiva luego sustituida por arresto domiciliario y una acusación contra 15 imputados. Rige la presunción de inocencia.
 
 ## Nexos y Licitaciones Registradas
 ```dataview

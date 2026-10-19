@@ -8,10 +8,10 @@ tags:
 
 # Dossier Ejecutivo Consolidado — Auditoría Forense de Corrupción en Chile
 
-- **Causas Penales Auditadas**: **34**
-- **Sujetos de Interés / Imputados**: **86**
-- **Aristas Reificadas (`TRX`)**: **75**
-- **Perjuicio / Flujo Global Consolidado**: **$751.224.363.198 CLP**
+- **Causas Penales Auditadas**: **33**
+- **Sujetos de Interés / Imputados**: **85**
+- **Aristas Reificadas (`TRX`)**: **73**
+- **Perjuicio / Flujo Global Consolidado**: **$750.998.563.198 CLP**
 
 ---
 
@@ -41,12 +41,11 @@ tags:
 | [[Caso Pacogate]] | `1601012894-2` | 2016 | `cerrada` | [[Malversacion de Caudales Publicos]] | Fiscalía Regional de Magallanes / 7° Juzgado de Garantía de Santiago / 4° TOP de Santiago |
 | [[Caso Panama Papers Chile]] | `1600403190-5` | 2016 | `en_investigacion` | [[Delito Tributario]] | Servicio de Impuestos Internos (Subdirección de Fiscalización Internacional) / Unidad de Análisis Financiero / Fiscalía Nacional |
 | [[Caso Operacion Huracan]] | `1800084321-4` | 2017 | `cerrada_con_condena` | [[Falsificacion de Instrumento Publico]] | Tribunal de Juicio Oral en lo Penal de Temuco / Fiscalía Regional de Aysén y Fiscalía de La Araucanía |
-| [[Caso Luminarias LED]] | `1900418920-4` | 2019 | `cerrada` | [[Cohecho]] | Fiscalía Regional de Ñuble / Tribunal de Juicio Oral en lo Penal de Chillán |
+| [[Caso Luminarias LED]] | `1900418920-4` | 2019 | `formalizada` | [[Cohecho]] | Fiscalía Regional de Ñuble / Tribunal de Juicio Oral en lo Penal de Chillán |
 | [[Caso Minera Dominga Pandora Papers]] | `2100912845-3` | 2021 | `sobreseida` | [[Cohecho]] | Fiscalía Nacional / Fiscalía Regional de Valparaíso / 7° Juzgado de Garantía de Santiago / Cámara de Diputados |
 | [[Caso Municipalidad de Maipu]] | `2101094520-3` | 2021 | `formalizada` | [[Fraude al Fisco]] | Fiscalía Regional Metropolitana Oriente / 9° Juzgado de Garantía de Santiago |
 | [[Caso Vitacura]] | `2100783412-9` | 2021 | `formalizada` | [[Malversacion de Caudales Publicos]] | Fiscalía Metropolitana Centro Norte / 4° Juzgado de Garantía de Santiago |
 | [[Caso Audios]] | `2301248910-5` | 2023 | `formalizada` | [[Cohecho]] | Fiscalía Regional Metropolitana Oriente / 4° Juzgado de Garantía de Santiago |
-| [[Caso Compras Publicas]] | `2300918450-6` | 2023 | `investigacion` | [[Negociacion Incompatible]] | Fiscalía de Alta Complejidad Centro Norte |
 | [[Caso Convenios]] | `2300674512-K` | 2023 | `formalizada` | [[Fraude al Fisco]] | Fiscalía Regional de Antofagasta / Juzgado de Garantía de Antofagasta |
 | [[Caso Megafraude Tributario Operacion Tributos]] | `RIT-13745-2023-1JG` | 2023 | `formalizada_con_prisiones_preventivas` | [[Delito Tributario]] | 1° Juzgado de Garantía de Santiago / Fiscalía Regional Metropolitana Occidente |
 | [[Caso Sierra Bella]] | `2300094812-3` | 2023 | `en_investigacion` | [[Fraude al Fisco]] | Fiscalía Regional de Coquimbo / 7° Juzgado de Garantía de Santiago / Contraloría General de la República |
@@ -105,7 +104,6 @@ tags:
 | [[Jorge Bermudez Soto]] | `10.842.310-2` | Ex Contralor General de la República (2015-2023) | Independiente | **`testigo_experto`** | Sin medidas cautelares (Autoridad Contralora en Caso Convenios y Caso Sierra Bella) |
 | [[Jorge Quiroz Castro]] | `6.982.415-3` | Economista, Socio Principal de Quiroz & Asociados y Ex Asesor Económico Presidencial | Independiente / Cercano a Partido Republicano | **`testigo_y_perito`** | Sin imputación penal ni sanción personal (actuación como consultor técnico y perito económico privado) |
 | [[Jorge Silva Menares]] | `7.419.620-9` | Ex Director de Obras Municipales (DOM) de la Municipalidad de Machalí | Independiente | **`condenado`** | Condena ejecutoriada por cohecho reiterado e inhabilitación para cargos públicos |
-| [[Jorge Valdivia Correa]] | `14.289.310-K` | Representante Legal de Consultora Gestión Pública SpA | Independiente | **`ninguna`** | — |
 | [[Jorge Zepeda Arancibia]] | `6.129.485-6` | Ex Ministro de la Corte de Apelaciones de Santiago y Ministro en Visita Extraordinario del Caso Colonia Dignidad | Independiente | **`testigo_clave`** | Sin medidas cautelares (Magistrado instructor designado por la Corte Suprema) |
 | [[Jose Antonio Pavez Campillay]] | `13.845.921-7` | Líder del Clan Pavez y Principal Imputado en la Operación Tributos (Megafraude SII) | Independiente | **`formalizado`** | Prisión preventiva en Capitán Yáber por asociación ilícita, fraude tributario y lavado de activos |
 | [[Jose Codner Chijner]] | `3.948.123-5` | Fundador y Ex Controlador de Farmacias Ahumada S.A. (FASA) | Independiente | **`descarte_procesal_sin_imputacion`** | Sin medidas cautelares vigentes; firmante del acuerdo conciliatorio de delación ante la FNE en marzo de 2009 |
@@ -115,7 +113,7 @@ tags:
 | [[Juan Miguel Fuente-Alba Poblete]] | `6.418.920-4` | Ex Comandante en Jefe del Ejército de Chile (2010-2014) | Independiente | **`formalizado`** | Procesado por malversación de gastos reservados (Justicia Militar / Ordinaria) |
 | [[Juan Miguel Ovalle Garces]] | `4.892.147-7` | Presidente Histórico de la Asociación de Productores Avícolas de Chile (APA) | Independiente | **`sancionado_administrativamente`** | Condena civil y económica; disolución forzada de la entidad gremial que presidía |
 | [[Julio Ponce Lerou]] | `5.194.820-3` | Ex Presidente y Controlador de las Sociedades Cascada y de SQM S.A. | Independiente | **`condenado`** | Multa histórica ejecutoriada por la Corte Suprema (75.000 UF) en Caso Cascadas |
-| [[Leon Marcelo Lefort Hernandez]] | `10.394.820-7` | Fundador y Ex Gerente General de Itelecom Holding Chile SpA | Independiente | **`condenado`** | Condenado por soborno reiterado (procedimiento abreviado y juicio oral) |
+| [[Leon Marcelo Lefort Hernandez]] | `10.394.820-7` | Fundador y Ex Gerente General de Itelecom Holding Chile SpA | Independiente | **`formalizado`** | Arresto domiciliario (sustituyó la prisión preventiva en julio de 2021) |
 | [[Leonarda Villalobos Muth]] | `13.492.108-0` | Abogada y Asesora Tributaria | Independiente | **`formalizado`** | Prisión preventiva |
 | [[Leonardo Osses Sandoval]] | `13.918.240-5` | Ex Capitán de Carabineros e Integrante Operativo de la UIOE en La Araucanía | Militar / Carabineros | **`condenado`** | Condenado a 10 años de presidio efectivo por el TOP de Temuco (Falsificación de instrumento público y obstrucción a la investigación) |
 | [[Loreto Letelier]] | `13.482.915-K` | Abogada y Ex Candidata a Diputada por el Distrito 9 (Pasada al Tribunal Supremo de la UDI en 2017) | [[Union Democrata Independiente]] | **`testigo_clave`** | Sin medidas cautelares penales (Sometida al Tribunal Supremo de la UDI y marginada de la colectividad en 2017) |
@@ -124,7 +122,7 @@ tags:
 | [[Luis Plaza Sanchez]] | `7.584.210-4` | Ex Alcalde de la Municipalidad de Cerro Navia (2008-2016) | [[Renovacion Nacional]] | **`formalizado`** | Acusación fiscal por fraude al fisco reiterado en contratos municipales (Caso Basura) |
 | [[Manuel Ariztia Ruiz]] | `3.154.829-2` | Fundador y Presidente Histórico de Empresas Ariztía | Independiente | **`sancionado_administrativamente`** | Condena civil y económica corporativa ratificada por la Corte Suprema de Chile |
 | [[Manuel Contreras Sepulveda]] | `3.148.920-2` | General (R) de Ejército y Ex Director Ejecutivo de la Dirección de Inteligencia Nacional (DINA) | Militar / Dictadura Cívico-Militar (Subordinado directo de Augusto Pinochet Ugarte) | **`condenado`** | Fallecido en agosto de 2015 en el Hospital Militar cumpliendo condenas ejecutoriadas por más de 529 años de presidio efectivo |
-| [[Marcelo Campos Henriquez]] | `12.918.430-2` | Ex Administrador Municipal y Asesor Jurídico de la Municipalidad de Chillán | Independiente | **`condenado`** | Condena efectiva por cohecho y lavado de activos (TOP de Chillán) |
+| [[Marcelo Campos Henriquez]] | `12.918.430-2` | Ex Administrador Municipal y Asesor Jurídico de la Municipalidad de Chillán | Independiente | **`formalizado`** | — |
 | [[Marcelo Teuber Munoz]] | `9.841.203-4` | Ex Coronel de Carabineros y Ex Jefe de la UIOE en La Araucanía | Militar / Carabineros | **`condenado`** | Condenado a 3 años y un día más 100 días de presidio por el TOP de Temuco |
 | [[Marcelo Torres Ferrari]] | `10.194.820-K` | Ex Concejal de Maipú y Ex Administrador Municipal de Cerro Navia | [[Renovacion Nacional]] | **`formalizado`** | Prisión preventiva histórica y acusación por cohecho, fraude al fisco y lavado de activos |
 | [[Mauricio Valero Illanes]] | `9.842.310-9` | Socio Administrador de Exportadora y de Gestión Caval Ltda. | Independiente | **`condenado`** | Condena ejecutoriada por soborno y delitos tributarios reiterados |
@@ -204,7 +202,6 @@ tags:
 | [[TRX-2018-01-25-Peritaje-Cibercrimen-Descarte-Antorcha-01]] | 2018-01-25 | `peritaje_forense` | [[Corte Suprema de Chile]] | [[Direccion de Inteligencia Policial de Carabineros]] | [[Leonardo Osses Sandoval]] | [[Alex Smith Leay]] | **$0** | [[Caso Operacion Huracan]] |
 | [[TRX-2019-05-14-Soborno-Luminarias-Chillan-01]] | 2019-05-14 | `cohecho` | [[Itelecom Holding Chile SpA]] | [[Municipalidad de Chillan]] | [[Leon Marcelo Lefort Hernandez]] | [[Marcelo Campos Henriquez]] | **$3.200.000.000** | [[Caso Luminarias LED]] |
 | [[TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01]] | 2019-12-11 | `transferencia` | [[Factop SpA]] | [[Senado de la Republica de Chile]] | [[Luis Hermosilla Osorio]] | [[Andres Chadwick Pinera]] | **$190.000.000** | [[Caso Audios]] |
-| [[TRX-2020-07-08-Asesoria-Itelecom-Hermosilla-01]] | 2020-07-08 | `transferencia` | [[Itelecom Holding Chile SpA]] | [[Factop SpA]] | [[Leon Marcelo Lefort Hernandez]] | [[Luis Hermosilla Osorio]] | **$180.000.000** | [[Caso Luminarias LED]] |
 | [[TRX-2020-11-25-Compensacion-Indemnizatoria-Consumidores-Farmacias-01]] | 2020-11-25 | `compensacion_reparatoria` | [[Farmacias Salcobrand SA]] | [[Servicio Nacional del Consumidor]] | [[Roberto Belloni Pechini]] | [[Jose Codner Chijner]] | **$2.180.000.000** | [[Caso Colusion de las Farmacias]] |
 | [[TRX-2020-12-15-Deficit-Maipu-Certificados-01]] | 2020-12-15 | `transferencia` | [[Municipalidad de Maipu]] | [[Municipalidad de Maipu]] | [[Cathy Barriga Guerra]] | [[Cathy Barriga Guerra]] | **$30.972.000.000** | [[Caso Municipalidad de Maipu]] |
 | [[TRX-2021-04-15-Subvencion-VitaDeportes-01]] | 2021-04-15 | `transferencia` | [[Municipalidad de Vitacura]] | [[Vita Deportes]] | [[Raul Torrealba del Pedregal]] | [[Domingo Prieto Urrejola]] | **$759.000.000** | [[Caso Vitacura]] |
@@ -222,7 +219,6 @@ tags:
 | [[TRX-2023-05-10-Liquidacion-Tributaria-ProCultura-SII-01]] | 2023-05-10 | `factura_falsa` | [[Fundacion ProCultura]] | [[Servicio Impuestos Internos]] | [[Alberto Larrain Salas]] | [[Leonarda Villalobos Muth]] | **$315.000.000** | [[Caso Convenios]] |
 | [[TRX-2023-06-22-Reunion-Audios-01]] | 2023-06-22 | `cohecho` | [[Factop SpA]] | [[Servicio Impuestos Internos]] | [[Luis Hermosilla Osorio]] | [[Leonarda Villalobos Muth]] | **$100.000.000** | [[Caso Audios]] |
 | [[TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01]] | 2023-06-29 | `resolucion_administrativa` | [[Contraloria General de la Republica]] | [[Seremi MINVU Antofagasta]] | [[Jorge Bermudez Soto]] | [[Carlos Contreras Gutierrez]] | **$0** | [[Caso Convenios]] |
-| [[TRX-2023-08-14-Trato-Directo-ChileCompra-01]] | 2023-08-14 | `convenio_directo` | [[Direccion ChileCompra]] | [[Consultora Gestion Publica SpA]] | [[Rodrigo Diaz Worner]] | [[Jorge Valdivia Correa]] | **$45.800.000** | [[Caso Compras Publicas]] |
 | [[TRX-2023-08-25-Reporte-ROS-Factop-UAF-01]] | 2023-08-25 | `factura_falsa` | [[Factop SpA]] | [[Unidad de Analisis Financiero]] | [[Luis Hermosilla Osorio]] | [[Javier Cruz Tamburrino]] | **$480.000.000** | [[Caso Audios]] |
 | [[TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01]] | 2023-12-14 | `factura_falsa` | [[Inversiones y Asesorias Pavez SpA]] | [[Servicio Impuestos Internos]] | [[Jose Antonio Pavez Campillay]] | [[Ximena Jimenez Faras]] | **$240.000.000.000** | [[Caso Megafraude Tributario Operacion Tributos]] |
 | [[TRX-2023-12-15-Lavado-Activos-Bienes-Inmuebles-Clan-Pavez-01]] | 2023-12-15 | `transferencia` | [[Inversiones y Asesorias Pavez SpA]] | [[Comercializadora y Exportadora Global SpA]] | [[Jose Antonio Pavez Campillay]] | [[Andres Esteban Galaz Soto]] | **$25.000.000.000** | [[Caso Megafraude Tributario Operacion Tributos]] |

@@ -6,8 +6,8 @@
   <img src="https://img.shields.io/badge/Grafo-Reificado-blue.svg?style=for-the-badge&logo=obsidian" alt="Obsidian Reified Graph" />
   <img src="https://img.shields.io/badge/Estándar-OCCRP%20Aleph%20%7C%20ICIJ-orange.svg?style=for-the-badge" alt="OCCRP / ICIJ Standard" />
   <img src="https://img.shields.io/badge/Tests-24%2F24%20Passing-brightgreen.svg?style=for-the-badge&logo=pytest" alt="Tests 24/24" />
-  <img src="https://img.shields.io/badge/RUTs%20Módulo%2011-152%20Validados-purple.svg?style=for-the-badge" alt="RUTs Modulo 11" />
-  <img src="https://img.shields.io/badge/Monto%20Auditado-$751.224%20M%20CLP-red.svg?style=for-the-badge" alt="Monto CLP" />
+  <img src="https://img.shields.io/badge/RUTs%20Módulo%2011-150%20Validados-purple.svg?style=for-the-badge" alt="RUTs Modulo 11" />
+  <img src="https://img.shields.io/badge/Monto%20Auditado-$750.999%20M%20CLP-red.svg?style=for-the-badge" alt="Monto CLP" />
 </p>
 
 ---
@@ -145,11 +145,11 @@ Cada transacción o reunión constituye una nota independiente con metadatos con
 
 | Métrica Pericial | Valor Auditado | Verificación |
 | :--- | :---: | :--- |
-| **Notas Indexadas en Markdown** | **343** | Esquema estricto con metadatos YAML |
-| **RUTs Chilenos Validados** | **152** | Validación Módulo 11 con 0 colisiones |
-| **Aristas Reificadas (`TRX`)** | **75** | Flujos transaccionales y nexos documentados |
+| **Notas Indexadas en Markdown** | **342** | Esquema estricto con metadatos YAML |
+| **RUTs Chilenos Validados** | **150** | Validación Módulo 11 con 0 colisiones |
+| **Aristas Reificadas (`TRX`)** | **73** | Flujos transaccionales y nexos documentados |
 | **Macro-Causas Judiciales y Carteles** | **32** | Causas activas y ejecutoriadas |
-| **Monto Financiero Consolidado** | **$751.224.363.198 CLP** | Auditoría contable automatizada |
+| **Monto Financiero Consolidado** | **$750.998.563.198 CLP** | Auditoría contable automatizada |
 | **Batería de Pruebas Unitarias** | **24 / 24 OK** | `pytest` / `unittest` en entorno continuo |
 
 ---

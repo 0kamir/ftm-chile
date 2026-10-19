@@ -5,6 +5,11 @@
   },
   "@graph": [
     {
+      "@id": "urn:cl-osint:node:Flujo_Incorporacion_Informacion",
+      "@type": "osint:meta_flujo",
+      "schema:name": "Flujo_Incorporacion_Informacion"
+    },
+    {
       "@id": "urn:cl-osint:node:Asociacion_Ilicita",
       "@type": "osint:tipo_penal",
       "schema:name": "Asociacion Ilicita"
@@ -333,12 +338,6 @@
       "@type": "osint:persona",
       "schema:name": "Jorge Silva Menares",
       "schema:identifier": "7.419.620-9"
-    },
-    {
-      "@id": "urn:cl-osint:node:Jorge_Valdivia_Correa",
-      "@type": "osint:persona",
-      "schema:name": "Jorge Valdivia Correa",
-      "schema:identifier": "14.289.310-K"
     },
     {
       "@id": "urn:cl-osint:node:Jorge_Zepeda_Arancibia",
@@ -755,12 +754,6 @@
       "schema:identifier": "76.987.654-5"
     },
     {
-      "@id": "urn:cl-osint:node:Consultora_Gestion_Publica_SpA",
-      "@type": "osint:entidad_privada",
-      "schema:name": "Consultora Gestion Publica SpA",
-      "schema:identifier": "77.314.890-2"
-    },
-    {
       "@id": "urn:cl-osint:node:Corpesca_SA",
       "@type": "osint:entidad_privada",
       "schema:name": "Corpesca SA",
@@ -947,6 +940,11 @@
       "schema:identifier": "65.089.120-1"
     },
     {
+      "@id": "urn:cl-osint:node:Drawing_2026-10-18_11.54.03.excalidraw",
+      "@type": "osint:",
+      "schema:name": "Drawing 2026-10-18 11.54.03.excalidraw"
+    },
+    {
       "@id": "urn:cl-osint:node:Partido_Comunista_de_Chile",
       "@type": "osint:partido_politico",
       "schema:name": "Partido Comunista de Chile",
@@ -1041,12 +1039,6 @@
       "@type": "osint:causa_judicial",
       "schema:name": "Caso Colusion del Papel Tissue",
       "schema:identifier": "ROL-C-299-15-TDLC"
-    },
-    {
-      "@id": "urn:cl-osint:node:Caso_Compras_Publicas",
-      "@type": "osint:causa_judicial",
-      "schema:name": "Caso Compras Publicas",
-      "schema:identifier": "2300918450-6"
     },
     {
       "@id": "urn:cl-osint:node:Caso_Convenios",
@@ -2456,31 +2448,6 @@
       }
     },
     {
-      "@id": "urn:cl-osint:node:TRX-2020-07-08-Asesoria-Itelecom-Hermosilla-01",
-      "@type": "osint:nexo_transaccion",
-      "schema:name": "TRX-2020-07-08-Asesoria-Itelecom-Hermosilla-01",
-      "schema:amount": {
-        "@type": "schema:MonetaryAmount",
-        "schema:currency": "CLP",
-        "schema:value": 180000000
-      },
-      "osint:entidadOrigen": {
-        "@id": "urn:cl-osint:node:Itelecom_Holding_Chile_SpA"
-      },
-      "osint:entidadDestino": {
-        "@id": "urn:cl-osint:node:Factop_SpA"
-      },
-      "osint:firmanteOrigen": {
-        "@id": "urn:cl-osint:node:Leon_Marcelo_Lefort_Hernandez"
-      },
-      "osint:firmanteDestino": {
-        "@id": "urn:cl-osint:node:Luis_Hermosilla_Osorio"
-      },
-      "osint:causaVinculada": {
-        "@id": "urn:cl-osint:node:Caso_Luminarias_LED"
-      }
-    },
-    {
       "@id": "urn:cl-osint:node:TRX-2020-11-25-Compensacion-Indemnizatoria-Consumidores-Farmacias-01",
       "@type": "osint:nexo_transaccion",
       "schema:name": "TRX-2020-11-25-Compensacion-Indemnizatoria-Consumidores-Farmacias-01",
@@ -2906,31 +2873,6 @@
       }
     },
     {
-      "@id": "urn:cl-osint:node:TRX-2023-08-14-Trato-Directo-ChileCompra-01",
-      "@type": "osint:nexo_transaccion",
-      "schema:name": "TRX-2023-08-14-Trato-Directo-ChileCompra-01",
-      "schema:amount": {
-        "@type": "schema:MonetaryAmount",
-        "schema:currency": "CLP",
-        "schema:value": 45800000
-      },
-      "osint:entidadOrigen": {
-        "@id": "urn:cl-osint:node:Direccion_ChileCompra"
-      },
-      "osint:entidadDestino": {
-        "@id": "urn:cl-osint:node:Consultora_Gestion_Publica_SpA"
-      },
-      "osint:firmanteOrigen": {
-        "@id": "urn:cl-osint:node:Rodrigo_Diaz_Worner"
-      },
-      "osint:firmanteDestino": {
-        "@id": "urn:cl-osint:node:Jorge_Valdivia_Correa"
-      },
-      "osint:causaVinculada": {
-        "@id": "urn:cl-osint:node:Caso_Compras_Publicas"
-      }
-    },
-    {
       "@id": "urn:cl-osint:node:TRX-2023-08-25-Reporte-ROS-Factop-UAF-01",
       "@type": "osint:nexo_transaccion",
       "schema:name": "TRX-2023-08-25-Reporte-ROS-Factop-UAF-01",
@@ -3141,11 +3083,6 @@
       "schema:name": "Informe-ICIJ-SII-PanamaPapers-Chile-2016"
     },
     {
-      "@id": "urn:cl-osint:node:Orden-Compra-MercadoPublico-2023",
-      "@type": "osint:evidencia_documental",
-      "schema:name": "Orden-Compra-MercadoPublico-2023"
-    },
-    {
       "@id": "urn:cl-osint:node:Orden-Entrada-Registro-Congreso-Caso-Flores-2026",
       "@type": "osint:evidencia_documental",
       "schema:name": "Orden-Entrada-Registro-Congreso-Caso-Flores-2026"
@@ -3256,11 +3193,6 @@
       "schema:name": "Sentencia-TDLC-160-Colusion-Tissue-2017"
     },
     {
-      "@id": "urn:cl-osint:node:Sentencia-TOP-Chillan-Luminarias-2023",
-      "@type": "osint:evidencia_documental",
-      "schema:name": "Sentencia-TOP-Chillan-Luminarias-2023"
-    },
-    {
       "@id": "urn:cl-osint:node:Sentencia-TOP-Rancagua-Caval-2018",
       "@type": "osint:evidencia_documental",
       "schema:name": "Sentencia-TOP-Rancagua-Caval-2018"
@@ -3274,6 +3206,16 @@
       "@id": "urn:cl-osint:node:Sentencia-TOP-Temuco-OperacionHuracan-2024",
       "@type": "osint:evidencia_documental",
       "schema:name": "Sentencia-TOP-Temuco-OperacionHuracan-2024"
+    },
+    {
+      "@id": "urn:cl-osint:node:Drawing_2026-10-18_02.19.23.excalidraw",
+      "@type": "osint:",
+      "schema:name": "Drawing 2026-10-18 02.19.23.excalidraw"
+    },
+    {
+      "@id": "urn:cl-osint:node:Drawing_2026-10-18_02.19.43.excalidraw",
+      "@type": "osint:",
+      "schema:name": "Drawing 2026-10-18 02.19.43.excalidraw"
     }
   ]
 }
