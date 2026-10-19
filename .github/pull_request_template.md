@@ -12,5 +12,6 @@
 - [ ] Copia archivada (web.archive.org) en el campo `archivo` cuando fue posible.
 - [ ] Sin datos íntimos, de salud ni de víctimas, y sin RUT de personas naturales.
 - [ ] Revisé los hallazgos de `make screen` para las notas modificadas.
+- [ ] Las menciones sin imputación en Chile van a `06_Anexos/`, no al grafo.
 - [ ] `make validate sources test` pasa localmente.
 - [ ] Si cambia la situación procesal de una persona, un segundo editor revisó el PR.
