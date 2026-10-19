@@ -6,6 +6,22 @@ tribunal_o_fiscalia: "Superintendencia de Valores y Seguros (CMF) / Corte de Ape
 fiscal_a_cargo: "Superintendencia de Valores y Seguros (Resolución Exenta N° 306-2007) / Ministro Luis Correa Bulo (Causa Banco de Talca 1982)"
 estado_judicial: cerrada_con_condena
 delito_principal: "[[Negociacion Incompatible]]"
+estado_verificacion: verificado
+fuentes:
+  - url: "https://www.ciperchile.cl/2009/09/29/el-directorio-de-lan-que-se-transformo-en-la-peor-pesadilla-de-pinera/"
+    titulo: "El directorio de Lan que se transformó en la peor pesadilla de Sebastián Piñera"
+    medio: "CIPER Chile"
+    tipo: secundaria
+    fecha: 2009-09-29
+    consultado: 2026-10-19
+  - url: "https://www.cooperativa.cl/noticias/site/artic/20121128/pags-amp/20121128154834.html"
+    titulo: "Suprema ratificó multa contra dueños de LAN por comprar acciones con información privilegiada"
+    medio: "Cooperativa"
+    tipo: secundaria
+    fecha: 2012-11-28
+    consultado: 2026-10-19
+alertas_verificacion:
+  - "Resolución Exenta SVS N° 306 (06-07-2007) sancionó infracción al deber de abstención (art. 165 Ley 18.045), multa 19.740 UF; Piñera no apeló. Arista Banco de Talca (1982) sin fuente específica todavía."
 tags:
   - causa
   - caso-lan
@@ -44,4 +60,16 @@ TABLE WITHOUT ID
 FROM "03_Hechos_y_Nexos"
 WHERE contains(string(causa_vinculada), this.file.name)
 SORT fecha ASC
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```

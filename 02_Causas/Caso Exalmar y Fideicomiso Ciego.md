@@ -6,6 +6,20 @@ tribunal_o_fiscalia: "Fiscalía Regional Metropolitana Oriente / 4° Juzgado de 
 fiscal_a_cargo: "Manuel Guerra Fuenzalida"
 estado_judicial: sobreseida
 delito_principal: "[[Negociacion Incompatible]]"
+estado_verificacion: verificado
+fuentes:
+  - url: "https://www.df.cl/economia-y-politica/actualidad/sebastian-pinera-declaro-por-mas-de-dos-horas-en-fiscalia-por-caso-exalmar"
+    titulo: "Sebastián Piñera declaró por más de dos horas en Fiscalía por caso Exalmar"
+    medio: "Diario Financiero"
+    tipo: secundaria
+    fecha: 2017-05-12
+    consultado: 2026-10-19
+  - url: "https://www.cnnchile.com/pais/camara-de-diputados-aprobo-el-informe-de-la-comision-investigadora-del-caso_20171130/"
+    titulo: "Cámara de Diputados aprobó el informe de la comisión investigadora del caso"
+    medio: "CNN Chile"
+    tipo: secundaria
+    fecha: 2017-11-30
+    consultado: 2026-10-19
 tags:
   - causa
   - caso-exalmar
@@ -42,4 +56,16 @@ TABLE WITHOUT ID
 FROM "03_Hechos_y_Nexos"
 WHERE contains(string(causa_vinculada), this.file.name)
 SORT fecha ASC
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```

@@ -6,6 +6,21 @@ tribunal_o_fiscalia: "Fiscalía Regional de Ñuble / Tribunal de Juicio Oral en 
 fiscal_a_cargo: "Nayalet Mansilla / Paulina Valdebenito"
 estado_judicial: cerrada
 delito_principal: "[[Cohecho]]"
+estado_verificacion: desactualizado
+fuentes:
+  - url: "https://www.ex-ante.cl/politica/caso-luminarias-25-claves-para-entender-la-investigacion-por-sobornos-en-municipios/"
+    titulo: "Caso Luminarias: claves de la investigación por sobornos en municipios"
+    medio: "Ex-Ante"
+    tipo: secundaria
+    consultado: 2026-10-19
+  - url: "https://www.eldinamo.cl/pais/2021/06/30/caso-luminarias-led-confirman-prision-preventiva-de-dueno-de-itelecom-acusado-de-soborno/"
+    titulo: "Caso Luminarias LED: confirman prisión preventiva de dueño de Itelecom"
+    medio: "El Dínamo"
+    tipo: secundaria
+    fecha: 2021-06-30
+    consultado: 2026-10-19
+alertas_verificacion:
+  - "No se encontró sentencia del TOP de Chillán: la cobertura hasta 2023 habla de acusación (15 acusados) y de vuelta a etapa de investigación. El vault marca estado 'cerrada' y la evidencia 'Sentencia-TOP-Chillan-Luminarias-2023'. Verificar antes de publicar."
 tags:
   - causa
   - caso-luminarias-led
@@ -41,4 +56,16 @@ TABLE WITHOUT ID
 FROM "03_Hechos_y_Nexos"
 WHERE contains(string(causa_vinculada), this.file.name)
 SORT fecha ASC
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```

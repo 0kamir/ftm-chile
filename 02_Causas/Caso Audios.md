@@ -6,6 +6,25 @@ tribunal_o_fiscalia: "Fiscalía Regional Metropolitana Oriente / 4° Juzgado de 
 fiscal_a_cargo: "Lorena Parra / Felipe Sepúlveda / Juan Pablo Araya"
 estado_judicial: formalizada
 delito_principal: "[[Cohecho]]"
+estado_verificacion: verificado
+fuentes:
+  - url: "https://www.emol.com/noticias/Nacional/2024/08/21/1140151/cinco-claves-comprender-caso-audios.html"
+    titulo: "Cinco claves para comprender el caso Audios"
+    medio: "Emol"
+    tipo: secundaria
+    fecha: 2024-08-21
+    consultado: 2026-10-19
+  - url: "https://www.eldinamo.cl/pais/2024/08/12/caso-audios-fiscalia-pide-formalizar-a-luis-hermosilla-por-lavado-de-activos-y-cohecho/"
+    titulo: "Caso Audios: Fiscalía pide formalizar a Luis Hermosilla por lavado de activos y cohecho"
+    medio: "El Dínamo"
+    tipo: secundaria
+    fecha: 2024-08-12
+    consultado: 2026-10-19
+  - url: "https://www.cnnchile.com/pais/caso-audios-luis-hermosilla-sera-formalizado-en-enero-por-la-arista-de-parque-capital/"
+    titulo: "Caso Audios: Luis Hermosilla será formalizado por la arista Parque Capital"
+    medio: "CNN Chile"
+    tipo: secundaria
+    consultado: 2026-10-19
 tags:
   - causa
   - caso-audios
@@ -40,4 +59,16 @@ TABLE WITHOUT ID
 FROM "03_Hechos_y_Nexos"
 WHERE contains(string(causa_vinculada), this.file.name)
 SORT fecha ASC
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```

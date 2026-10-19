@@ -251,11 +251,17 @@ El directorio [`05_Vistas_Analiticas/Exportaciones/`](05_Vistas_Analiticas/Expor
 
 ## 🤝 Contribuciones y Reporte de Errores
 
-Este proyecto es de código abierto. Si detectas información desactualizada, errores en RUTs, cambios en resoluciones judiciales o deseas aportar nuevas causas documentadas:
-1. Haz un Fork del repositorio.
-2. Crea una rama para tu aporte: `git checkout -b feature/nueva-causa`.
-3. Asegúrate de que `make all` ejecute sin errores y supere todos los tests de Módulo 11.
-4. Envía un Pull Request detallando las fuentes primarias judiciales u oficiales de respaldo.
+Este proyecto es de código abierto. Toda información nueva sigue el **[Flujo de Incorporación de Información](00_Meta/Flujo_Incorporacion_Informacion.md)**: sin una fuente pública verificable (URL) no se publica ninguna nota.
+
+1. **Propón** el aporte abriendo un *Issue* con la plantilla "Nueva información" o "Rectificación", con la URL de respaldo.
+2. **Verifica** contra la fuente primaria (pjud.cl, tdlc.cl, fne.gob.cl, contraloria.cl, cmfchile.cl, fiscaliadechile.cl…) y archiva la URL en web.archive.org.
+3. **Registra** la nota desde `00_Meta/Plantillas/` o agrega fuentes a una nota existente:
+   ```bash
+   python3 00_Meta/Scripts/add_source.py --nota "Caso SQM" --url "https://..." \
+     --titulo "Título" --medio "Medio" --tipo secundaria --fecha 2025-10-22
+   ```
+4. **Valida** con `make validate sources links test`. El reporte [Cobertura de Fuentes](05_Vistas_Analiticas/Cobertura_de_Fuentes.md) lista la cobertura y las alertas de verificación pendientes.
+5. **Envía un Pull Request** con la lista de verificación editorial. El CI ejecuta `validate_vault.py --estricto`, que falla si alguna causa o evidencia queda sin fuente.
 
 ---
 

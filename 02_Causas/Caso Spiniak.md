@@ -6,6 +6,27 @@ tribunal_o_fiscalia: "33° Juzgado del Crimen de Santiago / Corte de Apelaciones
 fiscal_a_cargo: "Ministro en Visita Sergio Muñoz Gajardo (tras inhabilitación de Juez Daniel Calvo Flores)"
 estado_judicial: cerrada_con_condena
 delito_principal: "[[Lavado de Activos]]"
+estado_verificacion: verificado
+fuentes:
+  - url: "https://cooperativa.cl/noticias/pais/judicial/caso-spiniak/claudio-spiniak-fue-condenado-a-cinco-anos-y-un-dia-de-car/2006-08-10/084046.html"
+    titulo: "Claudio Spiniak fue condenado a cinco años y un día de cárcel"
+    medio: "Cooperativa"
+    tipo: secundaria
+    fecha: 2006-08-10
+    consultado: 2026-10-19
+  - url: "https://www.emol.com/noticias/Nacional/2026/03/14/1194273/muere-claudio-spiniak-abuso-menores.html"
+    titulo: "Muere Claudio Spiniak"
+    medio: "Emol"
+    tipo: secundaria
+    fecha: 2026-03-14
+    consultado: 2026-10-19
+  - url: "https://www.pauta.cl/politica/jovino-novoa-caso-spiniak-udi-investigacion-sergio-munoz"
+    titulo: "Jovino Novoa, caso Spiniak e investigación del juez Sergio Muñoz"
+    medio: "Pauta"
+    tipo: secundaria
+    consultado: 2026-10-19
+alertas_verificacion:
+  - "Spiniak falleció en marzo de 2026: actualizar ficha de persona."
 tags:
   - causa
   - poder-judicial
@@ -42,4 +63,16 @@ TABLE WITHOUT ID
 FROM "03_Hechos_y_Nexos"
 WHERE contains(string(causa_vinculada), this.file.name)
 SORT fecha ASC
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```

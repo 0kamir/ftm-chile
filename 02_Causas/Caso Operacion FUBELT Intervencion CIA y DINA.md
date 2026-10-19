@@ -6,6 +6,26 @@ tribunal_o_fiscalia: "Comité Selecto del Senado de EE.UU. (Comisión Church 197
 fiscal_a_cargo: "Senador Frank Church (US Senate Select Committee) / Ministros en Visita Alejandro Solís, Jorge Zepeda y Leopoldo Llanos"
 estado_judicial: cerrada_con_condena
 delito_principal: "[[Lavado de Activos]]"
+estado_verificacion: verificado
+fuentes:
+  - url: "https://irp.fas.org/cia/product/chile/index.html"
+    titulo: "CIA Activities in Chile (Informe Hinchey, 18-09-2000)"
+    medio: "CIA / Federation of American Scientists"
+    tipo: primaria
+    fecha: 2000-09-18
+    consultado: 2026-10-19
+  - url: "https://nsarchive.gwu.edu/node/3113"
+    titulo: "Documentos desclasificados sobre Chile"
+    medio: "National Security Archive"
+    tipo: primaria
+    consultado: 2026-10-19
+  - url: "https://www.pri.org/stories/chiles-journalists-union-kicked-out-powerful-media-mogul-over-cia-propaganda-cash"
+    titulo: "Chile's journalists' union kicked out powerful media mogul over CIA propaganda cash"
+    medio: "The World (PRI)"
+    tipo: secundaria
+    consultado: 2026-10-19
+alertas_verificacion:
+  - "El RUC '7000150970-K' no puede existir (el sistema RUC nace con la reforma procesal penal de 2000). Revisar identificadores de causas anteriores a 2000."
 tags:
   - causa
   - proyecto-fubelt
@@ -52,4 +72,16 @@ TABLE WITHOUT ID
 FROM "03_Hechos_y_Nexos"
 WHERE contains(string(causa_vinculada), this.file.name)
 SORT fecha ASC
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```

@@ -6,6 +6,40 @@ tribunal_o_fiscalia: "Fiscalía Regional de Antofagasta / Juzgado de Garantía d
 fiscal_a_cargo: "Juan Castro Bekios / Cristian Aguilar"
 estado_judicial: formalizada
 delito_principal: "[[Fraude al Fisco]]"
+estado_verificacion: verificado
+fuentes:
+  - url: "https://www.latercera.com/nacional/noticia/democracia-viva-daniel-andrade-y-carlos-contreras-quedan-en-prision-preventiva/MKEUFESDTNEEZL44JWIARZAADM/"
+    titulo: "Democracia Viva: Daniel Andrade y Carlos Contreras quedan en prisión preventiva"
+    medio: "La Tercera"
+    tipo: secundaria
+    fecha: 2023-12-15
+    consultado: 2026-10-19
+  - url: "https://www.cnnchile.com/pais/formaliacion-daniel-andrade-carlos-contreras-caso-convenios-delitos-minvu-antofagasta/"
+    titulo: "Formalización de Daniel Andrade y Carlos Contreras: delitos y convenios Minvu Antofagasta"
+    medio: "CNN Chile"
+    tipo: secundaria
+    fecha: 2023-12-14
+    consultado: 2026-10-19
+  - url: "https://www.emol.com/noticias/Nacional/2023/08/31/1105868/contraloria-informe-democracia-viva-probidad.html"
+    titulo: "Contraloría publica informe sobre Democracia Viva y faltas a la probidad"
+    medio: "Emol"
+    tipo: secundaria
+    fecha: 2023-08-31
+    consultado: 2026-10-19
+  - url: "https://www.cnnchile.com/pais/formalizacion-camila-polizzi-convenios_20231129/"
+    titulo: "Formalización de Camila Polizzi (Fundación En Ti) en Caso Convenios"
+    medio: "CNN Chile"
+    tipo: secundaria
+    fecha: 2023-11-29
+    consultado: 2026-10-19
+  - url: "https://www.cooperativa.cl/noticias/pais/judicial/casos-emblematicos/alberto-larrain-fue-formalizado-por-la-arista-biobio-del-caso-procultura/2026-08-05/232613.html"
+    titulo: "Alberto Larraín fue formalizado por la arista Biobío del caso ProCultura"
+    medio: "Cooperativa"
+    tipo: secundaria
+    fecha: 2026-08-05
+    consultado: 2026-10-19
+alertas_verificacion:
+  - "ProCultura: formalización arista RM (fraude al fisco, feb-2026, 7° JG Santiago) y arista Biobío (apropiación indebida, 05-08-2026). Actualizar estado de Larraín."
 tags:
   - causa
   - caso-convenios
@@ -52,3 +86,15 @@ SORT fecha ASC
   - [[Carlos Contreras Gutierrez]] (Ex Seremi MINVU Antofagasta)
   - [[Daniel Andrade Schwarze]] (Representante Legal de Democracia Viva)
 - **Evidencia Documental Base**: [[Resolucion-Exenta-MINVU-Antofagasta-2022]]
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
+```

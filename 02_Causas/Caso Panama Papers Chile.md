@@ -6,6 +6,21 @@ tribunal_o_fiscalia: "Servicio de Impuestos Internos (Subdirección de Fiscaliza
 fiscal_a_cargo: "Subdirección de Fiscalización SII / Unidad Especializada Anticorrupción y Lavado de Activos (UNAC)"
 estado_judicial: en_investigacion
 delito_principal: "[[Delito Tributario]]"
+estado_verificacion: parcial
+fuentes:
+  - url: "https://ciperchile.cl/2016/04/04/the-panama-papers-los-secretos-de-chilenos-en-paraisos-fiscales-salen-a-la-luz/"
+    titulo: "The Panama Papers: los secretos de chilenos en paraísos fiscales salen a la luz"
+    medio: "CIPER Chile"
+    tipo: secundaria
+    fecha: 2016-04-04
+    consultado: 2026-10-19
+  - url: "https://offshoreleaks.icij.org/"
+    titulo: "ICIJ Offshore Leaks Database"
+    medio: "ICIJ"
+    tipo: primaria
+    consultado: 2026-10-19
+alertas_verificacion:
+  - "Aparecer en Panama Papers no implica ilegalidad (CIPER 2016: 'aún no hay evidencias de ilegalidades'). No se encontró fuente para la actuación del SII/UAF ni para el RUC indicado."
 tags:
   - causa
   - panama-papers
@@ -46,4 +61,16 @@ TABLE WITHOUT ID
 FROM "03_Hechos_y_Nexos"
 WHERE contains(string(causa_vinculada), this.file.name)
 SORT fecha ASC
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```

@@ -6,6 +6,22 @@ tribunal_o_fiscalia: "Fiscalía Metropolitana Centro Norte / 4° Juzgado de Gara
 fiscal_a_cargo: "Francisco Jacir"
 estado_judicial: formalizada
 delito_principal: "[[Malversacion de Caudales Publicos]]"
+estado_verificacion: verificado
+fuentes:
+  - url: "https://www.latercera.com/la-tercera-pm/noticia/fiscalia-formalizara-a-exalcalde-raul-torrealba-por-fraude-al-fisco-y-ademas-lo-imputara-como-lider-de-una-asociacion-ilicita-que-opero-en-vitacura/4Z5EW4AI5VFNRDG6YE6J4FFEI4/"
+    titulo: "Fiscalía formalizará a exalcalde Raúl Torrealba por fraude al fisco y asociación ilícita"
+    medio: "La Tercera"
+    tipo: secundaria
+    fecha: 2023-05-03
+    consultado: 2026-10-19
+  - url: "https://www.pauta.cl/actualidad/2023/06/15/formalizan-a-exalcalde-raul-torrealba-yo-quiero-que-la-institucion.html"
+    titulo: "Formalizan a exalcalde Raúl Torrealba"
+    medio: "Pauta"
+    tipo: secundaria
+    fecha: 2023-06-15
+    consultado: 2026-10-19
+alertas_verificacion:
+  - "La formalización es de junio de 2023 (4° JG Santiago); el vault indica año_inicio 2021. Prensa: 29 delitos de fraude al fisco por ~$766,9 millones."
 tags:
   - causa
   - caso-vitacura
@@ -40,4 +56,16 @@ TABLE WITHOUT ID
 FROM "03_Hechos_y_Nexos"
 WHERE contains(string(causa_vinculada), this.file.name)
 SORT fecha ASC
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```

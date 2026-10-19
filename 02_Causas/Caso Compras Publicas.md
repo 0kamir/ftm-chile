@@ -6,6 +6,10 @@ tribunal_o_fiscalia: "Fiscalía de Alta Complejidad Centro Norte"
 fiscal_a_cargo: "Giovanna Herrera"
 estado_judicial: investigacion
 delito_principal: "[[Negociacion Incompatible]]"
+estado_verificacion: sin_fuente
+fuentes: []
+alertas_verificacion:
+  - "CRÍTICO: no se encontró ninguna fuente pública para 'Consultora Gestion Publica SpA', 'Jorge Valdivia Correa' ni para esta causa. Puede ser un registro de ejemplo o ficticio: no publicar como hecho hasta verificarlo o retirarlo."
 tags:
   - causa
   - compras-publicas
@@ -39,4 +43,16 @@ TABLE WITHOUT ID
 FROM "03_Hechos_y_Nexos"
 WHERE contains(string(causa_vinculada), this.file.name)
 SORT fecha ASC
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```

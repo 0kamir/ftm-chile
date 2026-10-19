@@ -6,6 +6,20 @@ tribunal_o_fiscalia: "5° Juzgado del Crimen de Santiago / Corte de Apelaciones 
 fiscal_a_cargo: "Ministro en Visita Alejandro Solís Muñoz / Consejo de Defensa del Estado"
 estado_judicial: sobreseida
 delito_principal: "[[Fraude al Fisco]]"
+estado_verificacion: verificado
+fuentes:
+  - url: "https://www.cooperativa.cl/noticias/site/artic/20100507/pags-amp/20100507182039.html"
+    titulo: "Juez Valderrama sobreseyó arista de los 'Pinocheques' en caso Riggs"
+    medio: "Cooperativa"
+    tipo: secundaria
+    fecha: 2010-05-07
+    consultado: 2026-10-19
+  - url: "https://cooperativa.cl/noticias/pais/augusto-pinochet/frei-descarto-presiones-militares-para-cerrar-el-caso-de-los/2004-12-07/082825.html"
+    titulo: "Frei descartó presiones militares para cerrar el caso de los 'pinocheques'"
+    medio: "Cooperativa"
+    tipo: secundaria
+    fecha: 2004-12-07
+    consultado: 2026-10-19
 tags:
   - causa
   - caso-pinocheques
@@ -45,4 +59,16 @@ TABLE WITHOUT ID
 FROM "03_Hechos_y_Nexos"
 WHERE contains(string(causa_vinculada), this.file.name)
 SORT fecha ASC
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```

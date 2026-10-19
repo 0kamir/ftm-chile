@@ -6,6 +6,22 @@ tribunal_o_fiscalia: "Tribunal de Juicio Oral en lo Penal de Temuco / Fiscalía 
 fiscal_a_cargo: "Carlos Palma Guerra / Roberto Garrido Bedwell"
 estado_judicial: cerrada_con_condena
 delito_principal: "[[Falsificacion de Instrumento Publico]]"
+estado_verificacion: verificado
+fuentes:
+  - url: "https://www.eldinamo.cl/pais/2026/04/02/el-profesor-smith-condenado-a-12-anos-de-carcel-por-montaje-en-operacion-huracan/"
+    titulo: "El 'profesor' Smith condenado a 12 años de cárcel por montaje en Operación Huracán"
+    medio: "El Dínamo"
+    tipo: secundaria
+    fecha: 2026-04-02
+    consultado: 2026-10-19
+  - url: "https://www.biobiochile.cl/noticias/nacional/region-de-la-araucania/2026/05/04/profesor-smith-y-otros-3-condenados-en-operacion-huracan-presentan-recurso-para-anular-sentencia.shtml"
+    titulo: "Profesor Smith y otros 3 condenados en Operación Huracán presentan recurso para anular sentencia"
+    medio: "BioBioChile"
+    tipo: secundaria
+    fecha: 2026-05-04
+    consultado: 2026-10-19
+alertas_verificacion:
+  - "Veredicto 09-01-2026 y sentencia 02-04-2026, con recursos de nulidad pendientes (mayo 2026): la sentencia no está firme. La evidencia se titula '...-2024'."
 tags:
   - causa
   - operacion-huracan
@@ -48,4 +64,16 @@ TABLE WITHOUT ID
 FROM "03_Hechos_y_Nexos"
 WHERE contains(string(causa_vinculada), this.file.name)
 SORT fecha ASC
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```

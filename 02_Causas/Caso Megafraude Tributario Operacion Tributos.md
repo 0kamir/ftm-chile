@@ -6,6 +6,27 @@ tribunal_o_fiscalia: "1° Juzgado de Garantía de Santiago / Fiscalía Regional 
 fiscal_a_cargo: "Eduardo Baeza Cervela / José Luis Pérez Calaf"
 estado_judicial: formalizada_con_prisiones_preventivas
 delito_principal: "[[Delito Tributario]]"
+estado_verificacion: verificado
+fuentes:
+  - url: "https://www.biobiochile.cl/noticias/economia/negocios-y-empresas/2023/12/15/sii-confirma-que-55-empresarios-detenidos-concretaron-el-mayor-fraude-de-la-historia-contra-el-fisco.shtml"
+    titulo: "SII confirma que 55 empresarios detenidos concretaron el mayor fraude de la historia contra el fisco"
+    medio: "BioBioChile"
+    tipo: secundaria
+    fecha: 2023-12-15
+    consultado: 2026-10-19
+  - url: "https://www.latercera.com/nacional/noticia/megafraude-tributario-clan-de-pavez-canessa-vendia-facturas-falsas-y-contaba-con-un-notario-suplente-en-la-organizacion/552EKQIRDRFKBNGSSO2I3L2N3I/"
+    titulo: "Megafraude tributario: clan Pavez Canessa vendía facturas falsas"
+    medio: "La Tercera"
+    tipo: secundaria
+    consultado: 2026-10-19
+  - url: "https://cooperativa.cl/noticias/pais/judicial/denuncias-de-corrupcion/caso-tributos-fiscalia-pide-prision-preventiva-para-26-empresarios/2023-12-18/164214.html"
+    titulo: "Caso Tributos: Fiscalía pide prisión preventiva para 26 empresarios"
+    medio: "Cooperativa"
+    tipo: secundaria
+    fecha: 2023-12-18
+    consultado: 2026-10-19
+alertas_verificacion:
+  - "La prensa identifica como líder a José Antonio Pavez Canessa. La persona 'Carlos Pavez Tolosa' del vault no aparece en las fuentes revisadas: verificar identidad antes de publicar."
 tags:
   - causa
   - operacion-tributos
@@ -50,4 +71,16 @@ TABLE WITHOUT ID
 FROM "03_Hechos_y_Nexos"
 WHERE contains(string(causa_vinculada), this.file.name)
 SORT fecha ASC
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```

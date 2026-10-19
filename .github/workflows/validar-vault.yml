@@ -1,0 +1,22 @@
+name: Validar vault
+
+on:
+  pull_request:
+  push:
+    branches: [master]
+
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+      - name: Esquema, Módulo 11, enlaces y fuentes (estricto)
+        run: python3 00_Meta/Scripts/validate_vault.py --estricto
+      - name: Cobertura de fuentes y alertas
+        run: python3 00_Meta/Scripts/check_sources.py
+      - name: Suite de tests
+        run: python3 00_Meta/Scripts/test_vault.py

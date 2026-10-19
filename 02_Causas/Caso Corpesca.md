@@ -6,6 +6,28 @@ tribunal_o_fiscalia: "Fiscalía de Alta Complejidad Centro Norte / 3° TOP de Sa
 fiscal_a_cargo: "Ximena Chong / Jaime Retamal"
 estado_judicial: cerrada
 delito_principal: "[[Cohecho]]"
+estado_verificacion: verificado
+fuentes:
+  - url: "https://www.cooperativa.cl/noticias/site/artic/20201202/pags-amp/20201202131131.html"
+    titulo: "Caso Corpesca: Jaime Orpis fue condenado por fraude al Fisco y cohecho"
+    medio: "Cooperativa"
+    tipo: secundaria
+    fecha: 2020-12-02
+    consultado: 2026-10-19
+  - url: "https://www.cooperativa.cl/noticias/site/artic/20210416/pags-amp/20210416121129.html"
+    titulo: "Ex senador Jaime Orpis irá a la cárcel por fraude al Fisco y cohecho"
+    medio: "Cooperativa"
+    tipo: secundaria
+    fecha: 2021-04-16
+    consultado: 2026-10-19
+  - url: "https://www.cooperativa.cl/noticias/site/artic/20220106/pags-amp/20220106164027.html"
+    titulo: "Corte confirmó la pena de cárcel para el ex senador Jaime Orpis"
+    medio: "Cooperativa"
+    tipo: secundaria
+    fecha: 2022-01-06
+    consultado: 2026-10-19
+alertas_verificacion:
+  - "La sentencia con penas es de 16-04-2021 (veredicto 02-12-2020) y fue confirmada por la Corte de Apelaciones el 06-01-2022. La evidencia se titula 'Sentencia-3TOP-Santiago-Corpesca-2020'."
 tags:
   - causa
   - caso-corpesca
@@ -41,4 +63,16 @@ TABLE WITHOUT ID
 FROM "03_Hechos_y_Nexos"
 WHERE contains(string(causa_vinculada), this.file.name)
 SORT fecha ASC
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```

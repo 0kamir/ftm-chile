@@ -6,6 +6,22 @@ tribunal_o_fiscalia: "Fiscalía Regional de O'Higgins / Tribunal de Juicio Oral 
 fiscal_a_cargo: "Emiliano Arias Madariaga / Sergio Moya Domke"
 estado_judicial: cerrada_con_condena
 delito_principal: "[[Delito Tributario]]"
+estado_verificacion: verificado
+fuentes:
+  - url: "https://www.biobiochile.cl/noticias/nacional/chile/2018/07/11/lectura-de-sentencia-caso-caval.shtml"
+    titulo: "Lectura de sentencia Caso Caval"
+    medio: "BioBioChile"
+    tipo: secundaria
+    fecha: 2018-07-11
+    consultado: 2026-10-19
+  - url: "https://www.cnnchile.com/pais/rechazan-recurso-de-nulidad-presentado-por-natalia-compagnon_20181018/"
+    titulo: "Rechazan recurso de nulidad presentado por Natalia Compagnon"
+    medio: "CNN Chile"
+    tipo: secundaria
+    fecha: 2018-10-18
+    consultado: 2026-10-19
+alertas_verificacion:
+  - "Prensa: TOP Rancagua condenó a Compagnon solo por delito tributario (541 días remitidos, multa); Mauricio Valero y la sociedad Caval fueron absueltos y no hubo condena por soborno. Revisar TRX-2014-02-18-Soborno-Caval-Machali-01 y situacion_procesal de Valero."
 tags:
   - causa
   - especulacion-inmobiliaria
@@ -40,4 +56,16 @@ TABLE WITHOUT ID
 FROM "03_Hechos_y_Nexos"
 WHERE contains(string(causa_vinculada), this.file.name)
 SORT fecha ASC
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```

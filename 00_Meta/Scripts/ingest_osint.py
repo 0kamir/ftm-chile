@@ -3,12 +3,16 @@
 Ingestador OSINT de Transferencias y Convenios Públicos (Estándar Registros 19.862 / Transparencia).
 Convierte filas CSV o registros JSON en nodos de aristas reificadas (.md) dentro de `03_Hechos_y_Nexos/`.
 
+Columnas de fuente (recomendadas): fuente_url, fuente_titulo, fuente_medio, fuente_tipo, fuente_fecha.
+Sin `fuente_url` la nota queda con `estado_verificacion: sin_fuente`. Nunca sobrescribe notas existentes.
+
 Uso:
   python3 00_Meta/Scripts/ingest_osint.py --input transferencias.csv [--dry-run]
 """
 
 import argparse
 import csv
+import datetime
 import json
 import os
 import re
@@ -44,6 +48,24 @@ def render_nexo_markdown(row: dict) -> tuple[str, str]:
         )
     ).strip()
 
+    fuente_url = str(row.get("fuente_url", "")).strip()
+    if fuente_url:
+        fuente = {
+            "url": fuente_url,
+            "titulo": str(row.get("fuente_titulo") or "Registro de transparencia").strip(),
+            "medio": str(row.get("fuente_medio") or "Portal de Transparencia").strip(),
+            "tipo": str(row.get("fuente_tipo") or "primaria").strip(),
+        }
+        if str(row.get("fuente_fecha", "")).strip():
+            fuente["fecha"] = str(row["fuente_fecha"]).strip()
+        fuente["consultado"] = datetime.date.today().isoformat()
+        bloque_fuentes = "estado_verificacion: parcial\nfuentes:\n" + "".join(
+            f"  {'-' if i == 0 else ' '} {k}: {json.dumps(v, ensure_ascii=False)}\n"
+            for i, (k, v) in enumerate(fuente.items())
+        )
+    else:
+        bloque_fuentes = "estado_verificacion: sin_fuente\nfuentes: []\n"
+
     content = f"""---
 tipo_nodo: nexo_transaccion
 fecha: {fecha}
@@ -56,7 +78,7 @@ firmante_destino: "[[{firmante_destino}]]"
 causa_vinculada: "[[{causa_vinculada}]]"
 delito_imputado: "[[{delito_imputado}]]"
 evidencia_soporte: "[[{evidencia_soporte}]]"
-tags:
+{bloque_fuentes}tags:
   - nexo/transaccion
   - osint-ingested
 ---
@@ -107,7 +129,9 @@ def main() -> int:
     for rec in records:
         fname, md = render_nexo_markdown(rec)
         out_path = os.path.join(NEXOS_DIR, fname)
-        if args.dry_run:
+        if os.path.exists(out_path):
+            print(f"[SKIP] Ya existe, no se sobrescribe: {out_path}")
+        elif args.dry_run:
             print(f"[DRY-RUN] Generaría: {out_path}")
         else:
             with open(out_path, "w", encoding="utf-8") as f:

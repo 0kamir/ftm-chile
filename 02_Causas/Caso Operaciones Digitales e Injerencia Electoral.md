@@ -6,6 +6,28 @@ tribunal_o_fiscalia: "Fiscalía Regional Metropolitana Centro Norte / 7° Juzgad
 fiscal_a_cargo: "Fiscalía Metropolitana Centro Norte / Comisión Investigadora Cámara de Diputados"
 estado_judicial: investigacion_desformalizada
 delito_principal: "[[Fraude al Fisco]]"
+estado_verificacion: verificado
+fuentes:
+  - url: "https://www.cnnchile.com/pais/fiscalia-centro-norte-abre-investigacion-por-presuntos-delitos-informaticos-vinculados-a-fernando-cerimedo/"
+    titulo: "Fiscalía Centro Norte abre investigación por presuntos delitos informáticos vinculados a Fernando Cerimedo"
+    medio: "CNN Chile"
+    tipo: secundaria
+    fecha: 2026-09-03
+    consultado: 2026-10-19
+  - url: "https://www.pauta.cl/actualidad/2026/09/04/fiscalia-centro-norte-abre-investigacion-por-eventual-intervencion-de-fernando-cerimedo-en-procesos-electorales-en-chile.html"
+    titulo: "Fiscalía Centro Norte abre investigación por eventual intervención de Cerimedo en procesos electorales"
+    medio: "Pauta"
+    tipo: secundaria
+    fecha: 2026-09-04
+    consultado: 2026-10-19
+  - url: "https://www.theclinic.cl/2026/08/28/el-dia-que-el-rey-de-los-trolls-llego-a-la-sede-de-rn-la-viralizada-foto-con-cerimedo-que-reunio-a-figuras-ligadas-a-la-udi-parisi-y-el-actual-segundo-piso/"
+    titulo: "El día que el 'rey de los trolls' llegó a la sede de RN"
+    medio: "The Clinic"
+    tipo: secundaria
+    fecha: 2026-08-28
+    consultado: 2026-10-19
+alertas_verificacion:
+  - "La investigación se abrió en septiembre de 2026 (el vault indica año_inicio 2024 y un RUC de 2024). Según The Clinic, RN afirma que Cerimedo nunca fue contratado por el partido."
 tags:
   - causa
   - desinformacion
@@ -49,4 +71,16 @@ TABLE WITHOUT ID
 FROM "03_Hechos_y_Nexos"
 WHERE contains(string(causa_vinculada), this.file.name)
 SORT fecha ASC
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```

@@ -6,6 +6,22 @@ tribunal_o_fiscalia: "3° Juzgado del Crimen de Santiago / Ministra en Visita Gl
 fiscal_a_cargo: "Gloria Ana Chevesich Ruiz (Ministra en Visita Extraordinaria)"
 estado_judicial: cerrada_con_condena
 delito_principal: "[[Fraude al Fisco]]"
+estado_verificacion: verificado
+fuentes:
+  - url: "https://www.emol.com/noticias/Nacional/2016/06/29/810116/Corte-Suprema-dicta-sentencia-definitiva-en-el-caso-Mop-Gate-y-confirma-condenas.html"
+    titulo: "Corte Suprema dicta sentencia definitiva en el caso MOP-Gate y confirma condenas"
+    medio: "Emol"
+    tipo: secundaria
+    fecha: 2016-06-29
+    consultado: 2026-10-19
+  - url: "https://www.emol.com/noticias/nacional/2010/07/01/422053/caso-mop-gate-ex-ministro-carlos-cruz-condenado-a-tres-anos-de-pena-remitida.html"
+    titulo: "Caso MOP-Gate: ex ministro Carlos Cruz condenado a tres años de pena remitida"
+    medio: "Emol"
+    tipo: secundaria
+    fecha: 2010-07-01
+    consultado: 2026-10-19
+alertas_verificacion:
+  - "La prensa identifica a la empresa como GATE (Gestión Ambiental y Territorial S.A.). El vault usa 'GESCAM' en TRX-2001-08-20 y TRX-2002-04-12: verificar nombre."
 tags:
   - causa
   - sobresueldos
@@ -38,4 +54,16 @@ TABLE WITHOUT ID
 FROM "03_Hechos_y_Nexos"
 WHERE contains(string(causa_vinculada), this.file.name)
 SORT fecha ASC
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```

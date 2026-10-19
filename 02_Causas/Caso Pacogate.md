@@ -6,6 +6,28 @@ tribunal_o_fiscalia: "Fiscalía Regional de Magallanes / 7° Juzgado de Garantí
 fiscal_a_cargo: "Eugenio Campos Lucero"
 estado_judicial: cerrada
 delito_principal: "[[Malversacion de Caudales Publicos]]"
+estado_verificacion: desactualizado
+fuentes:
+  - url: "https://www.elmostrador.cl/noticias/pais/2026/04/15/caso-pacogate-rechazan-prision-preventiva-para-los-25-condenados-por-megafraude/"
+    titulo: "Caso Pacogate: rechazan prisión preventiva para los 25 condenados por megafraude"
+    medio: "El Mostrador"
+    tipo: secundaria
+    fecha: 2026-04-15
+    consultado: 2026-10-19
+  - url: "https://www.biobiochile.cl/noticias/nacional/chile/2021/05/10/pacogate-postergan-juicio-oral-de-31-imputados-por-fraude-en-carabineros-hasta-el-20-de-septiembre.shtml"
+    titulo: "Pacogate: postergan juicio oral de 31 imputados"
+    medio: "BioBioChile"
+    tipo: secundaria
+    fecha: 2021-05-10
+    consultado: 2026-10-19
+  - url: "https://www.theclinic.cl/2017/04/04/pacogate-las-claves-la-investigacion-millonario-fraude-carabineros/"
+    titulo: "Pacogate: las claves de la investigación"
+    medio: "The Clinic"
+    tipo: secundaria
+    fecha: 2017-04-04
+    consultado: 2026-10-19
+alertas_verificacion:
+  - "Veredicto del juicio oral: abril de 2026 (25 de 28 condenados; se descartó asociación ilícita). Las penas se conocerán en la sentencia (prensa: feb-2027). La evidencia 'Sentencia-TOP-Santiago-Pacogate-2021' no coincide con esa cronología."
 tags:
   - causa
   - caso-pacogate
@@ -39,4 +61,16 @@ TABLE WITHOUT ID
 FROM "03_Hechos_y_Nexos"
 WHERE contains(string(causa_vinculada), this.file.name)
 SORT fecha ASC
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```

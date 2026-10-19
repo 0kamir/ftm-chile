@@ -5,9 +5,16 @@ tipo_documento: "Sentencia Definitiva de Casación y Comiso Patrimonial (Rol N°
 fecha_emision: 2018-08-24
 organismo_emisor: "[[Corte Suprema de Chile]]"
 fuente_osint: "Poder Judicial de Chile (pjud.cl) / US Senate Permanent Subcommittee on Investigations / Peritaje FEN Universidad de Chile"
-estado_verificacion: verificado
 causa_vinculada: "[[Caso Riggs]]"
 nexo_respaldado: "[[TRX-2004-07-14-Desvio-Gastos-Reservados-Riggs-Pinochet-01]]"
+estado_verificacion: verificado
+fuentes:
+  - url: "https://www.cnnchile.com/pais/caso-riggs-fue-cerrado-por-la-corte-suprema-tras-14-anos/"
+    titulo: "Caso Riggs fue cerrado por la Corte Suprema tras 14 años"
+    medio: "CNN Chile"
+    tipo: secundaria
+    fecha: 2018-08-24
+    consultado: 2026-10-19
 tags:
   - evidencia/sentencia
   - caso-riggs
@@ -31,3 +38,15 @@ tags:
 Sentencia definitiva dictada el 24 de agosto de 2018 por la Segunda Sala Penal de la [[Corte Suprema de Chile]] (Rol N° `16.865-2017`) en el [[Caso Riggs]], sobre la base de la instrucción iniciada por el Ministro en Visita [[Sergio Munoz Gajardo]], las querellas del [[Servicio Impuestos Internos]] y el peritaje contable de la Universidad de Chile:
 1. **Acreditación del Origen Ilícito de la Fortuna (US$ 17,86 Millones)**: Estableció como hecho probado que [[Augusto Pinochet Ugarte]] acumuló en [[Riggs Bank y Sociedades Offshore Ashburton]] más de US$ 21,32 millones, de los cuales **US$ 17,86 millones** provinieron directamente de la sustracción de fondos públicos de gastos reservados de la Comandancia en Jefe del Ejército ([[Comando de Apoyo a la Fuerza del Ejercito]]) y de triangulaciones que incluyeron caudales originados en el [[Caso Pinocheques]] ([[TRX-1989-01-10-Emision-Pinocheques-Ejercito-Valmoval-01]]).
 2. **Condenas Penales y Comiso Patrimonial a Favor del Fisco**: Condenó a tres oficiales de Ejército encargados de las cuentas secretas como autores de [[Malversacion de Caudales Publicos]] y ordenó el **comiso definitivo a favor del Fisco de Chile de US$ 1.649.142 en instrumentos financieros, 24 bienes inmuebles y una flota de vehículos** pertenecientes al patrimonio de [[Augusto Pinochet Ugarte]], [[Lucia Hiriart Rodriguez]] y sus sociedades pantalla estructuradas por [[Oscar Aitken Lavanchy]].
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
+```

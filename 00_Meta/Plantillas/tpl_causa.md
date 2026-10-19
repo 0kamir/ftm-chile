@@ -6,6 +6,15 @@ tribunal_o_fiscalia: ""
 fiscal_a_cargo: ""
 estado_judicial: investigacion # investigacion | formalizada | juicio_oral | cerrada
 delito_principal: ""
+estado_verificacion: pendiente # verificado | parcial | desactualizado | sin_fuente | pendiente
+fuentes:
+  - url: "https://"
+    titulo: ""
+    medio: ""
+    tipo: primaria # primaria (documento oficial) | secundaria (prensa / academia)
+    fecha: YYYY-MM-DD
+    archivo: "https://web.archive.org/"
+    consultado: YYYY-MM-DD
 tags:
   - causa
 ---
@@ -36,4 +45,16 @@ TABLE WITHOUT ID
 FROM "03_Hechos_y_Nexos"
 WHERE contains(string(causa_vinculada), this.file.name)
 SORT fecha ASC
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```

@@ -6,6 +6,28 @@ tribunal_o_fiscalia: "Fiscalía Regional de Coquimbo / 7° Juzgado de Garantía 
 fiscal_a_cargo: "Patricio Cooper Monti"
 estado_judicial: en_investigacion
 delito_principal: "[[Fraude al Fisco]]"
+estado_verificacion: verificado
+fuentes:
+  - url: "https://www.ciperchile.cl/2023/03/09/compra-de-clinica-sierra-bella-fiscalia-pide-documentos-a-seremi-de-salud-impuestos-internos-y-conservador-de-bienes/"
+    titulo: "Compra de clínica Sierra Bella: Fiscalía pide documentos"
+    medio: "CIPER Chile"
+    tipo: secundaria
+    fecha: 2023-03-09
+    consultado: 2026-10-19
+  - url: "https://www.biobiochile.cl/especial/bbcl-investiga/noticias/de-pasillo/2023/04/13/amp/golpe-a-hassler-contraloria-objeta-polemica-compra-de-clinica-sierra-bella-y-deja-operacion-en-vilo.shtml"
+    titulo: "Contraloría objeta polémica compra de clínica Sierra Bella"
+    medio: "BioBioChile"
+    tipo: secundaria
+    fecha: 2023-04-13
+    consultado: 2026-10-19
+  - url: "https://www.emol.com/noticias/Nacional/2023/04/14/1092228/cronologia-compra-sierra-bella-santiago.html"
+    titulo: "Cronología de la compra de Sierra Bella"
+    medio: "Emol"
+    tipo: secundaria
+    fecha: 2023-04-14
+    consultado: 2026-10-19
+alertas_verificacion:
+  - "La municipalidad no perseveró en la compra tras el informe de Contraloría. Verificar si TRX-2023-01-20-Compraventa-Clinica-SierraBella-01 registra un pago que no ocurrió, y la fiscalía a cargo (el vault dice Coquimbo)."
 tags:
   - causa
   - sobreprecio-inmobiliario
@@ -38,4 +60,16 @@ TABLE WITHOUT ID
 FROM "03_Hechos_y_Nexos"
 WHERE contains(string(causa_vinculada), this.file.name)
 SORT fecha ASC
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```

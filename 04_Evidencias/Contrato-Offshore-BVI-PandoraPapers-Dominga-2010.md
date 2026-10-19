@@ -5,9 +5,16 @@ tipo_documento: "Contrato Offshore en Islas Vírgenes Británicas (Pandora Paper
 fecha_emision: 2021-10-03
 organismo_emisor: "[[Corte Suprema de Chile]]"
 fuente_osint: "International Consortium of Investigative Journalists (ICIJ Pandora Papers) / CIPER Chile / Cámara de Diputadas y Diputados de Chile"
-estado_verificacion: verificado
 causa_vinculada: "[[Caso Minera Dominga Pandora Papers]]"
 nexo_respaldado: "[[TRX-2010-12-10-Compraventa-Offshore-Dominga-Bancard-Delano-01]]"
+estado_verificacion: verificado
+fuentes:
+  - url: "https://www.radioagricultura.cl/noticias/nacional/pandora-papers-investigacion-asegura-que-pinera-vendio-minera-dominga-a-delano-en-islas-virgenes-britanicas_20211003/"
+    titulo: "Pandora Papers: Piñera vendió Minera Dominga a Délano en Islas Vírgenes Británicas"
+    medio: "Radio Agricultura"
+    tipo: secundaria
+    fecha: 2021-10-03
+    consultado: 2026-10-19
 tags:
   - evidencia/contrato
   - caso-dominga
@@ -32,3 +39,15 @@ Instrumento contractual firmado en las Islas Vírgenes Británicas el 10 de dici
 1. **Venta del Proyecto Dominga entre el Presidente en Ejercicio y su Amigo Carlos Alberto Délano**: Acreditó que [[Bancard Inversiones Ltda]] (*Bancard International Investment Inc.*), perteneciente a la familia de [[Sebastian Pinera Echenique]], vendió a [[Andes Iron SpA]] —controlada por [[Carlos Alberto Delano Abbott]] ([[Empresas Penta SA]])— su participación en el proyecto minero-portuario Dominga por **US$ 152 millones** (`$75.500.000.000 CLP` en [[TRX-2010-12-10-Compraventa-Offshore-Dominga-Bancard-Delano-01]]).
 2. **La Cláusula Tercera de No Protección Ambiental**: Estableció que el pago de la última cuota de **US$ 9,9 millones** (vencedora el 31 de diciembre de 2011) dependía de que el Gobierno de Chile no declarara un área de exclusión ambiental o parque nacional sobre la zona de La Higuera / Archipiélago de Humboldt, decisión administrativa que recaía directamente en el Ejecutivo presidido por [[Sebastian Pinera Echenique]].
 3. **Inversiones Paralelas en Islas Vírgenes Británicas (Caso Exalmar)**: Documentó la utilización de la misma estructura *offshore* (*Bancard International Investment Inc.* administrada por [[Santiago Valdes Gutierrez]]) para adquirir el `9,18%` de la pesquera peruana *Exalmar S.A.* durante el juicio marítimo en La Haya ([[TRX-2012-11-20-Inversion-Offshore-Bancard-Exalmar-LaHaya-01]]).
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
+```

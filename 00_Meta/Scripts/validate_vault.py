@@ -7,12 +7,16 @@ Verifica:
 3. Algoritmo Módulo 11 para todos los RUT chilenos registrados.
 4. Integridad referencial de todos los Wikilinks [[...]] (cero enlaces rotos).
 5. Cuadratura contable de `monto_clp` en `03_Hechos_y_Nexos/`.
+6. Esquema de `fuentes:` (URL, título, medio, tipo) y coherencia con `estado_verificacion`.
+   Con `--estricto`, toda causa y evidencia debe tener al menos una fuente con URL.
 """
 
 import os
 import re
 import sys
 import yaml
+
+from add_source import ESTADOS_VERIFICACION, TIPOS_FUENTE
 
 ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 
@@ -93,7 +97,50 @@ def extract_wikilinks(value) -> list[str]:
     return [m.strip() for m in matches if m.strip()]
 
 
-def main() -> int:
+# Tipos de nodo cuya afirmación debe estar respaldada por al menos una fuente con URL.
+TIPOS_CON_FUENTE = ("causa_judicial", "evidencia_documental")
+
+
+def validar_fuentes(rel_path: str, meta: dict, estricto: bool, errors: list, warnings: list) -> None:
+    fuentes = meta.get("fuentes")
+    estado = meta.get("estado_verificacion")
+    tipo = meta.get("tipo_nodo")
+
+    if estado is not None and estado not in ESTADOS_VERIFICACION:
+        errors.append(
+            f"[{rel_path}] estado_verificacion '{estado}' fuera del vocabulario {ESTADOS_VERIFICACION}."
+        )
+
+    if fuentes is None:
+        if tipo in TIPOS_CON_FUENTE:
+            (errors if estricto else warnings).append(f"[{rel_path}] Sin bloque 'fuentes:'.")
+        return
+    if not isinstance(fuentes, list):
+        errors.append(f"[{rel_path}] 'fuentes' debe ser una lista.")
+        return
+
+    for i, fuente in enumerate(fuentes):
+        if not isinstance(fuente, dict):
+            errors.append(f"[{rel_path}] fuentes[{i}] debe ser un diccionario.")
+            continue
+        url = str(fuente.get("url", ""))
+        if not re.match(r"^https?://\S+$", url):
+            errors.append(f"[{rel_path}] fuentes[{i}] sin URL http(s) válida: {url!r}.")
+        if fuente.get("tipo") not in TIPOS_FUENTE:
+            errors.append(f"[{rel_path}] fuentes[{i}].tipo debe ser uno de {TIPOS_FUENTE}.")
+        for req in ("titulo", "medio"):
+            if not str(fuente.get(req, "")).strip():
+                errors.append(f"[{rel_path}] fuentes[{i}] sin '{req}'.")
+
+    if estado == "verificado" and not fuentes:
+        errors.append(f"[{rel_path}] estado_verificacion=verificado sin ninguna fuente.")
+    if not fuentes and tipo in TIPOS_CON_FUENTE:
+        (errors if estricto else warnings).append(
+            f"[{rel_path}] Sin fuentes verificables (estado: {estado or 'sin declarar'})."
+        )
+
+
+def main(estricto: bool = False) -> int:
     errors: list[str] = []
     warnings: list[str] = []
     note_index: set[str] = set()
@@ -172,6 +219,8 @@ def main() -> int:
                     total_clp += int(monto)
                     total_nexos += 1
 
+            validar_fuentes(rel_path, meta, estricto, errors, warnings)
+
             # Verificar integridad referencial de todos los wikilinks en el YAML
             for k, v in meta.items():
                 for target in extract_wikilinks(v):
@@ -207,4 +256,4 @@ def main() -> int:
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    sys.exit(main(estricto="--estricto" in sys.argv))

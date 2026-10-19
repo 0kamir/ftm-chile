@@ -1,0 +1,58 @@
+name: Nueva información
+description: Proponer una causa, hecho, evidencia o actualización de estado procesal con su fuente.
+title: "[Nueva información] "
+labels: ["nueva-informacion", "por-verificar"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Lee el [flujo de incorporación](https://github.com/0kamir/ftm-chile/blob/master/00_Meta/Flujo_Incorporacion_Informacion.md) antes de enviar.
+        **Sin una URL verificable la propuesta no puede incorporarse.** No incluyas datos íntimos, de salud ni de víctimas.
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: Tipo de aporte
+      options:
+        - Causa nueva
+        - Hecho / transacción (TRX) nuevo
+        - Evidencia documental nueva
+        - Actualización de estado procesal (formalización, sentencia, absolución, sobreseimiento)
+        - Fuente adicional para una nota existente
+    validations:
+      required: true
+  - type: input
+    id: nota
+    attributes:
+      label: Nota relacionada del vault (si existe)
+      placeholder: "Caso SQM"
+  - type: textarea
+    id: hecho
+    attributes:
+      label: Hecho que se propone registrar
+      description: Qué ocurrió, quiénes participan, fecha y monto, en los términos exactos de la fuente.
+    validations:
+      required: true
+  - type: textarea
+    id: fuentes
+    attributes:
+      label: Fuentes (una por línea)
+      description: "URL | título | medio u organismo | primaria/secundaria | fecha de publicación"
+      placeholder: "https://www.pjud.cl/... | Sentencia RIT 123-2024 | 4° TOP Santiago | primaria | 2025-10-22"
+    validations:
+      required: true
+  - type: input
+    id: identificadores
+    attributes:
+      label: Identificadores oficiales
+      description: RUC, RIT, rol, resolución exenta, ID de orden de compra, etc. Solo si constan en la fuente.
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Verificación
+      options:
+        - label: Al menos una URL respalda directamente el hecho propuesto.
+          required: true
+        - label: Si atribuyo un delito a una persona, aporto una fuente primaria o dos secundarias independientes.
+          required: true
+        - label: La propuesta no contiene datos íntimos, de salud ni de víctimas.
+          required: true

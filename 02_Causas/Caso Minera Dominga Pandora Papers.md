@@ -6,6 +6,22 @@ tribunal_o_fiscalia: "Fiscalía Nacional / Fiscalía Regional de Valparaíso / 7
 fiscal_a_cargo: "Claudia Perivancich Hoyuelos (Fiscal Regional de Valparaíso) / Manuel Guerra Fuenzalida (Arista 2017)"
 estado_judicial: sobreseida
 delito_principal: "[[Cohecho]]"
+estado_verificacion: verificado
+fuentes:
+  - url: "https://www.latercera.com/nacional/noticia/fiscalia-cierra-investigacion-por-el-caso-dominga-y-solicita-sobreseimiento-definitivo/ETCJHQKLVNFKVBX3M7Y7SJGK6I/"
+    titulo: "Fiscalía cierra investigación por el caso Dominga y solicita sobreseimiento definitivo"
+    medio: "La Tercera"
+    tipo: secundaria
+    fecha: 2024-01-05
+    consultado: 2026-10-19
+  - url: "https://www.meganoticias.cl/nacional/354151-sebastian-pinera-presidente-pandora-papers-proyecto-minera-dominga-venta-paraiso-fiscal-islas-virgenes-05-10-2021.html"
+    titulo: "Pandora Papers: venta de Minera Dominga en Islas Vírgenes"
+    medio: "Meganoticias"
+    tipo: secundaria
+    fecha: 2021-10-05
+    consultado: 2026-10-19
+alertas_verificacion:
+  - "Fiscalía pidió sobreseimiento definitivo en enero de 2024; no se confirmó la resolución del tribunal."
 tags:
   - causa
   - caso-dominga
@@ -45,4 +61,16 @@ TABLE WITHOUT ID
 FROM "03_Hechos_y_Nexos"
 WHERE contains(string(causa_vinculada), this.file.name)
 SORT fecha ASC
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```

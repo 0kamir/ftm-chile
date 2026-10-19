@@ -5,9 +5,21 @@ tipo_documento: "Informe de la Comisión Church del Senado de EE.UU. (Covert Act
 fecha_emision: 1975-12-18
 organismo_emisor: "[[Corte Suprema de Chile]]"
 fuente_osint: "U.S. Senate Select Committee to Study Governmental Operations with Respect to Intelligence Activities (1975) / National Security Archive (nsarchive.gwu.edu) / Poder Judicial de Chile"
-estado_verificacion: verificado
 causa_vinculada: "[[Caso Operacion FUBELT Intervencion CIA y DINA]]"
 nexo_respaldado: "[[TRX-1971-09-09-Financiamiento-Encubierto-CIA-ElMercurio-Edwards-01]]"
+estado_verificacion: verificado
+fuentes:
+  - url: "https://irp.fas.org/cia/product/chile/index.html"
+    titulo: "CIA Activities in Chile (Informe Hinchey)"
+    medio: "CIA / FAS"
+    tipo: primaria
+    fecha: 2000-09-18
+    consultado: 2026-10-19
+  - url: "https://www.tni.org/en/article/hinchey-report-on-cia-activities-in-chile"
+    titulo: "Hinchey Report on CIA Activities in Chile"
+    medio: "Transnational Institute"
+    tipo: secundaria
+    consultado: 2026-10-19
 tags:
   - evidencia/informe
   - proyecto-fubelt
@@ -33,3 +45,15 @@ Tríada de informes oficiales desclasificados por el Senado, el Departamento de 
 1. **Informe de la Comisión Church (*Covert Action in Chile 1963–1973*, 18 de diciembre de 1975)**: Certificó que el *"Comité 40"* autorizó más de **US$ 8 millones** en operaciones encubiertas de la [[Agencia Central de Inteligencia CIA y Escuela de las Americas]] contra el gobierno de Salvador Allende, incluyendo **US$ 1.950.000** entregados directamente a [[Empresa El Mercurio SAP]] de [[Agustin Edwards Eastman]] ([[TRX-1971-09-09-Financiamiento-Encubierto-CIA-ElMercurio-Edwards-01]]) y fondos hacia organizaciones opositoras y gremiales que sostuvieron los paros de camioneros y del comercio en 1972–1973 ([[TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-CIA-01]]).
 2. **Desclasificación de los Manuales de la Escuela de las Américas (Departamento de Defensa de EE.UU., 20 de septiembre de 1996)**: Reconoció oficialmente que siete manuales en español (*Proyecto X*: *Manejo de Fuentes*, *Contrainteligencia*, *Interrogación*) utilizados entre 1970 y 1991 en la *U.S. Army School of the Americas* (Panamá) para entrenar a militares latinoamericanos y chilenos instruían métodos de tortura, ejecución sumaria, extorsión y detención clandestina.
 3. **Informe Hinchey (*CIA Activities in Chile*, 19 de septiembre de 2000)**: Admitió ante el Congreso estadounidense que el jefe de la DINA, [[Manuel Contreras Sepulveda]], estuvo en la nómina de activos pagados por la CIA entre 1974 y 1977 bajo el régimen de [[Augusto Pinochet Ugarte]] ([[TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01]]).
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
+```

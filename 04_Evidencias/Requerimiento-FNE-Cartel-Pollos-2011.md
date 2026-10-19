@@ -5,9 +5,16 @@ tipo_documento: "Requerimiento de la Fiscalía Nacional Económica ante el TDLC 
 fecha_emision: 2011-11-30
 organismo_emisor: "[[Fiscalia Nacional Economica]]"
 fuente_osint: "Fiscalía Nacional Económica (fne.gob.cl)"
-estado_verificacion: verificado
 causa_vinculada: "[[Caso Colusion de los Pollos]]"
 nexo_respaldado: "[[TRX-2008-01-15-Pacto-Cuotas-Produccion-Cartel-Pollos-01]]"
+estado_verificacion: verificado
+fuentes:
+  - url: "https://www.fne.gob.cl/fiscalia-nacional-economica-presenta-requerimiento-por-colusion-en-la-produccion-y-comercializacion-de-carne-de-pollo-en-el-pais/"
+    titulo: "FNE presenta requerimiento por colusión en carne de pollo"
+    medio: "Fiscalía Nacional Económica"
+    tipo: primaria
+    fecha: 2011-12-01
+    consultado: 2026-10-19
 tags:
   - evidencia/requerimiento
   - fne
@@ -29,3 +36,15 @@ tags:
 
 ## Contenido Probatorio y Relevancia
 Escrito de requerimiento presentado por el Fiscal Nacional Económico ante el TDLC imputando a [[Agrosuper SA]], [[Empresas Ariztia SA]], [[Agricola Don Pollo Limitada]] y a la [[Asociacion de Productores Avicolas de Chile AG]] la celebración y ejecución de un acuerdo colusorio continuado consistente en limitar la producción de carne de pollo en el mercado nacional y asignarse cuotas de producción entre 1994 y 2011. El documento aportó evidencia documental incautada en las oficinas gremiales, incluyendo correos electrónicos y actas de distribución de volumen.
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
+```

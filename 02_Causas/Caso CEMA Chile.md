@@ -6,6 +6,28 @@ tribunal_o_fiscalia: "Corte de Apelaciones de Santiago / 34° Juzgado del Crimen
 fiscal_a_cargo: "Ministro en Visita Guillermo de la Barra Dünner / Consejo de Defensa del Estado"
 estado_judicial: cerrada_con_condena
 delito_principal: "[[Malversacion de Caudales Publicos]]"
+estado_verificacion: parcial
+fuentes:
+  - url: "https://www.theclinic.cl/2016/08/23/caso-cema-chile-fraude-al-fisco/"
+    titulo: "Caso CEMA Chile: querella por fraude al fisco"
+    medio: "The Clinic"
+    tipo: secundaria
+    fecha: 2016-08-23
+    consultado: 2026-10-19
+  - url: "https://www.theclinic.cl/2016/12/29/lo-que-declaro-lucia-hiriart-por-el-caso-cema-chile-por-mi-no-pasaba-ni-un-centavo/"
+    titulo: "Lo que declaró Lucía Hiriart por el caso CEMA Chile"
+    medio: "The Clinic"
+    tipo: secundaria
+    fecha: 2016-12-29
+    consultado: 2026-10-19
+  - url: "https://www.emol.com/noticias/Nacional/2021/12/16/1041401/fallecio-lucia-hiriart.html"
+    titulo: "Falleció Lucía Hiriart"
+    medio: "Emol"
+    tipo: secundaria
+    fecha: 2021-12-16
+    consultado: 2026-10-19
+alertas_verificacion:
+  - "No se encontró condena penal: el vault marca 'cerrada_con_condena'. Lo documentado es querella (2016), embargo de propiedades, traspaso de bienes y disolución vía CDE (2021). Revisar estado_judicial."
 tags:
   - causa
   - caso-cema-chile
@@ -44,4 +66,16 @@ TABLE WITHOUT ID
 FROM "03_Hechos_y_Nexos"
 WHERE contains(string(causa_vinculada), this.file.name)
 SORT fecha ASC
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```

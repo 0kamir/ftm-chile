@@ -6,6 +6,21 @@ tribunal_o_fiscalia: "Fiscalía Nacional / Fiscalía Regional Metropolitana Orie
 fiscal_a_cargo: "Carlos Gajardo Pinto / Manuel Guerra Fuenzalida"
 estado_judicial: cerrada_con_condena
 delito_principal: "[[Delito Tributario]]"
+estado_verificacion: verificado
+fuentes:
+  - url: "https://www.24horas.cl/politica/lavin-y-delano-comenzaron-las-clases-de-etica-tras-condena-del-caso-penta-3218640"
+    titulo: "Lavín y Délano comenzaron las clases de ética tras condena del caso Penta"
+    medio: "24 Horas"
+    tipo: secundaria
+    consultado: 2026-10-19
+  - url: "https://www.ciperchile.cl/2024/06/07/cartas-clases-de-etica/"
+    titulo: "Cartas: 'Good bye' a las clases de ética"
+    medio: "CIPER Chile"
+    tipo: secundaria
+    fecha: 2024-06-07
+    consultado: 2026-10-19
+alertas_verificacion:
+  - "Prensa: la condena de 2018 (procedimiento abreviado) fue por delitos tributarios; CIPER señala que nadie fue condenado por cohecho. Revisar TRX-2011-03-10-Soborno-Penta-Wagner-01."
 tags:
   - causa
   - financiamiento-politico
@@ -38,4 +53,16 @@ TABLE WITHOUT ID
 FROM "03_Hechos_y_Nexos"
 WHERE contains(string(causa_vinculada), this.file.name)
 SORT fecha ASC
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```

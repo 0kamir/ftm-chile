@@ -6,6 +6,28 @@ tribunal_o_fiscalia: "Fiscalía Regional de Valparaíso / 8° Juzgado de Garant�
 fiscal_a_cargo: "Claudia Perivancich / Pablo Gómez"
 estado_judicial: juicio_oral
 delito_principal: "[[Cohecho]]"
+estado_verificacion: desactualizado
+fuentes:
+  - url: "https://www.latercera.com/nacional/noticia/caso-sqm-tribunal-absuelve-a-pablo-longueira-me-o-patricio-contesse-y-el-resto-de-acusados-tras-casi-tres-anos-de-juicio/"
+    titulo: "Caso SQM: tribunal absuelve a Pablo Longueira, ME-O, Patricio Contesse y el resto de acusados"
+    medio: "La Tercera"
+    tipo: secundaria
+    fecha: 2025-10-22
+    consultado: 2026-10-19
+  - url: "https://www.biobiochile.cl/noticias/nacional/chile/2025/10/22/todos-absueltos-tribuanal-da-golpe-a-fiscalia-y-dicta-veredicto-en-caso-sqm.shtml"
+    titulo: "Todos absueltos: tribunal da golpe a Fiscalía y dicta veredicto en caso SQM"
+    medio: "BioBioChile"
+    tipo: secundaria
+    fecha: 2025-10-22
+    consultado: 2026-10-19
+  - url: "https://www.theclinic.cl/2023/02/13/juicio-oral-caso-sqm-8-anos-espera/"
+    titulo: "Juicio oral caso SQM tras 8 años de espera"
+    medio: "The Clinic"
+    tipo: secundaria
+    fecha: 2023-02-13
+    consultado: 2026-10-19
+alertas_verificacion:
+  - "CRÍTICO: el vault marca estado_judicial=juicio_oral, pero el 3° TOP de Santiago absolvió a los ocho acusados (Longueira, Enríquez-Ominami, Contesse y otros) en octubre de 2025. Actualizar estado y situacion_procesal de las personas; presunción de inocencia aplica."
 tags:
   - causa
   - caso-sqm
@@ -40,4 +62,16 @@ TABLE WITHOUT ID
 FROM "03_Hechos_y_Nexos"
 WHERE contains(string(causa_vinculada), this.file.name)
 SORT fecha ASC
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```

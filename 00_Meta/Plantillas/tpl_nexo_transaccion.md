@@ -10,6 +10,15 @@ firmante_destino: "[[Firmante Destino]]"
 causa_vinculada: "[[Causa Vinculada]]"
 delito_imputado: "[[Fraude al Fisco]]"
 evidencia_soporte: "[[Evidencia Soporte]]"
+estado_verificacion: pendiente # verificado | parcial | desactualizado | sin_fuente | pendiente
+fuentes:
+  - url: "https://"
+    titulo: ""
+    medio: ""
+    tipo: primaria # primaria (documento oficial) | secundaria (prensa / academia)
+    fecha: YYYY-MM-DD
+    archivo: "https://web.archive.org/"
+    consultado: YYYY-MM-DD
 tags:
   - nexo/transaccion
 ---
@@ -30,3 +39,15 @@ tags:
 
 ## Descripción Forense de la Operación
 Detalle de la transferencia, acto administrativo, fraccionamiento o reunión registrada.
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
+```
