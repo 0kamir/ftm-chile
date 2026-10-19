@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_privada
-rut: "77.492.381-0"
+rut: ""
 razon_social: "Numen Publicidad SpA"
 fecha_constitucion: 2020-07-15
 objeto_social: "Servicios de publicidad, comunicación estratégica, marketing digital, análisis de redes sociales y sondeos de opinión"

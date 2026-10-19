@@ -22,34 +22,34 @@ tags:
 | [[Caso Operacion FUBELT Intervencion CIA y DINA]] | `` | 1970 | `cerrada_con_condena` | [[Lavado de Activos]] | Comité Selecto del Senado de EE.UU. (Comisión Church 1975) / Congreso de EE.UU. (Informe Hinchey 2000) / Corte Suprema de Chile |
 | [[Caso Pinocheques]] | `` | 1990 | `sobreseida` | [[Fraude al Fisco]] | 5° Juzgado del Crimen de Santiago / Corte de Apelaciones de Santiago / Comisión Investigadora Cámara de Diputados |
 | [[Caso Colonia Dignidad]] | `` | 1996 | `cerrada_con_condena` | [[Lavado de Activos]] | Corte de Apelaciones de Santiago / Corte Suprema de Chile (Ministro en Visita Extraordinario — Rol 2.182-1998 y acumulados) |
-| [[Caso MOP-Gate]] | `0300148920-1` | 2003 | `cerrada_con_condena` | [[Fraude al Fisco]] | 3° Juzgado del Crimen de Santiago / Ministra en Visita Gloria Ana Chevesich / Corte Suprema |
-| [[Caso Spiniak]] | `0300932700-3` | 2003 | `cerrada_con_condena` | [[Lavado de Activos]] | 33° Juzgado del Crimen de Santiago / Corte de Apelaciones de Santiago / Corte Suprema de Chile (Causa Rol 9.327-2003) |
-| [[Caso Riggs]] | `0400164900-4` | 2004 | `cerrada_con_condena` | [[Malversacion de Caudales Publicos]] | Corte de Apelaciones de Santiago / Corte Suprema de Chile (Causa Rol 1.649-2004 y Casación Rol 16.865-2017) |
-| [[Caso LAN Informacion Privilegiada y Banco de Talca]] | `0600306114-2` | 2006 | `cerrada_con_condena` | [[Negociacion Incompatible]] | Superintendencia de Valores y Seguros (CMF) / Corte de Apelaciones de Santiago / Corte Suprema de Chile |
+| [[Caso MOP-Gate]] | `` | 2003 | `cerrada_con_condena` | [[Fraude al Fisco]] | 3° Juzgado del Crimen de Santiago / Ministra en Visita Gloria Ana Chevesich / Corte Suprema |
+| [[Caso Spiniak]] | `` | 2003 | `cerrada_con_condena` | [[Lavado de Activos]] | 33° Juzgado del Crimen de Santiago / Corte de Apelaciones de Santiago / Corte Suprema de Chile (Causa Rol 9.327-2003) |
+| [[Caso Riggs]] | `` | 2004 | `cerrada_con_condena` | [[Malversacion de Caudales Publicos]] | Corte de Apelaciones de Santiago / Corte Suprema de Chile (Causa Rol 1.649-2004 y Casación Rol 16.865-2017) |
+| [[Caso LAN Informacion Privilegiada y Banco de Talca]] | `` | 2006 | `cerrada_con_condena` | [[Negociacion Incompatible]] | Superintendencia de Valores y Seguros (CMF) / Corte de Apelaciones de Santiago / Corte Suprema de Chile |
 | [[Caso Colusion de las Farmacias]] | `ROL-C-184-08-TDLC` | 2008 | `cerrada_con_condena` | [[Colusion y Atentado a la Libre Competencia]] | Tribunal de Defensa de la Libre Competencia (TDLC) / Corte Suprema de Chile |
-| [[Caso Basura]] | `1100849201-5` | 2011 | `cerrada_con_condena` | [[Cohecho]] | Fiscalía Regional Metropolitana Occidente / 9° Juzgado de Garantía de Santiago / TOP Santiago |
+| [[Caso Basura]] | `` | 2011 | `cerrada_con_condena` | [[Cohecho]] | Fiscalía Regional Metropolitana Occidente / 9° Juzgado de Garantía de Santiago / TOP Santiago |
 | [[Caso Colusion de los Pollos]] | `ROL-C-236-11-TDLC` | 2011 | `cerrada_con_condena` | [[Colusion y Atentado a la Libre Competencia]] | Tribunal de Defensa de la Libre Competencia (TDLC) / Corte Suprema de Chile |
-| [[Caso Cascadas]] | `1400918240-2` | 2012 | `cerrada_con_condena` | [[Negociacion Incompatible]] | Superintendencia de Valores y Seguros (CMF) / Fiscalía Centro Norte / Corte Suprema |
-| [[Caso Corpesca]] | `1300589410-8` | 2013 | `cerrada` | [[Cohecho]] | Fiscalía de Alta Complejidad Centro Norte / 3° TOP de Santiago |
-| [[Caso Penta]] | `1400637392-6` | 2014 | `cerrada_con_condena` | [[Delito Tributario]] | Fiscalía Nacional / Fiscalía Regional Metropolitana Oriente / 8° Juzgado de Garantía de Santiago |
-| [[Caso Caval]] | `1500169916-0` | 2015 | `cerrada_con_condena` | [[Delito Tributario]] | Fiscalía Regional de O'Higgins / Tribunal de Juicio Oral en lo Penal de Rancagua |
+| [[Caso Cascadas]] | `` | 2012 | `cerrada_con_condena` | [[Negociacion Incompatible]] | Superintendencia de Valores y Seguros (CMF) / Fiscalía Centro Norte / Corte Suprema |
+| [[Caso Corpesca]] | `` | 2013 | `cerrada` | [[Cohecho]] | Fiscalía de Alta Complejidad Centro Norte / 3° TOP de Santiago |
+| [[Caso Penta]] | `` | 2014 | `cerrada_con_condena` | [[Delito Tributario]] | Fiscalía Nacional / Fiscalía Regional Metropolitana Oriente / 8° Juzgado de Garantía de Santiago |
+| [[Caso Caval]] | `` | 2015 | `cerrada_con_condena` | [[Delito Tributario]] | Fiscalía Regional de O'Higgins / Tribunal de Juicio Oral en lo Penal de Rancagua |
 | [[Caso Colusion del Papel Tissue]] | `ROL-C-299-15-TDLC` | 2015 | `cerrada_con_condena` | [[Colusion y Atentado a la Libre Competencia]] | Tribunal de Defensa de la Libre Competencia (TDLC) / Corte Suprema de Chile |
-| [[Caso Milicogate]] | `1500948120-7` | 2015 | `cerrada` | [[Malversacion de Caudales Publicos]] | Corte Marcial (Ministra en Visita Romy Rutherford) / Fiscalía Centro Norte |
-| [[Caso SQM]] | `1500189420-1` | 2015 | `absuelta_nulidad_pendiente` | [[Cohecho]] | Fiscalía Regional de Valparaíso / 8° Juzgado de Garantía de Santiago / 3° TOP de Santiago |
-| [[Caso CEMA Chile]] | `1600341250-8` | 2016 | `cerrada_sin_condena` | [[Malversacion de Caudales Publicos]] | Corte de Apelaciones de Santiago / 34° Juzgado del Crimen de Santiago / Consejo de Defensa del Estado (Rol 34.125-2016) |
-| [[Caso Exalmar y Fideicomiso Ciego]] | `1601089412-7` | 2016 | `sobreseida` | [[Negociacion Incompatible]] | Fiscalía Regional Metropolitana Oriente / 4° Juzgado de Garantía de Santiago / Comisiones Investigadoras Cámara de Diputados |
-| [[Caso Pacogate]] | `1601012894-2` | 2016 | `veredicto_condenatorio_sin_sentencia` | [[Malversacion de Caudales Publicos]] | Fiscalía Regional de Magallanes / 7° Juzgado de Garantía de Santiago / 4° TOP de Santiago |
-| [[Caso Panama Papers Chile]] | `1600403190-5` | 2016 | `en_investigacion` | [[Delito Tributario]] | Servicio de Impuestos Internos (Subdirección de Fiscalización Internacional) / Unidad de Análisis Financiero / Fiscalía Nacional |
-| [[Caso Operacion Huracan]] | `1800084321-4` | 2017 | `cerrada_con_condena` | [[Falsificacion de Instrumento Publico]] | Tribunal de Juicio Oral en lo Penal de Temuco / Fiscalía Regional de Aysén y Fiscalía de La Araucanía |
-| [[Caso Luminarias LED]] | `1900418920-4` | 2019 | `formalizada` | [[Cohecho]] | Fiscalía Regional de Ñuble / Tribunal de Juicio Oral en lo Penal de Chillán |
-| [[Caso Minera Dominga Pandora Papers]] | `2100912845-3` | 2021 | `sobreseida` | [[Cohecho]] | Fiscalía Nacional / Fiscalía Regional de Valparaíso / 7° Juzgado de Garantía de Santiago / Cámara de Diputados |
-| [[Caso Municipalidad de Maipu]] | `2101094520-3` | 2021 | `formalizada` | [[Fraude al Fisco]] | Fiscalía Regional Metropolitana Oriente / 9° Juzgado de Garantía de Santiago |
-| [[Caso Vitacura]] | `2100783412-9` | 2021 | `formalizada` | [[Malversacion de Caudales Publicos]] | Fiscalía Metropolitana Centro Norte / 4° Juzgado de Garantía de Santiago |
-| [[Caso Audios]] | `2301248910-5` | 2023 | `formalizada` | [[Cohecho]] | Fiscalía Regional Metropolitana Oriente / 4° Juzgado de Garantía de Santiago |
-| [[Caso Convenios]] | `2300674512-K` | 2023 | `formalizada` | [[Fraude al Fisco]] | Fiscalía Regional de Antofagasta / Juzgado de Garantía de Antofagasta |
-| [[Caso Megafraude Tributario Operacion Tributos]] | `RIT-13745-2023-1JG` | 2023 | `formalizada_con_prisiones_preventivas` | [[Delito Tributario]] | 1° Juzgado de Garantía de Santiago / Fiscalía Regional Metropolitana Occidente |
-| [[Caso Sierra Bella]] | `2300094812-3` | 2023 | `sobreseida_con_nueva_querella` | [[Fraude al Fisco]] | Fiscalía Metropolitana Centro Norte (fiscal Patricio Cooper, luego fiscal regional de Coquimbo) / Contraloría General de la República |
-| [[Caso Asignaciones Parlamentarias y Cuota Flores]] | `RUC-2500819421-2` | 2025 | `investigacion_desformalizada_con_allanamientos` | [[Fraude al Fisco]] | Juzgado de Garantía de Valparaíso / Unidad Regional Anticorrupción (URAC) Fiscalía de Valparaíso |
+| [[Caso Milicogate]] | `` | 2015 | `cerrada` | [[Malversacion de Caudales Publicos]] | Corte Marcial (Ministra en Visita Romy Rutherford) / Fiscalía Centro Norte |
+| [[Caso SQM]] | `` | 2015 | `absuelta_nulidad_pendiente` | [[Cohecho]] | Fiscalía Regional de Valparaíso / 8° Juzgado de Garantía de Santiago / 3° TOP de Santiago |
+| [[Caso CEMA Chile]] | `` | 2016 | `cerrada_sin_condena` | [[Malversacion de Caudales Publicos]] | Corte de Apelaciones de Santiago / 34° Juzgado del Crimen de Santiago / Consejo de Defensa del Estado (Rol 34.125-2016) |
+| [[Caso Exalmar y Fideicomiso Ciego]] | `` | 2016 | `sobreseida` | [[Negociacion Incompatible]] | Fiscalía Regional Metropolitana Oriente / 4° Juzgado de Garantía de Santiago / Comisiones Investigadoras Cámara de Diputados |
+| [[Caso Pacogate]] | `` | 2016 | `veredicto_condenatorio_sin_sentencia` | [[Malversacion de Caudales Publicos]] | Fiscalía Regional de Magallanes / 7° Juzgado de Garantía de Santiago / 4° TOP de Santiago |
+| [[Caso Panama Papers Chile]] | `` | 2016 | `en_investigacion` | [[Delito Tributario]] | Servicio de Impuestos Internos (Subdirección de Fiscalización Internacional) / Unidad de Análisis Financiero / Fiscalía Nacional |
+| [[Caso Operacion Huracan]] | `` | 2017 | `cerrada_con_condena` | [[Falsificacion de Instrumento Publico]] | Tribunal de Juicio Oral en lo Penal de Temuco / Fiscalía Regional de Aysén y Fiscalía de La Araucanía |
+| [[Caso Luminarias LED]] | `` | 2019 | `formalizada` | [[Cohecho]] | Fiscalía Regional de Ñuble / Tribunal de Juicio Oral en lo Penal de Chillán |
+| [[Caso Minera Dominga Pandora Papers]] | `` | 2021 | `sobreseida` | [[Cohecho]] | Fiscalía Nacional / Fiscalía Regional de Valparaíso / 7° Juzgado de Garantía de Santiago / Cámara de Diputados |
+| [[Caso Municipalidad de Maipu]] | `` | 2021 | `formalizada` | [[Fraude al Fisco]] | Fiscalía Regional Metropolitana Oriente / 9° Juzgado de Garantía de Santiago |
+| [[Caso Vitacura]] | `` | 2021 | `formalizada` | [[Malversacion de Caudales Publicos]] | Fiscalía Metropolitana Centro Norte / 4° Juzgado de Garantía de Santiago |
+| [[Caso Audios]] | `` | 2023 | `formalizada` | [[Cohecho]] | Fiscalía Regional Metropolitana Oriente / 4° Juzgado de Garantía de Santiago |
+| [[Caso Convenios]] | `` | 2023 | `formalizada` | [[Fraude al Fisco]] | Fiscalía Regional de Antofagasta / Juzgado de Garantía de Antofagasta |
+| [[Caso Megafraude Tributario Operacion Tributos]] | `` | 2023 | `formalizada_con_prisiones_preventivas` | [[Delito Tributario]] | 1° Juzgado de Garantía de Santiago / Fiscalía Regional Metropolitana Occidente |
+| [[Caso Sierra Bella]] | `` | 2023 | `sobreseida_con_nueva_querella` | [[Fraude al Fisco]] | Fiscalía Metropolitana Centro Norte (fiscal Patricio Cooper, luego fiscal regional de Coquimbo) / Contraloría General de la República |
+| [[Caso Asignaciones Parlamentarias y Cuota Flores]] | `` | 2025 | `investigacion_desformalizada_con_allanamientos` | [[Fraude al Fisco]] | Juzgado de Garantía de Valparaíso / Unidad Regional Anticorrupción (URAC) Fiscalía de Valparaíso |
 | [[Caso Operaciones Digitales e Injerencia Electoral]] | `` | 2026 | `investigacion_desformalizada` | [[Fraude al Fisco]] | Fiscalía Regional Metropolitana Centro Norte / 7° Juzgado de Garantía de Santiago |
 
 ---

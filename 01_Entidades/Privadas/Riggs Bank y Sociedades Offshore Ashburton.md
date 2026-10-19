@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_privada
-rut: "59.102.480-9"
+rut: ""
 razon_social: "Riggs Bank N.A. & Estructuras Offshore (Ashburton Company Ltd. / Althorp Investment Co.)"
 fecha_constitucion: 1994-03-22
 objeto_social: "Banca privada internacional, fideicomisos offshore y vehículos de inversión en Bahamas, Islas Vírgenes Británicas y EE.UU."

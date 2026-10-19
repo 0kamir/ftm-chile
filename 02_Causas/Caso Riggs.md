@@ -1,6 +1,6 @@
 ---
 tipo_nodo: causa_judicial
-ruc: "0400164900-4"
+ruc: ""
 año_inicio: 2004
 tribunal_o_fiscalia: "Corte de Apelaciones de Santiago / Corte Suprema de Chile (Causa Rol 1.649-2004 y Casación Rol 16.865-2017)"
 fiscal_a_cargo: "Ministros en Visita Sergio Muñoz Gajardo, Carlos Cerda Fernández y Manuel Antonio Valderrama Rebolledo"

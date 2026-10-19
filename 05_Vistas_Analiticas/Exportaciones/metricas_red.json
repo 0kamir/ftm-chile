@@ -8,7 +8,7 @@
     {
       "id": "Corte Suprema de Chile",
       "tipo_nodo": "entidad_publica",
-      "rut": "60.301.000-0",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Publicas/Corte Suprema de Chile.md",
       "in_degree": 33,
@@ -30,7 +30,7 @@
     {
       "id": "Union Democrata Independiente",
       "tipo_nodo": "partido_politico",
-      "rut": "65.008.910-3",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Partidos/Union Democrata Independiente.md",
       "in_degree": 15,
@@ -63,7 +63,7 @@
     {
       "id": "Servicio Impuestos Internos",
       "tipo_nodo": "entidad_publica",
-      "rut": "60.803.000-K",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Publicas/Servicio Impuestos Internos.md",
       "in_degree": 11,
@@ -85,7 +85,7 @@
     {
       "id": "Renovacion Nacional",
       "tipo_nodo": "partido_politico",
-      "rut": "65.012.340-9",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Partidos/Renovacion Nacional.md",
       "in_degree": 11,
@@ -129,7 +129,7 @@
     {
       "id": "Caso Convenios",
       "tipo_nodo": "causa_judicial",
-      "rut": "2300674512-K",
+      "rut": "",
       "monto_clp": 0,
       "path": "02_Causas/Caso Convenios.md",
       "in_degree": 9,
@@ -325,39 +325,6 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01",
-      "tipo_nodo": "nexo_transaccion",
-      "rut": "",
-      "monto_clp": 1253000000,
-      "path": "03_Hechos_y_Nexos/TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01.md",
-      "in_degree": 1,
-      "out_degree": 7,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
-      "id": "TRX-2010-08-19-Correo-Royalty-SQM-01",
-      "tipo_nodo": "nexo_transaccion",
-      "rut": "",
-      "monto_clp": 730000000,
-      "path": "03_Hechos_y_Nexos/TRX-2010-08-19-Correo-Royalty-SQM-01.md",
-      "in_degree": 1,
-      "out_degree": 7,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
-      "id": "TRX-2010-11-15-Soborno-Licitacion-Basura-Maipu-01",
-      "tipo_nodo": "nexo_transaccion",
-      "rut": "",
-      "monto_clp": 186500000,
-      "path": "03_Hechos_y_Nexos/TRX-2010-11-15-Soborno-Licitacion-Basura-Maipu-01.md",
-      "in_degree": 1,
-      "out_degree": 7,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
       "id": "TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01",
       "tipo_nodo": "nexo_transaccion",
       "rut": "",
@@ -385,17 +352,6 @@
       "rut": "",
       "monto_clp": 14200000000,
       "path": "03_Hechos_y_Nexos/TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01.md",
-      "in_degree": 1,
-      "out_degree": 7,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
-      "id": "TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01",
-      "tipo_nodo": "nexo_transaccion",
-      "rut": "",
-      "monto_clp": 28348928198,
-      "path": "03_Hechos_y_Nexos/TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01.md",
       "in_degree": 1,
       "out_degree": 7,
       "flujo_emitido_clp": 0,
@@ -446,17 +402,6 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "TRX-2023-01-20-Compraventa-Clinica-SierraBella-01",
-      "tipo_nodo": "nexo_transaccion",
-      "rut": "",
-      "monto_clp": 0,
-      "path": "03_Hechos_y_Nexos/TRX-2023-01-20-Compraventa-Clinica-SierraBella-01.md",
-      "in_degree": 1,
-      "out_degree": 7,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
       "id": "TRX-2023-06-22-Reunion-Audios-01",
       "tipo_nodo": "nexo_transaccion",
       "rut": "",
@@ -490,6 +435,61 @@
       "flujo_recibido_clp": 0
     },
     {
+      "id": "TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01",
+      "tipo_nodo": "nexo_transaccion",
+      "rut": "",
+      "monto_clp": 1253000000,
+      "path": "03_Hechos_y_Nexos/TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01.md",
+      "in_degree": 1,
+      "out_degree": 7,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "TRX-2010-08-19-Correo-Royalty-SQM-01",
+      "tipo_nodo": "nexo_transaccion",
+      "rut": "",
+      "monto_clp": 730000000,
+      "path": "03_Hechos_y_Nexos/TRX-2010-08-19-Correo-Royalty-SQM-01.md",
+      "in_degree": 1,
+      "out_degree": 7,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "TRX-2010-11-15-Soborno-Licitacion-Basura-Maipu-01",
+      "tipo_nodo": "nexo_transaccion",
+      "rut": "",
+      "monto_clp": 186500000,
+      "path": "03_Hechos_y_Nexos/TRX-2010-11-15-Soborno-Licitacion-Basura-Maipu-01.md",
+      "in_degree": 1,
+      "out_degree": 7,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01",
+      "tipo_nodo": "nexo_transaccion",
+      "rut": "",
+      "monto_clp": 28348928198,
+      "path": "03_Hechos_y_Nexos/TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01.md",
+      "in_degree": 1,
+      "out_degree": 7,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "TRX-2023-01-20-Compraventa-Clinica-SierraBella-01",
+      "tipo_nodo": "nexo_transaccion",
+      "rut": "",
+      "monto_clp": 0,
+      "path": "03_Hechos_y_Nexos/TRX-2023-01-20-Compraventa-Clinica-SierraBella-01.md",
+      "in_degree": 1,
+      "out_degree": 7,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
       "id": "Audio-Reunion-Edificio-Alonso-2023",
       "tipo_nodo": "evidencia_documental",
       "rut": "",
@@ -514,7 +514,7 @@
     {
       "id": "Factop SpA",
       "tipo_nodo": "entidad_privada",
-      "rut": "76.419.820-4",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Privadas/Factop SpA.md",
       "in_degree": 6,
@@ -536,7 +536,7 @@
     {
       "id": "Caso Audios",
       "tipo_nodo": "causa_judicial",
-      "rut": "2301248910-5",
+      "rut": "",
       "monto_clp": 0,
       "path": "02_Causas/Caso Audios.md",
       "in_degree": 6,
@@ -765,22 +765,99 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01",
+      "id": "TRX-1989-01-10-Emision-Pinocheques-Ejercito-Valmoval-01",
       "tipo_nodo": "nexo_transaccion",
       "rut": "",
-      "monto_clp": 18500000000,
-      "path": "03_Hechos_y_Nexos/TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01.md",
+      "monto_clp": 2950000000,
+      "path": "03_Hechos_y_Nexos/TRX-1989-01-10-Emision-Pinocheques-Ejercito-Valmoval-01.md",
       "in_degree": 0,
       "out_degree": 7,
       "flujo_emitido_clp": 0,
       "flujo_recibido_clp": 0
     },
     {
-      "id": "TRX-1989-01-10-Emision-Pinocheques-Ejercito-Valmoval-01",
+      "id": "TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01",
       "tipo_nodo": "nexo_transaccion",
       "rut": "",
-      "monto_clp": 2950000000,
-      "path": "03_Hechos_y_Nexos/TRX-1989-01-10-Emision-Pinocheques-Ejercito-Valmoval-01.md",
+      "monto_clp": 3500000000,
+      "path": "03_Hechos_y_Nexos/TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01.md",
+      "in_degree": 0,
+      "out_degree": 7,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01",
+      "tipo_nodo": "nexo_transaccion",
+      "rut": "",
+      "monto_clp": 19500000000,
+      "path": "03_Hechos_y_Nexos/TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01.md",
+      "in_degree": 0,
+      "out_degree": 7,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01",
+      "tipo_nodo": "nexo_transaccion",
+      "rut": "",
+      "monto_clp": 3800000000,
+      "path": "03_Hechos_y_Nexos/TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01.md",
+      "in_degree": 0,
+      "out_degree": 7,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01",
+      "tipo_nodo": "nexo_transaccion",
+      "rut": "",
+      "monto_clp": 25000000,
+      "path": "03_Hechos_y_Nexos/TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01.md",
+      "in_degree": 0,
+      "out_degree": 7,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01",
+      "tipo_nodo": "nexo_transaccion",
+      "rut": "",
+      "monto_clp": 0,
+      "path": "03_Hechos_y_Nexos/TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01.md",
+      "in_degree": 0,
+      "out_degree": 7,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01",
+      "tipo_nodo": "nexo_transaccion",
+      "rut": "",
+      "monto_clp": 240000000000,
+      "path": "03_Hechos_y_Nexos/TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01.md",
+      "in_degree": 3,
+      "out_degree": 4,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01",
+      "tipo_nodo": "nexo_transaccion",
+      "rut": "",
+      "monto_clp": 190000000,
+      "path": "03_Hechos_y_Nexos/TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01.md",
+      "in_degree": 0,
+      "out_degree": 7,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01",
+      "tipo_nodo": "nexo_transaccion",
+      "rut": "",
+      "monto_clp": 18500000000,
+      "path": "03_Hechos_y_Nexos/TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01.md",
       "in_degree": 0,
       "out_degree": 7,
       "flujo_emitido_clp": 0,
@@ -820,55 +897,11 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01",
-      "tipo_nodo": "nexo_transaccion",
-      "rut": "",
-      "monto_clp": 3500000000,
-      "path": "03_Hechos_y_Nexos/TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01.md",
-      "in_degree": 0,
-      "out_degree": 7,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
-      "id": "TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01",
-      "tipo_nodo": "nexo_transaccion",
-      "rut": "",
-      "monto_clp": 19500000000,
-      "path": "03_Hechos_y_Nexos/TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01.md",
-      "in_degree": 0,
-      "out_degree": 7,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
-      "id": "TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01",
-      "tipo_nodo": "nexo_transaccion",
-      "rut": "",
-      "monto_clp": 3800000000,
-      "path": "03_Hechos_y_Nexos/TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01.md",
-      "in_degree": 0,
-      "out_degree": 7,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
       "id": "TRX-2017-03-06-Lavado-Activos-Carabineros-UAF-01",
       "tipo_nodo": "nexo_transaccion",
       "rut": "",
       "monto_clp": 1450000000,
       "path": "03_Hechos_y_Nexos/TRX-2017-03-06-Lavado-Activos-Carabineros-UAF-01.md",
-      "in_degree": 0,
-      "out_degree": 7,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
-      "id": "TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01",
-      "tipo_nodo": "nexo_transaccion",
-      "rut": "",
-      "monto_clp": 25000000,
-      "path": "03_Hechos_y_Nexos/TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01.md",
       "in_degree": 0,
       "out_degree": 7,
       "flujo_emitido_clp": 0,
@@ -886,42 +919,9 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01",
-      "tipo_nodo": "nexo_transaccion",
-      "rut": "",
-      "monto_clp": 0,
-      "path": "03_Hechos_y_Nexos/TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01.md",
-      "in_degree": 0,
-      "out_degree": 7,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
-      "id": "TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01",
-      "tipo_nodo": "nexo_transaccion",
-      "rut": "",
-      "monto_clp": 240000000000,
-      "path": "03_Hechos_y_Nexos/TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01.md",
-      "in_degree": 3,
-      "out_degree": 4,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
-      "id": "TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01",
-      "tipo_nodo": "nexo_transaccion",
-      "rut": "",
-      "monto_clp": 190000000,
-      "path": "03_Hechos_y_Nexos/TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01.md",
-      "in_degree": 0,
-      "out_degree": 7,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
       "id": "Bancard Inversiones Ltda",
       "tipo_nodo": "entidad_privada",
-      "rut": "96.582.410-3",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Privadas/Bancard Inversiones Ltda.md",
       "in_degree": 5,
@@ -965,7 +965,7 @@
     {
       "id": "Seremi MINVU Antofagasta",
       "tipo_nodo": "entidad_publica",
-      "rut": "61.812.000-7",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Publicas/Seremi MINVU Antofagasta.md",
       "in_degree": 6,
@@ -1020,7 +1020,7 @@
     {
       "id": "Caso Operacion Huracan",
       "tipo_nodo": "causa_judicial",
-      "rut": "1800084321-4",
+      "rut": "",
       "monto_clp": 0,
       "path": "02_Causas/Caso Operacion Huracan.md",
       "in_degree": 5,
@@ -1108,7 +1108,7 @@
     {
       "id": "Comando de Apoyo a la Fuerza del Ejercito",
       "tipo_nodo": "entidad_publica",
-      "rut": "61.101.000-1",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Publicas/Comando de Apoyo a la Fuerza del Ejercito.md",
       "in_degree": 5,
@@ -1130,7 +1130,7 @@
     {
       "id": "Unidad de Analisis Financiero",
       "tipo_nodo": "entidad_publica",
-      "rut": "61.979.440-0",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Publicas/Unidad de Analisis Financiero.md",
       "in_degree": 4,
@@ -1152,7 +1152,7 @@
     {
       "id": "Direccion de Inteligencia Policial de Carabineros",
       "tipo_nodo": "entidad_publica",
-      "rut": "60.506.000-5",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Publicas/Direccion de Inteligencia Policial de Carabineros.md",
       "in_degree": 5,
@@ -1174,7 +1174,7 @@
     {
       "id": "Caso Megafraude Tributario Operacion Tributos",
       "tipo_nodo": "causa_judicial",
-      "rut": "RIT-13745-2023-1JG",
+      "rut": "",
       "monto_clp": 0,
       "path": "02_Causas/Caso Megafraude Tributario Operacion Tributos.md",
       "in_degree": 4,
@@ -1196,7 +1196,7 @@
     {
       "id": "Caso Panama Papers Chile",
       "tipo_nodo": "causa_judicial",
-      "rut": "1600403190-5",
+      "rut": "",
       "monto_clp": 0,
       "path": "02_Causas/Caso Panama Papers Chile.md",
       "in_degree": 4,
@@ -1207,7 +1207,7 @@
     {
       "id": "Caso Penta",
       "tipo_nodo": "causa_judicial",
-      "rut": "1400637392-6",
+      "rut": "",
       "monto_clp": 0,
       "path": "02_Causas/Caso Penta.md",
       "in_degree": 4,
@@ -1361,7 +1361,7 @@
     {
       "id": "Municipalidad de Maipu",
       "tipo_nodo": "entidad_publica",
-      "rut": "69.070.300-9",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Publicas/Municipalidad de Maipu.md",
       "in_degree": 4,
@@ -1383,7 +1383,7 @@
     {
       "id": "Mossack Fonseca y Sociedades Offshore Panama",
       "tipo_nodo": "entidad_privada",
-      "rut": "59.214.830-7",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Privadas/Mossack Fonseca y Sociedades Offshore Panama.md",
       "in_degree": 3,
@@ -1394,7 +1394,7 @@
     {
       "id": "Agencia Central de Inteligencia CIA y Escuela de las Americas",
       "tipo_nodo": "entidad_privada",
-      "rut": "59.301.420-7",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Privadas/Agencia Central de Inteligencia CIA y Escuela de las Americas.md",
       "in_degree": 3,
@@ -1405,7 +1405,7 @@
     {
       "id": "Riggs Bank y Sociedades Offshore Ashburton",
       "tipo_nodo": "entidad_privada",
-      "rut": "59.102.480-9",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Privadas/Riggs Bank y Sociedades Offshore Ashburton.md",
       "in_degree": 3,
@@ -1416,7 +1416,7 @@
     {
       "id": "Contraloria General de la Republica",
       "tipo_nodo": "entidad_publica",
-      "rut": "60.103.000-4",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Publicas/Contraloria General de la Republica.md",
       "in_degree": 3,
@@ -1438,7 +1438,7 @@
     {
       "id": "Comision para el Mercado Financiero",
       "tipo_nodo": "entidad_publica",
-      "rut": "60.819.000-7",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Publicas/Comision para el Mercado Financiero.md",
       "in_degree": 3,
@@ -1449,7 +1449,7 @@
     {
       "id": "Sociedad Benefactora y Educacional Dignidad",
       "tipo_nodo": "entidad_privada",
-      "rut": "70.145.820-6",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Privadas/Sociedad Benefactora y Educacional Dignidad.md",
       "in_degree": 3,
@@ -1460,7 +1460,7 @@
     {
       "id": "Empresas Penta SA",
       "tipo_nodo": "entidad_privada",
-      "rut": "96.714.830-K",
+      "rut": "87.107.000-8",
       "monto_clp": 0,
       "path": "01_Entidades/Privadas/Empresas Penta SA.md",
       "in_degree": 3,
@@ -1482,7 +1482,7 @@
     {
       "id": "Senado de la Republica de Chile",
       "tipo_nodo": "entidad_publica",
-      "rut": "60.201.000-7",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Publicas/Senado de la Republica de Chile.md",
       "in_degree": 4,
@@ -1493,7 +1493,7 @@
     {
       "id": "Fundacion Democracia Viva",
       "tipo_nodo": "entidad_privada",
-      "rut": "65.218.940-7",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Privadas/Fundacion Democracia Viva.md",
       "in_degree": 3,
@@ -1526,7 +1526,7 @@
     {
       "id": "Caso Basura",
       "tipo_nodo": "causa_judicial",
-      "rut": "1100849201-5",
+      "rut": "",
       "monto_clp": 0,
       "path": "02_Causas/Caso Basura.md",
       "in_degree": 3,
@@ -1537,7 +1537,7 @@
     {
       "id": "Caso Caval",
       "tipo_nodo": "causa_judicial",
-      "rut": "1500169916-0",
+      "rut": "",
       "monto_clp": 0,
       "path": "02_Causas/Caso Caval.md",
       "in_degree": 3,
@@ -1548,7 +1548,7 @@
     {
       "id": "Caso LAN Informacion Privilegiada y Banco de Talca",
       "tipo_nodo": "causa_judicial",
-      "rut": "0600306114-2",
+      "rut": "",
       "monto_clp": 0,
       "path": "02_Causas/Caso LAN Informacion Privilegiada y Banco de Talca.md",
       "in_degree": 3,
@@ -1557,9 +1557,20 @@
       "flujo_recibido_clp": 0
     },
     {
+      "id": "Caso Milicogate",
+      "tipo_nodo": "causa_judicial",
+      "rut": "",
+      "monto_clp": 0,
+      "path": "02_Causas/Caso Milicogate.md",
+      "in_degree": 3,
+      "out_degree": 1,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
       "id": "Caso Pacogate",
       "tipo_nodo": "causa_judicial",
-      "rut": "1601012894-2",
+      "rut": "",
       "monto_clp": 0,
       "path": "02_Causas/Caso Pacogate.md",
       "in_degree": 3,
@@ -1570,7 +1581,7 @@
     {
       "id": "Caso Riggs",
       "tipo_nodo": "causa_judicial",
-      "rut": "0400164900-4",
+      "rut": "",
       "monto_clp": 0,
       "path": "02_Causas/Caso Riggs.md",
       "in_degree": 3,
@@ -1581,7 +1592,7 @@
     {
       "id": "Caso SQM",
       "tipo_nodo": "causa_judicial",
-      "rut": "1500189420-1",
+      "rut": "",
       "monto_clp": 0,
       "path": "02_Causas/Caso SQM.md",
       "in_degree": 3,
@@ -1592,20 +1603,9 @@
     {
       "id": "Caso Spiniak",
       "tipo_nodo": "causa_judicial",
-      "rut": "0300932700-3",
+      "rut": "",
       "monto_clp": 0,
       "path": "02_Causas/Caso Spiniak.md",
-      "in_degree": 3,
-      "out_degree": 1,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
-      "id": "Caso Milicogate",
-      "tipo_nodo": "causa_judicial",
-      "rut": "1500948120-7",
-      "monto_clp": 0,
-      "path": "02_Causas/Caso Milicogate.md",
       "in_degree": 3,
       "out_degree": 1,
       "flujo_emitido_clp": 0,
@@ -1790,7 +1790,7 @@
     {
       "id": "Servicio Nacional del Consumidor",
       "tipo_nodo": "entidad_publica",
-      "rut": "60.805.000-0",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Publicas/Servicio Nacional del Consumidor.md",
       "in_degree": 3,
@@ -1812,7 +1812,7 @@
     {
       "id": "Direccion de Finanzas de Carabineros",
       "tipo_nodo": "entidad_publica",
-      "rut": "60.506.000-5",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Publicas/Direccion de Finanzas de Carabineros.md",
       "in_degree": 3,
@@ -1889,7 +1889,7 @@
     {
       "id": "Fundacion ProCultura",
       "tipo_nodo": "entidad_privada",
-      "rut": "65.034.810-9",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Privadas/Fundacion ProCultura.md",
       "in_degree": 2,
@@ -1900,7 +1900,7 @@
     {
       "id": "GORE Biobio",
       "tipo_nodo": "entidad_publica",
-      "rut": "72.260.900-K",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Publicas/GORE Biobio.md",
       "in_degree": 3,
@@ -1922,7 +1922,7 @@
     {
       "id": "Farmacias Salcobrand SA",
       "tipo_nodo": "entidad_privada",
-      "rut": "96.516.000-0",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Privadas/Farmacias Salcobrand SA.md",
       "in_degree": 3,
@@ -1955,7 +1955,7 @@
     {
       "id": "KDM Empresas SA",
       "tipo_nodo": "entidad_privada",
-      "rut": "96.648.210-9",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Privadas/KDM Empresas SA.md",
       "in_degree": 2,
@@ -2019,17 +2019,6 @@
       "flujo_recibido_clp": 25000000
     },
     {
-      "id": "Iraci Hassler Jacob",
-      "tipo_nodo": "persona",
-      "rut": "",
-      "monto_clp": 0,
-      "path": "01_Entidades/Personas/Iraci Hassler Jacob.md",
-      "in_degree": 2,
-      "out_degree": 1,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
       "id": "Jorge Quiroz Castro",
       "tipo_nodo": "persona",
       "rut": "",
@@ -2052,9 +2041,20 @@
       "flujo_recibido_clp": 0
     },
     {
+      "id": "Iraci Hassler Jacob",
+      "tipo_nodo": "persona",
+      "rut": "",
+      "monto_clp": 0,
+      "path": "01_Entidades/Personas/Iraci Hassler Jacob.md",
+      "in_degree": 2,
+      "out_degree": 1,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
       "id": "Asociacion de Productores Avicolas de Chile AG",
       "tipo_nodo": "entidad_privada",
-      "rut": "70.284.100-3",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Privadas/Asociacion de Productores Avicolas de Chile AG.md",
       "in_degree": 2,
@@ -2065,7 +2065,7 @@
     {
       "id": "Quiroz y Asociados Consultores SpA",
       "tipo_nodo": "entidad_privada",
-      "rut": "76.189.345-9",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Privadas/Quiroz y Asociados Consultores SpA.md",
       "in_degree": 2,
@@ -2076,7 +2076,7 @@
     {
       "id": "Caso Asignaciones Parlamentarias y Cuota Flores",
       "tipo_nodo": "causa_judicial",
-      "rut": "RUC-2500819421-2",
+      "rut": "",
       "monto_clp": 0,
       "path": "02_Causas/Caso Asignaciones Parlamentarias y Cuota Flores.md",
       "in_degree": 2,
@@ -2087,7 +2087,7 @@
     {
       "id": "Caso CEMA Chile",
       "tipo_nodo": "causa_judicial",
-      "rut": "1600341250-8",
+      "rut": "",
       "monto_clp": 0,
       "path": "02_Causas/Caso CEMA Chile.md",
       "in_degree": 2,
@@ -2098,7 +2098,7 @@
     {
       "id": "Caso Cascadas",
       "tipo_nodo": "causa_judicial",
-      "rut": "1400918240-2",
+      "rut": "",
       "monto_clp": 0,
       "path": "02_Causas/Caso Cascadas.md",
       "in_degree": 2,
@@ -2109,7 +2109,7 @@
     {
       "id": "Caso Corpesca",
       "tipo_nodo": "causa_judicial",
-      "rut": "1300589410-8",
+      "rut": "",
       "monto_clp": 0,
       "path": "02_Causas/Caso Corpesca.md",
       "in_degree": 2,
@@ -2120,7 +2120,7 @@
     {
       "id": "Caso MOP-Gate",
       "tipo_nodo": "causa_judicial",
-      "rut": "0300148920-1",
+      "rut": "",
       "monto_clp": 0,
       "path": "02_Causas/Caso MOP-Gate.md",
       "in_degree": 2,
@@ -2131,7 +2131,7 @@
     {
       "id": "Caso Minera Dominga Pandora Papers",
       "tipo_nodo": "causa_judicial",
-      "rut": "2100912845-3",
+      "rut": "",
       "monto_clp": 0,
       "path": "02_Causas/Caso Minera Dominga Pandora Papers.md",
       "in_degree": 2,
@@ -2142,31 +2142,9 @@
     {
       "id": "Caso Municipalidad de Maipu",
       "tipo_nodo": "causa_judicial",
-      "rut": "2101094520-3",
+      "rut": "",
       "monto_clp": 0,
       "path": "02_Causas/Caso Municipalidad de Maipu.md",
-      "in_degree": 2,
-      "out_degree": 1,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
-      "id": "Caso Sierra Bella",
-      "tipo_nodo": "causa_judicial",
-      "rut": "2300094812-3",
-      "monto_clp": 0,
-      "path": "02_Causas/Caso Sierra Bella.md",
-      "in_degree": 2,
-      "out_degree": 1,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
-      "id": "Caso Vitacura",
-      "tipo_nodo": "causa_judicial",
-      "rut": "2100783412-9",
-      "monto_clp": 0,
-      "path": "02_Causas/Caso Vitacura.md",
       "in_degree": 2,
       "out_degree": 1,
       "flujo_emitido_clp": 0,
@@ -2178,6 +2156,28 @@
       "rut": "",
       "monto_clp": 0,
       "path": "02_Causas/Caso Operaciones Digitales e Injerencia Electoral.md",
+      "in_degree": 2,
+      "out_degree": 1,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "Caso Sierra Bella",
+      "tipo_nodo": "causa_judicial",
+      "rut": "",
+      "monto_clp": 0,
+      "path": "02_Causas/Caso Sierra Bella.md",
+      "in_degree": 2,
+      "out_degree": 1,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "Caso Vitacura",
+      "tipo_nodo": "causa_judicial",
+      "rut": "",
+      "monto_clp": 0,
+      "path": "02_Causas/Caso Vitacura.md",
       "in_degree": 2,
       "out_degree": 1,
       "flujo_emitido_clp": 0,
@@ -2263,7 +2263,7 @@
     {
       "id": "Andes Iron SpA",
       "tipo_nodo": "entidad_privada",
-      "rut": "76.128.490-8",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Privadas/Andes Iron SpA.md",
       "in_degree": 1,
@@ -2285,7 +2285,7 @@
     {
       "id": "Agrosuper SA",
       "tipo_nodo": "entidad_privada",
-      "rut": "96.522.000-3",
+      "rut": "76.129.263-3",
       "monto_clp": 0,
       "path": "01_Entidades/Privadas/Agrosuper SA.md",
       "in_degree": 2,
@@ -2318,7 +2318,7 @@
     {
       "id": "Fundacion CEMA Chile",
       "tipo_nodo": "entidad_privada",
-      "rut": "70.012.450-9",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Privadas/Fundacion CEMA Chile.md",
       "in_degree": 1,
@@ -2362,7 +2362,7 @@
     {
       "id": "Frasim Ltda",
       "tipo_nodo": "entidad_privada",
-      "rut": "76.091.340-5",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Privadas/Frasim Ltda.md",
       "in_degree": 1,
@@ -2395,7 +2395,7 @@
     {
       "id": "Valmoval Ltda",
       "tipo_nodo": "entidad_privada",
-      "rut": "78.142.930-9",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Privadas/Valmoval Ltda.md",
       "in_degree": 1,
@@ -2417,7 +2417,7 @@
     {
       "id": "Exportadora y de Gestion Caval Ltda",
       "tipo_nodo": "entidad_privada",
-      "rut": "76.195.420-2",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Privadas/Exportadora y de Gestion Caval Ltda.md",
       "in_degree": 1,
@@ -2439,7 +2439,7 @@
     {
       "id": "Ministerio de Obras Publicas",
       "tipo_nodo": "entidad_publica",
-      "rut": "61.202.000-0",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Publicas/Ministerio de Obras Publicas.md",
       "in_degree": 1,
@@ -2461,7 +2461,7 @@
     {
       "id": "Municipalidad de Cerro Navia",
       "tipo_nodo": "entidad_publica",
-      "rut": "69.071.300-4",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Publicas/Municipalidad de Cerro Navia.md",
       "in_degree": 1,
@@ -2494,7 +2494,7 @@
     {
       "id": "Municipalidad de Vitacura",
       "tipo_nodo": "entidad_publica",
-      "rut": "69.254.900-7",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Publicas/Municipalidad de Vitacura.md",
       "in_degree": 2,
@@ -2505,7 +2505,7 @@
     {
       "id": "Vita Deportes",
       "tipo_nodo": "entidad_privada",
-      "rut": "65.089.120-1",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Privadas/Vita Deportes.md",
       "in_degree": 1,
@@ -2527,7 +2527,7 @@
     {
       "id": "Inversiones El Bosque Ltda",
       "tipo_nodo": "entidad_privada",
-      "rut": "77.412.890-5",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Privadas/Inversiones El Bosque Ltda.md",
       "in_degree": 1,
@@ -2549,7 +2549,7 @@
     {
       "id": "Fundacion En Ti",
       "tipo_nodo": "entidad_privada",
-      "rut": "65.184.310-3",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Privadas/Fundacion En Ti.md",
       "in_degree": 1,
@@ -2648,7 +2648,7 @@
     {
       "id": "Municipalidad de Machali",
       "tipo_nodo": "entidad_publica",
-      "rut": "69.080.400-K",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Publicas/Municipalidad de Machali.md",
       "in_degree": 1,
@@ -2681,7 +2681,7 @@
     {
       "id": "Itelecom Holding Chile SpA",
       "tipo_nodo": "entidad_privada",
-      "rut": "76.284.190-8",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Privadas/Itelecom Holding Chile SpA.md",
       "in_degree": 1,
@@ -2701,22 +2701,22 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Felipe Sanchez Perez",
+      "id": "Jorge Bermudez Soto",
       "tipo_nodo": "persona",
       "rut": "",
       "monto_clp": 0,
-      "path": "01_Entidades/Personas/Felipe Sanchez Perez.md",
+      "path": "01_Entidades/Personas/Jorge Bermudez Soto.md",
       "in_degree": 2,
       "out_degree": 0,
       "flujo_emitido_clp": 0,
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Jorge Bermudez Soto",
+      "id": "Felipe Sanchez Perez",
       "tipo_nodo": "persona",
       "rut": "",
       "monto_clp": 0,
-      "path": "01_Entidades/Personas/Jorge Bermudez Soto.md",
+      "path": "01_Entidades/Personas/Felipe Sanchez Perez.md",
       "in_degree": 2,
       "out_degree": 0,
       "flujo_emitido_clp": 0,
@@ -2736,7 +2736,7 @@
     {
       "id": "Municipalidad de Santiago",
       "tipo_nodo": "entidad_publica",
-      "rut": "69.070.100-6",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Publicas/Municipalidad de Santiago.md",
       "in_degree": 1,
@@ -2747,7 +2747,7 @@
     {
       "id": "Fiscalia Nacional Economica",
       "tipo_nodo": "entidad_publica",
-      "rut": "61.202.000-0",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Publicas/Fiscalia Nacional Economica.md",
       "in_degree": 2,
@@ -2758,7 +2758,7 @@
     {
       "id": "Inmobiliaria San Valentino SpA",
       "tipo_nodo": "entidad_privada",
-      "rut": "77.418.920-3",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Privadas/Inmobiliaria San Valentino SpA.md",
       "in_degree": 1,
@@ -2769,7 +2769,7 @@
     {
       "id": "Sociedad de Inversiones Pampa Calichera SA",
       "tipo_nodo": "entidad_privada",
-      "rut": "96.524.180-9",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Privadas/Sociedad de Inversiones Pampa Calichera SA.md",
       "in_degree": 1,
@@ -2780,7 +2780,7 @@
     {
       "id": "Numen Publicidad SpA",
       "tipo_nodo": "entidad_privada",
-      "rut": "77.492.381-0",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Privadas/Numen Publicidad SpA.md",
       "in_degree": 1,
@@ -2791,7 +2791,7 @@
     {
       "id": "Revolucion Democratica",
       "tipo_nodo": "partido_politico",
-      "rut": "65.119.420-2",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Partidos/Revolucion Democratica.md",
       "in_degree": 2,
@@ -2802,7 +2802,7 @@
     {
       "id": "Caso Exalmar y Fideicomiso Ciego",
       "tipo_nodo": "causa_judicial",
-      "rut": "1601089412-7",
+      "rut": "",
       "monto_clp": 0,
       "path": "02_Causas/Caso Exalmar y Fideicomiso Ciego.md",
       "in_degree": 1,
@@ -2813,7 +2813,7 @@
     {
       "id": "Caso Luminarias LED",
       "tipo_nodo": "causa_judicial",
-      "rut": "1900418920-4",
+      "rut": "",
       "monto_clp": 0,
       "path": "02_Causas/Caso Luminarias LED.md",
       "in_degree": 1,
@@ -2912,7 +2912,7 @@
     {
       "id": "Municipalidad de Chillan",
       "tipo_nodo": "entidad_publica",
-      "rut": "69.140.900-7",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Publicas/Municipalidad de Chillan.md",
       "in_degree": 1,
@@ -3033,7 +3033,7 @@
     {
       "id": "SCA Chile SA",
       "tipo_nodo": "entidad_privada",
-      "rut": "96.529.000-1",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Privadas/SCA Chile SA.md",
       "in_degree": 1,
@@ -3044,7 +3044,7 @@
     {
       "id": "Farmacias Cruz Verde SA",
       "tipo_nodo": "entidad_privada",
-      "rut": "96.677.000-7",
+      "rut": "89.807.200-2",
       "monto_clp": 0,
       "path": "01_Entidades/Privadas/Farmacias Cruz Verde SA.md",
       "in_degree": 1,
@@ -3055,7 +3055,7 @@
     {
       "id": "Partido Socialista de Chile",
       "tipo_nodo": "partido_politico",
-      "rut": "65.014.320-5",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Partidos/Partido Socialista de Chile.md",
       "in_degree": 1,
@@ -3066,7 +3066,7 @@
     {
       "id": "Partido Comunista de Chile",
       "tipo_nodo": "partido_politico",
-      "rut": "65.021.840-K",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Partidos/Partido Comunista de Chile.md",
       "in_degree": 1,
@@ -3209,7 +3209,7 @@
     {
       "id": "Direccion ChileCompra",
       "tipo_nodo": "entidad_publica",
-      "rut": "61.970.200-K",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Publicas/Direccion ChileCompra.md",
       "in_degree": 0,
@@ -3231,7 +3231,7 @@
     {
       "id": "Farmacias Ahumada SA",
       "tipo_nodo": "entidad_privada",
-      "rut": "91.522.000-2",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Privadas/Farmacias Ahumada SA.md",
       "in_degree": 0,
@@ -3242,7 +3242,7 @@
     {
       "id": "Empresas Ariztia SA",
       "tipo_nodo": "entidad_privada",
-      "rut": "91.533.000-2",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Privadas/Empresas Ariztia SA.md",
       "in_degree": 0,
@@ -3253,7 +3253,7 @@
     {
       "id": "Agricola Don Pollo Limitada",
       "tipo_nodo": "entidad_privada",
-      "rut": "78.145.220-3",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Privadas/Agricola Don Pollo Limitada.md",
       "in_degree": 0,
@@ -3383,17 +3383,6 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Cobertura_de_Fuentes",
-      "tipo_nodo": "vista_analitica",
-      "rut": "",
-      "monto_clp": 0,
-      "path": "05_Vistas_Analiticas/Cobertura_de_Fuentes.md",
-      "in_degree": 0,
-      "out_degree": 0,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
       "id": "Dashboard_General",
       "tipo_nodo": "vista_analitica",
       "rut": "",
@@ -3476,6 +3465,17 @@
       "rut": "",
       "monto_clp": 0,
       "path": "05_Vistas_Analiticas/Simulacion_Desarticulacion_Red.md",
+      "in_degree": 0,
+      "out_degree": 0,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "Cobertura_de_Fuentes",
+      "tipo_nodo": "vista_analitica",
+      "rut": "",
+      "monto_clp": 0,
+      "path": "05_Vistas_Analiticas/Cobertura_de_Fuentes.md",
       "in_degree": 0,
       "out_degree": 0,
       "flujo_emitido_clp": 0,
@@ -3625,12 +3625,6 @@
       "weight": 1
     },
     {
-      "source": "Iraci Hassler Jacob",
-      "target": "Partido Comunista de Chile",
-      "relation": "afiliacion_politica",
-      "weight": 1
-    },
-    {
       "source": "Jaime Orpis Bouchon",
       "target": "Union Democrata Independiente",
       "relation": "afiliacion_politica",
@@ -3657,6 +3651,42 @@
     {
       "source": "Loreto Letelier",
       "target": "Union Democrata Independiente",
+      "relation": "afiliacion_politica",
+      "weight": 1
+    },
+    {
+      "source": "Pia Guzman Mena",
+      "target": "Renovacion Nacional",
+      "relation": "afiliacion_politica",
+      "weight": 1
+    },
+    {
+      "source": "Raul Torrealba del Pedregal",
+      "target": "Renovacion Nacional",
+      "relation": "afiliacion_politica",
+      "weight": 1
+    },
+    {
+      "source": "Lucia Hiriart Rodriguez",
+      "target": "Augusto Pinochet Ugarte",
+      "relation": "vinculos_familiares",
+      "weight": 1
+    },
+    {
+      "source": "Lucia Hiriart Rodriguez",
+      "target": "Augusto Pinochet Hiriart",
+      "relation": "vinculos_familiares",
+      "weight": 1
+    },
+    {
+      "source": "Lucia Hiriart Rodriguez",
+      "target": "Julio Ponce Lerou",
+      "relation": "vinculos_familiares",
+      "weight": 1
+    },
+    {
+      "source": "Iraci Hassler Jacob",
+      "target": "Partido Comunista de Chile",
       "relation": "afiliacion_politica",
       "weight": 1
     },
@@ -3691,18 +3721,6 @@
       "weight": 1
     },
     {
-      "source": "Pia Guzman Mena",
-      "target": "Renovacion Nacional",
-      "relation": "afiliacion_politica",
-      "weight": 1
-    },
-    {
-      "source": "Raul Torrealba del Pedregal",
-      "target": "Renovacion Nacional",
-      "relation": "afiliacion_politica",
-      "weight": 1
-    },
-    {
       "source": "Santiago Valdes Gutierrez",
       "target": "Renovacion Nacional",
       "relation": "afiliacion_politica",
@@ -3717,24 +3735,6 @@
     {
       "source": "Sebastian Pinera Echenique",
       "target": "Andres Chadwick Pinera",
-      "relation": "vinculos_familiares",
-      "weight": 1
-    },
-    {
-      "source": "Lucia Hiriart Rodriguez",
-      "target": "Augusto Pinochet Ugarte",
-      "relation": "vinculos_familiares",
-      "weight": 1
-    },
-    {
-      "source": "Lucia Hiriart Rodriguez",
-      "target": "Augusto Pinochet Hiriart",
-      "relation": "vinculos_familiares",
-      "weight": 1
-    },
-    {
-      "source": "Lucia Hiriart Rodriguez",
-      "target": "Julio Ponce Lerou",
       "relation": "vinculos_familiares",
       "weight": 1
     },
@@ -3913,12 +3913,6 @@
       "weight": 1
     },
     {
-      "source": "Gestion Ambiental y Territorial SA",
-      "target": "Hector Pena Veliz",
-      "relation": "representante_legal",
-      "weight": 1
-    },
-    {
       "source": "Itelecom Holding Chile SpA",
       "target": "Leon Marcelo Lefort Hernandez",
       "relation": "representante_legal",
@@ -3945,6 +3939,12 @@
     {
       "source": "KDM Empresas SA",
       "target": "Fernando Leon Steffens",
+      "relation": "representante_legal",
+      "weight": 1
+    },
+    {
+      "source": "Gestion Ambiental y Territorial SA",
+      "target": "Hector Pena Veliz",
       "relation": "representante_legal",
       "weight": 1
     },
@@ -4051,6 +4051,12 @@
       "weight": 1
     },
     {
+      "source": "Caso Milicogate",
+      "target": "Malversacion de Caudales Publicos",
+      "relation": "delito_principal",
+      "weight": 1
+    },
+    {
       "source": "Caso Minera Dominga Pandora Papers",
       "target": "Cohecho",
       "relation": "delito_principal",
@@ -4071,6 +4077,12 @@
     {
       "source": "Caso Operacion Huracan",
       "target": "Falsificacion de Instrumento Publico",
+      "relation": "delito_principal",
+      "weight": 1
+    },
+    {
+      "source": "Caso Operaciones Digitales e Injerencia Electoral",
+      "target": "Fraude al Fisco",
       "relation": "delito_principal",
       "weight": 1
     },
@@ -4125,18 +4137,6 @@
     {
       "source": "Caso Vitacura",
       "target": "Malversacion de Caudales Publicos",
-      "relation": "delito_principal",
-      "weight": 1
-    },
-    {
-      "source": "Caso Milicogate",
-      "target": "Malversacion de Caudales Publicos",
-      "relation": "delito_principal",
-      "weight": 1
-    },
-    {
-      "source": "Caso Operaciones Digitales e Injerencia Electoral",
-      "target": "Fraude al Fisco",
       "relation": "delito_principal",
       "weight": 1
     },
@@ -5527,48 +5527,6 @@
       "weight": 35000000
     },
     {
-      "source": "TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01",
-      "target": "Bancard Inversiones Ltda",
-      "relation": "entidad_origen",
-      "weight": 18500000000
-    },
-    {
-      "source": "TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01",
-      "target": "Corte Suprema de Chile",
-      "relation": "entidad_destino",
-      "weight": 18500000000
-    },
-    {
-      "source": "TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01",
-      "target": "Sebastian Pinera Echenique",
-      "relation": "firmante_origen",
-      "weight": 18500000000
-    },
-    {
-      "source": "TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01",
-      "target": "Sergio Munoz Gajardo",
-      "relation": "firmante_destino",
-      "weight": 18500000000
-    },
-    {
-      "source": "TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01",
-      "target": "Negociacion Incompatible",
-      "relation": "delito_imputado",
-      "weight": 18500000000
-    },
-    {
-      "source": "TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01",
-      "target": "Caso LAN Informacion Privilegiada y Banco de Talca",
-      "relation": "causa_vinculada",
-      "weight": 18500000000
-    },
-    {
-      "source": "TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01",
-      "target": "Resolucion-SVS-306-InformacionPrivilegiada-LAN-2007",
-      "relation": "evidencia_soporte",
-      "weight": 18500000000
-    },
-    {
       "source": "TRX-1989-01-10-Emision-Pinocheques-Ejercito-Valmoval-01",
       "target": "Comando de Apoyo a la Fuerza del Ejercito",
       "relation": "entidad_origen",
@@ -5609,6 +5567,744 @@
       "target": "Sentencia-Corte-Suprema-CasoRiggs-2018",
       "relation": "evidencia_soporte",
       "weight": 2950000000
+    },
+    {
+      "source": "TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01",
+      "target": "Corpesca SA",
+      "relation": "entidad_origen",
+      "weight": 233000000
+    },
+    {
+      "source": "TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01",
+      "target": "Senado de la Republica de Chile",
+      "relation": "entidad_destino",
+      "weight": 233000000
+    },
+    {
+      "source": "TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01",
+      "target": "Francisco Mujica Ortuzar",
+      "relation": "firmante_origen",
+      "weight": 233000000
+    },
+    {
+      "source": "TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01",
+      "target": "Jaime Orpis Bouchon",
+      "relation": "firmante_destino",
+      "weight": 233000000
+    },
+    {
+      "source": "TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01",
+      "target": "Caso Corpesca",
+      "relation": "causa_vinculada",
+      "weight": 233000000
+    },
+    {
+      "source": "TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01",
+      "target": "Cohecho",
+      "relation": "delito_imputado",
+      "weight": 233000000
+    },
+    {
+      "source": "TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01",
+      "target": "Sentencia-3TOP-Santiago-Corpesca-2021",
+      "relation": "evidencia_soporte",
+      "weight": 233000000
+    },
+    {
+      "source": "TRX-2015-01-29-Facturas-Falsas-Caval-SII-01",
+      "target": "Exportadora y de Gestion Caval Ltda",
+      "relation": "entidad_origen",
+      "weight": 2500000000
+    },
+    {
+      "source": "TRX-2015-01-29-Facturas-Falsas-Caval-SII-01",
+      "target": "Servicio Impuestos Internos",
+      "relation": "entidad_destino",
+      "weight": 2500000000
+    },
+    {
+      "source": "TRX-2015-01-29-Facturas-Falsas-Caval-SII-01",
+      "target": "Natalia Compagnon Soto",
+      "relation": "firmante_origen",
+      "weight": 2500000000
+    },
+    {
+      "source": "TRX-2015-01-29-Facturas-Falsas-Caval-SII-01",
+      "target": "Natalia Compagnon Soto",
+      "relation": "firmante_destino",
+      "weight": 2500000000
+    },
+    {
+      "source": "TRX-2015-01-29-Facturas-Falsas-Caval-SII-01",
+      "target": "Delito Tributario",
+      "relation": "delito_imputado",
+      "weight": 2500000000
+    },
+    {
+      "source": "TRX-2015-01-29-Facturas-Falsas-Caval-SII-01",
+      "target": "Caso Caval",
+      "relation": "causa_vinculada",
+      "weight": 2500000000
+    },
+    {
+      "source": "TRX-2015-01-29-Facturas-Falsas-Caval-SII-01",
+      "target": "Sentencia-TOP-Rancagua-Caval-2018",
+      "relation": "evidencia_soporte",
+      "weight": 2500000000
+    },
+    {
+      "source": "TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01",
+      "target": "Comando de Apoyo a la Fuerza del Ejercito",
+      "relation": "entidad_origen",
+      "weight": 3500000000
+    },
+    {
+      "source": "TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01",
+      "target": "Unidad de Analisis Financiero",
+      "relation": "entidad_destino",
+      "weight": 3500000000
+    },
+    {
+      "source": "TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01",
+      "target": "Juan Miguel Fuente-Alba Poblete",
+      "relation": "firmante_origen",
+      "weight": 3500000000
+    },
+    {
+      "source": "TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01",
+      "target": "Javier Cruz Tamburrino",
+      "relation": "firmante_destino",
+      "weight": 3500000000
+    },
+    {
+      "source": "TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01",
+      "target": "Lavado de Activos",
+      "relation": "delito_imputado",
+      "weight": 3500000000
+    },
+    {
+      "source": "TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01",
+      "target": "Caso Milicogate",
+      "relation": "causa_vinculada",
+      "weight": 3500000000
+    },
+    {
+      "source": "TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01",
+      "target": "Procesamientos-Ministra-Rutherford-Milicogate",
+      "relation": "evidencia_soporte",
+      "weight": 3500000000
+    },
+    {
+      "source": "TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01",
+      "target": "Mossack Fonseca y Sociedades Offshore Panama",
+      "relation": "entidad_origen",
+      "weight": 14200000000
+    },
+    {
+      "source": "TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01",
+      "target": "Servicio Impuestos Internos",
+      "relation": "entidad_destino",
+      "weight": 14200000000
+    },
+    {
+      "source": "TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01",
+      "target": "Gonzalo Delaveau Swett",
+      "relation": "firmante_origen",
+      "weight": 14200000000
+    },
+    {
+      "source": "TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01",
+      "target": "Carlos Pavez Tolosa",
+      "relation": "firmante_destino",
+      "weight": 14200000000
+    },
+    {
+      "source": "TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01",
+      "target": "Delito Tributario",
+      "relation": "delito_imputado",
+      "weight": 14200000000
+    },
+    {
+      "source": "TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01",
+      "target": "Caso Panama Papers Chile",
+      "relation": "causa_vinculada",
+      "weight": 14200000000
+    },
+    {
+      "source": "TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01",
+      "target": "Filtracion-ICIJ-PanamaPapers-Chile-2016",
+      "relation": "evidencia_soporte",
+      "weight": 14200000000
+    },
+    {
+      "source": "TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01",
+      "target": "Mossack Fonseca y Sociedades Offshore Panama",
+      "relation": "entidad_origen",
+      "weight": 19500000000
+    },
+    {
+      "source": "TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01",
+      "target": "Unidad de Analisis Financiero",
+      "relation": "entidad_destino",
+      "weight": 19500000000
+    },
+    {
+      "source": "TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01",
+      "target": "Agustin Edwards Eastman",
+      "relation": "firmante_origen",
+      "weight": 19500000000
+    },
+    {
+      "source": "TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01",
+      "target": "Alfredo Ovalle Rodriguez",
+      "relation": "firmante_destino",
+      "weight": 19500000000
+    },
+    {
+      "source": "TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01",
+      "target": "Delito Tributario",
+      "relation": "delito_imputado",
+      "weight": 19500000000
+    },
+    {
+      "source": "TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01",
+      "target": "Caso Panama Papers Chile",
+      "relation": "causa_vinculada",
+      "weight": 19500000000
+    },
+    {
+      "source": "TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01",
+      "target": "Filtracion-ICIJ-PanamaPapers-Chile-2016",
+      "relation": "evidencia_soporte",
+      "weight": 19500000000
+    },
+    {
+      "source": "TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01",
+      "target": "Mossack Fonseca y Sociedades Offshore Panama",
+      "relation": "entidad_origen",
+      "weight": 3800000000
+    },
+    {
+      "source": "TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01",
+      "target": "Riggs Bank y Sociedades Offshore Ashburton",
+      "relation": "entidad_destino",
+      "weight": 3800000000
+    },
+    {
+      "source": "TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01",
+      "target": "Oscar Aitken Lavanchy",
+      "relation": "firmante_origen",
+      "weight": 3800000000
+    },
+    {
+      "source": "TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01",
+      "target": "Augusto Pinochet Ugarte",
+      "relation": "firmante_destino",
+      "weight": 3800000000
+    },
+    {
+      "source": "TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01",
+      "target": "Lavado de Activos",
+      "relation": "delito_imputado",
+      "weight": 3800000000
+    },
+    {
+      "source": "TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01",
+      "target": "Caso Panama Papers Chile",
+      "relation": "causa_vinculada",
+      "weight": 3800000000
+    },
+    {
+      "source": "TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01",
+      "target": "Filtracion-ICIJ-PanamaPapers-Chile-2016",
+      "relation": "evidencia_soporte",
+      "weight": 3800000000
+    },
+    {
+      "source": "TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01",
+      "target": "Direccion de Inteligencia Policial de Carabineros",
+      "relation": "entidad_origen",
+      "weight": 0
+    },
+    {
+      "source": "TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01",
+      "target": "Corte Suprema de Chile",
+      "relation": "entidad_destino",
+      "weight": 0
+    },
+    {
+      "source": "TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01",
+      "target": "Gonzalo Blu Rodriguez",
+      "relation": "firmante_origen",
+      "weight": 0
+    },
+    {
+      "source": "TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01",
+      "target": "Alex Smith Leay",
+      "relation": "firmante_destino",
+      "weight": 0
+    },
+    {
+      "source": "TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01",
+      "target": "Caso Operacion Huracan",
+      "relation": "causa_vinculada",
+      "weight": 0
+    },
+    {
+      "source": "TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01",
+      "target": "Falsificacion de Instrumento Publico",
+      "relation": "delito_imputado",
+      "weight": 0
+    },
+    {
+      "source": "TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01",
+      "target": "Sentencia-TOP-Temuco-OperacionHuracan-2026",
+      "relation": "evidencia_soporte",
+      "weight": 0
+    },
+    {
+      "source": "TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01",
+      "target": "Direccion de Inteligencia Policial de Carabineros",
+      "relation": "entidad_origen",
+      "weight": 25000000
+    },
+    {
+      "source": "TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01",
+      "target": "Direccion de Inteligencia Policial de Carabineros",
+      "relation": "entidad_destino",
+      "weight": 25000000
+    },
+    {
+      "source": "TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01",
+      "target": "Patricio Marin Lazo",
+      "relation": "firmante_origen",
+      "weight": 25000000
+    },
+    {
+      "source": "TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01",
+      "target": "Alex Smith Leay",
+      "relation": "firmante_destino",
+      "weight": 25000000
+    },
+    {
+      "source": "TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01",
+      "target": "Caso Operacion Huracan",
+      "relation": "causa_vinculada",
+      "weight": 25000000
+    },
+    {
+      "source": "TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01",
+      "target": "Malversacion de Caudales Publicos",
+      "relation": "delito_imputado",
+      "weight": 25000000
+    },
+    {
+      "source": "TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01",
+      "target": "Sentencia-TOP-Temuco-OperacionHuracan-2026",
+      "relation": "evidencia_soporte",
+      "weight": 25000000
+    },
+    {
+      "source": "TRX-2020-12-15-Deficit-Maipu-Certificados-01",
+      "target": "Municipalidad de Maipu",
+      "relation": "entidad_origen",
+      "weight": 30972000000
+    },
+    {
+      "source": "TRX-2020-12-15-Deficit-Maipu-Certificados-01",
+      "target": "Municipalidad de Maipu",
+      "relation": "entidad_destino",
+      "weight": 30972000000
+    },
+    {
+      "source": "TRX-2020-12-15-Deficit-Maipu-Certificados-01",
+      "target": "Cathy Barriga Guerra",
+      "relation": "firmante_origen",
+      "weight": 30972000000
+    },
+    {
+      "source": "TRX-2020-12-15-Deficit-Maipu-Certificados-01",
+      "target": "Cathy Barriga Guerra",
+      "relation": "firmante_destino",
+      "weight": 30972000000
+    },
+    {
+      "source": "TRX-2020-12-15-Deficit-Maipu-Certificados-01",
+      "target": "Caso Municipalidad de Maipu",
+      "relation": "causa_vinculada",
+      "weight": 30972000000
+    },
+    {
+      "source": "TRX-2020-12-15-Deficit-Maipu-Certificados-01",
+      "target": "Fraude al Fisco",
+      "relation": "delito_imputado",
+      "weight": 30972000000
+    },
+    {
+      "source": "TRX-2020-12-15-Deficit-Maipu-Certificados-01",
+      "target": "Informe-Contraloria-Municipalidad-Maipu-2021",
+      "relation": "evidencia_soporte",
+      "weight": 30972000000
+    },
+    {
+      "source": "TRX-2021-04-15-Subvencion-VitaDeportes-01",
+      "target": "Municipalidad de Vitacura",
+      "relation": "entidad_origen",
+      "weight": 759000000
+    },
+    {
+      "source": "TRX-2021-04-15-Subvencion-VitaDeportes-01",
+      "target": "Vita Deportes",
+      "relation": "entidad_destino",
+      "weight": 759000000
+    },
+    {
+      "source": "TRX-2021-04-15-Subvencion-VitaDeportes-01",
+      "target": "Raul Torrealba del Pedregal",
+      "relation": "firmante_origen",
+      "weight": 759000000
+    },
+    {
+      "source": "TRX-2021-04-15-Subvencion-VitaDeportes-01",
+      "target": "Domingo Prieto Urrejola",
+      "relation": "firmante_destino",
+      "weight": 759000000
+    },
+    {
+      "source": "TRX-2021-04-15-Subvencion-VitaDeportes-01",
+      "target": "Caso Vitacura",
+      "relation": "causa_vinculada",
+      "weight": 759000000
+    },
+    {
+      "source": "TRX-2021-04-15-Subvencion-VitaDeportes-01",
+      "target": "Malversacion de Caudales Publicos",
+      "relation": "delito_imputado",
+      "weight": 759000000
+    },
+    {
+      "source": "TRX-2021-04-15-Subvencion-VitaDeportes-01",
+      "target": "Declaracion-Judicial-Prieto-Vitacura-2021",
+      "relation": "evidencia_soporte",
+      "weight": 759000000
+    },
+    {
+      "source": "TRX-2022-12-20-Convenio-EnTi-01",
+      "target": "GORE Biobio",
+      "relation": "entidad_origen",
+      "weight": 250635000
+    },
+    {
+      "source": "TRX-2022-12-20-Convenio-EnTi-01",
+      "target": "Fundacion En Ti",
+      "relation": "entidad_destino",
+      "weight": 250635000
+    },
+    {
+      "source": "TRX-2022-12-20-Convenio-EnTi-01",
+      "target": "Rodrigo Diaz Worner",
+      "relation": "firmante_origen",
+      "weight": 250635000
+    },
+    {
+      "source": "TRX-2022-12-20-Convenio-EnTi-01",
+      "target": "Camila Polizzi Fonceca",
+      "relation": "firmante_destino",
+      "weight": 250635000
+    },
+    {
+      "source": "TRX-2022-12-20-Convenio-EnTi-01",
+      "target": "Caso Convenios",
+      "relation": "causa_vinculada",
+      "weight": 250635000
+    },
+    {
+      "source": "TRX-2022-12-20-Convenio-EnTi-01",
+      "target": "Fraude al Fisco",
+      "relation": "delito_imputado",
+      "weight": 250635000
+    },
+    {
+      "source": "TRX-2022-12-20-Convenio-EnTi-01",
+      "target": "Resolucion-GORE-Biobio-EnTi-2022",
+      "relation": "evidencia_soporte",
+      "weight": 250635000
+    },
+    {
+      "source": "TRX-2023-06-22-Reunion-Audios-01",
+      "target": "Factop SpA",
+      "relation": "entidad_origen",
+      "weight": 100000000
+    },
+    {
+      "source": "TRX-2023-06-22-Reunion-Audios-01",
+      "target": "Servicio Impuestos Internos",
+      "relation": "entidad_destino",
+      "weight": 100000000
+    },
+    {
+      "source": "TRX-2023-06-22-Reunion-Audios-01",
+      "target": "Luis Hermosilla Osorio",
+      "relation": "firmante_origen",
+      "weight": 100000000
+    },
+    {
+      "source": "TRX-2023-06-22-Reunion-Audios-01",
+      "target": "Leonarda Villalobos Muth",
+      "relation": "firmante_destino",
+      "weight": 100000000
+    },
+    {
+      "source": "TRX-2023-06-22-Reunion-Audios-01",
+      "target": "Caso Audios",
+      "relation": "causa_vinculada",
+      "weight": 100000000
+    },
+    {
+      "source": "TRX-2023-06-22-Reunion-Audios-01",
+      "target": "Cohecho",
+      "relation": "delito_imputado",
+      "weight": 100000000
+    },
+    {
+      "source": "TRX-2023-06-22-Reunion-Audios-01",
+      "target": "Audio-Reunion-Edificio-Alonso-2023",
+      "relation": "evidencia_soporte",
+      "weight": 100000000
+    },
+    {
+      "source": "TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01",
+      "target": "Contraloria General de la Republica",
+      "relation": "entidad_origen",
+      "weight": 0
+    },
+    {
+      "source": "TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01",
+      "target": "Seremi MINVU Antofagasta",
+      "relation": "entidad_destino",
+      "weight": 0
+    },
+    {
+      "source": "TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01",
+      "target": "Jorge Bermudez Soto",
+      "relation": "firmante_origen",
+      "weight": 0
+    },
+    {
+      "source": "TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01",
+      "target": "Carlos Contreras Gutierrez",
+      "relation": "firmante_destino",
+      "weight": 0
+    },
+    {
+      "source": "TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01",
+      "target": "Fraude al Fisco",
+      "relation": "delito_imputado",
+      "weight": 0
+    },
+    {
+      "source": "TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01",
+      "target": "Caso Convenios",
+      "relation": "causa_vinculada",
+      "weight": 0
+    },
+    {
+      "source": "TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01",
+      "target": "Resolucion-Exenta-MINVU-Antofagasta-2022",
+      "relation": "evidencia_soporte",
+      "weight": 0
+    },
+    {
+      "source": "TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01",
+      "target": "Servicio Impuestos Internos",
+      "relation": "entidad_destino",
+      "weight": 240000000000
+    },
+    {
+      "source": "TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01",
+      "target": "Caso Megafraude Tributario Operacion Tributos",
+      "relation": "causa_vinculada",
+      "weight": 240000000000
+    },
+    {
+      "source": "TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01",
+      "target": "Delito Tributario",
+      "relation": "delito_imputado",
+      "weight": 240000000000
+    },
+    {
+      "source": "TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01",
+      "target": "Querella-SII-Megafraude-Tributario-2023",
+      "relation": "evidencia_soporte",
+      "weight": 240000000000
+    },
+    {
+      "source": "TRX-2014-05-20-Facturas-LeyReservadaCobre-01",
+      "target": "Comando de Apoyo a la Fuerza del Ejercito",
+      "relation": "entidad_origen",
+      "weight": 6100000000
+    },
+    {
+      "source": "TRX-2014-05-20-Facturas-LeyReservadaCobre-01",
+      "target": "Frasim Ltda",
+      "relation": "entidad_destino",
+      "weight": 6100000000
+    },
+    {
+      "source": "TRX-2014-05-20-Facturas-LeyReservadaCobre-01",
+      "target": "Juan Miguel Fuente-Alba Poblete",
+      "relation": "firmante_origen",
+      "weight": 6100000000
+    },
+    {
+      "source": "TRX-2014-05-20-Facturas-LeyReservadaCobre-01",
+      "target": "Jozo Santic Palomino",
+      "relation": "firmante_destino",
+      "weight": 6100000000
+    },
+    {
+      "source": "TRX-2014-05-20-Facturas-LeyReservadaCobre-01",
+      "target": "Caso Milicogate",
+      "relation": "causa_vinculada",
+      "weight": 6100000000
+    },
+    {
+      "source": "TRX-2014-05-20-Facturas-LeyReservadaCobre-01",
+      "target": "Malversacion de Caudales Publicos",
+      "relation": "delito_imputado",
+      "weight": 6100000000
+    },
+    {
+      "source": "TRX-2014-05-20-Facturas-LeyReservadaCobre-01",
+      "target": "Procesamientos-Ministra-Rutherford-Milicogate",
+      "relation": "evidencia_soporte",
+      "weight": 6100000000
+    },
+    {
+      "source": "TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01",
+      "target": "Fundacion CEMA Chile",
+      "relation": "entidad_origen",
+      "weight": 10500000000
+    },
+    {
+      "source": "TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01",
+      "target": "Corte Suprema de Chile",
+      "relation": "entidad_destino",
+      "weight": 10500000000
+    },
+    {
+      "source": "TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01",
+      "target": "Lucia Hiriart Rodriguez",
+      "relation": "firmante_origen",
+      "weight": 10500000000
+    },
+    {
+      "source": "TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01",
+      "target": "Sergio Munoz Gajardo",
+      "relation": "firmante_destino",
+      "weight": 10500000000
+    },
+    {
+      "source": "TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01",
+      "target": "Malversacion de Caudales Publicos",
+      "relation": "delito_imputado",
+      "weight": 10500000000
+    },
+    {
+      "source": "TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01",
+      "target": "Caso CEMA Chile",
+      "relation": "causa_vinculada",
+      "weight": 10500000000
+    },
+    {
+      "source": "TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01",
+      "target": "Disolucion-CDE-Fundacion-CEMAChile-2021",
+      "relation": "evidencia_soporte",
+      "weight": 10500000000
+    },
+    {
+      "source": "TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01",
+      "target": "Factop SpA",
+      "relation": "entidad_origen",
+      "weight": 190000000
+    },
+    {
+      "source": "TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01",
+      "target": "Senado de la Republica de Chile",
+      "relation": "entidad_destino",
+      "weight": 190000000
+    },
+    {
+      "source": "TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01",
+      "target": "Luis Hermosilla Osorio",
+      "relation": "firmante_origen",
+      "weight": 190000000
+    },
+    {
+      "source": "TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01",
+      "target": "Andres Chadwick Pinera",
+      "relation": "firmante_destino",
+      "weight": 190000000
+    },
+    {
+      "source": "TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01",
+      "target": "Caso Audios",
+      "relation": "causa_vinculada",
+      "weight": 190000000
+    },
+    {
+      "source": "TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01",
+      "target": "Trafico de Influencias",
+      "relation": "delito_imputado",
+      "weight": 190000000
+    },
+    {
+      "source": "TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01",
+      "target": "Audio-Reunion-Edificio-Alonso-2023",
+      "relation": "evidencia_soporte",
+      "weight": 190000000
+    },
+    {
+      "source": "TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01",
+      "target": "Bancard Inversiones Ltda",
+      "relation": "entidad_origen",
+      "weight": 18500000000
+    },
+    {
+      "source": "TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01",
+      "target": "Corte Suprema de Chile",
+      "relation": "entidad_destino",
+      "weight": 18500000000
+    },
+    {
+      "source": "TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01",
+      "target": "Sebastian Pinera Echenique",
+      "relation": "firmante_origen",
+      "weight": 18500000000
+    },
+    {
+      "source": "TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01",
+      "target": "Sergio Munoz Gajardo",
+      "relation": "firmante_destino",
+      "weight": 18500000000
+    },
+    {
+      "source": "TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01",
+      "target": "Negociacion Incompatible",
+      "relation": "delito_imputado",
+      "weight": 18500000000
+    },
+    {
+      "source": "TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01",
+      "target": "Caso LAN Informacion Privilegiada y Banco de Talca",
+      "relation": "causa_vinculada",
+      "weight": 18500000000
+    },
+    {
+      "source": "TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01",
+      "target": "Resolucion-SVS-306-InformacionPrivilegiada-LAN-2007",
+      "relation": "evidencia_soporte",
+      "weight": 18500000000
     },
     {
       "source": "TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01",
@@ -5893,48 +6589,6 @@
       "weight": 0
     },
     {
-      "source": "TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01",
-      "target": "Corpesca SA",
-      "relation": "entidad_origen",
-      "weight": 233000000
-    },
-    {
-      "source": "TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01",
-      "target": "Senado de la Republica de Chile",
-      "relation": "entidad_destino",
-      "weight": 233000000
-    },
-    {
-      "source": "TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01",
-      "target": "Francisco Mujica Ortuzar",
-      "relation": "firmante_origen",
-      "weight": 233000000
-    },
-    {
-      "source": "TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01",
-      "target": "Jaime Orpis Bouchon",
-      "relation": "firmante_destino",
-      "weight": 233000000
-    },
-    {
-      "source": "TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01",
-      "target": "Caso Corpesca",
-      "relation": "causa_vinculada",
-      "weight": 233000000
-    },
-    {
-      "source": "TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01",
-      "target": "Cohecho",
-      "relation": "delito_imputado",
-      "weight": 233000000
-    },
-    {
-      "source": "TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01",
-      "target": "Sentencia-3TOP-Santiago-Corpesca-2021",
-      "relation": "evidencia_soporte",
-      "weight": 233000000
-    },
-    {
       "source": "TRX-2014-02-18-Soborno-Caval-Machali-01",
       "target": "Municipalidad de Machali",
       "relation": "entidad_destino",
@@ -5963,216 +6617,6 @@
       "target": "Sentencia-TOP-Rancagua-Caval-2018",
       "relation": "evidencia_soporte",
       "weight": 55030792
-    },
-    {
-      "source": "TRX-2015-01-29-Facturas-Falsas-Caval-SII-01",
-      "target": "Exportadora y de Gestion Caval Ltda",
-      "relation": "entidad_origen",
-      "weight": 2500000000
-    },
-    {
-      "source": "TRX-2015-01-29-Facturas-Falsas-Caval-SII-01",
-      "target": "Servicio Impuestos Internos",
-      "relation": "entidad_destino",
-      "weight": 2500000000
-    },
-    {
-      "source": "TRX-2015-01-29-Facturas-Falsas-Caval-SII-01",
-      "target": "Natalia Compagnon Soto",
-      "relation": "firmante_origen",
-      "weight": 2500000000
-    },
-    {
-      "source": "TRX-2015-01-29-Facturas-Falsas-Caval-SII-01",
-      "target": "Natalia Compagnon Soto",
-      "relation": "firmante_destino",
-      "weight": 2500000000
-    },
-    {
-      "source": "TRX-2015-01-29-Facturas-Falsas-Caval-SII-01",
-      "target": "Delito Tributario",
-      "relation": "delito_imputado",
-      "weight": 2500000000
-    },
-    {
-      "source": "TRX-2015-01-29-Facturas-Falsas-Caval-SII-01",
-      "target": "Caso Caval",
-      "relation": "causa_vinculada",
-      "weight": 2500000000
-    },
-    {
-      "source": "TRX-2015-01-29-Facturas-Falsas-Caval-SII-01",
-      "target": "Sentencia-TOP-Rancagua-Caval-2018",
-      "relation": "evidencia_soporte",
-      "weight": 2500000000
-    },
-    {
-      "source": "TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01",
-      "target": "Comando de Apoyo a la Fuerza del Ejercito",
-      "relation": "entidad_origen",
-      "weight": 3500000000
-    },
-    {
-      "source": "TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01",
-      "target": "Unidad de Analisis Financiero",
-      "relation": "entidad_destino",
-      "weight": 3500000000
-    },
-    {
-      "source": "TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01",
-      "target": "Juan Miguel Fuente-Alba Poblete",
-      "relation": "firmante_origen",
-      "weight": 3500000000
-    },
-    {
-      "source": "TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01",
-      "target": "Javier Cruz Tamburrino",
-      "relation": "firmante_destino",
-      "weight": 3500000000
-    },
-    {
-      "source": "TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01",
-      "target": "Lavado de Activos",
-      "relation": "delito_imputado",
-      "weight": 3500000000
-    },
-    {
-      "source": "TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01",
-      "target": "Caso Milicogate",
-      "relation": "causa_vinculada",
-      "weight": 3500000000
-    },
-    {
-      "source": "TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01",
-      "target": "Procesamientos-Ministra-Rutherford-Milicogate",
-      "relation": "evidencia_soporte",
-      "weight": 3500000000
-    },
-    {
-      "source": "TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01",
-      "target": "Mossack Fonseca y Sociedades Offshore Panama",
-      "relation": "entidad_origen",
-      "weight": 14200000000
-    },
-    {
-      "source": "TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01",
-      "target": "Servicio Impuestos Internos",
-      "relation": "entidad_destino",
-      "weight": 14200000000
-    },
-    {
-      "source": "TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01",
-      "target": "Gonzalo Delaveau Swett",
-      "relation": "firmante_origen",
-      "weight": 14200000000
-    },
-    {
-      "source": "TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01",
-      "target": "Carlos Pavez Tolosa",
-      "relation": "firmante_destino",
-      "weight": 14200000000
-    },
-    {
-      "source": "TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01",
-      "target": "Delito Tributario",
-      "relation": "delito_imputado",
-      "weight": 14200000000
-    },
-    {
-      "source": "TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01",
-      "target": "Caso Panama Papers Chile",
-      "relation": "causa_vinculada",
-      "weight": 14200000000
-    },
-    {
-      "source": "TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01",
-      "target": "Filtracion-ICIJ-PanamaPapers-Chile-2016",
-      "relation": "evidencia_soporte",
-      "weight": 14200000000
-    },
-    {
-      "source": "TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01",
-      "target": "Mossack Fonseca y Sociedades Offshore Panama",
-      "relation": "entidad_origen",
-      "weight": 19500000000
-    },
-    {
-      "source": "TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01",
-      "target": "Unidad de Analisis Financiero",
-      "relation": "entidad_destino",
-      "weight": 19500000000
-    },
-    {
-      "source": "TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01",
-      "target": "Agustin Edwards Eastman",
-      "relation": "firmante_origen",
-      "weight": 19500000000
-    },
-    {
-      "source": "TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01",
-      "target": "Alfredo Ovalle Rodriguez",
-      "relation": "firmante_destino",
-      "weight": 19500000000
-    },
-    {
-      "source": "TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01",
-      "target": "Delito Tributario",
-      "relation": "delito_imputado",
-      "weight": 19500000000
-    },
-    {
-      "source": "TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01",
-      "target": "Caso Panama Papers Chile",
-      "relation": "causa_vinculada",
-      "weight": 19500000000
-    },
-    {
-      "source": "TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01",
-      "target": "Filtracion-ICIJ-PanamaPapers-Chile-2016",
-      "relation": "evidencia_soporte",
-      "weight": 19500000000
-    },
-    {
-      "source": "TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01",
-      "target": "Mossack Fonseca y Sociedades Offshore Panama",
-      "relation": "entidad_origen",
-      "weight": 3800000000
-    },
-    {
-      "source": "TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01",
-      "target": "Riggs Bank y Sociedades Offshore Ashburton",
-      "relation": "entidad_destino",
-      "weight": 3800000000
-    },
-    {
-      "source": "TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01",
-      "target": "Oscar Aitken Lavanchy",
-      "relation": "firmante_origen",
-      "weight": 3800000000
-    },
-    {
-      "source": "TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01",
-      "target": "Augusto Pinochet Ugarte",
-      "relation": "firmante_destino",
-      "weight": 3800000000
-    },
-    {
-      "source": "TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01",
-      "target": "Lavado de Activos",
-      "relation": "delito_imputado",
-      "weight": 3800000000
-    },
-    {
-      "source": "TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01",
-      "target": "Caso Panama Papers Chile",
-      "relation": "causa_vinculada",
-      "weight": 3800000000
-    },
-    {
-      "source": "TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01",
-      "target": "Filtracion-ICIJ-PanamaPapers-Chile-2016",
-      "relation": "evidencia_soporte",
-      "weight": 3800000000
     },
     {
       "source": "TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01",
@@ -6259,90 +6703,6 @@
       "weight": 1450000000
     },
     {
-      "source": "TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01",
-      "target": "Direccion de Inteligencia Policial de Carabineros",
-      "relation": "entidad_origen",
-      "weight": 0
-    },
-    {
-      "source": "TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01",
-      "target": "Corte Suprema de Chile",
-      "relation": "entidad_destino",
-      "weight": 0
-    },
-    {
-      "source": "TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01",
-      "target": "Gonzalo Blu Rodriguez",
-      "relation": "firmante_origen",
-      "weight": 0
-    },
-    {
-      "source": "TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01",
-      "target": "Alex Smith Leay",
-      "relation": "firmante_destino",
-      "weight": 0
-    },
-    {
-      "source": "TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01",
-      "target": "Caso Operacion Huracan",
-      "relation": "causa_vinculada",
-      "weight": 0
-    },
-    {
-      "source": "TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01",
-      "target": "Falsificacion de Instrumento Publico",
-      "relation": "delito_imputado",
-      "weight": 0
-    },
-    {
-      "source": "TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01",
-      "target": "Sentencia-TOP-Temuco-OperacionHuracan-2026",
-      "relation": "evidencia_soporte",
-      "weight": 0
-    },
-    {
-      "source": "TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01",
-      "target": "Direccion de Inteligencia Policial de Carabineros",
-      "relation": "entidad_origen",
-      "weight": 25000000
-    },
-    {
-      "source": "TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01",
-      "target": "Direccion de Inteligencia Policial de Carabineros",
-      "relation": "entidad_destino",
-      "weight": 25000000
-    },
-    {
-      "source": "TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01",
-      "target": "Patricio Marin Lazo",
-      "relation": "firmante_origen",
-      "weight": 25000000
-    },
-    {
-      "source": "TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01",
-      "target": "Alex Smith Leay",
-      "relation": "firmante_destino",
-      "weight": 25000000
-    },
-    {
-      "source": "TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01",
-      "target": "Caso Operacion Huracan",
-      "relation": "causa_vinculada",
-      "weight": 25000000
-    },
-    {
-      "source": "TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01",
-      "target": "Malversacion de Caudales Publicos",
-      "relation": "delito_imputado",
-      "weight": 25000000
-    },
-    {
-      "source": "TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01",
-      "target": "Sentencia-TOP-Temuco-OperacionHuracan-2026",
-      "relation": "evidencia_soporte",
-      "weight": 25000000
-    },
-    {
       "source": "TRX-2019-05-14-Soborno-Luminarias-Chillan-01",
       "target": "Itelecom Holding Chile SpA",
       "relation": "entidad_origen",
@@ -6379,90 +6739,6 @@
       "weight": 37000000
     },
     {
-      "source": "TRX-2020-12-15-Deficit-Maipu-Certificados-01",
-      "target": "Municipalidad de Maipu",
-      "relation": "entidad_origen",
-      "weight": 30972000000
-    },
-    {
-      "source": "TRX-2020-12-15-Deficit-Maipu-Certificados-01",
-      "target": "Municipalidad de Maipu",
-      "relation": "entidad_destino",
-      "weight": 30972000000
-    },
-    {
-      "source": "TRX-2020-12-15-Deficit-Maipu-Certificados-01",
-      "target": "Cathy Barriga Guerra",
-      "relation": "firmante_origen",
-      "weight": 30972000000
-    },
-    {
-      "source": "TRX-2020-12-15-Deficit-Maipu-Certificados-01",
-      "target": "Cathy Barriga Guerra",
-      "relation": "firmante_destino",
-      "weight": 30972000000
-    },
-    {
-      "source": "TRX-2020-12-15-Deficit-Maipu-Certificados-01",
-      "target": "Caso Municipalidad de Maipu",
-      "relation": "causa_vinculada",
-      "weight": 30972000000
-    },
-    {
-      "source": "TRX-2020-12-15-Deficit-Maipu-Certificados-01",
-      "target": "Fraude al Fisco",
-      "relation": "delito_imputado",
-      "weight": 30972000000
-    },
-    {
-      "source": "TRX-2020-12-15-Deficit-Maipu-Certificados-01",
-      "target": "Informe-Contraloria-Municipalidad-Maipu-2021",
-      "relation": "evidencia_soporte",
-      "weight": 30972000000
-    },
-    {
-      "source": "TRX-2021-04-15-Subvencion-VitaDeportes-01",
-      "target": "Municipalidad de Vitacura",
-      "relation": "entidad_origen",
-      "weight": 759000000
-    },
-    {
-      "source": "TRX-2021-04-15-Subvencion-VitaDeportes-01",
-      "target": "Vita Deportes",
-      "relation": "entidad_destino",
-      "weight": 759000000
-    },
-    {
-      "source": "TRX-2021-04-15-Subvencion-VitaDeportes-01",
-      "target": "Raul Torrealba del Pedregal",
-      "relation": "firmante_origen",
-      "weight": 759000000
-    },
-    {
-      "source": "TRX-2021-04-15-Subvencion-VitaDeportes-01",
-      "target": "Domingo Prieto Urrejola",
-      "relation": "firmante_destino",
-      "weight": 759000000
-    },
-    {
-      "source": "TRX-2021-04-15-Subvencion-VitaDeportes-01",
-      "target": "Caso Vitacura",
-      "relation": "causa_vinculada",
-      "weight": 759000000
-    },
-    {
-      "source": "TRX-2021-04-15-Subvencion-VitaDeportes-01",
-      "target": "Malversacion de Caudales Publicos",
-      "relation": "delito_imputado",
-      "weight": 759000000
-    },
-    {
-      "source": "TRX-2021-04-15-Subvencion-VitaDeportes-01",
-      "target": "Declaracion-Judicial-Prieto-Vitacura-2021",
-      "relation": "evidencia_soporte",
-      "weight": 759000000
-    },
-    {
       "source": "TRX-2022-09-04-Presencia-Cerimedo-Sede-Renovacion-Nacional-01",
       "target": "Numen Publicidad SpA",
       "relation": "entidad_origen",
@@ -6497,48 +6773,6 @@
       "target": "Fotografia-Cerimedo-Sede-Renovacion-Nacional-2022",
       "relation": "evidencia_soporte",
       "weight": 0
-    },
-    {
-      "source": "TRX-2022-12-20-Convenio-EnTi-01",
-      "target": "GORE Biobio",
-      "relation": "entidad_origen",
-      "weight": 250635000
-    },
-    {
-      "source": "TRX-2022-12-20-Convenio-EnTi-01",
-      "target": "Fundacion En Ti",
-      "relation": "entidad_destino",
-      "weight": 250635000
-    },
-    {
-      "source": "TRX-2022-12-20-Convenio-EnTi-01",
-      "target": "Rodrigo Diaz Worner",
-      "relation": "firmante_origen",
-      "weight": 250635000
-    },
-    {
-      "source": "TRX-2022-12-20-Convenio-EnTi-01",
-      "target": "Camila Polizzi Fonceca",
-      "relation": "firmante_destino",
-      "weight": 250635000
-    },
-    {
-      "source": "TRX-2022-12-20-Convenio-EnTi-01",
-      "target": "Caso Convenios",
-      "relation": "causa_vinculada",
-      "weight": 250635000
-    },
-    {
-      "source": "TRX-2022-12-20-Convenio-EnTi-01",
-      "target": "Fraude al Fisco",
-      "relation": "delito_imputado",
-      "weight": 250635000
-    },
-    {
-      "source": "TRX-2022-12-20-Convenio-EnTi-01",
-      "target": "Resolucion-GORE-Biobio-EnTi-2022",
-      "relation": "evidencia_soporte",
-      "weight": 250635000
     },
     {
       "source": "TRX-2023-01-20-Compraventa-Clinica-SierraBella-01",
@@ -6581,240 +6815,6 @@
       "target": "Dictamen-CGR-SierraBella-2023",
       "relation": "evidencia_soporte",
       "weight": 0
-    },
-    {
-      "source": "TRX-2023-06-22-Reunion-Audios-01",
-      "target": "Factop SpA",
-      "relation": "entidad_origen",
-      "weight": 100000000
-    },
-    {
-      "source": "TRX-2023-06-22-Reunion-Audios-01",
-      "target": "Servicio Impuestos Internos",
-      "relation": "entidad_destino",
-      "weight": 100000000
-    },
-    {
-      "source": "TRX-2023-06-22-Reunion-Audios-01",
-      "target": "Luis Hermosilla Osorio",
-      "relation": "firmante_origen",
-      "weight": 100000000
-    },
-    {
-      "source": "TRX-2023-06-22-Reunion-Audios-01",
-      "target": "Leonarda Villalobos Muth",
-      "relation": "firmante_destino",
-      "weight": 100000000
-    },
-    {
-      "source": "TRX-2023-06-22-Reunion-Audios-01",
-      "target": "Caso Audios",
-      "relation": "causa_vinculada",
-      "weight": 100000000
-    },
-    {
-      "source": "TRX-2023-06-22-Reunion-Audios-01",
-      "target": "Cohecho",
-      "relation": "delito_imputado",
-      "weight": 100000000
-    },
-    {
-      "source": "TRX-2023-06-22-Reunion-Audios-01",
-      "target": "Audio-Reunion-Edificio-Alonso-2023",
-      "relation": "evidencia_soporte",
-      "weight": 100000000
-    },
-    {
-      "source": "TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01",
-      "target": "Contraloria General de la Republica",
-      "relation": "entidad_origen",
-      "weight": 0
-    },
-    {
-      "source": "TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01",
-      "target": "Seremi MINVU Antofagasta",
-      "relation": "entidad_destino",
-      "weight": 0
-    },
-    {
-      "source": "TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01",
-      "target": "Jorge Bermudez Soto",
-      "relation": "firmante_origen",
-      "weight": 0
-    },
-    {
-      "source": "TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01",
-      "target": "Carlos Contreras Gutierrez",
-      "relation": "firmante_destino",
-      "weight": 0
-    },
-    {
-      "source": "TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01",
-      "target": "Fraude al Fisco",
-      "relation": "delito_imputado",
-      "weight": 0
-    },
-    {
-      "source": "TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01",
-      "target": "Caso Convenios",
-      "relation": "causa_vinculada",
-      "weight": 0
-    },
-    {
-      "source": "TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01",
-      "target": "Resolucion-Exenta-MINVU-Antofagasta-2022",
-      "relation": "evidencia_soporte",
-      "weight": 0
-    },
-    {
-      "source": "TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01",
-      "target": "Servicio Impuestos Internos",
-      "relation": "entidad_destino",
-      "weight": 240000000000
-    },
-    {
-      "source": "TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01",
-      "target": "Caso Megafraude Tributario Operacion Tributos",
-      "relation": "causa_vinculada",
-      "weight": 240000000000
-    },
-    {
-      "source": "TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01",
-      "target": "Delito Tributario",
-      "relation": "delito_imputado",
-      "weight": 240000000000
-    },
-    {
-      "source": "TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01",
-      "target": "Querella-SII-Megafraude-Tributario-2023",
-      "relation": "evidencia_soporte",
-      "weight": 240000000000
-    },
-    {
-      "source": "TRX-2014-05-20-Facturas-LeyReservadaCobre-01",
-      "target": "Comando de Apoyo a la Fuerza del Ejercito",
-      "relation": "entidad_origen",
-      "weight": 6100000000
-    },
-    {
-      "source": "TRX-2014-05-20-Facturas-LeyReservadaCobre-01",
-      "target": "Frasim Ltda",
-      "relation": "entidad_destino",
-      "weight": 6100000000
-    },
-    {
-      "source": "TRX-2014-05-20-Facturas-LeyReservadaCobre-01",
-      "target": "Juan Miguel Fuente-Alba Poblete",
-      "relation": "firmante_origen",
-      "weight": 6100000000
-    },
-    {
-      "source": "TRX-2014-05-20-Facturas-LeyReservadaCobre-01",
-      "target": "Jozo Santic Palomino",
-      "relation": "firmante_destino",
-      "weight": 6100000000
-    },
-    {
-      "source": "TRX-2014-05-20-Facturas-LeyReservadaCobre-01",
-      "target": "Caso Milicogate",
-      "relation": "causa_vinculada",
-      "weight": 6100000000
-    },
-    {
-      "source": "TRX-2014-05-20-Facturas-LeyReservadaCobre-01",
-      "target": "Malversacion de Caudales Publicos",
-      "relation": "delito_imputado",
-      "weight": 6100000000
-    },
-    {
-      "source": "TRX-2014-05-20-Facturas-LeyReservadaCobre-01",
-      "target": "Procesamientos-Ministra-Rutherford-Milicogate",
-      "relation": "evidencia_soporte",
-      "weight": 6100000000
-    },
-    {
-      "source": "TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01",
-      "target": "Fundacion CEMA Chile",
-      "relation": "entidad_origen",
-      "weight": 10500000000
-    },
-    {
-      "source": "TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01",
-      "target": "Corte Suprema de Chile",
-      "relation": "entidad_destino",
-      "weight": 10500000000
-    },
-    {
-      "source": "TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01",
-      "target": "Lucia Hiriart Rodriguez",
-      "relation": "firmante_origen",
-      "weight": 10500000000
-    },
-    {
-      "source": "TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01",
-      "target": "Sergio Munoz Gajardo",
-      "relation": "firmante_destino",
-      "weight": 10500000000
-    },
-    {
-      "source": "TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01",
-      "target": "Malversacion de Caudales Publicos",
-      "relation": "delito_imputado",
-      "weight": 10500000000
-    },
-    {
-      "source": "TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01",
-      "target": "Caso CEMA Chile",
-      "relation": "causa_vinculada",
-      "weight": 10500000000
-    },
-    {
-      "source": "TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01",
-      "target": "Disolucion-CDE-Fundacion-CEMAChile-2021",
-      "relation": "evidencia_soporte",
-      "weight": 10500000000
-    },
-    {
-      "source": "TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01",
-      "target": "Factop SpA",
-      "relation": "entidad_origen",
-      "weight": 190000000
-    },
-    {
-      "source": "TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01",
-      "target": "Senado de la Republica de Chile",
-      "relation": "entidad_destino",
-      "weight": 190000000
-    },
-    {
-      "source": "TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01",
-      "target": "Luis Hermosilla Osorio",
-      "relation": "firmante_origen",
-      "weight": 190000000
-    },
-    {
-      "source": "TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01",
-      "target": "Andres Chadwick Pinera",
-      "relation": "firmante_destino",
-      "weight": 190000000
-    },
-    {
-      "source": "TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01",
-      "target": "Caso Audios",
-      "relation": "causa_vinculada",
-      "weight": 190000000
-    },
-    {
-      "source": "TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01",
-      "target": "Trafico de Influencias",
-      "relation": "delito_imputado",
-      "weight": 190000000
-    },
-    {
-      "source": "TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01",
-      "target": "Audio-Reunion-Edificio-Alonso-2023",
-      "relation": "evidencia_soporte",
-      "weight": 190000000
     },
     {
       "source": "Acuerdo-Compensatorio-SERNAC-CMPC-Tissue-2017",

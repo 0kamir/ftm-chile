@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_privada
-rut: "76.419.820-4"
+rut: ""
 razon_social: "Factop SpA"
 fecha_constitucion: "2016-08-10"
 objeto_social: "Operaciones de factoring, descuento de documentos y servicios financieros"

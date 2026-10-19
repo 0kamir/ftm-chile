@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_privada
-rut: "96.648.210-9"
+rut: ""
 razon_social: "KDM Empresas S.A. (Consorcio KDM / Demarco S.A. / Starco S.A.)"
 fecha_constitucion: "1993-11-08"
 objeto_social: "Recolección, transporte, tratamiento y disposición final de residuos sólidos domiciliarios e industriales"

@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_publica
-rut: "61.812.000-7"
+rut: ""
 categoria: Ministerio
 region: "Antofagasta (II Región)"
 superior_jerarquico: "Ministerio de Vivienda y Urbanismo (MINVU)"

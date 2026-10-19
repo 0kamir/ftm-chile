@@ -1,6 +1,6 @@
 ---
 tipo_nodo: partido_politico
-rut: "65.119.420-2"
+rut: ""
 sigla: "RD"
 fecha_fundacion: "2012-01-07"
 coalicion: "Frente Amplio"

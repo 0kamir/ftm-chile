@@ -1,6 +1,6 @@
 ---
 tipo_nodo: causa_judicial
-ruc: "1500169916-0"
+ruc: ""
 año_inicio: 2015
 tribunal_o_fiscalia: "Fiscalía Regional de O'Higgins / Tribunal de Juicio Oral en lo Penal de Rancagua"
 fiscal_a_cargo: "Emiliano Arias Madariaga / Sergio Moya Domke"

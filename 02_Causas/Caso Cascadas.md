@@ -1,6 +1,6 @@
 ---
 tipo_nodo: causa_judicial
-ruc: "1400918240-2"
+ruc: ""
 año_inicio: 2012
 tribunal_o_fiscalia: "Superintendencia de Valores y Seguros (CMF) / Fiscalía Centro Norte / Corte Suprema"
 fiscal_a_cargo: "Carlos Pavez Tolosa (Superintendente SVS) / Andrés Montes Cruz"

@@ -5,6 +5,13 @@ razon_social: "Banco de Chile"
 fecha_constitucion: 1893-10-28
 objeto_social: "Institución bancaria, intermediación financiera, operaciones de crédito y servicios bancarios comerciales"
 representante_legal: "Eduardo Ebensperger Orrego"
+estado_verificacion: parcial
+fuentes:
+  - url: "https://www.genealog.cl/Geneanexus/empresa/CHILE/TOTcwTwMDQwMDAtNQ-jTw/nombre-y-rut/BANCO-DE-CHILE-97004000-5"
+    titulo: "Registro de RUT: Banco de Chile"
+    medio: "Genealog (datos SII)"
+    tipo: secundaria
+    consultado: 2026-10-19
 tags:
   - entidad/privada
   - banco
@@ -38,4 +45,16 @@ TABLE WITHOUT ID
 FROM "03_Hechos_y_Nexos"
 WHERE contains(string(entidad_origen), this.file.name) OR contains(string(entidad_destino), this.file.name)
 SORT fecha ASC
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  elink(f.url, f.titulo) AS "Fuente",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```

@@ -1,6 +1,6 @@
 ---
 tipo_nodo: causa_judicial
-ruc: "1400637392-6"
+ruc: ""
 año_inicio: 2014
 tribunal_o_fiscalia: "Fiscalía Nacional / Fiscalía Regional Metropolitana Oriente / 8° Juzgado de Garantía de Santiago"
 fiscal_a_cargo: "Carlos Gajardo Pinto / Manuel Guerra Fuenzalida"

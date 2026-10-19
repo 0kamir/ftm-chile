@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_privada
-rut: "78.142.930-9"
+rut: ""
 razon_social: "Sociedad Industrial y Metalúrgica Valmoval Limitada (ex Proyectos Integrados / Nihon PSP)"
 fecha_constitucion: 1984-06-15
 objeto_social: "Fabricación metalmecánica, ensamblaje de armamento ligero (subfusiles PSP) y suministros militares"

@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_publica
-rut: "60.506.000-5"
+rut: ""
 categoria: Ministerio
 region: "Nacional (Sede Santiago)"
 superior_jerarquico: "Carabineros de Chile / Ministerio del Interior y Seguridad Pública"

@@ -1,6 +1,6 @@
 ---
 tipo_nodo: partido_politico
-rut: "65.012.340-9"
+rut: ""
 sigla: "RN"
 fecha_fundacion: "1987-04-29"
 coalicion: "Chile Vamos"

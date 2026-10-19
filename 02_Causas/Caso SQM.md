@@ -1,6 +1,6 @@
 ---
 tipo_nodo: causa_judicial
-ruc: "1500189420-1"
+ruc: ""
 año_inicio: 2015
 tribunal_o_fiscalia: "Fiscalía Regional de Valparaíso / 8° Juzgado de Garantía de Santiago / 3° TOP de Santiago"
 fiscal_a_cargo: "Claudia Perivancich / Pablo Gómez"

@@ -1,6 +1,6 @@
 ---
 tipo_nodo: causa_judicial
-ruc: "2301248910-5"
+ruc: ""
 año_inicio: 2023
 tribunal_o_fiscalia: "Fiscalía Regional Metropolitana Oriente / 4° Juzgado de Garantía de Santiago"
 fiscal_a_cargo: "Lorena Parra / Felipe Sepúlveda / Juan Pablo Araya"

@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_privada
-rut: "91.522.000-2"
+rut: ""
 razon_social: "Farmacias Ahumada S.A. (FASA)"
 fecha_constitucion: 1968-11-20
 objeto_social: "Comercialización, distribución y venta minorista de productos farmacéuticos, medicinales y artículos de tocador"

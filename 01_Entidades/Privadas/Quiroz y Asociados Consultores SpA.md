@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_privada
-rut: "76.189.345-9"
+rut: ""
 razon_social: "Quiroz y Asociados Consultores SpA"
 fecha_constitucion: 1998-05-12
 objeto_social: "Asesorías económicas, consultoría macroeconómica, estudios de mercado y libre competencia"

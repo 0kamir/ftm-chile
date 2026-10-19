@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_privada
-rut: "77.418.920-3"
+rut: ""
 razon_social: "Inmobiliaria e Inversiones San Valentino SpA"
 fecha_constitucion: "2022-04-05"
 objeto_social: "Inversiones inmobiliarias, compra, venta y arrendamiento de bienes raíces y establecimientos de salud"

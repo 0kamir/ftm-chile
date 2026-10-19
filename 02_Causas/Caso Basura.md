@@ -1,6 +1,6 @@
 ---
 tipo_nodo: causa_judicial
-ruc: "1100849201-5"
+ruc: ""
 año_inicio: 2011
 tribunal_o_fiscalia: "Fiscalía Regional Metropolitana Occidente / 9° Juzgado de Garantía de Santiago / TOP Santiago"
 fiscal_a_cargo: "José Luis Pérez Calaf / Tufit Bufadel Godoy"

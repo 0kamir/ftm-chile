@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_publica
-rut: "60.803.000-K"
+rut: ""
 categoria: Ministerio
 region: "Metropolitana de Santiago"
 superior_jerarquico: "Ministerio de Hacienda"

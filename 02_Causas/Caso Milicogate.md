@@ -1,6 +1,6 @@
 ---
 tipo_nodo: causa_judicial
-ruc: "1500948120-7"
+ruc: ""
 año_inicio: 2015
 tribunal_o_fiscalia: "Corte Marcial (Ministra en Visita Romy Rutherford) / Fiscalía Centro Norte"
 fiscal_a_cargo: "Romy Rutherford / Ximena Chong"

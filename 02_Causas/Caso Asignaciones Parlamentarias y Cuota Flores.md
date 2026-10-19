@@ -1,6 +1,6 @@
 ---
 tipo_nodo: causa_judicial
-ruc: "RUC-2500819421-2"
+ruc: ""
 año_inicio: 2025
 tribunal_o_fiscalia: "Juzgado de Garantía de Valparaíso / Unidad Regional Anticorrupción (URAC) Fiscalía de Valparaíso"
 fiscal_a_cargo: "Claudia Perivancich Hoyuelos / OS9 y Cibercrimen de la PDI"

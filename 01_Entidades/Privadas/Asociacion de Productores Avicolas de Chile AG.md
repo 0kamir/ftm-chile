@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_privada
-rut: "70.284.100-3"
+rut: ""
 razon_social: "Asociación de Productores Avícolas de Chile A.G. (APA)"
 fecha_constitucion: 1980-04-10
 objeto_social: "Asociación gremial de representación, coordinación y fomento de la industria avícola chilena"

@@ -1,6 +1,6 @@
 ---
 tipo_nodo: causa_judicial
-ruc: "1900418920-4"
+ruc: ""
 año_inicio: 2019
 tribunal_o_fiscalia: "Fiscalía Regional de Ñuble / Tribunal de Juicio Oral en lo Penal de Chillán"
 fiscal_a_cargo: "Nayalet Mansilla / Paulina Valdebenito"

@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_privada
-rut: "70.012.450-9"
+rut: ""
 razon_social: "Fundación de Centros de Madres CEMA Chile"
 fecha_constitucion: 1954-10-05
 objeto_social: "Asistencia social, capacitación artesanal y administración de centros de madres"

@@ -1,6 +1,6 @@
 ---
 tipo_nodo: causa_judicial
-ruc: "RIT-13745-2023-1JG"
+ruc: ""
 año_inicio: 2023
 tribunal_o_fiscalia: "1° Juzgado de Garantía de Santiago / Fiscalía Regional Metropolitana Occidente"
 fiscal_a_cargo: "Eduardo Baeza Cervela / José Luis Pérez Calaf"

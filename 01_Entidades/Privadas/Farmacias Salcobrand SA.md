@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_privada
-rut: "96.516.000-0"
+rut: ""
 razon_social: "Farmacias Salcobrand S.A. (Empresas SB)"
 fecha_constitucion: 2000-04-10
 objeto_social: "Explotación de farmacias, droguerías, perfumerías y comercialización de productos farmacéuticos"

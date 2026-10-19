@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_privada
-rut: "96.529.000-1"
+rut: ""
 razon_social: "SCA Chile S.A. (ex Papeles Industriales S.A. - PISA)"
 fecha_constitucion: 1978-08-14
 objeto_social: "Fabricación y comercialización de productos de papel tissue, pañales y productos absorbentes"

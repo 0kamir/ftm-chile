@@ -1,10 +1,19 @@
 ---
 tipo_nodo: entidad_privada
-rut: "96.714.830-K"
+rut: "87.107.000-8"
 razon_social: "Empresas Penta S.A."
 fecha_constitucion: "1986-09-12"
 objeto_social: "Holding financiero, inversiones previsionales, seguros, salud e inmobiliaria"
 representante_legal: "[[Carlos Alberto Delano Abbott]]"
+estado_verificacion: parcial
+fuentes:
+  - url: "https://www.portalchile.org/empresa/empresas-penta-spa-87107000"
+    titulo: "Registro de RUT: Empresas Penta"
+    medio: "PortalChile (datos SII)"
+    tipo: secundaria
+    consultado: 2026-10-19
+historial_correcciones:
+  - "RUT corregido el 2026-10-19: el vault registraba 96.714.830-K, que no corresponde a la empresa; el RUT verificado es 87.107.000-8."
 tags:
   - entidad/privada
   - holding-financiero
@@ -35,4 +44,16 @@ TABLE WITHOUT ID
 FROM "03_Hechos_y_Nexos"
 WHERE contains(string(entidad_origen), this.file.name) OR contains(string(entidad_destino), this.file.name)
 SORT fecha DESC
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  elink(f.url, f.titulo) AS "Fuente",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```

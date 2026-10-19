@@ -1,6 +1,6 @@
 ---
 tipo_nodo: causa_judicial
-ruc: "2101094520-3"
+ruc: ""
 año_inicio: 2021
 tribunal_o_fiscalia: "Fiscalía Regional Metropolitana Oriente / 9° Juzgado de Garantía de Santiago"
 fiscal_a_cargo: "Lorena Parra / Constanza Encina"

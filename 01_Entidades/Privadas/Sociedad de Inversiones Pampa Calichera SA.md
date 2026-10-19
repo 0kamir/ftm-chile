@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_privada
-rut: "96.524.180-9"
+rut: ""
 razon_social: "Sociedad de Inversiones Pampa Calichera S.A."
 fecha_constitucion: "1988-06-21"
 objeto_social: "Sociedad de inversiones y holding controlador de acciones serie A y B de SQM S.A."

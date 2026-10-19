@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_privada
-rut: "65.034.810-9"
+rut: ""
 razon_social: "Fundación ProCultura"
 fecha_constitucion: "2010-03-18"
 objeto_social: "Promoción cultural, patrimonio, identidad territorial y proyectos comunitarios"

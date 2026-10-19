@@ -5,6 +5,13 @@ razon_social: "Empresa El Mercurio S.A.P."
 fecha_constitucion: 1900-06-01
 objeto_social: "Edición, impresión y distribución de periódicos, medios de comunicación y servicios informativos"
 representante_legal: "[[Agustin Edwards Eastman]]"
+estado_verificacion: parcial
+fuentes:
+  - url: "https://www.genealog.cl/Geneanexus/empresa/CHILE/TOTAxTwOTMwMDAtNw-jTw/nombre-y-rut/EL-MERCURIO-90193000-7"
+    titulo: "Registro de RUT: Empresa El Mercurio S.A.P."
+    medio: "Genealog (datos SII)"
+    tipo: secundaria
+    consultado: 2026-10-19
 tags:
   - entidad/privada
   - proyecto-fubelt
@@ -36,4 +43,16 @@ TABLE WITHOUT ID
 FROM "03_Hechos_y_Nexos"
 WHERE contains(string(entidad_origen), this.file.name) OR contains(string(entidad_destino), this.file.name)
 SORT fecha ASC
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  elink(f.url, f.titulo) AS "Fuente",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```

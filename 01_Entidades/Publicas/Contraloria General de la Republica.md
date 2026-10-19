@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_publica
-rut: "60.103.000-4"
+rut: ""
 categoria: Órgano Contralor Constitucionalmente Autónomo
 region: "Metropolitana de Santiago (Alcance Nacional)"
 superior_jerarquico: "Autonomía Constitucional"

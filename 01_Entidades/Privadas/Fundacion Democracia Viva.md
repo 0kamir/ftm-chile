@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_privada
-rut: "65.218.940-7"
+rut: ""
 razon_social: "Fundación Democracia Viva"
 fecha_constitucion: "2022-02-25"
 objeto_social: "Participación ciudadana, formación política, estudios sociales y culturales"

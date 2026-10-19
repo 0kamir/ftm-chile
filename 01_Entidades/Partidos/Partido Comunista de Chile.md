@@ -1,6 +1,6 @@
 ---
 tipo_nodo: partido_politico
-rut: "65.021.840-K"
+rut: ""
 sigla: "PC"
 fecha_fundacion: "1912-06-04"
 coalicion: "Apruebo Dignidad / Unidad por Chile"

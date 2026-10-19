@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_privada
-rut: "76.091.340-5"
+rut: ""
 razon_social: "Comercializadora e Importadora Frasim Limitada"
 fecha_constitucion: "2008-04-15"
 objeto_social: "Importación, comercialización de repuestos, insumos industriales y pertrechos"

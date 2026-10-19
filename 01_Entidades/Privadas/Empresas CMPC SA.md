@@ -5,6 +5,13 @@ razon_social: "Empresas CMPC S.A. (CMPC Tissue)"
 fecha_constitucion: 1920-03-12
 objeto_social: "Fabricación, transformación, comercialización y exportación de celulosa, maderas, papeles y productos tissue"
 representante_legal: "Francisco Ruiz-Tagle Edwards"
+estado_verificacion: parcial
+fuentes:
+  - url: "https://mercantil.com/empresa/empresa-cmpc-sa/santiago/300000090/esp"
+    titulo: "Registro de RUT: Empresas CMPC S.A."
+    medio: "Mercantil.com"
+    tipo: secundaria
+    consultado: 2026-10-19
 tags:
   - entidad/privada
   - cmpc
@@ -38,4 +45,16 @@ TABLE WITHOUT ID
 FROM "03_Hechos_y_Nexos"
 WHERE contains(string(entidad_origen), this.file.name) OR contains(string(entidad_destino), this.file.name)
 SORT fecha ASC
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  elink(f.url, f.titulo) AS "Fuente",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```

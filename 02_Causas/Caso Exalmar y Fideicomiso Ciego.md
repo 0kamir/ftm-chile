@@ -1,6 +1,6 @@
 ---
 tipo_nodo: causa_judicial
-ruc: "1601089412-7"
+ruc: ""
 año_inicio: 2016
 tribunal_o_fiscalia: "Fiscalía Regional Metropolitana Oriente / 4° Juzgado de Garantía de Santiago / Comisiones Investigadoras Cámara de Diputados"
 fiscal_a_cargo: "Manuel Guerra Fuenzalida"

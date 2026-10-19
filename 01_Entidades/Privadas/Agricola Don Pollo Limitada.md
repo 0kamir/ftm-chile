@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_privada
-rut: "78.145.220-3"
+rut: ""
 razon_social: "Agrícola Don Pollo Limitada"
 fecha_constitucion: 1982-10-18
 objeto_social: "Explotación agropecuaria, producción, faenamiento y distribución de carne de ave"

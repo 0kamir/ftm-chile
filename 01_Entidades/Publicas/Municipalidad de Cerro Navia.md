@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_publica
-rut: "69.071.300-4"
+rut: ""
 categoria: Municipio
 region: "Metropolitana de Santiago"
 superior_jerarquico: "Concejo Municipal de Cerro Navia (Autónoma)"

@@ -1,6 +1,6 @@
 ---
 tipo_nodo: causa_judicial
-ruc: "1800084321-4"
+ruc: ""
 año_inicio: 2017
 tribunal_o_fiscalia: "Tribunal de Juicio Oral en lo Penal de Temuco / Fiscalía Regional de Aysén y Fiscalía de La Araucanía"
 fiscal_a_cargo: "Carlos Palma Guerra / Roberto Garrido Bedwell"

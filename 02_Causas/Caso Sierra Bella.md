@@ -1,6 +1,6 @@
 ---
 tipo_nodo: causa_judicial
-ruc: "2300094812-3"
+ruc: ""
 año_inicio: 2023
 tribunal_o_fiscalia: "Fiscalía Metropolitana Centro Norte (fiscal Patricio Cooper, luego fiscal regional de Coquimbo) / Contraloría General de la República"
 fiscal_a_cargo: "Patricio Cooper Monti"

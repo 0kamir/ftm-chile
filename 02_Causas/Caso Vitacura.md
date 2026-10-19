@@ -1,6 +1,6 @@
 ---
 tipo_nodo: causa_judicial
-ruc: "2100783412-9"
+ruc: ""
 año_inicio: 2021
 tribunal_o_fiscalia: "Fiscalía Metropolitana Centro Norte / 4° Juzgado de Garantía de Santiago"
 fiscal_a_cargo: "Francisco Jacir"

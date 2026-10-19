@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_publica
-rut: "61.979.440-0"
+rut: ""
 categoria: Servicio Público Fiscalizador
 region: "Metropolitana de Santiago (Alcance Nacional)"
 superior_jerarquico: "Ministerio de Hacienda"

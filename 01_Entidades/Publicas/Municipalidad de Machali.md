@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_publica
-rut: "69.080.400-K"
+rut: ""
 categoria: Municipio
 region: "O'Higgins (VI Región)"
 superior_jerarquico: "Concejo Municipal de Machalí (Autónoma)"
