@@ -55,11 +55,11 @@ Según la acusación de la Fiscalía, la gerencia general de [[SQM SA]] ([[Patri
 ## Fuentes Verificables
 ```dataview
 TABLE WITHOUT ID
-  f.titulo AS "Título",
+  elink(f.url, f.titulo) AS "Fuente",
   f.medio AS "Medio / Organismo",
   f.tipo AS "Tipo",
   f.fecha AS "Fecha",
-  f.url AS "URL"
+  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
 FLATTEN fuentes AS f
 WHERE file.path = this.file.path
 ```
