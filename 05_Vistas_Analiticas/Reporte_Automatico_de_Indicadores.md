@@ -1,6 +1,6 @@
 ---
 tipo_nodo: vista_analitica
-titulo: "Reporte de Auditoría Forense Automatizada (UTM, HHI, PageRank, Brandes y Topología)"
+titulo: "Reporte de Revisión Automatizada (UTM, HHI, PageRank, Brandes y Topología)"
 actualizacion_automatica: true
 tags:
   - dashboard
@@ -8,7 +8,13 @@ tags:
   - topologia
 ---
 
-# Reporte de Auditoría Forense Automatizada (CGR / Ministerio Público)
+# Reporte Automático de Indicadores (montos, umbrales y centralidad)
+
+> [!WARNING] Análisis exploratorio, no prueba de responsabilidad
+> Este reporte aplica métricas de análisis de redes a los datos del vault. Sus resultados describen la estructura del grafo, no hechos: una cercanía, un agrupamiento o un par similar no indica que exista una relación, un acuerdo ni un delito. Los datos tienen calidades distintas (ver `monto_origen` y `estado_verificacion`) y pueden contener errores. Toda persona mencionada se presume inocente mientras no exista sentencia condenatoria firme. No citar estos resultados como prueba ni como acusación.
+>
+> Los umbrales (por ejemplo, el de toma de razón de la Contraloría) se usan como señales para revisar documentos, no como determinación de una irregularidad.
+
 
 - **Monto Global Investigado**: **$669.122.093.990 CLP** (Equivalente a **11.252.779.5 UTM**)
 - **Total de Aristas Reificadas (`TRX`)**: **65**
@@ -334,9 +340,9 @@ flowchart LR
 
 ---
 
-## 4. Ranking de Nodos Puente (*Betweenness Centrality* & *PageRank Forense*)
+## 4. Ranking de Nodos Puente (*Betweenness Centrality* & *PageRank*)
 
-| Posición | Nodo / Entidad | Tipo de Nodo | Intermediación (Brandes) | PageRank Forense | Rol Topológico |
+| Posición | Nodo / Entidad | Tipo de Nodo | Intermediación (Brandes) | PageRank | Rol Topológico |
 | :---: | :--- | :--- | ---: | ---: | :--- |
 | 1 | [[Corte Suprema de Chile]] | `entidad_publica` | `0.4076` | `0.0210` | Conector Interregional / Puente Crítico |
 | 2 | [[Bancard Inversiones Ltda]] | `entidad_privada` | `0.1507` | `0.0085` | Conector Interregional / Puente Crítico |

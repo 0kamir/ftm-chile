@@ -21,7 +21,7 @@ tags:
 - **Objeto Social**: `= this.objeto_social`
 - **Representante Legal / Gestora**: `= this.representante_legal`
 
-## Contexto Forense y Societario
+## Contexto y Societario
 Fundación utilizada mediante mecanismo de "arriendo de personalidad jurídica" por [[Camila Polizzi Fonceca]] para sortear el requisito de antigüedad mínima exigido por el [[GORE Biobio]] y adjudicarse el convenio [[TRX-2022-12-20-Convenio-EnTi-01]] por **$250.635.000 CLP**, respaldado en la [[Resolucion-GORE-Biobio-EnTi-2022]] e investigado en el [[Caso Convenios]].
 
 ## Historial de Recepción de Fondos y Nexos

@@ -37,7 +37,7 @@ tags:
 - **Situación Procesal**: `= this.situacion_procesal`
 - **Medidas Cautelares / Procesos Internacionales**: `= this.medida_cautelar`
 
-## Síntesis Forense y Vínculos en Chile
+## Síntesis y Vínculos en Chile
 Consultor político, publicista digital y estratega electoral argentino, propietario de la agencia [[Numen Publicidad SpA]] y fundador del portal de noticias *La Derecha Diario*. Ha coordinado estrategias de redes sociales y campañas de amplificación algorítmica para liderazgos de derecha en América Latina, incluyendo a Javier Milei en Argentina y Jair Bolsonaro en Brasil.
 
 ### 1. Actuación en Campañas Electorales Chilenas
@@ -53,7 +53,7 @@ Dicha presencia consta en registros fotográficos revelados por el medio *The Cl
 - **Cámara de Diputadas y Diputados**: Aprobó la creación de una Comisión Especial Investigadora sobre la participación de agencias digitales internacionales y desinformación en los plebiscitos chilenos.
 - **Operación Tempus Veritatis (Brasil)**: En noviembre de 2024 la Policía Federal de Brasil lo incluyó entre los indiciados de la investigación sobre la intentona golpista de 2022, por una transmisión en la que difundió supuestas fraudes en las urnas electrónicas. La Procuraduría General de la República no lo incluyó en la acusación de febrero de 2025, por lo que no es acusado ante el STF.
 
-## Auditoría Contable: Registros Reificados
+## Registros Reificados
 ```dataviewjs
 const pages = dv.pages('"03_Hechos_y_Nexos"')
   .where(p => (p.firmante_origen && String(p.firmante_origen).includes(dv.current().file.name)) ||

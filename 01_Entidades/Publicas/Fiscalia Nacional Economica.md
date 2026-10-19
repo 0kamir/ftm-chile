@@ -19,7 +19,7 @@ tags:
 - **Región**: `= this.region`
 - **Superior Jerárquico**: `= this.superior_jerarquico`
 
-## Contexto en Investigaciones Forenses
+## Contexto en Investigaciones
 Agencia pública descentralizada encargada de instruir investigaciones y perseguir infracciones contra la libre competencia (Decreto Ley N° 211). En el [[Caso Colusion del Papel Tissue]], desarticuló el cartel de más de una década entre [[Empresas CMPC SA]] y [[SCA Chile SA]], haciendo valer por primera vez en un caso de gran impacto masivo el mecanismo de delación compensada que derivó en la [[Sentencia-TDLC-160-Colusion-Tissue-2017]].
 
 ## Nexos y Operaciones Registradas

@@ -65,7 +65,7 @@ def main() -> int:
         "// ============================================================================",
         "// SCRIPT DE IMPORTACIÓN NEO4J CYPHER — ESTÁNDAR ICIJ / GRAFO REIFICADO CHILE",
         "// ============================================================================",
-        "CREATE CONSTRAINT nodo_id_unique IF NOT EXISTS FOR (n:NodoForense) REQUIRE n.id IS UNIQUE;",
+        "CREATE CONSTRAINT nodo_id_unique IF NOT EXISTS FOR (n:NodoVault) REQUIRE n.id IS UNIQUE;",
         "",
         "// 1. Creación de Nodos Reificados y Entidades",
     ]
@@ -99,7 +99,7 @@ def main() -> int:
             fecha = str(meta.get("fecha") or meta.get("fecha_constitucion") or meta.get("fecha_emision") or "")
 
             lines.append(
-                f"MERGE (n:NodoForense:{label} {{id: {cypher_str(name)}}}) "
+                f"MERGE (n:NodoVault:{label} {{id: {cypher_str(name)}}}) "
                 f"SET n.tipo_nodo = {cypher_str(tipo)}, n.rut = {cypher_str(rut)}, "
                 f"n.monto_clp = {monto}, n.fecha = {cypher_str(fecha)};"
             )
@@ -113,7 +113,7 @@ def main() -> int:
     lines.append("// 2. Creación de Relaciones Semánticas Dirigidas")
     for src, dst, rel_type, prop in edges:
         lines.append(
-            f"MATCH (a:NodoForense {{id: {cypher_str(src)}}}), (b:NodoForense {{id: {cypher_str(dst)}}}) "
+            f"MATCH (a:NodoVault {{id: {cypher_str(src)}}}), (b:NodoVault {{id: {cypher_str(dst)}}}) "
             f"MERGE (a)-[:{rel_type} {{propiedad_yaml: {cypher_str(prop)}}}]->(b);"
         )
 

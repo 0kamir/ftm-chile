@@ -37,10 +37,10 @@ tags:
 - **Situación Procesal**: `= this.situacion_procesal`
 - **Medida Cautelar / Condena Vigente**: `= this.medida_cautelar`
 
-## Síntesis Forense
+## Síntesis
 Dueño de la consultora [[Gestion Ambiental y Territorial SA]] (GATE). En el [[Caso MOP-Gate]] fue condenado como autor de [[Fraude al Fisco]] a 61 días de presidio, condena confirmada por la Corte de Apelaciones de Santiago (2014) y por la [[Corte Suprema de Chile]] el 29 de junio de 2016 ([[Sentencia-Corte-Suprema-MOPGate-2016]]), por los contratos con el [[Ministerio de Obras Publicas]] cuyos fondos se usaron para pagar sobresueldos ([[TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01]]).
 
-## Auditoría Contable: Montos Operados como Firmante
+## Montos Operados como Firmante
 ```dataviewjs
 const pages = dv.pages('"03_Hechos_y_Nexos"')
   .where(p => (p.firmante_origen && String(p.firmante_origen).includes(dv.current().file.name)) ||

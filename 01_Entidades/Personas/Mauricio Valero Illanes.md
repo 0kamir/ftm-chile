@@ -35,10 +35,10 @@ tags:
 - **Situación Procesal**: `= this.situacion_procesal`
 - **Medida Cautelar / Condena Vigente**: `= this.medida_cautelar`
 
-## Síntesis Forense
+## Síntesis
 Socio administrador del 50% de [[Exportadora y de Gestion Caval Ltda]] junto a [[Natalia Compagnon Soto]]. En el [[Caso Caval]] fue acusado de soborno y delitos tributarios, pero el Tribunal de Juicio Oral en lo Penal de Rancagua lo **absolvió** en julio de 2018, al igual que a la sociedad ([[Sentencia-TOP-Rancagua-Caval-2018]]). Rige la presunción de inocencia.
 
-## Auditoría Contable: Montos Operados como Firmante
+## Montos Operados como Firmante
 ```dataviewjs
 const pages = dv.pages('"03_Hechos_y_Nexos"')
   .where(p => (p.firmante_origen && String(p.firmante_origen).includes(dv.current().file.name)) ||

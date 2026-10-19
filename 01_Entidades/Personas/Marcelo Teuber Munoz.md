@@ -25,12 +25,12 @@ tags:
 - **Situación Procesal**: `= this.situacion_procesal`
 - **Condena Ejecutoriada / Cautelar**: `= this.medida_cautelar`
 
-## Síntesis Forense
+## Síntesis
 Coronel de Carabineros y jefe directo de la Unidad de Inteligencia Operativa Especializada (UIOE) en La Araucanía durante el desarrollo de la [[Caso Operacion Huracan]]. Estuvo a cargo de la coordinación territorial del operativo policial de detención y de visar administrativamente los oficios policiales remitidos a la Fiscalía de Temuco con base en la información fraudulenta provista por [[Alex Smith Leay]] y [[Leonardo Osses Sandoval]].
 
 En el juicio oral ante el Tribunal de Juicio Oral en lo Penal de Temuco ([[Sentencia-TOP-Temuco-OperacionHuracan-2026]]), fue sentenciado a penas que sumaron **3 años y un día más 100 días de presidio** por [[Falsificacion de Instrumento Publico]] y [[Obstruccion a la Investigacion]], conmutadas a penas sustitutivas.
 
-## Auditoría Contable: Registros Reificados
+## Registros Reificados
 ```dataviewjs
 const pages = dv.pages('"03_Hechos_y_Nexos"')
   .where(p => (p.firmante_origen && String(p.firmante_origen).includes(dv.current().file.name)) ||

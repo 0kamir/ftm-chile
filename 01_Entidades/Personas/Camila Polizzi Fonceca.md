@@ -23,10 +23,10 @@ tags:
 - **Situación Procesal**: `= this.situacion_procesal`
 - **Medida Cautelar Vigente**: `= this.medida_cautelar`
 
-## Síntesis Forense
+## Síntesis
 Imputada en la arista regional del [[Caso Convenios]] en el Biobío por estafa, falsificación de documento oficial, usurpación de identidad y [[Lavado de Activos]] / [[Fraude al Fisco]]. Según la Fiscalía, habría gestionado la adjudicación del convenio [[TRX-2022-12-20-Convenio-EnTi-01]] con el [[GORE Biobio]] (encabezado por [[Rodrigo Diaz Worner]]) utilizando la personalidad jurídica de [[Fundacion En Ti]] por **$250.635.000 CLP** según consta en la [[Resolucion-GORE-Biobio-EnTi-2022]].
 
-## Auditoría Contable: Montos Recibidos como Firmante de Destino
+## Montos Recibidos como Firmante de Destino
 ```dataviewjs
 const pages = dv.pages('"03_Hechos_y_Nexos"')
   .where(p => p.firmante_destino && (

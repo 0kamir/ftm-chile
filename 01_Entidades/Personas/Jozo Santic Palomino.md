@@ -37,10 +37,10 @@ tags:
 - **Situación Procesal**: `= this.situacion_procesal`
 - **Medida Cautelar / Condena Vigente**: `= this.medida_cautelar`
 
-## Síntesis Forense
+## Síntesis
 Ex Coronel del Ejército de Chile a cargo del área de finanzas en el [[Comando de Apoyo a la Fuerza del Ejercito]]. Fue condenado en el [[Caso Milicogate]] como pieza clave del pago de facturas ideológicamente falsas a proveedores como [[Frasim Ltda]] con cargo a la Ley Reservada del Cobre ([[TRX-2014-05-20-Facturas-LeyReservadaCobre-01]]), documentado en [[Procesamientos-Ministra-Rutherford-Milicogate]].
 
-## Auditoría Contable: Montos Operados como Firmante de Destino
+## Montos Operados como Firmante de Destino
 ```dataviewjs
 const pages = dv.pages('"03_Hechos_y_Nexos"')
   .where(p => p.firmante_destino && (

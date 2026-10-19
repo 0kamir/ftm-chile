@@ -22,12 +22,12 @@ tags:
 - **Objeto Social**: `= this.objeto_social`
 - **Controlador / Fundador**: [[Fernando Cerimedo]] (junto a socios locales chilenos)
 
-## Contexto en Investigaciones Forenses y Electorales
+## Contexto en Investigaciones y Electorales
 Filial chilena de la agencia de marketing digital fundada por el estratega argentino [[Fernando Cerimedo]]. La entidad operó en Chile realizando sondeos de opinión pública digital y coordinando campañas de difusión y posicionamiento en redes sociales durante los ciclos electorales de 2020 a 2022.
 
 En el marco del [[Caso Operaciones Digitales e Injerencia Electoral]], la sociedad y sus cuentas bancarias e infraestructura informática han sido objeto de oficios del Congreso y requerimientos de la Fiscalía Centro Norte para verificar la trazabilidad de fondos, la ausencia de facturación en las rendiciones de partidos ante el Servel y la eventual prestación de servicios mediante redes automatizadas en la campaña del Plebiscito de 2022.
 
-## Auditoría Contable: Registros Reificados
+## Registros Reificados
 ```dataview
 TABLE WITHOUT ID
   file.link AS "Nexo / Operación",

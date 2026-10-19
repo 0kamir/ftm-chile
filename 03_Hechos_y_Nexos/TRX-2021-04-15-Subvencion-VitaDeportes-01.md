@@ -31,5 +31,5 @@ tags:
 - **Delito Imputado**: `= this.delito_imputado`
 - **Evidencia Documental**: `= this.evidencia_soporte`
 
-## Descripción Forense de la Operación
+## Descripción de la Operación
 Flujo de subvenciones municipales que, según la Fiscalía, habrían sido desviadas por **$759.000.000 CLP** desde la [[Municipalidad de Vitacura]] (bajo la alcaldía de [[Raul Torrealba del Pedregal]]) a través de [[Vita Deportes]] (representada por [[Domingo Prieto Urrejola]]), posteriormente retirados en efectivo y depositados en cuentas bancarias investigadas por [[Malversacion de Caudales Publicos]] y [[Lavado de Activos]] en el [[Caso Vitacura]], según consta en [[Declaracion-Judicial-Prieto-Vitacura-2021]].

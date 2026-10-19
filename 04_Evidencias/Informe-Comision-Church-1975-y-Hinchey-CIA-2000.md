@@ -30,7 +30,7 @@ tags:
 
 # Informe-Comision-Church-1975-y-Hinchey-CIA-2000
 
-## Metadatos de Fuente Primaria (Cadena de Custodia OSINT y Desclasificación Oficial)
+## Metadatos de la Fuente
 - **ID Evidencia**: `= this.id_evidencia`
 - **Tipo de Documento**: `= this.tipo_documento`
 - **Fecha de Emisión Original**: `= this.fecha_emision` (complementado con desclasificaciones oficiales de septiembre de 1996 y 19 de septiembre de 2000)

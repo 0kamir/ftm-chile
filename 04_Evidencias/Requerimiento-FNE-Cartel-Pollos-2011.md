@@ -24,7 +24,7 @@ tags:
 
 # Requerimiento-FNE-Cartel-Pollos-2011
 
-## Metadatos de Fuente Primaria (Cadena de Custodia Legal)
+## Metadatos de la Fuente
 - **ID Evidencia**: `= this.id_evidencia`
 - **Tipo de Documento**: `= this.tipo_documento`
 - **Fecha de Ingreso**: `= this.fecha_emision`

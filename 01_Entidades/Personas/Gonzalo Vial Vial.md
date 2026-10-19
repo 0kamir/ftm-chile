@@ -24,12 +24,12 @@ tags:
 - **Situación Procesal**: `= this.situacion_procesal`
 - **Medida Cautelar / Sanciones**: `= this.medida_cautelar`
 
-## Síntesis Forense
+## Síntesis
 Destacado empresario agroindustrial chileno, fundador y presidente del directorio de [[Agrosuper SA]]. Bajo su liderazgo empresarial, Agrosuper se consolidó como el gigante de la industria avícola, porcina y acuícola en Chile.
 
 En el marco del [[Caso Colusion de los Pollos]], las investigaciones de la [[Fiscalia Nacional Economica]] y la [[Sentencia-TDLC-139-Colusion-Pollos-2014]] determinaron la activa participación de los directivos de Agrosuper en las reuniones de fijación y asignación de cuotas de producción avícola junto a [[Empresas Ariztia SA]] y la [[Asociacion de Productores Avicolas de Chile AG]], lo que conllevó la condena a su compañía con la multa máxima de 30.000 UTA fijada por la [[Corte Suprema de Chile]].
 
-## Auditoría Contable: Registros Reificados
+## Registros Reificados
 ```dataviewjs
 const pages = dv.pages('"03_Hechos_y_Nexos"')
   .where(p => (p.firmante_origen && String(p.firmante_origen).includes(dv.current().file.name)) ||

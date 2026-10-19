@@ -52,7 +52,7 @@ tags:
 - **Estado Judicial / Administrativo**: `= this.estado_judicial` (Multa ejecutoriada y pagada de 11.470 UF ante la SVS/CMF por uso de información privilegiada en 2007; sobreseimiento por amparo de la Corte Suprema en Banco de Talca 1982)
 - **Delito / Infracción Principal**: `= this.delito_principal` (infracción al artículo 165 de la Ley N° 18.045 de Mercado de Valores, infracción a la Ley General de Bancos y elusión tributaria fiscalizada por el [[Servicio Impuestos Internos]])
 
-## Síntesis Forense de la Causa
+## Síntesis de la Causa
 Expediente regulatorio, bursátil, bancario y tributario que consolida las infracciones patrimoniales y financieras de [[Sebastian Pinera Echenique]] y su grupo empresarial [[Bancard Inversiones Ltda]] en el mercado de capitales chileno:
 
 1. **Sanción por Uso de Información Privilegiada en *LAN Airlines* (`2006–2007`)**: El 24 de julio de 2006, tras participar en una sesión extraordinaria del directorio de *LAN Airlines S.A.* en la que se entregaron estados financieros reservados no divulgados al mercado ni a la [[Comision para el Mercado Financiero]] (entonces SVS), [[Sebastian Pinera Echenique]] instruyó a través de su vehículo *Inversiones Santa Cecilia S.A.* ([[Bancard Inversiones Ltda]]) la compra de **3.000.000 de acciones de LAN** por cerca de **US$ 9,8 millones** (`$5.300.000.000 CLP` en [[TRX-2006-07-24-Compra-Acciones-Informacion-Privilegiada-LAN-01]]). Mediante la [[Resolucion-SVS-306-InformacionPrivilegiada-LAN-2007]], la SVS lo sancionó con una **multa de 11.470 UF (~US$ 363.000)** por vulnerar el deber de abstención sobre información privilegiada.

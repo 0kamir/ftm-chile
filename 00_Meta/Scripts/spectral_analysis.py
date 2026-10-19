@@ -4,7 +4,7 @@ Motor de Teoría Espectral de Grafos, Conectividad Algebraica de Fiedler y Bisec
 =============================================================================================
 Resuelve de manera exacta (algoritmo cíclico de rotaciones de Jacobi en Python puro)
 el espectro de la Matriz de Adyacencia A y de la Matriz Laplaciana Combinatoria L = D - A
-sobre el Componente Gigante Conectado (LCC) de la red operativa criminal/política:
+sobre el Componente Gigante Conectado (LCC) de la red criminal/política:
 
 1. Conectividad Algebraica de Fiedler (lambda_2 de L) y cotas isoperimétricas de Cheeger.
 2. Vector de Fiedler (v_2) para Bisección Espectral en 2 Hemisferios Macro-Estructurales
@@ -19,6 +19,7 @@ from collections import defaultdict, deque
 import json
 import math
 from pathlib import Path
+from descargo import descargo  # noqa: E402
 
 VAULT_ROOT = Path(__file__).resolve().parents[2]
 JSON_PATH = VAULT_ROOT / "05_Vistas_Analiticas" / "Exportaciones" / "metricas_red.json"
@@ -202,20 +203,22 @@ def generate_report():
         "  - teoria-espectral",
         "  - fiedler-laplaciano",
         "  - perron-frobenius",
-        "  - analisis-forense",
+        "  - analisis-de-redes",
         "---",
         "",
-        "# 🌈 Teoría Espectral de Grafos: Conectividad de Fiedler ($\\lambda_2$) y Bisección Laplaciana",
+        "# Teoría Espectral de Grafos: Conectividad de Fiedler ($\\lambda_2$) y Bisección Laplaciana",
+        "",
+        *descargo(),
         "",
         "> [!IMPORTANT] Álgebra Lineal Espectral sobre el Componente Gigante Conectado (LCC)",
-        "> Esta vista diagonaliza de forma exacta (rotaciones simétricas de Jacobi) la **Matriz Laplaciana Combinatoria ($L = D - A$)** y la **Matriz de Adyacencia ($A$)** sobre el Componente Gigante Conectado de la red operativa:",
+        "> Esta vista diagonaliza de forma exacta (rotaciones simétricas de Jacobi) la **Matriz Laplaciana Combinatoria ($L = D - A$)** y la **Matriz de Adyacencia ($A$)** sobre el Componente Gigante Conectado de la red:",
         "> 1. **Conectividad Algebraica de Fiedler ($\\lambda_2$)**: Mide la robustez estructural frente a la escisión de la red (Desigualdad de Cheeger: $\\frac{\\lambda_2}{2} \\le h(G) \\le \\sqrt{2 d_{\\max} \\lambda_2}$).",
         "> 2. **Bisección Espectral por Vector de Fiedler ($v_2$)**: Divide el LCC en dos hemisferios polares ($v_2(i) \\ge 0$ vs. $v_2(i) < 0$) y localiza la **Línea de Falla Espectral ($v_2(i) \\approx 0$)** donde convergen los aparatos partidarios/tributarios y los aparatos regionales/municipales.",
         "> 3. **Autovector Principal de Perron-Frobenius ($\\rho(A)$)**: Cuantifica la influencia recursiva y el umbral de contagio institucional ($\\tau_c = 1/\\rho(A)$).",
         "",
         "## 1. Invariantes Espectrales del Componente Gigante (LCC)",
         "",
-        f"- **Dimensión del Subespacio Conectado ($N_{{\\text{{LCC}}}}$)**: `{n}` nodos operativos",
+        f"- **Dimensión del Subespacio Conectado ($N_{{\\text{{LCC}}}}$)**: `{n}` nodos",
         f"- **Conectividad Algebraica de Fiedler ($\\lambda_2$)**: **`{lambda_2:.6f}`** *(Un valor positivo bajo confirma un cuello de botella espectral entre dos macro-ecosistemas conectados por pocos puentes)*",
         f"- **Mayor Autovalor Laplaciano ($\\lambda_{{\\max}}$)**: `{lambda_max:.4f}` | **Razón Espectral ($\\lambda_{{\\max}} / \\lambda_2$)**: `{lambda_max / max(lambda_2, 1e-12):.2f}`",
         f"- **Cotas Isoperimétricas de Cheeger ($h(G)$)**: `[{cheeger_lower:.4f}, {cheeger_upper:.4f}]`",

@@ -21,7 +21,7 @@ tags:
 - **Objeto Social**: `= this.objeto_social`
 - **Agente / Intermediario Principal en Chile**: `= this.representante_legal`
 
-## Contexto en Investigaciones Forenses
+## Contexto en Investigaciones
 Bufete panameño fundado por Jürgen Mossack y Ramón Fonseca Mora que protagonizó en abril de 2016 la filtración global **Panama Papers** (ICIJ). En el [[Caso Panama Papers Chile]], sus archivos internos revelaron cerca de **200 sociedades *offshore* vinculadas a Chile**, entre ellas:
 1. Las cinco sociedades en Bahamas (*Turnbrook Corporation*, *DKL Holdings*, *Westquarter Limited*, *Mining Press Holdings* y *Turnbrook Mining Ltd.*) administradas por [[Gonzalo Delaveau Swett]], entonces presidente de *Chile Transparente* ([[TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01]]).
 2. Las fundaciones panameñas *Ashton Foundation* y *Kintyre Foundation* de [[Agustin Edwards Eastman]] y las sociedades *Sierra Leona S.A.* y *Railton Foundation* de [[Alfredo Ovalle Rodriguez]] ([[TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01]]).

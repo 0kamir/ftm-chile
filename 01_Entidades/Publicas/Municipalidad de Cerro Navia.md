@@ -21,7 +21,7 @@ tags:
 - **Superior Jerárquico**: `= this.superior_jerarquico`
 - **Autoridad Vinculada**: `= this.autoridad_vinculada` (y ex Administrador Municipal [[Marcelo Torres Ferrari]])
 
-## Contexto en Investigaciones Forenses
+## Contexto en Investigaciones
 Corporación edilicia del sector poniente de la Región Metropolitana. En el [[Caso Basura]], la Fiscalía Regional Metropolitana Occidente ([[Acusacion-Fiscalia-Occidente-CasoBasura-2017]]) investigó al exalcalde [[Luis Plaza Sanchez]] y al exadministrador municipal [[Marcelo Torres Ferrari]] (ambos vinculados a [[Renovacion Nacional]]) por irregularidades, sobreprecios y direccionamiento de contrataciones de aseo, ornato y manejo de residuos vinculadas al circuito de [[KDM Empresas SA]] por **$1.120.000.000 CLP** ([[TRX-2012-03-22-Fraude-Residuos-CerroNavia-01]]).
 
 ## Nexos y Contratos Registrados

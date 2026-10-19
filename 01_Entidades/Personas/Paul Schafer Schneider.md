@@ -23,10 +23,10 @@ tags:
 - **Situación Procesal**: `= this.situacion_procesal`
 - **Medida Cautelar Vigente**: `= this.medida_cautelar`
 
-## Síntesis Forense
+## Síntesis
 Ciudadano alemán y fundador en 1961 de [[Sociedad Benefactora y Educacional Dignidad]] en la comuna de Parral. Como líder absoluto del enclave, dirigió el vaciamiento patrimonial de la corporación tras su disolución legal en 1991 para evadir al [[Servicio Impuestos Internos]] y al fisco ([[TRX-1991-01-31-Vaciamiento-Patrimonial-Evasion-ColoniaDignidad-01]]), mantuvo el mayor arsenal clandestino privado de armas de guerra detectado en el país ([[TRX-2005-06-14-Arsenal-Clandestino-AsociacionIlicita-ColoniaDignidad-01]]) y permaneció prófugo en la clandestinidad entre 1996 y marzo de 2005 hasta su captura en Tortuguitas (Argentina) por orden del Ministro en Visita [[Jorge Zepeda Arancibia]]. Fue condenado ejecutoriadamente en múltiples cuadernos del [[Caso Colonia Dignidad]] ratificados por la [[Corte Suprema de Chile]] ([[Sentencia-Corte-Suprema-ColoniaDignidad-2013]]).
 
-## Auditoría Contable: Montos Imputados como Controlador de Origen
+## Montos Imputados como Controlador de Origen
 ```dataviewjs
 const pages = dv.pages('"03_Hechos_y_Nexos"')
   .where(p => p.firmante_origen && (

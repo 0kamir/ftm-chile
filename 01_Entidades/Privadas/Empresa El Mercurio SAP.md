@@ -28,7 +28,7 @@ tags:
 - **Objeto Social**: `= this.objeto_social`
 - **Controlador Histórico**: `= this.representante_legal`
 
-## Contexto en Investigaciones Forenses y Archivos Desclasificados
+## Contexto en Investigaciones y Archivos Desclasificados
 Sociedad editora del diario *El Mercurio*, *Las Últimas Noticias* y *La Segunda*, presidida y controlada por [[Agustin Edwards Eastman]]. En el [[Caso Operacion FUBELT Intervencion CIA y DINA]], el **Informe de la Comisión Church del Senado de los Estados Unidos (1975)** ([[Informe-Comision-Church-1975-y-Hinchey-CIA-2000]]) documentó oficialmente que, tras las gestiones personales de [[Agustin Edwards Eastman]] en Washington en septiembre de 1970, el *"Comité 40"* del Consejo de Seguridad Nacional de EE.UU. autorizó transferencias encubiertas desde la [[Agencia Central de Inteligencia CIA y Escuela de las Americas]] hacia [[Empresa El Mercurio SAP]] por **US$ 1.950.000** entre 1971 y 1973 (`$9.500.000.000 CLP` actualizados en [[TRX-1971-09-09-Financiamiento-Encubierto-CIA-ElMercurio-Edwards-01]]) para financiar su operación editorial y campañas de desestabilización previas al golpe de Estado de 1973. Décadas más tarde, su controlador [[Agustin Edwards Eastman]] apareció en el [[Caso Panama Papers Chile]] como titular de fundaciones *offshore* estructuradas por [[Mossack Fonseca y Sociedades Offshore Panama]] ([[TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01]]).
 
 ## Transacciones y Flujos Vinculados

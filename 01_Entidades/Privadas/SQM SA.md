@@ -27,7 +27,7 @@ tags:
 - **Objeto Social**: `= this.objeto_social`
 - **Gerente General en Período Investigado**: `= this.representante_legal`
 
-## Contexto Forense y Societario
+## Contexto y Societario
 Empresa minera investigada en el [[Caso SQM]] tras las denuncias y querellas del [[Servicio Impuestos Internos]] ([[Querella-SII-Boletas-SQM-2015]]) por contabilizar como gastos necesarios para producir la renta miles de boletas de honorarios y facturas ideológicamente falsas ([[Delito Tributario]]), empleadas para financiar campañas políticas y pagar beneficios económicos ([[Cohecho]]) asociados a la tramitación del artículo de invariabilidad tributaria del Royalty Minero ([[TRX-2010-08-19-Correo-Royalty-SQM-01]]). La empresa reconoció ante la SEC y el DOJ de EE.UU. pagos indebidos por unos US$ 14,75 millones. En el juicio oral, el 3° TOP de Santiago absolvió en octubre de 2025 a los ocho acusados, incluidos su ex gerente general [[Patricio Contesse Gonzalez]] y [[Pablo Longueira Montes]]; hay recursos de nulidad pendientes.
 
 ## Historial de Nexos y Pagos Investigados

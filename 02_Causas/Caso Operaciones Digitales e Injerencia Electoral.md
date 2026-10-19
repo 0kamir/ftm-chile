@@ -44,7 +44,7 @@ tags:
 - **Año de Apertura / Indagatoria Pública**: `= this.año_inicio` (Período de operaciones investigadas: 2020–2023)
 - **Instancias Investigadoras**: `= this.tribunal_o_fiscalia` y Comisión Especial Investigadora de la Cámara de Diputadas y Diputados
 - **Fiscales y Órganos Fiscalizadores**: `= this.fiscal_a_cargo` en coordinación técnica con el [[Servicio Electoral]]
-- **Estado Procesal**: `= this.estado_judicial` (Diligencias periciales de trazabilidad financiera y digital)
+- **Estado Procesal**: `= this.estado_judicial` (Diligencias de trazabilidad financiera y digital)
 - **Delito / Infracción Principal**: `= this.delito_principal` (con investigación de infracciones a la Ley 19.884 sobre Control del Gasto Electoral y Ley de Delitos Informáticos)
 
 ## Resumen Ejecutivo de la Causa

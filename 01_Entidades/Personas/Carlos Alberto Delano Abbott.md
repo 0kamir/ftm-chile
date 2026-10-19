@@ -23,10 +23,10 @@ tags:
 - **Situación Procesal**: `= this.situacion_procesal`
 - **Medida Cautelar / Condena Vigente**: `= this.medida_cautelar`
 
-## Síntesis Forense
+## Síntesis
 Cofundador y controlador de [[Empresas Penta SA]] junto a [[Carlos Eugenio Lavin Garcia-Huidobro]], y controlador de [[Andes Iron SpA]]. Fue condenado en procedimiento abreviado en el [[Caso Penta]] ([[Sentencia-8Juzgado-Garantia-Penta-2018]]) por delitos tributarios reiterados tras incorporar en la contabilidad del holding cientos de boletas de honorarios y facturas ideológicamente falsas para desviar fondos hacia campañas políticas de la [[Union Democrata Independiente]] y dirigentes como [[Pablo Longueira Montes]] y [[Jovino Novoa Vasquez]] ([[TRX-2013-07-15-Boletas-Falsas-Penta-UDI-01]] y [[TRX-2013-09-20-Boletas-Falsas-Penta-Novoa-01]]). Adicionalmente, en el [[Caso Minera Dominga Pandora Papers]], adquirió a través de [[Andes Iron SpA]] la participación de [[Bancard Inversiones Ltda]] (familia de [[Sebastian Pinera Echenique]]) en el proyecto Dominga por **US$ 152 millones** (`$75.500.000.000 CLP`), firmando en las Islas Vírgenes Británicas la cláusula que condicionó el último pago a que el Gobierno de Chile no declarara zona de exclusión ambiental en La Higuera ([[TRX-2010-12-10-Compraventa-Offshore-Dominga-Bancard-Delano-01]] y [[Contrato-Offshore-BVI-PandoraPapers-Dominga-2010]]).
 
-## Auditoría Contable: Montos Autorizados como Firmante de Origen
+## Montos Autorizados como Firmante de Origen
 ```dataviewjs
 const pages = dv.pages('"03_Hechos_y_Nexos"')
   .where(p => p.firmante_origen && (

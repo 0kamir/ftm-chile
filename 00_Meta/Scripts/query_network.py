@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-Motor CLI de Consultas de Inteligencia de Redes Forenses (`query_network.py`).
+Motor CLI de Consultas de Inteligencia de Redes (`query_network.py`).
 Permite:
 1. Encontrar el camino más corto (BFS) entre dos personas o entidades cualesquiera:
      python3 00_Meta/Scripts/query_network.py --shortest-path "Daniel Andrade Schwarze" "Camila Polizzi Fonceca"
-2. Inspeccionar el perfil forense de un nodo y su vecindad a Profundidad 2:
+2. Inspeccionar el perfil de un nodo y su vecindad a Profundidad 2:
      python3 00_Meta/Scripts/query_network.py --profile "Luis Hermosilla Osorio"
 3. Ejecutar detector de Lobby Pre-Adjudicación (< 90 días):
      python3 00_Meta/Scripts/query_network.py --lobby-alerts
@@ -57,7 +57,7 @@ def shortest_path(nodes, adj, start: str, goal: str):
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Consultas Forenses sobre el Grafo Reificado.")
+    parser = argparse.ArgumentParser(description="Consultas sobre el Grafo Reificado.")
     parser.add_argument(
         "--shortest-path",
         nargs=2,
@@ -67,7 +67,7 @@ def main() -> int:
     parser.add_argument(
         "--profile",
         metavar="NODO",
-        help="Muestra el expediente forense y vecindad a Profundidad 2.",
+        help="Muestra el expediente y vecindad a Profundidad 2.",
     )
     args = parser.parse_args()
 
@@ -83,7 +83,7 @@ def main() -> int:
             print(f"Sin camino directo entre {src} y {dst}.")
             return 0
         print("=" * 72)
-        print(f" CAMINO FORENSE MÁS CORTO ({len(path) - 1} saltos): {src}  ===>  {dst}")
+        print(f" CAMINO MÁS CORTO ({len(path) - 1} saltos): {src}  ===>  {dst}")
         print("=" * 72)
         for idx, (node_name, rel) in enumerate(path):
             n_info = nodes[node_name]
@@ -101,7 +101,7 @@ def main() -> int:
             return 1
         n = nodes[target]
         print("=" * 72)
-        print(f" EXPEDIENTE FORENSE: {n['id']}")
+        print(f" FICHA: {n['id']}")
         print("=" * 72)
         print(f" Tipo de Nodo       : {n['tipo_nodo']}")
         print(f" RUT / RUC          : {n['rut'] or 'N/A'}")

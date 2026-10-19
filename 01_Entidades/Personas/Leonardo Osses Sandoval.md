@@ -25,12 +25,12 @@ tags:
 - **Situación Procesal**: `= this.situacion_procesal`
 - **Condena Ejecutoriada / Cautelar**: `= this.medida_cautelar`
 
-## Síntesis Forense
+## Síntesis
 Capitán de Carabineros y analista operativo de la Unidad de Inteligencia Operativa Especializada (UIOE) en Temuco. Trabajó en estrecho contacto con el civil [[Alex Smith Leay]], participando activamente en la redacción de los oficios policiales e implantación de conversaciones falsas en los teléfonos móviles incautados durante la [[Caso Operacion Huracan]]. 
 
 En el juicio oral ([[Sentencia-TOP-Temuco-OperacionHuracan-2026]]), el tribunal acreditó que Osses remitió por correo electrónico borradores de los textos que luego aparecieron falsamente atribuidos a los comuneros mapuche ([[TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01]]), siendo sentenciado a **10 años de presidio efectivo** como autor de [[Falsificacion de Instrumento Publico]] y [[Obstruccion a la Investigacion]].
 
-## Auditoría Contable: Registros Reificados
+## Registros Reificados
 ```dataviewjs
 const pages = dv.pages('"03_Hechos_y_Nexos"')
   .where(p => (p.firmante_origen && String(p.firmante_origen).includes(dv.current().file.name)) ||

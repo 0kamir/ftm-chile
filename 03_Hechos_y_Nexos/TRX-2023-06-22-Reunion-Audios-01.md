@@ -31,5 +31,5 @@ tags:
 - **Delito Imputado**: `= this.delito_imputado`
 - **Evidencia Documental**: `= this.evidencia_soporte`
 
-## Descripción Forense de la Operación
+## Descripción de la Operación
 Acuerdo y articulación financiera por un monto referencial de **$100.000.000 CLP** ("caja negra") presuntamente destinado, según la Fiscalía, al pago de sobornos a funcionarios públicos del [[Servicio Impuestos Internos]] y la CMF en beneficio de [[Factop SpA]]. El hecho quedó registrado en la grabación [[Audio-Reunion-Edificio-Alonso-2023]], en la que intervienen [[Luis Hermosilla Osorio]] y [[Leonarda Villalobos Muth]], constituyendo la pieza probatoria basal del [[Caso Audios]].

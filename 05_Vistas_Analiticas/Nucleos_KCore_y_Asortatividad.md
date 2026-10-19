@@ -6,21 +6,25 @@ tags:
   - k-core
   - asortatividad-newman
   - agujeros-estructurales-burt
-  - analisis-forense
+  - analisis-de-redes
 ---
 
-# 🧅 Núcleos $k$-Core, Asortatividad de Newman ($r$) y Agujeros Estructurales de Burt
+# Núcleos $k$-Core, Asortatividad de Newman ($r$) y Agujeros Estructurales de Burt
+
+> [!WARNING] Análisis exploratorio, no prueba de responsabilidad
+> Este reporte aplica métricas de análisis de redes a los datos del vault. Sus resultados describen la estructura del grafo, no hechos: una cercanía, un agrupamiento o un par similar no indica que exista una relación, un acuerdo ni un delito. Los datos tienen calidades distintas (ver `monto_origen` y `estado_verificacion`) y pueden contener errores. Toda persona mencionada se presume inocente mientras no exista sentencia condenatoria firme. No citar estos resultados como prueba ni como acusación.
+
 
 > [!NOTE] Topología Núcleo-Periferia y Arbitraje de Agujeros Estructurales
 > Esta vista implementa tres teoremas clásicos de la ciencia de redes criminales:
 > 1. **Descomposición $k$-Core y *Onion Layers* (Batagelj & Zaversnik)**: Pela iterativamente la periferia del grafo hasta aislar el **Núcleo Profundo ($k_{\max}$)**.
-> 2. **Coeficiente de Asortatividad de Grado de Newman ($r \in [-1, 1]$)**: Determina matemáticamente si la red es **disasortativa ($r < 0$)** —típico de células que compartimentan el riesgo mediante fundaciones u operadores satélite—.
+> 2. **Coeficiente de Asortatividad de Grado de Newman ($r \in [-1, 1]$)**: Determina matemáticamente si la red es **disasortativa ($r < 0$)** —típico de agrupamientos que compartimentan el riesgo mediante fundaciones u operadores satélite—.
 > 3. **Restricción Estructural de Ronald Burt ($C_i$)**: Identifica los actores que explotan **Agujeros Estructurales** (menor restricción $C_i$ implica mayor poder de corretaje e intermediación exclusiva entre grupos desconectados).
 
 ## 1. Indicadores Estructurales Globales
 
-- **Nodos Operativos Activos ($|V|$)**: `229` | **Aristas No Dirigidas ($|E|$)**: `376`
-- **Coeficiente de Asortatividad de Grado de Newman ($r$)**: **`-0.0943`**
+- **Nodos Operativos Activos ($|V|$)**: `229` | **Aristas No Dirigidas ($|E|$)**: `375`
+- **Coeficiente de Asortatividad de Grado de Newman ($r$)**: **`-0.1046`**
   - *Diagnóstico Topológico*: **Disasortativo (Arquitectura Hub-and-Spoke / Estrella: los grandes nodos articuladores operan a través de entidades instrumentales o testaferros periféricos)**
 - **Degeneración / Coreness Máximo ($k_{\max}$)**: `3-Core`
 - **Profundidad Máxima de Pelado (*Onion Layers*)**: `14 capas`
@@ -34,7 +38,7 @@ Actores institucionales, societarios y personales con grado $k_i \ge 2$ ordenado
 | Pos | Actor / Entidad | Tipo | Grado ($k_i$) | Restricción de Burt ($C_i$) | $k$-Core | Capa Cebolla |
 | :---: | :--- | :--- | :---: | :---: | :---: | :---: |
 | **1** | [[Corte Suprema de Chile]] | `entidad_publica` | `10` | **`0.1000`** | `3` | `Capa #12` |
-| **2** | [[Union Democrata Independiente]] | `partido_politico` | `15` | **`0.1085`** | `3` | `Capa #12` |
+| **2** | [[Union Democrata Independiente]] | `partido_politico` | `15` | **`0.1016`** | `3` | `Capa #12` |
 | **3** | [[Renovacion Nacional]] | `partido_politico` | `10` | **`0.1169`** | `3` | `Capa #10` |
 | **4** | [[Servicio Impuestos Internos]] | `entidad_publica` | `8` | **`0.1250`** | `3` | `Capa #11` |
 | **5** | [[Carlos Contreras Gutierrez]] | `persona` | `6` | **`0.1667`** | `3` | `Capa #12` |
@@ -70,7 +74,7 @@ Actores institucionales, societarios y personales con grado $k_i \ge 2$ ordenado
 | **8** | [[TRX-2022-11-15-Gestion-Nombramientos-Hermosilla-Zaliasnik-01]] | `nexo_transaccion` | **`3`** | **`Capa #13`** | `5` | `0.2289` |
 | **9** | [[TRX-2022-11-29-Convenio-DV-03]] | `nexo_transaccion` | **`3`** | **`Capa #13`** | `5` | `0.2401` |
 | **10** | [[TRX-2023-02-09-Gestion-Judicial-Hermosilla-Vivanco-01]] | `nexo_transaccion` | **`3`** | **`Capa #13`** | `5` | `0.2289` |
-| **11** | [[Union Democrata Independiente]] | `partido_politico` | **`3`** | **`Capa #12`** | `15` | `0.1085` |
+| **11** | [[Union Democrata Independiente]] | `partido_politico` | **`3`** | **`Capa #12`** | `15` | `0.1016` |
 | **12** | [[Corte Suprema de Chile]] | `entidad_publica` | **`3`** | **`Capa #12`** | `10` | `0.1000` |
 | **13** | [[Augusto Pinochet Ugarte]] | `persona` | **`3`** | **`Capa #12`** | `8` | `0.1725` |
 | **14** | [[Caso Convenios]] | `causa_judicial` | **`3`** | **`Capa #12`** | `7` | `0.1429` |

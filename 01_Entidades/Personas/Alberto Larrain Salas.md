@@ -31,10 +31,10 @@ tags:
 - **Situación Procesal**: `= this.situacion_procesal`
 - **Medida Cautelar Vigente**: `= this.medida_cautelar`
 
-## Síntesis Forense
-Médico psiquiatra y director ejecutivo de [[Fundacion ProCultura]]. En el marco del [[Caso Convenios]], suscribió convenios multirregionales tanto con la [[Seremi MINVU Antofagasta]] dirigida por [[Carlos Contreras Gutierrez]] ([[TRX-2022-10-28-Convenio-ProCultura-Antofagasta]]) como con el [[GORE Biobio]] dirigido por [[Rodrigo Diaz Worner]] ([[TRX-2022-11-18-Convenio-ProCultura-Biobio]]), actuando como **conector interregional** en el grafo forense.
+## Síntesis
+Médico psiquiatra y director ejecutivo de [[Fundacion ProCultura]]. En el marco del [[Caso Convenios]], suscribió convenios multirregionales tanto con la [[Seremi MINVU Antofagasta]] dirigida por [[Carlos Contreras Gutierrez]] ([[TRX-2022-10-28-Convenio-ProCultura-Antofagasta]]) como con el [[GORE Biobio]] dirigido por [[Rodrigo Diaz Worner]] ([[TRX-2022-11-18-Convenio-ProCultura-Biobio]]), actuando como **conector interregional** en el grafo.
 
-## Auditoría Contable: Montos Recibidos como Firmante de Destino
+## Montos Recibidos como Firmante de Destino
 ```dataviewjs
 const pages = dv.pages('"03_Hechos_y_Nexos"')
   .where(p => p.firmante_destino && (

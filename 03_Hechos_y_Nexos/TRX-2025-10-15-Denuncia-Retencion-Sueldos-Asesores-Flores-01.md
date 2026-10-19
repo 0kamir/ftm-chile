@@ -33,5 +33,5 @@ tags:
 - **Delito Imputado**: `= this.delito_imputado`
 - **Evidencia Soporte**: `= this.evidencia_soporte`
 
-## Descripción Forense de la Operación
+## Descripción de la Operación
 Esquema de recaudación denunciado por excolaboradores de la parlamentaria [[Camila Flores Oporto]], según el cual a funcionarios y asesores contratados con cargo a los fondos públicos de asignaciones del Congreso se les habría exigido la restitución en dinero en efectivo de parte significativa de sus salarios mensuales. La Fiscalía Regional de Valparaíso (URAC) investiga el mecanismo bajo la figura de fraude al Fisco en carácter reiterado.

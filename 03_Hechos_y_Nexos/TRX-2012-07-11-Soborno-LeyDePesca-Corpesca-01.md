@@ -32,5 +32,5 @@ tags:
 - **Delito Condenado**: `= this.delito_imputado` (en concurso con [[Delito Tributario]])
 - **Evidencia / Sentencia Firme**: `= this.evidencia_soporte`
 
-## Descripción Forense de la Operación
+## Descripción de la Operación
 Pagos ilícitos reiterados por un total acreditado en juicio oral de **$233.000.000 CLP** efectuados entre 2009 y 2013 por [[Corpesca SA]] (bajo instrucción de su gerente general [[Francisco Mujica Ortuzar]]) a favor del entonces senador [[Jaime Orpis Bouchon]] ([[Union Democrata Independiente]]) mediante boletas de honorarios ideológicamente falsas emitidas por terceros, con el objeto de asegurar su actuación y voto favorable a los intereses de la pesquera durante la tramitación de la Ley General de Pesca y Acuicultura en el [[Senado de la Republica de Chile]], hechos condenados mediante [[Sentencia-3TOP-Santiago-Corpesca-2021]] en el [[Caso Corpesca]].

@@ -1,33 +1,33 @@
 ---
 tipo_nodo: vista_analitica
-titulo: "Dashboard General de Auditoría Forense y Redes de Corrupción"
+titulo: "Dashboard General de Revisión y Redes de Corrupción"
 actualizacion_automatica: true
 tags:
   - dashboard
-  - analisis-forense
+  - analisis-de-redes
   - osint
 ---
 
-# Dashboard General Forense — Auditoría de Casos de Corrupción en Chile
+# Dashboard General — Auditoría de Casos de Corrupción en Chile
 
-Panel central de inteligencia de fuentes abiertas (OSINT) y contabilidad forense basado en **aristas reificadas** (modelo inspirado en *FollowTheMoney* de OCCRP Aleph e ICIJ Offshore Leaks).
+Panel central de inteligencia de fuentes abiertas (OSINT) y contabilidad basado en **aristas reificadas** (modelo inspirado en *FollowTheMoney* de OCCRP Aleph e ICIJ Offshore Leaks).
 
 > **Suite de Vistas Analíticas (`05_Vistas_Analiticas/`)**:
-> - [[Alertas_Forenses]] — 5 detectores de Banderas Rojas (Fraccionamiento CGR `< 5.000 UTM`, Lobby Pre-Adjudicación `< 90 días`, Endogamia Partidaria, Constitución Reciente `< 365 días` y Nodos Puente).
-> - [[Reporte_Auditoria_Automatizada]] — Conversión a UTM históricas, Índice de Concentración `HHI`, PageRank Forense, Centralidad de Brandes y Diagrama Mermaid.
-> - [[Indice_Riesgo_Forense]] — Scoring de exposición `0–100 pts` por sujeto y Proyección Bipartita `Persona ↔ Persona`.
-> - [[Prediccion_Vinculos_Ocultos]] — Estimadores topológicos **Adamic-Adar ($AA$)** y **Jaccard ($J$)** para inferir asociaciones estructurales indirectas.
-> - [[Deteccion_Comunidades_Operativas]] — Partición de células operativas vía **Modularidad de Newman-Girvan ($Q$)** y **Coeficiente de Participación ($P_i$)** de Guimerà-Amaral.
-> - [[Analisis_Flujo_Financiero_y_Corte_Minimo]] — Red de flujo capacitado (**Edmonds-Karp Max-Flow / Min-Cut**), curva de interdicción patrimonial y **Coeficiente de Gini**.
+> - [[Senales_para_Revision]] — 5 detectores de Banderas Rojas (Fraccionamiento CGR `< 5.000 UTM`, Lobby Pre-Adjudicación `< 90 días`, Endogamia Partidaria, Constitución Reciente `< 365 días` y Nodos Puente).
+> - [[Reporte_Automatico_de_Indicadores]] — Conversión a UTM históricas, Índice de Concentración `HHI`, PageRank, Centralidad de Brandes y Diagrama Mermaid.
+> - [[Indice_de_Centralidad]] — Scoring de exposición `0–100 pts` por sujeto y Proyección Bipartita `Persona ↔ Persona`.
+> - [[Similitud_Estructural_de_Nodos]] — Estimadores topológicos **Adamic-Adar ($AA$)** y **Jaccard ($J$)** para inferir asociaciones estructurales indirectas.
+> - [[Agrupamientos_de_la_Red]] — Partición de agrupamientos vía **Modularidad de Newman-Girvan ($Q$)** y **Coeficiente de Participación ($P_i$)** de Guimerà-Amaral.
+> - [[Analisis_Flujo_Financiero_y_Corte_Minimo]] — Red de flujo capacitado (**Edmonds-Karp Max-Flow / Min-Cut**), curva de retiro de nodos y **Coeficiente de Gini**.
 > - [[Nucleos_KCore_y_Asortatividad]] — Descomposición **$k$-Core / Onion Layers**, **Asortatividad de Grado de Newman ($r$)** y **Agujeros Estructurales de Burt ($C_i$)**.
 > - [[Analisis_Espectral_y_Fiedler]] — Diagonalización de **Laplaciana ($L = D - A$)**, **Valor y Bisección de Fiedler ($\lambda_2, v_2$)** y **Autovector de Perron-Frobenius ($\rho(A)$)**.
 > - [[Evolucion_Temporal_y_Transicion_de_Fase]] — Dinámica acumulada **$G(t)$**, **Criterio de Percolación de Molloy-Reed ($\kappa(t)$)** y **Ráfagas de Goh-Barabási ($B$)**.
 > - [[Censo_Triadico_y_Motivos_Superiores]] — Clausura triádica ($\Delta$), **Lazos Fuertes de Simmel** y **Cuadrángulos Multi-Canal ($C_4$)**.
 > - [[Resistencia_Efectiva_y_Tiempos_de_Impacto]] — Pseudoinversa de Moore-Penrose ($L^+$), **Índice de Kirchhoff ($\Omega_{uv}$)** y **Constante de Kemeny ($K(G)$)**.
-> - [[Redes_Parentesco_y_Clanes_Familiares]] — Capa multiplex de parentesco (`vinculos_familiares`), **Clanes Dinásticos** (Piñera–Chadwick, Pinochet–Hiriart–Ponce Lerou, Lavín–Barriga) y atajos geodésicos ($\Delta d$).
+> - [[Redes_de_Parentesco]] — Capa multiplex de parentesco (`vinculos_familiares`), **Clanes Familiares** (Piñera–Chadwick, Pinochet–Hiriart–Ponce Lerou, Lavín–Barriga) y atajos geodésicos ($\Delta d$).
 > - [[Menciones de Chilenos en Archivos Epstein]] — Anexo documental fuera del grafo: menciones reportadas por la prensa, sin imputación.
-> - [[Auditoria_Benford_y_Montos]] — Test estadístico de Ley de Benford y detección de montos redondos discrecionales (`$10M CLP`).
-> - [[Simulacion_Desarticulacion_Red]] — Simulación de percolación dirigida (*Key Player Problem*) y fragmentación de la red.
+> - [[Distribucion_de_Montos_Benford]] — Test estadístico de Ley de Benford y detección de montos redondos discrecionales (`$10M CLP`).
+> - [[Robustez_de_la_Red]] — Simulación de percolación dirigida (*Key Player Problem*) y fragmentación de la red.
 > - [[Matriz_Partidos_y_Regiones]] — Distribución del perjuicio fiscal por Partido Político y por Región.
 > - [[Linea_de_Tiempo]] — Reconstrucción cronológica secuencial de constituciones societarias y desembolsos.
 

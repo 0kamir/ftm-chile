@@ -18,7 +18,7 @@ tags:
 - **Región**: `= this.region`
 - **Superior Jerárquico**: `= this.superior_jerarquico`
 
-## Contexto en Investigaciones Forenses
+## Contexto en Investigaciones
 Corporación edilicia de la Región Metropolitana. Durante la administración 2016–2021 encabezada por [[Cathy Barriga Guerra]], se implementó una modificación en la estructura de control presupuestario que permitió comprometer gastos sin respaldo financiero real por **$30.972.000.000 CLP** ([[TRX-2020-12-15-Deficit-Maipu-Certificados-01]]), según acreditó el [[Informe-Contraloria-Municipalidad-Maipu-2021]] en el marco del [[Caso Municipalidad de Maipu]].
 
 ## Nexos y Operaciones Registradas

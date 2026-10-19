@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Analizador de Redes Forenses y Exportador GraphML / JSON (Compatible con Gephi y Cytoscape).
+Analizador de Redes y Exportador GraphML / JSON (Compatible con Gephi y Cytoscape).
 Construye el grafo bipartito/reificado completo desde el vault de Obsidian, calcula métricas de
 centralidad (Grado, Flujo Financiero de Entrada/Salida, Intermediación) y exporta:
   - 05_Vistas_Analiticas/Exportaciones/red_corrupcion_chile.graphml

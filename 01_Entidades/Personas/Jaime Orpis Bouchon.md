@@ -24,10 +24,10 @@ tags:
 - **Situación Procesal**: `= this.situacion_procesal`
 - **Medida Cautelar / Condena Vigente**: `= this.medida_cautelar`
 
-## Síntesis Forense
+## Síntesis
 Abogado y exsenador de [[Union Democrata Independiente]]. Fue condenado por sentencia firme en el [[Caso Corpesca]] ([[Sentencia-3TOP-Santiago-Corpesca-2021]]) como autor de seis delitos de [[Fraude al Fisco]] y dos delitos de [[Cohecho]] pasivo tras recibir **$233.000.000 CLP** desde [[Corpesca SA]] (autorizados por [[Francisco Mujica Ortuzar]]) mediante boletas de honorarios ideológicamente falsas emitidas por terceros ([[TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01]]) mientras integraba comisiones legislativas en el [[Senado de la Republica de Chile]].
 
-## Auditoría Contable: Montos Recibidos como Firmante/Destinatario
+## Montos Recibidos como Firmante/Destinatario
 ```dataviewjs
 const pages = dv.pages('"03_Hechos_y_Nexos"')
   .where(p => p.firmante_destino && (

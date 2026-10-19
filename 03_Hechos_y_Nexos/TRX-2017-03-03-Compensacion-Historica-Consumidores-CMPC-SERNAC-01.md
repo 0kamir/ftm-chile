@@ -33,5 +33,5 @@ tags:
 - **Delito / Infracción Subyacente**: `= this.delito_imputado`
 - **Evidencia Soporte**: `= this.evidencia_soporte`
 
-## Descripción Forense de la Operación
+## Descripción de la Operación
 En marzo de 2017, tras las negociaciones en la mesa tripartita del Procedimiento Voluntario Colectivo conducido por el [[Servicio Nacional del Consumidor]] junto a las asociaciones de consumidores (Conadecus y Odecu), [[Empresas CMPC SA]] depositó en una cuenta fiduciaria de BancoEstado la suma de **`$97.500.000.000 CLP`** para resarcir el daño económico provocado por 13 años de colusión en productos de primera necesidad. El fondo financió el pago universal de **$7.000 CLP** a más de 13 millones de chilenos mayores de 18 años a partir de agosto de 2018.

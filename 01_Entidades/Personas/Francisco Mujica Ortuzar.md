@@ -24,10 +24,10 @@ tags:
 - **Situación Procesal**: `= this.situacion_procesal`
 - **Medida Cautelar / Condena Vigente**: `= this.medida_cautelar`
 
-## Síntesis Forense
+## Síntesis
 Ingeniero comercial y ex gerente general de [[Corpesca SA]]. Fue condenado en el [[Caso Corpesca]] como autor de delitos reiterados de [[Cohecho]] activo (soborno) y [[Delito Tributario]], tras autorizar los pagos por **$233.000.000 CLP** al entonces senador [[Jaime Orpis Bouchon]] ([[TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01]]) para incidir en la discusión de la Ley de Pesca en el [[Senado de la Republica de Chile]], hechos refrendados en [[Sentencia-3TOP-Santiago-Corpesca-2021]].
 
-## Auditoría Contable: Montos Autorizados como Firmante de Origen
+## Montos Autorizados como Firmante de Origen
 ```dataviewjs
 const pages = dv.pages('"03_Hechos_y_Nexos"')
   .where(p => p.firmante_origen && (

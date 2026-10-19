@@ -21,7 +21,7 @@ tags:
 # TRX-2014-05-20-Facturas-LeyReservadaCobre-01
 
 ## Ficha de Arista Reificada (Desfalco Fondos Ley Reservada del Cobre)
-- **Fecha de Corte Pericial**: `= this.fecha`
+- **Fecha de Corte**: `= this.fecha`
 - **Tipo de Nexo**: `= this.tipo_nexo`
 - **Monto Involucrado Consolidado (CLP)**: `$`= regexreplace(string(this.monto_clp), "\B(?=(\d{3})+(?!\d))", ".")``
 - **Repartición Militar de Origen**: `= this.entidad_origen`
@@ -32,5 +32,5 @@ tags:
 - **Delito Imputado**: `= this.delito_imputado` (en concurso con [[Fraude al Fisco]])
 - **Evidencia Judicial**: `= this.evidencia_soporte`
 
-## Descripción Forense de la Operación
+## Descripción de la Operación
 Defraudación patrimonial por un monto que la investigación estimó en **$6.100.000.000 CLP** ejecutada mediante el pago de facturas ideológicamente falsas con cargo a los fondos de la Ley N° 13.196 Reservada del Cobre en el [[Comando de Apoyo a la Fuerza del Ejercito]] hacia proveedores coludidos como [[Frasim Ltda]] (con intervención de [[Jozo Santic Palomino]]) y sustracción de gastos reservados durante el mando de [[Juan Miguel Fuente-Alba Poblete]], imputada en [[Procesamientos-Ministra-Rutherford-Milicogate]] (un auto de procesamiento no es una condena) dentro del [[Caso Milicogate]].

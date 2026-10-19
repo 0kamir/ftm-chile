@@ -25,7 +25,7 @@ tags:
 
 # Fotografia-Cerimedo-Sede-Renovacion-Nacional-2022
 
-## Metadatos de Fuente Primaria (Cadena de Custodia Legal y Periodística)
+## Metadatos de la Fuente
 - **ID Evidencia**: `= this.id_evidencia`
 - **Tipo de Registro**: `= this.tipo_documento`
 - **Fecha de Captura**: `= this.fecha_emision` *(4 de septiembre de 2022)*

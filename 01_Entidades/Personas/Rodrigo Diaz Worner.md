@@ -23,10 +23,10 @@ tags:
 - **Situación Procesal**: `= this.situacion_procesal`
 - **Medida Cautelar Vigente**: `= this.medida_cautelar`
 
-## Síntesis Forense
+## Síntesis
 Máxima autoridad ejecutiva del [[GORE Biobio]] durante la suscripción del convenio [[TRX-2022-12-20-Convenio-EnTi-01]] con [[Fundacion En Ti]] (gestionada por [[Camila Polizzi Fonceca]]), respaldado en la [[Resolucion-GORE-Biobio-EnTi-2022]] e investigado en el [[Caso Convenios]].
 
-## Auditoría Contable: Montos Autorizados como Firmante de Origen
+## Montos Autorizados como Firmante de Origen
 ```dataviewjs
 const pages = dv.pages('"03_Hechos_y_Nexos"')
   .where(p => p.firmante_origen && (

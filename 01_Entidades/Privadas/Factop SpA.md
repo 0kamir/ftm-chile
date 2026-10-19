@@ -20,7 +20,7 @@ tags:
 - **Objeto Social**: `= this.objeto_social`
 - **Representante / Asesor Legal en la Operación**: `= this.representante_legal`
 
-## Contexto Forense y Societario
+## Contexto y Societario
 Sociedad de factoring investigada en el [[Caso Audios]] por emisión de facturas ideológicamente falsas, [[Lavado de Activos]] y [[Cohecho]]. En la reunión registrada en [[Audio-Reunion-Edificio-Alonso-2023]], sus asesores legales [[Luis Hermosilla Osorio]] y [[Leonarda Villalobos Muth]] habrían estructurado, según la Fiscalía, un fondo para sobornos [[TRX-2023-06-22-Reunion-Audios-01]] dirigido a funcionarios del [[Servicio Impuestos Internos]].
 
 ## Historial de Recepción de Fondos y Nexos

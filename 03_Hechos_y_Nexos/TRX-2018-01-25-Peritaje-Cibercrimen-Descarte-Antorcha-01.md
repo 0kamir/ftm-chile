@@ -21,9 +21,9 @@ tags:
 # TRX-2018-01-25-Peritaje-Cibercrimen-Descarte-Antorcha-01
 
 ## Ficha de Arista Reificada (Peritaje Técnico de Descarte y Descubrimiento del Montaje)
-- **Fecha del Hito Pericial**: `= this.fecha` *(Enero de 2018)*
+- **Fecha del Hito**: `= this.fecha` *(Enero de 2018)*
 - **Tipo de Registro**: `= this.tipo_nexo`
-- **Monto Imputado (CLP)**: `$`= regexreplace(string(this.monto_clp), "\B(?=(\d{3})+(?!\d))", ".")`` *(Diligencia pericial probatoria)*
+- **Monto Imputado (CLP)**: `$`= regexreplace(string(this.monto_clp), "\B(?=(\d{3})+(?!\d))", ".")`` *(Diligencia probatoria)*
 - **Ámbito Jurisdiccional**: `= this.entidad_origen`
 - **Unidad Policial Investigada**: `= this.entidad_destino`
 - **Oficial Identificado en Implantación**: `= this.firmante_origen`
@@ -32,5 +32,5 @@ tags:
 - **Delito Constatado**: `= this.delito_imputado`
 - **Evidencia Soporte**: `= this.evidencia_soporte`
 
-## Descripción Forense del Hecho
-El 25 de enero de 2018, la Fiscalía Regional de La Araucanía remitió al Juzgado de Garantía de Temuco los resultados concluyentes del informe pericial de la Brigada del Cibercrimen de la PDI ([[Peritaje-Cibercrimen-PDI-SoftwareAntorcha-2018]]). La diligencia constató de manera científica que el software «Antorcha» de [[Alex Smith Leay]] no existía funcionalmente y que los archivos con las supuestas conversaciones de mensajería fueron introducidos intencionalmente en los teléfonos por el capitán [[Leonardo Osses Sandoval]] y personal de la UIOE para obstruir la labor del Ministerio Público.
+## Descripción del Hecho
+El 25 de enero de 2018, la Fiscalía Regional de La Araucanía remitió al Juzgado de Garantía de Temuco los resultados concluyentes del informe de la Brigada del Cibercrimen de la PDI ([[Peritaje-Cibercrimen-PDI-SoftwareAntorcha-2018]]). La diligencia constató de manera científica que el software «Antorcha» de [[Alex Smith Leay]] no existía funcionalmente y que los archivos con las supuestas conversaciones de mensajería fueron introducidos intencionalmente en los teléfonos por el capitán [[Leonardo Osses Sandoval]] y personal de la UIOE para obstruir la labor del Ministerio Público.

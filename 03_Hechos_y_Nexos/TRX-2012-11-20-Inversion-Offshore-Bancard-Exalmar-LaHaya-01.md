@@ -22,11 +22,11 @@ tags:
 
 # TRX-2012-11-20-Inversion-Offshore-Bancard-Exalmar-LaHaya-01
 
-## Ficha de Arista Reificada (Transacción / Hecho Auditado)
+## Ficha de Arista Reificada (Transacción / Hecho Registrado)
 - **ID Transacción**: `= this.id_transaccion`
 - **Fecha**: `= this.fecha` (inversiones ejecutadas entre noviembre de 2010 y febrero de 2013)
 - **Tipo de Nexo**: `= this.tipo_nexo`
-- **Monto Auditado (CLP)**: `$8.250.000.000 CLP` (`= this.monto_clp` — equivalente a los **US$ 16,5 millones** invertidos en el `9,18%` de la pesquera peruana *Exalmar S.A.*)
+- **Monto Registrado (CLP)**: `$8.250.000.000 CLP` (`= this.monto_clp` — equivalente a los **US$ 16,5 millones** invertidos en el `9,18%` de la pesquera peruana *Exalmar S.A.*)
 - **Método de Adjudicación**: `= this.metodo_adjudicacion`
 - **Entidad de Origen**: `= this.entidad_origen` (*Bancard International Investment Inc.* en Islas Vírgenes Británicas)
 - **Entidad de Destino / Fiscalización Institucional**: `= this.entidad_destino`
@@ -36,5 +36,5 @@ tags:
 - **Causa Judicial**: `= this.causa_vinculada`
 - **Evidencia de Soporte**: `= this.evidencia_soporte`
 
-## Descripción Forense del Hecho
+## Descripción del Hecho
 Adquisición bursátil y *offshore* de un **`9,18%` de participación en la compañía pesquera peruana *Exalmar S.A.*** por aproximadamente **US$ 16,5 millones** (`$8.250.000.000 CLP`) ejecutada por [[Bancard Inversiones Ltda]] (*Bancard International Investment Inc.*, domiciliada en Islas Vírgenes Británicas y administrada por [[Santiago Valdes Gutierrez]]) fuera del fideicomiso ciego mientras [[Sebastian Pinera Echenique]] ejercía como Presidente de la República y dirigía con acceso a informes reservados la defensa de Chile ante la Corte Internacional de Justicia de La Haya en el litigio de delimitación marítima con el Perú, cuyo fallo otorgó a Perú soberanía económica sobre aguas donde operaba dicha pesquera ([[Caso Exalmar y Fideicomiso Ciego]]).

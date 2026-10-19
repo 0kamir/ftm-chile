@@ -52,10 +52,10 @@ tags:
 - **Situación Procesal**: `= this.situacion_procesal`
 - **Estado Procesal**: `= this.medida_cautelar`
 
-## Síntesis Forense
+## Síntesis
 Economista, militante del [[Partido Comunista de Chile]] y ex Alcaldesa de la [[Municipalidad de Santiago]]. En el [[Caso Sierra Bella]], impulsó la compra, aprobada por el concejo municipal, de la ex Clínica Sierra Bella con [[Inmobiliaria San Valentino SpA]] ([[Felipe Sanchez Perez]]) por **$8.200.000.000 CLP** ([[TRX-2023-01-20-Compraventa-Clinica-SierraBella-01]]), operación cuyos pagos fueron paralizados por la [[Contraloria General de la Republica]] ([[Jorge Bermudez Soto]]) mediante el [[Dictamen-CGR-SierraBella-2023]] al constatarse que el precio cuadruplicaba el avalúo fiscal y el valor de compra previa sin justificación técnica verificable. La municipalidad finalmente no perseveró en la compra. En mayo de 2025 la Fiscalía decidió no perseverar y la causa quedó con sobreseimiento definitivo, confirmado por la Corte Suprema; Hassler nunca fue formalizada. En mayo de 2026 un sumario de la Contraloría dio por acreditada su responsabilidad administrativa en la compra. En junio de 2026 el 7° Juzgado de Garantía de Santiago declaró admisible una nueva querella de la Municipalidad de Santiago por fraude al fisco, que el Ministerio Público debe evaluar; Hassler sostiene que se trata de hechos ya juzgados y querelló por denuncia calumniosa contra el alcalde Mario Desbordes, acción que el tribunal también admitió. Rige la presunción de inocencia.
 
-## Auditoría Contable: Montos Suscritos como Firmante de Origen
+## Montos Suscritos como Firmante de Origen
 ```dataviewjs
 const pages = dv.pages('"03_Hechos_y_Nexos"')
   .where(p => p.firmante_origen && String(p.firmante_origen).includes(dv.current().file.name));

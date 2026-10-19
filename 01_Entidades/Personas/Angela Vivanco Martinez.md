@@ -23,7 +23,7 @@ tags:
 - **Situación Procesal**: `= this.situacion_procesal`
 - **Medida Cautelar Vigente**: `= this.medida_cautelar`
 
-## Síntesis Forense
+## Síntesis
 Abogada y exministra de la [[Corte Suprema de Chile]]. En la arista judicial del [[Caso Audios]], el Ministerio Público investiga las comunicaciones y gestiones sostenidas con el abogado [[Luis Hermosilla Osorio]] ([[TRX-2023-02-09-Gestion-Judicial-Hermosilla-Vivanco-01]]) relativas a nombramientos judiciales y consultas sobre causas radicadas en la Tercera Sala, tipificadas bajo hipótesis de [[Trafico de Influencias]], [[Negociacion Incompatible]] y [[Cohecho]].
 
 ## Auditoría de Nexos como Destinataria

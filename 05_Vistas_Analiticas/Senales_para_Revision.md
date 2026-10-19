@@ -1,20 +1,26 @@
 ---
 tipo_nodo: vista_analitica
-titulo: "Sistema de Detección de Banderas Rojas (Red Flags Forenses)"
+titulo: "Señales para Revisión Documental"
 actualizacion_automatica: true
 tags:
   - dashboard
-  - alertas-forenses
+  - senales-revision
   - osint
 ---
 
-# Detector de Banderas Rojas (Red Flags Forenses)
+# Señales para Revisión Documental
+
+> [!WARNING] Análisis exploratorio, no prueba de responsabilidad
+> Este reporte aplica métricas de análisis de redes a los datos del vault. Sus resultados describen la estructura del grafo, no hechos: una cercanía, un agrupamiento o un par similar no indica que exista una relación, un acuerdo ni un delito. Los datos tienen calidades distintas (ver `monto_origen` y `estado_verificacion`) y pueden contener errores. Toda persona mencionada se presume inocente mientras no exista sentencia condenatoria firme. No citar estos resultados como prueba ni como acusación.
+>
+> Los umbrales (por ejemplo, el de toma de razón de la Contraloría) se usan como señales para revisar documentos, no como determinación de una irregularidad.
+
 
 Motor de reglas heurísticas en `DataviewJS` que cruza en tiempo real las propiedades de **Personas**, **Entidades Privadas**, **Entidades Públicas** y **Nexos Transaccionales (`03_Hechos_y_Nexos/`)** para detectar patrones atípicos de corrupción pública.
 
 ---
 
-## 🚩 Alerta 1: Fraccionamiento Administrativo (Evasión de Toma de Razón CGR — Umbral 5.000 UTM)
+## Señal 1: Fraccionamiento Administrativo (Evasión de Toma de Razón CGR — Umbral 5.000 UTM)
 Detecta pares `(entidad_origen → entidad_destino)` con **múltiples convenios individuales bajo 5.000 UTM (~$301.550.000 CLP)** cuya **suma acumulada supera las 5.000 UTM**, patrón típico de elusión del control preventivo de legalidad de la Contraloría General de la República.
 
 ```dataviewjs
@@ -57,7 +63,7 @@ for (let k of Object.keys(pares)) {
 }
 
 if (filas.length === 0) {
-  dv.paragraph("✅ *Sin alertas de fraccionamiento bajo umbral de Toma de Razón.*");
+  dv.paragraph("✅ *Sin señales de fraccionamiento bajo umbral de Toma de Razón.*");
 } else {
   dv.paragraph(`⚠️ **ALERTA CRÍTICA CGR: Se detectó fraccionamiento en ${filas.length} relación(es) contractual(es):**`);
   dv.table(
@@ -69,7 +75,7 @@ if (filas.length === 0) {
 
 ---
 
-## 🚩 Alerta 2: Lobby Pre-Adjudicación (Audiencia Ley N° 20.730 seguida de Trato Directo en < 90 días)
+## Señal 2: Lobby Pre-Adjudicación (Audiencia Ley N° 20.730 seguida de Trato Directo en < 90 días)
 Cruza todos los nexos de tipo `reunion_lobby` con los convenios o transferencias posteriores para detectar cuando un lobbista o entidad privada se adjudica recursos públicos a menos de 90 días de haberse reunido con la autoridad.
 
 ```dataviewjs
@@ -106,7 +112,7 @@ for (let r of reuniones) {
 }
 
 if (hallazgos.length === 0) {
-  dv.paragraph("✅ *Sin alertas de lobby pre-adjudicación en ventana de 90 días.*");
+  dv.paragraph("✅ *Sin señales de lobby pre-adjudicación en ventana de 90 días.*");
 } else {
   dv.paragraph(`⚠️ **Se detectaron ${hallazgos.length} adjudicación(es) precedidas por audiencia de lobby en menos de 90 días:**`);
   dv.table(
@@ -118,12 +124,12 @@ if (hallazgos.length === 0) {
 
 ---
 
-## 🚩 Alerta 3: Endogamia Partidaria / Conflicto de Interés Político
+## Señal 3: Endogamia Partidaria / Conflicto de Interés Político
 Detecta transacciones donde el **Firmante Público (`firmante_origen`)** y el **Firmante Receptor (`firmante_destino`)** comparten la misma **afiliación política** (excluyendo independientes).
 
 ```dataviewjs
 const nexos = dv.pages('"03_Hechos_y_Nexos"');
-const alertas = [];
+const señales = [];
 
 const fmt = new Intl.NumberFormat('es-CL', { style: 'currency', currency: 'CLP', maximumFractionDigits: 0 });
 
@@ -140,7 +146,7 @@ for (let nexo of nexos) {
       partOrigen === partDestino &&
       !partOrigen.toLowerCase().includes("independiente")
     ) {
-      alertas.push([
+      señales.push([
         nexo.file.link,
         nexo.fecha,
         fOrigen.file.link,
@@ -153,25 +159,25 @@ for (let nexo of nexos) {
   }
 }
 
-if (alertas.length === 0) {
-  dv.paragraph("✅ *Sin alertas de coincidencia partidaria detectadas.*");
+if (señales.length === 0) {
+  dv.paragraph("✅ *Sin señales de coincidencia partidaria detectadas.*");
 } else {
-  dv.paragraph(`⚠️ **Se detectaron ${alertas.length} operación(es) con coincidencia de militancia política entre autorizador y receptor:**`);
+  dv.paragraph(`⚠️ **Se detectaron ${señales.length} operación(es) con coincidencia de militancia política entre autorizador y receptor:**`);
   dv.table(
     ["Nexo", "Fecha", "Firmante Origen", "Firmante Destino", "Partido Común", "Monto (CLP)", "Causa"],
-    alertas
+    señales
   );
 }
 ```
 
 ---
 
-## 🚩 Alerta 4: Entidades Receptoras de Constitución Reciente (< 365 días)
+## Señal 4: Entidades Receptoras de Constitución Reciente (< 365 días)
 Detecta convenios o transferencias adjudicadas a **Entidades Privadas (`01_Entidades/Privadas/`)** cuya `fecha_constitucion` sea inferior a 1 año (365 días) respecto de la `fecha` de la transacción.
 
 ```dataviewjs
 const nexos = dv.pages('"03_Hechos_y_Nexos"');
-const alertas = [];
+const señales = [];
 const fmt = new Intl.NumberFormat('es-CL', { style: 'currency', currency: 'CLP', maximumFractionDigits: 0 });
 
 for (let nexo of nexos) {
@@ -182,7 +188,7 @@ for (let nexo of nexos) {
     const diffDias = Math.round((fechaTrx - fechaConst) / (1000 * 60 * 60 * 24));
 
     if (!isNaN(diffDias) && diffDias >= 0 && diffDias < 365) {
-      alertas.push([
+      señales.push([
         nexo.file.link,
         entDestino.file.link,
         String(entDestino.fecha_constitucion),
@@ -195,20 +201,20 @@ for (let nexo of nexos) {
   }
 }
 
-if (alertas.length === 0) {
-  dv.paragraph("✅ *Sin alertas de constitución societaria reciente.*");
+if (señales.length === 0) {
+  dv.paragraph("✅ *Sin señales de constitución societaria reciente.*");
 } else {
-  dv.paragraph(`⚠️ **Se detectaron ${alertas.length} transferencia(s) a entidades con menos de 1 año de antigüedad:**`);
+  dv.paragraph(`⚠️ **Se detectaron ${señales.length} transferencia(s) a entidades con menos de 1 año de antigüedad:**`);
   dv.table(
     ["Nexo", "Entidad Receptora", "Constitución", "Fecha Traspaso", "Antigüedad al Traspaso", "Monto (CLP)", "Causa"],
-    alertas
+    señales
   );
 }
 ```
 
 ---
 
-## 🚩 Alerta 5: Nodos Puente Multirregionales (Entidades con Múltiples Órganos Financiadores)
+## Señal 5: Nodos Puente Multirregionales (Entidades con Múltiples Órganos Financiadores)
 Identifica fundaciones o empresas privadas que reciben recursos desde **2 o más órganos públicos distintos**, actuando como conectores interregionales.
 
 ```dataviewjs

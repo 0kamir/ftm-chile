@@ -21,10 +21,10 @@ tags:
 - **Representante Legal**: `= this.representante_legal`
 - **Controlador**: Familia Covarrubias
 
-## Contexto en Investigaciones Forenses
+## Contexto en Investigaciones
 Tercera compañía avícola del mercado chileno. En el [[Caso Colusion de los Pollos]], fue condenada por formar parte del cartel oligopólico que restringió la producción de pollo durante casi dos décadas bajo la coordinación de la [[Asociacion de Productores Avicolas de Chile AG]]. La [[Corte Suprema de Chile]] le impuso una multa de 12.000 UTA (aproximadamente US$ 9 millones / $6.400 millones de pesos).
 
-## Auditoría Contable: Registros Reificados
+## Registros Reificados
 ```dataview
 TABLE WITHOUT ID
   file.link AS "Nexo / Operación",

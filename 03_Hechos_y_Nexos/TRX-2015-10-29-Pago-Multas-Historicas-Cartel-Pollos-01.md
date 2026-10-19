@@ -33,5 +33,5 @@ tags:
 - **Delito / Infracción Imputada**: `= this.delito_imputado`
 - **Evidencia Soporte**: `= this.evidencia_soporte`
 
-## Descripción Forense de la Operación
+## Descripción de la Operación
 Liquidación y condena pecuniaria definitiva dictada por la Tercera Sala de la [[Corte Suprema de Chile]] que ratificó la condena del TDLC e impuso las mayores multas por infracción a la libre competencia en la historia del país hasta esa fecha: 30.000 UTA a [[Agrosuper SA]], 30.000 UTA a [[Empresas Ariztia SA]] y 12.000 UTA a [[Agricola Don Pollo Limitada]], alcanzando un monto global consolidado a beneficio fiscal de **`$38.400.000.000 CLP`** (aproximadamente US$ 60 millones), además de la disolución judicial forzosa de la [[Asociacion de Productores Avicolas de Chile AG]].

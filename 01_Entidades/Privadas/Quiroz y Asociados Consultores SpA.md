@@ -21,12 +21,12 @@ tags:
 - **Objeto Social**: `= this.objeto_social`
 - **Representante Legal / Socio Principal**: `= this.representante_legal`
 
-## Contexto en Investigaciones Forenses y Regulatorias
-Firma de consultoría económica y financiera fundada y encabezada por el economista [[Jorge Quiroz Castro]]. La consultora prestó servicios periciales y estudios económicos para diversas empresas y asociaciones gremiales investigadas por la [[Fiscalia Nacional Economica]] y sometidas a proceso ante el Tribunal de Defensa de la Libre Competencia (TDLC).
+## Contexto en Investigaciones y Regulatorias
+Firma de consultoría económica y financiera fundada y encabezada por el economista [[Jorge Quiroz Castro]]. La consultora prestó servicios y estudios económicos para diversas empresas y asociaciones gremiales investigadas por la [[Fiscalia Nacional Economica]] y sometidas a proceso ante el Tribunal de Defensa de la Libre Competencia (TDLC).
 
-Entre sus principales encargos documentados en expedientes de libre competencia se encuentran los modelos de demanda y proyección confeccionados para la [[Asociacion de Productores Avicolas de Chile AG]] ([[Caso Colusion de los Pollos]]) e informes periciales económicos de defensa para [[Farmacias Salcobrand SA]] ([[Caso Colusion de las Farmacias]]).
+Entre sus principales encargos documentados en expedientes de libre competencia se encuentran los modelos de demanda y proyección confeccionados para la [[Asociacion de Productores Avicolas de Chile AG]] ([[Caso Colusion de los Pollos]]) e informes económicos de defensa para [[Farmacias Salcobrand SA]] ([[Caso Colusion de las Farmacias]]).
 
-## Auditoría Contable: Registros Reificados
+## Registros Reificados
 ```dataview
 TABLE WITHOUT ID
   file.link AS "Nexo / Operación",

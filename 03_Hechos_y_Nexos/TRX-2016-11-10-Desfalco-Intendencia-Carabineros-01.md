@@ -28,7 +28,7 @@ tags:
 # TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01
 
 ## Ficha de Arista Reificada (Desfalco Consolidado en Intendencia de Carabineros)
-- **Fecha de Corte Pericial**: `= this.fecha`
+- **Fecha de Corte**: `= this.fecha`
 - **Tipo de Nexo**: `= this.tipo_nexo`
 - **Monto Involucrado (CLP)**: `$`= regexreplace(string(this.monto_clp), "\B(?=(\d{3})+(?!\d))", ".")``
 - **Órgano Público Defraudado**: `= this.entidad_origen`
@@ -38,7 +38,7 @@ tags:
 - **Delito Condenado**: `= this.delito_imputado` (en concurso con [[Lavado de Activos]])
 - **Evidencia / Sentencia Firme**: `= this.evidencia_soporte`
 
-## Descripción Forense de la Operación
+## Descripción de la Operación
 Presunta sustracción sistemática de caudales públicos desde las cuentas institucionales de la [[Direccion de Finanzas de Carabineros]] por un total, según la acusación, de **$28.348.928.198 CLP**. La operación consistía en alterar las nóminas electrónicas de pago de remuneraciones y desahucios enviadas al Banco Estado para abonar sumas millonarias a cuentas particulares y luego distribuir el retorno en efectivo a la cúpula encabezada por [[Flavio Echeverria Cortez]] y [[Jaime Paz Meneses]], en el [[Caso Pacogate]]. En abril de 2026 el Tribunal de Juicio Oral en lo Penal de Santiago dictó veredicto condenatorio contra 25 de los 28 acusados que llegaron a juicio por malversación de caudales públicos reiterada y lavado de activos; **descartó la asociación ilícita** y las penas se fijarán en la sentencia (anunciada por la prensa para febrero de 2027). El veredicto no está firme.
 
 ## Fuentes Verificables

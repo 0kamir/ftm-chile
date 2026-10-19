@@ -21,11 +21,11 @@ tags:
 
 # Informe-Contraloria-Municipalidad-Maipu-2021
 
-## Metadatos de Fuente Primaria (Cadena de Custodia OSINT)
+## Metadatos de la Fuente
 - **ID Evidencia**: `= this.id_evidencia`
 - **Tipo de Documento**: `= this.tipo_documento`
 - **Fecha de Emisión**: `= this.fecha_emision`
-- **Organismo Auditado**: `= this.organismo_emisor`
+- **Organismo Registrado**: `= this.organismo_emisor`
 - **Fuente Pública / OSINT**: `= this.fuente_osint`
 - **Estado de Verificación**: `= this.estado_verificacion`
 - **Causa Vinculada**: `= this.causa_vinculada`

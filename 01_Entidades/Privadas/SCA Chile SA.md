@@ -22,7 +22,7 @@ tags:
 - **Representante Legal**: `= this.representante_legal`
 - **Controlador Histórico**: Fundada como PISA por [[Gabriel Ruiz-Tagle Serrano]], posteriormente adquirida por la multinacional sueca SCA (actual Essity)
 
-## Contexto en Investigaciones Forenses
+## Contexto en Investigaciones
 Fabricante de papel tissue que operó bajo el nombre de PISA hasta su venta al grupo internacional SCA. En el [[Caso Colusion del Papel Tissue]], concertó a partir del año 2000 con [[Empresas CMPC SA]] un esquema ilícito de reparto de cuotas de mercado y fijación de precios ([[TRX-2000-05-15-Pacto-Colusion-Precios-Cuotas-CMPC-PISA-01]]), estructurado en reuniones clandestinas en hoteles y clubes de golf. Fue sancionada por el TDLC ([[Sentencia-TDLC-160-Colusion-Tissue-2017]]) y ratificada por la [[Corte Suprema de Chile]] con una multa de 20.000 UTA (aproximadamente US$ 15 millones).
 
 ## Historial de Recepción de Fondos y Nexos

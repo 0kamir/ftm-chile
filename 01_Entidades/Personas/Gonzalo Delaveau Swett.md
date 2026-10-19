@@ -23,10 +23,10 @@ tags:
 - **Situación Procesal / Institucional**: `= this.situacion_procesal`
 - **Consecuencia Institucional**: `= this.medida_cautelar`
 
-## Síntesis Forense
+## Síntesis
 Abogado especialista en derecho corporativo y minero que ejercía como **Presidente de *Chile Transparente*** (el capítulo chileno de la organización anticorrupción *Transparencia Internacional*) cuando el 3 de abril de 2016 estalló el [[Caso Panama Papers Chile]]. Los documentos internos de [[Mossack Fonseca y Sociedades Offshore Panama]] revelaron que Delaveau no solo era uno de los principales estudios jurídicos intermediarios del bufete panameño en Santiago, sino que figuraba personalmente como director, apoderado y secretario de al menos **cinco sociedades *offshore* domiciliadas en Bahamas** (*Turnbrook Corporation*, *DKL Holdings*, *Westquarter Limited*, *Mining Press Holdings* y *Turnbrook Mining Ltd.*) que controlaban en Chile el proyecto minero *Andes Copper* ([[TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01]] y [[Filtracion-ICIJ-PanamaPapers-Chile-2016]]). Ante el conflicto de interés con su cargo al frente del organismo anticorrupción, debió presentar su renuncia indeclinable el 4 de abril de 2016.
 
-## Auditoría Contable: Montos Asociados en Aristas Reificadas
+## Montos Asociados en Aristas Reificadas
 ```dataviewjs
 const pages = dv.pages('"03_Hechos_y_Nexos"')
   .where(p => (p.firmante_origen && String(p.firmante_origen).includes(dv.current().file.name)) ||

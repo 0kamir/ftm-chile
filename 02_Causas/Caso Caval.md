@@ -41,7 +41,7 @@ tags:
 - **Estado Judicial**: `= this.estado_judicial`
 - **Delito Principal**: `= this.delito_principal` (en concurso con [[Cohecho]], [[Negociacion Incompatible]] y [[Trafico de Influencias]])
 
-## Síntesis Forense de la Causa
+## Síntesis de la Causa
 Investigación penal originada por la compraventa especulativa de los predios Santa Elena, San Diego y Santa Cecilia en la comuna de Machalí por parte de [[Exportadora y de Gestion Caval Ltda]] —sociedad controlada por [[Natalia Compagnon Soto]] y [[Mauricio Valero Illanes]]—. La investigación tuvo dos aristas principales:
 1. Pagos al entonces Director de Obras Municipales de la [[Municipalidad de Machali]], [[Jorge Silva Menares]], para impulsar la modificación del Plan Regulador Intercomunal de Rancagua y cambiar el uso de suelo de rural a urbano ([[TRX-2014-02-18-Soborno-Caval-Machali-01]]).
 2. La contabilización de facturas ideológicamente falsas y declaraciones maliciosamente incompletas o falsas ante el [[Servicio Impuestos Internos]] para rebajar la carga impositiva de las utilidades de la operación inmobiliaria ([[TRX-2015-01-29-Facturas-Falsas-Caval-SII-01]]).

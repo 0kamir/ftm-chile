@@ -33,5 +33,5 @@ WHERE contains(string(entidad_destino), this.file.name) OR contains(string(entid
 SORT fecha DESC
 ```
 
-## Antecedentes Forenses y Societarios
+## Antecedentes y Societarios
 - 

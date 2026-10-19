@@ -24,12 +24,12 @@ tags:
 - **Situación Procesal**: `= this.situacion_procesal`
 - **Medida Cautelar / Sanciones**: `= this.medida_cautelar`
 
-## Síntesis Forense
+## Síntesis
 Dirigente gremial y médico veterinario que ejerció durante más de dos décadas como presidente ejecutivo de la [[Asociacion de Productores Avicolas de Chile AG]] (APA). 
 
 En el marco del [[Caso Colusion de los Pollos]], la investigación de la [[Fiscalia Nacional Economica]] y los tribunales de justicia lo identificaron como coordinador del acuerdo colusorio sancionado por el TDLC. Desde su posición en la APA, calculaba y distribuía las cuotas de producción entre [[Agrosuper SA]], [[Empresas Ariztia SA]] y [[Agricola Don Pollo Limitada]], auditaba los despachos e intervenía ante eventuales desviaciones de los acuerdos de restricción de oferta, lo que culminó en la disolución judicial forzosa del gremio.
 
-## Auditoría Contable: Registros Reificados
+## Registros Reificados
 ```dataviewjs
 const pages = dv.pages('"03_Hechos_y_Nexos"')
   .where(p => (p.firmante_origen && String(p.firmante_origen).includes(dv.current().file.name)) ||

@@ -2,7 +2,7 @@
 """
 Motor de Resistencia Efectiva de Kirchhoff, Pseudoinversa de Moore-Penrose L+ y Tiempos de Impacto (Tetali)
 ===========================================================================================================
-Modela el Componente Gigante Conectado (LCC) de la red operativa como una Red Eléctrica
+Modela el Componente Gigante Conectado (LCC) de la red como una Red Eléctrica
 de Resistores de 1 Ohm y como una Cadena de Markov Ergódica (Random Walk):
 
 1. Pseudoinversa de Moore-Penrose de la Laplaciana: L^+ = sum_{k=2}^N (1 / lambda_k) v_k v_k^T.
@@ -21,6 +21,7 @@ from collections import defaultdict, deque
 import json
 import math
 from pathlib import Path
+from descargo import descargo  # noqa: E402
 
 VAULT_ROOT = Path(__file__).resolve().parents[2]
 JSON_PATH = VAULT_ROOT / "05_Vistas_Analiticas" / "Exportaciones" / "metricas_red.json"
@@ -233,16 +234,18 @@ def generate_report():
         "  - constante-kemeny",
         "---",
         "",
-        "# ⚡ Resistencia Efectiva de Kirchhoff ($\\Omega_{uv}$), Pseudoinversa $L^+$ y Tiempos de Impacto ($H_{uv}$)",
+        "# Resistencia Efectiva de Kirchhoff ($\\Omega_{uv}$), Pseudoinversa $L^+$ y Tiempos de Impacto ($H_{uv}$)",
         "",
-        "> [!IMPORTANT] Redes Eléctricas de Kirchhoff y Cadenas de Markov sobre Grafos Forenses",
+        *descargo(),
+        "",
+        "> [!IMPORTANT] Redes Eléctricas de Kirchhoff y Cadenas de Markov sobre Grafos",
         "> A diferencia de la distancia geodésica más corta (que ignora caminos alternativos), la **Distancia de Resistencia Efectiva de Klein & Randić ($\\Omega_{uv} = L^+_{uu} + L^+_{vv} - 2L^+_{uv}$)** modela cada vínculo como un resistor de $1\\,\\Omega$ y pondera simultáneamente **todos los caminos paralelos** entre dos sujetos:",
         "> 1. **Centralidad por Flujo de Corriente ($C_{\\text{CF}}(u)$)**: Identifica los nodos con menor impedancia global hacia el resto del aparato criminal/institucional.",
         "> 2. **Tiempo de Conmutación e Impacto de Tetali ($H_{uv} + H_{vu}$)** y **Constante de Kemeny ($K(G)$)**: Miden el número esperado de pasos de una auditoría o contagio estocástico para transitar entre dos actores cualesquiera.",
         "",
         "## 1. Invariantes Eléctricos y Estocásticos del Grafo",
         "",
-        f"- **Cobertura del Componente Gigante Conectado (LCC)**: **`{n} / {active_total}` nodos operativos (`{n / active_total * 100:.1f}%`)**",
+        f"- **Cobertura del Componente Gigante Conectado (LCC)**: **`{n} / {active_total}` nodos (`{n / active_total * 100:.1f}%`)**",
         f"- **Índice Total de Kirchhoff ($Kf(G) = N \\operatorname{{Tr}}(L^+)$)**: **`{kirchhoff_index:.2f} Ω`**",
         f"- **Resistencia Efectiva Promedio entre Pares ($\\bar{{\\Omega}}$)**: **`{avg_resistance:.4f} Ω`**",
         f"- **Constante de Kemeny de la Cadena de Markov ($K(G)$)**: **`{kemeny_constant:.2f} pasos`**",

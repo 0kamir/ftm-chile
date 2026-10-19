@@ -22,7 +22,7 @@ tags:
 
 # Dictamen-CGR-SierraBella-2023
 
-## Metadatos de Fuente Primaria (Cadena de Custodia OSINT)
+## Metadatos de la Fuente
 - **ID Evidencia**: `= this.id_evidencia`
 - **Tipo de Documento**: `= this.tipo_documento`
 - **Fecha de Emisión**: `= this.fecha_emision`

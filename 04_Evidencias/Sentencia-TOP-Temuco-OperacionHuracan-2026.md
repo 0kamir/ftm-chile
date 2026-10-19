@@ -24,7 +24,7 @@ tags:
 
 # Sentencia-TOP-Temuco-OperacionHuracan-2026
 
-## Metadatos de Fuente Primaria (Cadena de Custodia Judicial)
+## Metadatos de la Fuente
 - **ID Evidencia**: `= this.id_evidencia`
 - **Tipo de Documento**: `= this.tipo_documento`
 - **Fecha de Sentencia**: `= this.fecha_emision`

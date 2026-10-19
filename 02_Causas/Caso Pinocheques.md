@@ -37,7 +37,7 @@ tags:
 - **Estado Judicial**: `= this.estado_judicial` (Cerrada en julio de 1995 por instrucción presidencial al Consejo de Defensa del Estado invocando "razón de Estado" tras dos acuartelamientos militares)
 - **Delito Principal**: `= this.delito_principal` (en concurso con [[Negociacion Incompatible]] y [[Malversacion de Caudales Publicos]])
 
-## Síntesis Forense de la Causa
+## Síntesis de la Causa
 Investigación parlamentaria, contralora y penal originada por el pago en enero de 1989 de tres cheques girados por las Fábricas y Maestranzas del Ejército (FAMAE, dependiente de la estructura logística vinculada al [[Comando de Apoyo a la Fuerza del Ejercito]]) por un monto nominal de `$971.982.585 CLP` de la época (equivalentes a cerca de **US$ 3 millones**, valorizados en **`$2.950.000.000 CLP`**) a nombre directo de [[Augusto Pinochet Hiriart]], hijo mayor del entonces Comandante en Jefe del Ejército [[Augusto Pinochet Ugarte]], bajo el pretexto de adquirir la empresa metalúrgica y armera quebrada [[Valmoval Ltda]] (ex *Proyectos Integrados / Nihon PSP*) sin que mediara decreto supremo ni toma de razón de la [[Contraloria General de la Republica]] ([[TRX-1989-01-10-Emision-Pinocheques-Ejercito-Valmoval-01]]).
 
 Cuando la Comisión Investigadora de la Cámara de Diputados (presidida por Jorge Schaulsohn) y el Consejo de Defensa del Estado avanzaron hacia el procesamiento de los responsables, [[Augusto Pinochet Ugarte]] ejecutó dos demostraciones de fuerza militar contra el poder civil:

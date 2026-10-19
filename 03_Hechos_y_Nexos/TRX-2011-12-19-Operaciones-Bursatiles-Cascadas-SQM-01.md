@@ -28,11 +28,11 @@ tags:
 
 # TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01
 
-## Ficha de Arista Reificada (Transacción / Hecho Auditado)
+## Ficha de Arista Reificada (Transacción / Hecho Registrado)
 - **ID Transacción**: `= this.id_transaccion`
 - **Fecha**: `= this.fecha`
 - **Tipo de Nexo**: `= this.tipo_nexo`
-- **Monto Auditado / Sancionado (CLP)**: `$24.500.000.000 CLP` (`= this.monto_clp`)
+- **Monto Registrado / Sancionado (CLP)**: `$24.500.000.000 CLP` (`= this.monto_clp`)
 - **Método de Adjudicación**: `= this.metodo_adjudicacion`
 - **Sociedad Cascada (Origen)**: `= this.entidad_origen`
 - **Sociedad Subyacente Controlada (Destino)**: `= this.entidad_destino`
@@ -42,7 +42,7 @@ tags:
 - **Causa Judicial**: `= this.causa_vinculada`
 - **Evidencia de Soporte**: `= this.evidencia_soporte`
 
-## Descripción Forense del Hecho
+## Descripción del Hecho
 Ciclo de compraventas bursátiles trianguladas y préstamos de acciones ejecutados a través de [[Sociedad de Inversiones Pampa Calichera SA]] bajo el control de [[Julio Ponce Lerou]] sobre paquetes accionarios vinculados a [[SQM SA]], sancionados por la [[Comision para el Mercado Financiero]] ([[Carlos Pavez Tolosa]]) en el [[Caso Cascadas]] ([[Resolucion-SVS-CasoCascadas-2014]]) con multas totales de UF 4.010.000 (unos US$ 164 millones) en septiembre de 2014; la SVS estimó un sobrecosto de US$ 300 millones para las sociedades cascada entre 2009 y 2011. La multa de Ponce Lerou (UF 1.700.000) fue rebajada a unas UF 75.000 tras un fallo del Tribunal Constitucional.
 
 ## Fuentes Verificables

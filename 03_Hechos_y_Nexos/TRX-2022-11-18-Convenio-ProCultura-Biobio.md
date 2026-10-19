@@ -32,5 +32,5 @@ tags:
 - **Delito Imputado**: `= this.delito_imputado`
 - **Evidencia Documental**: `= this.evidencia_soporte`
 
-## Descripción Forense de la Operación
+## Descripción de la Operación
 Convenio de transferencia directa suscrito entre el [[GORE Biobio]] (administración de [[Rodrigo Diaz Worner]]) y [[Fundacion ProCultura]] ([[Alberto Larrain Salas]]) por **$2.553.000.000 CLP** para el programa "Competitividad por medio de la Innovación Creativa y Cultural", investigado en el [[Caso Convenios]] por [[Fraude al Fisco]]. Este nexo une topológicamente la red del Biobío con la red de Antofagasta.

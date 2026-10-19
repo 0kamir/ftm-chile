@@ -1,14 +1,18 @@
 ---
-tipo_nodo: dossier_pericial
-titulo: "Dossier Ejecutivo Consolidado de Auditoría Forense en Chile"
+tipo_nodo: dossier
+titulo: "Dossier Ejecutivo Consolidado de Revisión en Chile"
 tags:
   - dossier
-  - informe-pericial
+  - informe-consolidado
 ---
 
-# Dossier Ejecutivo Consolidado — Auditoría Forense de Corrupción en Chile
+# Dossier Consolidado del Vault FTM-Chile
 
-- **Causas Penales Auditadas**: **32**
+> [!WARNING] Análisis exploratorio, no prueba de responsabilidad
+> Este reporte aplica métricas de análisis de redes a los datos del vault. Sus resultados describen la estructura del grafo, no hechos: una cercanía, un agrupamiento o un par similar no indica que exista una relación, un acuerdo ni un delito. Los datos tienen calidades distintas (ver `monto_origen` y `estado_verificacion`) y pueden contener errores. Toda persona mencionada se presume inocente mientras no exista sentencia condenatoria firme. No citar estos resultados como prueba ni como acusación.
+
+
+- **Causas Penales Registradas**: **32**
 - **Sujetos de Interés / Imputados**: **83**
 - **Aristas Reificadas (`TRX`)**: **65**
 - **Perjuicio / Flujo Global Consolidado**: **$669.122.093.990 CLP**
@@ -58,7 +62,7 @@ tags:
 
 | Persona | RUT | Rol / Cargo | Partido | Situación Procesal | Medida Cautelar / Condena |
 | :--- | :--- | :--- | :--- | :---: | :--- |
-| [[Agustin Edwards Eastman]] | `` | Empresario y Ex Propietario de Empresa El Mercurio S.A.P. | Independiente (Derecha Conservadora) | **`testigo_clave`** | Fallecido en abril de 2017 (Auditado por el SII en el marco de las fundaciones panameñas Ashton Foundation y Kintyre Foundation) |
+| [[Agustin Edwards Eastman]] | `` | Empresario y Ex Propietario de Empresa El Mercurio S.A.P. | Independiente (Derecha Conservadora) | **`testigo_clave`** | Fallecido en abril de 2017 (Registrado por el SII en el marco de las fundaciones panameñas Ashton Foundation y Kintyre Foundation) |
 | [[Alberto Larrain Salas]] | `` | Cofundador y Director Ejecutivo de Fundación ProCultura | Independiente (Ex DC / Cercano Frente Amplio) | **`formalizado`** | Formalizado en arista RM (fraude al fisco, feb-2026) y arista Biobío (apropiación indebida, 05-08-2026, con arraigo nacional) |
 | [[Alex Smith Leay]] | `` | Creador Civil del Software Antorcha y Asesor de Inteligencia de la UIOE / DIPOLCAR | Independiente | **`condenado`** | Condenado a 12 años de presidio efectivo por el TOP de Temuco (Falsificación de instrumento público y obstrucción a la investigación) — sentencia no firme: recursos de nulidad pendientes (2026) |
 | [[Alfredo Ovalle Rodriguez]] | `` | Empresario Minero, Ex Presidente de la CPC y Ex Presidente de la SONAMI | Independiente (Dirigente Gremial Empresarial) | **`testigo_clave`** | Fallecido en julio de 2021 (Incluido en las auditorías del SII por sociedades offshore en Panamá e Islas Vírgenes Británicas) |

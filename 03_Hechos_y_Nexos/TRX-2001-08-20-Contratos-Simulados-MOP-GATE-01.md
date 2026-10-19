@@ -43,11 +43,11 @@ tags:
 
 # TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01
 
-## Ficha de Arista Reificada (Transacción / Hecho Auditado)
+## Ficha de Arista Reificada (Transacción / Hecho Registrado)
 - **ID Transacción**: `= this.id_transaccion`
 - **Fecha**: `= this.fecha`
 - **Tipo de Nexo**: `= this.tipo_nexo`
-- **Monto Auditado (CLP)**: `$1.253.000.000 CLP` (`= this.monto_clp`)
+- **Monto Registrado (CLP)**: `$1.253.000.000 CLP` (`= this.monto_clp`)
 - **Método de Adjudicación**: `= this.metodo_adjudicacion`
 - **Entidad de Origen**: `= this.entidad_origen`
 - **Entidad de Destino**: `= this.entidad_destino`
@@ -57,7 +57,7 @@ tags:
 - **Causa Judicial**: `= this.causa_vinculada`
 - **Evidencia de Soporte**: `= this.evidencia_soporte`
 
-## Descripción Forense del Hecho
+## Descripción del Hecho
 Suscripción y pago de contratos de asesoría ambiental, territorial y de gestión en el [[Ministerio de Obras Publicas]] autorizados bajo la administración de [[Carlos Cruz Lorenzen]] en favor de la consultora [[Gestion Ambiental y Territorial SA]] (GATE), de propiedad de [[Hector Pena Veliz]], cuyo monto fue deliberadamente abultado en `$1.253.000.000 CLP` para desviar caudales públicos hacia el pago de sobresueldos de funcionarios y directivos ministeriales.
 
 ## Fuentes Verificables

@@ -1,7 +1,7 @@
 ---
 tipo_nodo: evidencia_documental
 id_evidencia: "EVD-PDI-CIB-2018-ANT"
-tipo_documento: "Informe Pericial Informático y Forense de la Brigada Investigadora del Cibercrimen de la PDI sobre Software Antorcha y Teléfonos Incautados"
+tipo_documento: "Informe Informático y de la Brigada Investigadora del Cibercrimen de la PDI sobre Software Antorcha y Teléfonos Incautados"
 fecha_emision: 2018-01-25
 organismo_emisor: "[[Corte Suprema de Chile]]"
 fuente_osint: "Policía de Investigaciones de Chile (PDI) / Fiscalía Regional de La Araucanía / Peritaje Cibercrimen"
@@ -24,18 +24,18 @@ tags:
 
 # Peritaje-Cibercrimen-PDI-SoftwareAntorcha-2018
 
-## Metadatos de Fuente Primaria (Cadena de Custodia OSINT)
+## Metadatos de la Fuente
 - **ID Evidencia**: `= this.id_evidencia`
 - **Tipo de Documento**: `= this.tipo_documento`
 - **Fecha de Emisión**: `= this.fecha_emision`
-- **Órgano Pericial Técnico**: Brigada Investigadora del Cibercrimen de la PDI
+- **Órgano Técnico**: Brigada Investigadora del Cibercrimen de la PDI
 - **Órgano Persecutor Solicitante**: Fiscalía Regional de La Araucanía / Fiscalía Nacional
 - **Estado de Verificación**: `= this.estado_verificacion`
 - **Causa Vinculada**: `= this.causa_vinculada`
 - **Nexo Respaldado**: `= this.nexo_respaldado`
 
 ## Extracto y Relevancia Probatoria
-Informe técnico pericial clave que desarticuló la farsa de la [[Caso Operacion Huracan]]:
+Informe técnico clave que desarticuló la farsa de la [[Caso Operacion Huracan]]:
 1. **Inexistencia Técnica de «Antorcha»**: La PDI acreditó que el supuesto código desarrollado por [[Alex Smith Leay]] carecía por completo de la capacidad de interceptar tráfico cifrado de aplicaciones como WhatsApp o Telegram en servidores remotos o en tránsito.
 2. **Implantación Post-Incautación**: Se constató mediante análisis de metadatos del sistema de archivos (*MAC timestamps*) que los archivos de texto que contenían los supuestos diálogos entre comuneros fueron transferidos manualmente a los teléfonos incautados con posterioridad a la detención de los imputados, usando cables USB y computadores de la UIOE operados por [[Leonardo Osses Sandoval]] y [[Patricio Marin Lazo]].
 3. **Fundamento del Sobreseimiento**: Este informe motivó la solicitud de sobreseimiento definitivo de todos los comuneros imputados y el inicio de la persecución penal contra el Alto Mando de Carabineros.

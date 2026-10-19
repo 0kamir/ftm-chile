@@ -21,7 +21,7 @@ tags:
 - **Superior Jerárquico**: `= this.superior_jerarquico`
 - **Autoridad Vinculada**: `= this.autoridad_vinculada`
 
-## Contexto en Investigaciones Forenses
+## Contexto en Investigaciones
 Corporación edilicia de la comuna capital de Chile. En el [[Caso Sierra Bella]], bajo la administración de la alcaldesa [[Iraci Hassler Jacob]] (militante del [[Partido Comunista de Chile]]), suscribió una escritura de compraventa por **$8.200.000.000 CLP** para adquirir el inmueble de [[Inmobiliaria San Valentino SpA]] ([[Felipe Sanchez Perez]]) cuyo avalúo fiscal e historial de compra previa rondaba los `$2.080.000.000 CLP`, operación objetada por la [[Contraloria General de la Republica]] dirigida por [[Jorge Bermudez Soto]] ([[TRX-2023-01-20-Compraventa-Clinica-SierraBella-01]], [[Dictamen-CGR-SierraBella-2023]]).
 
 ## Nexos y Operaciones Registradas

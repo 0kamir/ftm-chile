@@ -1,6 +1,6 @@
 ---
 tipo_nodo: vista_analitica
-titulo: "Predicción de Vínculos Ocultos (Índices Adamic-Adar y Jaccard)"
+titulo: "Predicción de Similitud estructural (Índices Adamic-Adar y Jaccard)"
 actualizacion_automatica: true
 tags:
   - dashboard
@@ -8,9 +8,15 @@ tags:
   - adamic-adar
 ---
 
-# Predicción Forense de Vínculos Ocultos (*Link Prediction*)
+# Similitud Estructural entre Nodos (*Link Prediction*)
 
-Aplicación de los algoritmos **Adamic-Adar ($AA$)** y **Coeficiente de Jaccard ($J$)** (Liben-Nowell & Kleinberg) sobre el grafo operativo para identificar pares de actores (`Persona`, `Entidad Pública`, `Entidad Privada`) que no poseen un enlace directo en su ficha, pero comparten intermediarios, partidos políticos o transacciones puente:
+> [!WARNING] Análisis exploratorio, no prueba de responsabilidad
+> Este reporte aplica métricas de análisis de redes a los datos del vault. Sus resultados describen la estructura del grafo, no hechos: una cercanía, un agrupamiento o un par similar no indica que exista una relación, un acuerdo ni un delito. Los datos tienen calidades distintas (ver `monto_origen` y `estado_verificacion`) y pueden contener errores. Toda persona mencionada se presume inocente mientras no exista sentencia condenatoria firme. No citar estos resultados como prueba ni como acusación.
+>
+> Los pares listados **no tienen un vínculo documentado**: el algoritmo solo indica que comparten vecinos en el grafo. Sirven para orientar una búsqueda de fuentes, nunca para afirmar una relación.
+
+
+Aplicación de los algoritmos **Adamic-Adar ($AA$)** y **Coeficiente de Jaccard ($J$)** (Liben-Nowell & Kleinberg) sobre el grafo para identificar pares de actores (`Persona`, `Entidad Pública`, `Entidad Privada`) que no poseen un enlace directo en su ficha, pero comparten intermediarios, partidos políticos o transacciones puente:
 
 $$AA(u, v) = \sum_{w \in \Gamma(u) \cap \Gamma(v)} \frac{1}{\ln |\Gamma(w)|}$$
 

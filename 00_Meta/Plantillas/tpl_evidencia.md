@@ -22,7 +22,7 @@ tags:
 
 # {{title}}
 
-## Metadatos de Fuente Primaria (Cadena de Custodia Legal)
+## Metadatos de la Fuente
 - **ID Evidencia**: `= this.id_evidencia`
 - **Tipo de Documento**: `= this.tipo_documento`
 - **Fecha de Emisión**: `= this.fecha_emision`

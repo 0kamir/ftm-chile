@@ -20,7 +20,7 @@ tags:
 - **Objeto Social**: `= this.objeto_social`
 - **Oficial Articulador en el CAF**: `= this.representante_legal`
 
-## Contexto Forense y Societario
+## Contexto y Societario
 Sociedad proveedora utilizada en el [[Caso Milicogate]] para emitir facturas por servicios y suministros inexistentes pagados con fondos de la Ley Reservada del Cobre desde el [[Comando de Apoyo a la Fuerza del Ejercito]] ([[TRX-2014-05-20-Facturas-LeyReservadaCobre-01]]), en coordinación con el coronel (r) [[Jozo Santic Palomino]] y documentado en [[Procesamientos-Ministra-Rutherford-Milicogate]].
 
 ## Historial de Recepción de Fondos y Nexos

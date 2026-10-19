@@ -18,7 +18,7 @@ tags:
 - **Región**: `= this.region`
 - **Superior Jerárquico**: `= this.superior_jerarquico`
 
-## Contexto en Investigaciones Forenses
+## Contexto en Investigaciones
 Gobierno Regional del Biobío, encabezado durante el período investigado por el Gobernador Regional [[Rodrigo Diaz Worner]]. En el marco del [[Caso Convenios]] (Arista "Caso Lencería"), autorizó mediante la [[Resolucion-GORE-Biobio-EnTi-2022]] el traspaso directo de **$250.635.000 CLP** ([[TRX-2022-12-20-Convenio-EnTi-01]]) hacia la [[Fundacion En Ti]], gestionada de facto por [[Camila Polizzi Fonceca]].
 
 ## Nexos y Transferencias Emitidas / Recibidas

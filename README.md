@@ -1,5 +1,5 @@
 # 🇨🇱 FTM-Chile | Follow The Money Chile
-### Bóveda OSINT, Grafos Reificados y Auditoría Forense de Redes de Poder y Corrupción
+### Bóveda OSINT, Grafos Reificados y Revisión de Redes de Poder y Corrupción
 
 <p align="center">
   <img src="https://img.shields.io/badge/Repositorio-ftm--chile-blue.svg?style=for-the-badge&logo=github" alt="FTM-Chile" />
@@ -33,7 +33,7 @@
 
 ## 🖥️ Muestra Visual del Grafo en Obsidian
 
-El repositorio está configurado de forma nativa para que Obsidian aplique automáticamente la paleta cromática forense, los filtros por tipo de nodo y la jerarquía de conexiones:
+El repositorio está configurado de forma nativa para que Obsidian aplique automáticamente la paleta cromática, los filtros por tipo de nodo y la jerarquía de conexiones:
 
 ### 1. Vista de Grafo Global y Detección de Comunidades
 Visualización completa de la red relacional en Obsidian, con agrupación por colores y focalización interactiva en nodos centrales y causas históricas:
@@ -42,18 +42,18 @@ Visualización completa de la red relacional en Obsidian, con agrupación por co
   <img src="05_Vistas_Analiticas/Exportaciones/obsidian_graph_network.png" alt="Grafo Global en Obsidian" width="95%" />
 </p>
 
-### 2. Vista de Clusters Operativos (Ejemplo: Caso Convenios)
-Aislamiento topológico de conglomerados de fundaciones instrumentales, seremis y transferencias directas:
+### 2. Vista de un Agrupamiento del Grafo (Ejemplo: Caso Convenios)
+Nodos de una misma causa vistos en conjunto: fundaciones, seremis y convenios registrados en las fuentes:
 
 <p align="center">
   <img src="05_Vistas_Analiticas/Exportaciones/obsidian_graph_convenios.png" alt="Cluster Caso Convenios en Obsidian" width="95%" />
 </p>
 
-### 3. Ficha Pericial Estructurada (Ejemplo: Caso Audios / Luis Hermosilla)
+### 3. Ficha Estructurada (Ejemplo: Caso Audios / Luis Hermosilla)
 Cada entidad cuenta con metadatos YAML rigurosos, estado procesal, validación de RUT con Módulo 11 y tablas dinámicas DataviewJS de transferencias y vínculos:
 
 <p align="center">
-  <img src="05_Vistas_Analiticas/Exportaciones/obsidian_note_entity.png" alt="Ficha Pericial en Obsidian" width="95%" />
+  <img src="05_Vistas_Analiticas/Exportaciones/obsidian_note_entity.png" alt="Ficha en Obsidian" width="95%" />
 </p>
 
 ---
@@ -81,7 +81,7 @@ git clone https://github.com/0kamir/ftm-chile.git
    *(Esto permite que las tablas de transacciones, sumatorias en CLP y cruces de causas se actualicen en tiempo real).*
 
 ### Paso 4: Navegar el Grafo sin Saturación Visual (Técnica de Grafo Local a Profundidad 2)
-Dado que el grafo contiene cientos de nodos y aristas, la inspección pericial recomendada es el **Grafo Local a Profundidad 2**:
+Dado que el grafo contiene cientos de nodos y aristas, la inspección recomendada es el **Grafo Local a Profundidad 2**:
 1. Abre la nota de cualquier entidad o causa (ej. `Luis Hermosilla Osorio.md`, `Caso Colusion de los Pollos.md` o `Democracia Viva.md`).
 2. Presiona `Ctrl+P` (o `Cmd+P` en macOS) y escribe **`Vista de grafo: Abrir grafo local`** (*Graph view: Open local graph*).
 3. En el panel de **Filtros (`Filters`)** a la derecha, ajusta el deslizador **`Profundidad (Depth)` en `2`**:
@@ -89,7 +89,7 @@ Dado que el grafo contiene cientos de nodos y aristas, la inspección pericial r
    - **Profundidad 2 (`Depth = 2`)**: Conecta la operación completa (`Actor Origen ↔ TRX ↔ Actor Destino + Causa + Evidencia Documental`), permitiendo aislar la cadena de custodia legal sin ruido visual.
 
 ### Paso 5: Colores y Filtros Preconfigurados
-El archivo `.obsidian/graph.json` ya viene configurado con la paleta pericial:
+El archivo `.obsidian/graph.json` ya viene configurado con la paleta:
 - 🔵 **Azul**: Personas naturales / Sujetos de interés (`01_Entidades/Personas/`)
 - 🟢 **Verde**: Órganos del Estado e Instituciones Públicas (`01_Entidades/Publicas/`)
 - 🟠 **Naranja**: Empresas privadas, holdings y fundaciones (`01_Entidades/Privadas/`)
@@ -120,7 +120,7 @@ graph LR
         D["👥 Fundación Instrumental / Operador"]
     end
 
-    subgraph "Soporte Pericial"
+    subgraph "Soporte"
         EVD["📑 Evidencia Primaria<br/>(Fallo CS / TDLC / CGR / WhatsApp)"]
         CAU["⚖️ Macro-Causa Judicial<br/>(RIT / ROL / Fiscalía)"]
     end
@@ -143,7 +143,7 @@ Cada transacción o reunión constituye una nota independiente con metadatos con
 
 ## 📊 Métricas Consolidadas del Vault
 
-| Métrica Pericial | Valor Auditado | Verificación |
+| Métrica | Valor Registrado | Verificación |
 | :--- | :---: | :--- |
 | **Notas Indexadas en Markdown** | **327** | Esquema estricto con metadatos YAML |
 | **RUTs de Empresas Verificados** | **8** | Solo RUT con fuente (registro SII o documento oficial); no se publican RUT de personas |
@@ -169,7 +169,7 @@ Cada transacción o reunión constituye una nota independiente con metadatos con
 <details>
 <summary><b>2. Megafraudes Tributarios y Económicos</b> (Click para desplegar)</summary>
 
-- **Operación Tributos (Megafraude de los $240 Mil Millones)**: RIT 13745-2023. La mayor red criminal de fraude tributario de Chile: 7 clanes delictivos (Pavez, Galaz, Barraza, Croxatto) formalizados por la emisión masiva de más de 100.000 facturas falsas y devolución fraudulenta de IVA exportador.
+- **Operación Tributos (Megafraude de los $240 Mil Millones)**: RIT 13745-2023. La mayor red de fraude tributario de Chile: 7 clanes delictivos (Pavez, Galaz, Barraza, Croxatto) formalizados por la emisión masiva de más de 100.000 facturas falsas y devolución fraudulenta de IVA exportador.
 - **Caso Audios / Factop**: RIT 6112-2024. Cohecho, lavado de activos y tráfico de influencias destapado tras la filtración del audio de Luis Hermosilla, Leonarda Villalobos y Daniel Sauer.
 - **Caso Cascadas**: Operaciones de manipulación bursátil y transacciones ficticias en las sociedades matrices de SQM controladas por Julio Ponce Lerou.
 - **Caso La Polar**: Reprogramaciones unilaterales fraudulentas de cientos de miles de clientes morosos para inflar artificialmente balances financieros.
@@ -205,18 +205,21 @@ Cada transacción o reunión constituye una nota independiente con metadatos con
 
 ---
 
-## 🧮 Motor Analítico y Algoritmos Implementados
+## 🧮 Análisis de Redes Incluidos
 
-El repositorio cuenta con una suite en Python (`00_Meta/Scripts/`) que procesa la topología de la red mediante modelos matemáticos avanzados:
+La suite en Python (`00_Meta/Scripts/`) calcula métricas de análisis de redes sobre el grafo del vault.
 
-1. **Resistencia Efectiva y Centralidad de Kirchhoff** (`effective_resistance.py`): Modela la red de corrupción como un circuito eléctrico resistivo para identificar qué nodos conectan comunidades críticas sin rutas alternas.
-2. **Partición Espectral y Vector de Fiedler** (`spectral_analysis.py`): Descomposición del Laplaciano de la red para aislar subgrafos independientes y calcular la rigidez algebraica.
-3. **Agujeros Estructurales y Coeficiente de Burt** (`kcore_and_assortativity.py`): Mide la restricción estructural de actores que ejercen de intermediarios (*gatekeepers*) entre el sector privado y el Estado.
-4. **Detección de Comunidades Louvain** (`community_detection.py`): Agrupación no supervisada de células operativas ($Q > 0.80$).
-5. **Auditoría Estadística de Benford** (`benford_forensic.py`): Test de la Ley de Benford sobre el primer dígito y detector de anomalías por redondeo forzado en montos defraudados.
-6. **Simulación de Percolación y Resiliencia** (`percolation_analysis.py`): Remoción secuencial de actores clave para predecir el colapso del componente gigante de la red (*LCC*).
-7. **Corte Mínimo y Flujo Máximo** (`financial_flow_cut.py`): Cálculo del cuello de botella financiero mediante el algoritmo de Ford-Fulkerson / Edmonds-Karp.
-8. **Predicción de Vínculos Ocultos** (`link_prediction.py`): Índice de Adamic-Adar y Resource Allocation para estimar nexos de coordinación no documentados explícitamente.
+> [!WARNING]
+> **Estos análisis son exploratorios y no prueban nada.** Describen la estructura del grafo, que depende de qué se registró y cómo. Un agrupamiento, una cercanía o un par "similar" no indica que exista una relación, un acuerdo ni un delito, y los montos tienen calidades distintas (ver `monto_origen`). Cada reporte generado incluye este descargo. No deben citarse como prueba ni como acusación.
+
+1. **Resistencia efectiva de Kirchhoff** (`effective_resistance.py`): trata el grafo como un circuito para medir qué nodos conectan partes de la red sin rutas alternativas.
+2. **Partición espectral y vector de Fiedler** (`spectral_analysis.py`): descompone el laplaciano del grafo para identificar subgrafos poco conectados entre sí.
+3. **Núcleos k-core y agujeros estructurales de Burt** (`kcore_and_assortativity.py`): mide qué nodos ocupan posiciones de intermediación en el grafo.
+4. **Agrupamientos de Louvain** (`community_detection.py`): agrupa nodos densamente conectados, casi siempre por pertenecer a la misma causa.
+5. **Distribución de montos según la ley de Benford** (`benford_forensic.py`): compara el primer dígito de los montos registrados con la distribución de Benford; una desviación no prueba manipulación.
+6. **Robustez de la red** (`percolation_analysis.py`): simula la eliminación de nodos para medir cómo se fragmenta el grafo.
+7. **Corte mínimo y flujo máximo** (`financial_flow_cut.py`): calcula el cuello de botella de la red de montos registrados (Edmonds-Karp).
+8. **Similitud estructural** (`link_prediction.py`): índices de Adamic-Adar y Resource Allocation que señalan pares de nodos con vecinos en común; **no son vínculos documentados** y sirven solo para orientar la búsqueda de fuentes.
 
 ---
 
@@ -236,9 +239,9 @@ make web         # Genera el visor HTML5 autónomo
 
 ---
 
-## 📦 Formatos de Exportación para Inteligencia Externa
+## 📦 Formatos de Exportación
 
-El directorio [`05_Vistas_Analiticas/Exportaciones/`](05_Vistas_Analiticas/Exportaciones/) contiene sincronizaciones continuas listas para importar en herramientas periciales:
+El directorio [`05_Vistas_Analiticas/Exportaciones/`](05_Vistas_Analiticas/Exportaciones/) contiene sincronizaciones continuas listas para importar en herramientas:
 
 - **Gephi / Cytoscape**: `red_corrupcion_chile.graphml`
 - **Neo4j / Memgraph (ICIJ Standard)**: `icij_neo4j_import.cypher`
@@ -246,8 +249,8 @@ El directorio [`05_Vistas_Analiticas/Exportaciones/`](05_Vistas_Analiticas/Expor
 - **Web Semántica**: `red_corrupcion_chile.jsonld`
 - **Graphviz**: `red_corrupcion_chile.dot`
 - **Planillas Tabulares**: `peritaje_entidades.csv`, `peritaje_imputados.csv`, `peritaje_transacciones.csv`
-- **Dossier Pericial Ejecutivo**: `Dossier_Ejecutivo_Completo.md`
-- **Visor Web Forense Autónomo**: `visor_forense.html` (abrible directamente en cualquier navegador)
+- **Dossier Ejecutivo**: `Dossier_Ejecutivo_Completo.md`
+- **Visor Web Autónomo**: `visor_red.html` (abrible directamente en cualquier navegador)
 
 ---
 

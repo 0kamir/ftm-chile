@@ -24,10 +24,10 @@ tags:
 - **Situación Procesal**: `= this.situacion_procesal`
 - **Medida Cautelar / Condena Vigente**: `= this.medida_cautelar`
 
-## Síntesis Forense
+## Síntesis
 Ingeniero y controlador de [[Itelecom Holding Chile SpA]]. Imputado en el [[Caso Luminarias LED]] por soborno a funcionarios de al menos 24 instituciones públicas, según la Fiscalía, incluida la licitación de la [[Municipalidad de Chillan]] ([[TRX-2019-05-14-Soborno-Luminarias-Chillan-01]]). Según la Fiscalía de Ñuble, [[Leon Marcelo Lefort Hernandez]] fue detenido el 05-05-2020 tras entregar presuntamente $37 millones en efectivo a [[Marcelo Campos Henriquez]], quien habría anticipado las bases técnicas de la licitación a [[Itelecom Holding Chile SpA]]. A la fecha de la última verificación (2026-10-19) no se encontró sentencia: la causa registra formalizaciones, prisión preventiva luego sustituida por arresto domiciliario y una acusación contra 15 imputados. Rige la presunción de inocencia.
 
-## Auditoría Contable: Montos Operados como Firmante de Origen
+## Montos Operados como Firmante de Origen
 ```dataviewjs
 const pages = dv.pages('"03_Hechos_y_Nexos"')
   .where(p => p.firmante_origen && (

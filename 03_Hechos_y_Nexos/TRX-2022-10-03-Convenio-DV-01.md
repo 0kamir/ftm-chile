@@ -32,7 +32,7 @@ tags:
 - **Delito Imputado**: `= this.delito_imputado`
 - **Evidencia Documental**: `= this.evidencia_soporte`
 
-## Descripción Forense de la Operación
+## Descripción de la Operación
 **Primer convenio de transferencia directa** ($200.000.000 CLP, equivalente a ~3.316 UTM de octubre de 2022) para obras de habitabilidad primaria en el Campamento Irarrázaval Etapa I (Antofagasta), suscrito entre la [[Seremi MINVU Antofagasta]] ([[Carlos Contreras Gutierrez]]) y la [[Fundacion Democracia Viva]] ([[Daniel Andrade Schwarze]]).
 
 Junto con [[TRX-2022-10-19-Convenio-DV-02]] ($170.000.000 CLP) y [[TRX-2022-11-29-Convenio-DV-03]] ($56.000.000 CLP), conforma el paquete fraccionado de **$426.000.000 CLP** (~7.063 UTM) diseñado para que cada resolución individual quedara bajo el umbral de **5.000 UTM** exigido para el trámite de Toma de Razón ante la Contraloría General de la República, documentado en [[Resolucion-Exenta-MINVU-Antofagasta-2022]] e investigado en [[Caso Convenios]].

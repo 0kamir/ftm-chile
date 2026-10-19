@@ -42,12 +42,12 @@ tags:
 - **Situación Procesal**: `= this.situacion_procesal`
 - **Medidas Cautelares / Sanciones Administrativas**: `= this.medida_cautelar`
 
-## Síntesis Forense y Casos Vinculados
+## Síntesis y Casos Vinculados
 Dirigente político de [[Renovacion Nacional]] en la Región de Valparaíso, donde fue consejero regional (CORE) y presidente del Consejo Regional.
 
 **Reparo de la Contraloría por viáticos:** una auditoría de la Contraloría al Consejo Regional de Valparaíso objetó el cobro de más de $9 millones en viáticos y combustible por no acreditar su residencia, y en 2020 inició un juicio de cuentas para su restitución. Su defensa sostuvo que había pedido renunciar a los viáticos y que quedaban recursos pendientes. En junio de 2020 el Tribunal Regional de RN lo suspendió del partido. No se encontró información sobre el resultado final del juicio de cuentas.
 
-## Auditoría Contable: Registros Reificados
+## Registros Reificados
 ```dataviewjs
 const pages = dv.pages('"03_Hechos_y_Nexos"')
   .where(p => (p.firmante_origen && String(p.firmante_origen).includes(dv.current().file.name)) ||

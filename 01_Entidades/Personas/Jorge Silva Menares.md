@@ -22,10 +22,10 @@ tags:
 - **Situación Procesal**: `= this.situacion_procesal`
 - **Medida Cautelar / Condena Vigente**: `= this.medida_cautelar`
 
-## Síntesis Forense
+## Síntesis
 Ex Director de Obras Municipales de la [[Municipalidad de Machali]]. En el [[Caso Caval]] fue condenado en enero de 2018 por cohecho reiterado (818 días con remisión condicional) por recibir $55.030.792 del gestor inmobiliario Juan Díaz, vinculados a predios que luego compró [[Exportadora y de Gestion Caval Ltda]], a cambio de gestionar e informar favorablemente la modificación del uso de suelo en el Plan Regulador Intercomunal de Rancagua para los terrenos de Machalí ([[TRX-2014-02-18-Soborno-Caval-Machali-01]]). El socio de Caval [[Mauricio Valero Illanes]] fue absuelto del cargo de soborno ([[Sentencia-TOP-Rancagua-Caval-2018]]).
 
-## Auditoría Contable: Montos Recibidos como Firmante de Destino
+## Montos Recibidos como Firmante de Destino
 ```dataviewjs
 const pages = dv.pages('"03_Hechos_y_Nexos"')
   .where(p => p.firmante_destino && String(p.firmante_destino).includes(dv.current().file.name));

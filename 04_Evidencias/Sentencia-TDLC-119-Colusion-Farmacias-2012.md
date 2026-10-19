@@ -24,7 +24,7 @@ tags:
 
 # Sentencia-TDLC-119-Colusion-Farmacias-2012
 
-## Metadatos de Fuente Primaria (Cadena de Custodia Legal)
+## Metadatos de la Fuente
 - **ID Evidencia**: `= this.id_evidencia`
 - **Tipo de Documento**: `= this.tipo_documento`
 - **Fecha de Sentencia**: `= this.fecha_emision`

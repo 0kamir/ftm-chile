@@ -2,7 +2,7 @@
 """
 Motor de Censo Triádico (Holland-Leinhardt), Clausura de Simmel y Ciclos Cuadrangulares (C_4)
 =============================================================================================
-Analiza las estructuras de orden superior (Higher-Order Network Motifs) sobre el grafo operativo:
+Analiza las estructuras de orden superior (Higher-Order Network Motifs) sobre el grafo:
 1. Triángulos Cerrados (Clausura Triádica Delta_uvw) y Lazos Fuertes de Simmel (Simmelian Ties).
 2. Transitividad Global de Red T = 3 * |Delta| / |Wedges| y Clustering Promedio.
 3. Cuadrángulos de Colusión / Ciclos de Orden 4 (C_4: u - x - v - y - u sin cuerda o con cuerda),
@@ -14,6 +14,7 @@ from collections import defaultdict
 from itertools import combinations
 import json
 from pathlib import Path
+from descargo import descargo  # noqa: E402
 
 VAULT_ROOT = Path(__file__).resolve().parents[2]
 JSON_PATH = VAULT_ROOT / "05_Vistas_Analiticas" / "Exportaciones" / "metricas_red.json"
@@ -121,7 +122,7 @@ def generate_report():
     simmelian_edges = enumerate_simmelian_edges(nodes, adj)
     quadrangles = enumerate_actor_quadrangles(nodes, adj)
 
-    # Clasificar triángulos por arquetipo forense
+    # Clasificar triángulos por arquetipo
     tri_archetypes = []
     for u, v, w in triangles:
         types = sorted([nodes[u].get("tipo_nodo", ""), nodes[v].get("tipo_nodo", ""), nodes[w].get("tipo_nodo", "")])
@@ -130,7 +131,7 @@ def generate_report():
         elif "partido_politico" in types:
             arch = "Triángulo de Endogamia Partidaria (`Partido ↔ Actor ↔ TRX/Entidad`)"
         else:
-            arch = "Triángulo Operativo Directo (`Entidad ↔ Persona ↔ TRX`)"
+            arch = "Triángulo Directo (`Entidad ↔ Persona ↔ TRX`)"
         tri_archetypes.append((u, v, w, arch))
 
     lines = [
@@ -142,13 +143,15 @@ def generate_report():
         "  - censo-triadico",
         "  - motivos-red",
         "  - lazos-simmel",
-        "  - analisis-forense",
+        "  - analisis-de-redes",
         "---",
         "",
-        "# 🔺 Censo Triádico, Lazos de Simmel y Motivos Superiores ($\\Delta, C_4$)",
+        "# Censo Triádico, Lazos de Simmel y Motivos Superiores ($\\Delta, C_4$)",
+        "",
+        *descargo(),
         "",
         "> [!IMPORTANT] Topología de Orden Superior (Higher-Order Network Science)",
-        "> Más allá de las aristas diádicas individuales, las redes de corrupción operan mediante **motivos estructurales cerrados**:",
+        "> Más allá de las aristas diádicas individuales, las redes operan mediante **motivos estructurales cerrados**:",
         "> 1. **Clausura Triádica ($\\Delta_{uvw}$) y Lazos de Georg Simmel**: Dos nodos unidos además por terceros comunes poseen un *lazo simmeliano* de alta cohesión y confianza clandestina.",
         "> 2. **Cuadrángulos Multi-Canal ($C_4: u - x - v - y - u$)**: Identifican pares de actores que interactúan de manera redundante a través de **múltiples transacciones o intermediarios paralelos** (p. ej. fraccionamiento de contratos o co-financiamiento ilegal).",
         "",

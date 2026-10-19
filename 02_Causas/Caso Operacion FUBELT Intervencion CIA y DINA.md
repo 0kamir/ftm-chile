@@ -43,8 +43,8 @@ tags:
 - **Estado Judicial**: `= this.estado_judicial` (Hechos acreditados oficialmente por el Senado y Departamento de Estado de EE.UU.; cúpula de la DINA encabezada por [[Manuel Contreras Sepulveda]] condenada a más de 500 años de presidio efectivo por la [[Corte Suprema de Chile]])
 - **Delito / Ilícito Principal**: `= this.delito_principal` (en concurso con asociación ilícita, financiamiento extranjero encubierto, sedición, secuestro calificado, apremios ilegítimos y crímenes de lesa humanidad)
 
-## Síntesis Forense de la Causa (Basada en Archivos Oficiales Desclasificados)
-Expediente histórico-forense sustentado en los documentos oficiales desclasificados por el Senado de los Estados Unidos (**Informe de la Comisión Church**, diciembre de 1975), el Departamento de Defensa de EE.UU. (**Manuales del *Proyecto X* de la Escuela de las Américas**, septiembre de 1996), la comunidad de inteligencia estadounidense (**Informe Hinchey**, septiembre de 2000) y las sentencias definitivas de la [[Corte Suprema de Chile]] ([[Informe-Comision-Church-1975-y-Hinchey-CIA-2000]]):
+## Síntesis de la Causa (Basada en Archivos Oficiales Desclasificados)
+Expediente histórico sustentado en los documentos oficiales desclasificados por el Senado de los Estados Unidos (**Informe de la Comisión Church**, diciembre de 1975), el Departamento de Defensa de EE.UU. (**Manuales del *Proyecto X* de la Escuela de las Américas**, septiembre de 1996), la comunidad de inteligencia estadounidense (**Informe Hinchey**, septiembre de 2000) y las sentencias definitivas de la [[Corte Suprema de Chile]] ([[Informe-Comision-Church-1975-y-Hinchey-CIA-2000]]):
 
 1. **Reunión de [[Agustin Edwards Eastman]] en Washington y Génesis del *Proyecto FUBELT* (Septiembre de 1970)**:
    - Tras la victoria electoral de Salvador Allende el 4 de septiembre de 1970, el propietario de [[Empresa El Mercurio SAP]], [[Agustin Edwards Eastman]], viajó a Washington D.C. y se reunió el 14 y 15 de septiembre de 1970 con el director de la CIA, Richard Helms, el asesor de Seguridad Nacional Henry Kissinger y el presidente de PepsiCo, Donald Kendall.

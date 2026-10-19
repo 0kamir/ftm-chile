@@ -21,11 +21,11 @@ tags:
 
 # TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01
 
-## Ficha de Arista Reificada (Transacción / Hecho Auditado)
+## Ficha de Arista Reificada (Transacción / Hecho Registrado)
 - **ID Transacción**: `= this.id_transaccion`
 - **Fecha**: `= this.fecha`
 - **Tipo de Nexo**: `= this.tipo_nexo`
-- **Monto Auditado (CLP)**: `$3.500.000.000 CLP` (`= this.monto_clp`)
+- **Monto Registrado (CLP)**: `$3.500.000.000 CLP` (`= this.monto_clp`)
 - **Método de Adjudicación**: `= this.metodo_adjudicacion`
 - **Entidad de Origen**: `= this.entidad_origen`
 - **Órgano de Inteligencia Financiera (Destino ROS)**: `= this.entidad_destino`
@@ -35,5 +35,5 @@ tags:
 - **Causa Judicial**: `= this.causa_vinculada`
 - **Evidencia de Soporte**: `= this.evidencia_soporte`
 
-## Descripción Forense del Hecho
+## Descripción del Hecho
 Operaciones de blanqueo de capitales, compra de automóviles de alta gama al contado, inversiones financieras y adquisición de propiedades inmobiliarias por `$3.500.000.000 CLP` atribuidas por la investigación a [[Juan Miguel Fuente-Alba Poblete]], presuntamente con fondos provenientes de gastos reservados del Ejército y del [[Comando de Apoyo a la Fuerza del Ejercito]], detectadas y reportadas al Ministerio Público mediante Reportes de Operaciones Sospechosas (ROS) de la [[Unidad de Analisis Financiero]] bajo la dirección de [[Javier Cruz Tamburrino]].

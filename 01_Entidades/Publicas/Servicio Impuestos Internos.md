@@ -18,7 +18,7 @@ tags:
 - **Región**: `= this.region`
 - **Superior Jerárquico**: `= this.superior_jerarquico`
 
-## Contexto en Investigaciones Forenses
+## Contexto en Investigaciones
 Órgano fiscalizador tributario dependiente del Ministerio de Hacienda. En el marco del [[Caso Audios]], la Fiscalía Metropolitana Oriente investiga pagos ilícitos y entregas de información reservada coordinadas por [[Luis Hermosilla Osorio]] y [[Leonarda Villalobos Muth]] a favor del factoring [[Factop SpA]], documentadas en el nexo [[TRX-2023-06-22-Reunion-Audios-01]] y la evidencia [[Audio-Reunion-Edificio-Alonso-2023]].
 
 ## Nexos y Transferencias Emitidas / Recibidas

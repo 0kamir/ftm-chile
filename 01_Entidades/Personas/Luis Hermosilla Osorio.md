@@ -23,10 +23,10 @@ tags:
 - **Situación Procesal**: `= this.situacion_procesal`
 - **Medida Cautelar Vigente**: `= this.medida_cautelar`
 
-## Síntesis Forense
+## Síntesis
 Abogado penalista formalizado en el [[Caso Audios]] por delitos reiterados de [[Cohecho]], [[Lavado de Activos]] y delitos tributarios. En la reunión grabada en [[Audio-Reunion-Edificio-Alonso-2023]], según la acusación, habría coordinado junto a [[Leonarda Villalobos Muth]] un esquema de pagos ([[TRX-2023-06-22-Reunion-Audios-01]]) desde operaciones vinculadas a [[Factop SpA]] hacia funcionarios del [[Servicio Impuestos Internos]]. Asimismo, encabezó la defensa en la Acusación Constitucional de diciembre de 2019 de su socio de oficina y exministro del Interior [[Andres Chadwick Pinera]] (primo de [[Sebastian Pinera Echenique]]), transfiriéndole más de **`$190.000.000 CLP`** desde fondos originados en [[Factop SpA]] ([[TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01]]) y articulando gestiones de [[Trafico de Influencias]] ante la [[Corte Suprema de Chile]] con [[Angela Vivanco Martinez]] ([[TRX-2023-02-09-Gestion-Judicial-Hermosilla-Vivanco-01]]) y coordinaciones en nombramientos judiciales con el penalista [[Gabriel Zaliasnik Schilkrut]] ([[TRX-2022-11-15-Gestion-Nombramientos-Hermosilla-Zaliasnik-01]]).
 
-## Auditoría Contable: Montos Operados como Firmante/Operador de Origen
+## Montos Operados como Firmante/Operador de Origen
 ```dataviewjs
 const pages = dv.pages('"03_Hechos_y_Nexos"')
   .where(p => p.firmante_origen && (

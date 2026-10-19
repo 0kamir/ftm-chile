@@ -22,11 +22,11 @@ tags:
 
 # TRX-2004-07-14-Desvio-Gastos-Reservados-Riggs-Pinochet-01
 
-## Ficha de Arista Reificada (Transacción / Hecho Auditado)
+## Ficha de Arista Reificada (Transacción / Hecho Registrado)
 - **ID Transacción**: `= this.id_transaccion`
 - **Fecha**: `= this.fecha` (fecha de destape por el Senado de EE.UU.; flujos ejecutados entre 1981 y 2004)
 - **Tipo de Nexo**: `= this.tipo_nexo`
-- **Monto Auditado (CLP)**: `$15.800.000.000 CLP` (`= this.monto_clp` — equivalente a los **US$ 17,86 millones** de origen ilícito acreditados por el peritaje de la Universidad de Chile)
+- **Monto Registrado (CLP)**: `$15.800.000.000 CLP` (`= this.monto_clp` — equivalente a los **US$ 17,86 millones** de origen ilícito acreditados por el peritaje de la Universidad de Chile)
 - **Método de Adjudicación**: `= this.metodo_adjudicacion`
 - **Entidad de Origen**: `= this.entidad_origen` (Partidas de Gastos Reservados de la Comandancia en Jefe del Ejército y Casa Militar)
 - **Entidad de Destino**: `= this.entidad_destino`
@@ -36,5 +36,5 @@ tags:
 - **Causa Judicial**: `= this.causa_vinculada`
 - **Evidencia de Soporte**: `= this.evidencia_soporte`
 
-## Descripción Forense del Hecho
-Sustracción y desvío sistemático de caudales públicos provenientes de las partidas de gastos reservados de la Comandancia en Jefe del Ejército ([[Comando de Apoyo a la Fuerza del Ejercito]]) y de la Presidencia de la República bajo el mando de [[Augusto Pinochet Ugarte]], canalizados a través de valijas diplomáticas, agregadurías militares y transferencias del Banco Riggs hacia más de **125 cuentas bancarias secretas**, depósitos a plazo y sociedades *offshore* (*Ashburton Company Ltd.*, *Althorp Investment Co.*) administradas con la intervención de [[Oscar Aitken Lavanchy]] bajo nombres falsos (*"Daniel López"*). El peritaje forense de la Universidad de Chile en el [[Caso Riggs]], instruido inicialmente por [[Sergio Munoz Gajardo]], determinó que **US$ 17,86 millones** (`$15.800.000.000 CLP`) carecían de justificación lícita, culminando en la condena por [[Malversacion de Caudales Publicos]] y el comiso definitivo ordenado por la [[Corte Suprema de Chile]] en [[Sentencia-Corte-Suprema-CasoRiggs-2018]].
+## Descripción del Hecho
+Sustracción y desvío sistemático de caudales públicos provenientes de las partidas de gastos reservados de la Comandancia en Jefe del Ejército ([[Comando de Apoyo a la Fuerza del Ejercito]]) y de la Presidencia de la República bajo el mando de [[Augusto Pinochet Ugarte]], canalizados a través de valijas diplomáticas, agregadurías militares y transferencias del Banco Riggs hacia más de **125 cuentas bancarias secretas**, depósitos a plazo y sociedades *offshore* (*Ashburton Company Ltd.*, *Althorp Investment Co.*) administradas con la intervención de [[Oscar Aitken Lavanchy]] bajo nombres falsos (*"Daniel López"*). El peritaje de la Universidad de Chile en el [[Caso Riggs]], instruido inicialmente por [[Sergio Munoz Gajardo]], determinó que **US$ 17,86 millones** (`$15.800.000.000 CLP`) carecían de justificación lícita, culminando en la condena por [[Malversacion de Caudales Publicos]] y el comiso definitivo ordenado por la [[Corte Suprema de Chile]] en [[Sentencia-Corte-Suprema-CasoRiggs-2018]].

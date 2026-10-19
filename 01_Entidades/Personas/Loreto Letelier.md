@@ -22,7 +22,7 @@ tags:
 - **Situación Procesal / Partidaria**: `= this.situacion_procesal`
 - **Sanción Partidaria**: `= this.medida_cautelar`
 
-## Síntesis Forense y Registro OSINT
+## Síntesis y Registro OSINT
 Abogada y militante histórica desde su juventud en la [[Union Democrata Independiente]], por la cual fue inscrita como candidata a diputada por el Distrito 9 (Región Metropolitana) en las elecciones parlamentarias de 2017. Su figura concentra tres episodios de alto impacto público y documental sobre la interna de la colectividad que derivaron en su paso al Tribunal Supremo y marginación del partido:
 
 1. **Desclasificación de los "Retiros Espirituales" y Celebraciones de la UDI en Punta de Tralca (Agosto de 2017)**: En una entrevista en el programa *"Con las Manos en la Masa"* del canal Vía X, relató su ingreso a la Juventud UDI durante su adolescencia y describió la trastienda de los denominados *"retiros espirituales políticos"* organizados por el partido en **Punta de Tralca**. En su declaración pública afirmó que, tras las jornadas de formación doctrina, se realizaban celebraciones nocturnas en las que los máximos líderes históricos ("coroneles") y senadores de la [[Union Democrata Independiente]] —mencionando explícitamente a [[Jovino Novoa Vasquez]] y a Juan Antonio Coloma— terminaban de madrugada *"bailando arriba de las mesas, sacándose la camisa y con la corbata en la cabeza"*.

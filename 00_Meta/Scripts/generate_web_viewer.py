@@ -2,7 +2,7 @@
 """
 Generador del Visor Web Interactivo Autónomo (HTML5 + Canvas Force-Directed Graph).
 Lee `05_Vistas_Analiticas/Exportaciones/metricas_red.json` y compila un dashboard web
-autocontenido (`05_Vistas_Analiticas/Exportaciones/visor_forense.html`) con soporte para:
+autocontenido (`05_Vistas_Analiticas/Exportaciones/visor_red.html`) con soporte para:
 - Inspección de Grafo Local a Profundidad 1 y 2 (`Depth = 1`, `Depth = 2`)
 - Filtro por tipo de nodo y buscador en tiempo real
 - Ficha lateral con RUT, flujos emitidos/recibidos en CLP y conexiones directas
@@ -16,7 +16,7 @@ JSON_PATH = os.path.join(
     ROOT_DIR, "05_Vistas_Analiticas", "Exportaciones", "metricas_red.json"
 )
 HTML_OUT = os.path.join(
-    ROOT_DIR, "05_Vistas_Analiticas", "Exportaciones", "visor_forense.html"
+    ROOT_DIR, "05_Vistas_Analiticas", "Exportaciones", "visor_red.html"
 )
 
 
@@ -30,7 +30,7 @@ def main() -> int:
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <title>Visor Forense OSINT — Redes de Corrupción en Chile</title>
+  <title>Visor OSINT — Redes de Corrupción en Chile</title>
   <style>
     :root {{
       --bg: #0f172a;
@@ -77,10 +77,10 @@ def main() -> int:
 </head>
 <body>
   <div id="sidebar">
-    <h1>Visor Forense de Redes Reificadas (Aleph / ICIJ)</h1>
+    <h1>Visor de Redes Reificadas (Aleph / ICIJ)</h1>
     <div class="kpi-box">
       <div>
-        <div class="kpi-label">Nodos Auditados</div>
+        <div class="kpi-label">Nodos Registrados</div>
         <div class="kpi-val" id="kpi-nodes">0</div>
       </div>
       <div>
@@ -103,7 +103,7 @@ def main() -> int:
       <select id="depth">
         <option value="all">Grafo Global Completo</option>
         <option value="1">Grafo Local — Profundidad 1 (Directos)</option>
-        <option value="2" selected>Grafo Local — Profundidad 2 (Estándar Forense)</option>
+        <option value="2" selected>Grafo Local — Profundidad 2 (Estándar)</option>
       </select>
     </div>
 
@@ -348,7 +348,7 @@ def main() -> int:
         f.write(html)
 
     print(
-        f"[OK] Visor Web Forense generado: {os.path.relpath(HTML_OUT, ROOT_DIR)}"
+        f"[OK] Visor Web generado: {os.path.relpath(HTML_OUT, ROOT_DIR)}"
     )
     return 0
 

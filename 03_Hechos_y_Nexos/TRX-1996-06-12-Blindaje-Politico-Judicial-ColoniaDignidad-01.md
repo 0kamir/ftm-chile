@@ -21,11 +21,11 @@ tags:
 
 # TRX-1996-06-12-Blindaje-Politico-Judicial-ColoniaDignidad-01
 
-## Ficha de Arista Reificada (Transacción / Hecho Auditado)
+## Ficha de Arista Reificada (Transacción / Hecho Registrado)
 - **ID Transacción**: `= this.id_transaccion`
 - **Fecha**: `= this.fecha`
 - **Tipo de Nexo**: `= this.tipo_nexo`
-- **Monto Auditado (CLP)**: `$240.000.000 CLP` (`= this.monto_clp`)
+- **Monto Registrado (CLP)**: `$240.000.000 CLP` (`= this.monto_clp`)
 - **Método de Adjudicación**: `= this.metodo_adjudicacion`
 - **Entidad de Origen**: `= this.entidad_origen` (y parlamentarios del [[Senado de la Republica de Chile]])
 - **Entidad de Destino**: `= this.entidad_destino`
@@ -35,5 +35,5 @@ tags:
 - **Causa Judicial**: `= this.causa_vinculada`
 - **Evidencia de Soporte**: `= this.evidencia_soporte`
 
-## Descripción Forense del Hecho
+## Descripción del Hecho
 Operación de blindaje político, parlamentario y comunicacional desplegada durante la década de 1990 en favor de [[Sociedad Benefactora y Educacional Dignidad]] mientras [[Paul Schafer Schneider]] se encontraba prófugo de la justicia chilena por abusos sexuales reiterados contra menores. Parlamentarios vinculados al denominado *"Grupo de Amigos de Colonia Dignidad"*, encabezados en la Región del Maule por el entonces senador de la [[Union Democrata Independiente]], [[Hernan Larrain Fernandez]], actuaron en coordinación con el vocero y subdirector del enclave [[Hartmut Hopp Miottel]], presentando recursos ante el Tribunal Constitucional contra la cancelación de la personalidad jurídica de la corporación, visitando públicamente el recinto en Parral y cuestionando la legalidad de los allanamientos policiales instruidos por los tribunales en el [[Caso Colonia Dignidad]]. El monto refleja el valor estimado de los recursos de litigación constitucional, defensa corporativa y logística de protección movilizados en el período.

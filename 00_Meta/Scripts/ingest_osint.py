@@ -98,7 +98,7 @@ evidencia_soporte: "[[{evidencia_soporte}]]"
 - **Delito Imputado**: `= this.delito_imputado`
 - **Evidencia Documental**: `= this.evidencia_soporte`
 
-## Descripción Forense de la Operación
+## Descripción de la Operación
 {descripcion}
 """
     return filename, content

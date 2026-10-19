@@ -20,7 +20,7 @@ tags:
 - **Objeto Social**: `= this.objeto_social`
 - **Representante Legal**: `= this.representante_legal`
 
-## Contexto en Investigaciones Forenses
+## Contexto en Investigaciones
 Sociedad instrumental controlada por [[Claudio Spiniak Vilensky]] a través de la cual operaba el gimnasio *Go Fitness* en calle El Bosque Norte (Las Condes) y propiedades en El Arrayán. En el marco del [[Caso Spiniak]], el [[Servicio Impuestos Internos]] y la instrucción judicial del ministro [[Sergio Munoz Gajardo]] auditaron el uso de la sociedad para encubrir egresos ilícitos, gastos rechazados y evasión tributaria ([[TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01]]), documentados en [[Sentencia-Corte-Suprema-CasoSpiniak-2008]].
 
 ## Transacciones y Flujos Vinculados

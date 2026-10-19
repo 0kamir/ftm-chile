@@ -37,10 +37,10 @@ tags:
 - **Situación Procesal**: `= this.situacion_procesal`
 - **Medida Cautelar Vigente**: `= this.medida_cautelar`
 
-## Síntesis Forense
+## Síntesis
 Ingeniero civil, exsenador y expresidente de [[Union Democrata Independiente]]. En el [[Caso SQM]] la Fiscalía lo acusó de [[Cohecho]] pasivo por su intervención en la indicación sobre invariabilidad tributaria de la Ley de Royalty Minero de 2010 y por pagos de [[SQM SA]] a personas de su entorno ([[TRX-2010-08-19-Correo-Royalty-SQM-01]]). El 22 de octubre de 2025 el 3° Tribunal de Juicio Oral en lo Penal de Santiago absolvió, por mayoría, a los ocho acusados que llegaron a juicio, entre ellos [[Pablo Longueira Montes]] y [[Patricio Contesse Gonzalez]]: no dio por acreditada más allá de toda duda razonable la falsedad ideológica de las boletas y facturas, y constató una vulneración del derecho a ser juzgado en un plazo razonable. La Fiscalía, el [[Servicio Impuestos Internos]] y el CDE presentaron recursos de nulidad, revisados por la Corte de Apelaciones de Santiago el 6 de octubre de 2026 y pendientes de resolución. Las absoluciones están vigentes y rige la presunción de inocencia.
 
-## Auditoría Contable: Montos Imputados como Destinatario Político
+## Montos Imputados como Destinatario Político
 ```dataviewjs
 const pages = dv.pages('"03_Hechos_y_Nexos"')
   .where(p => p.firmante_destino && (

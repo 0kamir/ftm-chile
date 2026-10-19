@@ -20,10 +20,10 @@ tags:
 - **Superior Jerárquico**: `= this.superior_jerarquico`
 - **Autoridad Vinculada**: `= this.autoridad_vinculada`
 
-## Contexto en Investigaciones Forenses
+## Contexto en Investigaciones
 Secretaría de Estado encargada de la infraestructura vial y concesiones públicas. En el [[Caso MOP-Gate]], la investigación judicial acreditó que bajo la gestión del ex Ministro [[Carlos Cruz Lorenzen]] se suscribieron contratos simulados o con sobreprecios deliberados con consultoras privadas como [[Gestion Ambiental y Territorial SA]] ([[Hector Pena Veliz]]) por **$1.253.000.000 CLP** para desviar caudales fiscales hacia el pago de sobresueldos y gastos extrapresupuestarios ([[TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01]], [[Sentencia-Corte-Suprema-MOPGate-2016]]).
 
-## Historial de Nexos y Contratos Auditados
+## Historial de Nexos y Contratos Registrados
 ```dataview
 TABLE WITHOUT ID
   file.link AS "Nexo / Transacción",

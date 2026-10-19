@@ -32,12 +32,12 @@ tags:
 - **Situación Procesal**: `= this.situacion_procesal`
 - **Medida Cautelar Vigente**: `= this.medida_cautelar`
 
-## Síntesis Forense
+## Síntesis
 Ingeniero comercial, gerente de administración y finanzas de [[Bancard Inversiones Ltda]] y administrador electoral de la campaña presidencial de [[Sebastian Pinera Echenique]] en 2009. Fue formalizado en 2015 en el [[Caso Penta]] por delitos tributarios vinculados a facturas emitidas a [[SQM SA]] ([[TRX-2009-11-18-Facturas-Falsas-Bancard-SQM-Campana-Pinera-01]]), que él sostuvo correspondían a asesorías efectivamente prestadas. En 2019 la Corte de Apelaciones sobreseyó a lo por prescripción (habían transcurrido más de cinco años desde los hechos al abrirse la investigación); no existe sentencia que declare falsas las facturas. Rige la presunción de inocencia.
 
 Asimismo, participó en la ejecución de las inversiones *offshore* de *Bancard International Investment Inc.* en la pesquera peruana *Exalmar S.A.* en el [[Caso Exalmar y Fideicomiso Ciego]] ([[TRX-2012-11-20-Inversion-Offshore-Bancard-Exalmar-LaHaya-01]]).
 
-## Auditoría Contable: Montos Operados en Aristas Reificadas
+## Montos Operados en Aristas Reificadas
 ```dataviewjs
 const pages = dv.pages('"03_Hechos_y_Nexos"')
   .where(p => (p.firmante_origen && String(p.firmante_origen).includes(dv.current().file.name)) ||

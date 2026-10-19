@@ -32,7 +32,7 @@ tags:
 - **Delito Acreditado**: `= this.delito_imputado`
 - **Evidencia Soporte**: `= this.evidencia_soporte`
 
-## Descripción Forense del Hecho
+## Descripción del Hecho
 El 23 de septiembre de 2017, la [[Direccion de Inteligencia Policial de Carabineros]] (UIOE) ejecutó la detención simultánea de ocho dirigentes y comuneros mapuche en La Araucanía. La acción policial se sustentó en los oficios N° 130 y 131 suscritos por el general [[Gonzalo Blu Rodriguez]] y el coronel [[Marcelo Teuber Munoz]], afirmando falsamente que a través del software «Antorcha» de [[Alex Smith Leay]] se habían interceptado comunicaciones de mensajería cifrada. 
 
 Posteriormente, el Tribunal de Juicio Oral en lo Penal de Temuco ([[Sentencia-TOP-Temuco-OperacionHuracan-2026]]) acreditó que los supuestos chats fueron redactados e implantados manualmente en los teléfonos por [[Leonardo Osses Sandoval]] y sus subalternos tras las incautaciones.

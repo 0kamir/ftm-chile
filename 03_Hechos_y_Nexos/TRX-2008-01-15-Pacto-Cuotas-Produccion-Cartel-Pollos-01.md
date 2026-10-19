@@ -33,5 +33,5 @@ tags:
 - **Infracción / Delito Imputado**: `= this.delito_imputado`
 - **Evidencia Soporte**: `= this.evidencia_soporte`
 
-## Descripción Forense de la Operación
+## Descripción de la Operación
 Reuniones sistemáticas y mensuales de coordinación llevadas a cabo en la sede de la [[Asociacion de Productores Avicolas de Chile AG]] (APA), dirigidas por [[Juan Miguel Ovalle Garces]] con participación de los representantes de [[Agrosuper SA]], [[Empresas Ariztia SA]] y [[Agricola Don Pollo Limitada]]. En estas instancias se fijaban y distribuían las toneladas métricas de carne de ave que cada empresa tenía permitido producir y faenar anualmente, limitando artificialmente la oferta para fijar precios monopólicos en perjuicio del mercado consumidor nacional.

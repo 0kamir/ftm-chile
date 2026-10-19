@@ -20,7 +20,7 @@ tags:
 - **Objeto Social**: `= this.objeto_social`
 - **Representante Legal y Controlador**: `= this.representante_legal`
 
-## Contexto Forense y Societario
+## Contexto y Societario
 Sociedad por acciones constituida en abril de 2022 y representada por [[Felipe Sanchez Perez]]. Apenas meses después de adquirir el inmueble de calle Sierra Bella N° 1181 por cerca de `$2.080.000.000 CLP`, pactó en enero de 2023 su venta por trato directo a la [[Municipalidad de Santiago]] ([[Iraci Hassler Jacob]]) en **$8.200.000.000 CLP** (casi cuatro veces su valor de adquisición previa), lo que activó la bandera roja de **Constitución Societaria Reciente (`< 365 días`)** y el bloqueo administrativo de la [[Contraloria General de la Republica]] ([[Jorge Bermudez Soto]]) en el [[Caso Sierra Bella]] ([[TRX-2023-01-20-Compraventa-Clinica-SierraBella-01]], [[Dictamen-CGR-SierraBella-2023]]).
 
 ## Historial de Contratos y Nexos Reificados

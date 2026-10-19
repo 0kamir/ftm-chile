@@ -33,11 +33,11 @@ tags:
 
 # TRX-2011-03-10-Pagos-Penta-Wagner-01
 
-## Ficha de Arista Reificada (Transacción / Hecho Auditado)
+## Ficha de Arista Reificada (Transacción / Hecho Registrado)
 - **ID Transacción**: `= this.id_transaccion`
 - **Fecha**: `= this.fecha`
 - **Tipo de Nexo**: `= this.tipo_nexo`
-- **Monto Auditado (CLP)**: `$42.000.000 CLP` (`= this.monto_clp`)
+- **Monto Registrado (CLP)**: `$42.000.000 CLP` (`= this.monto_clp`)
 - **Método de Adjudicación**: `= this.metodo_adjudicacion`
 - **Entidad de Origen**: `= this.entidad_origen`
 - **Entidad Fiscalizadora Defraudada**: `= this.entidad_destino`
@@ -47,7 +47,7 @@ tags:
 - **Causa Judicial**: `= this.causa_vinculada`
 - **Evidencia de Soporte**: `= this.evidencia_soporte`
 
-## Descripción Forense del Hecho
+## Descripción del Hecho
 Pagos bimensuales de `$3.000.000 CLP` (totalizando `$42.000.000 CLP` entre 2010 y 2012) de [[Empresas Penta SA]] a [[Pablo Wagner San Martin]] mientras era Subsecretario de Minería, documentados con boletas de honorarios de terceros ante el [[Servicio Impuestos Internos]]. El 8° Juzgado de Garantía de Santiago (julio de 2018, procedimiento abreviado) absolvió a Wagner ** de cohecho** y lo condenó por enriquecimiento ilícito y delitos tributarios (pena remitida de dos años e inhabilitación para cargos públicos); la propia Fiscalía reconoció no haber acreditado que los pagos fueran a cambio de favores.
 
 ## Fuentes Verificables

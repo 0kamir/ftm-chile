@@ -22,6 +22,7 @@ import math
 from pathlib import Path
 import re
 import yaml
+from descargo import descargo  # noqa: E402
 
 VAULT_ROOT = Path(__file__).resolve().parents[2]
 TRX_DIR = VAULT_ROOT / "03_Hechos_y_Nexos"
@@ -206,12 +207,14 @@ def generate_report():
         "  - transicion-de-fase",
         "---",
         "",
-        "# ⏳ Evolución Temporal $G(t)$, Transición de Fase de Molloy-Reed y Ráfagas de Goh-Barabási",
+        "# Evolución Temporal $G(t)$, Transición de Fase de Molloy-Reed y Ráfagas de Goh-Barabási",
         "",
-        "> [!IMPORTANT] Dinámica No Lineal de Redes Criminales y Coalescencia del Componente Gigante",
+        *descargo(),
+        "",
+        "> [!IMPORTANT] Dinámica No Lineal de Redes y Coalescencia del Componente Gigante",
         "> Esta vista reconstruye el grafo acumulado $G(t) = (V(t), E(t))$ desde `2001` hasta `2023` a medida que se activan cronológicamente los nexos transaccionales (`TRX`):",
         "> 1. **Criterio de Percolación de Molloy-Reed ($\\kappa(t) = \\langle k^2 \\rangle / \\langle k \\rangle > 2$)**: Determina en qué momento la red supera el umbral crítico $\\kappa_c = 2.0$ y experimenta una **transición de fase hacia un régimen supercrítico macro-conectado**.",
-        "> 2. **Coeficiente de Ráfaga Temporal de Goh & Barabási ($B \\in [-1, 1]$)**: Evalúa si las transacciones ilícitas ocurren de forma independiente o en **ráfagas sincronizadas ($B > 0$)** asociadas a ciclos electorales y presupuestarios.",
+        "> 2. **Coeficiente de Ráfaga Temporal de Goh & Barabási ($B \\in [-1, 1]$)**: Evalúa si las transacciones registradas ocurren de forma independiente o en **ráfagas sincronizadas ($B > 0$)** asociadas a ciclos electorales y presupuestarios.",
         "",
         "## 1. Métricas Dinámicas e Inter-Transaccionales (2001–2023)",
         "",
@@ -219,7 +222,7 @@ def generate_report():
         f"  - *Diagnóstico Cronológico*: **{regimen_burst}**",
         f"- **Intervalo Medio entre Transacciones ($\\mu_\\tau$)**: `{mu_tau:.1f} días` | **Desviación Estándar ($\\sigma_\\tau$)**: `{sigma_tau:.1f} días`",
         f"- **Parámetro de Molloy-Reed Actual ($\\kappa(2023) = \\langle k^2 \\rangle / \\langle k \\rangle$)**: **`{final_row['kappa']:.4f}`** *(Supercrítico: $\\kappa > 2.0$)*",
-        f"- **Coalescencia del Componente Gigante ($S(2023)$)**: **`{final_row['s_frac'] * 100:.1f}%`** (`{final_row['lcc_size']}` de `{final_row['nodes']}` nodos operativos unidos en un único macro-componente)",
+        f"- **Coalescencia del Componente Gigante ($S(2023)$)**: **`{final_row['s_frac'] * 100:.1f}%`** (`{final_row['lcc_size']}` de `{final_row['nodes']}` nodos unidos en un único macro-componente)",
         "",
         "---",
         "",
@@ -238,7 +241,7 @@ def generate_report():
         "",
         "---",
         "",
-        "## 3. Curva de Crecimiento del Componente Gigante $S(t)$ y Caudal Auditado",
+        "## 3. Curva de Crecimiento del Componente Gigante $S(t)$ y Caudal Registrado",
         "",
         "```mermaid",
         "xychart-beta",

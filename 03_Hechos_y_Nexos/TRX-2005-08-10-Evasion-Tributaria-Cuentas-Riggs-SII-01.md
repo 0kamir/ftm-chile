@@ -21,11 +21,11 @@ tags:
 
 # TRX-2005-08-10-Evasion-Tributaria-Cuentas-Riggs-SII-01
 
-## Ficha de Arista Reificada (Transacción / Hecho Auditado)
+## Ficha de Arista Reificada (Transacción / Hecho Registrado)
 - **ID Transacción**: `= this.id_transaccion`
 - **Fecha**: `= this.fecha`
 - **Tipo de Nexo**: `= this.tipo_nexo`
-- **Monto Auditado (CLP)**: `$2.450.000.000 CLP` (`= this.monto_clp`)
+- **Monto Registrado (CLP)**: `$2.450.000.000 CLP` (`= this.monto_clp`)
 - **Método de Adjudicación**: `= this.metodo_adjudicacion`
 - **Entidad de Origen**: `= this.entidad_origen`
 - **Entidad de Destino / Querellante Fiscal**: `= this.entidad_destino`
@@ -35,5 +35,5 @@ tags:
 - **Causa Judicial**: `= this.causa_vinculada`
 - **Evidencia de Soporte**: `= this.evidencia_soporte`
 
-## Descripción Forense del Hecho
+## Descripción del Hecho
 Auditoría tributaria y querellas criminales deducidas por el [[Servicio Impuestos Internos]] en el marco del [[Caso Riggs]] tras comprobarse la omisión maliciosa de rentas, intereses financieros e incrementos de patrimonio no declarados en las cuentas secretas y sociedades *offshore* de [[Riggs Bank y Sociedades Offshore Ashburton]] por un perjuicio fiscal tributario estimado en **$2.450.000.000 CLP**. A partir de estas querellas, el 10 de agosto de 2005 el Ministro en Visita [[Sergio Munoz Gajardo]] sometió a proceso y ordenó la detención de [[Lucia Hiriart Rodriguez]] y su hijo Marco Antonio Pinochet como cómplices de fraude tributario, sumándose a los procesamientos contra [[Augusto Pinochet Ugarte]], [[Augusto Pinochet Hiriart]] y [[Oscar Aitken Lavanchy]] ([[Sentencia-Corte-Suprema-CasoRiggs-2018]]).

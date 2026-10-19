@@ -32,7 +32,7 @@ tags:
 - **Delito Imputado en Indagatoria**: `= this.delito_imputado`
 - **Evidencia Soporte**: `= this.evidencia_soporte`
 
-## Descripción Forense del Nexo
+## Descripción del Nexo
 En la arista judicial del [[Caso Audios]] investigada por la Fiscalía Regional de Valparaíso (Fiscal Claudia Perivancich), se indagan los intercambios de comunicaciones y testimonios relativos a la coordinación entre [[Luis Hermosilla Osorio]] y [[Gabriel Zaliasnik Schilkrut]]. 
 
 En su declaración formal ante el Ministerio Público, Hermosilla reconoció que mantenía conversaciones habituales con Zaliasnik sobre los candidatos más idóneos para asumir cargos en las Cortes de Apelaciones y en la [[Corte Suprema de Chile]], destacando las redes de influencia de Zaliasnik en el máximo tribunal. Adicionalmente, los mensajes extraídos por la policía dieron cuenta de solicitudes de colaboración en tramitaciones de causas penales y medidas cautelares en favor de clientes del estudio de Zaliasnik, motivando la asignación formal de su calidad de imputado bajo hipótesis de [[Trafico de Influencias]].

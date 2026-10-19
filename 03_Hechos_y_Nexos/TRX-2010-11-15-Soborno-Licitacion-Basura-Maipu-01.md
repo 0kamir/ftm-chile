@@ -31,7 +31,7 @@ tags:
 
 # TRX-2010-11-15-Soborno-Licitacion-Basura-Maipu-01
 
-## Ficha de Arista Reificada (Transacción / Hecho Auditado)
+## Ficha de Arista Reificada (Transacción / Hecho Registrado)
 - **ID Transacción**: `= this.id_transaccion`
 - **Fecha**: `= this.fecha`
 - **Tipo de Nexo**: `= this.tipo_nexo`
@@ -45,7 +45,7 @@ tags:
 - **Causa Judicial**: `= this.causa_vinculada`
 - **Evidencia de Soporte**: `= this.evidencia_soporte`
 
-## Descripción Forense del Hecho
+## Descripción del Hecho
 Adjudicación de la licitación pública de recolección y transporte de residuos domiciliarios de la [[Municipalidad de Maipu]] en favor de la filial Demarco S.A. del consorcio [[KDM Empresas SA]] por un valor plurianual de `$18.500.000.000 CLP`, operación en la que la Fiscalía Regional Metropolitana Occidente imputó transferencias trianguladas desde el ejecutivo [[Fernando Leon Steffens]] (quien obtuvo una salida alternativa) hacia el entonces concejal [[Marcelo Torres Ferrari]] (condenado en 2022 por cohecho y lavado de activos; el tribunal dio por acreditados pagos de KDM por $186,5 millones) (militante de [[Renovacion Nacional]]) para asegurar la mayoría de votos en el Concejo Municipal.
 
 ## Fuentes Verificables

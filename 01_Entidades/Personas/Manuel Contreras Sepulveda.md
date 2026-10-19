@@ -25,20 +25,20 @@ tags:
 - **Situación Procesal**: `= this.situacion_procesal`
 - **Condenas Ejecutoriadas**: `= this.medida_cautelar`
 
-## Síntesis Forense
-General de Ejército e ingeniero militar, fundador y director ejecutivo de la **Dirección de Inteligencia Nacional (DINA)** entre noviembre de 1973 y agosto de 1977 bajo dependencia directa de [[Augusto Pinochet Ugarte]]. En la red forense conecta tres estructuras documentadas:
+## Síntesis
+General de Ejército e ingeniero militar, fundador y director ejecutivo de la **Dirección de Inteligencia Nacional (DINA)** entre noviembre de 1973 y agosto de 1977 bajo dependencia directa de [[Augusto Pinochet Ugarte]]. En la red conecta tres estructuras documentadas:
 1. **Vínculo Remunerado con la CIA y Escuela de las Américas ([[Caso Operacion FUBELT Intervencion CIA y DINA]])**: Formado en academias militares estadounidenses en Fort Belvoir y vinculado a la doctrina de inteligencia de la **Escuela de las Américas (SOA)**, el **Informe Hinchey al Congreso de EE.UU. (19 de septiembre de 2000)** ([[Informe-Comision-Church-1975-y-Hinchey-CIA-2000]]) reveló oficialmente que Contreras mantuvo una relación operativa con la [[Agencia Central de Inteligencia CIA y Escuela de las Americas]] entre 1974 y 1977 y recibió pagos monetarios directos de la agencia estadounidense como activo registrado ([[TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01]]).
-2. **Alianza Operativa y Armamentística con Colonia Dignidad ([[Caso Colonia Dignidad]])**: Mantuvo una estrecha alianza criminal, logística y de inteligencia con [[Paul Schafer Schneider]] en el enclave de [[Sociedad Benefactora y Educacional Dignidad]] en Parral, utilizando el recinto como centro clandestino de detención, tortura, exterminio y desarrollo de armamento y toxinas ([[TRX-2005-06-14-Arsenal-Clandestino-AsociacionIlicita-ColoniaDignidad-01]]).
+2. **Alianza Operativa y Armamentística con Colonia Dignidad ([[Caso Colonia Dignidad]])**: Mantuvo una estrecha colaboración logística y de inteligencia con [[Paul Schafer Schneider]] en el enclave de [[Sociedad Benefactora y Educacional Dignidad]] en Parral, utilizando el recinto como centro clandestino de detención, tortura, exterminio y desarrollo de armamento y toxinas ([[TRX-2005-06-14-Arsenal-Clandestino-AsociacionIlicita-ColoniaDignidad-01]]).
 3. **Condenas Históricas de la [[Corte Suprema de Chile]]**: Acumuló más de **529 años de presidio efectivo** en sentencias definitivas dictadas por la [[Corte Suprema de Chile]] por asociación ilícita, secuestro calificado, homicidio calificado (incluyendo los asesinatos del general Carlos Prats en Buenos Aires y del excanciller Orlando Letelier en Washington D.C.) y apremios ilegítimos.
 
-## Auditoría Contable y Procesal: Nexos Reificados Vinculados
+## Montos Registrados y Procesal: Nexos Reificados Vinculados
 ```dataview
 TABLE WITHOUT ID
   file.link AS "Nexo / Operación",
   fecha AS "Fecha",
   entidad_origen AS "Entidad Origen",
   entidad_destino AS "Entidad Destino",
-  "$" + regexreplace(string(monto_clp), "\B(?=(\d{3})+(?!\d))", ".") AS "Monto Auditado (CLP)",
+  "$" + regexreplace(string(monto_clp), "\B(?=(\d{3})+(?!\d))", ".") AS "Monto Registrado (CLP)",
   causa_vinculada AS "Causa"
 FROM "03_Hechos_y_Nexos"
 WHERE contains(string(firmante_origen), this.file.name) OR contains(string(firmante_destino), this.file.name)
