@@ -5,8 +5,16 @@ aliases:
   - "Santiago Valdés"
 rol_principal: "Ex Gerente de Administración y Finanzas de Bancard y Administrador Electoral Campaña Presidencial 2009"
 afiliacion_politica: "[[Renovacion Nacional]]"
-situacion_procesal: formalizado
-medida_cautelar: "Formalizado por delitos tributarios reiterados en Caso SQM / Penta (sobreseído tras contienda de rectificatorias y prescripción parcial)"
+situacion_procesal: sobreseido
+medida_cautelar: "Sobreseído en 2019 por prescripción (Corte de Apelaciones de Santiago)"
+estado_verificacion: verificado
+fuentes:
+  - url: "https://www.ciperchile.cl/2024/11/10/fiscalia-reconstruye-los-pasos-de-manuel-guerra-asi-se-sello-la-salida-del-administrador-electoral-de-pinera-del-caso-penta/"
+    titulo: "Fiscalía reconstruye los pasos de Manuel Guerra: así se selló la salida del administrador electoral de Piñera del caso Penta"
+    medio: "CIPER Chile"
+    tipo: secundaria
+    fecha: 2024-11-10
+    consultado: 2026-10-19
 tags:
   - entidad/persona
   - caso-sqm
@@ -25,7 +33,9 @@ tags:
 - **Medida Cautelar Vigente**: `= this.medida_cautelar`
 
 ## Síntesis Forense
-Ingeniero comercial, hombre de confianza financiera de [[Sebastian Pinera Echenique]], gerente de administración y finanzas de [[Bancard Inversiones Ltda]] y administrador electoral de la campaña presidencial de Piñera en 2009. En el [[Caso SQM]] y el [[Caso Penta]], tras querellas y denuncias del [[Servicio Impuestos Internos]], fue formalizado ante el 8° Juzgado de Garantía de Santiago por delitos tributarios reiterados tras acreditarse la emisión de facturas ideológicamente falsas desde [[Bancard Inversiones Ltda]] y empresas proveedoras hacia [[SQM SA]] (autorizadas por [[Patricio Contesse Gonzalez]]) y *Aguas Andinas* por **$340.000.000 CLP** para financiar gastos de la campaña presidencial de 2009 ([[TRX-2009-11-18-Facturas-Falsas-Bancard-SQM-Campana-Pinera-01]]). Asimismo, participó en la ejecución de las inversiones *offshore* de *Bancard International Investment Inc.* en la pesquera peruana *Exalmar S.A.* en el [[Caso Exalmar y Fideicomiso Ciego]] ([[TRX-2012-11-20-Inversion-Offshore-Bancard-Exalmar-LaHaya-01]]).
+Ingeniero comercial, gerente de administración y finanzas de [[Bancard Inversiones Ltda]] y administrador electoral de la campaña presidencial de [[Sebastian Pinera Echenique]] en 2009. Fue formalizado en 2015 en el [[Caso Penta]] por delitos tributarios vinculados a facturas emitidas a [[SQM SA]] ([[TRX-2009-11-18-Facturas-Falsas-Bancard-SQM-Campana-Pinera-01]]), que él sostuvo correspondían a asesorías efectivamente prestadas. En 2019 la Corte de Apelaciones sobreseyó a lo por prescripción (habían transcurrido más de cinco años desde los hechos al abrirse la investigación); no existe sentencia que declare falsas las facturas. Rige la presunción de inocencia.
+
+Asimismo, participó en la ejecución de las inversiones *offshore* de *Bancard International Investment Inc.* en la pesquera peruana *Exalmar S.A.* en el [[Caso Exalmar y Fideicomiso Ciego]] ([[TRX-2012-11-20-Inversion-Offshore-Bancard-Exalmar-LaHaya-01]]).
 
 ## Auditoría Contable: Montos Operados en Aristas Reificadas
 ```dataviewjs
@@ -56,4 +66,16 @@ dv.table(
     p.causa_vinculada
   ])
 );
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```

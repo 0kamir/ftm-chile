@@ -30,6 +30,9 @@ Siguiendo el modelo **FollowTheMoney (OCCRP Aleph)** e **ICIJ Offshore Leaks**, 
 - `testigo`: Declarante o sujeto de interés no formalizado.
 - `formalizado`: Comunicación formal de cargos ante Juzgado de Garantía.
 - `condenado`: Sentencia condenatoria ejecutoriada (procedimiento abreviado o juicio oral).
+- `acusado`: Acusación fiscal o juicio oral en curso, o veredicto sin sentencia firme.
+- `absuelto`: Sentencia absolutoria (indicar en `medida_cautelar` si hay recursos pendientes).
+- `sobreseido`: Sobreseimiento definitivo o temporal (indicar causal, p. ej. prescripción).
 
 ### `categoria` (en `tpl_entidad_publica.md`)
 - `GORE`: Gobierno Regional.

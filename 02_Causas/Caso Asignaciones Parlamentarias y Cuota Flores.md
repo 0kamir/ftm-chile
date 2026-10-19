@@ -27,7 +27,7 @@ fuentes:
     fecha: 2026-05-09
     consultado: 2026-10-19
 alertas_verificacion:
-  - "Investigación desformalizada: no hay imputación formal. La arista de registros íntimos (TRX-2026-06-20) trata a Flores como VÍCTIMA de un delito contra la intimidad, no de corrupción: evaluar retirarla del grafo por privacidad."
+  - "Investigación desformalizada: no hay imputación formal. La arista de registros íntimos se retiró el 2026-10-19 por tratarse de la vida privada de una víctima, ajena al eje de corrupción."
 tags:
   - causa
   - asignaciones-parlamentarias
@@ -56,8 +56,6 @@ La causa se estructura en dos aristas complementarias:
 1. **Arista "Cuota Flores" (Fraude al Fisco por Diezmos Parlamentarios)**:
    A raíz de denuncias de excolaboradores y personal de apoyo financiado con cargo a asignaciones parlamentarias del [[Senado de la Republica de Chile]], la Fiscalía Regional de Valparaíso indaga la exigencia sistemática a asesores legislativos de entregar en efectivo un porcentaje recurrente de sus remuneraciones mensuales ([[TRX-2025-10-15-Denuncia-Retencion-Sueldos-Asesores-Flores-01]]). En abril de 2026, el OS9 de Carabineros ejecutó allanamientos e incautaciones de computadores y celulares en dependencias del Congreso y en el domicilio de la parlamentaria ([[Orden-Entrada-Registro-Congreso-Caso-Flores-2026]]).
 
-2. **Arista Registros Íntimos y Disputa Conyugal**:
-   Paralelamente, a mediados de 2026 se abrió una causa penal en la Brigada del Cibercrimen de la PDI tras la denuncia de Camila Flores por la obtención, sustracción y difusión no consentida de registros audiovisuales íntimos y privados grabados por cámaras de seguridad en su hogar ([[Denuncia-Cibercrimen-PDI-Registros-Intimos-2026]]), apuntando a su exmarido [[Percy Marin Vera]] ([[TRX-2026-06-20-Extraccion-Difusion-Ilicita-Registros-Intimos-01]]). Este hecho derivó además en la interposición de recursos de cautela de garantía por parte de la defensa ante el Juzgado de Garantía y la Corte Suprema para evitar la filtración de material de índole estrictamente privada requisado en los dispositivos incautados.
 
 ## Hechos y Nexos Vinculados a la Causa
 ```dataview

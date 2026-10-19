@@ -4,7 +4,7 @@ ruc: "1601012894-2"
 año_inicio: 2016
 tribunal_o_fiscalia: "Fiscalía Regional de Magallanes / 7° Juzgado de Garantía de Santiago / 4° TOP de Santiago"
 fiscal_a_cargo: "Eugenio Campos Lucero"
-estado_judicial: cerrada
+estado_judicial: veredicto_condenatorio_sin_sentencia
 delito_principal: "[[Malversacion de Caudales Publicos]]"
 estado_verificacion: desactualizado
 fuentes:
@@ -27,7 +27,7 @@ fuentes:
     fecha: 2017-04-04
     consultado: 2026-10-19
 alertas_verificacion:
-  - "Veredicto del juicio oral: abril de 2026 (25 de 28 condenados; se descartó asociación ilícita). Las penas se conocerán en la sentencia (prensa: feb-2027). La evidencia 'Sentencia-TOP-Santiago-Pacogate-2021' no coincide con esa cronología."
+  - "Veredicto del juicio oral: abril de 2026 (25 de 28 condenados; se descartó asociación ilícita). Las penas se conocerán en la sentencia (prensa: feb-2027). La evidencia 'Veredicto-TOP-Santiago-Pacogate-2026' no coincide con esa cronología."
 tags:
   - causa
   - caso-pacogate
@@ -45,7 +45,7 @@ tags:
 - **Delito Principal**: `= this.delito_principal` (en concurso con [[Lavado de Activos]] y asociación ilícita)
 
 ## Resumen Ejecutivo
-Mayor fraude fiscal institucional detectado en las Fuerzas de Orden y Seguridad de Chile. Entre 2006 y 2017, una organización criminal enquistada en la [[Direccion de Finanzas de Carabineros]] (Intendencia), liderada por el general (r) [[Flavio Echeverria Cortez]] y operada contablemente por oficiales como el coronel (r) [[Jaime Paz Meneses]], sustrajo **$28.348.928.198 CLP** ([[TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01]]) mediante depósitos ficticios de remuneraciones y desahucios en cuentas corrientes de terceros ("cuentacorrentistas"). El 4° Tribunal de Juicio Oral en lo Penal de Santiago dictó condenas de hasta 17 años de presidio efectivo ([[Sentencia-TOP-Santiago-Pacogate-2021]]).
+Mayor fraude fiscal institucional detectado en las Fuerzas de Orden y Seguridad de Chile. Según la acusación, entre 2006 y 2017 funcionarios de la [[Direccion de Finanzas de Carabineros]] (Intendencia), con el general (r) [[Flavio Echeverria Cortez]] señalado como líder y oficiales como el coronel (r) [[Jaime Paz Meneses]], habrían sustraído **$28.348.928.198 CLP** ([[TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01]]) mediante depósitos ficticios de remuneraciones y desahucios en cuentas corrientes de terceros ("cuentacorrentistas"). En abril de 2026 el Tribunal de Juicio Oral en lo Penal de Santiago dictó veredicto condenatorio contra 25 de los 28 acusados que llegaron a juicio por malversación de caudales públicos reiterada y lavado de activos; **descartó la asociación ilícita** y las penas se fijarán en la sentencia (anunciada por la prensa para febrero de 2027). El veredicto no está firme. ([[Veredicto-TOP-Santiago-Pacogate-2026]]).
 
 ## Hechos y Nexos Vinculados a la Causa
 ```dataview

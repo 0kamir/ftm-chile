@@ -6,8 +6,23 @@ aliases:
   - "Coronel Jaime Paz Meneses"
 rol_principal: "Ex Coronel de Intendencia de Carabineros"
 afiliacion_politica: "Independiente"
-situacion_procesal: condenado
-medida_cautelar: "Cumplimiento de condena efectiva (presidio mayor)"
+situacion_procesal: acusado
+medida_cautelar: "Acusado en juicio oral; veredicto de abril de 2026 condenó a 25 de 28 acusados (resultado individual no verificado); penas pendientes"
+estado_verificacion: parcial
+fuentes:
+  - url: "https://www.elmostrador.cl/noticias/pais/2026/04/15/caso-pacogate-rechazan-prision-preventiva-para-los-25-condenados-por-megafraude/"
+    titulo: "Caso Pacogate: rechazan prisión preventiva para los 25 condenados por megafraude"
+    medio: "El Mostrador"
+    tipo: secundaria
+    fecha: 2026-04-15
+    consultado: 2026-10-19
+  - url: "https://en.wikipedia.org/wiki/Pacogate"
+    titulo: "Pacogate"
+    medio: "Wikipedia"
+    tipo: secundaria
+    consultado: 2026-10-19
+alertas_verificacion:
+  - "Verificar en la sentencia (feb-2027) si figura entre los condenados y su pena."
 tags:
   - entidad/persona
   - caso-pacogate
@@ -24,7 +39,7 @@ tags:
 - **Medida Cautelar / Condena Vigente**: `= this.medida_cautelar`
 
 ## Síntesis Forense
-Ex Coronel de Intendencia en la [[Direccion de Finanzas de Carabineros]]. Condenado por sentencia firme ([[Sentencia-TOP-Santiago-Pacogate-2021]]) en el [[Caso Pacogate]] por [[Malversacion de Caudales Publicos]], [[Lavado de Activos]] y asociación ilícita, tras operar junto a [[Flavio Echeverria Cortez]] el mecanismo de nóminas adulteradas que sustrajo **$28.348.928.198 CLP** ([[TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01]]).
+Ex Coronel de Intendencia en la [[Direccion de Finanzas de Carabineros]], señalado como figura clave del esquema del [[Caso Pacogate]], que según la acusación habría sustraído **$28.348.928.198 CLP** mediante depósitos ficticios de remuneraciones ([[TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01]]). En abril de 2026 el Tribunal de Juicio Oral en lo Penal de Santiago dictó veredicto condenatorio contra 25 de los 28 acusados que llegaron a juicio por malversación de caudales públicos reiterada y lavado de activos; **descartó la asociación ilícita** y las penas se fijarán en la sentencia (anunciada por la prensa para febrero de 2027). El veredicto no está firme. Ver [[Veredicto-TOP-Santiago-Pacogate-2026]]. Rige la presunción de inocencia hasta sentencia firme.
 
 ## Auditoría Contable: Montos Operados como Firmante de Destino
 ```dataviewjs
@@ -57,4 +72,16 @@ dv.table(
     p.causa_vinculada
   ])
 );
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```

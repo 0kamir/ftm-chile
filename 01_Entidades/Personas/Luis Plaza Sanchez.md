@@ -5,8 +5,21 @@ aliases:
   - "Luis Plaza"
 rol_principal: "Ex Alcalde de la Municipalidad de Cerro Navia (2008-2016)"
 afiliacion_politica: "[[Renovacion Nacional]]"
-situacion_procesal: formalizado
-medida_cautelar: "Acusación fiscal por fraude al fisco reiterado en contratos municipales (Caso Basura)"
+situacion_procesal: condenado
+medida_cautelar: "Condenado a 3 años y 1 día por fraude al fisco reiterado, con inhabilitación perpetua para derechos políticos (arista Cerro Navia, dic-2024)"
+estado_verificacion: verificado
+fuentes:
+  - url: "https://www.latercera.com/nacional/noticia/a-13-anos-de-que-se-iniciara-el-caso-condenan-a-exalcalde-luis-plaza-rn-por-fraude-al-fisco-en-ultima-arista-del-emblematico-caso-basura/TGWT6RCHCJHEBP5MVQXK2VL2AE/"
+    titulo: "A 13 años de que se iniciara el caso, condenan a exalcalde Luis Plaza por fraude al fisco en última arista del Caso Basura"
+    medio: "La Tercera"
+    tipo: secundaria
+    consultado: 2026-10-19
+  - url: "https://media-front.elmostrador.cl/2025/06/20250603-COMUNICADO-CASO-BASURA.pdf"
+    titulo: "Comunicado Fiscalía Occidente: condenas Caso Basura arista Cerro Navia"
+    medio: "Fiscalía Regional Metropolitana Occidente (vía El Mostrador)"
+    tipo: primaria
+    fecha: 2025-06-03
+    consultado: 2026-10-19
 tags:
   - entidad/persona
   - caso-basura
@@ -53,4 +66,16 @@ dv.table(
     p.causa_vinculada
   ])
 );
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```

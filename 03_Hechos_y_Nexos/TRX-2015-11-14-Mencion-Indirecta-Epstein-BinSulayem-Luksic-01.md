@@ -8,8 +8,12 @@ entidad_destino: "[[Corte Suprema de Chile]]"
 firmante_origen: "[[Andronico Luksic Craig]]"
 firmante_destino: "[[Andronico Luksic Craig]]"
 causa_vinculada: "[[Caso Archivos Epstein Menciones Chile]]"
-delito_imputado: "[[Trafico de Influencias]]"
+delito_imputado: ""
 evidencia_soporte: "[[Desclasificacion-Documentos-DOJ-CasoEpstein-2024]]"
+estado_verificacion: sin_fuente
+fuentes: []
+alertas_verificacion:
+  - "Mención documental sin imputación: se eliminó delito_imputado (2026-10-19). Aparecer en los archivos Epstein no constituye delito."
 tags:
   - nexo/desclasificacion
   - epstein-files
@@ -34,3 +38,15 @@ En los correos desclasificados del caso *Giuffre v. Maxwell* ante la Corte Feder
 
 **Determinación Forense**:
 Los registros no exhiben ninguna respuesta de Epstein ni evidencia de llamadas, reuniones, correos ni contacto directo entre [[Andronico Luksic Craig]] y Jeffrey Epstein, descartándose judicial y periodísticamente cualquier involucramiento en ilícitos.
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
+```

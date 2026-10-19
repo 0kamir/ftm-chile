@@ -1,8 +1,8 @@
 {
   "resumen": {
-    "total_nodos": 335,
-    "total_aristas": 743,
-    "monto_total_clp": 750998563198
+    "total_nodos": 330,
+    "total_aristas": 715,
+    "monto_total_clp": 725998563198
   },
   "nodos": [
     {
@@ -11,7 +11,7 @@
       "rut": "60.301.000-0",
       "monto_clp": 0,
       "path": "01_Entidades/Publicas/Corte Suprema de Chile.md",
-      "in_degree": 41,
+      "in_degree": 40,
       "out_degree": 0,
       "flujo_emitido_clp": 0,
       "flujo_recibido_clp": 71470000000
@@ -22,7 +22,7 @@
       "rut": "",
       "monto_clp": 0,
       "path": "00_Meta/Delitos/Fraude al Fisco.md",
-      "in_degree": 21,
+      "in_degree": 20,
       "out_degree": 0,
       "flujo_emitido_clp": 0,
       "flujo_recibido_clp": 0
@@ -33,7 +33,7 @@
       "rut": "",
       "monto_clp": 0,
       "path": "00_Meta/Delitos/Delito Tributario.md",
-      "in_degree": 16,
+      "in_degree": 17,
       "out_degree": 0,
       "flujo_emitido_clp": 0,
       "flujo_recibido_clp": 0
@@ -50,17 +50,6 @@
       "flujo_recibido_clp": 2146000000
     },
     {
-      "id": "Cohecho",
-      "tipo_nodo": "tipo_penal",
-      "rut": "",
-      "monto_clp": 0,
-      "path": "00_Meta/Delitos/Cohecho.md",
-      "in_degree": 14,
-      "out_degree": 0,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
       "id": "Servicio Impuestos Internos",
       "tipo_nodo": "entidad_publica",
       "rut": "60.803.000-K",
@@ -70,6 +59,17 @@
       "out_degree": 0,
       "flujo_emitido_clp": 0,
       "flujo_recibido_clp": 263987000000
+    },
+    {
+      "id": "Cohecho",
+      "tipo_nodo": "tipo_penal",
+      "rut": "",
+      "monto_clp": 0,
+      "path": "00_Meta/Delitos/Cohecho.md",
+      "in_degree": 13,
+      "out_degree": 0,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
     },
     {
       "id": "Caso Convenios",
@@ -105,33 +105,11 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Lavado de Activos",
-      "tipo_nodo": "tipo_penal",
-      "rut": "",
-      "monto_clp": 0,
-      "path": "00_Meta/Delitos/Lavado de Activos.md",
-      "in_degree": 11,
-      "out_degree": 0,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
       "id": "Malversacion de Caudales Publicos",
       "tipo_nodo": "tipo_penal",
       "rut": "",
       "monto_clp": 0,
       "path": "00_Meta/Delitos/Malversacion de Caudales Publicos.md",
-      "in_degree": 11,
-      "out_degree": 0,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
-      "id": "Trafico de Influencias",
-      "tipo_nodo": "tipo_penal",
-      "rut": "",
-      "monto_clp": 0,
-      "path": "00_Meta/Delitos/Trafico de Influencias.md",
       "in_degree": 11,
       "out_degree": 0,
       "flujo_emitido_clp": 0,
@@ -144,6 +122,17 @@
       "monto_clp": 0,
       "path": "00_Meta/Delitos/Colusion y Atentado a la Libre Competencia.md",
       "in_degree": 11,
+      "out_degree": 0,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "Lavado de Activos",
+      "tipo_nodo": "tipo_penal",
+      "rut": "",
+      "monto_clp": 0,
+      "path": "00_Meta/Delitos/Lavado de Activos.md",
+      "in_degree": 10,
       "out_degree": 0,
       "flujo_emitido_clp": 0,
       "flujo_recibido_clp": 0
@@ -182,17 +171,6 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01",
-      "tipo_nodo": "nexo_transaccion",
-      "rut": "",
-      "monto_clp": 240000000000,
-      "path": "03_Hechos_y_Nexos/TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01.md",
-      "in_degree": 2,
-      "out_degree": 7,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
       "id": "TRX-2008-01-15-Pacto-Cuotas-Produccion-Cartel-Pollos-01",
       "tipo_nodo": "nexo_transaccion",
       "rut": "",
@@ -213,6 +191,17 @@
       "out_degree": 2,
       "flujo_emitido_clp": 32050000000,
       "flujo_recibido_clp": 75500000000
+    },
+    {
+      "id": "Trafico de Influencias",
+      "tipo_nodo": "tipo_penal",
+      "rut": "",
+      "monto_clp": 0,
+      "path": "00_Meta/Delitos/Trafico de Influencias.md",
+      "in_degree": 8,
+      "out_degree": 0,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
     },
     {
       "id": "TRX-2022-10-03-Convenio-DV-01",
@@ -292,17 +281,6 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01",
-      "tipo_nodo": "nexo_transaccion",
-      "rut": "",
-      "monto_clp": 28348928198,
-      "path": "03_Hechos_y_Nexos/TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01.md",
-      "in_degree": 1,
-      "out_degree": 7,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
       "id": "TRX-2014-05-20-Facturas-LeyReservadaCobre-01",
       "tipo_nodo": "nexo_transaccion",
       "rut": "",
@@ -341,17 +319,6 @@
       "rut": "",
       "monto_clp": 2500000000,
       "path": "03_Hechos_y_Nexos/TRX-2015-01-29-Facturas-Falsas-Caval-SII-01.md",
-      "in_degree": 1,
-      "out_degree": 7,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
-      "id": "TRX-2001-08-20-Contratos-Simulados-MOP-GESCAM-01",
-      "tipo_nodo": "nexo_transaccion",
-      "rut": "",
-      "monto_clp": 1253000000,
-      "path": "03_Hechos_y_Nexos/TRX-2001-08-20-Contratos-Simulados-MOP-GESCAM-01.md",
       "in_degree": 1,
       "out_degree": 7,
       "flujo_emitido_clp": 0,
@@ -479,17 +446,6 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "TRX-2015-11-14-Mencion-Indirecta-Epstein-BinSulayem-Luksic-01",
-      "tipo_nodo": "nexo_transaccion",
-      "rut": "",
-      "monto_clp": 0,
-      "path": "03_Hechos_y_Nexos/TRX-2015-11-14-Mencion-Indirecta-Epstein-BinSulayem-Luksic-01.md",
-      "in_degree": 1,
-      "out_degree": 7,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
       "id": "TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01",
       "tipo_nodo": "nexo_transaccion",
       "rut": "",
@@ -523,33 +479,11 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "TRX-2023-12-15-Lavado-Activos-Bienes-Inmuebles-Clan-Pavez-01",
-      "tipo_nodo": "nexo_transaccion",
-      "rut": "",
-      "monto_clp": 25000000000,
-      "path": "03_Hechos_y_Nexos/TRX-2023-12-15-Lavado-Activos-Bienes-Inmuebles-Clan-Pavez-01.md",
-      "in_degree": 1,
-      "out_degree": 7,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
       "id": "TRX-2015-10-29-Pago-Multas-Historicas-Cartel-Pollos-01",
       "tipo_nodo": "nexo_transaccion",
       "rut": "",
       "monto_clp": 38400000000,
       "path": "03_Hechos_y_Nexos/TRX-2015-10-29-Pago-Multas-Historicas-Cartel-Pollos-01.md",
-      "in_degree": 1,
-      "out_degree": 7,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
-      "id": "TRX-2022-09-04-Presencia-Cerimedo-Sede-Renovacion-Nacional-01",
-      "tipo_nodo": "nexo_transaccion",
-      "rut": "",
-      "monto_clp": 0,
-      "path": "03_Hechos_y_Nexos/TRX-2022-09-04-Presencia-Cerimedo-Sede-Renovacion-Nacional-01.md",
       "in_degree": 1,
       "out_degree": 7,
       "flujo_emitido_clp": 0,
@@ -567,11 +501,22 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "TRX-2026-06-20-Extraccion-Difusion-Ilicita-Registros-Intimos-01",
+      "id": "TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01",
       "tipo_nodo": "nexo_transaccion",
       "rut": "",
-      "monto_clp": 0,
-      "path": "03_Hechos_y_Nexos/TRX-2026-06-20-Extraccion-Difusion-Ilicita-Registros-Intimos-01.md",
+      "monto_clp": 28348928198,
+      "path": "03_Hechos_y_Nexos/TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01.md",
+      "in_degree": 1,
+      "out_degree": 7,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01",
+      "tipo_nodo": "nexo_transaccion",
+      "rut": "",
+      "monto_clp": 1253000000,
+      "path": "03_Hechos_y_Nexos/TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01.md",
       "in_degree": 1,
       "out_degree": 7,
       "flujo_emitido_clp": 0,
@@ -710,39 +655,6 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "TRX-2011-03-10-Soborno-Penta-Wagner-01",
-      "tipo_nodo": "nexo_transaccion",
-      "rut": "",
-      "monto_clp": 42000000,
-      "path": "03_Hechos_y_Nexos/TRX-2011-03-10-Soborno-Penta-Wagner-01.md",
-      "in_degree": 0,
-      "out_degree": 7,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
-      "id": "TRX-2014-02-18-Soborno-Caval-Machali-01",
-      "tipo_nodo": "nexo_transaccion",
-      "rut": "",
-      "monto_clp": 140000000,
-      "path": "03_Hechos_y_Nexos/TRX-2014-02-18-Soborno-Caval-Machali-01.md",
-      "in_degree": 0,
-      "out_degree": 7,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
-      "id": "TRX-2002-04-12-Facturas-Triangulacion-GESCAM-SII-01",
-      "tipo_nodo": "nexo_transaccion",
-      "rut": "",
-      "monto_clp": 450000000,
-      "path": "03_Hechos_y_Nexos/TRX-2002-04-12-Facturas-Triangulacion-GESCAM-SII-01.md",
-      "in_degree": 0,
-      "out_degree": 7,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
       "id": "TRX-2012-03-22-Fraude-Residuos-CerroNavia-01",
       "tipo_nodo": "nexo_transaccion",
       "rut": "",
@@ -770,17 +682,6 @@
       "rut": "",
       "monto_clp": 3500000000,
       "path": "03_Hechos_y_Nexos/TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01.md",
-      "in_degree": 0,
-      "out_degree": 7,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
-      "id": "TRX-2017-03-06-Lavado-Activos-Carabineros-UAF-01",
-      "tipo_nodo": "nexo_transaccion",
-      "rut": "",
-      "monto_clp": 1450000000,
-      "path": "03_Hechos_y_Nexos/TRX-2017-03-06-Lavado-Activos-Carabineros-UAF-01.md",
       "in_degree": 0,
       "out_degree": 7,
       "flujo_emitido_clp": 0,
@@ -963,24 +864,13 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "TRX-2013-05-20-Mencion-Referencial-Epstein-Dannatt-Velasco-01",
+      "id": "TRX-2015-11-14-Mencion-Indirecta-Epstein-BinSulayem-Luksic-01",
       "tipo_nodo": "nexo_transaccion",
       "rut": "",
       "monto_clp": 0,
-      "path": "03_Hechos_y_Nexos/TRX-2013-05-20-Mencion-Referencial-Epstein-Dannatt-Velasco-01.md",
-      "in_degree": 0,
-      "out_degree": 7,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
-      "id": "TRX-2015-08-10-Contacto-Academico-Patrocinio-Guendelman-Epstein-01",
-      "tipo_nodo": "nexo_transaccion",
-      "rut": "",
-      "monto_clp": 0,
-      "path": "03_Hechos_y_Nexos/TRX-2015-08-10-Contacto-Academico-Patrocinio-Guendelman-Epstein-01.md",
-      "in_degree": 0,
-      "out_degree": 7,
+      "path": "03_Hechos_y_Nexos/TRX-2015-11-14-Mencion-Indirecta-Epstein-BinSulayem-Luksic-01.md",
+      "in_degree": 1,
+      "out_degree": 6,
       "flujo_emitido_clp": 0,
       "flujo_recibido_clp": 0
     },
@@ -1018,6 +908,17 @@
       "flujo_recibido_clp": 0
     },
     {
+      "id": "TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01",
+      "tipo_nodo": "nexo_transaccion",
+      "rut": "",
+      "monto_clp": 240000000000,
+      "path": "03_Hechos_y_Nexos/TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01.md",
+      "in_degree": 3,
+      "out_degree": 4,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
       "id": "TRX-2007-04-10-Modelo-Proyeccion-Demanda-APA-Pollos-01",
       "tipo_nodo": "nexo_transaccion",
       "rut": "",
@@ -1034,6 +935,50 @@
       "rut": "",
       "monto_clp": 0,
       "path": "03_Hechos_y_Nexos/TRX-2010-06-15-Informe-Economico-Peritaje-Defensa-Salcobrand-01.md",
+      "in_degree": 0,
+      "out_degree": 7,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "TRX-2022-09-04-Presencia-Cerimedo-Sede-Renovacion-Nacional-01",
+      "tipo_nodo": "nexo_transaccion",
+      "rut": "",
+      "monto_clp": 0,
+      "path": "03_Hechos_y_Nexos/TRX-2022-09-04-Presencia-Cerimedo-Sede-Renovacion-Nacional-01.md",
+      "in_degree": 1,
+      "out_degree": 6,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "TRX-2011-03-10-Pagos-Penta-Wagner-01",
+      "tipo_nodo": "nexo_transaccion",
+      "rut": "",
+      "monto_clp": 42000000,
+      "path": "03_Hechos_y_Nexos/TRX-2011-03-10-Pagos-Penta-Wagner-01.md",
+      "in_degree": 0,
+      "out_degree": 7,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "TRX-2017-03-06-Lavado-Activos-Carabineros-UAF-01",
+      "tipo_nodo": "nexo_transaccion",
+      "rut": "",
+      "monto_clp": 1450000000,
+      "path": "03_Hechos_y_Nexos/TRX-2017-03-06-Lavado-Activos-Carabineros-UAF-01.md",
+      "in_degree": 0,
+      "out_degree": 7,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "TRX-2002-04-12-Facturas-Triangulacion-GATE-SII-01",
+      "tipo_nodo": "nexo_transaccion",
+      "rut": "",
+      "monto_clp": 450000000,
+      "path": "03_Hechos_y_Nexos/TRX-2002-04-12-Facturas-Triangulacion-GATE-SII-01.md",
       "in_degree": 0,
       "out_degree": 7,
       "flujo_emitido_clp": 0,
@@ -1117,17 +1062,6 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Direccion de Inteligencia Policial de Carabineros",
-      "tipo_nodo": "entidad_publica",
-      "rut": "60.506.000-5",
-      "monto_clp": 0,
-      "path": "01_Entidades/Publicas/Direccion de Inteligencia Policial de Carabineros.md",
-      "in_degree": 6,
-      "out_degree": 0,
-      "flujo_emitido_clp": 25000000,
-      "flujo_recibido_clp": 25000000
-    },
-    {
       "id": "Caso Operacion Huracan",
       "tipo_nodo": "causa_judicial",
       "rut": "1800084321-4",
@@ -1150,17 +1084,6 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Caso Megafraude Tributario Operacion Tributos",
-      "tipo_nodo": "causa_judicial",
-      "rut": "RIT-13745-2023-1JG",
-      "monto_clp": 0,
-      "path": "02_Causas/Caso Megafraude Tributario Operacion Tributos.md",
-      "in_degree": 5,
-      "out_degree": 1,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
       "id": "TRX-2019-05-14-Soborno-Luminarias-Chillan-01",
       "tipo_nodo": "nexo_transaccion",
       "rut": "",
@@ -1172,13 +1095,35 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Sentencia-8Juzgado-Garantia-Penta-2018",
-      "tipo_nodo": "evidencia_documental",
+      "id": "TRX-2014-02-18-Soborno-Caval-Machali-01",
+      "tipo_nodo": "nexo_transaccion",
+      "rut": "",
+      "monto_clp": 140000000,
+      "path": "03_Hechos_y_Nexos/TRX-2014-02-18-Soborno-Caval-Machali-01.md",
+      "in_degree": 0,
+      "out_degree": 6,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "TRX-2013-05-20-Mencion-Referencial-Epstein-Dannatt-Velasco-01",
+      "tipo_nodo": "nexo_transaccion",
       "rut": "",
       "monto_clp": 0,
-      "path": "04_Evidencias/Sentencia-8Juzgado-Garantia-Penta-2018.md",
-      "in_degree": 3,
-      "out_degree": 3,
+      "path": "03_Hechos_y_Nexos/TRX-2013-05-20-Mencion-Referencial-Epstein-Dannatt-Velasco-01.md",
+      "in_degree": 0,
+      "out_degree": 6,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "TRX-2015-08-10-Contacto-Academico-Patrocinio-Guendelman-Epstein-01",
+      "tipo_nodo": "nexo_transaccion",
+      "rut": "",
+      "monto_clp": 0,
+      "path": "03_Hechos_y_Nexos/TRX-2015-08-10-Contacto-Academico-Patrocinio-Guendelman-Epstein-01.md",
+      "in_degree": 0,
+      "out_degree": 6,
       "flujo_emitido_clp": 0,
       "flujo_recibido_clp": 0
     },
@@ -1232,6 +1177,17 @@
       "rut": "",
       "monto_clp": 0,
       "path": "04_Evidencias/Desclasificacion-Documentos-DOJ-CasoEpstein-2024.md",
+      "in_degree": 3,
+      "out_degree": 3,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "Sentencia-8Juzgado-Garantia-Penta-2018",
+      "tipo_nodo": "evidencia_documental",
+      "rut": "",
+      "monto_clp": 0,
+      "path": "04_Evidencias/Sentencia-8Juzgado-Garantia-Penta-2018.md",
       "in_degree": 3,
       "out_degree": 3,
       "flujo_emitido_clp": 0,
@@ -1326,15 +1282,15 @@
       "flujo_recibido_clp": 426000000
     },
     {
-      "id": "Camila Flores Oporto",
-      "tipo_nodo": "persona",
-      "rut": "16.428.915-K",
+      "id": "Direccion de Inteligencia Policial de Carabineros",
+      "tipo_nodo": "entidad_publica",
+      "rut": "60.506.000-5",
       "monto_clp": 0,
-      "path": "01_Entidades/Personas/Camila Flores Oporto.md",
-      "in_degree": 4,
-      "out_degree": 1,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 70000000
+      "path": "01_Entidades/Publicas/Direccion de Inteligencia Policial de Carabineros.md",
+      "in_degree": 5,
+      "out_degree": 0,
+      "flujo_emitido_clp": 25000000,
+      "flujo_recibido_clp": 25000000
     },
     {
       "id": "Caso Penta",
@@ -1392,11 +1348,11 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Caso Asignaciones Parlamentarias y Cuota Flores",
+      "id": "Caso Megafraude Tributario Operacion Tributos",
       "tipo_nodo": "causa_judicial",
-      "rut": "RUC-2500819421-2",
+      "rut": "RIT-13745-2023-1JG",
       "monto_clp": 0,
-      "path": "02_Causas/Caso Asignaciones Parlamentarias y Cuota Flores.md",
+      "path": "02_Causas/Caso Megafraude Tributario Operacion Tributos.md",
       "in_degree": 4,
       "out_degree": 1,
       "flujo_emitido_clp": 0,
@@ -1430,17 +1386,6 @@
       "rut": "",
       "monto_clp": 0,
       "path": "04_Evidencias/Querella-SII-Boletas-SQM-2015.md",
-      "in_degree": 2,
-      "out_degree": 3,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
-      "id": "Sentencia-TOP-Santiago-Pacogate-2021",
-      "tipo_nodo": "evidencia_documental",
-      "rut": "",
-      "monto_clp": 0,
-      "path": "04_Evidencias/Sentencia-TOP-Santiago-Pacogate-2021.md",
       "in_degree": 2,
       "out_degree": 3,
       "flujo_emitido_clp": 0,
@@ -1554,17 +1499,6 @@
       "in_degree": 2,
       "out_degree": 3,
       "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
-      "id": "Jose Antonio Pavez Campillay",
-      "tipo_nodo": "persona",
-      "rut": "13.845.921-7",
-      "monto_clp": 0,
-      "path": "01_Entidades/Personas/Jose Antonio Pavez Campillay.md",
-      "in_degree": 4,
-      "out_degree": 0,
-      "flujo_emitido_clp": 265000000000,
       "flujo_recibido_clp": 0
     },
     {
@@ -1975,17 +1909,6 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Informe-BRILAC-PDI-Operacion-Tributos-2023",
-      "tipo_nodo": "evidencia_documental",
-      "rut": "",
-      "monto_clp": 0,
-      "path": "04_Evidencias/Informe-BRILAC-PDI-Operacion-Tributos-2023.md",
-      "in_degree": 1,
-      "out_degree": 3,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
       "id": "Sentencia-Corte-Suprema-Colusion-Pollos-2015",
       "tipo_nodo": "evidencia_documental",
       "rut": "",
@@ -2019,25 +1942,14 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Denuncia-Cibercrimen-PDI-Registros-Intimos-2026",
+      "id": "Veredicto-TOP-Santiago-Pacogate-2026",
       "tipo_nodo": "evidencia_documental",
       "rut": "",
       "monto_clp": 0,
-      "path": "04_Evidencias/Denuncia-Cibercrimen-PDI-Registros-Intimos-2026.md",
-      "in_degree": 1,
-      "out_degree": 3,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
-      "id": "Inversiones y Asesorias Pavez SpA",
-      "tipo_nodo": "entidad_privada",
-      "rut": "77.123.456-9",
-      "monto_clp": 0,
-      "path": "01_Entidades/Privadas/Inversiones y Asesorias Pavez SpA.md",
+      "path": "04_Evidencias/Veredicto-TOP-Santiago-Pacogate-2026.md",
       "in_degree": 2,
-      "out_degree": 1,
-      "flujo_emitido_clp": 265000000000,
+      "out_degree": 2,
+      "flujo_emitido_clp": 0,
       "flujo_recibido_clp": 0
     },
     {
@@ -2173,17 +2085,6 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Mauricio Valero Illanes",
-      "tipo_nodo": "persona",
-      "rut": "9.842.310-9",
-      "monto_clp": 0,
-      "path": "01_Entidades/Personas/Mauricio Valero Illanes.md",
-      "in_degree": 3,
-      "out_degree": 0,
-      "flujo_emitido_clp": 140000000,
-      "flujo_recibido_clp": 2500000000
-    },
-    {
       "id": "Exportadora y de Gestion Caval Ltda",
       "tipo_nodo": "entidad_privada",
       "rut": "76.195.420-2",
@@ -2228,11 +2129,11 @@
       "flujo_recibido_clp": 1990000000
     },
     {
-      "id": "Roberto Lewin Valdivieso",
+      "id": "Hector Pena Veliz",
       "tipo_nodo": "persona",
-      "rut": "7.319.480-6",
+      "rut": "",
       "monto_clp": 0,
-      "path": "01_Entidades/Personas/Roberto Lewin Valdivieso.md",
+      "path": "01_Entidades/Personas/Hector Pena Veliz.md",
       "in_degree": 3,
       "out_degree": 0,
       "flujo_emitido_clp": 450000000,
@@ -2241,7 +2142,7 @@
     {
       "id": "Gestion Ambiental y Territorial SA",
       "tipo_nodo": "entidad_privada",
-      "rut": "96.814.520-7",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Privadas/Gestion Ambiental y Territorial SA.md",
       "in_degree": 2,
@@ -2259,6 +2160,17 @@
       "out_degree": 1,
       "flujo_emitido_clp": 1120000000,
       "flujo_recibido_clp": 0
+    },
+    {
+      "id": "Camila Flores Oporto",
+      "tipo_nodo": "persona",
+      "rut": "16.428.915-K",
+      "monto_clp": 0,
+      "path": "01_Entidades/Personas/Camila Flores Oporto.md",
+      "in_degree": 2,
+      "out_degree": 1,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 70000000
     },
     {
       "id": "Alex Smith Leay",
@@ -2290,17 +2202,6 @@
       "path": "01_Entidades/Personas/Jorge Quiroz Castro.md",
       "in_degree": 3,
       "out_degree": 0,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
-      "id": "Percy Marin Vera",
-      "tipo_nodo": "persona",
-      "rut": "12.948.123-4",
-      "monto_clp": 0,
-      "path": "01_Entidades/Personas/Percy Marin Vera.md",
-      "in_degree": 2,
-      "out_degree": 1,
       "flujo_emitido_clp": 0,
       "flujo_recibido_clp": 0
     },
@@ -2415,6 +2316,17 @@
       "flujo_recibido_clp": 0
     },
     {
+      "id": "Caso Asignaciones Parlamentarias y Cuota Flores",
+      "tipo_nodo": "causa_judicial",
+      "rut": "RUC-2500819421-2",
+      "monto_clp": 0,
+      "path": "02_Causas/Caso Asignaciones Parlamentarias y Cuota Flores.md",
+      "in_degree": 2,
+      "out_degree": 1,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
       "id": "Sentencia-Corte-Suprema-Colusion-PapelTissue-2020",
       "tipo_nodo": "evidencia_documental",
       "rut": "",
@@ -2442,6 +2354,17 @@
       "rut": "",
       "monto_clp": 0,
       "path": "04_Evidencias/Formalizacion-Megafraude-Operacion-Tributos-2023.md",
+      "in_degree": 0,
+      "out_degree": 3,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "Informe-BRILAC-PDI-Operacion-Tributos-2023",
+      "tipo_nodo": "evidencia_documental",
+      "rut": "",
+      "monto_clp": 0,
+      "path": "04_Evidencias/Informe-BRILAC-PDI-Operacion-Tributos-2023.md",
       "in_degree": 0,
       "out_degree": 3,
       "flujo_emitido_clp": 0,
@@ -2523,17 +2446,6 @@
       "out_degree": 0,
       "flujo_emitido_clp": 29798928198,
       "flujo_recibido_clp": 0
-    },
-    {
-      "id": "Comercializadora y Exportadora Global SpA",
-      "tipo_nodo": "entidad_privada",
-      "rut": "76.987.654-5",
-      "monto_clp": 0,
-      "path": "01_Entidades/Privadas/Comercializadora y Exportadora Global SpA.md",
-      "in_degree": 1,
-      "out_degree": 1,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 25000000000
     },
     {
       "id": "Sociedad de Inversiones Pampa Calichera SA",
@@ -2666,6 +2578,17 @@
       "out_degree": 0,
       "flujo_emitido_clp": 0,
       "flujo_recibido_clp": 5300000000
+    },
+    {
+      "id": "Natalia Compagnon Soto",
+      "tipo_nodo": "persona",
+      "rut": "15.324.810-9",
+      "monto_clp": 0,
+      "path": "01_Entidades/Personas/Natalia Compagnon Soto.md",
+      "in_degree": 2,
+      "out_degree": 0,
+      "flujo_emitido_clp": 2500000000,
+      "flujo_recibido_clp": 2500000000
     },
     {
       "id": "Leon Marcelo Lefort Hernandez",
@@ -3053,17 +2976,6 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Ximena Jimenez Faras",
-      "tipo_nodo": "persona",
-      "rut": "11.984.210-7",
-      "monto_clp": 0,
-      "path": "01_Entidades/Personas/Ximena Jimenez Faras.md",
-      "in_degree": 1,
-      "out_degree": 0,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 240000000000
-    },
-    {
       "id": "Manuel Ariztia Ruiz",
       "tipo_nodo": "persona",
       "rut": "3.154.829-2",
@@ -3084,17 +2996,6 @@
       "out_degree": 0,
       "flujo_emitido_clp": 0,
       "flujo_recibido_clp": 28348928198
-    },
-    {
-      "id": "Andres Esteban Galaz Soto",
-      "tipo_nodo": "persona",
-      "rut": "14.210.543-8",
-      "monto_clp": 0,
-      "path": "01_Entidades/Personas/Andres Esteban Galaz Soto.md",
-      "in_degree": 1,
-      "out_degree": 0,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 25000000000
     },
     {
       "id": "Alfredo Ovalle Rodriguez",
@@ -3130,17 +3031,6 @@
       "flujo_recibido_clp": 3200000000
     },
     {
-      "id": "Natalia Compagnon Soto",
-      "tipo_nodo": "persona",
-      "rut": "15.324.810-9",
-      "monto_clp": 0,
-      "path": "01_Entidades/Personas/Natalia Compagnon Soto.md",
-      "in_degree": 1,
-      "out_degree": 0,
-      "flujo_emitido_clp": 2500000000,
-      "flujo_recibido_clp": 0
-    },
-    {
       "id": "Jose Codner Chijner",
       "tipo_nodo": "persona",
       "rut": "3.948.123-5",
@@ -3174,17 +3064,6 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Violacion de Secreto",
-      "tipo_nodo": "tipo_penal",
-      "rut": "",
-      "monto_clp": 0,
-      "path": "00_Meta/Delitos/Violacion de Secreto.md",
-      "in_degree": 1,
-      "out_degree": 0,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
       "id": "Obstruccion a la Investigacion",
       "tipo_nodo": "tipo_penal",
       "rut": "",
@@ -3201,6 +3080,17 @@
       "rut": "8.943.210-3",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Angela Vivanco Martinez.md",
+      "in_degree": 1,
+      "out_degree": 0,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "Mauricio Valero Illanes",
+      "tipo_nodo": "persona",
+      "rut": "9.842.310-9",
+      "monto_clp": 0,
+      "path": "01_Entidades/Personas/Mauricio Valero Illanes.md",
       "in_degree": 1,
       "out_degree": 0,
       "flujo_emitido_clp": 0,
@@ -3258,6 +3148,17 @@
       "path": "01_Entidades/Personas/Guillermo Harding Alvarado.md",
       "in_degree": 1,
       "out_degree": 0,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "Percy Marin Vera",
+      "tipo_nodo": "persona",
+      "rut": "",
+      "monto_clp": 0,
+      "path": "01_Entidades/Personas/Percy Marin Vera.md",
+      "in_degree": 0,
+      "out_degree": 1,
       "flujo_emitido_clp": 0,
       "flujo_recibido_clp": 0
     },
@@ -3328,6 +3229,17 @@
       "flujo_recibido_clp": 0
     },
     {
+      "id": "Violacion de Secreto",
+      "tipo_nodo": "tipo_penal",
+      "rut": "",
+      "monto_clp": 0,
+      "path": "00_Meta/Delitos/Violacion de Secreto.md",
+      "in_degree": 0,
+      "out_degree": 0,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
       "id": "Asociacion Ilicita",
       "tipo_nodo": "tipo_penal",
       "rut": "",
@@ -3363,7 +3275,7 @@
     {
       "id": "Olga Paz Barraza Quezada",
       "tipo_nodo": "persona",
-      "rut": "15.632.187-7",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Olga Paz Barraza Quezada.md",
       "in_degree": 0,
@@ -3372,11 +3284,44 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Juan Alberto Croxatto Romero",
+      "id": "Jose Antonio Pavez Canessa",
       "tipo_nodo": "persona",
-      "rut": "12.489.371-2",
+      "rut": "",
       "monto_clp": 0,
-      "path": "01_Entidades/Personas/Juan Alberto Croxatto Romero.md",
+      "path": "01_Entidades/Personas/Jose Antonio Pavez Canessa.md",
+      "in_degree": 0,
+      "out_degree": 0,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "Juan Victor Galaz Rojas",
+      "tipo_nodo": "persona",
+      "rut": "",
+      "monto_clp": 0,
+      "path": "01_Entidades/Personas/Juan Victor Galaz Rojas.md",
+      "in_degree": 0,
+      "out_degree": 0,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "Osvaldo Mario Luis Sacco Croxatto",
+      "tipo_nodo": "persona",
+      "rut": "",
+      "monto_clp": 0,
+      "path": "01_Entidades/Personas/Osvaldo Mario Luis Sacco Croxatto.md",
+      "in_degree": 0,
+      "out_degree": 0,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "Ximena Tavitxa Jimenez Farias",
+      "tipo_nodo": "persona",
+      "rut": "",
+      "monto_clp": 0,
+      "path": "01_Entidades/Personas/Ximena Tavitxa Jimenez Farias.md",
       "in_degree": 0,
       "out_degree": 0,
       "flujo_emitido_clp": 0,
@@ -4024,7 +3969,7 @@
     },
     {
       "source": "Gestion Ambiental y Territorial SA",
-      "target": "Roberto Lewin Valdivieso",
+      "target": "Hector Pena Veliz",
       "relation": "representante_legal",
       "weight": 1
     },
@@ -4103,18 +4048,6 @@
     {
       "source": "Agencia Central de Inteligencia CIA y Escuela de las Americas",
       "target": "Manuel Contreras Sepulveda",
-      "relation": "representante_legal",
-      "weight": 1
-    },
-    {
-      "source": "Inversiones y Asesorias Pavez SpA",
-      "target": "Jose Antonio Pavez Campillay",
-      "relation": "representante_legal",
-      "weight": 1
-    },
-    {
-      "source": "Comercializadora y Exportadora Global SpA",
-      "target": "Jose Antonio Pavez Campillay",
       "relation": "representante_legal",
       "weight": 1
     },
@@ -4839,48 +4772,6 @@
       "weight": 730000000
     },
     {
-      "source": "TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01",
-      "target": "Direccion de Finanzas de Carabineros",
-      "relation": "entidad_origen",
-      "weight": 28348928198
-    },
-    {
-      "source": "TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01",
-      "target": "Direccion de Finanzas de Carabineros",
-      "relation": "entidad_destino",
-      "weight": 28348928198
-    },
-    {
-      "source": "TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01",
-      "target": "Flavio Echeverria Cortez",
-      "relation": "firmante_origen",
-      "weight": 28348928198
-    },
-    {
-      "source": "TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01",
-      "target": "Jaime Paz Meneses",
-      "relation": "firmante_destino",
-      "weight": 28348928198
-    },
-    {
-      "source": "TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01",
-      "target": "Caso Pacogate",
-      "relation": "causa_vinculada",
-      "weight": 28348928198
-    },
-    {
-      "source": "TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01",
-      "target": "Malversacion de Caudales Publicos",
-      "relation": "delito_imputado",
-      "weight": 28348928198
-    },
-    {
-      "source": "TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01",
-      "target": "Sentencia-TOP-Santiago-Pacogate-2021",
-      "relation": "evidencia_soporte",
-      "weight": 28348928198
-    },
-    {
       "source": "TRX-2014-05-20-Facturas-LeyReservadaCobre-01",
       "target": "Comando de Apoyo a la Fuerza del Ejercito",
       "relation": "entidad_origen",
@@ -5043,48 +4934,6 @@
       "weight": 1260000000
     },
     {
-      "source": "TRX-2011-03-10-Soborno-Penta-Wagner-01",
-      "target": "Empresas Penta SA",
-      "relation": "entidad_origen",
-      "weight": 42000000
-    },
-    {
-      "source": "TRX-2011-03-10-Soborno-Penta-Wagner-01",
-      "target": "Servicio Impuestos Internos",
-      "relation": "entidad_destino",
-      "weight": 42000000
-    },
-    {
-      "source": "TRX-2011-03-10-Soborno-Penta-Wagner-01",
-      "target": "Carlos Eugenio Lavin Garcia-Huidobro",
-      "relation": "firmante_origen",
-      "weight": 42000000
-    },
-    {
-      "source": "TRX-2011-03-10-Soborno-Penta-Wagner-01",
-      "target": "Pablo Wagner San Martin",
-      "relation": "firmante_destino",
-      "weight": 42000000
-    },
-    {
-      "source": "TRX-2011-03-10-Soborno-Penta-Wagner-01",
-      "target": "Cohecho",
-      "relation": "delito_imputado",
-      "weight": 42000000
-    },
-    {
-      "source": "TRX-2011-03-10-Soborno-Penta-Wagner-01",
-      "target": "Caso Penta",
-      "relation": "causa_vinculada",
-      "weight": 42000000
-    },
-    {
-      "source": "TRX-2011-03-10-Soborno-Penta-Wagner-01",
-      "target": "Sentencia-8Juzgado-Garantia-Penta-2018",
-      "relation": "evidencia_soporte",
-      "weight": 42000000
-    },
-    {
       "source": "TRX-2014-02-18-Soborno-Caval-Machali-01",
       "target": "Exportadora y de Gestion Caval Ltda",
       "relation": "entidad_origen",
@@ -5094,12 +4943,6 @@
       "source": "TRX-2014-02-18-Soborno-Caval-Machali-01",
       "target": "Municipalidad de Machali",
       "relation": "entidad_destino",
-      "weight": 140000000
-    },
-    {
-      "source": "TRX-2014-02-18-Soborno-Caval-Machali-01",
-      "target": "Mauricio Valero Illanes",
-      "relation": "firmante_origen",
       "weight": 140000000
     },
     {
@@ -5146,7 +4989,7 @@
     },
     {
       "source": "TRX-2015-01-29-Facturas-Falsas-Caval-SII-01",
-      "target": "Mauricio Valero Illanes",
+      "target": "Natalia Compagnon Soto",
       "relation": "firmante_destino",
       "weight": 2500000000
     },
@@ -5167,90 +5010,6 @@
       "target": "Sentencia-TOP-Rancagua-Caval-2018",
       "relation": "evidencia_soporte",
       "weight": 2500000000
-    },
-    {
-      "source": "TRX-2001-08-20-Contratos-Simulados-MOP-GESCAM-01",
-      "target": "Ministerio de Obras Publicas",
-      "relation": "entidad_origen",
-      "weight": 1253000000
-    },
-    {
-      "source": "TRX-2001-08-20-Contratos-Simulados-MOP-GESCAM-01",
-      "target": "Gestion Ambiental y Territorial SA",
-      "relation": "entidad_destino",
-      "weight": 1253000000
-    },
-    {
-      "source": "TRX-2001-08-20-Contratos-Simulados-MOP-GESCAM-01",
-      "target": "Carlos Cruz Lorenzen",
-      "relation": "firmante_origen",
-      "weight": 1253000000
-    },
-    {
-      "source": "TRX-2001-08-20-Contratos-Simulados-MOP-GESCAM-01",
-      "target": "Roberto Lewin Valdivieso",
-      "relation": "firmante_destino",
-      "weight": 1253000000
-    },
-    {
-      "source": "TRX-2001-08-20-Contratos-Simulados-MOP-GESCAM-01",
-      "target": "Fraude al Fisco",
-      "relation": "delito_imputado",
-      "weight": 1253000000
-    },
-    {
-      "source": "TRX-2001-08-20-Contratos-Simulados-MOP-GESCAM-01",
-      "target": "Caso MOP-Gate",
-      "relation": "causa_vinculada",
-      "weight": 1253000000
-    },
-    {
-      "source": "TRX-2001-08-20-Contratos-Simulados-MOP-GESCAM-01",
-      "target": "Sentencia-Corte-Suprema-MOPGate-2016",
-      "relation": "evidencia_soporte",
-      "weight": 1253000000
-    },
-    {
-      "source": "TRX-2002-04-12-Facturas-Triangulacion-GESCAM-SII-01",
-      "target": "Gestion Ambiental y Territorial SA",
-      "relation": "entidad_origen",
-      "weight": 450000000
-    },
-    {
-      "source": "TRX-2002-04-12-Facturas-Triangulacion-GESCAM-SII-01",
-      "target": "Servicio Impuestos Internos",
-      "relation": "entidad_destino",
-      "weight": 450000000
-    },
-    {
-      "source": "TRX-2002-04-12-Facturas-Triangulacion-GESCAM-SII-01",
-      "target": "Roberto Lewin Valdivieso",
-      "relation": "firmante_origen",
-      "weight": 450000000
-    },
-    {
-      "source": "TRX-2002-04-12-Facturas-Triangulacion-GESCAM-SII-01",
-      "target": "Carlos Cruz Lorenzen",
-      "relation": "firmante_destino",
-      "weight": 450000000
-    },
-    {
-      "source": "TRX-2002-04-12-Facturas-Triangulacion-GESCAM-SII-01",
-      "target": "Delito Tributario",
-      "relation": "delito_imputado",
-      "weight": 450000000
-    },
-    {
-      "source": "TRX-2002-04-12-Facturas-Triangulacion-GESCAM-SII-01",
-      "target": "Caso MOP-Gate",
-      "relation": "causa_vinculada",
-      "weight": 450000000
-    },
-    {
-      "source": "TRX-2002-04-12-Facturas-Triangulacion-GESCAM-SII-01",
-      "target": "Sentencia-Corte-Suprema-MOPGate-2016",
-      "relation": "evidencia_soporte",
-      "weight": 450000000
     },
     {
       "source": "TRX-2010-11-15-Soborno-Licitacion-Basura-Maipu-01",
@@ -5419,48 +5178,6 @@
       "target": "Auto-Procesamiento-Ministra-Rutherford-2019",
       "relation": "evidencia_soporte",
       "weight": 3500000000
-    },
-    {
-      "source": "TRX-2017-03-06-Lavado-Activos-Carabineros-UAF-01",
-      "target": "Direccion de Finanzas de Carabineros",
-      "relation": "entidad_origen",
-      "weight": 1450000000
-    },
-    {
-      "source": "TRX-2017-03-06-Lavado-Activos-Carabineros-UAF-01",
-      "target": "Unidad de Analisis Financiero",
-      "relation": "entidad_destino",
-      "weight": 1450000000
-    },
-    {
-      "source": "TRX-2017-03-06-Lavado-Activos-Carabineros-UAF-01",
-      "target": "Flavio Echeverria Cortez",
-      "relation": "firmante_origen",
-      "weight": 1450000000
-    },
-    {
-      "source": "TRX-2017-03-06-Lavado-Activos-Carabineros-UAF-01",
-      "target": "Javier Cruz Tamburrino",
-      "relation": "firmante_destino",
-      "weight": 1450000000
-    },
-    {
-      "source": "TRX-2017-03-06-Lavado-Activos-Carabineros-UAF-01",
-      "target": "Lavado de Activos",
-      "relation": "delito_imputado",
-      "weight": 1450000000
-    },
-    {
-      "source": "TRX-2017-03-06-Lavado-Activos-Carabineros-UAF-01",
-      "target": "Caso Pacogate",
-      "relation": "causa_vinculada",
-      "weight": 1450000000
-    },
-    {
-      "source": "TRX-2017-03-06-Lavado-Activos-Carabineros-UAF-01",
-      "target": "Sentencia-TOP-Santiago-Pacogate-2021",
-      "relation": "evidencia_soporte",
-      "weight": 1450000000
     },
     {
       "source": "TRX-2023-01-20-Compraventa-Clinica-SierraBella-01",
@@ -6586,12 +6303,6 @@
     },
     {
       "source": "TRX-2015-11-14-Mencion-Indirecta-Epstein-BinSulayem-Luksic-01",
-      "target": "Trafico de Influencias",
-      "relation": "delito_imputado",
-      "weight": 0
-    },
-    {
-      "source": "TRX-2015-11-14-Mencion-Indirecta-Epstein-BinSulayem-Luksic-01",
       "target": "Desclasificacion-Documentos-DOJ-CasoEpstein-2024",
       "relation": "evidencia_soporte",
       "weight": 0
@@ -6628,12 +6339,6 @@
     },
     {
       "source": "TRX-2013-05-20-Mencion-Referencial-Epstein-Dannatt-Velasco-01",
-      "target": "Trafico de Influencias",
-      "relation": "delito_imputado",
-      "weight": 0
-    },
-    {
-      "source": "TRX-2013-05-20-Mencion-Referencial-Epstein-Dannatt-Velasco-01",
       "target": "Desclasificacion-Documentos-DOJ-CasoEpstein-2024",
       "relation": "evidencia_soporte",
       "weight": 0
@@ -6666,12 +6371,6 @@
       "source": "TRX-2015-08-10-Contacto-Academico-Patrocinio-Guendelman-Epstein-01",
       "target": "Caso Archivos Epstein Menciones Chile",
       "relation": "causa_vinculada",
-      "weight": 0
-    },
-    {
-      "source": "TRX-2015-08-10-Contacto-Academico-Patrocinio-Guendelman-Epstein-01",
-      "target": "Trafico de Influencias",
-      "relation": "delito_imputado",
       "weight": 0
     },
     {
@@ -7018,26 +6717,8 @@
     },
     {
       "source": "TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01",
-      "target": "Inversiones y Asesorias Pavez SpA",
-      "relation": "entidad_origen",
-      "weight": 240000000000
-    },
-    {
-      "source": "TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01",
       "target": "Servicio Impuestos Internos",
       "relation": "entidad_destino",
-      "weight": 240000000000
-    },
-    {
-      "source": "TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01",
-      "target": "Jose Antonio Pavez Campillay",
-      "relation": "firmante_origen",
-      "weight": 240000000000
-    },
-    {
-      "source": "TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01",
-      "target": "Ximena Jimenez Faras",
-      "relation": "firmante_destino",
       "weight": 240000000000
     },
     {
@@ -7057,48 +6738,6 @@
       "target": "Querella-SII-Megafraude-Tributario-2023",
       "relation": "evidencia_soporte",
       "weight": 240000000000
-    },
-    {
-      "source": "TRX-2023-12-15-Lavado-Activos-Bienes-Inmuebles-Clan-Pavez-01",
-      "target": "Inversiones y Asesorias Pavez SpA",
-      "relation": "entidad_origen",
-      "weight": 25000000000
-    },
-    {
-      "source": "TRX-2023-12-15-Lavado-Activos-Bienes-Inmuebles-Clan-Pavez-01",
-      "target": "Comercializadora y Exportadora Global SpA",
-      "relation": "entidad_destino",
-      "weight": 25000000000
-    },
-    {
-      "source": "TRX-2023-12-15-Lavado-Activos-Bienes-Inmuebles-Clan-Pavez-01",
-      "target": "Jose Antonio Pavez Campillay",
-      "relation": "firmante_origen",
-      "weight": 25000000000
-    },
-    {
-      "source": "TRX-2023-12-15-Lavado-Activos-Bienes-Inmuebles-Clan-Pavez-01",
-      "target": "Andres Esteban Galaz Soto",
-      "relation": "firmante_destino",
-      "weight": 25000000000
-    },
-    {
-      "source": "TRX-2023-12-15-Lavado-Activos-Bienes-Inmuebles-Clan-Pavez-01",
-      "target": "Caso Megafraude Tributario Operacion Tributos",
-      "relation": "causa_vinculada",
-      "weight": 25000000000
-    },
-    {
-      "source": "TRX-2023-12-15-Lavado-Activos-Bienes-Inmuebles-Clan-Pavez-01",
-      "target": "Lavado de Activos",
-      "relation": "delito_imputado",
-      "weight": 25000000000
-    },
-    {
-      "source": "TRX-2023-12-15-Lavado-Activos-Bienes-Inmuebles-Clan-Pavez-01",
-      "target": "Informe-BRILAC-PDI-Operacion-Tributos-2023",
-      "relation": "evidencia_soporte",
-      "weight": 25000000000
     },
     {
       "source": "TRX-2008-01-15-Pacto-Cuotas-Produccion-Cartel-Pollos-01",
@@ -7300,12 +6939,6 @@
     },
     {
       "source": "TRX-2022-09-04-Presencia-Cerimedo-Sede-Renovacion-Nacional-01",
-      "target": "Fraude al Fisco",
-      "relation": "delito_imputado",
-      "weight": 0
-    },
-    {
-      "source": "TRX-2022-09-04-Presencia-Cerimedo-Sede-Renovacion-Nacional-01",
       "target": "Fotografia-Cerimedo-Sede-Renovacion-Nacional-2022",
       "relation": "evidencia_soporte",
       "weight": 0
@@ -7353,46 +6986,214 @@
       "weight": 35000000
     },
     {
-      "source": "TRX-2026-06-20-Extraccion-Difusion-Ilicita-Registros-Intimos-01",
-      "target": "Percy Marin Vera",
+      "source": "TRX-2011-03-10-Pagos-Penta-Wagner-01",
+      "target": "Empresas Penta SA",
       "relation": "entidad_origen",
-      "weight": 0
+      "weight": 42000000
     },
     {
-      "source": "TRX-2026-06-20-Extraccion-Difusion-Ilicita-Registros-Intimos-01",
-      "target": "Camila Flores Oporto",
+      "source": "TRX-2011-03-10-Pagos-Penta-Wagner-01",
+      "target": "Servicio Impuestos Internos",
       "relation": "entidad_destino",
-      "weight": 0
+      "weight": 42000000
     },
     {
-      "source": "TRX-2026-06-20-Extraccion-Difusion-Ilicita-Registros-Intimos-01",
-      "target": "Percy Marin Vera",
+      "source": "TRX-2011-03-10-Pagos-Penta-Wagner-01",
+      "target": "Carlos Eugenio Lavin Garcia-Huidobro",
       "relation": "firmante_origen",
-      "weight": 0
+      "weight": 42000000
     },
     {
-      "source": "TRX-2026-06-20-Extraccion-Difusion-Ilicita-Registros-Intimos-01",
-      "target": "Camila Flores Oporto",
+      "source": "TRX-2011-03-10-Pagos-Penta-Wagner-01",
+      "target": "Pablo Wagner San Martin",
       "relation": "firmante_destino",
-      "weight": 0
+      "weight": 42000000
     },
     {
-      "source": "TRX-2026-06-20-Extraccion-Difusion-Ilicita-Registros-Intimos-01",
-      "target": "Caso Asignaciones Parlamentarias y Cuota Flores",
-      "relation": "causa_vinculada",
-      "weight": 0
-    },
-    {
-      "source": "TRX-2026-06-20-Extraccion-Difusion-Ilicita-Registros-Intimos-01",
-      "target": "Violacion de Secreto",
+      "source": "TRX-2011-03-10-Pagos-Penta-Wagner-01",
+      "target": "Delito Tributario",
       "relation": "delito_imputado",
-      "weight": 0
+      "weight": 42000000
     },
     {
-      "source": "TRX-2026-06-20-Extraccion-Difusion-Ilicita-Registros-Intimos-01",
-      "target": "Denuncia-Cibercrimen-PDI-Registros-Intimos-2026",
+      "source": "TRX-2011-03-10-Pagos-Penta-Wagner-01",
+      "target": "Caso Penta",
+      "relation": "causa_vinculada",
+      "weight": 42000000
+    },
+    {
+      "source": "TRX-2011-03-10-Pagos-Penta-Wagner-01",
+      "target": "Sentencia-8Juzgado-Garantia-Penta-2018",
       "relation": "evidencia_soporte",
-      "weight": 0
+      "weight": 42000000
+    },
+    {
+      "source": "TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01",
+      "target": "Direccion de Finanzas de Carabineros",
+      "relation": "entidad_origen",
+      "weight": 28348928198
+    },
+    {
+      "source": "TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01",
+      "target": "Direccion de Finanzas de Carabineros",
+      "relation": "entidad_destino",
+      "weight": 28348928198
+    },
+    {
+      "source": "TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01",
+      "target": "Flavio Echeverria Cortez",
+      "relation": "firmante_origen",
+      "weight": 28348928198
+    },
+    {
+      "source": "TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01",
+      "target": "Jaime Paz Meneses",
+      "relation": "firmante_destino",
+      "weight": 28348928198
+    },
+    {
+      "source": "TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01",
+      "target": "Caso Pacogate",
+      "relation": "causa_vinculada",
+      "weight": 28348928198
+    },
+    {
+      "source": "TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01",
+      "target": "Malversacion de Caudales Publicos",
+      "relation": "delito_imputado",
+      "weight": 28348928198
+    },
+    {
+      "source": "TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01",
+      "target": "Veredicto-TOP-Santiago-Pacogate-2026",
+      "relation": "evidencia_soporte",
+      "weight": 28348928198
+    },
+    {
+      "source": "TRX-2017-03-06-Lavado-Activos-Carabineros-UAF-01",
+      "target": "Direccion de Finanzas de Carabineros",
+      "relation": "entidad_origen",
+      "weight": 1450000000
+    },
+    {
+      "source": "TRX-2017-03-06-Lavado-Activos-Carabineros-UAF-01",
+      "target": "Unidad de Analisis Financiero",
+      "relation": "entidad_destino",
+      "weight": 1450000000
+    },
+    {
+      "source": "TRX-2017-03-06-Lavado-Activos-Carabineros-UAF-01",
+      "target": "Flavio Echeverria Cortez",
+      "relation": "firmante_origen",
+      "weight": 1450000000
+    },
+    {
+      "source": "TRX-2017-03-06-Lavado-Activos-Carabineros-UAF-01",
+      "target": "Javier Cruz Tamburrino",
+      "relation": "firmante_destino",
+      "weight": 1450000000
+    },
+    {
+      "source": "TRX-2017-03-06-Lavado-Activos-Carabineros-UAF-01",
+      "target": "Lavado de Activos",
+      "relation": "delito_imputado",
+      "weight": 1450000000
+    },
+    {
+      "source": "TRX-2017-03-06-Lavado-Activos-Carabineros-UAF-01",
+      "target": "Caso Pacogate",
+      "relation": "causa_vinculada",
+      "weight": 1450000000
+    },
+    {
+      "source": "TRX-2017-03-06-Lavado-Activos-Carabineros-UAF-01",
+      "target": "Veredicto-TOP-Santiago-Pacogate-2026",
+      "relation": "evidencia_soporte",
+      "weight": 1450000000
+    },
+    {
+      "source": "TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01",
+      "target": "Ministerio de Obras Publicas",
+      "relation": "entidad_origen",
+      "weight": 1253000000
+    },
+    {
+      "source": "TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01",
+      "target": "Gestion Ambiental y Territorial SA",
+      "relation": "entidad_destino",
+      "weight": 1253000000
+    },
+    {
+      "source": "TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01",
+      "target": "Carlos Cruz Lorenzen",
+      "relation": "firmante_origen",
+      "weight": 1253000000
+    },
+    {
+      "source": "TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01",
+      "target": "Hector Pena Veliz",
+      "relation": "firmante_destino",
+      "weight": 1253000000
+    },
+    {
+      "source": "TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01",
+      "target": "Fraude al Fisco",
+      "relation": "delito_imputado",
+      "weight": 1253000000
+    },
+    {
+      "source": "TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01",
+      "target": "Caso MOP-Gate",
+      "relation": "causa_vinculada",
+      "weight": 1253000000
+    },
+    {
+      "source": "TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01",
+      "target": "Sentencia-Corte-Suprema-MOPGate-2016",
+      "relation": "evidencia_soporte",
+      "weight": 1253000000
+    },
+    {
+      "source": "TRX-2002-04-12-Facturas-Triangulacion-GATE-SII-01",
+      "target": "Gestion Ambiental y Territorial SA",
+      "relation": "entidad_origen",
+      "weight": 450000000
+    },
+    {
+      "source": "TRX-2002-04-12-Facturas-Triangulacion-GATE-SII-01",
+      "target": "Servicio Impuestos Internos",
+      "relation": "entidad_destino",
+      "weight": 450000000
+    },
+    {
+      "source": "TRX-2002-04-12-Facturas-Triangulacion-GATE-SII-01",
+      "target": "Hector Pena Veliz",
+      "relation": "firmante_origen",
+      "weight": 450000000
+    },
+    {
+      "source": "TRX-2002-04-12-Facturas-Triangulacion-GATE-SII-01",
+      "target": "Carlos Cruz Lorenzen",
+      "relation": "firmante_destino",
+      "weight": 450000000
+    },
+    {
+      "source": "TRX-2002-04-12-Facturas-Triangulacion-GATE-SII-01",
+      "target": "Delito Tributario",
+      "relation": "delito_imputado",
+      "weight": 450000000
+    },
+    {
+      "source": "TRX-2002-04-12-Facturas-Triangulacion-GATE-SII-01",
+      "target": "Caso MOP-Gate",
+      "relation": "causa_vinculada",
+      "weight": 450000000
+    },
+    {
+      "source": "TRX-2002-04-12-Facturas-Triangulacion-GATE-SII-01",
+      "target": "Sentencia-Corte-Suprema-MOPGate-2016",
+      "relation": "evidencia_soporte",
+      "weight": 450000000
     },
     {
       "source": "Resolucion-Exenta-MINVU-Antofagasta-2022",
@@ -7521,24 +7322,6 @@
       "weight": 1
     },
     {
-      "source": "Sentencia-TOP-Santiago-Pacogate-2021",
-      "target": "Corte Suprema de Chile",
-      "relation": "organismo_emisor",
-      "weight": 1
-    },
-    {
-      "source": "Sentencia-TOP-Santiago-Pacogate-2021",
-      "target": "Caso Pacogate",
-      "relation": "causa_vinculada",
-      "weight": 1
-    },
-    {
-      "source": "Sentencia-TOP-Santiago-Pacogate-2021",
-      "target": "TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01",
-      "relation": "nexo_respaldado",
-      "weight": 1
-    },
-    {
       "source": "Auto-Procesamiento-Ministra-Rutherford-2019",
       "target": "Corte Suprema de Chile",
       "relation": "organismo_emisor",
@@ -7575,24 +7358,6 @@
       "weight": 1
     },
     {
-      "source": "Sentencia-8Juzgado-Garantia-Penta-2018",
-      "target": "Corte Suprema de Chile",
-      "relation": "organismo_emisor",
-      "weight": 1
-    },
-    {
-      "source": "Sentencia-8Juzgado-Garantia-Penta-2018",
-      "target": "Caso Penta",
-      "relation": "causa_vinculada",
-      "weight": 1
-    },
-    {
-      "source": "Sentencia-8Juzgado-Garantia-Penta-2018",
-      "target": "TRX-2013-07-15-Boletas-Falsas-Penta-UDI-01",
-      "relation": "nexo_respaldado",
-      "weight": 1
-    },
-    {
       "source": "Sentencia-TOP-Rancagua-Caval-2018",
       "target": "Corte Suprema de Chile",
       "relation": "organismo_emisor",
@@ -7624,7 +7389,7 @@
     },
     {
       "source": "Sentencia-Corte-Suprema-MOPGate-2016",
-      "target": "TRX-2001-08-20-Contratos-Simulados-MOP-GESCAM-01",
+      "target": "TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01",
       "relation": "nexo_respaldado",
       "weight": 1
     },
@@ -8038,7 +7803,7 @@
     },
     {
       "source": "Informe-BRILAC-PDI-Operacion-Tributos-2023",
-      "target": "TRX-2023-12-15-Lavado-Activos-Bienes-Inmuebles-Clan-Pavez-01",
+      "target": "TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01",
       "relation": "nexo_respaldado",
       "weight": 1
     },
@@ -8133,20 +7898,32 @@
       "weight": 1
     },
     {
-      "source": "Denuncia-Cibercrimen-PDI-Registros-Intimos-2026",
-      "target": "Direccion de Inteligencia Policial de Carabineros",
+      "source": "Sentencia-8Juzgado-Garantia-Penta-2018",
+      "target": "Corte Suprema de Chile",
       "relation": "organismo_emisor",
       "weight": 1
     },
     {
-      "source": "Denuncia-Cibercrimen-PDI-Registros-Intimos-2026",
-      "target": "Caso Asignaciones Parlamentarias y Cuota Flores",
+      "source": "Sentencia-8Juzgado-Garantia-Penta-2018",
+      "target": "Caso Penta",
       "relation": "causa_vinculada",
       "weight": 1
     },
     {
-      "source": "Denuncia-Cibercrimen-PDI-Registros-Intimos-2026",
-      "target": "TRX-2026-06-20-Extraccion-Difusion-Ilicita-Registros-Intimos-01",
+      "source": "Sentencia-8Juzgado-Garantia-Penta-2018",
+      "target": "TRX-2013-07-15-Boletas-Falsas-Penta-UDI-01",
+      "relation": "nexo_respaldado",
+      "weight": 1
+    },
+    {
+      "source": "Veredicto-TOP-Santiago-Pacogate-2026",
+      "target": "Caso Pacogate",
+      "relation": "causa_vinculada",
+      "weight": 1
+    },
+    {
+      "source": "Veredicto-TOP-Santiago-Pacogate-2026",
+      "target": "TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01",
       "relation": "nexo_respaldado",
       "weight": 1
     }

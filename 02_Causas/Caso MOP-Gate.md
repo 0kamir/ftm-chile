@@ -21,7 +21,7 @@ fuentes:
     fecha: 2010-07-01
     consultado: 2026-10-19
 alertas_verificacion:
-  - "La prensa identifica a la empresa como GATE (Gestión Ambiental y Territorial S.A.). El vault usa 'GESCAM' en TRX-2001-08-20 y TRX-2002-04-12: verificar nombre."
+  - "Corregido el 2026-10-19: la empresa es GATE y su dueño condenado es Héctor Peña Véliz; se retiró 'Roberto Lewin Valdivieso' por falta de fuente."
 tags:
   - causa
   - sobresueldos
@@ -39,7 +39,7 @@ tags:
 - **Delito Principal**: `= this.delito_principal` (en concurso con [[Delito Tributario]])
 
 ## Síntesis Forense de la Causa
-Investigación judicial instruida por la Ministra en Visita Extraordinaria Gloria Ana Chevesich Ruiz y ratificada por la [[Corte Suprema de Chile]] ([[Sentencia-Corte-Suprema-MOPGate-2016]]) que desarticuló una red de triangulación de fondos públicos en el [[Ministerio de Obras Publicas]] encabezada por su entonces titular [[Carlos Cruz Lorenzen]] (militante del [[Partido Socialista de Chile]]). El esquema operaba mediante el abultamiento artificial de contratos de asesoría e ingeniería adjudicados a la consultora [[Gestion Ambiental y Territorial SA]] (GESCAM S.A., representada por [[Roberto Lewin Valdivieso]]), cuyos excedentes retornaban para financiar sobresueldos de altos directivos ministeriales ([[TRX-2001-08-20-Contratos-Simulados-MOP-GESCAM-01]]) respaldados con facturación ideológicamente falsa ante el [[Servicio Impuestos Internos]] ([[TRX-2002-04-12-Facturas-Triangulacion-GESCAM-SII-01]]).
+Investigación judicial instruida por la Ministra en Visita Extraordinaria Gloria Ana Chevesich Ruiz y ratificada por la [[Corte Suprema de Chile]] ([[Sentencia-Corte-Suprema-MOPGate-2016]]) que desarticuló una red de triangulación de fondos públicos en el [[Ministerio de Obras Publicas]] encabezada por su entonces titular [[Carlos Cruz Lorenzen]] (militante del [[Partido Socialista de Chile]]). El esquema operaba mediante el abultamiento artificial de contratos de asesoría e ingeniería adjudicados a la consultora [[Gestion Ambiental y Territorial SA]] (GATE, de propiedad de [[Hector Pena Veliz]]), cuyos excedentes retornaban para financiar sobresueldos de altos directivos ministeriales ([[TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01]]) respaldados con facturación ideológicamente falsa ante el [[Servicio Impuestos Internos]] ([[TRX-2002-04-12-Facturas-Triangulacion-GATE-SII-01]]).
 
 ## Transacciones y Nexos Reificados Vinculados
 ```dataview

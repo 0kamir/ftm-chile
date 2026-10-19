@@ -35,7 +35,7 @@ tags:
 - **Nexo Respaldado**: `= this.nexo_respaldado`
 
 ## Contenido Probatorio y Relevancia
-Resolución del 1° Juzgado de Garantía de Santiago tras una maratónica audiencia de formalización de cargos contra 55 imputados por los delitos de asociación ilícita, fraude al Fisco, delitos tributarios reiterados y lavado de activos. El tribunal decretó la prisión preventiva de más de 30 cabecillas y operadores principales, incluyendo a [[Jose Antonio Pavez Campillay]], [[Ximena Jimenez Faras]], [[Andres Esteban Galaz Soto]], [[Olga Paz Barraza Quezada]] y [[Juan Alberto Croxatto Romero]], ordenando el embargo y retención preventiva de bienes muebles, inmuebles y cuentas bancarias.
+Audiencia de formalización ante el 1° Juzgado de Garantía de Santiago (diciembre de 2023) de 55 imputados por delitos tributarios, asociación ilícita, lavado de activos y declaración maliciosamente falsa en la exportación. La Fiscalía pidió prisión preventiva para 26 de ellos. El listado de imputados fue publicado por la prensa; el acta no está disponible públicamente.
 
 ## Fuentes Verificables
 ```dataview

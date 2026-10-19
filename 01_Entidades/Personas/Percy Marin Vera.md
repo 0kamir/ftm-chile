@@ -1,13 +1,29 @@
 ---
 tipo_nodo: persona
-rut: "12.948.123-4"
+rut: ""
 aliases:
   - "Percy Marin"
   - "Percy Marin Vera"
 rol_principal: "Ex Consejero Regional (CORE) de Valparaíso por Renovación Nacional"
 afiliacion_politica: "[[Renovacion Nacional]]"
-situacion_procesal: investigado
-medida_cautelar: "Obligado por la Contraloría a restituir viáticos indebidos; allanado por la PDI por denuncia de difusión no consentida de registros íntimos"
+situacion_procesal: ninguna
+medida_cautelar: "Juicio de cuentas iniciado por la Contraloría (2020) por viáticos objetados; sin imputación penal conocida"
+estado_verificacion: parcial
+fuentes:
+  - url: "https://www.biobiochile.cl/noticias/nacional/region-de-valparaiso/2020/01/17/contraloria-iniciara-juicio-de-cuentas-contra-percy-marin-cifra-indagada-de-mas-de-9-millones.shtml"
+    titulo: "Contraloría iniciará juicio de cuentas contra Percy Marín: cifra indagada de más de 9 millones"
+    medio: "BioBioChile"
+    tipo: secundaria
+    fecha: 2020-01-17
+    consultado: 2026-10-19
+  - url: "https://www.biobiochile.cl/noticias/nacional/region-de-valparaiso/2020/06/16/rn-solicita-sanciones-expulsion-al-consejero-regional-percy-marin.shtml"
+    titulo: "RN solicita sanciones y expulsión al consejero regional Percy Marín"
+    medio: "BioBioChile"
+    tipo: secundaria
+    fecha: 2020-06-16
+    consultado: 2026-10-19
+alertas_verificacion:
+  - "Se retiró la arista de registros íntimos (2026-10-19): asunto de vida privada sin formalización. RUT eliminado por no constar en fuente pública."
 tags:
   - entidad/persona
   - ex-core
@@ -27,10 +43,9 @@ tags:
 - **Medidas Cautelares / Sanciones Administrativas**: `= this.medida_cautelar`
 
 ## Síntesis Forense y Casos Vinculados
-Dirigente político de [[Renovacion Nacional]] en la Región de Valparaíso, donde se desempeñó como consejero regional (CORE) y presidente del Consejo Regional. Exmarido de la senadora [[Camila Flores Oporto]].
+Dirigente político de [[Renovacion Nacional]] en la Región de Valparaíso, donde fue consejero regional (CORE) y presidente del Consejo Regional.
 
-1. **Sanción y Reparos de la Contraloría por Viáticos**: La Contraloría General de la República (CGR) determinó que percibió indebidamente millones de pesos por concepto de viáticos y asignaciones de combustible al fijar un domicilio particular ficticio alejado de la sede regional, obligándolo a reintegrar los fondos públicos mal percibidos.
-2. **Denuncia Penal y Allanamiento por Difusión de Registros Íntimos**: En el marco del [[Caso Asignaciones Parlamentarias y Cuota Flores]], fue denunciado penalmente ante la Brigada del Cibercrimen de la Policía de Investigaciones (PDI) por la presunta extracción no autorizada y difusión masiva de registros audiovisuales privados de su expareja Camila Flores obtenidos desde cámaras de seguridad del domicilio común ([[TRX-2026-06-20-Extraccion-Difusion-Ilicita-Registros-Intimos-01]]), diligencia que motivó el allanamiento de su residencia por parte de la PDI ([[Denuncia-Cibercrimen-PDI-Registros-Intimos-2026]]).
+**Reparo de la Contraloría por viáticos:** una auditoría de la Contraloría al Consejo Regional de Valparaíso objetó el cobro de más de $9 millones en viáticos y combustible por no acreditar su residencia, y en 2020 inició un juicio de cuentas para su restitución. Su defensa sostuvo que había pedido renunciar a los viáticos y que quedaban recursos pendientes. En junio de 2020 el Tribunal Regional de RN lo suspendió del partido. No se encontró información sobre el resultado final del juicio de cuentas.
 
 ## Auditoría Contable: Registros Reificados
 ```dataviewjs
@@ -50,4 +65,16 @@ dv.table(
     p.causa_vinculada
   ])
 );
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```

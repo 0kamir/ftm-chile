@@ -35,7 +35,7 @@ tags:
 - **Nexo Respaldado**: `= this.nexo_respaldado`
 
 ## Contenido Probatorio y Relevancia
-Querella criminal interpuesta por el [[Servicio Impuestos Internos]] ante el 1° Juzgado de Garantía de Santiago en contra de [[Jose Antonio Pavez Campillay]], [[Ximena Jimenez Faras]], [[Andres Esteban Galaz Soto]], [[Olga Paz Barraza Quezada]], [[Juan Alberto Croxatto Romero]] y más de medio centenar de empresarios y contadores. La acción denuncia la comisión sistemática y reiterada de los delitos tipificados en el artículo 97 N° 4 incisos 1 y 2 del Código Tributario, consistente en la facilitación de más de 100.000 facturas falsas y la obtención fraudulenta de devoluciones tributarias con un perjuicio fiscal directo consolidado superior a los $240.000 millones de pesos.
+Querella del [[Servicio Impuestos Internos]] ante el 1° Juzgado de Garantía de Santiago que, junto a la acción de Aduanas, dio origen a la investigación de la Fiscalía Metropolitana Occidente (fiscal Eduardo Baeza) y la BRILAC de la PDI. Según el SII, el mecanismo operó con más de 100.000 facturas falsas y un perjuicio estimado de $240.000 millones. El texto de la querella no está publicado; su contenido se conoce por la prensa.
 
 ## Fuentes Verificables
 ```dataview

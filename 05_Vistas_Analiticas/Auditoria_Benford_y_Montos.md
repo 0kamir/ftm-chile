@@ -10,8 +10,8 @@ tags:
 
 # Auditoría Estadística Forense: Ley de Benford y Sesgo de Redondeo
 
-- **Operaciones Monetarias Analizadas (`monto_clp > 0`)**: **57**
-- **Operaciones con Monto Redondo Discrecional (Múltiplos de `$10.000.000 CLP`)**: **44 de 57 (77.2%)**
+- **Operaciones Monetarias Analizadas (`monto_clp > 0`)**: **56**
+- **Operaciones con Monto Redondo Discrecional (Múltiplos de `$10.000.000 CLP`)**: **43 de 56 (76.8%)**
 
 ---
 
@@ -22,21 +22,21 @@ xychart-beta
   title "Distribución del Primer Dígito: Observado (%) vs. Teórico Benford (%)"
   x-axis ["Dígito 1", "Dígito 2", "Dígito 3", "Dígito 4", "Dígito 5", "Dígito 6", "Dígito 7", "Dígito 8", "Dígito 9"]
   y-axis "Frecuencia (%)" 0 --> 45
-  bar [31.6, 26.3, 15.8, 7.0, 5.3, 1.8, 5.3, 3.5, 3.5]
+  bar [32.1, 25.0, 16.1, 7.1, 5.4, 1.8, 5.4, 3.6, 3.6]
   line [30.1, 17.6, 12.5, 9.7, 7.9, 6.7, 5.8, 5.1, 4.6]
 ```
 
 | Primer Dígito ($d$) | Conteo Observado | Frecuencia Observada (%) | Frecuencia Esperada Benford (%) | Desviación ($\Delta$) |
 | :---: | :---: | ---: | ---: | ---: |
-| **1** | 18 | 31.6% | 30.1% | `+1.5%` |
-| **2** | 15 | 26.3% | 17.6% | `+8.7%` |
-| **3** | 9 | 15.8% | 12.5% | `+3.3%` |
-| **4** | 4 | 7.0% | 9.7% | `-2.7%` |
-| **5** | 3 | 5.3% | 7.9% | `-2.6%` |
+| **1** | 18 | 32.1% | 30.1% | `+2.0%` |
+| **2** | 14 | 25.0% | 17.6% | `+7.4%` |
+| **3** | 9 | 16.1% | 12.5% | `+3.6%` |
+| **4** | 4 | 7.1% | 9.7% | `-2.6%` |
+| **5** | 3 | 5.4% | 7.9% | `-2.5%` |
 | **6** | 1 | 1.8% | 6.7% | `-4.9%` |
-| **7** | 3 | 5.3% | 5.8% | `-0.5%` |
-| **8** | 2 | 3.5% | 5.1% | `-1.6%` |
-| **9** | 2 | 3.5% | 4.6% | `-1.1%` |
+| **7** | 3 | 5.4% | 5.8% | `-0.4%` |
+| **8** | 2 | 3.6% | 5.1% | `-1.5%` |
+| **9** | 2 | 3.6% | 4.6% | `-1.0%` |
 
 ---
 
@@ -46,11 +46,10 @@ En contabilidad forense, los presupuestos basados en cubicaciones reales de obra
 
 | Nexo (`TRX`) | Fecha | Tipo | Origen | Destino | Monto Redondo (CLP) | Causa |
 | :--- | :---: | :---: | :--- | :--- | ---: | :--- |
-| [[TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01]] | 2023-12-14 | `factura_falsa` | [[Inversiones y Asesorias Pavez SpA]] | [[Servicio Impuestos Internos]] | **$240.000.000.000** | [[Caso Megafraude Tributario Operacion Tributos]] |
+| [[TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01]] | 2023-12-14 | `factura_falsa` | [[]] | [[Servicio Impuestos Internos]] | **$240.000.000.000** | [[Caso Megafraude Tributario Operacion Tributos]] |
 | [[TRX-2017-03-03-Compensacion-Historica-Consumidores-CMPC-SERNAC-01]] | 2017-03-03 | `compensacion_reparatoria` | [[Empresas CMPC SA]] | [[Servicio Nacional del Consumidor]] | **$97.500.000.000** | [[Caso Colusion del Papel Tissue]] |
 | [[TRX-2010-12-10-Compraventa-Offshore-Dominga-Bancard-Delano-01]] | 2010-12-10 | `trato_directo` | [[Andes Iron SpA]] | [[Bancard Inversiones Ltda]] | **$75.500.000.000** | [[Caso Minera Dominga Pandora Papers]] |
 | [[TRX-2015-10-29-Pago-Multas-Historicas-Cartel-Pollos-01]] | 2015-10-29 | `compensacion_reparatoria` | [[Agrosuper SA]] | [[Corte Suprema de Chile]] | **$38.400.000.000** | [[Caso Colusion de los Pollos]] |
-| [[TRX-2023-12-15-Lavado-Activos-Bienes-Inmuebles-Clan-Pavez-01]] | 2023-12-15 | `transferencia` | [[Inversiones y Asesorias Pavez SpA]] | [[Comercializadora y Exportadora Global SpA]] | **$25.000.000.000** | [[Caso Megafraude Tributario Operacion Tributos]] |
 | [[TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01]] | 2011-12-19 | `desviacion_fondos` | [[Sociedad de Inversiones Pampa Calichera SA]] | [[SQM SA]] | **$24.500.000.000** | [[Caso Cascadas]] |
 | [[TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01]] | 2016-04-05 | `desviacion_fondos` | [[Mossack Fonseca y Sociedades Offshore Panama]] | [[Unidad de Analisis Financiero]] | **$19.500.000.000** | [[Caso Panama Papers Chile]] |
 | [[TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01]] | 1982-08-28 | `desviacion_fondos` | [[Bancard Inversiones Ltda]] | [[Corte Suprema de Chile]] | **$18.500.000.000** | [[Caso LAN Informacion Privilegiada y Banco de Talca]] |
@@ -81,7 +80,7 @@ En contabilidad forense, los presupuestos basados en cubicaciones reales de obra
 | [[TRX-2022-10-28-Convenio-ProCultura-Antofagasta]] | 2022-10-28 | `convenio_directo` | [[Seremi MINVU Antofagasta]] | [[Fundacion ProCultura]] | **$500.000.000** | [[Caso Convenios]] |
 | [[TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01]] | 2003-10-15 | `desviacion_fondos` | [[Inversiones El Bosque Ltda]] | [[Servicio Impuestos Internos]] | **$480.000.000** | [[Caso Spiniak]] |
 | [[TRX-2023-08-25-Reporte-ROS-Factop-UAF-01]] | 2023-08-25 | `factura_falsa` | [[Factop SpA]] | [[Unidad de Analisis Financiero]] | **$480.000.000** | [[Caso Audios]] |
-| [[TRX-2002-04-12-Facturas-Triangulacion-GESCAM-SII-01]] | 2002-04-12 | `factura_falsa` | [[Gestion Ambiental y Territorial SA]] | [[Servicio Impuestos Internos]] | **$450.000.000** | [[Caso MOP-Gate]] |
+| [[TRX-2002-04-12-Facturas-Triangulacion-GATE-SII-01]] | 2002-04-12 | `factura_falsa` | [[Gestion Ambiental y Territorial SA]] | [[Servicio Impuestos Internos]] | **$450.000.000** | [[Caso MOP-Gate]] |
 | [[TRX-2009-11-18-Facturas-Falsas-Bancard-SQM-Campana-Pinera-01]] | 2009-11-18 | `factura_falsa` | [[SQM SA]] | [[Bancard Inversiones Ltda]] | **$340.000.000** | [[Caso SQM]] |
 | [[TRX-1996-06-12-Blindaje-Politico-Judicial-ColoniaDignidad-01]] | 1996-06-12 | `gestion_influencia` | [[Union Democrata Independiente]] | [[Sociedad Benefactora y Educacional Dignidad]] | **$240.000.000** | [[Caso Colonia Dignidad]] |
 | [[TRX-2022-10-03-Convenio-DV-01]] | 2022-10-03 | `convenio_directo` | [[Seremi MINVU Antofagasta]] | [[Fundacion Democracia Viva]] | **$200.000.000** | [[Caso Convenios]] |

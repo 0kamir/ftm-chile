@@ -79,7 +79,7 @@ flowchart TD
 - **Vínculo Genealógico / Afinidad**: Afinidad colateral extendida (vía Joaquín Lavín Infante, primo hermano de Carlos Eugenio Lavín y suegro de Cathy Barriga).
 - **Integrantes en la Bóveda**: [[Carlos Eugenio Lavin Garcia-Huidobro]], [[Cathy Barriga Guerra]].
 - **Macro-Causas Acopladas (2)**: [[Caso Municipalidad de Maipu]], [[Caso Penta]].
-- **Aristas Reificadas Vinculadas (2)**: [[TRX-2011-03-10-Soborno-Penta-Wagner-01]], [[TRX-2020-12-15-Deficit-Maipu-Certificados-01]].
+- **Aristas Reificadas Vinculadas (2)**: [[TRX-2011-03-10-Pagos-Penta-Wagner-01]], [[TRX-2020-12-15-Deficit-Maipu-Certificados-01]].
 - **Volumen Financiero Consolidado**: **`$31.014.000.000 CLP`**.
 - **Síntesis de Captura de Red**: Vincula a la cúpula financiera fundadora de [[Empresas Penta SA]] ([[Carlos Eugenio Lavin Garcia-Huidobro]], condenado en [[Caso Penta]]) con la administración alcaldicia de la [[Municipalidad de Maipu]] ([[Cathy Barriga Guerra]], formalizada por [[Fraude al Fisco]] en [[Caso Municipalidad de Maipu]]).
 
@@ -97,7 +97,7 @@ Para medir el impacto topológico de los vínculos familiares, comparamos la dis
 | [[Augusto Pinochet Ugarte]] | [[SQM SA]] | `5` | **`3`** | **-2 saltos** | [[Augusto Pinochet Ugarte]] → [[Julio Ponce Lerou]] → [[TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01]] → [[SQM SA]] |
 | [[Caso Riggs]] | [[Caso Cascadas]] | `5` | **`5`** | **0 saltos** | [[Caso Riggs]] → [[Sentencia-Corte-Suprema-CasoRiggs-2018]] → [[Corte Suprema de Chile]] → [[TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01]] → [[Negociacion Incompatible]] → [[Caso Cascadas]] |
 | [[Caso Pinocheques]] | [[Caso CEMA Chile]] | `5` | **`5`** | **0 saltos** | [[Caso Pinocheques]] → [[TRX-1989-01-10-Emision-Pinocheques-Ejercito-Valmoval-01]] → [[Augusto Pinochet Hiriart]] → [[Lucia Hiriart Rodriguez]] → [[TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01]] → [[Caso CEMA Chile]] |
-| [[Caso Penta]] | [[Caso Municipalidad de Maipu]] | `5` | **`5`** | **0 saltos** | [[Caso Penta]] → [[Delito Tributario]] → [[TRX-2002-04-12-Facturas-Triangulacion-GESCAM-SII-01]] → [[Caso MOP-Gate]] → [[Fraude al Fisco]] → [[Caso Municipalidad de Maipu]] |
+| [[Caso Penta]] | [[Caso Municipalidad de Maipu]] | `5` | **`5`** | **0 saltos** | [[Caso Penta]] → [[Delito Tributario]] → [[TRX-2002-04-12-Facturas-Triangulacion-GATE-SII-01]] → [[Caso MOP-Gate]] → [[Fraude al Fisco]] → [[Caso Municipalidad de Maipu]] |
 
 ---
 

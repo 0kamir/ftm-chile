@@ -4,7 +4,7 @@ ruc: "1600341250-8"
 año_inicio: 2016
 tribunal_o_fiscalia: "Corte de Apelaciones de Santiago / 34° Juzgado del Crimen de Santiago / Consejo de Defensa del Estado (Rol 34.125-2016)"
 fiscal_a_cargo: "Ministro en Visita Guillermo de la Barra Dünner / Consejo de Defensa del Estado"
-estado_judicial: cerrada_con_condena
+estado_judicial: cerrada_sin_condena
 delito_principal: "[[Malversacion de Caudales Publicos]]"
 estado_verificacion: parcial
 fuentes:
@@ -27,7 +27,7 @@ fuentes:
     fecha: 2021-12-16
     consultado: 2026-10-19
 alertas_verificacion:
-  - "No se encontró condena penal: el vault marca 'cerrada_con_condena'. Lo documentado es querella (2016), embargo de propiedades, traspaso de bienes y disolución vía CDE (2021). Revisar estado_judicial."
+  - "estado_judicial corregido a cerrada_sin_condena (2026-10-19): la arista penal fue sobreseída temporalmente (2013) y la fundación se disolvió vía CDE (2021)."
 tags:
   - causa
   - caso-cema-chile

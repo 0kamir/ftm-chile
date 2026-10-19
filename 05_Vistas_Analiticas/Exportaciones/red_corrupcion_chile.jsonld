@@ -100,12 +100,6 @@
       "schema:identifier": "7.061.842-7"
     },
     {
-      "@id": "urn:cl-osint:node:Andres_Esteban_Galaz_Soto",
-      "@type": "osint:persona",
-      "schema:name": "Andres Esteban Galaz Soto",
-      "schema:identifier": "14.210.543-8"
-    },
-    {
       "@id": "urn:cl-osint:node:Andres_Velasco_Branes",
       "@type": "osint:persona",
       "schema:name": "Andres Velasco Branes",
@@ -292,6 +286,11 @@
       "schema:identifier": "5.823.419-2"
     },
     {
+      "@id": "urn:cl-osint:node:Hector_Pena_Veliz",
+      "@type": "osint:persona",
+      "schema:name": "Hector Pena Veliz"
+    },
+    {
       "@id": "urn:cl-osint:node:Hernan_Larrain_Fernandez",
       "@type": "osint:persona",
       "schema:name": "Hernan Larrain Fernandez",
@@ -346,10 +345,9 @@
       "schema:identifier": "6.129.485-6"
     },
     {
-      "@id": "urn:cl-osint:node:Jose_Antonio_Pavez_Campillay",
+      "@id": "urn:cl-osint:node:Jose_Antonio_Pavez_Canessa",
       "@type": "osint:persona",
-      "schema:name": "Jose Antonio Pavez Campillay",
-      "schema:identifier": "13.845.921-7"
+      "schema:name": "Jose Antonio Pavez Canessa"
     },
     {
       "@id": "urn:cl-osint:node:Jose_Codner_Chijner",
@@ -370,12 +368,6 @@
       "schema:identifier": "8.129.450-K"
     },
     {
-      "@id": "urn:cl-osint:node:Juan_Alberto_Croxatto_Romero",
-      "@type": "osint:persona",
-      "schema:name": "Juan Alberto Croxatto Romero",
-      "schema:identifier": "12.489.371-2"
-    },
-    {
       "@id": "urn:cl-osint:node:Juan_Miguel_Fuente-Alba_Poblete",
       "@type": "osint:persona",
       "schema:name": "Juan Miguel Fuente-Alba Poblete",
@@ -386,6 +378,11 @@
       "@type": "osint:persona",
       "schema:name": "Juan Miguel Ovalle Garces",
       "schema:identifier": "4.892.147-7"
+    },
+    {
+      "@id": "urn:cl-osint:node:Juan_Victor_Galaz_Rojas",
+      "@type": "osint:persona",
+      "schema:name": "Juan Victor Galaz Rojas"
     },
     {
       "@id": "urn:cl-osint:node:Julio_Ponce_Lerou",
@@ -480,14 +477,18 @@
     {
       "@id": "urn:cl-osint:node:Olga_Paz_Barraza_Quezada",
       "@type": "osint:persona",
-      "schema:name": "Olga Paz Barraza Quezada",
-      "schema:identifier": "15.632.187-7"
+      "schema:name": "Olga Paz Barraza Quezada"
     },
     {
       "@id": "urn:cl-osint:node:Oscar_Aitken_Lavanchy",
       "@type": "osint:persona",
       "schema:name": "Oscar Aitken Lavanchy",
       "schema:identifier": "4.891.236-2"
+    },
+    {
+      "@id": "urn:cl-osint:node:Osvaldo_Mario_Luis_Sacco_Croxatto",
+      "@type": "osint:persona",
+      "schema:name": "Osvaldo Mario Luis Sacco Croxatto"
     },
     {
       "@id": "urn:cl-osint:node:Pablo_Longueira_Montes",
@@ -522,8 +523,7 @@
     {
       "@id": "urn:cl-osint:node:Percy_Marin_Vera",
       "@type": "osint:persona",
-      "schema:name": "Percy Marin Vera",
-      "schema:identifier": "12.948.123-4"
+      "schema:name": "Percy Marin Vera"
     },
     {
       "@id": "urn:cl-osint:node:Pia_Guzman_Mena",
@@ -542,12 +542,6 @@
       "@type": "osint:persona",
       "schema:name": "Roberto Belloni Pechini",
       "schema:identifier": "6.381.940-9"
-    },
-    {
-      "@id": "urn:cl-osint:node:Roberto_Lewin_Valdivieso",
-      "@type": "osint:persona",
-      "schema:name": "Roberto Lewin Valdivieso",
-      "schema:identifier": "7.319.480-6"
     },
     {
       "@id": "urn:cl-osint:node:Rodrigo_Diaz_Worner",
@@ -574,10 +568,9 @@
       "schema:identifier": "7.045.812-8"
     },
     {
-      "@id": "urn:cl-osint:node:Ximena_Jimenez_Faras",
+      "@id": "urn:cl-osint:node:Ximena_Tavitxa_Jimenez_Farias",
       "@type": "osint:persona",
-      "schema:name": "Ximena Jimenez Faras",
-      "schema:identifier": "11.984.210-7"
+      "schema:name": "Ximena Tavitxa Jimenez Farias"
     },
     {
       "@id": "urn:cl-osint:node:Comando_de_Apoyo_a_la_Fuerza_del_Ejercito",
@@ -748,12 +741,6 @@
       "schema:identifier": "97.004.000-5"
     },
     {
-      "@id": "urn:cl-osint:node:Comercializadora_y_Exportadora_Global_SpA",
-      "@type": "osint:entidad_privada",
-      "schema:name": "Comercializadora y Exportadora Global SpA",
-      "schema:identifier": "76.987.654-5"
-    },
-    {
       "@id": "urn:cl-osint:node:Corpesca_SA",
       "@type": "osint:entidad_privada",
       "schema:name": "Corpesca SA",
@@ -846,8 +833,7 @@
     {
       "@id": "urn:cl-osint:node:Gestion_Ambiental_y_Territorial_SA",
       "@type": "osint:entidad_privada",
-      "schema:name": "Gestion Ambiental y Territorial SA",
-      "schema:identifier": "96.814.520-7"
+      "schema:name": "Gestion Ambiental y Territorial SA"
     },
     {
       "@id": "urn:cl-osint:node:Inmobiliaria_San_Valentino_SpA",
@@ -860,12 +846,6 @@
       "@type": "osint:entidad_privada",
       "schema:name": "Inversiones El Bosque Ltda",
       "schema:identifier": "77.412.890-5"
-    },
-    {
-      "@id": "urn:cl-osint:node:Inversiones_y_Asesorias_Pavez_SpA",
-      "@type": "osint:entidad_privada",
-      "schema:name": "Inversiones y Asesorias Pavez SpA",
-      "schema:identifier": "77.123.456-9"
     },
     {
       "@id": "urn:cl-osint:node:Itelecom_Holding_Chile_SpA",
@@ -1373,9 +1353,9 @@
       }
     },
     {
-      "@id": "urn:cl-osint:node:TRX-2001-08-20-Contratos-Simulados-MOP-GESCAM-01",
+      "@id": "urn:cl-osint:node:TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01",
       "@type": "osint:nexo_transaccion",
-      "schema:name": "TRX-2001-08-20-Contratos-Simulados-MOP-GESCAM-01",
+      "schema:name": "TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01",
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
@@ -1391,16 +1371,16 @@
         "@id": "urn:cl-osint:node:Carlos_Cruz_Lorenzen"
       },
       "osint:firmanteDestino": {
-        "@id": "urn:cl-osint:node:Roberto_Lewin_Valdivieso"
+        "@id": "urn:cl-osint:node:Hector_Pena_Veliz"
       },
       "osint:causaVinculada": {
         "@id": "urn:cl-osint:node:Caso_MOP-Gate"
       }
     },
     {
-      "@id": "urn:cl-osint:node:TRX-2002-04-12-Facturas-Triangulacion-GESCAM-SII-01",
+      "@id": "urn:cl-osint:node:TRX-2002-04-12-Facturas-Triangulacion-GATE-SII-01",
       "@type": "osint:nexo_transaccion",
-      "schema:name": "TRX-2002-04-12-Facturas-Triangulacion-GESCAM-SII-01",
+      "schema:name": "TRX-2002-04-12-Facturas-Triangulacion-GATE-SII-01",
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
@@ -1413,7 +1393,7 @@
         "@id": "urn:cl-osint:node:Servicio_Impuestos_Internos"
       },
       "osint:firmanteOrigen": {
-        "@id": "urn:cl-osint:node:Roberto_Lewin_Valdivieso"
+        "@id": "urn:cl-osint:node:Hector_Pena_Veliz"
       },
       "osint:firmanteDestino": {
         "@id": "urn:cl-osint:node:Carlos_Cruz_Lorenzen"
@@ -1773,9 +1753,9 @@
       }
     },
     {
-      "@id": "urn:cl-osint:node:TRX-2011-03-10-Soborno-Penta-Wagner-01",
+      "@id": "urn:cl-osint:node:TRX-2011-03-10-Pagos-Penta-Wagner-01",
       "@type": "osint:nexo_transaccion",
-      "schema:name": "TRX-2011-03-10-Soborno-Penta-Wagner-01",
+      "schema:name": "TRX-2011-03-10-Pagos-Penta-Wagner-01",
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
@@ -1988,7 +1968,7 @@
         "@id": "urn:cl-osint:node:Municipalidad_de_Machali"
       },
       "osint:firmanteOrigen": {
-        "@id": "urn:cl-osint:node:Mauricio_Valero_Illanes"
+        "@id": "urn:cl-osint:node:"
       },
       "osint:firmanteDestino": {
         "@id": "urn:cl-osint:node:Jorge_Silva_Menares"
@@ -2041,7 +2021,7 @@
         "@id": "urn:cl-osint:node:Natalia_Compagnon_Soto"
       },
       "osint:firmanteDestino": {
-        "@id": "urn:cl-osint:node:Mauricio_Valero_Illanes"
+        "@id": "urn:cl-osint:node:Natalia_Compagnon_Soto"
       },
       "osint:causaVinculada": {
         "@id": "urn:cl-osint:node:Caso_Caval"
@@ -2907,41 +2887,16 @@
         "schema:value": 240000000000
       },
       "osint:entidadOrigen": {
-        "@id": "urn:cl-osint:node:Inversiones_y_Asesorias_Pavez_SpA"
+        "@id": "urn:cl-osint:node:"
       },
       "osint:entidadDestino": {
         "@id": "urn:cl-osint:node:Servicio_Impuestos_Internos"
       },
       "osint:firmanteOrigen": {
-        "@id": "urn:cl-osint:node:Jose_Antonio_Pavez_Campillay"
+        "@id": "urn:cl-osint:node:"
       },
       "osint:firmanteDestino": {
-        "@id": "urn:cl-osint:node:Ximena_Jimenez_Faras"
-      },
-      "osint:causaVinculada": {
-        "@id": "urn:cl-osint:node:Caso_Megafraude_Tributario_Operacion_Tributos"
-      }
-    },
-    {
-      "@id": "urn:cl-osint:node:TRX-2023-12-15-Lavado-Activos-Bienes-Inmuebles-Clan-Pavez-01",
-      "@type": "osint:nexo_transaccion",
-      "schema:name": "TRX-2023-12-15-Lavado-Activos-Bienes-Inmuebles-Clan-Pavez-01",
-      "schema:amount": {
-        "@type": "schema:MonetaryAmount",
-        "schema:currency": "CLP",
-        "schema:value": 25000000000
-      },
-      "osint:entidadOrigen": {
-        "@id": "urn:cl-osint:node:Inversiones_y_Asesorias_Pavez_SpA"
-      },
-      "osint:entidadDestino": {
-        "@id": "urn:cl-osint:node:Comercializadora_y_Exportadora_Global_SpA"
-      },
-      "osint:firmanteOrigen": {
-        "@id": "urn:cl-osint:node:Jose_Antonio_Pavez_Campillay"
-      },
-      "osint:firmanteDestino": {
-        "@id": "urn:cl-osint:node:Andres_Esteban_Galaz_Soto"
+        "@id": "urn:cl-osint:node:"
       },
       "osint:causaVinculada": {
         "@id": "urn:cl-osint:node:Caso_Megafraude_Tributario_Operacion_Tributos"
@@ -2964,31 +2919,6 @@
       },
       "osint:firmanteOrigen": {
         "@id": "urn:cl-osint:node:Senado_de_la_Republica_de_Chile"
-      },
-      "osint:firmanteDestino": {
-        "@id": "urn:cl-osint:node:Camila_Flores_Oporto"
-      },
-      "osint:causaVinculada": {
-        "@id": "urn:cl-osint:node:Caso_Asignaciones_Parlamentarias_y_Cuota_Flores"
-      }
-    },
-    {
-      "@id": "urn:cl-osint:node:TRX-2026-06-20-Extraccion-Difusion-Ilicita-Registros-Intimos-01",
-      "@type": "osint:nexo_transaccion",
-      "schema:name": "TRX-2026-06-20-Extraccion-Difusion-Ilicita-Registros-Intimos-01",
-      "schema:amount": {
-        "@type": "schema:MonetaryAmount",
-        "schema:currency": "CLP",
-        "schema:value": 0
-      },
-      "osint:entidadOrigen": {
-        "@id": "urn:cl-osint:node:Percy_Marin_Vera"
-      },
-      "osint:entidadDestino": {
-        "@id": "urn:cl-osint:node:Camila_Flores_Oporto"
-      },
-      "osint:firmanteOrigen": {
-        "@id": "urn:cl-osint:node:Percy_Marin_Vera"
       },
       "osint:firmanteDestino": {
         "@id": "urn:cl-osint:node:Camila_Flores_Oporto"
@@ -3036,11 +2966,6 @@
       "@id": "urn:cl-osint:node:Declaracion-Judicial-Prieto-Vitacura-2021",
       "@type": "osint:evidencia_documental",
       "schema:name": "Declaracion-Judicial-Prieto-Vitacura-2021"
-    },
-    {
-      "@id": "urn:cl-osint:node:Denuncia-Cibercrimen-PDI-Registros-Intimos-2026",
-      "@type": "osint:evidencia_documental",
-      "schema:name": "Denuncia-Cibercrimen-PDI-Registros-Intimos-2026"
     },
     {
       "@id": "urn:cl-osint:node:Desclasificacion-Documentos-DOJ-CasoEpstein-2024",
@@ -3198,14 +3123,14 @@
       "schema:name": "Sentencia-TOP-Rancagua-Caval-2018"
     },
     {
-      "@id": "urn:cl-osint:node:Sentencia-TOP-Santiago-Pacogate-2021",
-      "@type": "osint:evidencia_documental",
-      "schema:name": "Sentencia-TOP-Santiago-Pacogate-2021"
-    },
-    {
       "@id": "urn:cl-osint:node:Sentencia-TOP-Temuco-OperacionHuracan-2024",
       "@type": "osint:evidencia_documental",
       "schema:name": "Sentencia-TOP-Temuco-OperacionHuracan-2024"
+    },
+    {
+      "@id": "urn:cl-osint:node:Veredicto-TOP-Santiago-Pacogate-2026",
+      "@type": "osint:evidencia_documental",
+      "schema:name": "Veredicto-TOP-Santiago-Pacogate-2026"
     },
     {
       "@id": "urn:cl-osint:node:Drawing_2026-10-18_02.19.23.excalidraw",

@@ -27,7 +27,7 @@ tags:
 - **Medida Cautelar / Condena Vigente**: `= this.medida_cautelar`
 
 ## Síntesis Forense
-Cofundador y controlador de [[Empresas Penta SA]] junto a [[Carlos Alberto Delano Abbott]]. Condenado en el [[Caso Penta]] ([[Sentencia-8Juzgado-Garantia-Penta-2018]]) por delitos tributarios reiterados tras articular pagos irregulares a campañas de la [[Union Democrata Independiente]] ([[TRX-2013-07-15-Boletas-Falsas-Penta-UDI-01]]) y remesas periódicas al entonces Subsecretario de Minería [[Pablo Wagner San Martin]] ([[TRX-2011-03-10-Soborno-Penta-Wagner-01]]).
+Cofundador y controlador de [[Empresas Penta SA]] junto a [[Carlos Alberto Delano Abbott]]. Condenado en el [[Caso Penta]] ([[Sentencia-8Juzgado-Garantia-Penta-2018]]) por delitos tributarios reiterados tras articular pagos irregulares a campañas de la [[Union Democrata Independiente]] ([[TRX-2013-07-15-Boletas-Falsas-Penta-UDI-01]]) y pagos periódicos al entonces Subsecretario de Minería [[Pablo Wagner San Martin]] ([[TRX-2011-03-10-Pagos-Penta-Wagner-01]]). La Fiscalía retiró la imputación de soborno en el procedimiento abreviado de 2018.
 
 ## Auditoría Contable: Montos Autorizados como Firmante de Origen
 ```dataviewjs

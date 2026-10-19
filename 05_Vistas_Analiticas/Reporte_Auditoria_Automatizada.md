@@ -10,8 +10,8 @@ tags:
 
 # Reporte de Auditoría Forense Automatizada (CGR / Ministerio Público)
 
-- **Monto Global Investigado**: **$750.998.563.198 CLP** (Equivalente a **12.598.259.1 UTM**)
-- **Total de Aristas Reificadas (`TRX`)**: **73**
+- **Monto Global Investigado**: **$725.998.563.198 CLP** (Equivalente a **12.187.433.0 UTM**)
+- **Total de Aristas Reificadas (`TRX`)**: **71**
 - **Casos de Fraccionamiento bajo 5.000 UTM detectados**: **1**
 
 ---
@@ -56,13 +56,13 @@ flowchart LR
   N29 --> N28["SCA Chile SA"]:::priv
   N30(["Eliodoro Matte Larrain"]):::pers -. "autoriza" .-> N29
   N29 -. "suscribe" .-> N31(["Gabriel Ruiz-Tagle Serrano"]):::pers
-  N32["Ministerio de Obras Publicas"]:::pub --> N34("TRX-2001-08-20-Contratos-Simulados-MOP-GESCAM-01<br/>$1.253.000.000"):::trx
+  N32["Ministerio de Obras Publicas"]:::pub --> N34("TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01<br/>$1.253.000.000"):::trx
   N34 --> N33["Gestion Ambiental y Territorial SA"]:::priv
   N35(["Carlos Cruz Lorenzen"]):::pers -. "autoriza" .-> N34
-  N34 -. "suscribe" .-> N36(["Roberto Lewin Valdivieso"]):::pers
-  N33["Gestion Ambiental y Territorial SA"]:::pub --> N37("TRX-2002-04-12-Facturas-Triangulacion-GESCAM-SII-01<br/>$450.000.000"):::trx
+  N34 -. "suscribe" .-> N36(["Hector Pena Veliz"]):::pers
+  N33["Gestion Ambiental y Territorial SA"]:::pub --> N37("TRX-2002-04-12-Facturas-Triangulacion-GATE-SII-01<br/>$450.000.000"):::trx
   N37 --> N19["Servicio Impuestos Internos"]:::priv
-  N36(["Roberto Lewin Valdivieso"]):::pers -. "autoriza" .-> N37
+  N36(["Hector Pena Veliz"]):::pers -. "autoriza" .-> N37
   N37 -. "suscribe" .-> N35(["Carlos Cruz Lorenzen"]):::pers
   N38["Inversiones El Bosque Ltda"]:::pub --> N39("TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01<br/>$480.000.000"):::trx
   N39 --> N19["Servicio Impuestos Internos"]:::priv
@@ -120,7 +120,7 @@ flowchart LR
   N79 --> N11["Bancard Inversiones Ltda"]:::priv
   N80(["Carlos Alberto Delano Abbott"]):::pers -. "autoriza" .-> N79
   N79 -. "suscribe" .-> N13(["Sebastian Pinera Echenique"]):::pers
-  N81["Empresas Penta SA"]:::pub --> N82("TRX-2011-03-10-Soborno-Penta-Wagner-01<br/>$42.000.000"):::trx
+  N81["Empresas Penta SA"]:::pub --> N82("TRX-2011-03-10-Pagos-Penta-Wagner-01<br/>$42.000.000"):::trx
   N82 --> N19["Servicio Impuestos Internos"]:::priv
   N83(["Carlos Eugenio Lavin Garcia-Huidobro"]):::pers -. "autoriza" .-> N82
   N82 -. "suscribe" .-> N84(["Pablo Wagner San Martin"]):::pers
@@ -154,7 +154,7 @@ flowchart LR
   N101 -. "suscribe" .-> N102(["Jovino Novoa Vasquez"]):::pers
   N103["Exportadora y de Gestion Caval Ltda"]:::pub --> N105("TRX-2014-02-18-Soborno-Caval-Machali-01<br/>$140.000.000"):::trx
   N105 --> N104["Municipalidad de Machali"]:::priv
-  N106(["Mauricio Valero Illanes"]):::pers -. "autoriza" .-> N105
+  N106([""]):::pers -. "autoriza" .-> N105
   N105 -. "suscribe" .-> N107(["Jorge Silva Menares"]):::pers
   N6["Comando de Apoyo a la Fuerza del Ejercito"]:::pub --> N109("TRX-2014-05-20-Facturas-LeyReservadaCobre-01<br/>$6.100.000.000"):::trx
   N109 --> N108["Frasim Ltda"]:::priv
@@ -163,7 +163,7 @@ flowchart LR
   N103["Exportadora y de Gestion Caval Ltda"]:::pub --> N112("TRX-2015-01-29-Facturas-Falsas-Caval-SII-01<br/>$2.500.000.000"):::trx
   N112 --> N19["Servicio Impuestos Internos"]:::priv
   N113(["Natalia Compagnon Soto"]):::pers -. "autoriza" .-> N112
-  N112 -. "suscribe" .-> N106(["Mauricio Valero Illanes"]):::pers
+  N112 -. "suscribe" .-> N113(["Natalia Compagnon Soto"]):::pers
   N9["Corte Suprema de Chile"]:::pub --> N114("TRX-2015-08-10-Contacto-Academico-Patrocinio-Guendelman-Epstein-01<br/>$0"):::trx
   N114 --> N9["Corte Suprema de Chile"]:::priv
   N115(["Eduardo Guendelman Israel"]):::pers -. "autoriza" .-> N114
@@ -300,22 +300,14 @@ flowchart LR
   N198 --> N116["Unidad de Analisis Financiero"]:::priv
   N153(["Luis Hermosilla Osorio"]):::pers -. "autoriza" .-> N198
   N198 -. "suscribe" .-> N118(["Javier Cruz Tamburrino"]):::pers
-  N199["Inversiones y Asesorias Pavez SpA"]:::pub --> N200("TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01<br/>$240.000.000.000"):::trx
-  N200 --> N19["Servicio Impuestos Internos"]:::priv
-  N201(["Jose Antonio Pavez Campillay"]):::pers -. "autoriza" .-> N200
-  N200 -. "suscribe" .-> N202(["Ximena Jimenez Faras"]):::pers
-  N199["Inversiones y Asesorias Pavez SpA"]:::pub --> N204("TRX-2023-12-15-Lavado-Activos-Bienes-Inmuebles-Clan-Pavez-01<br/>$25.000.000.000"):::trx
-  N204 --> N203["Comercializadora y Exportadora Global SpA"]:::priv
-  N201(["Jose Antonio Pavez Campillay"]):::pers -. "autoriza" .-> N204
-  N204 -. "suscribe" .-> N205(["Andres Esteban Galaz Soto"]):::pers
-  N92["Senado de la Republica de Chile"]:::pub --> N207("TRX-2025-10-15-Denuncia-Retencion-Sueldos-Asesores-Flores-01<br/>$35.000.000"):::trx
-  N207 --> N206["Camila Flores Oporto"]:::priv
-  N92(["Senado de la Republica de Chile"]):::pers -. "autoriza" .-> N207
-  N207 -. "suscribe" .-> N206(["Camila Flores Oporto"]):::pers
-  N208["Percy Marin Vera"]:::pub --> N209("TRX-2026-06-20-Extraccion-Difusion-Ilicita-Registros-Intimos-01<br/>$0"):::trx
-  N209 --> N206["Camila Flores Oporto"]:::priv
-  N208(["Percy Marin Vera"]):::pers -. "autoriza" .-> N209
-  N209 -. "suscribe" .-> N206(["Camila Flores Oporto"]):::pers
+  N106[""]:::pub --> N199("TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01<br/>$240.000.000.000"):::trx
+  N199 --> N19["Servicio Impuestos Internos"]:::priv
+  N106([""]):::pers -. "autoriza" .-> N199
+  N199 -. "suscribe" .-> N106([""]):::pers
+  N92["Senado de la Republica de Chile"]:::pub --> N201("TRX-2025-10-15-Denuncia-Retencion-Sueldos-Asesores-Flores-01<br/>$35.000.000"):::trx
+  N201 --> N200["Camila Flores Oporto"]:::priv
+  N92(["Senado de la Republica de Chile"]):::pers -. "autoriza" .-> N201
+  N201 -. "suscribe" .-> N200(["Camila Flores Oporto"]):::pers
 ```
 
 ---
@@ -332,7 +324,7 @@ flowchart LR
 
 | Entidad Emisora | N° Receptores | Monto Total Emitido (CLP) | Índice HHI (0–10.000) | Diagnóstico de Concentración |
 | :--- | :---: | ---: | ---: | :--- |
-| [[Inversiones y Asesorias Pavez SpA]] | 2 | $265.000.000.000 | **8291** | Alta Concentración / Captura (> 2.500) |
+| [[]] | 1 | $240.000.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
 | [[Empresas CMPC SA]] | 1 | $97.500.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
 | [[Andes Iron SpA]] | 1 | $75.500.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
 | [[Agrosuper SA]] | 1 | $38.400.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
@@ -374,16 +366,16 @@ flowchart LR
 
 | Posición | Nodo / Entidad | Tipo de Nodo | Intermediación (Brandes) | PageRank Forense | Rol Topológico |
 | :---: | :--- | :--- | ---: | ---: | :--- |
-| 1 | [[Corte Suprema de Chile]] | `entidad_publica` | `0.4044` | `0.0268` | Conector Interregional / Puente Crítico |
-| 2 | [[Servicio Impuestos Internos]] | `entidad_publica` | `0.3249` | `0.0196` | Conector Interregional / Puente Crítico |
-| 3 | [[Sergio Munoz Gajardo]] | `persona` | `0.1031` | `0.0078` | Conector Interregional / Puente Crítico |
-| 4 | [[Augusto Pinochet Ugarte]] | `persona` | `0.0929` | `0.0085` | Conector Interregional / Puente Crítico |
-| 5 | [[Bancard Inversiones Ltda]] | `entidad_privada` | `0.0831` | `0.0077` | Conector Interregional / Puente Crítico |
-| 6 | [[Agrosuper SA]] | `entidad_privada` | `0.0785` | `0.0042` | Conector Interregional / Puente Crítico |
-| 7 | [[Gonzalo Vial Vial]] | `persona` | `0.0785` | `0.0042` | Conector Interregional / Puente Crítico |
-| 8 | [[Asociacion de Productores Avicolas de Chile AG]] | `entidad_privada` | `0.0686` | `0.0043` | Conector Interregional / Puente Crítico |
-| 9 | [[Juan Miguel Ovalle Garces]] | `persona` | `0.0686` | `0.0043` | Conector Interregional / Puente Crítico |
-| 10 | [[Factop SpA]] | `entidad_privada` | `0.0681` | `0.0068` | Conector Interregional / Puente Crítico |
+| 1 | [[Corte Suprema de Chile]] | `entidad_publica` | `0.4155` | `0.0281` | Conector Interregional / Puente Crítico |
+| 2 | [[Servicio Impuestos Internos]] | `entidad_publica` | `0.2881` | `0.0199` | Conector Interregional / Puente Crítico |
+| 3 | [[Sergio Munoz Gajardo]] | `persona` | `0.0983` | `0.0082` | Conector Interregional / Puente Crítico |
+| 4 | [[Augusto Pinochet Ugarte]] | `persona` | `0.0978` | `0.0089` | Conector Interregional / Puente Crítico |
+| 5 | [[Bancard Inversiones Ltda]] | `entidad_privada` | `0.0866` | `0.0081` | Conector Interregional / Puente Crítico |
+| 6 | [[Agrosuper SA]] | `entidad_privada` | `0.0810` | `0.0044` | Conector Interregional / Puente Crítico |
+| 7 | [[Gonzalo Vial Vial]] | `persona` | `0.0810` | `0.0044` | Conector Interregional / Puente Crítico |
+| 8 | [[Asociacion de Productores Avicolas de Chile AG]] | `entidad_privada` | `0.0708` | `0.0045` | Conector Interregional / Puente Crítico |
+| 9 | [[Juan Miguel Ovalle Garces]] | `persona` | `0.0708` | `0.0045` | Conector Interregional / Puente Crítico |
+| 10 | [[Factop SpA]] | `entidad_privada` | `0.0627` | `0.0071` | Conector Interregional / Puente Crítico |
 
 ---
 
@@ -399,8 +391,8 @@ flowchart LR
 | [[TRX-1991-01-31-Vaciamiento-Patrimonial-Evasion-ColoniaDignidad-01]] | 1991-01-31 | `desviacion_fondos` | [[Sociedad Benefactora y Educacional Dignidad]] | [[Servicio Impuestos Internos]] | $3.450.000.000 | 56694.0 UTM | Afecto (>= 5.000 UTM) |
 | [[TRX-1996-06-12-Blindaje-Politico-Judicial-ColoniaDignidad-01]] | 1996-06-12 | `gestion_influencia` | [[Union Democrata Independiente]] | [[Sociedad Benefactora y Educacional Dignidad]] | $240.000.000 | 3943.9 UTM | Exento (< 5.000 UTM) |
 | [[TRX-2000-05-15-Pacto-Colusion-Precios-Cuotas-CMPC-PISA-01]] | 2000-05-15 | `acuerdo_colusorio` | [[Empresas CMPC SA]] | [[SCA Chile SA]] | $0 | 0.0 UTM | Exento (< 5.000 UTM) |
-| [[TRX-2001-08-20-Contratos-Simulados-MOP-GESCAM-01]] | 2001-08-20 | `trato_directo` | [[Ministerio de Obras Publicas]] | [[Gestion Ambiental y Territorial SA]] | $1.253.000.000 | 20590.6 UTM | Afecto (>= 5.000 UTM) |
-| [[TRX-2002-04-12-Facturas-Triangulacion-GESCAM-SII-01]] | 2002-04-12 | `factura_falsa` | [[Gestion Ambiental y Territorial SA]] | [[Servicio Impuestos Internos]] | $450.000.000 | 7394.9 UTM | Afecto (>= 5.000 UTM) |
+| [[TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01]] | 2001-08-20 | `trato_directo` | [[Ministerio de Obras Publicas]] | [[Gestion Ambiental y Territorial SA]] | $1.253.000.000 | 20590.6 UTM | Afecto (>= 5.000 UTM) |
+| [[TRX-2002-04-12-Facturas-Triangulacion-GATE-SII-01]] | 2002-04-12 | `factura_falsa` | [[Gestion Ambiental y Territorial SA]] | [[Servicio Impuestos Internos]] | $450.000.000 | 7394.9 UTM | Afecto (>= 5.000 UTM) |
 | [[TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01]] | 2003-10-15 | `desviacion_fondos` | [[Inversiones El Bosque Ltda]] | [[Servicio Impuestos Internos]] | $480.000.000 | 7887.9 UTM | Afecto (>= 5.000 UTM) |
 | [[TRX-2003-11-05-Operacion-Politico-Judicial-Spiniak-01]] | 2003-11-05 | `gestion_influencia` | [[Renovacion Nacional]] | [[Corte Suprema de Chile]] | $120.000.000 | 1972.0 UTM | Exento (< 5.000 UTM) |
 | [[TRX-2004-07-14-Desvio-Gastos-Reservados-Riggs-Pinochet-01]] | 2004-07-14 | `desviacion_fondos` | [[Comando de Apoyo a la Fuerza del Ejercito]] | [[Riggs Bank y Sociedades Offshore Ashburton]] | $15.800.000.000 | 259642.1 UTM | Afecto (>= 5.000 UTM) |
@@ -415,7 +407,7 @@ flowchart LR
 | [[TRX-2010-08-19-Correo-Royalty-SQM-01]] | 2010-08-19 | `cohecho` | [[SQM SA]] | [[Union Democrata Independiente]] | $730.000.000 | 19588.4 UTM | Afecto (>= 5.000 UTM) |
 | [[TRX-2010-11-15-Soborno-Licitacion-Basura-Maipu-01]] | 2010-11-15 | `cohecho_soborno` | [[KDM Empresas SA]] | [[Municipalidad de Maipu]] | $18.500.000.000 | 304011.3 UTM | Afecto (>= 5.000 UTM) |
 | [[TRX-2010-12-10-Compraventa-Offshore-Dominga-Bancard-Delano-01]] | 2010-12-10 | `trato_directo` | [[Andes Iron SpA]] | [[Bancard Inversiones Ltda]] | $75.500.000.000 | 1240694.8 UTM | Afecto (>= 5.000 UTM) |
-| [[TRX-2011-03-10-Soborno-Penta-Wagner-01]] | 2011-03-10 | `cohecho_soborno` | [[Empresas Penta SA]] | [[Servicio Impuestos Internos]] | $42.000.000 | 690.2 UTM | Exento (< 5.000 UTM) |
+| [[TRX-2011-03-10-Pagos-Penta-Wagner-01]] | 2011-03-10 | `transferencia` | [[Empresas Penta SA]] | [[Servicio Impuestos Internos]] | $42.000.000 | 690.2 UTM | Exento (< 5.000 UTM) |
 | [[TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01]] | 2011-12-19 | `desviacion_fondos` | [[Sociedad de Inversiones Pampa Calichera SA]] | [[SQM SA]] | $24.500.000.000 | 402609.6 UTM | Afecto (>= 5.000 UTM) |
 | [[TRX-2012-03-22-Fraude-Residuos-CerroNavia-01]] | 2012-03-22 | `trato_directo` | [[Municipalidad de Cerro Navia]] | [[KDM Empresas SA]] | $1.120.000.000 | 18405.0 UTM | Afecto (>= 5.000 UTM) |
 | [[TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01]] | 2012-07-11 | `cohecho` | [[Corpesca SA]] | [[Senado de la Republica de Chile]] | $233.000.000 | 3828.9 UTM | Exento (< 5.000 UTM) |
@@ -460,7 +452,5 @@ flowchart LR
 | [[TRX-2023-06-22-Reunion-Audios-01]] | 2023-06-22 | `cohecho` | [[Factop SpA]] | [[Servicio Impuestos Internos]] | $100.000.000 | 1580.7 UTM | Exento (< 5.000 UTM) |
 | [[TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01]] | 2023-06-29 | `resolucion_administrativa` | [[Contraloria General de la Republica]] | [[Seremi MINVU Antofagasta]] | $0 | 0.0 UTM | Exento (< 5.000 UTM) |
 | [[TRX-2023-08-25-Reporte-ROS-Factop-UAF-01]] | 2023-08-25 | `factura_falsa` | [[Factop SpA]] | [[Unidad de Analisis Financiero]] | $480.000.000 | 7887.9 UTM | Afecto (>= 5.000 UTM) |
-| [[TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01]] | 2023-12-14 | `factura_falsa` | [[Inversiones y Asesorias Pavez SpA]] | [[Servicio Impuestos Internos]] | $240.000.000.000 | 3943930.5 UTM | Afecto (>= 5.000 UTM) |
-| [[TRX-2023-12-15-Lavado-Activos-Bienes-Inmuebles-Clan-Pavez-01]] | 2023-12-15 | `transferencia` | [[Inversiones y Asesorias Pavez SpA]] | [[Comercializadora y Exportadora Global SpA]] | $25.000.000.000 | 410826.1 UTM | Afecto (>= 5.000 UTM) |
+| [[TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01]] | 2023-12-14 | `factura_falsa` | [[]] | [[Servicio Impuestos Internos]] | $240.000.000.000 | 3943930.5 UTM | Afecto (>= 5.000 UTM) |
 | [[TRX-2025-10-15-Denuncia-Retencion-Sueldos-Asesores-Flores-01]] | 2025-10-15 | `desviacion_fondos` | [[Senado de la Republica de Chile]] | [[Camila Flores Oporto]] | $35.000.000 | 575.2 UTM | Exento (< 5.000 UTM) |
-| [[TRX-2026-06-20-Extraccion-Difusion-Ilicita-Registros-Intimos-01]] | 2026-06-20 | `peritaje_forense` | [[Percy Marin Vera]] | [[Camila Flores Oporto]] | $0 | 0.0 UTM | Exento (< 5.000 UTM) |

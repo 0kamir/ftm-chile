@@ -191,6 +191,9 @@ def generate_report():
                 if p:
                     op_gains[p] += t["monto_clp"]
                     op_count[p] += 1
+        if not op_gains:
+            # Aristas sin firmante identificado (hechos agregados) no son interceptables por operador.
+            break
         best_op = sorted(op_gains.keys(), key=lambda p: (-op_gains[p], p))[0]
         gain = op_gains[best_op]
         cnt = op_count[best_op]
