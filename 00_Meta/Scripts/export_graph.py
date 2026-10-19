@@ -63,6 +63,15 @@ def main() -> int:
                 "out_degree": 0,
                 "flujo_emitido_clp": 0,
                 "flujo_recibido_clp": 0,
+                "estado_verificacion": str(meta.get("estado_verificacion") or ""),
+                "monto_origen": str(meta.get("monto_origen") or ""),
+                "situacion_procesal": str(meta.get("situacion_procesal") or ""),
+                # Fuentes con URL http(s), para que el visor web las muestre como enlaces.
+                "fuentes": [
+                    {k: str(fu.get(k) or "") for k in ("url", "titulo", "medio", "tipo", "fecha")}
+                    for fu in (meta.get("fuentes") or [])
+                    if isinstance(fu, dict) and str(fu.get("url", "")).startswith(("http://", "https://"))
+                ],
             }
 
             for prop, val in meta.items():
