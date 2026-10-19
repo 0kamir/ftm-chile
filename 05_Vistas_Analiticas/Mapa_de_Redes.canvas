@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"pub-minvu-ant","type":"file","file":"01_Entidades/Publicas/Seremi MINVU Antofagasta.md","x":-650,"y":-320,"width":320,"height":220,"color":"4"},
+		{"id":"pub-gore-bio","type":"file","file":"01_Entidades/Publicas/GORE Biobio.md","x":-650,"y":180,"width":320,"height":220,"color":"4"},
+		{"id":"trx-dv-01","type":"file","file":"03_Hechos_y_Nexos/TRX-2022-10-03-Convenio-DV-01.md","x":-180,"y":-440,"width":300,"height":180,"color":"1"},
+		{"id":"trx-pc-ant","type":"file","file":"03_Hechos_y_Nexos/TRX-2022-10-28-Convenio-ProCultura-Antofagasta.md","x":-180,"y":-140,"width":300,"height":180,"color":"1"},
+		{"id":"trx-pc-bio","type":"file","file":"03_Hechos_y_Nexos/TRX-2022-11-18-Convenio-ProCultura-Biobio.md","x":-180,"y":100,"width":300,"height":180,"color":"1"},
+		{"id":"trx-enti-01","type":"file","file":"03_Hechos_y_Nexos/TRX-2022-12-20-Convenio-EnTi-01.md","x":-180,"y":340,"width":300,"height":180,"color":"1"},
+		{"id":"priv-dv","type":"file","file":"01_Entidades/Privadas/Fundacion Democracia Viva.md","x":280,"y":-440,"width":320,"height":220,"color":"2"},
+		{"id":"priv-pc","type":"file","file":"01_Entidades/Privadas/Fundacion ProCultura.md","x":280,"y":-20,"width":320,"height":240,"color":"2"},
+		{"id":"priv-enti","type":"file","file":"01_Entidades/Privadas/Fundacion En Ti.md","x":280,"y":340,"width":320,"height":220,"color":"2"},
+		{"id":"causa-conv","type":"file","file":"02_Causas/Caso Convenios.md","x":740,"y":-40,"width":360,"height":280,"color":"3"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"pub-minvu-ant","fromSide":"right","toNode":"trx-dv-01","toSide":"left","label":"$426M (3 cuotas)"},
+		{"id":"e2","fromNode":"trx-dv-01","fromSide":"right","toNode":"priv-dv","toSide":"left","label":"Trato Directo"},
+		{"id":"e3","fromNode":"pub-minvu-ant","fromSide":"right","toNode":"trx-pc-ant","toSide":"left","label":"$500M CLP"},
+		{"id":"e4","fromNode":"trx-pc-ant","fromSide":"right","toNode":"priv-pc","toSide":"left","label":"Nodo Puente"},
+		{"id":"e5","fromNode":"pub-gore-bio","fromSide":"right","toNode":"trx-pc-bio","toSide":"left","label":"$2.553M CLP"},
+		{"id":"e6","fromNode":"trx-pc-bio","fromSide":"right","toNode":"priv-pc","toSide":"left","label":"Nodo Puente"},
+		{"id":"e7","fromNode":"pub-gore-bio","fromSide":"right","toNode":"trx-enti-01","toSide":"left","label":"$250.6M CLP"},
+		{"id":"e8","fromNode":"trx-enti-01","fromSide":"right","toNode":"priv-enti","toSide":"left","label":"Trato Directo"},
+		{"id":"e9","fromNode":"priv-dv","fromSide":"right","toNode":"causa-conv","toSide":"left","label":"Investigada en"},
+		{"id":"e10","fromNode":"priv-pc","fromSide":"right","toNode":"causa-conv","toSide":"left","label":"Investigada en"},
+		{"id":"e11","fromNode":"priv-enti","fromSide":"right","toNode":"causa-conv","toSide":"left","label":"Investigada en"}
+	]
+}

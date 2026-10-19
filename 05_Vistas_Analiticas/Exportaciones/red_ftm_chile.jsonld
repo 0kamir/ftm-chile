@@ -1,0 +1,2804 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "osint": "https://followthemoney.tech/ns#"
+  },
+  "@graph": [
+    {
+      "@id": "urn:cl-osint:node:Flujo_Incorporacion_Informacion",
+      "@type": "osint:meta_flujo",
+      "schema:name": "Flujo_Incorporacion_Informacion"
+    },
+    {
+      "@id": "urn:cl-osint:node:Asociacion_Ilicita",
+      "@type": "osint:tipo_penal",
+      "schema:name": "Asociacion Ilicita"
+    },
+    {
+      "@id": "urn:cl-osint:node:Cohecho",
+      "@type": "osint:tipo_penal",
+      "schema:name": "Cohecho"
+    },
+    {
+      "@id": "urn:cl-osint:node:Colusion_y_Atentado_a_la_Libre_Competencia",
+      "@type": "osint:tipo_penal",
+      "schema:name": "Colusion y Atentado a la Libre Competencia"
+    },
+    {
+      "@id": "urn:cl-osint:node:Delito_Tributario",
+      "@type": "osint:tipo_penal",
+      "schema:name": "Delito Tributario"
+    },
+    {
+      "@id": "urn:cl-osint:node:Falsificacion_de_Instrumento_Publico",
+      "@type": "osint:tipo_penal",
+      "schema:name": "Falsificacion de Instrumento Publico"
+    },
+    {
+      "@id": "urn:cl-osint:node:Fraude_al_Fisco",
+      "@type": "osint:tipo_penal",
+      "schema:name": "Fraude al Fisco"
+    },
+    {
+      "@id": "urn:cl-osint:node:Lavado_de_Activos",
+      "@type": "osint:tipo_penal",
+      "schema:name": "Lavado de Activos"
+    },
+    {
+      "@id": "urn:cl-osint:node:Malversacion_de_Caudales_Publicos",
+      "@type": "osint:tipo_penal",
+      "schema:name": "Malversacion de Caudales Publicos"
+    },
+    {
+      "@id": "urn:cl-osint:node:Negociacion_Incompatible",
+      "@type": "osint:tipo_penal",
+      "schema:name": "Negociacion Incompatible"
+    },
+    {
+      "@id": "urn:cl-osint:node:Obstruccion_a_la_Investigacion",
+      "@type": "osint:tipo_penal",
+      "schema:name": "Obstruccion a la Investigacion"
+    },
+    {
+      "@id": "urn:cl-osint:node:Trafico_de_Influencias",
+      "@type": "osint:tipo_penal",
+      "schema:name": "Trafico de Influencias"
+    },
+    {
+      "@id": "urn:cl-osint:node:Violacion_de_Secreto",
+      "@type": "osint:tipo_penal",
+      "schema:name": "Violacion de Secreto"
+    },
+    {
+      "@id": "urn:cl-osint:node:Agustin_Edwards_Eastman",
+      "@type": "osint:persona",
+      "schema:name": "Agustin Edwards Eastman"
+    },
+    {
+      "@id": "urn:cl-osint:node:Alberto_Larrain_Salas",
+      "@type": "osint:persona",
+      "schema:name": "Alberto Larrain Salas"
+    },
+    {
+      "@id": "urn:cl-osint:node:Alex_Smith_Leay",
+      "@type": "osint:persona",
+      "schema:name": "Alex Smith Leay"
+    },
+    {
+      "@id": "urn:cl-osint:node:Alfredo_Ovalle_Rodriguez",
+      "@type": "osint:persona",
+      "schema:name": "Alfredo Ovalle Rodriguez"
+    },
+    {
+      "@id": "urn:cl-osint:node:Andres_Chadwick_Pinera",
+      "@type": "osint:persona",
+      "schema:name": "Andres Chadwick Pinera"
+    },
+    {
+      "@id": "urn:cl-osint:node:Andronico_Luksic_Craig",
+      "@type": "osint:persona",
+      "schema:name": "Andronico Luksic Craig"
+    },
+    {
+      "@id": "urn:cl-osint:node:Angela_Vivanco_Martinez",
+      "@type": "osint:persona",
+      "schema:name": "Angela Vivanco Martinez"
+    },
+    {
+      "@id": "urn:cl-osint:node:Augusto_Pinochet_Hiriart",
+      "@type": "osint:persona",
+      "schema:name": "Augusto Pinochet Hiriart"
+    },
+    {
+      "@id": "urn:cl-osint:node:Augusto_Pinochet_Ugarte",
+      "@type": "osint:persona",
+      "schema:name": "Augusto Pinochet Ugarte"
+    },
+    {
+      "@id": "urn:cl-osint:node:Bruno_Villalobos_Krumm",
+      "@type": "osint:persona",
+      "schema:name": "Bruno Villalobos Krumm"
+    },
+    {
+      "@id": "urn:cl-osint:node:Camila_Flores_Oporto",
+      "@type": "osint:persona",
+      "schema:name": "Camila Flores Oporto"
+    },
+    {
+      "@id": "urn:cl-osint:node:Camila_Polizzi_Fonceca",
+      "@type": "osint:persona",
+      "schema:name": "Camila Polizzi Fonceca"
+    },
+    {
+      "@id": "urn:cl-osint:node:Carlos_Alberto_Delano_Abbott",
+      "@type": "osint:persona",
+      "schema:name": "Carlos Alberto Delano Abbott"
+    },
+    {
+      "@id": "urn:cl-osint:node:Carlos_Contreras_Gutierrez",
+      "@type": "osint:persona",
+      "schema:name": "Carlos Contreras Gutierrez"
+    },
+    {
+      "@id": "urn:cl-osint:node:Carlos_Cruz_Lorenzen",
+      "@type": "osint:persona",
+      "schema:name": "Carlos Cruz Lorenzen"
+    },
+    {
+      "@id": "urn:cl-osint:node:Carlos_Eugenio_Lavin_Garcia-Huidobro",
+      "@type": "osint:persona",
+      "schema:name": "Carlos Eugenio Lavin Garcia-Huidobro"
+    },
+    {
+      "@id": "urn:cl-osint:node:Carlos_Pavez_Tolosa",
+      "@type": "osint:persona",
+      "schema:name": "Carlos Pavez Tolosa"
+    },
+    {
+      "@id": "urn:cl-osint:node:Cathy_Barriga_Guerra",
+      "@type": "osint:persona",
+      "schema:name": "Cathy Barriga Guerra"
+    },
+    {
+      "@id": "urn:cl-osint:node:Claudio_Spiniak_Vilensky",
+      "@type": "osint:persona",
+      "schema:name": "Claudio Spiniak Vilensky"
+    },
+    {
+      "@id": "urn:cl-osint:node:Daniel_Andrade_Schwarze",
+      "@type": "osint:persona",
+      "schema:name": "Daniel Andrade Schwarze"
+    },
+    {
+      "@id": "urn:cl-osint:node:Domingo_Prieto_Urrejola",
+      "@type": "osint:persona",
+      "schema:name": "Domingo Prieto Urrejola"
+    },
+    {
+      "@id": "urn:cl-osint:node:Eliodoro_Matte_Larrain",
+      "@type": "osint:persona",
+      "schema:name": "Eliodoro Matte Larrain"
+    },
+    {
+      "@id": "urn:cl-osint:node:Felipe_Sanchez_Perez",
+      "@type": "osint:persona",
+      "schema:name": "Felipe Sanchez Perez"
+    },
+    {
+      "@id": "urn:cl-osint:node:Fernando_Cerimedo",
+      "@type": "osint:persona",
+      "schema:name": "Fernando Cerimedo"
+    },
+    {
+      "@id": "urn:cl-osint:node:Fernando_Leon_Steffens",
+      "@type": "osint:persona",
+      "schema:name": "Fernando Leon Steffens"
+    },
+    {
+      "@id": "urn:cl-osint:node:Flavio_Echeverria_Cortez",
+      "@type": "osint:persona",
+      "schema:name": "Flavio Echeverria Cortez"
+    },
+    {
+      "@id": "urn:cl-osint:node:Francisco_Mujica_Ortuzar",
+      "@type": "osint:persona",
+      "schema:name": "Francisco Mujica Ortuzar"
+    },
+    {
+      "@id": "urn:cl-osint:node:Gabriel_Ruiz-Tagle_Serrano",
+      "@type": "osint:persona",
+      "schema:name": "Gabriel Ruiz-Tagle Serrano"
+    },
+    {
+      "@id": "urn:cl-osint:node:Gabriel_Zaliasnik_Schilkrut",
+      "@type": "osint:persona",
+      "schema:name": "Gabriel Zaliasnik Schilkrut"
+    },
+    {
+      "@id": "urn:cl-osint:node:Gonzalo_Blu_Rodriguez",
+      "@type": "osint:persona",
+      "schema:name": "Gonzalo Blu Rodriguez"
+    },
+    {
+      "@id": "urn:cl-osint:node:Gonzalo_Delaveau_Swett",
+      "@type": "osint:persona",
+      "schema:name": "Gonzalo Delaveau Swett"
+    },
+    {
+      "@id": "urn:cl-osint:node:Gonzalo_Vial_Vial",
+      "@type": "osint:persona",
+      "schema:name": "Gonzalo Vial Vial"
+    },
+    {
+      "@id": "urn:cl-osint:node:Guillermo_Harding_Alvarado",
+      "@type": "osint:persona",
+      "schema:name": "Guillermo Harding Alvarado"
+    },
+    {
+      "@id": "urn:cl-osint:node:Hartmut_Hopp_Miottel",
+      "@type": "osint:persona",
+      "schema:name": "Hartmut Hopp Miottel"
+    },
+    {
+      "@id": "urn:cl-osint:node:Hector_Pena_Veliz",
+      "@type": "osint:persona",
+      "schema:name": "Hector Pena Veliz"
+    },
+    {
+      "@id": "urn:cl-osint:node:Hernan_Larrain_Fernandez",
+      "@type": "osint:persona",
+      "schema:name": "Hernan Larrain Fernandez"
+    },
+    {
+      "@id": "urn:cl-osint:node:Iraci_Hassler_Jacob",
+      "@type": "osint:persona",
+      "schema:name": "Iraci Hassler Jacob"
+    },
+    {
+      "@id": "urn:cl-osint:node:Jaime_Orpis_Bouchon",
+      "@type": "osint:persona",
+      "schema:name": "Jaime Orpis Bouchon"
+    },
+    {
+      "@id": "urn:cl-osint:node:Jaime_Paz_Meneses",
+      "@type": "osint:persona",
+      "schema:name": "Jaime Paz Meneses"
+    },
+    {
+      "@id": "urn:cl-osint:node:Javier_Cruz_Tamburrino",
+      "@type": "osint:persona",
+      "schema:name": "Javier Cruz Tamburrino"
+    },
+    {
+      "@id": "urn:cl-osint:node:Jorge_Bermudez_Soto",
+      "@type": "osint:persona",
+      "schema:name": "Jorge Bermudez Soto"
+    },
+    {
+      "@id": "urn:cl-osint:node:Jorge_Quiroz_Castro",
+      "@type": "osint:persona",
+      "schema:name": "Jorge Quiroz Castro"
+    },
+    {
+      "@id": "urn:cl-osint:node:Jorge_Silva_Menares",
+      "@type": "osint:persona",
+      "schema:name": "Jorge Silva Menares"
+    },
+    {
+      "@id": "urn:cl-osint:node:Jorge_Zepeda_Arancibia",
+      "@type": "osint:persona",
+      "schema:name": "Jorge Zepeda Arancibia"
+    },
+    {
+      "@id": "urn:cl-osint:node:Jose_Antonio_Pavez_Canessa",
+      "@type": "osint:persona",
+      "schema:name": "Jose Antonio Pavez Canessa"
+    },
+    {
+      "@id": "urn:cl-osint:node:Jose_Codner_Chijner",
+      "@type": "osint:persona",
+      "schema:name": "Jose Codner Chijner"
+    },
+    {
+      "@id": "urn:cl-osint:node:Jovino_Novoa_Vasquez",
+      "@type": "osint:persona",
+      "schema:name": "Jovino Novoa Vasquez"
+    },
+    {
+      "@id": "urn:cl-osint:node:Jozo_Santic_Palomino",
+      "@type": "osint:persona",
+      "schema:name": "Jozo Santic Palomino"
+    },
+    {
+      "@id": "urn:cl-osint:node:Juan_Miguel_Fuente-Alba_Poblete",
+      "@type": "osint:persona",
+      "schema:name": "Juan Miguel Fuente-Alba Poblete"
+    },
+    {
+      "@id": "urn:cl-osint:node:Juan_Miguel_Ovalle_Garces",
+      "@type": "osint:persona",
+      "schema:name": "Juan Miguel Ovalle Garces"
+    },
+    {
+      "@id": "urn:cl-osint:node:Juan_Victor_Galaz_Rojas",
+      "@type": "osint:persona",
+      "schema:name": "Juan Victor Galaz Rojas"
+    },
+    {
+      "@id": "urn:cl-osint:node:Julio_Ponce_Lerou",
+      "@type": "osint:persona",
+      "schema:name": "Julio Ponce Lerou"
+    },
+    {
+      "@id": "urn:cl-osint:node:Leon_Marcelo_Lefort_Hernandez",
+      "@type": "osint:persona",
+      "schema:name": "Leon Marcelo Lefort Hernandez"
+    },
+    {
+      "@id": "urn:cl-osint:node:Leonarda_Villalobos_Muth",
+      "@type": "osint:persona",
+      "schema:name": "Leonarda Villalobos Muth"
+    },
+    {
+      "@id": "urn:cl-osint:node:Leonardo_Osses_Sandoval",
+      "@type": "osint:persona",
+      "schema:name": "Leonardo Osses Sandoval"
+    },
+    {
+      "@id": "urn:cl-osint:node:Loreto_Letelier",
+      "@type": "osint:persona",
+      "schema:name": "Loreto Letelier"
+    },
+    {
+      "@id": "urn:cl-osint:node:Lucia_Hiriart_Rodriguez",
+      "@type": "osint:persona",
+      "schema:name": "Lucia Hiriart Rodriguez"
+    },
+    {
+      "@id": "urn:cl-osint:node:Luis_Hermosilla_Osorio",
+      "@type": "osint:persona",
+      "schema:name": "Luis Hermosilla Osorio"
+    },
+    {
+      "@id": "urn:cl-osint:node:Luis_Plaza_Sanchez",
+      "@type": "osint:persona",
+      "schema:name": "Luis Plaza Sanchez"
+    },
+    {
+      "@id": "urn:cl-osint:node:Manuel_Ariztia_Ruiz",
+      "@type": "osint:persona",
+      "schema:name": "Manuel Ariztia Ruiz"
+    },
+    {
+      "@id": "urn:cl-osint:node:Manuel_Contreras_Sepulveda",
+      "@type": "osint:persona",
+      "schema:name": "Manuel Contreras Sepulveda"
+    },
+    {
+      "@id": "urn:cl-osint:node:Marcelo_Campos_Henriquez",
+      "@type": "osint:persona",
+      "schema:name": "Marcelo Campos Henriquez"
+    },
+    {
+      "@id": "urn:cl-osint:node:Marcelo_Teuber_Munoz",
+      "@type": "osint:persona",
+      "schema:name": "Marcelo Teuber Munoz"
+    },
+    {
+      "@id": "urn:cl-osint:node:Marcelo_Torres_Ferrari",
+      "@type": "osint:persona",
+      "schema:name": "Marcelo Torres Ferrari"
+    },
+    {
+      "@id": "urn:cl-osint:node:Mauricio_Valero_Illanes",
+      "@type": "osint:persona",
+      "schema:name": "Mauricio Valero Illanes"
+    },
+    {
+      "@id": "urn:cl-osint:node:Natalia_Compagnon_Soto",
+      "@type": "osint:persona",
+      "schema:name": "Natalia Compagnon Soto"
+    },
+    {
+      "@id": "urn:cl-osint:node:Olga_Paz_Barraza_Quezada",
+      "@type": "osint:persona",
+      "schema:name": "Olga Paz Barraza Quezada"
+    },
+    {
+      "@id": "urn:cl-osint:node:Oscar_Aitken_Lavanchy",
+      "@type": "osint:persona",
+      "schema:name": "Oscar Aitken Lavanchy"
+    },
+    {
+      "@id": "urn:cl-osint:node:Osvaldo_Mario_Luis_Sacco_Croxatto",
+      "@type": "osint:persona",
+      "schema:name": "Osvaldo Mario Luis Sacco Croxatto"
+    },
+    {
+      "@id": "urn:cl-osint:node:Pablo_Longueira_Montes",
+      "@type": "osint:persona",
+      "schema:name": "Pablo Longueira Montes"
+    },
+    {
+      "@id": "urn:cl-osint:node:Pablo_Wagner_San_Martin",
+      "@type": "osint:persona",
+      "schema:name": "Pablo Wagner San Martin"
+    },
+    {
+      "@id": "urn:cl-osint:node:Patricio_Contesse_Gonzalez",
+      "@type": "osint:persona",
+      "schema:name": "Patricio Contesse Gonzalez"
+    },
+    {
+      "@id": "urn:cl-osint:node:Patricio_Marin_Lazo",
+      "@type": "osint:persona",
+      "schema:name": "Patricio Marin Lazo"
+    },
+    {
+      "@id": "urn:cl-osint:node:Paul_Schafer_Schneider",
+      "@type": "osint:persona",
+      "schema:name": "Paul Schafer Schneider"
+    },
+    {
+      "@id": "urn:cl-osint:node:Percy_Marin_Vera",
+      "@type": "osint:persona",
+      "schema:name": "Percy Marin Vera"
+    },
+    {
+      "@id": "urn:cl-osint:node:Pia_Guzman_Mena",
+      "@type": "osint:persona",
+      "schema:name": "Pia Guzman Mena"
+    },
+    {
+      "@id": "urn:cl-osint:node:Raul_Torrealba_del_Pedregal",
+      "@type": "osint:persona",
+      "schema:name": "Raul Torrealba del Pedregal"
+    },
+    {
+      "@id": "urn:cl-osint:node:Roberto_Belloni_Pechini",
+      "@type": "osint:persona",
+      "schema:name": "Roberto Belloni Pechini"
+    },
+    {
+      "@id": "urn:cl-osint:node:Rodrigo_Diaz_Worner",
+      "@type": "osint:persona",
+      "schema:name": "Rodrigo Diaz Worner"
+    },
+    {
+      "@id": "urn:cl-osint:node:Santiago_Valdes_Gutierrez",
+      "@type": "osint:persona",
+      "schema:name": "Santiago Valdes Gutierrez"
+    },
+    {
+      "@id": "urn:cl-osint:node:Sebastian_Pinera_Echenique",
+      "@type": "osint:persona",
+      "schema:name": "Sebastian Pinera Echenique"
+    },
+    {
+      "@id": "urn:cl-osint:node:Sergio_Munoz_Gajardo",
+      "@type": "osint:persona",
+      "schema:name": "Sergio Munoz Gajardo"
+    },
+    {
+      "@id": "urn:cl-osint:node:Ximena_Tavitxa_Jimenez_Farias",
+      "@type": "osint:persona",
+      "schema:name": "Ximena Tavitxa Jimenez Farias"
+    },
+    {
+      "@id": "urn:cl-osint:node:Comando_de_Apoyo_a_la_Fuerza_del_Ejercito",
+      "@type": "osint:entidad_publica",
+      "schema:name": "Comando de Apoyo a la Fuerza del Ejercito"
+    },
+    {
+      "@id": "urn:cl-osint:node:Comision_para_el_Mercado_Financiero",
+      "@type": "osint:entidad_publica",
+      "schema:name": "Comision para el Mercado Financiero"
+    },
+    {
+      "@id": "urn:cl-osint:node:Contraloria_General_de_la_Republica",
+      "@type": "osint:entidad_publica",
+      "schema:name": "Contraloria General de la Republica"
+    },
+    {
+      "@id": "urn:cl-osint:node:Corte_Suprema_de_Chile",
+      "@type": "osint:entidad_publica",
+      "schema:name": "Corte Suprema de Chile"
+    },
+    {
+      "@id": "urn:cl-osint:node:Direccion_ChileCompra",
+      "@type": "osint:entidad_publica",
+      "schema:name": "Direccion ChileCompra"
+    },
+    {
+      "@id": "urn:cl-osint:node:Direccion_de_Finanzas_de_Carabineros",
+      "@type": "osint:entidad_publica",
+      "schema:name": "Direccion de Finanzas de Carabineros"
+    },
+    {
+      "@id": "urn:cl-osint:node:Direccion_de_Inteligencia_Policial_de_Carabineros",
+      "@type": "osint:entidad_publica",
+      "schema:name": "Direccion de Inteligencia Policial de Carabineros"
+    },
+    {
+      "@id": "urn:cl-osint:node:Fiscalia_Nacional_Economica",
+      "@type": "osint:entidad_publica",
+      "schema:name": "Fiscalia Nacional Economica"
+    },
+    {
+      "@id": "urn:cl-osint:node:GORE_Biobio",
+      "@type": "osint:entidad_publica",
+      "schema:name": "GORE Biobio"
+    },
+    {
+      "@id": "urn:cl-osint:node:Ministerio_de_Obras_Publicas",
+      "@type": "osint:entidad_publica",
+      "schema:name": "Ministerio de Obras Publicas"
+    },
+    {
+      "@id": "urn:cl-osint:node:Municipalidad_de_Cerro_Navia",
+      "@type": "osint:entidad_publica",
+      "schema:name": "Municipalidad de Cerro Navia"
+    },
+    {
+      "@id": "urn:cl-osint:node:Municipalidad_de_Chillan",
+      "@type": "osint:entidad_publica",
+      "schema:name": "Municipalidad de Chillan"
+    },
+    {
+      "@id": "urn:cl-osint:node:Municipalidad_de_Machali",
+      "@type": "osint:entidad_publica",
+      "schema:name": "Municipalidad de Machali"
+    },
+    {
+      "@id": "urn:cl-osint:node:Municipalidad_de_Maipu",
+      "@type": "osint:entidad_publica",
+      "schema:name": "Municipalidad de Maipu"
+    },
+    {
+      "@id": "urn:cl-osint:node:Municipalidad_de_Santiago",
+      "@type": "osint:entidad_publica",
+      "schema:name": "Municipalidad de Santiago"
+    },
+    {
+      "@id": "urn:cl-osint:node:Municipalidad_de_Vitacura",
+      "@type": "osint:entidad_publica",
+      "schema:name": "Municipalidad de Vitacura"
+    },
+    {
+      "@id": "urn:cl-osint:node:Senado_de_la_Republica_de_Chile",
+      "@type": "osint:entidad_publica",
+      "schema:name": "Senado de la Republica de Chile"
+    },
+    {
+      "@id": "urn:cl-osint:node:Seremi_MINVU_Antofagasta",
+      "@type": "osint:entidad_publica",
+      "schema:name": "Seremi MINVU Antofagasta"
+    },
+    {
+      "@id": "urn:cl-osint:node:Servicio_Impuestos_Internos",
+      "@type": "osint:entidad_publica",
+      "schema:name": "Servicio Impuestos Internos"
+    },
+    {
+      "@id": "urn:cl-osint:node:Servicio_Nacional_del_Consumidor",
+      "@type": "osint:entidad_publica",
+      "schema:name": "Servicio Nacional del Consumidor"
+    },
+    {
+      "@id": "urn:cl-osint:node:Unidad_de_Analisis_Financiero",
+      "@type": "osint:entidad_publica",
+      "schema:name": "Unidad de Analisis Financiero"
+    },
+    {
+      "@id": "urn:cl-osint:node:Agencia_Central_de_Inteligencia_CIA_y_Escuela_de_las_Americas",
+      "@type": "osint:entidad_privada",
+      "schema:name": "Agencia Central de Inteligencia CIA y Escuela de las Americas"
+    },
+    {
+      "@id": "urn:cl-osint:node:Agricola_Don_Pollo_Limitada",
+      "@type": "osint:entidad_privada",
+      "schema:name": "Agricola Don Pollo Limitada"
+    },
+    {
+      "@id": "urn:cl-osint:node:Agrosuper_SA",
+      "@type": "osint:entidad_privada",
+      "schema:name": "Agrosuper SA",
+      "schema:identifier": "76.129.263-3"
+    },
+    {
+      "@id": "urn:cl-osint:node:Andes_Iron_SpA",
+      "@type": "osint:entidad_privada",
+      "schema:name": "Andes Iron SpA"
+    },
+    {
+      "@id": "urn:cl-osint:node:Asociacion_de_Productores_Avicolas_de_Chile_AG",
+      "@type": "osint:entidad_privada",
+      "schema:name": "Asociacion de Productores Avicolas de Chile AG"
+    },
+    {
+      "@id": "urn:cl-osint:node:Bancard_Inversiones_Ltda",
+      "@type": "osint:entidad_privada",
+      "schema:name": "Bancard Inversiones Ltda"
+    },
+    {
+      "@id": "urn:cl-osint:node:Banco_de_Chile",
+      "@type": "osint:entidad_privada",
+      "schema:name": "Banco de Chile",
+      "schema:identifier": "97.004.000-5"
+    },
+    {
+      "@id": "urn:cl-osint:node:Corpesca_SA",
+      "@type": "osint:entidad_privada",
+      "schema:name": "Corpesca SA",
+      "schema:identifier": "96.893.820-7"
+    },
+    {
+      "@id": "urn:cl-osint:node:Empresa_El_Mercurio_SAP",
+      "@type": "osint:entidad_privada",
+      "schema:name": "Empresa El Mercurio SAP",
+      "schema:identifier": "90.193.000-7"
+    },
+    {
+      "@id": "urn:cl-osint:node:Empresas_Ariztia_SA",
+      "@type": "osint:entidad_privada",
+      "schema:name": "Empresas Ariztia SA"
+    },
+    {
+      "@id": "urn:cl-osint:node:Empresas_CMPC_SA",
+      "@type": "osint:entidad_privada",
+      "schema:name": "Empresas CMPC SA",
+      "schema:identifier": "90.222.000-3"
+    },
+    {
+      "@id": "urn:cl-osint:node:Empresas_Penta_SA",
+      "@type": "osint:entidad_privada",
+      "schema:name": "Empresas Penta SA",
+      "schema:identifier": "87.107.000-8"
+    },
+    {
+      "@id": "urn:cl-osint:node:Exportadora_y_de_Gestion_Caval_Ltda",
+      "@type": "osint:entidad_privada",
+      "schema:name": "Exportadora y de Gestion Caval Ltda"
+    },
+    {
+      "@id": "urn:cl-osint:node:Factop_SpA",
+      "@type": "osint:entidad_privada",
+      "schema:name": "Factop SpA"
+    },
+    {
+      "@id": "urn:cl-osint:node:Farmacias_Ahumada_SA",
+      "@type": "osint:entidad_privada",
+      "schema:name": "Farmacias Ahumada SA"
+    },
+    {
+      "@id": "urn:cl-osint:node:Farmacias_Cruz_Verde_SA",
+      "@type": "osint:entidad_privada",
+      "schema:name": "Farmacias Cruz Verde SA",
+      "schema:identifier": "89.807.200-2"
+    },
+    {
+      "@id": "urn:cl-osint:node:Farmacias_Salcobrand_SA",
+      "@type": "osint:entidad_privada",
+      "schema:name": "Farmacias Salcobrand SA"
+    },
+    {
+      "@id": "urn:cl-osint:node:Frasim_Ltda",
+      "@type": "osint:entidad_privada",
+      "schema:name": "Frasim Ltda"
+    },
+    {
+      "@id": "urn:cl-osint:node:Fundacion_CEMA_Chile",
+      "@type": "osint:entidad_privada",
+      "schema:name": "Fundacion CEMA Chile"
+    },
+    {
+      "@id": "urn:cl-osint:node:Fundacion_Democracia_Viva",
+      "@type": "osint:entidad_privada",
+      "schema:name": "Fundacion Democracia Viva"
+    },
+    {
+      "@id": "urn:cl-osint:node:Fundacion_En_Ti",
+      "@type": "osint:entidad_privada",
+      "schema:name": "Fundacion En Ti"
+    },
+    {
+      "@id": "urn:cl-osint:node:Fundacion_ProCultura",
+      "@type": "osint:entidad_privada",
+      "schema:name": "Fundacion ProCultura"
+    },
+    {
+      "@id": "urn:cl-osint:node:Gestion_Ambiental_y_Territorial_SA",
+      "@type": "osint:entidad_privada",
+      "schema:name": "Gestion Ambiental y Territorial SA"
+    },
+    {
+      "@id": "urn:cl-osint:node:Inmobiliaria_San_Valentino_SpA",
+      "@type": "osint:entidad_privada",
+      "schema:name": "Inmobiliaria San Valentino SpA"
+    },
+    {
+      "@id": "urn:cl-osint:node:Inversiones_El_Bosque_Ltda",
+      "@type": "osint:entidad_privada",
+      "schema:name": "Inversiones El Bosque Ltda"
+    },
+    {
+      "@id": "urn:cl-osint:node:Itelecom_Holding_Chile_SpA",
+      "@type": "osint:entidad_privada",
+      "schema:name": "Itelecom Holding Chile SpA"
+    },
+    {
+      "@id": "urn:cl-osint:node:KDM_Empresas_SA",
+      "@type": "osint:entidad_privada",
+      "schema:name": "KDM Empresas SA"
+    },
+    {
+      "@id": "urn:cl-osint:node:Mossack_Fonseca_y_Sociedades_Offshore_Panama",
+      "@type": "osint:entidad_privada",
+      "schema:name": "Mossack Fonseca y Sociedades Offshore Panama"
+    },
+    {
+      "@id": "urn:cl-osint:node:Numen_Publicidad_SpA",
+      "@type": "osint:entidad_privada",
+      "schema:name": "Numen Publicidad SpA"
+    },
+    {
+      "@id": "urn:cl-osint:node:Quiroz_y_Asociados_Consultores_SpA",
+      "@type": "osint:entidad_privada",
+      "schema:name": "Quiroz y Asociados Consultores SpA"
+    },
+    {
+      "@id": "urn:cl-osint:node:Riggs_Bank_y_Sociedades_Offshore_Ashburton",
+      "@type": "osint:entidad_privada",
+      "schema:name": "Riggs Bank y Sociedades Offshore Ashburton"
+    },
+    {
+      "@id": "urn:cl-osint:node:SCA_Chile_SA",
+      "@type": "osint:entidad_privada",
+      "schema:name": "SCA Chile SA"
+    },
+    {
+      "@id": "urn:cl-osint:node:SQM_SA",
+      "@type": "osint:entidad_privada",
+      "schema:name": "SQM SA",
+      "schema:identifier": "93.007.000-9"
+    },
+    {
+      "@id": "urn:cl-osint:node:Sociedad_Benefactora_y_Educacional_Dignidad",
+      "@type": "osint:entidad_privada",
+      "schema:name": "Sociedad Benefactora y Educacional Dignidad"
+    },
+    {
+      "@id": "urn:cl-osint:node:Sociedad_de_Inversiones_Pampa_Calichera_SA",
+      "@type": "osint:entidad_privada",
+      "schema:name": "Sociedad de Inversiones Pampa Calichera SA"
+    },
+    {
+      "@id": "urn:cl-osint:node:Valmoval_Ltda",
+      "@type": "osint:entidad_privada",
+      "schema:name": "Valmoval Ltda"
+    },
+    {
+      "@id": "urn:cl-osint:node:Vita_Deportes",
+      "@type": "osint:entidad_privada",
+      "schema:name": "Vita Deportes"
+    },
+    {
+      "@id": "urn:cl-osint:node:Partido_Comunista_de_Chile",
+      "@type": "osint:partido_politico",
+      "schema:name": "Partido Comunista de Chile"
+    },
+    {
+      "@id": "urn:cl-osint:node:Partido_Socialista_de_Chile",
+      "@type": "osint:partido_politico",
+      "schema:name": "Partido Socialista de Chile"
+    },
+    {
+      "@id": "urn:cl-osint:node:Renovacion_Nacional",
+      "@type": "osint:partido_politico",
+      "schema:name": "Renovacion Nacional"
+    },
+    {
+      "@id": "urn:cl-osint:node:Revolucion_Democratica",
+      "@type": "osint:partido_politico",
+      "schema:name": "Revolucion Democratica"
+    },
+    {
+      "@id": "urn:cl-osint:node:Union_Democrata_Independiente",
+      "@type": "osint:partido_politico",
+      "schema:name": "Union Democrata Independiente"
+    },
+    {
+      "@id": "urn:cl-osint:node:Caso_Asignaciones_Parlamentarias_y_Cuota_Flores",
+      "@type": "osint:causa_judicial",
+      "schema:name": "Caso Asignaciones Parlamentarias y Cuota Flores"
+    },
+    {
+      "@id": "urn:cl-osint:node:Caso_Audios",
+      "@type": "osint:causa_judicial",
+      "schema:name": "Caso Audios"
+    },
+    {
+      "@id": "urn:cl-osint:node:Caso_Basura",
+      "@type": "osint:causa_judicial",
+      "schema:name": "Caso Basura"
+    },
+    {
+      "@id": "urn:cl-osint:node:Caso_CEMA_Chile",
+      "@type": "osint:causa_judicial",
+      "schema:name": "Caso CEMA Chile"
+    },
+    {
+      "@id": "urn:cl-osint:node:Caso_Cascadas",
+      "@type": "osint:causa_judicial",
+      "schema:name": "Caso Cascadas"
+    },
+    {
+      "@id": "urn:cl-osint:node:Caso_Caval",
+      "@type": "osint:causa_judicial",
+      "schema:name": "Caso Caval"
+    },
+    {
+      "@id": "urn:cl-osint:node:Caso_Colonia_Dignidad",
+      "@type": "osint:causa_judicial",
+      "schema:name": "Caso Colonia Dignidad"
+    },
+    {
+      "@id": "urn:cl-osint:node:Caso_Colusion_de_las_Farmacias",
+      "@type": "osint:causa_judicial",
+      "schema:name": "Caso Colusion de las Farmacias",
+      "schema:identifier": "ROL-C-184-08-TDLC"
+    },
+    {
+      "@id": "urn:cl-osint:node:Caso_Colusion_de_los_Pollos",
+      "@type": "osint:causa_judicial",
+      "schema:name": "Caso Colusion de los Pollos",
+      "schema:identifier": "ROL-C-236-11-TDLC"
+    },
+    {
+      "@id": "urn:cl-osint:node:Caso_Colusion_del_Papel_Tissue",
+      "@type": "osint:causa_judicial",
+      "schema:name": "Caso Colusion del Papel Tissue",
+      "schema:identifier": "ROL-C-299-15-TDLC"
+    },
+    {
+      "@id": "urn:cl-osint:node:Caso_Convenios",
+      "@type": "osint:causa_judicial",
+      "schema:name": "Caso Convenios"
+    },
+    {
+      "@id": "urn:cl-osint:node:Caso_Corpesca",
+      "@type": "osint:causa_judicial",
+      "schema:name": "Caso Corpesca"
+    },
+    {
+      "@id": "urn:cl-osint:node:Caso_Exalmar_y_Fideicomiso_Ciego",
+      "@type": "osint:causa_judicial",
+      "schema:name": "Caso Exalmar y Fideicomiso Ciego"
+    },
+    {
+      "@id": "urn:cl-osint:node:Caso_LAN_Informacion_Privilegiada_y_Banco_de_Talca",
+      "@type": "osint:causa_judicial",
+      "schema:name": "Caso LAN Informacion Privilegiada y Banco de Talca"
+    },
+    {
+      "@id": "urn:cl-osint:node:Caso_Luminarias_LED",
+      "@type": "osint:causa_judicial",
+      "schema:name": "Caso Luminarias LED"
+    },
+    {
+      "@id": "urn:cl-osint:node:Caso_MOP-Gate",
+      "@type": "osint:causa_judicial",
+      "schema:name": "Caso MOP-Gate"
+    },
+    {
+      "@id": "urn:cl-osint:node:Caso_Megafraude_Tributario_Operacion_Tributos",
+      "@type": "osint:causa_judicial",
+      "schema:name": "Caso Megafraude Tributario Operacion Tributos"
+    },
+    {
+      "@id": "urn:cl-osint:node:Caso_Milicogate",
+      "@type": "osint:causa_judicial",
+      "schema:name": "Caso Milicogate"
+    },
+    {
+      "@id": "urn:cl-osint:node:Caso_Minera_Dominga_Pandora_Papers",
+      "@type": "osint:causa_judicial",
+      "schema:name": "Caso Minera Dominga Pandora Papers"
+    },
+    {
+      "@id": "urn:cl-osint:node:Caso_Municipalidad_de_Maipu",
+      "@type": "osint:causa_judicial",
+      "schema:name": "Caso Municipalidad de Maipu"
+    },
+    {
+      "@id": "urn:cl-osint:node:Caso_Operacion_FUBELT_Intervencion_CIA_y_DINA",
+      "@type": "osint:causa_judicial",
+      "schema:name": "Caso Operacion FUBELT Intervencion CIA y DINA"
+    },
+    {
+      "@id": "urn:cl-osint:node:Caso_Operacion_Huracan",
+      "@type": "osint:causa_judicial",
+      "schema:name": "Caso Operacion Huracan"
+    },
+    {
+      "@id": "urn:cl-osint:node:Caso_Operaciones_Digitales_e_Injerencia_Electoral",
+      "@type": "osint:causa_judicial",
+      "schema:name": "Caso Operaciones Digitales e Injerencia Electoral"
+    },
+    {
+      "@id": "urn:cl-osint:node:Caso_Pacogate",
+      "@type": "osint:causa_judicial",
+      "schema:name": "Caso Pacogate"
+    },
+    {
+      "@id": "urn:cl-osint:node:Caso_Panama_Papers_Chile",
+      "@type": "osint:causa_judicial",
+      "schema:name": "Caso Panama Papers Chile"
+    },
+    {
+      "@id": "urn:cl-osint:node:Caso_Penta",
+      "@type": "osint:causa_judicial",
+      "schema:name": "Caso Penta"
+    },
+    {
+      "@id": "urn:cl-osint:node:Caso_Pinocheques",
+      "@type": "osint:causa_judicial",
+      "schema:name": "Caso Pinocheques"
+    },
+    {
+      "@id": "urn:cl-osint:node:Caso_Riggs",
+      "@type": "osint:causa_judicial",
+      "schema:name": "Caso Riggs"
+    },
+    {
+      "@id": "urn:cl-osint:node:Caso_SQM",
+      "@type": "osint:causa_judicial",
+      "schema:name": "Caso SQM"
+    },
+    {
+      "@id": "urn:cl-osint:node:Caso_Sierra_Bella",
+      "@type": "osint:causa_judicial",
+      "schema:name": "Caso Sierra Bella"
+    },
+    {
+      "@id": "urn:cl-osint:node:Caso_Spiniak",
+      "@type": "osint:causa_judicial",
+      "schema:name": "Caso Spiniak"
+    },
+    {
+      "@id": "urn:cl-osint:node:Caso_Vitacura",
+      "@type": "osint:causa_judicial",
+      "schema:name": "Caso Vitacura"
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-1971-09-09-Fondos-CIA-ElMercurio-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-1971-09-09-Fondos-CIA-ElMercurio-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 0
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Agencia_Central_de_Inteligencia_CIA_y_Escuela_de_las_Americas"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Empresa_El_Mercurio_SAP"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Manuel_Contreras_Sepulveda"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Agustin_Edwards_Eastman"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Operacion_FUBELT_Intervencion_CIA_y_DINA"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-1972-10-12-Fondos-CIA-Gremios-ParoCamioneros-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-1972-10-12-Fondos-CIA-Gremios-ParoCamioneros-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 0
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Agencia_Central_de_Inteligencia_CIA_y_Escuela_de_las_Americas"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Comando_de_Apoyo_a_la_Fuerza_del_Ejercito"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Agustin_Edwards_Eastman"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Augusto_Pinochet_Ugarte"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Operacion_FUBELT_Intervencion_CIA_y_DINA"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 0
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Agencia_Central_de_Inteligencia_CIA_y_Escuela_de_las_Americas"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Corte_Suprema_de_Chile"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Manuel_Contreras_Sepulveda"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Augusto_Pinochet_Ugarte"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Operacion_FUBELT_Intervencion_CIA_y_DINA"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 0
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Bancard_Inversiones_Ltda"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Corte_Suprema_de_Chile"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Sebastian_Pinera_Echenique"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Sergio_Munoz_Gajardo"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_LAN_Informacion_Privilegiada_y_Banco_de_Talca"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-1989-01-10-Emision-Pinocheques-Ejercito-Valmoval-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-1989-01-10-Emision-Pinocheques-Ejercito-Valmoval-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 2950000000
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Comando_de_Apoyo_a_la_Fuerza_del_Ejercito"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Valmoval_Ltda"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Augusto_Pinochet_Ugarte"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Augusto_Pinochet_Hiriart"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Pinocheques"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-1991-01-31-Movimientos-Patrimoniales-ColoniaDignidad-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-1991-01-31-Movimientos-Patrimoniales-ColoniaDignidad-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 0
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Sociedad_Benefactora_y_Educacional_Dignidad"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Servicio_Impuestos_Internos"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Paul_Schafer_Schneider"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Jorge_Zepeda_Arancibia"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Colonia_Dignidad"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-1996-06-12-Defensa-Politica-ColoniaDignidad-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-1996-06-12-Defensa-Politica-ColoniaDignidad-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 0
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Union_Democrata_Independiente"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Sociedad_Benefactora_y_Educacional_Dignidad"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Hernan_Larrain_Fernandez"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Hartmut_Hopp_Miottel"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Colonia_Dignidad"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2000-05-15-Pacto-Colusion-Precios-Cuotas-CMPC-PISA-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2000-05-15-Pacto-Colusion-Precios-Cuotas-CMPC-PISA-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 0
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Empresas_CMPC_SA"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:SCA_Chile_SA"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Eliodoro_Matte_Larrain"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Gabriel_Ruiz-Tagle_Serrano"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Colusion_del_Papel_Tissue"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2001-08-20-Contratos-MOP-GATE-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2001-08-20-Contratos-MOP-GATE-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 1253000000
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Ministerio_de_Obras_Publicas"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Gestion_Ambiental_y_Territorial_SA"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Carlos_Cruz_Lorenzen"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Hector_Pena_Veliz"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_MOP-Gate"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2003-10-15-Patrimonio-ElBosque-Spiniak-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2003-10-15-Patrimonio-ElBosque-Spiniak-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 0
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Inversiones_El_Bosque_Ltda"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Servicio_Impuestos_Internos"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Claudio_Spiniak_Vilensky"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Sergio_Munoz_Gajardo"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Spiniak"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2003-11-05-Arista-Politica-Spiniak-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2003-11-05-Arista-Politica-Spiniak-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 0
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Renovacion_Nacional"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Corte_Suprema_de_Chile"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Pia_Guzman_Mena"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Sergio_Munoz_Gajardo"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Spiniak"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2004-07-14-Gastos-Reservados-Riggs-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2004-07-14-Gastos-Reservados-Riggs-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 15800000000
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Comando_de_Apoyo_a_la_Fuerza_del_Ejercito"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Riggs_Bank_y_Sociedades_Offshore_Ashburton"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Augusto_Pinochet_Ugarte"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Oscar_Aitken_Lavanchy"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Riggs"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2005-06-14-Hallazgo-Arsenal-ColoniaDignidad-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2005-06-14-Hallazgo-Arsenal-ColoniaDignidad-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 0
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Sociedad_Benefactora_y_Educacional_Dignidad"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Corte_Suprema_de_Chile"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Paul_Schafer_Schneider"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Jorge_Zepeda_Arancibia"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Colonia_Dignidad"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2005-08-10-Querella-SII-Cuentas-Riggs-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2005-08-10-Querella-SII-Cuentas-Riggs-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 2450000000
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Riggs_Bank_y_Sociedades_Offshore_Ashburton"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Servicio_Impuestos_Internos"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Lucia_Hiriart_Rodriguez"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Sergio_Munoz_Gajardo"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Riggs"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2006-07-24-Compra-Acciones-Informacion-Privilegiada-LAN-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2006-07-24-Compra-Acciones-Informacion-Privilegiada-LAN-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 5300000000
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Bancard_Inversiones_Ltda"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Comision_para_el_Mercado_Financiero"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Sebastian_Pinera_Echenique"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Carlos_Pavez_Tolosa"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_LAN_Informacion_Privilegiada_y_Banco_de_Talca"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2007-04-10-Modelo-Proyeccion-Demanda-APA-Pollos-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2007-04-10-Modelo-Proyeccion-Demanda-APA-Pollos-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 0
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Quiroz_y_Asociados_Consultores_SpA"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Asociacion_de_Productores_Avicolas_de_Chile_AG"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Jorge_Quiroz_Castro"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Juan_Miguel_Ovalle_Garces"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Colusion_de_los_Pollos"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2007-11-01-Colusion-Precios-Medicamentos-Farmacias-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2007-11-01-Colusion-Precios-Medicamentos-Farmacias-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 0
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Farmacias_Salcobrand_SA"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Farmacias_Cruz_Verde_SA"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Roberto_Belloni_Pechini"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Guillermo_Harding_Alvarado"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Colusion_de_las_Farmacias"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2008-01-15-Colusion-Cuotas-Produccion-Pollos-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2008-01-15-Colusion-Cuotas-Produccion-Pollos-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 0
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Agrosuper_SA"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Asociacion_de_Productores_Avicolas_de_Chile_AG"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Gonzalo_Vial_Vial"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Juan_Miguel_Ovalle_Garces"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Colusion_de_los_Pollos"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2009-11-18-Facturas-Bancard-SQM-2009-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2009-11-18-Facturas-Bancard-SQM-2009-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 340000000
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:SQM_SA"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Bancard_Inversiones_Ltda"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Patricio_Contesse_Gonzalez"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Santiago_Valdes_Gutierrez"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_SQM"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2010-06-15-Informe-Economico-Peritaje-Defensa-Salcobrand-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2010-06-15-Informe-Economico-Peritaje-Defensa-Salcobrand-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 0
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Quiroz_y_Asociados_Consultores_SpA"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Farmacias_Salcobrand_SA"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Jorge_Quiroz_Castro"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Roberto_Belloni_Pechini"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Colusion_de_las_Farmacias"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2010-08-19-Correo-Royalty-SQM-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2010-08-19-Correo-Royalty-SQM-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 730000000
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:SQM_SA"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Union_Democrata_Independiente"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Patricio_Contesse_Gonzalez"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Pablo_Longueira_Montes"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_SQM"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2010-11-15-Pagos-KDM-Licitacion-Basura-Maipu-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2010-11-15-Pagos-KDM-Licitacion-Basura-Maipu-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 186500000
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:KDM_Empresas_SA"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Municipalidad_de_Maipu"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Fernando_Leon_Steffens"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Marcelo_Torres_Ferrari"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Basura"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2010-12-10-Compraventa-Offshore-Dominga-Bancard-Delano-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2010-12-10-Compraventa-Offshore-Dominga-Bancard-Delano-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 75500000000
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Andes_Iron_SpA"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Bancard_Inversiones_Ltda"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Carlos_Alberto_Delano_Abbott"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Sebastian_Pinera_Echenique"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Minera_Dominga_Pandora_Papers"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2011-03-10-Pagos-Penta-Wagner-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2011-03-10-Pagos-Penta-Wagner-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 42000000
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Empresas_Penta_SA"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Servicio_Impuestos_Internos"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Carlos_Eugenio_Lavin_Garcia-Huidobro"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Pablo_Wagner_San_Martin"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Penta"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 0
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Sociedad_de_Inversiones_Pampa_Calichera_SA"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:SQM_SA"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Julio_Ponce_Lerou"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Cascadas"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2012-03-22-Contratos-Residuos-CerroNavia-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2012-03-22-Contratos-Residuos-CerroNavia-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 1120000000
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Municipalidad_de_Cerro_Navia"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:KDM_Empresas_SA"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Luis_Plaza_Sanchez"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Marcelo_Torres_Ferrari"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Basura"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2012-07-11-Pagos-Corpesca-LeyDePesca-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2012-07-11-Pagos-Corpesca-LeyDePesca-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 233000000
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Corpesca_SA"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Senado_de_la_Republica_de_Chile"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Francisco_Mujica_Ortuzar"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Jaime_Orpis_Bouchon"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Corpesca"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2012-11-20-Inversion-Offshore-Bancard-Exalmar-LaHaya-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2012-11-20-Inversion-Offshore-Bancard-Exalmar-LaHaya-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 8250000000
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Bancard_Inversiones_Ltda"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Contraloria_General_de_la_Republica"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Sebastian_Pinera_Echenique"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Santiago_Valdes_Gutierrez"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Exalmar_y_Fideicomiso_Ciego"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2013-07-15-Boletas-Penta-UDI-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2013-07-15-Boletas-Penta-UDI-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 1260000000
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Empresas_Penta_SA"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Union_Democrata_Independiente"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Carlos_Alberto_Delano_Abbott"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Pablo_Longueira_Montes"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Penta"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2013-09-20-Boletas-Penta-Novoa-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2013-09-20-Boletas-Penta-Novoa-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 156000000
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Empresas_Penta_SA"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Union_Democrata_Independiente"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Carlos_Alberto_Delano_Abbott"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Jovino_Novoa_Vasquez"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Penta"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2014-02-18-Pagos-DOM-Machali-Caval-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2014-02-18-Pagos-DOM-Machali-Caval-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 55030792
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Municipalidad_de_Machali"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Jorge_Silva_Menares"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Caval"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2014-05-20-Facturas-LeyReservadaCobre-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2014-05-20-Facturas-LeyReservadaCobre-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 6100000000
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Comando_de_Apoyo_a_la_Fuerza_del_Ejercito"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Frasim_Ltda"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Juan_Miguel_Fuente-Alba_Poblete"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Jozo_Santic_Palomino"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Milicogate"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2015-01-29-Facturas-Caval-SII-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2015-01-29-Facturas-Caval-SII-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 2500000000
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Exportadora_y_de_Gestion_Caval_Ltda"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Servicio_Impuestos_Internos"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Natalia_Compagnon_Soto"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Natalia_Compagnon_Soto"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Caval"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2015-08-14-GastosReservados-Ejercito-UAF-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2015-08-14-GastosReservados-Ejercito-UAF-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 3500000000
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Comando_de_Apoyo_a_la_Fuerza_del_Ejercito"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Unidad_de_Analisis_Financiero"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Juan_Miguel_Fuente-Alba_Poblete"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Javier_Cruz_Tamburrino"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Milicogate"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2015-10-29-Pago-Multas-Colusion-Pollos-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2015-10-29-Pago-Multas-Colusion-Pollos-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 38400000000
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Agrosuper_SA"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Corte_Suprema_de_Chile"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Gonzalo_Vial_Vial"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Manuel_Ariztia_Ruiz"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Colusion_de_los_Pollos"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 0
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Mossack_Fonseca_y_Sociedades_Offshore_Panama"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Servicio_Impuestos_Internos"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Gonzalo_Delaveau_Swett"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Carlos_Pavez_Tolosa"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Panama_Papers_Chile"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 0
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Mossack_Fonseca_y_Sociedades_Offshore_Panama"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Unidad_de_Analisis_Financiero"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Agustin_Edwards_Eastman"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Alfredo_Ovalle_Rodriguez"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Panama_Papers_Chile"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 0
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Mossack_Fonseca_y_Sociedades_Offshore_Panama"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Riggs_Bank_y_Sociedades_Offshore_Ashburton"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Oscar_Aitken_Lavanchy"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Augusto_Pinochet_Ugarte"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Panama_Papers_Chile"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 0
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Fundacion_CEMA_Chile"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Corte_Suprema_de_Chile"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Lucia_Hiriart_Rodriguez"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Sergio_Munoz_Gajardo"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_CEMA_Chile"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2016-11-10-Fondos-Direccion-Finanzas-Carabineros-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2016-11-10-Fondos-Direccion-Finanzas-Carabineros-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 28348928198
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Direccion_de_Finanzas_de_Carabineros"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Direccion_de_Finanzas_de_Carabineros"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Flavio_Echeverria_Cortez"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Jaime_Paz_Meneses"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Pacogate"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2017-03-03-Compensacion-Historica-Consumidores-CMPC-SERNAC-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2017-03-03-Compensacion-Historica-Consumidores-CMPC-SERNAC-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 97500000000
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Empresas_CMPC_SA"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Servicio_Nacional_del_Consumidor"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Eliodoro_Matte_Larrain"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Gabriel_Ruiz-Tagle_Serrano"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Colusion_del_Papel_Tissue"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2017-03-06-Reportes-UAF-Carabineros-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2017-03-06-Reportes-UAF-Carabineros-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 1450000000
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Direccion_de_Finanzas_de_Carabineros"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Unidad_de_Analisis_Financiero"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Flavio_Echeverria_Cortez"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Javier_Cruz_Tamburrino"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Pacogate"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2017-09-23-Detenciones-OperacionHuracan-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2017-09-23-Detenciones-OperacionHuracan-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 0
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Direccion_de_Inteligencia_Policial_de_Carabineros"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Corte_Suprema_de_Chile"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Gonzalo_Blu_Rodriguez"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Alex_Smith_Leay"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Operacion_Huracan"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 25000000
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Direccion_de_Inteligencia_Policial_de_Carabineros"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Direccion_de_Inteligencia_Policial_de_Carabineros"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Patricio_Marin_Lazo"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Alex_Smith_Leay"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Operacion_Huracan"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2018-01-25-Peritaje-Cibercrimen-Descarte-Antorcha-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2018-01-25-Peritaje-Cibercrimen-Descarte-Antorcha-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 0
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Corte_Suprema_de_Chile"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Direccion_de_Inteligencia_Policial_de_Carabineros"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Leonardo_Osses_Sandoval"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Alex_Smith_Leay"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Operacion_Huracan"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2019-05-14-Licitacion-Luminarias-Chillan-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2019-05-14-Licitacion-Luminarias-Chillan-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 37000000
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Itelecom_Holding_Chile_SpA"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Municipalidad_de_Chillan"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Leon_Marcelo_Lefort_Hernandez"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Marcelo_Campos_Henriquez"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Luminarias_LED"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 190000000
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Factop_SpA"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Senado_de_la_Republica_de_Chile"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Luis_Hermosilla_Osorio"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Andres_Chadwick_Pinera"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Audios"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2020-11-25-Compensacion-Indemnizatoria-Consumidores-Farmacias-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2020-11-25-Compensacion-Indemnizatoria-Consumidores-Farmacias-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 2180000000
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Farmacias_Salcobrand_SA"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Servicio_Nacional_del_Consumidor"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Roberto_Belloni_Pechini"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Jose_Codner_Chijner"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Colusion_de_las_Farmacias"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2020-12-15-Deficit-Maipu-Certificados-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2020-12-15-Deficit-Maipu-Certificados-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 30972000000
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Municipalidad_de_Maipu"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Municipalidad_de_Maipu"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Cathy_Barriga_Guerra"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Cathy_Barriga_Guerra"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Municipalidad_de_Maipu"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2021-04-15-Subvencion-VitaDeportes-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2021-04-15-Subvencion-VitaDeportes-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 759000000
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Municipalidad_de_Vitacura"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Vita_Deportes"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Raul_Torrealba_del_Pedregal"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Domingo_Prieto_Urrejola"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Vitacura"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2022-09-04-Presencia-Cerimedo-Sede-Renovacion-Nacional-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2022-09-04-Presencia-Cerimedo-Sede-Renovacion-Nacional-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 0
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Numen_Publicidad_SpA"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Renovacion_Nacional"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Fernando_Cerimedo"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Renovacion_Nacional"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Operaciones_Digitales_e_Injerencia_Electoral"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2022-10-03-Convenio-DV-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2022-10-03-Convenio-DV-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 200000000
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Seremi_MINVU_Antofagasta"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Fundacion_Democracia_Viva"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Carlos_Contreras_Gutierrez"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Daniel_Andrade_Schwarze"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Convenios"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2022-10-19-Convenio-DV-02",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2022-10-19-Convenio-DV-02",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 170000000
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Seremi_MINVU_Antofagasta"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Fundacion_Democracia_Viva"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Carlos_Contreras_Gutierrez"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Daniel_Andrade_Schwarze"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Convenios"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2022-10-28-Convenio-ProCultura-Antofagasta",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2022-10-28-Convenio-ProCultura-Antofagasta",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 500000000
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Seremi_MINVU_Antofagasta"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Fundacion_ProCultura"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Carlos_Contreras_Gutierrez"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Alberto_Larrain_Salas"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Convenios"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2022-11-15-Gestion-Nombramientos-Hermosilla-Zaliasnik-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2022-11-15-Gestion-Nombramientos-Hermosilla-Zaliasnik-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 0
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Factop_SpA"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Corte_Suprema_de_Chile"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Luis_Hermosilla_Osorio"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Gabriel_Zaliasnik_Schilkrut"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Audios"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2022-11-18-Convenio-ProCultura-Biobio",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2022-11-18-Convenio-ProCultura-Biobio",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 2553000000
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:GORE_Biobio"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Fundacion_ProCultura"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Rodrigo_Diaz_Worner"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Alberto_Larrain_Salas"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Convenios"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2022-11-29-Convenio-DV-03",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2022-11-29-Convenio-DV-03",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 56000000
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Seremi_MINVU_Antofagasta"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Fundacion_Democracia_Viva"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Carlos_Contreras_Gutierrez"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Daniel_Andrade_Schwarze"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Convenios"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2022-12-20-Convenio-EnTi-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2022-12-20-Convenio-EnTi-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 250635000
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:GORE_Biobio"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Fundacion_En_Ti"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Rodrigo_Diaz_Worner"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Camila_Polizzi_Fonceca"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Convenios"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2023-01-20-Compraventa-Clinica-SierraBella-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2023-01-20-Compraventa-Clinica-SierraBella-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 0
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Municipalidad_de_Santiago"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Inmobiliaria_San_Valentino_SpA"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Iraci_Hassler_Jacob"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Felipe_Sanchez_Perez"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Sierra_Bella"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2023-02-09-Gestion-Judicial-Hermosilla-Vivanco-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2023-02-09-Gestion-Judicial-Hermosilla-Vivanco-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 0
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Factop_SpA"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Corte_Suprema_de_Chile"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Luis_Hermosilla_Osorio"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Angela_Vivanco_Martinez"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Audios"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2023-06-22-Reunion-Audios-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2023-06-22-Reunion-Audios-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 100000000
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Factop_SpA"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Servicio_Impuestos_Internos"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Luis_Hermosilla_Osorio"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Leonarda_Villalobos_Muth"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Audios"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 0
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Contraloria_General_de_la_Republica"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Seremi_MINVU_Antofagasta"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Jorge_Bermudez_Soto"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Carlos_Contreras_Gutierrez"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Convenios"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2023-08-25-Reporte-ROS-Factop-UAF-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2023-08-25-Reporte-ROS-Factop-UAF-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 0
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Factop_SpA"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Unidad_de_Analisis_Financiero"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Luis_Hermosilla_Osorio"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Javier_Cruz_Tamburrino"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Audios"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2023-12-14-Perjuicio-Fiscal-Operacion-Tributos-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2023-12-14-Perjuicio-Fiscal-Operacion-Tributos-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 240000000000
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Servicio_Impuestos_Internos"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Megafraude_Tributario_Operacion_Tributos"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:TRX-2025-10-15-Denuncia-Retencion-Sueldos-Asesores-Flores-01",
+      "@type": "osint:nexo_transaccion",
+      "schema:name": "TRX-2025-10-15-Denuncia-Retencion-Sueldos-Asesores-Flores-01",
+      "schema:amount": {
+        "@type": "schema:MonetaryAmount",
+        "schema:currency": "CLP",
+        "schema:value": 35000000
+      },
+      "osint:entidadOrigen": {
+        "@id": "urn:cl-osint:node:Senado_de_la_Republica_de_Chile"
+      },
+      "osint:entidadDestino": {
+        "@id": "urn:cl-osint:node:Camila_Flores_Oporto"
+      },
+      "osint:firmanteOrigen": {
+        "@id": "urn:cl-osint:node:Senado_de_la_Republica_de_Chile"
+      },
+      "osint:firmanteDestino": {
+        "@id": "urn:cl-osint:node:Camila_Flores_Oporto"
+      },
+      "osint:causaVinculada": {
+        "@id": "urn:cl-osint:node:Caso_Asignaciones_Parlamentarias_y_Cuota_Flores"
+      }
+    },
+    {
+      "@id": "urn:cl-osint:node:Acuerdo-Compensatorio-SERNAC-CMPC-Tissue-2017",
+      "@type": "osint:evidencia_documental",
+      "schema:name": "Acuerdo-Compensatorio-SERNAC-CMPC-Tissue-2017"
+    },
+    {
+      "@id": "urn:cl-osint:node:Acuerdo-Conciliatorio-FNE-FASA-2009",
+      "@type": "osint:evidencia_documental",
+      "schema:name": "Acuerdo-Conciliatorio-FNE-FASA-2009"
+    },
+    {
+      "@id": "urn:cl-osint:node:Acusacion-Fiscalia-Occidente-CasoBasura-2017",
+      "@type": "osint:evidencia_documental",
+      "schema:name": "Acusacion-Fiscalia-Occidente-CasoBasura-2017"
+    },
+    {
+      "@id": "urn:cl-osint:node:Audio-Reunion-Edificio-Alonso-2023",
+      "@type": "osint:evidencia_documental",
+      "schema:name": "Audio-Reunion-Edificio-Alonso-2023"
+    },
+    {
+      "@id": "urn:cl-osint:node:Contrato-Offshore-BVI-PandoraPapers-Dominga-2010",
+      "@type": "osint:evidencia_documental",
+      "schema:name": "Contrato-Offshore-BVI-PandoraPapers-Dominga-2010"
+    },
+    {
+      "@id": "urn:cl-osint:node:Declaracion-Judicial-Prieto-Vitacura-2021",
+      "@type": "osint:evidencia_documental",
+      "schema:name": "Declaracion-Judicial-Prieto-Vitacura-2021"
+    },
+    {
+      "@id": "urn:cl-osint:node:Dictamen-CGR-SierraBella-2023",
+      "@type": "osint:evidencia_documental",
+      "schema:name": "Dictamen-CGR-SierraBella-2023"
+    },
+    {
+      "@id": "urn:cl-osint:node:Disolucion-CDE-Fundacion-CEMAChile-2021",
+      "@type": "osint:evidencia_documental",
+      "schema:name": "Disolucion-CDE-Fundacion-CEMAChile-2021"
+    },
+    {
+      "@id": "urn:cl-osint:node:Filtracion-ICIJ-PanamaPapers-Chile-2016",
+      "@type": "osint:evidencia_documental",
+      "schema:name": "Filtracion-ICIJ-PanamaPapers-Chile-2016"
+    },
+    {
+      "@id": "urn:cl-osint:node:Formalizacion-Megafraude-Operacion-Tributos-2023",
+      "@type": "osint:evidencia_documental",
+      "schema:name": "Formalizacion-Megafraude-Operacion-Tributos-2023"
+    },
+    {
+      "@id": "urn:cl-osint:node:Fotografia-Cerimedo-Sede-Renovacion-Nacional-2022",
+      "@type": "osint:evidencia_documental",
+      "schema:name": "Fotografia-Cerimedo-Sede-Renovacion-Nacional-2022"
+    },
+    {
+      "@id": "urn:cl-osint:node:Informe-BRILAC-PDI-Operacion-Tributos-2023",
+      "@type": "osint:evidencia_documental",
+      "schema:name": "Informe-BRILAC-PDI-Operacion-Tributos-2023"
+    },
+    {
+      "@id": "urn:cl-osint:node:Informe-Comision-Church-1975-y-Hinchey-CIA-2000",
+      "@type": "osint:evidencia_documental",
+      "schema:name": "Informe-Comision-Church-1975-y-Hinchey-CIA-2000"
+    },
+    {
+      "@id": "urn:cl-osint:node:Informe-Contraloria-Municipalidad-Maipu-2021",
+      "@type": "osint:evidencia_documental",
+      "schema:name": "Informe-Contraloria-Municipalidad-Maipu-2021"
+    },
+    {
+      "@id": "urn:cl-osint:node:Orden-Entrada-Registro-Congreso-Caso-Flores-2026",
+      "@type": "osint:evidencia_documental",
+      "schema:name": "Orden-Entrada-Registro-Congreso-Caso-Flores-2026"
+    },
+    {
+      "@id": "urn:cl-osint:node:Peritaje-Cibercrimen-PDI-SoftwareAntorcha-2018",
+      "@type": "osint:evidencia_documental",
+      "schema:name": "Peritaje-Cibercrimen-PDI-SoftwareAntorcha-2018"
+    },
+    {
+      "@id": "urn:cl-osint:node:Procesamientos-Ministra-Rutherford-Milicogate",
+      "@type": "osint:evidencia_documental",
+      "schema:name": "Procesamientos-Ministra-Rutherford-Milicogate"
+    },
+    {
+      "@id": "urn:cl-osint:node:Querella-SII-Boletas-SQM-2015",
+      "@type": "osint:evidencia_documental",
+      "schema:name": "Querella-SII-Boletas-SQM-2015"
+    },
+    {
+      "@id": "urn:cl-osint:node:Querella-SII-Megafraude-Tributario-2023",
+      "@type": "osint:evidencia_documental",
+      "schema:name": "Querella-SII-Megafraude-Tributario-2023"
+    },
+    {
+      "@id": "urn:cl-osint:node:Requerimiento-FNE-Colusion-Pollos-2011",
+      "@type": "osint:evidencia_documental",
+      "schema:name": "Requerimiento-FNE-Colusion-Pollos-2011"
+    },
+    {
+      "@id": "urn:cl-osint:node:Resolucion-Exenta-MINVU-Antofagasta-2022",
+      "@type": "osint:evidencia_documental",
+      "schema:name": "Resolucion-Exenta-MINVU-Antofagasta-2022"
+    },
+    {
+      "@id": "urn:cl-osint:node:Resolucion-GORE-Biobio-EnTi-2022",
+      "@type": "osint:evidencia_documental",
+      "schema:name": "Resolucion-GORE-Biobio-EnTi-2022"
+    },
+    {
+      "@id": "urn:cl-osint:node:Resolucion-SVS-306-InformacionPrivilegiada-LAN-2007",
+      "@type": "osint:evidencia_documental",
+      "schema:name": "Resolucion-SVS-306-InformacionPrivilegiada-LAN-2007"
+    },
+    {
+      "@id": "urn:cl-osint:node:Resolucion-SVS-CasoCascadas-2014",
+      "@type": "osint:evidencia_documental",
+      "schema:name": "Resolucion-SVS-CasoCascadas-2014"
+    },
+    {
+      "@id": "urn:cl-osint:node:Sentencia-3TOP-Santiago-Corpesca-2021",
+      "@type": "osint:evidencia_documental",
+      "schema:name": "Sentencia-3TOP-Santiago-Corpesca-2021"
+    },
+    {
+      "@id": "urn:cl-osint:node:Sentencia-8Juzgado-Garantia-Penta-2018",
+      "@type": "osint:evidencia_documental",
+      "schema:name": "Sentencia-8Juzgado-Garantia-Penta-2018"
+    },
+    {
+      "@id": "urn:cl-osint:node:Sentencia-Corte-Suprema-CasoRiggs-2018",
+      "@type": "osint:evidencia_documental",
+      "schema:name": "Sentencia-Corte-Suprema-CasoRiggs-2018"
+    },
+    {
+      "@id": "urn:cl-osint:node:Sentencia-Corte-Suprema-CasoSpiniak-2008",
+      "@type": "osint:evidencia_documental",
+      "schema:name": "Sentencia-Corte-Suprema-CasoSpiniak-2008"
+    },
+    {
+      "@id": "urn:cl-osint:node:Sentencia-Corte-Suprema-ColoniaDignidad-2013",
+      "@type": "osint:evidencia_documental",
+      "schema:name": "Sentencia-Corte-Suprema-ColoniaDignidad-2013"
+    },
+    {
+      "@id": "urn:cl-osint:node:Sentencia-Corte-Suprema-Colusion-Farmacias-2012",
+      "@type": "osint:evidencia_documental",
+      "schema:name": "Sentencia-Corte-Suprema-Colusion-Farmacias-2012"
+    },
+    {
+      "@id": "urn:cl-osint:node:Sentencia-Corte-Suprema-Colusion-PapelTissue-2020",
+      "@type": "osint:evidencia_documental",
+      "schema:name": "Sentencia-Corte-Suprema-Colusion-PapelTissue-2020"
+    },
+    {
+      "@id": "urn:cl-osint:node:Sentencia-Corte-Suprema-Colusion-Pollos-2015",
+      "@type": "osint:evidencia_documental",
+      "schema:name": "Sentencia-Corte-Suprema-Colusion-Pollos-2015"
+    },
+    {
+      "@id": "urn:cl-osint:node:Sentencia-Corte-Suprema-MOPGate-2016",
+      "@type": "osint:evidencia_documental",
+      "schema:name": "Sentencia-Corte-Suprema-MOPGate-2016"
+    },
+    {
+      "@id": "urn:cl-osint:node:Sentencia-TDLC-119-Colusion-Farmacias-2012",
+      "@type": "osint:evidencia_documental",
+      "schema:name": "Sentencia-TDLC-119-Colusion-Farmacias-2012"
+    },
+    {
+      "@id": "urn:cl-osint:node:Sentencia-TDLC-139-Colusion-Pollos-2014",
+      "@type": "osint:evidencia_documental",
+      "schema:name": "Sentencia-TDLC-139-Colusion-Pollos-2014"
+    },
+    {
+      "@id": "urn:cl-osint:node:Sentencia-TDLC-160-Colusion-Tissue-2017",
+      "@type": "osint:evidencia_documental",
+      "schema:name": "Sentencia-TDLC-160-Colusion-Tissue-2017"
+    },
+    {
+      "@id": "urn:cl-osint:node:Sentencia-TOP-Rancagua-Caval-2018",
+      "@type": "osint:evidencia_documental",
+      "schema:name": "Sentencia-TOP-Rancagua-Caval-2018"
+    },
+    {
+      "@id": "urn:cl-osint:node:Sentencia-TOP-Temuco-OperacionHuracan-2026",
+      "@type": "osint:evidencia_documental",
+      "schema:name": "Sentencia-TOP-Temuco-OperacionHuracan-2026"
+    },
+    {
+      "@id": "urn:cl-osint:node:Veredicto-TOP-Santiago-Pacogate-2026",
+      "@type": "osint:evidencia_documental",
+      "schema:name": "Veredicto-TOP-Santiago-Pacogate-2026"
+    },
+    {
+      "@id": "urn:cl-osint:node:Drawing_2026-10-18_02.19.23.excalidraw",
+      "@type": "osint:",
+      "schema:name": "Drawing 2026-10-18 02.19.23.excalidraw"
+    },
+    {
+      "@id": "urn:cl-osint:node:Drawing_2026-10-18_02.19.43.excalidraw",
+      "@type": "osint:",
+      "schema:name": "Drawing 2026-10-18 02.19.43.excalidraw"
+    }
+  ]
+}

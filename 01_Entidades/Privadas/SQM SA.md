@@ -1,0 +1,58 @@
+---
+tipo_nodo: entidad_privada
+rut: "93.007.000-9"
+razon_social: "Sociedad Química y Minera de Chile S.A. (SQM)"
+fecha_constitucion: "1968-06-29"
+objeto_social: "Explotación minera no metálica, producción de litio, yodo y fertilizantes de especialidad"
+representante_legal: "[[Patricio Contesse Gonzalez]]"
+estado_verificacion: parcial
+fuentes:
+  - url: "https://www.genealog.cl/Geneanexus/empresa/CHILE/TOTMwTwMDcwMDAtOQ-jTw/nombre-y-rut/SQM-S.A.-93007000-9"
+    titulo: "Registro de RUT: SQM S.A."
+    medio: "Genealog (datos SII)"
+    tipo: secundaria
+    consultado: 2026-10-19
+tags:
+  - entidad/privada
+  - minera
+  - caso-sqm
+---
+
+# SQM SA
+
+## Ficha Societaria / Registro de Personas Jurídicas
+- **RUT**: `= this.rut`
+- **Razón Social**: `= this.razon_social`
+- **Fecha de Constitución**: `= this.fecha_constitucion`
+- **Objeto Social**: `= this.objeto_social`
+- **Gerente General en Período Investigado**: `= this.representante_legal`
+
+## Contexto y Societario
+Empresa minera investigada en el [[Caso SQM]] tras las denuncias y querellas del [[Servicio Impuestos Internos]] ([[Querella-SII-Boletas-SQM-2015]]) por contabilizar como gastos necesarios para producir la renta miles de boletas de honorarios y facturas ideológicamente falsas ([[Delito Tributario]]), empleadas para financiar campañas políticas y pagar beneficios económicos ([[Cohecho]]) asociados a la tramitación del artículo de invariabilidad tributaria del Royalty Minero ([[TRX-2010-08-19-Correo-Royalty-SQM-01]]). La empresa reconoció ante la SEC y el DOJ de EE.UU. pagos indebidos por unos US$ 14,75 millones. En el juicio oral, el 3° TOP de Santiago absolvió en octubre de 2025 a los ocho acusados, incluidos su ex gerente general [[Patricio Contesse Gonzalez]] y [[Pablo Longueira Montes]]; hay recursos de nulidad pendientes.
+
+## Historial de Nexos y Pagos Investigados
+```dataview
+TABLE WITHOUT ID
+  file.link AS "Nexo / Transacción",
+  fecha AS "Fecha",
+  tipo_nexo AS "Tipo",
+  firmante_origen AS "Ejecutivo Origen",
+  firmante_destino AS "Destinatario",
+  "$" + regexreplace(string(monto_clp), "\B(?=(\d{3})+(?!\d))", ".") AS "Monto (CLP)",
+  causa_vinculada AS "Causa"
+FROM "03_Hechos_y_Nexos"
+WHERE contains(string(entidad_destino), this.file.name) OR contains(string(entidad_origen), this.file.name)
+SORT fecha DESC
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  elink(f.url, f.titulo) AS "Fuente",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
+```

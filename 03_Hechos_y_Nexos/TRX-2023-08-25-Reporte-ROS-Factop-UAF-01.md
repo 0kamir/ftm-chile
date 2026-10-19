@@ -1,0 +1,45 @@
+---
+tipo_nodo: nexo_transaccion
+id_transaccion: "TRX-2023-08-25-Reporte-ROS-Factop-UAF-01"
+fecha: 2023-08-25
+tipo_nexo: factura_falsa
+monto_clp: 0
+monto_origen: sin_monto
+metodo_adjudicacion: no_aplica
+entidad_origen: "[[Factop SpA]]"
+entidad_destino: "[[Unidad de Analisis Financiero]]"
+firmante_origen: "[[Luis Hermosilla Osorio]]"
+firmante_destino: "[[Javier Cruz Tamburrino]]"
+delito_imputado: "[[Lavado de Activos]]"
+causa_vinculada: "[[Caso Audios]]"
+evidencia_soporte: "[[Audio-Reunion-Edificio-Alonso-2023]]"
+historial_correcciones:
+  - "2026-10-19: monto_clp $480.000.000 llevado a 0; la cifra no aparece en ninguna fuente verificable."
+tags:
+  - nexo/lavado-activos
+  - ros-uaf
+  - caso-audios
+---
+
+# TRX-2023-08-25-Reporte-ROS-Factop-UAF-01
+
+## Ficha de Arista Reificada (Transacción / Hecho Registrado)
+- **ID Transacción**: `= this.id_transaccion`
+- **Fecha**: `= this.fecha`
+- **Tipo de Nexo**: `= this.tipo_nexo`
+- **Monto Registrado (CLP)**: `$480.000.000 CLP` (`= this.monto_clp`)
+- **Método de Adjudicación**: `= this.metodo_adjudicacion`
+- **Entidad Emisora (Origen)**: `= this.entidad_origen`
+- **Órgano de Inteligencia Financiera (Destino)**: `= this.entidad_destino`
+- **Operador Imputado**: `= this.firmante_origen`
+- **Circuito de Trazabilidad UAF**: `= this.firmante_destino`
+- **Delito Imputado**: `= this.delito_imputado` (en concurso con [[Delito Tributario]])
+- **Causa Judicial**: `= this.causa_vinculada`
+- **Evidencia de Soporte**: `= this.evidencia_soporte`
+
+## Descripción del Hecho
+
+> [!NOTE] Monto sin respaldo
+> Las cifras en pesos mencionadas en esta nota no aparecen en ninguna fuente verificable y no se contabilizan en los totales del vault (antes: $480.000.000 CLP).
+
+Operaciones de descuento de facturas ideológicamente falsas y triangulación bancaria ejecutadas a través de [[Factop SpA]] en el circuito de [[Luis Hermosilla Osorio]] y [[Leonarda Villalobos Muth]] por `$480.000.000 CLP`, cuyos flujos activaron reportes de inteligencia patrimonial ante la [[Unidad de Analisis Financiero]] y la [[Comision para el Mercado Financiero]] en el [[Caso Audios]].

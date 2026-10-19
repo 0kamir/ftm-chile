@@ -1,0 +1,48 @@
+---
+tipo_nodo: persona
+rut: ""
+aliases:
+  - "Andrónico Luksic"
+  - "Andrónico Luksic Craig"
+rol_principal: "Empresario y Ex Presidente del Holding Quiñenco S.A. y Banco de Chile"
+afiliacion_politica: "Independiente"
+situacion_procesal: ninguna
+medida_cautelar: "Sin medidas cautelares ni procesos judiciales vigentes"
+tags:
+  - entidad/persona
+  - empresario
+  - quinenco
+  - caso-caval
+---
+
+# Andronico Luksic Craig
+
+## Perfil Biográfico e Institucional
+- **RUT**: `= this.rut`
+- **Rol Principal**: `= this.rol_principal`
+- **Afiliación Política**: `= this.afiliacion_politica`
+- **Situación Procesal**: `= this.situacion_procesal`
+- **Medida Cautelar Vigente**: `= this.medida_cautelar`
+
+## Síntesis
+Empresario chileno, ex líder del consorcio empresarial Quiñenco S.A. y figura central del sector financiero y minero en Chile. Su registro en esta bóveda corresponde al [[Caso Caval]]:
+   - En el ámbito corporativo nacional, en noviembre de 2013 sostuvo en la casa matriz del banco una reunión con [[Natalia Compagnon Soto]] y Sebastián Dávalos Bachelet en el marco de la tramitación de un crédito por `$6.500.000.000 CLP` solicitado por [[Exportadora y de Gestion Caval Ltda]] para la compra de terrenos en Machalí, arista investigada en el [[Caso Caval]] donde prestó declaración en calidad de testigo sin formulación de cargos penales en su contra.
+
+## Registros Reificados
+```dataviewjs
+const pages = dv.pages('"03_Hechos_y_Nexos"')
+  .where(p => (p.firmante_origen && String(p.firmante_origen).includes(dv.current().file.name)) ||
+              (p.firmante_destino && String(p.firmante_destino).includes(dv.current().file.name)));
+
+dv.table(
+  ["Registro / Hito", "Fecha", "Tipo Nexo", "Origen", "Monto (CLP)", "Causa / Ámbito"],
+  pages.sort(p => p.fecha, 'asc').map(p => [
+    p.file.link,
+    p.fecha,
+    p.tipo_nexo,
+    p.entidad_origen,
+    new Intl.NumberFormat('es-CL', { style: 'currency', currency: 'CLP', maximumFractionDigits: 0 }).format(Number(p.monto_clp || 0)),
+    p.causa_vinculada
+  ])
+);
+```
