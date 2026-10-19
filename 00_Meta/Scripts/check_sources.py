@@ -2,6 +2,8 @@
 """
 Reporte de Cobertura de Fuentes y Alertas de Verificación del Vault OSINT.
 1. Mide qué porcentaje de causas, evidencias y aristas TRX está respaldado por URLs.
+   Entidades (personas, empresas, organismos, partidos) y anexos no exigen fuente, pero sus
+   fuentes y alertas también se revisan.
    Una arista TRX cuenta como cubierta si tiene fuentes propias o si su `evidencia_soporte` las tiene.
 2. Consolida las `alertas_verificacion` pendientes de revisión editorial.
 3. Con `--links`, comprueba que cada URL responda (403/429 se informan como bloqueo anti-bot).
@@ -30,17 +32,27 @@ CARPETAS = {
 }
 
 
+# Carpetas sin exigencia de cobertura cuyas fuentes y alertas igualmente se revisan.
+CARPETAS_SIN_COBERTURA = ["01_Entidades", "06_Anexos"]
+
+
 def load_notes() -> dict[str, dict]:
     notes = {}
-    for tipo, carpeta in CARPETAS.items():
+    carpetas = [(tipo, c) for tipo, c in CARPETAS.items()] + [(None, c) for c in CARPETAS_SIN_COBERTURA]
+    for tipo, carpeta in carpetas:
         base = os.path.join(ROOT_DIR, carpeta)
-        for fname in sorted(os.listdir(base)):
-            if not fname.endswith(".md"):
-                continue
-            with open(os.path.join(base, fname), "r", encoding="utf-8") as f:
-                m = re.match(r"^---\n(.*?)\n---\n", f.read(), re.DOTALL)
-            meta = yaml.safe_load(m.group(1)) if m else {}
-            notes[fname[:-3]] = {"carpeta": carpeta, "tipo": tipo, "meta": meta or {}}
+        for dirpath, _, filenames in os.walk(base):
+            for fname in sorted(filenames):
+                if not fname.endswith(".md"):
+                    continue
+                with open(os.path.join(dirpath, fname), "r", encoding="utf-8") as f:
+                    m = re.match(r"^---\n(.*?)\n---\n", f.read(), re.DOTALL)
+                meta = (yaml.safe_load(m.group(1)) if m else {}) or {}
+                notes[fname[:-3]] = {
+                    "carpeta": os.path.relpath(dirpath, ROOT_DIR),
+                    "tipo": tipo or str(meta.get("tipo_nodo", "")),
+                    "meta": meta,
+                }
     return notes
 
 
@@ -84,7 +96,7 @@ def main() -> int:
 
     estados: dict[str, int] = {}
     for v in notes.values():
-        if v["tipo"] != "nexo_transaccion":
+        if v["tipo"] in ("causa_judicial", "evidencia_documental"):
             e = v["meta"].get("estado_verificacion") or "sin_declarar"
             estados[e] = estados.get(e, 0) + 1
 

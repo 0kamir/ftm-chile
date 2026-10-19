@@ -23,9 +23,11 @@ tags:
 | `parcial` | 10 |
 | `verificado` | 59 |
 
-## Alertas de Verificación Pendientes (1)
+## Alertas de Verificación Pendientes (3)
 
 - **[[Caso Pacogate]]**: Veredicto del juicio oral: abril de 2026 (25 de 28 condenados; se descartó asociación ilícita). Las penas se conocerán en la sentencia (prensa: feb-2027). La evidencia 'Veredicto-TOP-Santiago-Pacogate-2026' no coincide con esa cronología.
+- **[[Flavio Echeverria Cortez]]**: Verificar en la sentencia (feb-2027) si figura entre los condenados y su pena.
+- **[[Jaime Paz Meneses]]**: Verificar en la sentencia (feb-2027) si figura entre los condenados y su pena.
 
 ## Notas sin Fuente Verificable
 
