@@ -4,6 +4,7 @@ id_transaccion: "TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01"
 fecha: 2003-10-15
 tipo_nexo: desviacion_fondos
 monto_clp: 480000000
+monto_origen: no_verificado
 metodo_adjudicacion: no_aplica
 entidad_origen: "[[Inversiones El Bosque Ltda]]"
 entidad_destino: "[[Servicio Impuestos Internos]]"

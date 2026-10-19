@@ -3,6 +3,7 @@ tipo_nodo: nexo_transaccion
 fecha: 2022-11-15
 tipo_nexo: coordinacion_mensajeria
 monto_clp: 0
+monto_origen: sin_monto
 entidad_origen: "[[Factop SpA]]"
 entidad_destino: "[[Corte Suprema de Chile]]"
 firmante_origen: "[[Luis Hermosilla Osorio]]"

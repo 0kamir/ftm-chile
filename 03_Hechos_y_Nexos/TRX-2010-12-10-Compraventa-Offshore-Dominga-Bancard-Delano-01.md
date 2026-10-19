@@ -4,6 +4,7 @@ id_transaccion: "TRX-2010-12-10-Compraventa-Offshore-Dominga-Bancard-Delano-01"
 fecha: 2010-12-10
 tipo_nexo: trato_directo
 monto_clp: 75500000000
+monto_origen: prensa
 metodo_adjudicacion: trato_directo
 entidad_origen: "[[Andes Iron SpA]]"
 entidad_destino: "[[Bancard Inversiones Ltda]]"

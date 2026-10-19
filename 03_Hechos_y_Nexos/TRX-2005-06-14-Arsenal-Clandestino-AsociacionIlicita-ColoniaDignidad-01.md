@@ -4,6 +4,7 @@ id_transaccion: "TRX-2005-06-14-Arsenal-Clandestino-AsociacionIlicita-ColoniaDig
 fecha: 2005-06-14
 tipo_nexo: desviacion_fondos
 monto_clp: 0
+monto_origen: sin_monto
 metodo_adjudicacion: no_aplica
 entidad_origen: "[[Sociedad Benefactora y Educacional Dignidad]]"
 entidad_destino: "[[Corte Suprema de Chile]]"

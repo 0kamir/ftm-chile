@@ -3,6 +3,7 @@ tipo_nodo: nexo_transaccion
 fecha: 2000-05-15
 tipo_nexo: acuerdo_colusorio
 monto_clp: 0
+monto_origen: sin_monto
 entidad_origen: "[[Empresas CMPC SA]]"
 entidad_destino: "[[SCA Chile SA]]"
 firmante_origen: "[[Eliodoro Matte Larrain]]"

@@ -4,6 +4,7 @@ id_transaccion: "TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-
 fecha: 2016-04-03
 tipo_nexo: gestion_influencia
 monto_clp: 14200000000
+monto_origen: no_verificado
 metodo_adjudicacion: no_aplica
 entidad_origen: "[[Mossack Fonseca y Sociedades Offshore Panama]]"
 entidad_destino: "[[Servicio Impuestos Internos]]"

@@ -3,6 +3,7 @@ tipo_nodo: nexo_transaccion
 fecha: 2019-12-11
 tipo_nexo: transferencia
 monto_clp: 190000000
+monto_origen: acusacion
 entidad_origen: "[[Factop SpA]]"
 entidad_destino: "[[Senado de la Republica de Chile]]"
 firmante_origen: "[[Luis Hermosilla Osorio]]"

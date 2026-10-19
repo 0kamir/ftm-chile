@@ -30,6 +30,8 @@ ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 
 TIPOS_FUENTE = ("primaria", "secundaria")
 ESTADOS_VERIFICACION = ("verificado", "parcial", "desactualizado", "sin_fuente", "pendiente")
+# Origen del monto de un hecho (TRX): de dónde sale la cifra, de más a menos firme.
+ORIGENES_MONTO = ("sentencia", "resolucion_administrativa", "registro_oficial", "estimacion_oficial", "acusacion", "prensa", "no_verificado", "sin_monto")
 CAMPOS_FUENTE = ("url", "titulo", "medio", "tipo", "fecha", "archivo", "consultado")
 
 SECCION_FUENTES = """

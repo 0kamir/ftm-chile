@@ -4,6 +4,7 @@ id_transaccion: "TRX-2005-08-10-Evasion-Tributaria-Cuentas-Riggs-SII-01"
 fecha: 2005-08-10
 tipo_nexo: desviacion_fondos
 monto_clp: 2450000000
+monto_origen: acusacion
 metodo_adjudicacion: no_aplica
 entidad_origen: "[[Riggs Bank y Sociedades Offshore Ashburton]]"
 entidad_destino: "[[Servicio Impuestos Internos]]"

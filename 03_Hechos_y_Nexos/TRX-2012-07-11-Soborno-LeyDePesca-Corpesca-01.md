@@ -3,6 +3,7 @@ tipo_nodo: nexo_transaccion
 fecha: 2012-07-11
 tipo_nexo: cohecho
 monto_clp: 233000000
+monto_origen: sentencia
 entidad_origen: "[[Corpesca SA]]"
 entidad_destino: "[[Senado de la Republica de Chile]]"
 firmante_origen: "[[Francisco Mujica Ortuzar]]"

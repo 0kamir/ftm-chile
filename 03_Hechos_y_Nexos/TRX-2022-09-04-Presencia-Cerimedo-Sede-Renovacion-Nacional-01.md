@@ -3,6 +3,7 @@ tipo_nodo: nexo_transaccion
 fecha: 2022-09-04
 tipo_nexo: reunion_lobby
 monto_clp: 0
+monto_origen: sin_monto
 entidad_origen: "[[Numen Publicidad SpA]]"
 entidad_destino: "[[Renovacion Nacional]]"
 firmante_origen: "[[Fernando Cerimedo]]"

@@ -4,6 +4,7 @@ id_transaccion: "TRX-2010-11-15-Soborno-Licitacion-Basura-Maipu-01"
 fecha: 2010-11-15
 tipo_nexo: cohecho_soborno
 monto_clp: 186500000
+monto_origen: sentencia
 metodo_adjudicacion: licitacion_publica
 entidad_origen: "[[KDM Empresas SA]]"
 entidad_destino: "[[Municipalidad de Maipu]]"

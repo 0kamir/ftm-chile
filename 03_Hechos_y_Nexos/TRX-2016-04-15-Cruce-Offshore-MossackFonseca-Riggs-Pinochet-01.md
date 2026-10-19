@@ -4,6 +4,7 @@ id_transaccion: "TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01"
 fecha: 2016-04-15
 tipo_nexo: desviacion_fondos
 monto_clp: 3800000000
+monto_origen: no_verificado
 metodo_adjudicacion: no_aplica
 entidad_origen: "[[Mossack Fonseca y Sociedades Offshore Panama]]"
 entidad_destino: "[[Riggs Bank y Sociedades Offshore Ashburton]]"

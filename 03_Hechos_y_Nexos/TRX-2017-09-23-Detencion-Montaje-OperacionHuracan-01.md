@@ -3,6 +3,7 @@ tipo_nodo: nexo_transaccion
 fecha: 2017-09-23
 tipo_nexo: montaje_policial
 monto_clp: 0
+monto_origen: sin_monto
 entidad_origen: "[[Direccion de Inteligencia Policial de Carabineros]]"
 entidad_destino: "[[Corte Suprema de Chile]]"
 firmante_origen: "[[Gonzalo Blu Rodriguez]]"

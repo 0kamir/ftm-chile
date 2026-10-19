@@ -4,6 +4,7 @@ id_transaccion: "TRX-2011-03-10-Pagos-Penta-Wagner-01"
 fecha: 2011-03-10
 tipo_nexo: transferencia
 monto_clp: 42000000
+monto_origen: sentencia
 metodo_adjudicacion: no_aplica
 entidad_origen: "[[Empresas Penta SA]]"
 entidad_destino: "[[Servicio Impuestos Internos]]"

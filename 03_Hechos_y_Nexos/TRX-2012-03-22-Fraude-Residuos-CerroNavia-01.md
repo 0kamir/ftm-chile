@@ -4,6 +4,7 @@ id_transaccion: "TRX-2012-03-22-Fraude-Residuos-CerroNavia-01"
 fecha: 2012-03-22
 tipo_nexo: trato_directo
 monto_clp: 1120000000
+monto_origen: acusacion
 metodo_adjudicacion: licitacion_publica
 entidad_origen: "[[Municipalidad de Cerro Navia]]"
 entidad_destino: "[[KDM Empresas SA]]"

@@ -100,6 +100,14 @@ def main() -> int:
             e = v["meta"].get("estado_verificacion") or "sin_declarar"
             estados[e] = estados.get(e, 0) + 1
 
+    montos_origen: dict[str, list[int]] = {}
+    for v in notes.values():
+        if v["tipo"] == "nexo_transaccion":
+            origen = str(v["meta"].get("monto_origen") or "sin_declarar")
+            acc = montos_origen.setdefault(origen, [0, 0])
+            acc[0] += 1
+            acc[1] += int(v["meta"].get("monto_clp") or 0)
+
     alertas = [
         (nombre, a)
         for nombre, v in sorted(notes.items())
@@ -138,6 +146,15 @@ def main() -> int:
     lineas += ["", "## Estado de Verificación (Causas y Evidencias)",
                "| Estado | Notas |", "| :--- | ---: |"]
     lineas += [f"| `{e}` | {n} |" for e, n in sorted(estados.items())]
+    lineas += ["", "## Montos por Origen",
+               "> Una cifra de sentencia o resolución está acreditada; una de acusación, estimación o prensa no. "
+               "No se suman como si tuvieran la misma calidad.", "",
+               "| Origen del monto | Hechos | Monto (CLP) |", "| :--- | ---: | ---: |"]
+    for origen in ("sentencia", "resolucion_administrativa", "registro_oficial", "estimacion_oficial",
+                   "acusacion", "prensa", "no_verificado", "sin_monto", "sin_declarar"):
+        if origen in montos_origen:
+            n, total = montos_origen[origen]
+            lineas.append(f"| `{origen}` | {n} | ${total:,.0f} |".replace(",", "."))
     lineas += ["", f"## Alertas de Verificación Pendientes ({len(alertas)})", ""]
     lineas += [f"- **[[{n}]]**: {a}" for n, a in alertas] or ["- Sin alertas pendientes."]
     lineas += ["", "## Notas sin Fuente Verificable", ""]

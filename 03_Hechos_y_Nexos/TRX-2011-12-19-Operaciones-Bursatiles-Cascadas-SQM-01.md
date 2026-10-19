@@ -4,6 +4,7 @@ id_transaccion: "TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01"
 fecha: 2011-12-19
 tipo_nexo: desviacion_fondos
 monto_clp: 0
+monto_origen: sin_monto
 metodo_adjudicacion: no_aplica
 entidad_origen: "[[Sociedad de Inversiones Pampa Calichera SA]]"
 entidad_destino: "[[SQM SA]]"

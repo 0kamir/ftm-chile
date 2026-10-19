@@ -3,6 +3,7 @@ tipo_nodo: nexo_transaccion
 fecha: 2023-02-09
 tipo_nexo: llamada
 monto_clp: 0
+monto_origen: sin_monto
 entidad_origen: "[[Factop SpA]]"
 entidad_destino: "[[Corte Suprema de Chile]]"
 firmante_origen: "[[Luis Hermosilla Osorio]]"

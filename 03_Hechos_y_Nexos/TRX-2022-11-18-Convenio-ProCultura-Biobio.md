@@ -3,6 +3,7 @@ tipo_nodo: nexo_transaccion
 fecha: 2022-11-18
 tipo_nexo: convenio_directo
 monto_clp: 2553000000
+monto_origen: acusacion
 entidad_origen: "[[GORE Biobio]]"
 entidad_destino: "[[Fundacion ProCultura]]"
 firmante_origen: "[[Rodrigo Diaz Worner]]"

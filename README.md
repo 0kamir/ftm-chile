@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/Estándar-OCCRP%20Aleph%20%7C%20ICIJ-orange.svg?style=for-the-badge" alt="OCCRP / ICIJ Standard" />
   <img src="https://img.shields.io/badge/Tests-24%2F24%20Passing-brightgreen.svg?style=for-the-badge&logo=pytest" alt="Tests 24/24" />
   <img src="https://img.shields.io/badge/RUTs%20verificados-8%20con%20fuente-purple.svg?style=for-the-badge" alt="RUTs Modulo 11" />
-  <img src="https://img.shields.io/badge/Monto%20Auditado-$669.122%20M%20CLP-red.svg?style=for-the-badge" alt="Monto CLP" />
+  <img src="https://img.shields.io/badge/Acreditado%20por%20sentencia-$58.306%20M%20CLP-red.svg?style=for-the-badge" alt="Monto CLP" />
 </p>
 
 ---
@@ -149,7 +149,9 @@ Cada transacción o reunión constituye una nota independiente con metadatos con
 | **RUTs de Empresas Verificados** | **8** | Solo RUT con fuente (registro SII o documento oficial); no se publican RUT de personas |
 | **Aristas Reificadas (`TRX`)** | **65** | Flujos transaccionales y nexos documentados |
 | **Macro-Causas Judiciales y Carteles** | **32** | Causas activas y ejecutoriadas |
-| **Monto Financiero Consolidado** | **$669.122.093.990 CLP** | Auditoría contable automatizada |
+| **Monto acreditado por sentencia** | **$58.305.530.792 CLP** | Cifras dadas por probadas por un tribunal |
+| **Monto de resoluciones administrativas** | **$134.198.000.000 CLP** | Multas y acuerdos (TDLC, SVS/CMF, SERNAC) e informes de Contraloría |
+| **Montos sin acreditar** | **$476.618.563.198 CLP** | Acusaciones, estimaciones oficiales, prensa y cifras no verificadas; no son montos probados |
 | **Batería de Pruebas Unitarias** | **24 / 24 OK** | `pytest` / `unittest` en entorno continuo |
 
 ---

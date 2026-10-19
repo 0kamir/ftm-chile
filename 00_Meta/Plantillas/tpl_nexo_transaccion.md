@@ -3,6 +3,7 @@ tipo_nodo: nexo_transaccion
 fecha: YYYY-MM-DD
 tipo_nexo: convenio_directo # convenio_directo | transferencia | cohecho | llamada | reunion_lobby
 monto_clp: 0
+monto_origen: sin_monto # sentencia | resolucion_administrativa | registro_oficial | estimacion_oficial | acusacion | prensa | no_verificado | sin_monto
 entidad_origen: "[[Entidad Origen]]"
 entidad_destino: "[[Entidad Destino]]"
 firmante_origen: "[[Firmante Origen]]"

@@ -3,6 +3,7 @@ tipo_nodo: nexo_transaccion
 fecha: 2023-12-14
 tipo_nexo: factura_falsa
 monto_clp: 240000000000
+monto_origen: estimacion_oficial
 entidad_origen: ""
 entidad_destino: "[[Servicio Impuestos Internos]]"
 firmante_origen: ""

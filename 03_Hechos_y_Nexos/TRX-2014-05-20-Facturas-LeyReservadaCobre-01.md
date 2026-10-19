@@ -3,6 +3,7 @@ tipo_nodo: nexo_transaccion
 fecha: 2014-05-20
 tipo_nexo: transferencia
 monto_clp: 6100000000
+monto_origen: acusacion
 entidad_origen: "[[Comando de Apoyo a la Fuerza del Ejercito]]"
 entidad_destino: "[[Frasim Ltda]]"
 firmante_origen: "[[Juan Miguel Fuente-Alba Poblete]]"

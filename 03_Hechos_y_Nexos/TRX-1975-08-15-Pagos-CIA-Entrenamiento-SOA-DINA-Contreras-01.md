@@ -4,6 +4,7 @@ id_transaccion: "TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01"
 fecha: 1975-08-15
 tipo_nexo: desviacion_fondos
 monto_clp: 2100000000
+monto_origen: no_verificado
 metodo_adjudicacion: trato_directo
 entidad_origen: "[[Agencia Central de Inteligencia CIA y Escuela de las Americas]]"
 entidad_destino: "[[Corte Suprema de Chile]]"

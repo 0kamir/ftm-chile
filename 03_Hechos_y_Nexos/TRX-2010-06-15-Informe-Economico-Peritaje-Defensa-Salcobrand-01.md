@@ -3,6 +3,7 @@ tipo_nodo: nexo_transaccion
 fecha: 2010-06-15
 tipo_nexo: peritaje_forense
 monto_clp: 0
+monto_origen: sin_monto
 entidad_origen: "[[Quiroz y Asociados Consultores SpA]]"
 entidad_destino: "[[Farmacias Salcobrand SA]]"
 firmante_origen: "[[Jorge Quiroz Castro]]"

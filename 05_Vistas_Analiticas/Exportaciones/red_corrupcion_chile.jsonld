@@ -783,11 +783,6 @@
       "schema:name": "Vita Deportes"
     },
     {
-      "@id": "urn:cl-osint:node:Drawing_2026-10-18_11.54.03.excalidraw",
-      "@type": "osint:",
-      "schema:name": "Drawing 2026-10-18 11.54.03.excalidraw"
-    },
-    {
       "@id": "urn:cl-osint:node:Partido_Comunista_de_Chile",
       "@type": "osint:partido_politico",
       "schema:name": "Partido Comunista de Chile"

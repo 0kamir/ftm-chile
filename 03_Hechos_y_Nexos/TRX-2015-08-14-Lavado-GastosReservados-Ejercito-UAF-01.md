@@ -4,6 +4,7 @@ id_transaccion: "TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01"
 fecha: 2015-08-14
 tipo_nexo: desviacion_fondos
 monto_clp: 3500000000
+monto_origen: acusacion
 metodo_adjudicacion: no_aplica
 entidad_origen: "[[Comando de Apoyo a la Fuerza del Ejercito]]"
 entidad_destino: "[[Unidad de Analisis Financiero]]"

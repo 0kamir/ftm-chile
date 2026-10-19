@@ -4,6 +4,7 @@ id_transaccion: "TRX-2013-09-20-Boletas-Falsas-Penta-Novoa-01"
 fecha: 2013-09-20
 tipo_nexo: factura_falsa
 monto_clp: 156000000
+monto_origen: sentencia
 metodo_adjudicacion: no_aplica
 entidad_origen: "[[Empresas Penta SA]]"
 entidad_destino: "[[Union Democrata Independiente]]"

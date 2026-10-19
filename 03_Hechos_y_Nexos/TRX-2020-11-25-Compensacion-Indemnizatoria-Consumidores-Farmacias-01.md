@@ -3,6 +3,7 @@ tipo_nodo: nexo_transaccion
 fecha: 2020-11-25
 tipo_nexo: compensacion_reparatoria
 monto_clp: 2180000000
+monto_origen: sentencia
 entidad_origen: "[[Farmacias Salcobrand SA]]"
 entidad_destino: "[[Servicio Nacional del Consumidor]]"
 firmante_origen: "[[Roberto Belloni Pechini]]"

@@ -1,6 +1,6 @@
 {
   "resumen": {
-    "total_nodos": 319,
+    "total_nodos": 318,
     "total_aristas": 666,
     "monto_total_clp": 669122093990
   },
@@ -534,17 +534,6 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Caso Audios",
-      "tipo_nodo": "causa_judicial",
-      "rut": "",
-      "monto_clp": 0,
-      "path": "02_Causas/Caso Audios.md",
-      "in_degree": 6,
-      "out_degree": 1,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
       "id": "Caso Colusion de las Farmacias",
       "tipo_nodo": "causa_judicial",
       "rut": "ROL-C-184-08-TDLC",
@@ -561,6 +550,17 @@
       "rut": "ROL-C-236-11-TDLC",
       "monto_clp": 0,
       "path": "02_Causas/Caso Colusion de los Pollos.md",
+      "in_degree": 6,
+      "out_degree": 1,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "Caso Audios",
+      "tipo_nodo": "causa_judicial",
+      "rut": "",
+      "monto_clp": 0,
+      "path": "02_Causas/Caso Audios.md",
       "in_degree": 6,
       "out_degree": 1,
       "flujo_emitido_clp": 0,
@@ -798,17 +798,6 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01",
-      "tipo_nodo": "nexo_transaccion",
-      "rut": "",
-      "monto_clp": 3800000000,
-      "path": "03_Hechos_y_Nexos/TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01.md",
-      "in_degree": 0,
-      "out_degree": 7,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
       "id": "TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01",
       "tipo_nodo": "nexo_transaccion",
       "rut": "",
@@ -915,6 +904,17 @@
       "path": "03_Hechos_y_Nexos/TRX-2022-09-04-Presencia-Cerimedo-Sede-Renovacion-Nacional-01.md",
       "in_degree": 1,
       "out_degree": 6,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01",
+      "tipo_nodo": "nexo_transaccion",
+      "rut": "",
+      "monto_clp": 3800000000,
+      "path": "03_Hechos_y_Nexos/TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01.md",
+      "in_degree": 0,
+      "out_degree": 7,
       "flujo_emitido_clp": 0,
       "flujo_recibido_clp": 0
     },
@@ -1172,22 +1172,22 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Caso Megafraude Tributario Operacion Tributos",
+      "id": "Caso Operacion FUBELT Intervencion CIA y DINA",
       "tipo_nodo": "causa_judicial",
       "rut": "",
       "monto_clp": 0,
-      "path": "02_Causas/Caso Megafraude Tributario Operacion Tributos.md",
+      "path": "02_Causas/Caso Operacion FUBELT Intervencion CIA y DINA.md",
       "in_degree": 4,
       "out_degree": 1,
       "flujo_emitido_clp": 0,
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Caso Operacion FUBELT Intervencion CIA y DINA",
+      "id": "Caso Megafraude Tributario Operacion Tributos",
       "tipo_nodo": "causa_judicial",
       "rut": "",
       "monto_clp": 0,
-      "path": "02_Causas/Caso Operacion FUBELT Intervencion CIA y DINA.md",
+      "path": "02_Causas/Caso Megafraude Tributario Operacion Tributos.md",
       "in_degree": 4,
       "out_degree": 1,
       "flujo_emitido_clp": 0,
@@ -2074,6 +2074,17 @@
       "flujo_recibido_clp": 0
     },
     {
+      "id": "Caso Operaciones Digitales e Injerencia Electoral",
+      "tipo_nodo": "causa_judicial",
+      "rut": "",
+      "monto_clp": 0,
+      "path": "02_Causas/Caso Operaciones Digitales e Injerencia Electoral.md",
+      "in_degree": 2,
+      "out_degree": 1,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
       "id": "Caso Asignaciones Parlamentarias y Cuota Flores",
       "tipo_nodo": "causa_judicial",
       "rut": "",
@@ -2145,17 +2156,6 @@
       "rut": "",
       "monto_clp": 0,
       "path": "02_Causas/Caso Municipalidad de Maipu.md",
-      "in_degree": 2,
-      "out_degree": 1,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
-      "id": "Caso Operaciones Digitales e Injerencia Electoral",
-      "tipo_nodo": "causa_judicial",
-      "rut": "",
-      "monto_clp": 0,
-      "path": "02_Causas/Caso Operaciones Digitales e Injerencia Electoral.md",
       "in_degree": 2,
       "out_degree": 1,
       "flujo_emitido_clp": 0,
@@ -2734,17 +2734,6 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Municipalidad de Santiago",
-      "tipo_nodo": "entidad_publica",
-      "rut": "",
-      "monto_clp": 0,
-      "path": "01_Entidades/Publicas/Municipalidad de Santiago.md",
-      "in_degree": 1,
-      "out_degree": 1,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
       "id": "Fiscalia Nacional Economica",
       "tipo_nodo": "entidad_publica",
       "rut": "",
@@ -2756,22 +2745,22 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Inmobiliaria San Valentino SpA",
-      "tipo_nodo": "entidad_privada",
+      "id": "Municipalidad de Santiago",
+      "tipo_nodo": "entidad_publica",
       "rut": "",
       "monto_clp": 0,
-      "path": "01_Entidades/Privadas/Inmobiliaria San Valentino SpA.md",
+      "path": "01_Entidades/Publicas/Municipalidad de Santiago.md",
       "in_degree": 1,
       "out_degree": 1,
       "flujo_emitido_clp": 0,
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Sociedad de Inversiones Pampa Calichera SA",
+      "id": "Inmobiliaria San Valentino SpA",
       "tipo_nodo": "entidad_privada",
       "rut": "",
       "monto_clp": 0,
-      "path": "01_Entidades/Privadas/Sociedad de Inversiones Pampa Calichera SA.md",
+      "path": "01_Entidades/Privadas/Inmobiliaria San Valentino SpA.md",
       "in_degree": 1,
       "out_degree": 1,
       "flujo_emitido_clp": 0,
@@ -2789,6 +2778,17 @@
       "flujo_recibido_clp": 0
     },
     {
+      "id": "Sociedad de Inversiones Pampa Calichera SA",
+      "tipo_nodo": "entidad_privada",
+      "rut": "",
+      "monto_clp": 0,
+      "path": "01_Entidades/Privadas/Sociedad de Inversiones Pampa Calichera SA.md",
+      "in_degree": 1,
+      "out_degree": 1,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
       "id": "Revolucion Democratica",
       "tipo_nodo": "partido_politico",
       "rut": "",
@@ -2796,6 +2796,17 @@
       "path": "01_Entidades/Partidos/Revolucion Democratica.md",
       "in_degree": 2,
       "out_degree": 0,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "Caso Pinocheques",
+      "tipo_nodo": "causa_judicial",
+      "rut": "",
+      "monto_clp": 0,
+      "path": "02_Causas/Caso Pinocheques.md",
+      "in_degree": 1,
+      "out_degree": 1,
       "flujo_emitido_clp": 0,
       "flujo_recibido_clp": 0
     },
@@ -2816,17 +2827,6 @@
       "rut": "",
       "monto_clp": 0,
       "path": "02_Causas/Caso Luminarias LED.md",
-      "in_degree": 1,
-      "out_degree": 1,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
-      "id": "Caso Pinocheques",
-      "tipo_nodo": "causa_judicial",
-      "rut": "",
-      "monto_clp": 0,
-      "path": "02_Causas/Caso Pinocheques.md",
       "in_degree": 1,
       "out_degree": 1,
       "flujo_emitido_clp": 0,
@@ -3031,17 +3031,6 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "SCA Chile SA",
-      "tipo_nodo": "entidad_privada",
-      "rut": "",
-      "monto_clp": 0,
-      "path": "01_Entidades/Privadas/SCA Chile SA.md",
-      "in_degree": 1,
-      "out_degree": 0,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
       "id": "Farmacias Cruz Verde SA",
       "tipo_nodo": "entidad_privada",
       "rut": "89.807.200-2",
@@ -3053,11 +3042,11 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Partido Socialista de Chile",
-      "tipo_nodo": "partido_politico",
+      "id": "SCA Chile SA",
+      "tipo_nodo": "entidad_privada",
       "rut": "",
       "monto_clp": 0,
-      "path": "01_Entidades/Partidos/Partido Socialista de Chile.md",
+      "path": "01_Entidades/Privadas/SCA Chile SA.md",
       "in_degree": 1,
       "out_degree": 0,
       "flujo_emitido_clp": 0,
@@ -3069,6 +3058,17 @@
       "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Partidos/Partido Comunista de Chile.md",
+      "in_degree": 1,
+      "out_degree": 0,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "Partido Socialista de Chile",
+      "tipo_nodo": "partido_politico",
+      "rut": "",
+      "monto_clp": 0,
+      "path": "01_Entidades/Partidos/Partido Socialista de Chile.md",
       "in_degree": 1,
       "out_degree": 0,
       "flujo_emitido_clp": 0,
@@ -3218,22 +3218,22 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Banco de Chile",
+      "id": "Agricola Don Pollo Limitada",
       "tipo_nodo": "entidad_privada",
-      "rut": "97.004.000-5",
+      "rut": "",
       "monto_clp": 0,
-      "path": "01_Entidades/Privadas/Banco de Chile.md",
+      "path": "01_Entidades/Privadas/Agricola Don Pollo Limitada.md",
       "in_degree": 0,
       "out_degree": 0,
       "flujo_emitido_clp": 0,
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Farmacias Ahumada SA",
+      "id": "Banco de Chile",
       "tipo_nodo": "entidad_privada",
-      "rut": "",
+      "rut": "97.004.000-5",
       "monto_clp": 0,
-      "path": "01_Entidades/Privadas/Farmacias Ahumada SA.md",
+      "path": "01_Entidades/Privadas/Banco de Chile.md",
       "in_degree": 0,
       "out_degree": 0,
       "flujo_emitido_clp": 0,
@@ -3251,22 +3251,11 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Agricola Don Pollo Limitada",
+      "id": "Farmacias Ahumada SA",
       "tipo_nodo": "entidad_privada",
       "rut": "",
       "monto_clp": 0,
-      "path": "01_Entidades/Privadas/Agricola Don Pollo Limitada.md",
-      "in_degree": 0,
-      "out_degree": 0,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
-      "id": "Drawing 2026-10-18 11.54.03.excalidraw",
-      "tipo_nodo": "desconocido",
-      "rut": "",
-      "monto_clp": 0,
-      "path": "01_Entidades/Partidos/Drawing 2026-10-18 11.54.03.excalidraw.md",
+      "path": "01_Entidades/Privadas/Farmacias Ahumada SA.md",
       "in_degree": 0,
       "out_degree": 0,
       "flujo_emitido_clp": 0,
@@ -3394,17 +3383,6 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Deteccion_Comunidades_Operativas",
-      "tipo_nodo": "vista_analitica",
-      "rut": "",
-      "monto_clp": 0,
-      "path": "05_Vistas_Analiticas/Deteccion_Comunidades_Operativas.md",
-      "in_degree": 0,
-      "out_degree": 0,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
       "id": "Evolucion_Temporal_y_Transicion_de_Fase",
       "tipo_nodo": "vista_analitica",
       "rut": "",
@@ -3476,6 +3454,17 @@
       "rut": "",
       "monto_clp": 0,
       "path": "05_Vistas_Analiticas/Cobertura_de_Fuentes.md",
+      "in_degree": 0,
+      "out_degree": 0,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "Deteccion_Comunidades_Operativas",
+      "tipo_nodo": "vista_analitica",
+      "rut": "",
+      "monto_clp": 0,
+      "path": "05_Vistas_Analiticas/Deteccion_Comunidades_Operativas.md",
       "in_degree": 0,
       "out_degree": 0,
       "flujo_emitido_clp": 0,
@@ -3739,14 +3728,8 @@
       "weight": 1
     },
     {
-      "source": "Municipalidad de Cerro Navia",
-      "target": "Luis Plaza Sanchez",
-      "relation": "autoridad_vinculada",
-      "weight": 1
-    },
-    {
-      "source": "Unidad de Analisis Financiero",
-      "target": "Javier Cruz Tamburrino",
+      "source": "Comision para el Mercado Financiero",
+      "target": "Carlos Pavez Tolosa",
       "relation": "autoridad_vinculada",
       "weight": 1
     },
@@ -3757,20 +3740,14 @@
       "weight": 1
     },
     {
-      "source": "Municipalidad de Santiago",
-      "target": "Iraci Hassler Jacob",
-      "relation": "autoridad_vinculada",
-      "weight": 1
-    },
-    {
-      "source": "Comision para el Mercado Financiero",
-      "target": "Carlos Pavez Tolosa",
-      "relation": "autoridad_vinculada",
-      "weight": 1
-    },
-    {
       "source": "Ministerio de Obras Publicas",
       "target": "Carlos Cruz Lorenzen",
+      "relation": "autoridad_vinculada",
+      "weight": 1
+    },
+    {
+      "source": "Municipalidad de Cerro Navia",
+      "target": "Luis Plaza Sanchez",
       "relation": "autoridad_vinculada",
       "weight": 1
     },
@@ -3781,80 +3758,20 @@
       "weight": 1
     },
     {
-      "source": "Fundacion Democracia Viva",
-      "target": "Daniel Andrade Schwarze",
-      "relation": "representante_legal",
+      "source": "Municipalidad de Santiago",
+      "target": "Iraci Hassler Jacob",
+      "relation": "autoridad_vinculada",
       "weight": 1
     },
     {
-      "source": "Fundacion En Ti",
-      "target": "Camila Polizzi Fonceca",
-      "relation": "representante_legal",
+      "source": "Unidad de Analisis Financiero",
+      "target": "Javier Cruz Tamburrino",
+      "relation": "autoridad_vinculada",
       "weight": 1
     },
     {
-      "source": "Fundacion ProCultura",
-      "target": "Alberto Larrain Salas",
-      "relation": "representante_legal",
-      "weight": 1
-    },
-    {
-      "source": "Vita Deportes",
-      "target": "Domingo Prieto Urrejola",
-      "relation": "representante_legal",
-      "weight": 1
-    },
-    {
-      "source": "Inmobiliaria San Valentino SpA",
-      "target": "Felipe Sanchez Perez",
-      "relation": "representante_legal",
-      "weight": 1
-    },
-    {
-      "source": "Sociedad de Inversiones Pampa Calichera SA",
-      "target": "Julio Ponce Lerou",
-      "relation": "representante_legal",
-      "weight": 1
-    },
-    {
-      "source": "Inversiones El Bosque Ltda",
-      "target": "Claudio Spiniak Vilensky",
-      "relation": "representante_legal",
-      "weight": 1
-    },
-    {
-      "source": "Sociedad Benefactora y Educacional Dignidad",
-      "target": "Paul Schafer Schneider",
-      "relation": "representante_legal",
-      "weight": 1
-    },
-    {
-      "source": "Valmoval Ltda",
-      "target": "Augusto Pinochet Hiriart",
-      "relation": "representante_legal",
-      "weight": 1
-    },
-    {
-      "source": "Riggs Bank y Sociedades Offshore Ashburton",
-      "target": "Oscar Aitken Lavanchy",
-      "relation": "representante_legal",
-      "weight": 1
-    },
-    {
-      "source": "Andes Iron SpA",
-      "target": "Carlos Alberto Delano Abbott",
-      "relation": "representante_legal",
-      "weight": 1
-    },
-    {
-      "source": "Mossack Fonseca y Sociedades Offshore Panama",
-      "target": "Gonzalo Delaveau Swett",
-      "relation": "representante_legal",
-      "weight": 1
-    },
-    {
-      "source": "Empresa El Mercurio SAP",
-      "target": "Agustin Edwards Eastman",
+      "source": "Gestion Ambiental y Territorial SA",
+      "target": "Hector Pena Veliz",
       "relation": "representante_legal",
       "weight": 1
     },
@@ -3865,26 +3782,32 @@
       "weight": 1
     },
     {
+      "source": "Andes Iron SpA",
+      "target": "Carlos Alberto Delano Abbott",
+      "relation": "representante_legal",
+      "weight": 1
+    },
+    {
       "source": "Asociacion de Productores Avicolas de Chile AG",
       "target": "Juan Miguel Ovalle Garces",
       "relation": "representante_legal",
       "weight": 1
     },
     {
-      "source": "Quiroz y Asociados Consultores SpA",
-      "target": "Jorge Quiroz Castro",
-      "relation": "representante_legal",
-      "weight": 1
-    },
-    {
-      "source": "Numen Publicidad SpA",
-      "target": "Fernando Cerimedo",
+      "source": "Bancard Inversiones Ltda",
+      "target": "Sebastian Pinera Echenique",
       "relation": "representante_legal",
       "weight": 1
     },
     {
       "source": "Corpesca SA",
       "target": "Francisco Mujica Ortuzar",
+      "relation": "representante_legal",
+      "weight": 1
+    },
+    {
+      "source": "Empresa El Mercurio SAP",
+      "target": "Agustin Edwards Eastman",
       "relation": "representante_legal",
       "weight": 1
     },
@@ -3913,26 +3836,44 @@
       "weight": 1
     },
     {
-      "source": "Itelecom Holding Chile SpA",
-      "target": "Leon Marcelo Lefort Hernandez",
-      "relation": "representante_legal",
-      "weight": 1
-    },
-    {
-      "source": "SQM SA",
-      "target": "Patricio Contesse Gonzalez",
-      "relation": "representante_legal",
-      "weight": 1
-    },
-    {
-      "source": "Bancard Inversiones Ltda",
-      "target": "Sebastian Pinera Echenique",
-      "relation": "representante_legal",
-      "weight": 1
-    },
-    {
       "source": "Fundacion CEMA Chile",
       "target": "Lucia Hiriart Rodriguez",
+      "relation": "representante_legal",
+      "weight": 1
+    },
+    {
+      "source": "Fundacion Democracia Viva",
+      "target": "Daniel Andrade Schwarze",
+      "relation": "representante_legal",
+      "weight": 1
+    },
+    {
+      "source": "Fundacion En Ti",
+      "target": "Camila Polizzi Fonceca",
+      "relation": "representante_legal",
+      "weight": 1
+    },
+    {
+      "source": "Fundacion ProCultura",
+      "target": "Alberto Larrain Salas",
+      "relation": "representante_legal",
+      "weight": 1
+    },
+    {
+      "source": "Inmobiliaria San Valentino SpA",
+      "target": "Felipe Sanchez Perez",
+      "relation": "representante_legal",
+      "weight": 1
+    },
+    {
+      "source": "Inversiones El Bosque Ltda",
+      "target": "Claudio Spiniak Vilensky",
+      "relation": "representante_legal",
+      "weight": 1
+    },
+    {
+      "source": "Itelecom Holding Chile SpA",
+      "target": "Leon Marcelo Lefort Hernandez",
       "relation": "representante_legal",
       "weight": 1
     },
@@ -3943,9 +3884,99 @@
       "weight": 1
     },
     {
-      "source": "Gestion Ambiental y Territorial SA",
-      "target": "Hector Pena Veliz",
+      "source": "Mossack Fonseca y Sociedades Offshore Panama",
+      "target": "Gonzalo Delaveau Swett",
       "relation": "representante_legal",
+      "weight": 1
+    },
+    {
+      "source": "Numen Publicidad SpA",
+      "target": "Fernando Cerimedo",
+      "relation": "representante_legal",
+      "weight": 1
+    },
+    {
+      "source": "Quiroz y Asociados Consultores SpA",
+      "target": "Jorge Quiroz Castro",
+      "relation": "representante_legal",
+      "weight": 1
+    },
+    {
+      "source": "Riggs Bank y Sociedades Offshore Ashburton",
+      "target": "Oscar Aitken Lavanchy",
+      "relation": "representante_legal",
+      "weight": 1
+    },
+    {
+      "source": "SQM SA",
+      "target": "Patricio Contesse Gonzalez",
+      "relation": "representante_legal",
+      "weight": 1
+    },
+    {
+      "source": "Sociedad Benefactora y Educacional Dignidad",
+      "target": "Paul Schafer Schneider",
+      "relation": "representante_legal",
+      "weight": 1
+    },
+    {
+      "source": "Sociedad de Inversiones Pampa Calichera SA",
+      "target": "Julio Ponce Lerou",
+      "relation": "representante_legal",
+      "weight": 1
+    },
+    {
+      "source": "Valmoval Ltda",
+      "target": "Augusto Pinochet Hiriart",
+      "relation": "representante_legal",
+      "weight": 1
+    },
+    {
+      "source": "Vita Deportes",
+      "target": "Domingo Prieto Urrejola",
+      "relation": "representante_legal",
+      "weight": 1
+    },
+    {
+      "source": "Caso Colonia Dignidad",
+      "target": "Lavado de Activos",
+      "relation": "delito_principal",
+      "weight": 1
+    },
+    {
+      "source": "Caso Colusion de las Farmacias",
+      "target": "Colusion y Atentado a la Libre Competencia",
+      "relation": "delito_principal",
+      "weight": 1
+    },
+    {
+      "source": "Caso Colusion de los Pollos",
+      "target": "Colusion y Atentado a la Libre Competencia",
+      "relation": "delito_principal",
+      "weight": 1
+    },
+    {
+      "source": "Caso Colusion del Papel Tissue",
+      "target": "Colusion y Atentado a la Libre Competencia",
+      "relation": "delito_principal",
+      "weight": 1
+    },
+    {
+      "source": "Caso Operacion FUBELT Intervencion CIA y DINA",
+      "target": "Lavado de Activos",
+      "relation": "delito_principal",
+      "weight": 1
+    },
+    {
+      "source": "Caso Operaciones Digitales e Injerencia Electoral",
+      "target": "Fraude al Fisco",
+      "relation": "delito_principal",
+      "weight": 1
+    },
+    {
+      "source": "Caso Pinocheques",
+      "target": "Fraude al Fisco",
+      "relation": "delito_principal",
       "weight": 1
     },
     {
@@ -3981,30 +4012,6 @@
     {
       "source": "Caso Caval",
       "target": "Delito Tributario",
-      "relation": "delito_principal",
-      "weight": 1
-    },
-    {
-      "source": "Caso Colonia Dignidad",
-      "target": "Lavado de Activos",
-      "relation": "delito_principal",
-      "weight": 1
-    },
-    {
-      "source": "Caso Colusion de las Farmacias",
-      "target": "Colusion y Atentado a la Libre Competencia",
-      "relation": "delito_principal",
-      "weight": 1
-    },
-    {
-      "source": "Caso Colusion de los Pollos",
-      "target": "Colusion y Atentado a la Libre Competencia",
-      "relation": "delito_principal",
-      "weight": 1
-    },
-    {
-      "source": "Caso Colusion del Papel Tissue",
-      "target": "Colusion y Atentado a la Libre Competencia",
       "relation": "delito_principal",
       "weight": 1
     },
@@ -4069,20 +4076,8 @@
       "weight": 1
     },
     {
-      "source": "Caso Operacion FUBELT Intervencion CIA y DINA",
-      "target": "Lavado de Activos",
-      "relation": "delito_principal",
-      "weight": 1
-    },
-    {
       "source": "Caso Operacion Huracan",
       "target": "Falsificacion de Instrumento Publico",
-      "relation": "delito_principal",
-      "weight": 1
-    },
-    {
-      "source": "Caso Operaciones Digitales e Injerencia Electoral",
-      "target": "Fraude al Fisco",
       "relation": "delito_principal",
       "weight": 1
     },
@@ -4101,12 +4096,6 @@
     {
       "source": "Caso Penta",
       "target": "Delito Tributario",
-      "relation": "delito_principal",
-      "weight": 1
-    },
-    {
-      "source": "Caso Pinocheques",
-      "target": "Fraude al Fisco",
       "relation": "delito_principal",
       "weight": 1
     },
@@ -5779,48 +5768,6 @@
       "weight": 19500000000
     },
     {
-      "source": "TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01",
-      "target": "Mossack Fonseca y Sociedades Offshore Panama",
-      "relation": "entidad_origen",
-      "weight": 3800000000
-    },
-    {
-      "source": "TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01",
-      "target": "Riggs Bank y Sociedades Offshore Ashburton",
-      "relation": "entidad_destino",
-      "weight": 3800000000
-    },
-    {
-      "source": "TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01",
-      "target": "Oscar Aitken Lavanchy",
-      "relation": "firmante_origen",
-      "weight": 3800000000
-    },
-    {
-      "source": "TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01",
-      "target": "Augusto Pinochet Ugarte",
-      "relation": "firmante_destino",
-      "weight": 3800000000
-    },
-    {
-      "source": "TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01",
-      "target": "Lavado de Activos",
-      "relation": "delito_imputado",
-      "weight": 3800000000
-    },
-    {
-      "source": "TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01",
-      "target": "Caso Panama Papers Chile",
-      "relation": "causa_vinculada",
-      "weight": 3800000000
-    },
-    {
-      "source": "TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01",
-      "target": "Filtracion-ICIJ-PanamaPapers-Chile-2016",
-      "relation": "evidencia_soporte",
-      "weight": 3800000000
-    },
-    {
       "source": "TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01",
       "target": "Direccion de Inteligencia Policial de Carabineros",
       "relation": "entidad_origen",
@@ -6815,6 +6762,48 @@
       "target": "Dictamen-CGR-SierraBella-2023",
       "relation": "evidencia_soporte",
       "weight": 0
+    },
+    {
+      "source": "TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01",
+      "target": "Mossack Fonseca y Sociedades Offshore Panama",
+      "relation": "entidad_origen",
+      "weight": 3800000000
+    },
+    {
+      "source": "TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01",
+      "target": "Riggs Bank y Sociedades Offshore Ashburton",
+      "relation": "entidad_destino",
+      "weight": 3800000000
+    },
+    {
+      "source": "TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01",
+      "target": "Oscar Aitken Lavanchy",
+      "relation": "firmante_origen",
+      "weight": 3800000000
+    },
+    {
+      "source": "TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01",
+      "target": "Augusto Pinochet Ugarte",
+      "relation": "firmante_destino",
+      "weight": 3800000000
+    },
+    {
+      "source": "TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01",
+      "target": "Lavado de Activos",
+      "relation": "delito_imputado",
+      "weight": 3800000000
+    },
+    {
+      "source": "TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01",
+      "target": "Caso Panama Papers Chile",
+      "relation": "causa_vinculada",
+      "weight": 3800000000
+    },
+    {
+      "source": "TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01",
+      "target": "Filtracion-ICIJ-PanamaPapers-Chile-2016",
+      "relation": "evidencia_soporte",
+      "weight": 3800000000
     },
     {
       "source": "Acuerdo-Compensatorio-SERNAC-CMPC-Tissue-2017",

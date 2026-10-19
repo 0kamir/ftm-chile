@@ -4,6 +4,7 @@ id_transaccion: "TRX-2004-07-14-Desvio-Gastos-Reservados-Riggs-Pinochet-01"
 fecha: 2004-07-14
 tipo_nexo: desviacion_fondos
 monto_clp: 15800000000
+monto_origen: sentencia
 metodo_adjudicacion: no_aplica
 entidad_origen: "[[Comando de Apoyo a la Fuerza del Ejercito]]"
 entidad_destino: "[[Riggs Bank y Sociedades Offshore Ashburton]]"

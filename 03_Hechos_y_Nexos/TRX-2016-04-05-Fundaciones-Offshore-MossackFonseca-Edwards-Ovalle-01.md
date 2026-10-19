@@ -4,6 +4,7 @@ id_transaccion: "TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Oval
 fecha: 2016-04-05
 tipo_nexo: desviacion_fondos
 monto_clp: 19500000000
+monto_origen: no_verificado
 metodo_adjudicacion: no_aplica
 entidad_origen: "[[Mossack Fonseca y Sociedades Offshore Panama]]"
 entidad_destino: "[[Unidad de Analisis Financiero]]"

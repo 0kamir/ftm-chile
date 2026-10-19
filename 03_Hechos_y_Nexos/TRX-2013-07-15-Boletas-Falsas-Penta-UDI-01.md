@@ -4,6 +4,7 @@ id_transaccion: "TRX-2013-07-15-Boletas-Falsas-Penta-UDI-01"
 fecha: 2013-07-15
 tipo_nexo: factura_falsa
 monto_clp: 1260000000
+monto_origen: acusacion
 metodo_adjudicacion: no_aplica
 entidad_origen: "[[Empresas Penta SA]]"
 entidad_destino: "[[Union Democrata Independiente]]"

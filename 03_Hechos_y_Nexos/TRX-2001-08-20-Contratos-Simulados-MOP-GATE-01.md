@@ -4,6 +4,7 @@ id_transaccion: "TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01"
 fecha: 2001-08-20
 tipo_nexo: trato_directo
 monto_clp: 1253000000
+monto_origen: sentencia
 metodo_adjudicacion: licitacion_privada
 entidad_origen: "[[Ministerio de Obras Publicas]]"
 entidad_destino: "[[Gestion Ambiental y Territorial SA]]"

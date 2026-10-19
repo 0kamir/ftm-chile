@@ -3,6 +3,7 @@ tipo_nodo: nexo_transaccion
 fecha: 2007-04-10
 tipo_nexo: consulta_terceros
 monto_clp: 0
+monto_origen: sin_monto
 entidad_origen: "[[Quiroz y Asociados Consultores SpA]]"
 entidad_destino: "[[Asociacion de Productores Avicolas de Chile AG]]"
 firmante_origen: "[[Jorge Quiroz Castro]]"

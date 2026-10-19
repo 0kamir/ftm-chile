@@ -3,6 +3,7 @@ tipo_nodo: nexo_transaccion
 fecha: 2021-04-15
 tipo_nexo: transferencia
 monto_clp: 759000000
+monto_origen: acusacion
 entidad_origen: "[[Municipalidad de Vitacura]]"
 entidad_destino: "[[Vita Deportes]]"
 firmante_origen: "[[Raul Torrealba del Pedregal]]"

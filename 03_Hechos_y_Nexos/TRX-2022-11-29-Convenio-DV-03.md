@@ -3,6 +3,7 @@ tipo_nodo: nexo_transaccion
 fecha: 2022-11-29
 tipo_nexo: convenio_directo
 monto_clp: 56000000
+monto_origen: resolucion_administrativa
 entidad_origen: "[[Seremi MINVU Antofagasta]]"
 entidad_destino: "[[Fundacion Democracia Viva]]"
 firmante_origen: "[[Carlos Contreras Gutierrez]]"

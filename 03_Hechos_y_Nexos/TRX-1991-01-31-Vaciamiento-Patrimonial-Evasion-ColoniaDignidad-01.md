@@ -4,6 +4,7 @@ id_transaccion: "TRX-1991-01-31-Vaciamiento-Patrimonial-Evasion-ColoniaDignidad-
 fecha: 1991-01-31
 tipo_nexo: desviacion_fondos
 monto_clp: 3450000000
+monto_origen: no_verificado
 metodo_adjudicacion: no_aplica
 entidad_origen: "[[Sociedad Benefactora y Educacional Dignidad]]"
 entidad_destino: "[[Servicio Impuestos Internos]]"

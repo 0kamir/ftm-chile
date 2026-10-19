@@ -8,6 +8,7 @@ Verifica:
 4. Integridad referencial de todos los Wikilinks [[...]] (cero enlaces rotos).
 5. Cuadratura contable de `monto_clp` en `03_Hechos_y_Nexos/`.
 6. Esquema de `fuentes:` (URL, título, medio, tipo) y coherencia con `estado_verificacion`.
+7. Cada nexo declara `monto_origen` (sentencia, acusación, etc.) coherente con su monto.
    Con `--estricto`, toda causa y evidencia debe tener al menos una fuente con URL.
 """
 
@@ -16,7 +17,7 @@ import re
 import sys
 import yaml
 
-from add_source import ESTADOS_VERIFICACION, TIPOS_FUENTE
+from add_source import ESTADOS_VERIFICACION, ORIGENES_MONTO, TIPOS_FUENTE
 
 ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 
@@ -184,6 +185,7 @@ def main(estricto: bool = False) -> int:
             }
 
     total_clp = 0
+    total_por_origen: dict[str, int] = {}
     total_nexos = 0
     ruts_validados = 0
 
@@ -226,6 +228,17 @@ def main(estricto: bool = False) -> int:
                 else:
                     total_clp += int(monto)
                     total_nexos += 1
+                    origen = meta.get("monto_origen")
+                    if origen not in ORIGENES_MONTO:
+                        errors.append(
+                            f"[{rel_path}] 'monto_origen' debe ser uno de {ORIGENES_MONTO} (actual: {origen!r})."
+                        )
+                    elif (origen == "sin_monto") != (monto == 0):
+                        errors.append(
+                            f"[{rel_path}] 'monto_origen: sin_monto' solo corresponde a monto_clp 0 (y viceversa)."
+                        )
+                    else:
+                        total_por_origen[origen] = total_por_origen.get(origen, 0) + int(monto)
 
             validar_fuentes(rel_path, meta, estricto, errors, warnings)
 
@@ -244,7 +257,10 @@ def main(estricto: bool = False) -> int:
     print(f" Notas con YAML validadas : {len(parsed_notes)}")
     print(f" RUTs validados (Mód. 11) : {ruts_validados}")
     print(f" Aristas reificadas (TRX) : {total_nexos}")
-    print(f" Monto global auditado    : ${total_clp:,.0f} CLP".replace(",", "."))
+    print(f" Monto global registrado  : ${total_clp:,.0f} CLP".replace(",", "."))
+    for origen in ORIGENES_MONTO:
+        if total_por_origen.get(origen):
+            print(f"   - {origen:<26}: ${total_por_origen[origen]:,.0f} CLP".replace(",", "."))
     print("-" * 72)
 
     if warnings:

@@ -3,6 +3,7 @@ tipo_nodo: nexo_transaccion
 fecha: 2010-08-19
 tipo_nexo: cohecho
 monto_clp: 730000000
+monto_origen: acusacion
 entidad_origen: "[[SQM SA]]"
 entidad_destino: "[[Union Democrata Independiente]]"
 firmante_origen: "[[Patricio Contesse Gonzalez]]"

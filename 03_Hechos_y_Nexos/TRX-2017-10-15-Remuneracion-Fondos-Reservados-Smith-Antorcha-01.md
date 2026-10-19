@@ -3,6 +3,7 @@ tipo_nodo: nexo_transaccion
 fecha: 2017-10-15
 tipo_nexo: desvio_fondos_reservados
 monto_clp: 25000000
+monto_origen: acusacion
 entidad_origen: "[[Direccion de Inteligencia Policial de Carabineros]]"
 entidad_destino: "[[Direccion de Inteligencia Policial de Carabineros]]"
 firmante_origen: "[[Patricio Marin Lazo]]"
