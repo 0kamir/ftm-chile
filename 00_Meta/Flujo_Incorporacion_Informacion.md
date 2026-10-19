@@ -1,6 +1,6 @@
 ---
 tipo_nodo: meta_flujo
-version_flujo: "1.0.0"
+version_flujo: "1.1.0"
 tags:
   - meta/flujo
   - meta/verificacion
@@ -29,7 +29,7 @@ flowchart LR
 2. **Imputaciones con respaldo reforzado.** Si una nota atribuye un delito, una formalización o una condena a una persona natural, debe tener **una fuente primaria** (resolución, sentencia, comunicado oficial) **o dos fuentes secundarias independientes**.
 3. **Presunción de inocencia.** El campo `situacion_procesal` refleja exactamente lo que dicen las fuentes (`formalizado` no es `condenado`). Las absoluciones y sobreseimientos se registran con la misma visibilidad que las acusaciones.
 4. **Privacidad y víctimas.** No se incorporan hechos de la vida íntima, de salud o familiares ajenos al eje de corrupción, aunque hayan salido en prensa. Las víctimas no se modelan como actores de un nexo.
-5. **Mención no es vínculo.** Aparecer en una filtración (Panama/Pandora Papers, archivos Epstein) no constituye un hecho ilícito. Esas notas deben decirlo de forma explícita y usar `tipo: secundaria` salvo que exista el documento original.
+5. **Mención no es vínculo.** Aparecer en una filtración o desclasificación (Panama/Pandora Papers, archivos Epstein) no constituye un hecho ilícito. Si no hay investigación ni imputación en Chile, la información va a un anexo documental en `06_Anexos/`, fuera del grafo (ver sección 5).
 6. **Sin datos personales.** No se publica el RUT, domicilio, teléfono ni datos de familia de personas naturales; el validador rechaza notas de persona con `rut`. Los RUT de empresas y organismos públicos sí se registran, con su fuente.
 7. **Nada inventado.** RUC, RUT, roles, montos y fechas se copian del documento fuente. Si no se conoce un dato, se deja vacío; no se estima ni se completa con un valor plausible.
 
@@ -53,6 +53,8 @@ Abre un *Issue* en GitHub con la plantilla **"Nueva información"** (hechos nuev
 3. Archiva la URL en [web.archive.org/save](https://web.archive.org/save) y anota la copia en el campo `archivo`. Los medios cambian o retiran URLs; la copia preserva la cadena de custodia.
 
 ### Paso 3 — Registrar
+Decide primero dónde va: si hay una causa, una investigación o un hecho de interés público con fuente, entra al grafo (`02_Causas/`, `03_Hechos_y_Nexos/`, `04_Evidencias/`). Si es solo una mención en documentos, sin imputación, va a `06_Anexos/`.
+
 **Nota nueva:** crea la nota desde la plantilla correspondiente en `00_Meta/Plantillas/` (`tpl_causa`, `tpl_evidencia`, `tpl_nexo_transaccion`, `tpl_persona`, `tpl_entidad_*`) con `Ctrl+P → Plantillas: Insertar plantilla`.
 
 **Agregar una fuente a una nota existente:**
@@ -118,11 +120,21 @@ El merge a `master` es la publicación. El visor web y las exportaciones (`make 
 | `sin_fuente` | No hay respaldo público | No: verificar o retirar |
 | `pendiente` | Nota nueva sin revisión de un segundo editor | No |
 
-## 5. Lista de Verificación Rápida
+## 5. Anexos Documentales Fuera del Grafo
+Algunas informaciones son de interés público pero no corresponden a un hecho de corrupción, por ejemplo menciones de chilenos en archivos publicados en el extranjero sin investigación ni imputación en Chile. Como nodos del grafo quedarían conectadas con personas condenadas a través de los análisis de comunidades y vínculos, lo que sugiere culpa por asociación.
+
+- **Qué va en un anexo:** menciones en filtraciones, desclasificaciones o expedientes extranjeros sin imputación en Chile, documentadas con sus fuentes.
+- **Cómo se escribe:** `tipo_nodo: anexo_documental`, un aviso explícito de que aparecer no constituye delito y los nombres en texto plano, sin wikilinks a fichas de personas.
+- **Qué hace el sistema:** los scripts de exportación y análisis no leen `06_Anexos/`; el validador sí lo revisa, así que el anexo debe tener sus fuentes.
+- **Cuándo pasa al grafo:** si surge una investigación o imputación en Chile relacionada, se incorpora al grafo siguiendo este mismo flujo.
+- **Ejemplo:** [[Menciones de Chilenos en Archivos Epstein]].
+
+## 6. Lista de Verificación Rápida
 - [ ] Cada causa/evidencia nueva tiene al menos una URL en `fuentes:`.
 - [ ] Las imputaciones a personas tienen fuente primaria o dos secundarias independientes.
 - [ ] `situacion_procesal` y `estado_judicial` coinciden con la fuente más reciente.
 - [ ] RUC/RUT/roles/montos copiados del documento, no estimados.
 - [ ] Copia archivada en `archivo`.
 - [ ] Sin datos íntimos ni de víctimas.
+- [ ] Las menciones sin imputación en Chile van a `06_Anexos/`, no al grafo.
 - [ ] `make validate sources test` pasa sin errores.
