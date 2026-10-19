@@ -5,7 +5,7 @@ año_inicio: 2024
 tribunal_o_fiscalia: "Corte de Distrito de EE.UU. para el Distrito Sur de Nueva York (SDNY) / Departamento de Justicia (DOJ)"
 fiscal_a_cargo: "Jueza Loretta Preska / Fiscalía Federal del Distrito Sur de Nueva York"
 estado_judicial: descarte_procesal_sin_imputacion
-delito_principal: "[[Trafico de Influencias]]"
+delito_principal: ""
 estado_verificacion: parcial
 fuentes:
   - url: "https://www.cnnchile.com/pais/cientifico-chileno-correos-jeffrey-epstein-eduardo-guendelman/"
@@ -21,6 +21,7 @@ fuentes:
     consultado: 2026-10-19
 historial_correcciones:
   - "ALTO RIESGO REPUTACIONAL: las fuentes indican menciones referenciales, sin imputación ni contacto directo acreditado con Velasco o Luksic. La publicación masiva del DOJ es de diciembre 2025 a enero 2026, no 2024 como dice la evidencia. Considerar retirar las aristas TRX de 'mención'."
+  - "Se eliminó delito_principal (Tráfico de Influencias) el 2026-10-19: ninguna persona chilena mencionada está imputada."
 tags:
   - causa
   - epstein-files

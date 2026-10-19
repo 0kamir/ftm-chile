@@ -1,7 +1,7 @@
 {
   "resumen": {
     "total_nodos": 327,
-    "total_aristas": 688,
+    "total_aristas": 687,
     "monto_total_clp": 669122093990
   },
   "nodos": [
@@ -534,17 +534,6 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Trafico de Influencias",
-      "tipo_nodo": "tipo_penal",
-      "rut": "",
-      "monto_clp": 0,
-      "path": "00_Meta/Delitos/Trafico de Influencias.md",
-      "in_degree": 7,
-      "out_degree": 0,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
       "id": "Caso Audios",
       "tipo_nodo": "causa_judicial",
       "rut": "2301248910-5",
@@ -1007,6 +996,17 @@
       "flujo_recibido_clp": 0
     },
     {
+      "id": "Trafico de Influencias",
+      "tipo_nodo": "tipo_penal",
+      "rut": "",
+      "monto_clp": 0,
+      "path": "00_Meta/Delitos/Trafico de Influencias.md",
+      "in_degree": 6,
+      "out_degree": 0,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
       "id": "Julio Ponce Lerou",
       "tipo_nodo": "persona",
       "rut": "",
@@ -1203,17 +1203,6 @@
       "out_degree": 0,
       "flujo_emitido_clp": 25000000,
       "flujo_recibido_clp": 25000000
-    },
-    {
-      "id": "Caso Archivos Epstein Menciones Chile",
-      "tipo_nodo": "causa_judicial",
-      "rut": "15-CV-07433-LAP-SDNY",
-      "monto_clp": 0,
-      "path": "02_Causas/Caso Archivos Epstein Menciones Chile.md",
-      "in_degree": 4,
-      "out_degree": 1,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
     },
     {
       "id": "Caso Colonia Dignidad",
@@ -1663,6 +1652,17 @@
       "path": "02_Causas/Caso Spiniak.md",
       "in_degree": 3,
       "out_degree": 1,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "Caso Archivos Epstein Menciones Chile",
+      "tipo_nodo": "causa_judicial",
+      "rut": "15-CV-07433-LAP-SDNY",
+      "monto_clp": 0,
+      "path": "02_Causas/Caso Archivos Epstein Menciones Chile.md",
+      "in_degree": 4,
+      "out_degree": 0,
       "flujo_emitido_clp": 0,
       "flujo_recibido_clp": 0
     },
@@ -4034,12 +4034,6 @@
       "source": "SQM SA",
       "target": "Patricio Contesse Gonzalez",
       "relation": "representante_legal",
-      "weight": 1
-    },
-    {
-      "source": "Caso Archivos Epstein Menciones Chile",
-      "target": "Trafico de Influencias",
-      "relation": "delito_principal",
       "weight": 1
     },
     {
