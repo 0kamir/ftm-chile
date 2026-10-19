@@ -1,6 +1,6 @@
 ---
 tipo_nodo: nexo_transaccion
-id_transaccion: "TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01"
+id_transaccion: "TRX-2001-08-20-Contratos-MOP-GATE-01"
 fecha: 2001-08-20
 tipo_nexo: trato_directo
 monto_clp: 1253000000
@@ -41,7 +41,7 @@ tags:
   - caso-mop-gate
 ---
 
-# TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01
+# TRX-2001-08-20-Contratos-MOP-GATE-01
 
 ## Ficha de Arista Reificada (Transacción / Hecho Registrado)
 - **ID Transacción**: `= this.id_transaccion`

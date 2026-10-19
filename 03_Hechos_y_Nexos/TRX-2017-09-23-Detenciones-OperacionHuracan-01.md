@@ -18,7 +18,7 @@ tags:
   - falsificacion-evidencia
 ---
 
-# TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01
+# TRX-2017-09-23-Detenciones-OperacionHuracan-01
 
 ## Ficha de Arista Reificada (Operativo Policial de Detención e Implantación de Pruebas Falsas)
 - **Fecha del Operativo**: `= this.fecha` *(23 de septiembre de 2017)*

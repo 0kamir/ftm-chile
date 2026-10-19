@@ -1,6 +1,6 @@
 ---
 tipo_nodo: nexo_transaccion
-id_transaccion: "TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-CIA-01"
+id_transaccion: "TRX-1972-10-12-Fondos-CIA-Gremios-ParoCamioneros-01"
 fecha: 1972-10-12
 tipo_nexo: gestion_influencia
 monto_clp: 0
@@ -22,7 +22,7 @@ tags:
   - cia
 ---
 
-# TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-CIA-01
+# TRX-1972-10-12-Fondos-CIA-Gremios-ParoCamioneros-01
 
 ## Ficha de Arista Reificada (Transacción / Hecho Registrado)
 - **ID Transacción**: `= this.id_transaccion`

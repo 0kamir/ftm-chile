@@ -25,7 +25,7 @@ tags:
   - caso-pacogate
 ---
 
-# TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01
+# TRX-2016-11-10-Fondos-Direccion-Finanzas-Carabineros-01
 
 ## Ficha de Arista Reificada (Desfalco Consolidado en Intendencia de Carabineros)
 - **Fecha de Corte**: `= this.fecha`

@@ -237,7 +237,7 @@ Notas revisadas: 223 · Notas con hallazgos: 116 · Riesgo alto: 75
 
 ## [[Oscar Aitken Lavanchy]]
 - **medio** — Usa lenguaje que sugiere hechos probados sin mencionar que la situación procesal es formalizado, no condenado. Además, menciona documentos de investigación judicial sin aclarar si son evidencia probada.
-  - Frase: “habría actuado como operador jurídico y fiduciario en la constitución y administración de sociedades de papel *offshore* en Islas Vírgenes Británicas, Bahamas y Panamá (*Ashburton Company Ltd.*, *Althorp Investment Co.*, *Cornwall Overseas Corp.*), agrupadas bajo [[Riggs Bank y Sociedades Offshore Ashburton]], utilizadas para triangular caudales públicos provenientes de gastos reservados ([[TRX-2004-07-14-Desvio-Gastos-Reservados-Riggs-Pinochet-01]]) y ocultar rentas ante el [[Servicio Impuestos Internos]] ([[TRX-2005-08-10-Evasion-Tributaria-Cuentas-Riggs-SII-01]])”
+  - Frase: “habría actuado como operador jurídico y fiduciario en la constitución y administración de sociedades de papel *offshore* en Islas Vírgenes Británicas, Bahamas y Panamá (*Ashburton Company Ltd.*, *Althorp Investment Co.*, *Cornwall Overseas Corp.*), agrupadas bajo [[Riggs Bank y Sociedades Offshore Ashburton]], utilizadas para triangular caudales públicos provenientes de gastos reservados ([[TRX-2004-07-14-Gastos-Reservados-Riggs-01]]) y ocultar rentas ante el [[Servicio Impuestos Internos]] ([[TRX-2005-08-10-Querella-SII-Cuentas-Riggs-01]])”
   - Sugerencia: Revisar el uso de términos como 'habría actuado' y 'utilizadas para' para evitar sugerir certeza sobre hechos que no están probados. Se recomienda usar lenguaje más cauteloso como 'se le atribuye' o 'se le imputa'.
 
 ## [[Osvaldo Mario Luis Sacco Croxatto]]
@@ -359,7 +359,7 @@ Notas revisadas: 223 · Notas con hallazgos: 116 · Riesgo alto: 75
 
 ## [[Exportadora y de Gestion Caval Ltda]]
 - **medio** — Afirma como hecho probado un delito ('soborno', 'delitos tributarios') cuando la situación procesal NO es condenado o la causa no tiene sentencia.
-  - Frase: “operación por la que fue acusada de soborno al Director de Obras de la [[Municipalidad de Machali]] [[Jorge Silva Menares]] ([[TRX-2014-02-18-Soborno-Caval-Machali-01]]) y de delitos tributarios ([[TRX-2015-01-29-Facturas-Falsas-Caval-SII-01]]).”
+  - Frase: “operación por la que fue acusada de soborno al Director de Obras de la [[Municipalidad de Machali]] [[Jorge Silva Menares]] ([[TRX-2014-02-18-Pagos-DOM-Machali-Caval-01]]) y de delitos tributarios ([[TRX-2015-01-29-Facturas-Caval-SII-01]]).”
   - Sugerencia: Reemplazar 'acusada de soborno' y 'acusada de delitos tributarios' por 'acusada de haber cometido soborno' y 'acusada de haber cometido delitos tributarios' para evitar la impresión de que los delitos han sido probados.
 
 ## [[Factop SpA]]
@@ -493,7 +493,7 @@ Notas revisadas: 223 · Notas con hallazgos: 116 · Riesgo alto: 75
   - Frase: “Primera causa en la historia judicial chilena en que un parlamentario en ejercicio y una gran empresa fueron condenados en juicio oral por delitos de corrupción asociados a la tramitación de una ley de la República ("Ley de Pesca")”
   - Sugerencia: Verificar si la condena mencionada corresponde a los individuos y empresas citados, y si es posible añadir más contexto sobre el estado de la causa judicial.
 - **medio** — Aunque menciona una condena, no se especifica si la causa está cerrada y verificada, lo que podría generar ambigüedad sobre la firmeza de la condena.
-  - Frase: “El 3° Tribunal de Juicio Oral en lo Penal de Santiago ([[Sentencia-3TOP-Santiago-Corpesca-2021]]) condenó al exsenador de [[Union Democrata Independiente]], [[Jaime Orpis Bouchon]], a 5 años y un día de presidio efectivo por [[Cohecho]] y [[Fraude al Fisco]] en el [[Senado de la Republica de Chile]], tras acreditarse que recibió **$233.000.000 CLP** ([[TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01]]) desde la pesquera [[Corpesca SA]], autorizados por su gerente general [[Francisco Mujica Ortuzar]], para representar los intereses de la compañía en las votaciones legislativas.”
+  - Frase: “El 3° Tribunal de Juicio Oral en lo Penal de Santiago ([[Sentencia-3TOP-Santiago-Corpesca-2021]]) condenó al exsenador de [[Union Democrata Independiente]], [[Jaime Orpis Bouchon]], a 5 años y un día de presidio efectivo por [[Cohecho]] y [[Fraude al Fisco]] en el [[Senado de la Republica de Chile]], tras acreditarse que recibió **$233.000.000 CLP** ([[TRX-2012-07-11-Pagos-Corpesca-LeyDePesca-01]]) desde la pesquera [[Corpesca SA]], autorizados por su gerente general [[Francisco Mujica Ortuzar]], para representar los intereses de la compañía en las votaciones legislativas.”
   - Sugerencia: Añadir información sobre el estado final de la causa judicial y verificar si la condena mencionada es definitiva.
 
 ## [[Caso Exalmar y Fideicomiso Ciego]]
@@ -622,22 +622,22 @@ Notas revisadas: 223 · Notas con hallazgos: 116 · Riesgo alto: 75
   - Frase: “acordaron poner fin a una guerra comercial de precios y dividirse artificialmente el mercado del papel higiénico y servilletas en Chile”
   - Sugerencia: utilizar términos como 'presunto' o 'acusado de' para evitar dar por ciertos hechos que aún no han sido probados
 
-## [[TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01]]
+## [[TRX-2001-08-20-Contratos-MOP-GATE-01]]
 - **alto** — Afirma como hecho probado la existencia de un delito (desvío de caudales públicos y pago de sobresueldos) sin haberse establecido una condena o sentencia judicial.
   - Frase: “deliberadamente abultado en `$1.253.000.000 CLP` para desviar caudales públicos hacia el pago de sobresueldos de funcionarios y directivos ministeriales.”
   - Sugerencia: Reemplazar frases que afirman hechos como probados con términos que reflejen la naturaleza de la investigación, como 'se ha señalado' o 'se ha identificado una posible irregularidad'.
 
-## [[TRX-2007-11-01-Coordinacion-Cartel-Precios-Medicamentos-Farmacias-01]]
+## [[TRX-2007-11-01-Colusion-Precios-Medicamentos-Farmacias-01]]
 - **alto** — uso de lenguaje peyorativo ('cartel') sobre personas sin condena
   - Frase: “cartel operó contactando a los laboratorios farmacéuticos para que actuaran como supervisores del cumplimiento de las listas de precios infladas”
   - Sugerencia: reemplazar 'cartel' por términos neutrales como 'grupo' o 'organización'
 
-## [[TRX-2008-01-15-Pacto-Cuotas-Produccion-Cartel-Pollos-01]]
+## [[TRX-2008-01-15-Colusion-Cuotas-Produccion-Pollos-01]]
 - **alto** — uso de lenguaje peyorativo ('Cartel') que sugiere una organización criminal sin que exista una condena o sentencia que lo acredite
   - Frase: “Cartel-Pollos-01”
   - Sugerencia: evitar el uso de términos como 'cartel' que pueden ser interpretados como calificativos no judiciales y que no están respaldados por una condena judicial
 
-## [[TRX-2009-11-18-Facturas-Falsas-Bancard-SQM-Campana-Pinera-01]]
+## [[TRX-2009-11-18-Facturas-Bancard-SQM-2009-01]]
 - **medio** — Usa el término 'presumió' que indica una acusación sin prueba concluyente, lo cual es compatible con la presunción de inocencia, pero podría interpretarse como una afirmación de hecho probado si no se contextualiza adecuadamente.
   - Frase: “la Fiscalía presumió ideológicamente falsas por no existir servicios que las justificaran”
   - Sugerencia: Aclarar que la Fiscalía solo ha formulado una presunción, no una prueba concluyente de falsedad de las facturas.
@@ -655,7 +655,7 @@ Notas revisadas: 223 · Notas con hallazgos: 116 · Riesgo alto: 75
   - Frase: “la empresa habría canalizado pagos por aproximadamente $730.000.000 CLP entre 2009 y 2015 a personas de su entorno mediante boletas y facturas”
   - Sugerencia: Evitar mencionar montos específicos sin aclarar que se trata de hipótesis acusatorias no acreditadas.
 
-## [[TRX-2010-11-15-Soborno-Licitacion-Basura-Maipu-01]]
+## [[TRX-2010-11-15-Pagos-KDM-Licitacion-Basura-Maipu-01]]
 - **alto** — Afirma como hecho probado un delito ('acreditados') cuando la situación procesal no es condenado o la causa no tiene sentencia.
   - Frase: “el tribunal dio por acreditados pagos de KDM por $186,5 millones”
   - Sugerencia: Evitar afirmar hechos como probados sin que exista una sentencia condenatoria firme.
@@ -673,22 +673,22 @@ Notas revisadas: 223 · Notas con hallazgos: 116 · Riesgo alto: 75
   - Frase: “la propia Fiscalía reconoció no haber acreditado que los pagos fueran a cambio de favores”
   - Sugerencia: revisar el uso de la frase para evitar interpretaciones que puedan implicar una falta de rigor en la acreditación de hechos
 
-## [[TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01]]
+## [[TRX-2012-07-11-Pagos-Corpesca-LeyDePesca-01]]
 - **alto** — Afirma como hecho probado un delito ('acreditado en juicio oral') cuando la situación procesal no es condenado o la causa no tiene sentencia.
   - Frase: “Pagos ilícitos reiterados por un total acreditado en juicio oral de $233.000.000 CLP”
   - Sugerencia: Evitar afirmar como probado un delito sin que exista una sentencia condenatoria firme.
 
-## [[TRX-2013-07-15-Boletas-Falsas-Penta-UDI-01]]
+## [[TRX-2013-07-15-Boletas-Penta-UDI-01]]
 - **medio** — Atribuye a terceros (candidatos y dirigentes de la UDI) un hecho que no está probado ni vinculado directamente a la transacción auditada, lo que puede generar una presunción de culpabilidad injusta.
   - Frase: “financiar fuera del marco legal campañas electorales de candidatos y dirigentes de la [[Union Democrata Independiente]] como [[Pablo Longueira Montes]]”
   - Sugerencia: Revisar y reescribir la frase para evitar atribuir hechos no probados a terceros, manteniendo el enfoque en la transacción auditada.
 
-## [[TRX-2013-09-20-Boletas-Falsas-Penta-Novoa-01]]
+## [[TRX-2013-09-20-Boletas-Penta-Novoa-01]]
 - **alto** — Afirma como hecho probado un delito (condenado) cuando la situación procesal no es condenado o la causa no tiene sentencia.
   - Frase: “el primer político condenado penalmente en el [[Caso Penta]]”
   - Sugerencia: Evitar afirmar con certeza la condena de una persona si no se ha declarado explícitamente en los metadatos.
 
-## [[TRX-2014-02-18-Soborno-Caval-Machali-01]]
+## [[TRX-2014-02-18-Pagos-DOM-Machali-Caval-01]]
 - **alto** — Afirma como hecho probado un delito (condenado) cuando la situación procesal no es condenado o la causa no tiene sentencia.
   - Frase: “Silva fue condenado en procedimiento abreviado (enero de 2018) a 818 días con remisión condicional por cohecho reiterado.”
   - Sugerencia: Revisar si la condena fue firme y si se menciona correctamente en los metadatos.
@@ -701,7 +701,7 @@ Notas revisadas: 223 · Notas con hallazgos: 116 · Riesgo alto: 75
   - Frase: “defraudación patrimonial por un monto consolidado de $6.100.000.000 CLP”
   - Sugerencia: Revisar y reemplazar por un lenguaje que no afirme hechos como probados, por ejemplo: 'se le imputa una defraudación patrimonial por un monto consolidado de $6.100.000.000 CLP'
 
-## [[TRX-2015-01-29-Facturas-Falsas-Caval-SII-01]]
+## [[TRX-2015-01-29-Facturas-Caval-SII-01]]
 - **alto** — afirma como hecho probado un delito (condenó) cuando la situación procesal no es condenado o la causa no tiene sentencia
   - Frase: “el TOP de Rancagua condenó a [[Natalia Compagnon Soto]] por permitir que la contabilidad social incorporara facturas ideológicamente falsas por asesorías inexistentes en los años tributarios 2013, 2014 y 2015”
   - Sugerencia: revisar si la condena está acreditada como firme en la causa, y en caso contrario, reemplazar por lenguaje no concluyente
@@ -709,12 +709,12 @@ Notas revisadas: 223 · Notas con hallazgos: 116 · Riesgo alto: 75
   - Frase: “operación de compraventa especulativa de los predios de Machalí que generó una utilidad bruta de $2.500.000.000 CLP para [[Exportadora y de Gestion Caval Ltda]]”
   - Sugerencia: revisar si la utilidad bruta está acreditada como hecho probado en la causa, y en caso contrario, reemplazar por lenguaje no concluyente
 
-## [[TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01]]
+## [[TRX-2015-08-14-GastosReservados-Ejercito-UAF-01]]
 - **medio** — Usa lenguaje que sugiere responsabilidad directa sin haberse establecido una condena o sentencia
   - Frase: “atribuidas por la investigación a [[Juan Miguel Fuente-Alba Poblete]]”
   - Sugerencia: Revisar el uso de términos que puedan interpretarse como afirmaciones de hecho probado, y reemplazarlos con lenguaje más cauteloso, como 'presuntamente atribuidas' o 'asociadas según la investigación'.
 
-## [[TRX-2015-10-29-Pago-Multas-Historicas-Cartel-Pollos-01]]
+## [[TRX-2015-10-29-Pago-Multas-Colusion-Pollos-01]]
 - **alto** — uso de lenguaje peyorativo ('cartel') que no es judicial y sugiere criminalidad sin condena firme
   - Frase: “Cartel de los Pollos”
   - Sugerencia: reemplazar por términos neutrales y no calificativos, como 'grupo empresarial' o 'organización'
@@ -727,7 +727,7 @@ Notas revisadas: 223 · Notas con hallazgos: 116 · Riesgo alto: 75
   - Frase: “forzó la disolución de la fundación y la devolución al Fisco de 108 inmuebles fiscales y municipales más sus activos bancarios líquidos”
   - Sugerencia: especificar si la devolución fue resultado de una condena o acuerdo judicial
 
-## [[TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01]]
+## [[TRX-2016-11-10-Fondos-Direccion-Finanzas-Carabineros-01]]
 - **medio** — Usa un veredicto que no está firme como si fuera un hecho probado
   - Frase: “descartó la asociación ilícita”
   - Sugerencia: Se debe aclarar que el veredicto no está firme y que la asociación ilícita sigue siendo un cargo pendiente de resolución judicial
@@ -735,12 +735,12 @@ Notas revisadas: 223 · Notas con hallazgos: 116 · Riesgo alto: 75
   - Frase: “lavado de activos”
   - Sugerencia: Se debe usar lenguaje que indique que es un cargo imputado, no un hecho probado
 
-## [[TRX-2017-03-06-Lavado-Activos-Carabineros-UAF-01]]
+## [[TRX-2017-03-06-Reportes-UAF-Carabineros-01]]
 - **medio** — Usa un término que sugiere una decisión judicial definitiva, cuando el veredicto no está firme.
   - Frase: “descartó la asociación ilícita”
   - Sugerencia: Revisar el uso de términos que puedan interpretarse como decisiones definitivas, cuando el proceso aún no ha concluido.
 
-## [[TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01]]
+## [[TRX-2017-09-23-Detenciones-OperacionHuracan-01]]
 - **alto** — Afirma como hecho probado un delito ('acreditó') cuando la situación procesal no es condenado o la causa no tiene sentencia.
   - Frase: “el Tribunal de Juicio Oral en lo Penal de Temuco ([[Sentencia-TOP-Temuco-OperacionHuracan-2026]]) acreditó que los supuestos chats fueron redactados e implantados manualmente en los teléfonos por [[Leonardo Osses Sandoval]] y sus subalternos tras las incautaciones”
   - Sugerencia: Evitar afirmar hechos como probados sin que exista una sentencia condenatoria firme.
@@ -750,7 +750,7 @@ Notas revisadas: 223 · Notas con hallazgos: 116 · Riesgo alto: 75
   - Frase: “la Fiscalía Regional de La Araucanía remitió al Juzgado de Garantía de Temuco los resultados concluyentes del informe pericial”
   - Sugerencia: Revisar el uso de términos que sugieran certeza absoluta en contextos donde aún no se ha dictado una sentencia.
 
-## [[TRX-2019-05-14-Soborno-Luminarias-Chillan-01]]
+## [[TRX-2019-05-14-Licitacion-Luminarias-Chillan-01]]
 - **medio** — Usa lenguaje que sugiere hechos probados sin que exista una sentencia conocida al 2026-10-19
   - Frase: “según la Fiscalía, se habría obtenido mediante el pago de sobornos”
   - Sugerencia: Revisar el uso de términos como 'habría obtenido' para evitar sugerir certeza sobre hechos que no han sido probados judicialmente
@@ -801,7 +801,7 @@ Notas revisadas: 223 · Notas con hallazgos: 116 · Riesgo alto: 75
   - Frase: “presuntamente destinado, según la Fiscalía, al pago de sobornos a funcionarios públicos del [[Servicio Impuestos Internos]] y la CMF en beneficio de [[Factop SpA]]”
   - Sugerencia: Revisar el uso de términos que puedan interpretarse como afirmaciones de hechos probados, incluso si están precedidos por 'presuntamente'.
 
-## [[TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01]]
+## [[TRX-2023-12-14-Perjuicio-Fiscal-Operacion-Tributos-01]]
 - **alto** — Exposición de un monto elevado de perjuicio fiscal sin mencionar que se trata de una estimación o hipótesis acusatoria, lo que puede dar una impresión de certeza cuando no existe sentencia condenatoria.
   - Frase: “perjuicio fiscal récord consolidado de $240.000.000.000 CLP cuantificado por el SII”
   - Sugerencia: Aclarar que el monto es una estimación del SII y no un hecho probado.

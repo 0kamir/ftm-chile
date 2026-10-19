@@ -6,7 +6,7 @@ fecha_emision: 2011-11-30
 organismo_emisor: "[[Fiscalia Nacional Economica]]"
 fuente_osint: "Fiscalía Nacional Económica (fne.gob.cl)"
 causa_vinculada: "[[Caso Colusion de los Pollos]]"
-nexo_respaldado: "[[TRX-2008-01-15-Pacto-Cuotas-Produccion-Cartel-Pollos-01]]"
+nexo_respaldado: "[[TRX-2008-01-15-Colusion-Cuotas-Produccion-Pollos-01]]"
 estado_verificacion: verificado
 fuentes:
   - url: "https://www.fne.gob.cl/fiscalia-nacional-economica-presenta-requerimiento-por-colusion-en-la-produccion-y-comercializacion-de-carne-de-pollo-en-el-pais/"

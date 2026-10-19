@@ -42,8 +42,8 @@ tags:
 | **7** | [[Renovacion Nacional]] | `partido_politico` | **`0.6036`** | `0.3409` | `10` |
 | **8** | [[Sergio Munoz Gajardo]] | `persona` | **`0.5998`** | `0.3513` | `5` |
 | **9** | [[Augusto Pinochet Ugarte]] | `persona` | **`0.5935`** | `0.3690` | `8` |
-| **10** | [[TRX-2003-11-05-Operacion-Politico-Judicial-Spiniak-01]] | `nexo_transaccion` | **`0.5924`** | `0.3721` | `5` |
-| **11** | [[TRX-2005-08-10-Evasion-Tributaria-Cuentas-Riggs-SII-01]] | `nexo_transaccion` | **`0.5841`** | `0.3959` | `5` |
+| **10** | [[TRX-2003-11-05-Arista-Politica-Spiniak-01]] | `nexo_transaccion` | **`0.5924`** | `0.3721` | `5` |
+| **11** | [[TRX-2005-08-10-Querella-SII-Cuentas-Riggs-01]] | `nexo_transaccion` | **`0.5841`** | `0.3959` | `5` |
 | **12** | [[Factop SpA]] | `entidad_privada` | **`0.5795`** | `0.4094` | `6` |
 | **13** | [[Luis Hermosilla Osorio]] | `persona` | **`0.5795`** | `0.4094` | `6` |
 | **14** | [[Lucia Hiriart Rodriguez]] | `persona` | **`0.5792`** | `0.4103` | `6` |

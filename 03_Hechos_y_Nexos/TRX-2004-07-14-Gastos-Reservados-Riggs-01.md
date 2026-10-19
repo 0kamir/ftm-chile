@@ -1,6 +1,6 @@
 ---
 tipo_nodo: nexo_transaccion
-id_transaccion: "TRX-2004-07-14-Desvio-Gastos-Reservados-Riggs-Pinochet-01"
+id_transaccion: "TRX-2004-07-14-Gastos-Reservados-Riggs-01"
 fecha: 2004-07-14
 tipo_nexo: desviacion_fondos
 monto_clp: 15800000000
@@ -20,7 +20,7 @@ tags:
   - offshore
 ---
 
-# TRX-2004-07-14-Desvio-Gastos-Reservados-Riggs-Pinochet-01
+# TRX-2004-07-14-Gastos-Reservados-Riggs-01
 
 ## Ficha de Arista Reificada (Transacción / Hecho Registrado)
 - **ID Transacción**: `= this.id_transaccion`

@@ -6,7 +6,7 @@ fecha_emision: 2023-12-22
 organismo_emisor: "[[Corte Suprema de Chile]]"
 fuente_osint: "Poder Judicial de Chile (pjud.cl) / 1° Juzgado de Garantía de Santiago"
 causa_vinculada: "[[Caso Megafraude Tributario Operacion Tributos]]"
-nexo_respaldado: "[[TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01]]"
+nexo_respaldado: "[[TRX-2023-12-14-Perjuicio-Fiscal-Operacion-Tributos-01]]"
 estado_verificacion: verificado
 fuentes:
   - url: "https://www.cnnchile.com/pais/nombres-55-empresarios-detenidos-fraude-fisco-grande-historia_20231215/"

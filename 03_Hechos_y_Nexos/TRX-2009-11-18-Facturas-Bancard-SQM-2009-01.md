@@ -1,6 +1,6 @@
 ---
 tipo_nodo: nexo_transaccion
-id_transaccion: "TRX-2009-11-18-Facturas-Falsas-Bancard-SQM-Campana-Pinera-01"
+id_transaccion: "TRX-2009-11-18-Facturas-Bancard-SQM-2009-01"
 fecha: 2009-11-18
 tipo_nexo: factura_falsa
 monto_clp: 340000000
@@ -36,7 +36,7 @@ tags:
   - bancard
 ---
 
-# TRX-2009-11-18-Facturas-Falsas-Bancard-SQM-Campana-Pinera-01
+# TRX-2009-11-18-Facturas-Bancard-SQM-2009-01
 
 ## Ficha de Arista Reificada (Transacción / Hecho Registrado)
 - **ID Transacción**: `= this.id_transaccion`

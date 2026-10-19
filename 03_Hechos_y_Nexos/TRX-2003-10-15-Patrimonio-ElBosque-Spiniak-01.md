@@ -1,6 +1,6 @@
 ---
 tipo_nodo: nexo_transaccion
-id_transaccion: "TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01"
+id_transaccion: "TRX-2003-10-15-Patrimonio-ElBosque-Spiniak-01"
 fecha: 2003-10-15
 tipo_nexo: desviacion_fondos
 monto_clp: 0
@@ -21,7 +21,7 @@ tags:
   - evasion-tributaria
 ---
 
-# TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01
+# TRX-2003-10-15-Patrimonio-ElBosque-Spiniak-01
 
 ## Ficha de Arista Reificada (Transacción / Hecho Registrado)
 - **ID Transacción**: `= this.id_transaccion`

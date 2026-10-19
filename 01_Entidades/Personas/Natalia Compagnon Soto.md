@@ -23,7 +23,7 @@ tags:
 - **Medida Cautelar / Condena Vigente**: `= this.medida_cautelar`
 
 ## Síntesis
-Socia cofundadora del 50% de [[Exportadora y de Gestion Caval Ltda]] junto a [[Mauricio Valero Illanes]]. Fue condenada por el Tribunal de Juicio Oral en lo Penal de Rancagua en el [[Caso Caval]] ([[Sentencia-TOP-Rancagua-Caval-2018]]) como autora de delitos tributarios previstos en el artículo 97 N° 4 del Código Tributario por declaraciones maliciosamente falsas y contabilización de facturas ideológicamente falsas ante el [[Servicio Impuestos Internos]] ([[TRX-2015-01-29-Facturas-Falsas-Caval-SII-01]]).
+Socia cofundadora del 50% de [[Exportadora y de Gestion Caval Ltda]] junto a [[Mauricio Valero Illanes]]. Fue condenada por el Tribunal de Juicio Oral en lo Penal de Rancagua en el [[Caso Caval]] ([[Sentencia-TOP-Rancagua-Caval-2018]]) como autora de delitos tributarios previstos en el artículo 97 N° 4 del Código Tributario por declaraciones maliciosamente falsas y contabilización de facturas ideológicamente falsas ante el [[Servicio Impuestos Internos]] ([[TRX-2015-01-29-Facturas-Caval-SII-01]]).
 
 ## Montos Operados como Firmante
 ```dataviewjs

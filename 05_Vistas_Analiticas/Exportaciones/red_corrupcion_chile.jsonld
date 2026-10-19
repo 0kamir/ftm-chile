@@ -971,9 +971,9 @@
       "schema:name": "Caso Vitacura"
     },
     {
-      "@id": "urn:cl-osint:node:TRX-1971-09-09-Financiamiento-Encubierto-CIA-ElMercurio-Edwards-01",
+      "@id": "urn:cl-osint:node:TRX-1971-09-09-Fondos-CIA-ElMercurio-01",
       "@type": "osint:nexo_transaccion",
-      "schema:name": "TRX-1971-09-09-Financiamiento-Encubierto-CIA-ElMercurio-Edwards-01",
+      "schema:name": "TRX-1971-09-09-Fondos-CIA-ElMercurio-01",
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
@@ -996,9 +996,9 @@
       }
     },
     {
-      "@id": "urn:cl-osint:node:TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-CIA-01",
+      "@id": "urn:cl-osint:node:TRX-1972-10-12-Fondos-CIA-Gremios-ParoCamioneros-01",
       "@type": "osint:nexo_transaccion",
-      "schema:name": "TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-CIA-01",
+      "schema:name": "TRX-1972-10-12-Fondos-CIA-Gremios-ParoCamioneros-01",
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
@@ -1096,9 +1096,9 @@
       }
     },
     {
-      "@id": "urn:cl-osint:node:TRX-1991-01-31-Vaciamiento-Patrimonial-Evasion-ColoniaDignidad-01",
+      "@id": "urn:cl-osint:node:TRX-1991-01-31-Movimientos-Patrimoniales-ColoniaDignidad-01",
       "@type": "osint:nexo_transaccion",
-      "schema:name": "TRX-1991-01-31-Vaciamiento-Patrimonial-Evasion-ColoniaDignidad-01",
+      "schema:name": "TRX-1991-01-31-Movimientos-Patrimoniales-ColoniaDignidad-01",
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
@@ -1121,9 +1121,9 @@
       }
     },
     {
-      "@id": "urn:cl-osint:node:TRX-1996-06-12-Blindaje-Politico-Judicial-ColoniaDignidad-01",
+      "@id": "urn:cl-osint:node:TRX-1996-06-12-Defensa-Politica-ColoniaDignidad-01",
       "@type": "osint:nexo_transaccion",
-      "schema:name": "TRX-1996-06-12-Blindaje-Politico-Judicial-ColoniaDignidad-01",
+      "schema:name": "TRX-1996-06-12-Defensa-Politica-ColoniaDignidad-01",
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
@@ -1171,9 +1171,9 @@
       }
     },
     {
-      "@id": "urn:cl-osint:node:TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01",
+      "@id": "urn:cl-osint:node:TRX-2001-08-20-Contratos-MOP-GATE-01",
       "@type": "osint:nexo_transaccion",
-      "schema:name": "TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01",
+      "schema:name": "TRX-2001-08-20-Contratos-MOP-GATE-01",
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
@@ -1196,9 +1196,9 @@
       }
     },
     {
-      "@id": "urn:cl-osint:node:TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01",
+      "@id": "urn:cl-osint:node:TRX-2003-10-15-Patrimonio-ElBosque-Spiniak-01",
       "@type": "osint:nexo_transaccion",
-      "schema:name": "TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01",
+      "schema:name": "TRX-2003-10-15-Patrimonio-ElBosque-Spiniak-01",
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
@@ -1221,9 +1221,9 @@
       }
     },
     {
-      "@id": "urn:cl-osint:node:TRX-2003-11-05-Operacion-Politico-Judicial-Spiniak-01",
+      "@id": "urn:cl-osint:node:TRX-2003-11-05-Arista-Politica-Spiniak-01",
       "@type": "osint:nexo_transaccion",
-      "schema:name": "TRX-2003-11-05-Operacion-Politico-Judicial-Spiniak-01",
+      "schema:name": "TRX-2003-11-05-Arista-Politica-Spiniak-01",
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
@@ -1246,9 +1246,9 @@
       }
     },
     {
-      "@id": "urn:cl-osint:node:TRX-2004-07-14-Desvio-Gastos-Reservados-Riggs-Pinochet-01",
+      "@id": "urn:cl-osint:node:TRX-2004-07-14-Gastos-Reservados-Riggs-01",
       "@type": "osint:nexo_transaccion",
-      "schema:name": "TRX-2004-07-14-Desvio-Gastos-Reservados-Riggs-Pinochet-01",
+      "schema:name": "TRX-2004-07-14-Gastos-Reservados-Riggs-01",
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
@@ -1271,9 +1271,9 @@
       }
     },
     {
-      "@id": "urn:cl-osint:node:TRX-2005-06-14-Arsenal-Clandestino-AsociacionIlicita-ColoniaDignidad-01",
+      "@id": "urn:cl-osint:node:TRX-2005-06-14-Hallazgo-Arsenal-ColoniaDignidad-01",
       "@type": "osint:nexo_transaccion",
-      "schema:name": "TRX-2005-06-14-Arsenal-Clandestino-AsociacionIlicita-ColoniaDignidad-01",
+      "schema:name": "TRX-2005-06-14-Hallazgo-Arsenal-ColoniaDignidad-01",
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
@@ -1296,9 +1296,9 @@
       }
     },
     {
-      "@id": "urn:cl-osint:node:TRX-2005-08-10-Evasion-Tributaria-Cuentas-Riggs-SII-01",
+      "@id": "urn:cl-osint:node:TRX-2005-08-10-Querella-SII-Cuentas-Riggs-01",
       "@type": "osint:nexo_transaccion",
-      "schema:name": "TRX-2005-08-10-Evasion-Tributaria-Cuentas-Riggs-SII-01",
+      "schema:name": "TRX-2005-08-10-Querella-SII-Cuentas-Riggs-01",
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
@@ -1371,9 +1371,9 @@
       }
     },
     {
-      "@id": "urn:cl-osint:node:TRX-2007-11-01-Coordinacion-Cartel-Precios-Medicamentos-Farmacias-01",
+      "@id": "urn:cl-osint:node:TRX-2007-11-01-Colusion-Precios-Medicamentos-Farmacias-01",
       "@type": "osint:nexo_transaccion",
-      "schema:name": "TRX-2007-11-01-Coordinacion-Cartel-Precios-Medicamentos-Farmacias-01",
+      "schema:name": "TRX-2007-11-01-Colusion-Precios-Medicamentos-Farmacias-01",
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
@@ -1396,9 +1396,9 @@
       }
     },
     {
-      "@id": "urn:cl-osint:node:TRX-2008-01-15-Pacto-Cuotas-Produccion-Cartel-Pollos-01",
+      "@id": "urn:cl-osint:node:TRX-2008-01-15-Colusion-Cuotas-Produccion-Pollos-01",
       "@type": "osint:nexo_transaccion",
-      "schema:name": "TRX-2008-01-15-Pacto-Cuotas-Produccion-Cartel-Pollos-01",
+      "schema:name": "TRX-2008-01-15-Colusion-Cuotas-Produccion-Pollos-01",
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
@@ -1421,9 +1421,9 @@
       }
     },
     {
-      "@id": "urn:cl-osint:node:TRX-2009-11-18-Facturas-Falsas-Bancard-SQM-Campana-Pinera-01",
+      "@id": "urn:cl-osint:node:TRX-2009-11-18-Facturas-Bancard-SQM-2009-01",
       "@type": "osint:nexo_transaccion",
-      "schema:name": "TRX-2009-11-18-Facturas-Falsas-Bancard-SQM-Campana-Pinera-01",
+      "schema:name": "TRX-2009-11-18-Facturas-Bancard-SQM-2009-01",
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
@@ -1496,9 +1496,9 @@
       }
     },
     {
-      "@id": "urn:cl-osint:node:TRX-2010-11-15-Soborno-Licitacion-Basura-Maipu-01",
+      "@id": "urn:cl-osint:node:TRX-2010-11-15-Pagos-KDM-Licitacion-Basura-Maipu-01",
       "@type": "osint:nexo_transaccion",
-      "schema:name": "TRX-2010-11-15-Soborno-Licitacion-Basura-Maipu-01",
+      "schema:name": "TRX-2010-11-15-Pagos-KDM-Licitacion-Basura-Maipu-01",
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
@@ -1596,9 +1596,9 @@
       }
     },
     {
-      "@id": "urn:cl-osint:node:TRX-2012-03-22-Fraude-Residuos-CerroNavia-01",
+      "@id": "urn:cl-osint:node:TRX-2012-03-22-Contratos-Residuos-CerroNavia-01",
       "@type": "osint:nexo_transaccion",
-      "schema:name": "TRX-2012-03-22-Fraude-Residuos-CerroNavia-01",
+      "schema:name": "TRX-2012-03-22-Contratos-Residuos-CerroNavia-01",
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
@@ -1621,9 +1621,9 @@
       }
     },
     {
-      "@id": "urn:cl-osint:node:TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01",
+      "@id": "urn:cl-osint:node:TRX-2012-07-11-Pagos-Corpesca-LeyDePesca-01",
       "@type": "osint:nexo_transaccion",
-      "schema:name": "TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01",
+      "schema:name": "TRX-2012-07-11-Pagos-Corpesca-LeyDePesca-01",
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
@@ -1671,9 +1671,9 @@
       }
     },
     {
-      "@id": "urn:cl-osint:node:TRX-2013-07-15-Boletas-Falsas-Penta-UDI-01",
+      "@id": "urn:cl-osint:node:TRX-2013-07-15-Boletas-Penta-UDI-01",
       "@type": "osint:nexo_transaccion",
-      "schema:name": "TRX-2013-07-15-Boletas-Falsas-Penta-UDI-01",
+      "schema:name": "TRX-2013-07-15-Boletas-Penta-UDI-01",
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
@@ -1696,9 +1696,9 @@
       }
     },
     {
-      "@id": "urn:cl-osint:node:TRX-2013-09-20-Boletas-Falsas-Penta-Novoa-01",
+      "@id": "urn:cl-osint:node:TRX-2013-09-20-Boletas-Penta-Novoa-01",
       "@type": "osint:nexo_transaccion",
-      "schema:name": "TRX-2013-09-20-Boletas-Falsas-Penta-Novoa-01",
+      "schema:name": "TRX-2013-09-20-Boletas-Penta-Novoa-01",
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
@@ -1721,9 +1721,9 @@
       }
     },
     {
-      "@id": "urn:cl-osint:node:TRX-2014-02-18-Soborno-Caval-Machali-01",
+      "@id": "urn:cl-osint:node:TRX-2014-02-18-Pagos-DOM-Machali-Caval-01",
       "@type": "osint:nexo_transaccion",
-      "schema:name": "TRX-2014-02-18-Soborno-Caval-Machali-01",
+      "schema:name": "TRX-2014-02-18-Pagos-DOM-Machali-Caval-01",
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
@@ -1771,9 +1771,9 @@
       }
     },
     {
-      "@id": "urn:cl-osint:node:TRX-2015-01-29-Facturas-Falsas-Caval-SII-01",
+      "@id": "urn:cl-osint:node:TRX-2015-01-29-Facturas-Caval-SII-01",
       "@type": "osint:nexo_transaccion",
-      "schema:name": "TRX-2015-01-29-Facturas-Falsas-Caval-SII-01",
+      "schema:name": "TRX-2015-01-29-Facturas-Caval-SII-01",
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
@@ -1796,9 +1796,9 @@
       }
     },
     {
-      "@id": "urn:cl-osint:node:TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01",
+      "@id": "urn:cl-osint:node:TRX-2015-08-14-GastosReservados-Ejercito-UAF-01",
       "@type": "osint:nexo_transaccion",
-      "schema:name": "TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01",
+      "schema:name": "TRX-2015-08-14-GastosReservados-Ejercito-UAF-01",
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
@@ -1821,9 +1821,9 @@
       }
     },
     {
-      "@id": "urn:cl-osint:node:TRX-2015-10-29-Pago-Multas-Historicas-Cartel-Pollos-01",
+      "@id": "urn:cl-osint:node:TRX-2015-10-29-Pago-Multas-Colusion-Pollos-01",
       "@type": "osint:nexo_transaccion",
-      "schema:name": "TRX-2015-10-29-Pago-Multas-Historicas-Cartel-Pollos-01",
+      "schema:name": "TRX-2015-10-29-Pago-Multas-Colusion-Pollos-01",
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
@@ -1946,9 +1946,9 @@
       }
     },
     {
-      "@id": "urn:cl-osint:node:TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01",
+      "@id": "urn:cl-osint:node:TRX-2016-11-10-Fondos-Direccion-Finanzas-Carabineros-01",
       "@type": "osint:nexo_transaccion",
-      "schema:name": "TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01",
+      "schema:name": "TRX-2016-11-10-Fondos-Direccion-Finanzas-Carabineros-01",
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
@@ -1996,9 +1996,9 @@
       }
     },
     {
-      "@id": "urn:cl-osint:node:TRX-2017-03-06-Lavado-Activos-Carabineros-UAF-01",
+      "@id": "urn:cl-osint:node:TRX-2017-03-06-Reportes-UAF-Carabineros-01",
       "@type": "osint:nexo_transaccion",
-      "schema:name": "TRX-2017-03-06-Lavado-Activos-Carabineros-UAF-01",
+      "schema:name": "TRX-2017-03-06-Reportes-UAF-Carabineros-01",
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
@@ -2021,9 +2021,9 @@
       }
     },
     {
-      "@id": "urn:cl-osint:node:TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01",
+      "@id": "urn:cl-osint:node:TRX-2017-09-23-Detenciones-OperacionHuracan-01",
       "@type": "osint:nexo_transaccion",
-      "schema:name": "TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01",
+      "schema:name": "TRX-2017-09-23-Detenciones-OperacionHuracan-01",
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
@@ -2096,9 +2096,9 @@
       }
     },
     {
-      "@id": "urn:cl-osint:node:TRX-2019-05-14-Soborno-Luminarias-Chillan-01",
+      "@id": "urn:cl-osint:node:TRX-2019-05-14-Licitacion-Luminarias-Chillan-01",
       "@type": "osint:nexo_transaccion",
-      "schema:name": "TRX-2019-05-14-Soborno-Luminarias-Chillan-01",
+      "schema:name": "TRX-2019-05-14-Licitacion-Luminarias-Chillan-01",
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
@@ -2546,9 +2546,9 @@
       }
     },
     {
-      "@id": "urn:cl-osint:node:TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01",
+      "@id": "urn:cl-osint:node:TRX-2023-12-14-Perjuicio-Fiscal-Operacion-Tributos-01",
       "@type": "osint:nexo_transaccion",
-      "schema:name": "TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01",
+      "schema:name": "TRX-2023-12-14-Perjuicio-Fiscal-Operacion-Tributos-01",
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",

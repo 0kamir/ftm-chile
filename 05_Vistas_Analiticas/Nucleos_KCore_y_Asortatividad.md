@@ -82,7 +82,7 @@ Actores institucionales, societarios y personales con grado $k_i \ge 2$ ordenado
 | **16** | [[Carlos Contreras Gutierrez]] | `persona` | **`3`** | **`Capa #12`** | `6` | `0.1667` |
 | **17** | [[Seremi MINVU Antofagasta]] | `entidad_publica` | **`3`** | **`Capa #12`** | `5` | `0.2000` |
 | **18** | [[TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01]] | `nexo_transaccion` | **`3`** | **`Capa #12`** | `5` | `0.2267` |
-| **19** | [[TRX-2005-08-10-Evasion-Tributaria-Cuentas-Riggs-SII-01]] | `nexo_transaccion` | **`3`** | **`Capa #12`** | `5` | `0.2000` |
+| **19** | [[TRX-2005-08-10-Querella-SII-Cuentas-Riggs-01]] | `nexo_transaccion` | **`3`** | **`Capa #12`** | `5` | `0.2000` |
 | **20** | [[TRX-2023-06-22-Reunion-Audios-01]] | `nexo_transaccion` | **`3`** | **`Capa #12`** | `5` | `0.2289` |
 | **21** | [[TRX-2023-08-25-Reporte-ROS-Factop-UAF-01]] | `nexo_transaccion` | **`3`** | **`Capa #12`** | `5` | `0.2690` |
 | **22** | [[Servicio Impuestos Internos]] | `entidad_publica` | **`3`** | **`Capa #11`** | `8` | `0.1250` |

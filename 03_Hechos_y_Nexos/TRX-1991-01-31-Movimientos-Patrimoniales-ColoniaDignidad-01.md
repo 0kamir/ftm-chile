@@ -1,6 +1,6 @@
 ---
 tipo_nodo: nexo_transaccion
-id_transaccion: "TRX-1991-01-31-Vaciamiento-Patrimonial-Evasion-ColoniaDignidad-01"
+id_transaccion: "TRX-1991-01-31-Movimientos-Patrimoniales-ColoniaDignidad-01"
 fecha: 1991-01-31
 tipo_nexo: desviacion_fondos
 monto_clp: 0
@@ -21,7 +21,7 @@ tags:
   - evasion-tributaria
 ---
 
-# TRX-1991-01-31-Vaciamiento-Patrimonial-Evasion-ColoniaDignidad-01
+# TRX-1991-01-31-Movimientos-Patrimoniales-ColoniaDignidad-01
 
 ## Ficha de Arista Reificada (Transacción / Hecho Registrado)
 - **ID Transacción**: `= this.id_transaccion`

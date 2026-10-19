@@ -1,6 +1,6 @@
 ---
 tipo_nodo: nexo_transaccion
-id_transaccion: "TRX-2005-08-10-Evasion-Tributaria-Cuentas-Riggs-SII-01"
+id_transaccion: "TRX-2005-08-10-Querella-SII-Cuentas-Riggs-01"
 fecha: 2005-08-10
 tipo_nexo: desviacion_fondos
 monto_clp: 2450000000
@@ -19,7 +19,7 @@ tags:
   - evasion-tributaria
 ---
 
-# TRX-2005-08-10-Evasion-Tributaria-Cuentas-Riggs-SII-01
+# TRX-2005-08-10-Querella-SII-Cuentas-Riggs-01
 
 ## Ficha de Arista Reificada (Transacción / Hecho Registrado)
 - **ID Transacción**: `= this.id_transaccion`

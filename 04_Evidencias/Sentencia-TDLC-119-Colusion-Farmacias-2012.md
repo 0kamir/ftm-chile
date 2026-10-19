@@ -6,7 +6,7 @@ fecha_emision: 2012-01-31
 organismo_emisor: "[[Corte Suprema de Chile]]"
 fuente_osint: "Tribunal de Defensa de la Libre Competencia (tdlc.cl) / Fiscalía Nacional Económica"
 causa_vinculada: "[[Caso Colusion de las Farmacias]]"
-nexo_respaldado: "[[TRX-2007-11-01-Coordinacion-Cartel-Precios-Medicamentos-Farmacias-01]]"
+nexo_respaldado: "[[TRX-2007-11-01-Colusion-Precios-Medicamentos-Farmacias-01]]"
 estado_verificacion: verificado
 fuentes:
   - url: "https://centrocompetencia.com/wp-content/uploads/2022/03/Sentencia_119_Corte_Suprema.pdf"

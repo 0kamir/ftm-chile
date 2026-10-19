@@ -6,7 +6,7 @@ fecha_emision: 2026-04-02
 organismo_emisor: "[[Corte Suprema de Chile]]"
 fuente_osint: "Poder Judicial de Chile (pjud.cl) / Fiscalía de Chile / Tribunal de Juicio Oral en lo Penal de Temuco"
 causa_vinculada: "[[Caso Operacion Huracan]]"
-nexo_respaldado: "[[TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01]]"
+nexo_respaldado: "[[TRX-2017-09-23-Detenciones-OperacionHuracan-01]]"
 estado_verificacion: desactualizado
 fuentes:
   - url: "https://www.eldinamo.cl/pais/2026/04/02/el-profesor-smith-condenado-a-12-anos-de-carcel-por-montaje-en-operacion-huracan/"

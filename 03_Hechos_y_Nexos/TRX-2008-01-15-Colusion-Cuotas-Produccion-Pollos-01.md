@@ -19,7 +19,7 @@ tags:
   - cuotas-mercado
 ---
 
-# TRX-2008-01-15-Pacto-Cuotas-Produccion-Cartel-Pollos-01
+# TRX-2008-01-15-Colusion-Cuotas-Produccion-Pollos-01
 
 ## Ficha de Arista Reificada (Acuerdo Ilícito de Reparto de Cuotas de Producción Avícola)
 - **Fecha de Coordinación**: `= this.fecha` *(Enero de 2008, representativa del período colusorio 1994–2011)*

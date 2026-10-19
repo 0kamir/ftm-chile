@@ -6,7 +6,7 @@ fecha_emision: 2018-08-24
 organismo_emisor: "[[Corte Suprema de Chile]]"
 fuente_osint: "Poder Judicial de Chile (pjud.cl) / US Senate Permanent Subcommittee on Investigations / Peritaje FEN Universidad de Chile"
 causa_vinculada: "[[Caso Riggs]]"
-nexo_respaldado: "[[TRX-2004-07-14-Desvio-Gastos-Reservados-Riggs-Pinochet-01]]"
+nexo_respaldado: "[[TRX-2004-07-14-Gastos-Reservados-Riggs-01]]"
 estado_verificacion: verificado
 fuentes:
   - url: "https://www.cnnchile.com/pais/caso-riggs-fue-cerrado-por-la-corte-suprema-tras-14-anos/"
@@ -32,7 +32,7 @@ tags:
 - **Fuente Pública / OSINT**: `= this.fuente_osint`
 - **Estado de Verificación**: `= this.estado_verificacion`
 - **Causa Vinculada**: `= this.causa_vinculada` (y antecedentes conexos del [[Caso Pinocheques]])
-- **Nexo Respaldado**: `= this.nexo_respaldado` (junto a [[TRX-2005-08-10-Evasion-Tributaria-Cuentas-Riggs-SII-01]] y [[TRX-1989-01-10-Emision-Pinocheques-Ejercito-Valmoval-01]])
+- **Nexo Respaldado**: `= this.nexo_respaldado` (junto a [[TRX-2005-08-10-Querella-SII-Cuentas-Riggs-01]] y [[TRX-1989-01-10-Emision-Pinocheques-Ejercito-Valmoval-01]])
 
 ## Extracto y Relevancia Probatoria
 Sentencia definitiva dictada el 24 de agosto de 2018 por la Segunda Sala Penal de la [[Corte Suprema de Chile]] (Rol N° `16.865-2017`) en el [[Caso Riggs]], sobre la base de la instrucción iniciada por el Ministro en Visita [[Sergio Munoz Gajardo]], las querellas del [[Servicio Impuestos Internos]] y el peritaje contable de la Universidad de Chile:

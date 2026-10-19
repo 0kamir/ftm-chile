@@ -1,6 +1,6 @@
 ---
 tipo_nodo: nexo_transaccion
-id_transaccion: "TRX-2015-01-29-Facturas-Falsas-Caval-SII-01"
+id_transaccion: "TRX-2015-01-29-Facturas-Caval-SII-01"
 fecha: 2015-01-29
 tipo_nexo: factura_falsa
 monto_clp: 2500000000
@@ -18,7 +18,7 @@ tags:
   - caso-caval
 ---
 
-# TRX-2015-01-29-Facturas-Falsas-Caval-SII-01
+# TRX-2015-01-29-Facturas-Caval-SII-01
 
 ## Ficha de Arista Reificada (Transacción / Hecho Registrado)
 - **ID Transacción**: `= this.id_transaccion`

@@ -29,7 +29,7 @@ tags:
 - **Medida Cautelar / Estado Procesal**: `= this.medida_cautelar`
 
 ## Síntesis
-Ejecutivo principal y representante de [[KDM Empresas SA]] (consorcio Demarco S.A. / Starco S.A.). En el [[Caso Basura]] ([[Acusacion-Fiscalia-Occidente-CasoBasura-2017]]), la Fiscalía Regional Metropolitana Occidente le imputó haber autorizado (imputación que terminó en una salida alternativa, sin condena) el desvío de fondos societarios mediante sociedades pantalla para pagar coimas a concejales de la [[Municipalidad de Maipu]] articulados por [[Marcelo Torres Ferrari]], asegurando la adjudicación de la licitación de recolección de residuos domiciliarios por **$18.500.000.000 CLP** ([[TRX-2010-11-15-Soborno-Licitacion-Basura-Maipu-01]]).
+Ejecutivo principal y representante de [[KDM Empresas SA]] (consorcio Demarco S.A. / Starco S.A.). En el [[Caso Basura]] ([[Acusacion-Fiscalia-Occidente-CasoBasura-2017]]), la Fiscalía Regional Metropolitana Occidente le imputó haber autorizado (imputación que terminó en una salida alternativa, sin condena) el desvío de fondos societarios mediante sociedades pantalla para pagar coimas a concejales de la [[Municipalidad de Maipu]] articulados por [[Marcelo Torres Ferrari]], asegurando la adjudicación de la licitación de recolección de residuos domiciliarios por **$18.500.000.000 CLP** ([[TRX-2010-11-15-Pagos-KDM-Licitacion-Basura-Maipu-01]]).
 
 ## Montos Autorizados como Firmante de Origen
 ```dataviewjs

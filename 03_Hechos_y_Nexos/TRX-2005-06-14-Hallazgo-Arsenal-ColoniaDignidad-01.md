@@ -1,6 +1,6 @@
 ---
 tipo_nodo: nexo_transaccion
-id_transaccion: "TRX-2005-06-14-Arsenal-Clandestino-AsociacionIlicita-ColoniaDignidad-01"
+id_transaccion: "TRX-2005-06-14-Hallazgo-Arsenal-ColoniaDignidad-01"
 fecha: 2005-06-14
 tipo_nexo: desviacion_fondos
 monto_clp: 0
@@ -28,7 +28,7 @@ tags:
   - trafico-armas
 ---
 
-# TRX-2005-06-14-Arsenal-Clandestino-AsociacionIlicita-ColoniaDignidad-01
+# TRX-2005-06-14-Hallazgo-Arsenal-ColoniaDignidad-01
 
 ## Ficha de Arista Reificada (Transacción / Hecho Registrado)
 - **ID Transacción**: `= this.id_transaccion`

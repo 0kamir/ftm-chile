@@ -1,6 +1,6 @@
 ---
 tipo_nodo: nexo_transaccion
-id_transaccion: "TRX-2010-11-15-Soborno-Licitacion-Basura-Maipu-01"
+id_transaccion: "TRX-2010-11-15-Pagos-KDM-Licitacion-Basura-Maipu-01"
 fecha: 2010-11-15
 tipo_nexo: cohecho_soborno
 monto_clp: 186500000
@@ -29,7 +29,7 @@ tags:
   - caso-basura
 ---
 
-# TRX-2010-11-15-Soborno-Licitacion-Basura-Maipu-01
+# TRX-2010-11-15-Pagos-KDM-Licitacion-Basura-Maipu-01
 
 ## Ficha de Arista Reificada (Transacción / Hecho Registrado)
 - **ID Transacción**: `= this.id_transaccion`

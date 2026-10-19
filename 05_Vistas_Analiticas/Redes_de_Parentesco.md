@@ -49,7 +49,7 @@ tags:
 - **Vínculo Genealógico / Afinidad**: Cónyuges, hijo y exyerno (Julio Ponce Lerou estuvo casado con Verónica Pinochet Hiriart).
 - **Integrantes en la Bóveda**: [[Augusto Pinochet Hiriart]], [[Augusto Pinochet Ugarte]], [[Julio Ponce Lerou]], [[Lucia Hiriart Rodriguez]].
 - **Macro-Causas Acopladas (6)**: [[Caso CEMA Chile]], [[Caso Cascadas]], [[Caso Operacion FUBELT Intervencion CIA y DINA]], [[Caso Panama Papers Chile]], [[Caso Pinocheques]], [[Caso Riggs]].
-- **Aristas Reificadas Vinculadas (8)**: [[TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-CIA-01]], [[TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01]], [[TRX-1989-01-10-Emision-Pinocheques-Ejercito-Valmoval-01]], [[TRX-2004-07-14-Desvio-Gastos-Reservados-Riggs-Pinochet-01]], [[TRX-2005-08-10-Evasion-Tributaria-Cuentas-Riggs-SII-01]], [[TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01]], [[TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01]], [[TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01]].
+- **Aristas Reificadas Vinculadas (8)**: [[TRX-1972-10-12-Fondos-CIA-Gremios-ParoCamioneros-01]], [[TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01]], [[TRX-1989-01-10-Emision-Pinocheques-Ejercito-Valmoval-01]], [[TRX-2004-07-14-Gastos-Reservados-Riggs-01]], [[TRX-2005-08-10-Querella-SII-Cuentas-Riggs-01]], [[TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01]], [[TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01]], [[TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01]].
 - **Volumen Financiero Consolidado**: **`$21.200.000.000 CLP`**.
 - **Síntesis de Captura de Red**: Parentesco de conocimiento público. No implica participación conjunta en los hechos registrados.
 

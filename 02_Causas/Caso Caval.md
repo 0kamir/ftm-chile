@@ -43,8 +43,8 @@ tags:
 
 ## Síntesis de la Causa
 Investigación penal originada por la compraventa especulativa de los predios Santa Elena, San Diego y Santa Cecilia en la comuna de Machalí por parte de [[Exportadora y de Gestion Caval Ltda]] —sociedad controlada por [[Natalia Compagnon Soto]] y [[Mauricio Valero Illanes]]—. La investigación tuvo dos aristas principales:
-1. Pagos al entonces Director de Obras Municipales de la [[Municipalidad de Machali]], [[Jorge Silva Menares]], para impulsar la modificación del Plan Regulador Intercomunal de Rancagua y cambiar el uso de suelo de rural a urbano ([[TRX-2014-02-18-Soborno-Caval-Machali-01]]).
-2. La contabilización de facturas ideológicamente falsas y declaraciones maliciosamente incompletas o falsas ante el [[Servicio Impuestos Internos]] para rebajar la carga impositiva de las utilidades de la operación inmobiliaria ([[TRX-2015-01-29-Facturas-Falsas-Caval-SII-01]]).
+1. Pagos al entonces Director de Obras Municipales de la [[Municipalidad de Machali]], [[Jorge Silva Menares]], para impulsar la modificación del Plan Regulador Intercomunal de Rancagua y cambiar el uso de suelo de rural a urbano ([[TRX-2014-02-18-Pagos-DOM-Machali-Caval-01]]).
+2. La contabilización de facturas ideológicamente falsas y declaraciones maliciosamente incompletas o falsas ante el [[Servicio Impuestos Internos]] para rebajar la carga impositiva de las utilidades de la operación inmobiliaria ([[TRX-2015-01-29-Facturas-Caval-SII-01]]).
 
 El Tribunal de Juicio Oral en lo Penal de Rancagua (julio de 2018) condenó a [[Natalia Compagnon Soto]] por delito tributario (541 días de pena remitida y multa) y **absolvió a [[Mauricio Valero Illanes]] y a [[Exportadora y de Gestion Caval Ltda]]** de los cargos, incluido el de soborno; la Corte Suprema rechazó la nulidad de Compagnon. Por separado, el ex director de obras [[Jorge Silva Menares]] fue condenado en enero de 2018 por cohecho reiterado (818 días con remisión condicional). Ver [[Sentencia-TOP-Rancagua-Caval-2018]].
 

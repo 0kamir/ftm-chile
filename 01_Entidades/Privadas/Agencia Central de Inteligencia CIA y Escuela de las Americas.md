@@ -23,8 +23,8 @@ tags:
 
 ## Contexto en Investigaciones
 Aparato de inteligencia y entrenamiento militar estadounidense cuyas operaciones encubiertas en Chile entre 1963 y 1977 fueron investigadas y acreditadas oficialmente por el Congreso de los Estados Unidos en el **Informe de la Comisión Church (1975)** y el **Informe Hinchey (2000)** ([[Informe-Comision-Church-1975-y-Hinchey-CIA-2000]]) dentro del [[Caso Operacion FUBELT Intervencion CIA y DINA]]:
-1. **Financiamiento a [[Empresa El Mercurio SAP]]**: Desembolso de **US$ 1.950.000** (`$9.500.000.000 CLP`) aprobado por el *Comité 40* en favor del grupo periodístico de [[Agustin Edwards Eastman]] ([[TRX-1971-09-09-Financiamiento-Encubierto-CIA-ElMercurio-Edwards-01]]).
-2. **Operaciones de Desestabilización y Paros Gremiales / Camioneros**: Canalización de más de **US$ 6 millones** adicionales (`$14.800.000.000 CLP`) hacia organizaciones políticas opositoras, prensa y gremios empresariales que sostuvieron los paros de transportistas y comercio de 1972–1973 ([[TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-CIA-01]]).
+1. **Financiamiento a [[Empresa El Mercurio SAP]]**: Desembolso de **US$ 1.950.000** (`$9.500.000.000 CLP`) aprobado por el *Comité 40* en favor del grupo periodístico de [[Agustin Edwards Eastman]] ([[TRX-1971-09-09-Fondos-CIA-ElMercurio-01]]).
+2. **Operaciones de Desestabilización y Paros Gremiales / Camioneros**: Canalización de más de **US$ 6 millones** adicionales (`$14.800.000.000 CLP`) hacia organizaciones políticas opositoras, prensa y gremios empresariales que sostuvieron los paros de transportistas y comercio de 1972–1973 ([[TRX-1972-10-12-Fondos-CIA-Gremios-ParoCamioneros-01]]).
 3. **Adiestramiento en Tortura en la Escuela de las Américas y Pagos a la DINA**: Instrucción de oficiales chilenos en Fort Gulick (Panamá) mediante los manuales del *Proyecto X* (desclasificados por el Pentágono en 1996) y pago de estipendios como activo de la CIA al director de la DINA [[Manuel Contreras Sepulveda]] entre 1974 y 1977 ([[TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01]]).
 
 ## Transacciones y Flujos Vinculados

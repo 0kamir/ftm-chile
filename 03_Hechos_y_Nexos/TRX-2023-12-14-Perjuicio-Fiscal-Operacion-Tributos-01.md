@@ -19,7 +19,7 @@ tags:
   - iva-falso
 ---
 
-# TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01
+# TRX-2023-12-14-Perjuicio-Fiscal-Operacion-Tributos-01
 
 ## Ficha de Arista Reificada (Megafraude Tributario y Obtención Indebida de Devoluciones de IVA)
 - **Fecha de Detección e Imputación Judicial**: `= this.fecha` *(Diciembre de 2023)*
