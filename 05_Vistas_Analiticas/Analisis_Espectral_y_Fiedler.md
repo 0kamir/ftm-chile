@@ -19,16 +19,16 @@ tags:
 
 ## 1. Invariantes Espectrales del Componente Gigante (LCC)
 
-- **Dimensión del Subespacio Conectado ($N_{\text{LCC}}$)**: `218` nodos operativos
-- **Conectividad Algebraica de Fiedler ($\lambda_2$)**: **`0.038235`** *(Un valor positivo bajo confirma un cuello de botella espectral entre dos macro-ecosistemas conectados por pocos puentes)*
-- **Mayor Autovalor Laplaciano ($\lambda_{\max}$)**: `16.1168` | **Razón Espectral ($\lambda_{\max} / \lambda_2$)**: `421.52`
-- **Cotas Isoperimétricas de Cheeger ($h(G)$)**: `[0.0191, 1.0710]`
-- **Radio Espectral de Adyacencia ($\rho(A) = \mu_{\max}$)**: **`5.0478`**
-- **Umbral Crítico de Difusión / Contagio Institucional ($\tau_c = 1/\rho(A)$)**: **`0.1981`**
+- **Dimensión del Subespacio Conectado ($N_{\text{LCC}}$)**: `216` nodos operativos
+- **Conectividad Algebraica de Fiedler ($\lambda_2$)**: **`0.020759`** *(Un valor positivo bajo confirma un cuello de botella espectral entre dos macro-ecosistemas conectados por pocos puentes)*
+- **Mayor Autovalor Laplaciano ($\lambda_{\max}$)**: `16.1167` | **Razón Espectral ($\lambda_{\max} / \lambda_2$)**: `776.37`
+- **Cotas Isoperimétricas de Cheeger ($h(G)$)**: `[0.0104, 0.7892]`
+- **Radio Espectral de Adyacencia ($\rho(A) = \mu_{\max}$)**: **`4.9816`**
+- **Umbral Crítico de Difusión / Contagio Institucional ($\tau_c = 1/\rho(A)$)**: **`0.2007`**
 - **Partición de Hemisferios de Fiedler**:
-  - **Hemisferio Positivo ($v_2(i) \ge 0$)**: `171` nodos
-  - **Hemisferio Negativo ($v_2(i) < 0$)**: `47` nodos
-  - **Aristas en el Corte Espectral de Fiedler**: `20` enlaces inter-hemisféricos
+  - **Hemisferio Positivo ($v_2(i) \ge 0$)**: `191` nodos
+  - **Hemisferio Negativo ($v_2(i) < 0$)**: `25` nodos
+  - **Aristas en el Corte Espectral de Fiedler**: `8` enlaces inter-hemisféricos
 
 ---
 
@@ -38,21 +38,21 @@ Los nodos cuyas coordenadas en el autovector de Fiedler son más cercanas a cero
 
 | Pos | Nodo en la Frontera Espectral | Tipo | Coordenada de Fiedler ($v_2(i)$) | Centralidad Autovector ($x_i$) | Grado ($k_i$) |
 | :---: | :--- | :--- | :---: | :---: | :---: |
-| **1** | [[Corte Suprema de Chile]] | `entidad_publica` | **`-0.00011`** | `0.0743` | `13` |
-| **2** | [[TRX-2015-08-10-Contacto-Academico-Patrocinio-Guendelman-Epstein-01]] | `nexo_transaccion` | **`-0.00012`** | `0.0175` | `3` |
-| **3** | [[TRX-2015-11-14-Mencion-Indirecta-Epstein-BinSulayem-Luksic-01]] | `nexo_transaccion` | **`-0.00012`** | `0.0175` | `3` |
-| **4** | [[TRX-2013-05-20-Mencion-Referencial-Epstein-Dannatt-Velasco-01]] | `nexo_transaccion` | **`-0.00012`** | `0.0175` | `3` |
-| **5** | [[Caso Archivos Epstein Menciones Chile]] | `causa_judicial` | **`-0.00012`** | `0.0104` | `3` |
-| **6** | [[Andres Velasco Branes]] | `persona` | **`-0.00012`** | `0.0035` | `1` |
-| **7** | [[Andronico Luksic Craig]] | `persona` | **`-0.00012`** | `0.0035` | `1` |
-| **8** | [[Eduardo Guendelman Israel]] | `persona` | **`-0.00012`** | `0.0035` | `1` |
-| **9** | [[TRX-2018-01-25-Peritaje-Cibercrimen-Descarte-Antorcha-01]] | `nexo_transaccion` | **`-0.00013`** | `0.0213` | `5` |
-| **10** | [[TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01]] | `nexo_transaccion` | **`-0.00013`** | `0.0213` | `5` |
-| **11** | [[Direccion de Inteligencia Policial de Carabineros]] | `entidad_publica` | **`-0.00013`** | `0.0096` | `3` |
-| **12** | [[Alex Smith Leay]] | `persona` | **`-0.00013`** | `0.0096` | `3` |
-| **13** | [[Caso Operacion Huracan]] | `causa_judicial` | **`-0.00013`** | `0.0096` | `3` |
-| **14** | [[Gonzalo Blu Rodriguez]] | `persona` | **`-0.00013`** | `0.0042` | `1` |
-| **15** | [[Leonardo Osses Sandoval]] | `persona` | **`-0.00013`** | `0.0042` | `1` |
+| **1** | [[Bancard Inversiones Ltda]] | `entidad_privada` | **`-0.00097`** | `0.1142` | `6` |
+| **2** | [[Sebastian Pinera Echenique]] | `persona` | **`+0.00127`** | `0.1407` | `7` |
+| **3** | [[TRX-2009-11-18-Facturas-Falsas-Bancard-SQM-Campana-Pinera-01]] | `nexo_transaccion` | **`+0.00385`** | `0.0644` | `5` |
+| **4** | [[TRX-2006-07-24-Compra-Acciones-Informacion-Privilegiada-LAN-01]] | `nexo_transaccion` | **`+0.00561`** | `0.0663` | `5` |
+| **5** | [[TRX-2010-12-10-Compraventa-Offshore-Dominga-Bancard-Delano-01]] | `nexo_transaccion` | **`+0.00594`** | `0.1257` | `5` |
+| **6** | [[Caso Minera Dominga Pandora Papers]] | `causa_judicial` | **`+0.00607`** | `0.0252` | `1` |
+| **7** | [[Santiago Valdes Gutierrez]] | `persona` | **`-0.00681`** | `0.0421` | `3` |
+| **8** | [[Caso LAN Informacion Privilegiada y Banco de Talca]] | `causa_judicial` | **`+0.00773`** | `0.0346` | `2` |
+| **9** | [[Caso SQM]] | `causa_judicial` | **`+0.00794`** | `0.0456` | `2` |
+| **10** | [[Renovacion Nacional]] | `partido_politico` | **`+0.00798`** | `0.0797` | `10` |
+| **11** | [[Percy Marin Vera]] | `persona` | **`+0.00815`** | `0.0160` | `1` |
+| **12** | [[Comision para el Mercado Financiero]] | `entidad_publica` | **`+0.00856`** | `0.0179` | `2` |
+| **13** | [[TRX-2022-09-04-Presencia-Cerimedo-Sede-Renovacion-Nacional-01]] | `nexo_transaccion` | **`+0.00872`** | `0.0186` | `4` |
+| **14** | [[Patricio Contesse Gonzalez]] | `persona` | **`+0.00873`** | `0.0579` | `3` |
+| **15** | [[Fernando Cerimedo]] | `persona` | **`+0.00890`** | `0.0047` | `2` |
 
 ---
 
@@ -60,26 +60,14 @@ Los nodos cuyas coordenadas en el autovector de Fiedler son más cercanas a cero
 
 | # | Nodo Hemisferio Positivo ($v_2 \ge 0$) | Coordenada $v_2(u)$ | Nodo Hemisferio Negativo ($v_2 < 0$) | Coordenada $v_2(v)$ |
 | :---: | :--- | :---: | :--- | :---: |
-| **1** | [[Andres Chadwick Pinera]] | `+0.01155` | [[Union Democrata Independiente]] | `-0.00085` |
-| **2** | [[Carlos Alberto Delano Abbott]] | `+0.00625` | [[Union Democrata Independiente]] | `-0.00085` |
-| **3** | [[Carlos Eugenio Lavin Garcia-Huidobro]] | `+0.00480` | [[Union Democrata Independiente]] | `-0.00085` |
-| **4** | [[Cathy Barriga Guerra]] | `+0.00558` | [[Union Democrata Independiente]] | `-0.00085` |
-| **5** | [[Hernan Larrain Fernandez]] | `+0.00192` | [[Union Democrata Independiente]] | `-0.00085` |
-| **6** | [[Jaime Orpis Bouchon]] | `+0.00569` | [[Union Democrata Independiente]] | `-0.00085` |
-| **7** | [[Jovino Novoa Vasquez]] | `+0.00151` | [[Union Democrata Independiente]] | `-0.00085` |
-| **8** | [[Pablo Longueira Montes]] | `+0.00436` | [[Union Democrata Independiente]] | `-0.00085` |
-| **9** | [[Pablo Wagner San Martin]] | `+0.00440` | [[Union Democrata Independiente]] | `-0.00085` |
-| **10** | [[TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01]] | `+0.01635` | [[Corte Suprema de Chile]] | `-0.00011` |
-| **11** | [[TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01]] | `+0.01471` | [[Corte Suprema de Chile]] | `-0.00011` |
-| **12** | [[TRX-1996-06-12-Blindaje-Politico-Judicial-ColoniaDignidad-01]] | `+0.00462` | [[Union Democrata Independiente]] | `-0.00085` |
-| **13** | [[TRX-2003-11-05-Operacion-Politico-Judicial-Spiniak-01]] | `+0.01657` | [[Corte Suprema de Chile]] | `-0.00011` |
-| **14** | [[TRX-2005-06-14-Arsenal-Clandestino-AsociacionIlicita-ColoniaDignidad-01]] | `+0.00744` | [[Corte Suprema de Chile]] | `-0.00011` |
-| **15** | [[TRX-2010-08-19-Correo-Royalty-SQM-01]] | `+0.00937` | [[Union Democrata Independiente]] | `-0.00085` |
-| **16** | [[TRX-2013-07-15-Boletas-Falsas-Penta-UDI-01]] | `+0.00439` | [[Union Democrata Independiente]] | `-0.00085` |
-| **17** | [[TRX-2013-09-20-Boletas-Falsas-Penta-Novoa-01]] | `+0.00381` | [[Union Democrata Independiente]] | `-0.00085` |
-| **18** | [[TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01]] | `+0.01392` | [[Corte Suprema de Chile]] | `-0.00011` |
-| **19** | [[TRX-2022-11-15-Gestion-Nombramientos-Hermosilla-Zaliasnik-01]] | `+0.01361` | [[Corte Suprema de Chile]] | `-0.00011` |
-| **20** | [[TRX-2023-02-09-Gestion-Judicial-Hermosilla-Vivanco-01]] | `+0.01361` | [[Corte Suprema de Chile]] | `-0.00011` |
+| **1** | [[Renovacion Nacional]] | `+0.00798` | [[Santiago Valdes Gutierrez]] | `-0.00681` |
+| **2** | [[Sebastian Pinera Echenique]] | `+0.00127` | [[Bancard Inversiones Ltda]] | `-0.00097` |
+| **3** | [[Sebastian Pinera Echenique]] | `+0.00127` | [[TRX-2012-11-20-Inversion-Offshore-Bancard-Exalmar-LaHaya-01]] | `-0.03213` |
+| **4** | [[TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01]] | `+0.00968` | [[Bancard Inversiones Ltda]] | `-0.00097` |
+| **5** | [[TRX-2006-07-24-Compra-Acciones-Informacion-Privilegiada-LAN-01]] | `+0.00561` | [[Bancard Inversiones Ltda]] | `-0.00097` |
+| **6** | [[TRX-2009-11-18-Facturas-Falsas-Bancard-SQM-Campana-Pinera-01]] | `+0.00385` | [[Bancard Inversiones Ltda]] | `-0.00097` |
+| **7** | [[TRX-2009-11-18-Facturas-Falsas-Bancard-SQM-Campana-Pinera-01]] | `+0.00385` | [[Santiago Valdes Gutierrez]] | `-0.00681` |
+| **8** | [[TRX-2010-12-10-Compraventa-Offshore-Dominga-Bancard-Delano-01]] | `+0.00594` | [[Bancard Inversiones Ltda]] | `-0.00097` |
 
 ---
 
@@ -87,23 +75,23 @@ Los nodos cuyas coordenadas en el autovector de Fiedler son más cercanas a cero
 
 | Pos | Nodo Operativo | Tipo | Autovector Perron-Frobenius ($x_i$) | Coordenada Fiedler ($v_2(i)$) | Grado ($k_i$) |
 | :---: | :--- | :--- | :---: | :---: | :---: |
-| **1** | [[Caso Convenios]] | `causa_judicial` | **`0.3738`** | `+0.06052` | `9` |
-| **2** | [[Carlos Contreras Gutierrez]] | `persona` | **`0.2529`** | `+0.06219` | `6` |
-| **3** | [[TRX-2022-10-28-Convenio-ProCultura-Antofagasta]] | `nexo_transaccion` | **`0.2514`** | `+0.06075` | `5` |
-| **4** | [[TRX-2022-11-29-Convenio-DV-03]] | `nexo_transaccion` | **`0.2479`** | `+0.06289` | `5` |
-| **5** | [[TRX-2022-10-03-Convenio-DV-01]] | `nexo_transaccion` | **`0.2479`** | `+0.06289` | `5` |
-| **6** | [[TRX-2022-10-19-Convenio-DV-02]] | `nexo_transaccion` | **`0.2479`** | `+0.06289` | `5` |
-| **7** | [[Seremi MINVU Antofagasta]] | `entidad_publica` | **`0.2350`** | `+0.06178` | `5` |
-| **8** | [[Alberto Larrain Salas]] | `persona` | **`0.2037`** | `+0.05847` | `5` |
-| **9** | [[Fundacion ProCultura]] | `entidad_privada` | **`0.2037`** | `+0.05847` | `5` |
-| **10** | [[Daniel Andrade Schwarze]] | `persona` | **`0.2023`** | `+0.06381` | `5` |
-| **11** | [[TRX-2022-11-18-Convenio-ProCultura-Biobio]] | `nexo_transaccion` | **`0.1954`** | `+0.06128` | `5` |
-| **12** | [[TRX-2022-09-12-Reunion-Lobby-ProCultura-Biobio-01]] | `nexo_transaccion` | **`0.1954`** | `+0.06128` | `5` |
-| **13** | [[TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01]] | `nexo_transaccion` | **`0.1911`** | `+0.05712` | `5` |
-| **14** | [[Fundacion Democracia Viva]] | `entidad_privada` | **`0.1874`** | `+0.06373` | `4` |
-| **15** | [[TRX-2023-05-10-Liquidacion-Tributaria-ProCultura-SII-01]] | `nexo_transaccion` | **`0.1824`** | `+0.04834` | `5` |
-| **16** | [[Union Democrata Independiente]] | `partido_politico` | **`0.1393`** | `-0.00085` | `15` |
-| **17** | [[TRX-2022-12-20-Convenio-EnTi-01]] | `nexo_transaccion` | **`0.1272`** | `+0.06492` | `5` |
-| **18** | [[Rodrigo Diaz Worner]] | `persona` | **`0.1026`** | `+0.06330` | `3` |
-| **19** | [[GORE Biobio]] | `entidad_publica` | **`0.1026`** | `+0.06330` | `3` |
-| **20** | [[Servicio Impuestos Internos]] | `entidad_publica` | **`0.0912`** | `+0.02583` | `9` |
+| **1** | [[Union Democrata Independiente]] | `partido_politico` | **`0.4701`** | `+0.01711` | `15` |
+| **2** | [[Carlos Alberto Delano Abbott]] | `persona` | **`0.2671`** | `+0.01343` | `6` |
+| **3** | [[TRX-2013-07-15-Boletas-Falsas-Penta-UDI-01]] | `nexo_transaccion` | **`0.2433`** | `+0.01565` | `5` |
+| **4** | [[TRX-2013-09-20-Boletas-Falsas-Penta-Novoa-01]] | `nexo_transaccion` | **`0.2364`** | `+0.01600` | `5` |
+| **5** | [[Empresas Penta SA]] | `entidad_privada` | **`0.1762`** | `+0.01581` | `4` |
+| **6** | [[Pablo Longueira Montes]] | `persona` | **`0.1759`** | `+0.01497` | `3` |
+| **7** | [[Corte Suprema de Chile]] | `entidad_publica` | **`0.1727`** | `+0.02273` | `13` |
+| **8** | [[TRX-2010-08-19-Correo-Royalty-SQM-01]] | `nexo_transaccion` | **`0.1627`** | `+0.01186` | `5` |
+| **9** | [[TRX-1996-06-12-Blindaje-Politico-Judicial-ColoniaDignidad-01]] | `nexo_transaccion` | **`0.1488`** | `+0.01985` | `5` |
+| **10** | [[Carlos Eugenio Lavin Garcia-Huidobro]] | `persona` | **`0.1467`** | `+0.01738` | `3` |
+| **11** | [[Andres Chadwick Pinera]] | `persona` | **`0.1436`** | `+0.01272` | `3` |
+| **12** | [[Jovino Novoa Vasquez]] | `persona` | **`0.1418`** | `+0.01673` | `2` |
+| **13** | [[Sebastian Pinera Echenique]] | `persona` | **`0.1407`** | `+0.00127` | `7` |
+| **14** | [[TRX-2011-03-10-Pagos-Penta-Wagner-01]] | `nexo_transaccion` | **`0.1309`** | `+0.01783` | `5` |
+| **15** | [[Cathy Barriga Guerra]] | `persona` | **`0.1295`** | `+0.01684` | `3` |
+| **16** | [[TRX-2010-12-10-Compraventa-Offshore-Dominga-Bancard-Delano-01]] | `nexo_transaccion` | **`0.1257`** | `+0.00594` | `5` |
+| **17** | [[Factop SpA]] | `entidad_privada` | **`0.1247`** | `+0.02219` | `6` |
+| **18** | [[Luis Hermosilla Osorio]] | `persona` | **`0.1247`** | `+0.02219` | `6` |
+| **19** | [[Hernan Larrain Fernandez]] | `persona` | **`0.1242`** | `+0.01867` | `2` |
+| **20** | [[Caso Penta]] | `causa_judicial` | **`0.1226`** | `+0.01661` | `3` |

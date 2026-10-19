@@ -18,7 +18,7 @@ tags:
 - **Clanes Familiares / Dinásticos Modelados**: **3** componentes conexas familiares.
 - **Sujetos Integrados en Redes de Parentesco Explícito**: **8** nodos de tipo `persona`.
 - **Aristas de Parentesco Bidireccionales (`vinculos_familiares`)**: **7 pares familiares** (14 aristas dirigidas en el grafo).
-- **Patrimonio Total Asociado a Clanes Familiares en Aristas Reificadas**: **`$215.654.000.000 CLP`** a través de **15 transacciones reificadas**.
+- **Patrimonio Total Asociado a Clanes Familiares en Aristas Reificadas**: **`$191.154.000.000 CLP`** a través de **15 transacciones reificadas**.
 
 ---
 
@@ -54,7 +54,7 @@ flowchart TD
 | Clan Familiar / Dinástico | Tipo de Parentesco | Miembros (`persona`) | Macro-Causas Conectadas | N° TRX | Volumen Patrimonial Asociado (CLP) |
 | :--- | :--- | :--- | :--- | :---: | ---: |
 | **Clan Piñera–Chadwick (Eje Ejecutivo–UDI–Alonso de Córdova / Caso Audios)** | Consanguinidad colateral en 4° grado (Primos hermanos: hijos de hermanos Piñera Carvallo) | [[Andres Chadwick Pinera]], [[Sebastian Pinera Echenique]] | [[Caso Audios]], [[Caso Exalmar y Fideicomiso Ciego]], [[Caso LAN Informacion Privilegiada y Banco de Talca]], [[Caso Minera Dominga Pandora Papers]] | 5 | **$107.740.000.000** |
-| **Clan Pinochet–Hiriart–Ponce Lerou (Eje Cívico-Militar, CEMA, Riggs y Sociedades Cascada/SQM)** | Matrimonio (Pinochet–Hiriart), filiación directa (Pinochet Hiriart) y afinidad en 1° grado (ex yerno Julio Ponce Lerou) | [[Augusto Pinochet Hiriart]], [[Augusto Pinochet Ugarte]], [[Julio Ponce Lerou]], [[Lucia Hiriart Rodriguez]] | [[Caso CEMA Chile]], [[Caso Cascadas]], [[Caso Operacion FUBELT Intervencion CIA y DINA]], [[Caso Panama Papers Chile]], [[Caso Pinocheques]], [[Caso Riggs]] | 8 | **$76.900.000.000** |
+| **Clan Pinochet–Hiriart–Ponce Lerou (Eje Cívico-Militar, CEMA, Riggs y Sociedades Cascada/SQM)** | Matrimonio (Pinochet–Hiriart), filiación directa (Pinochet Hiriart) y afinidad en 1° grado (ex yerno Julio Ponce Lerou) | [[Augusto Pinochet Hiriart]], [[Augusto Pinochet Ugarte]], [[Julio Ponce Lerou]], [[Lucia Hiriart Rodriguez]] | [[Caso CEMA Chile]], [[Caso Cascadas]], [[Caso Operacion FUBELT Intervencion CIA y DINA]], [[Caso Panama Papers Chile]], [[Caso Pinocheques]], [[Caso Riggs]] | 8 | **$52.400.000.000** |
 | **Clan Lavín–Barriga (Eje Holding Penta – Municipalidad de Maipú)** | Afinidad colateral extendida (vía Joaquín Lavín Infante, primo hermano de Carlos Eugenio Lavín y suegro de Cathy Barriga) | [[Carlos Eugenio Lavin Garcia-Huidobro]], [[Cathy Barriga Guerra]] | [[Caso Municipalidad de Maipu]], [[Caso Penta]] | 2 | **$31.014.000.000** |
 
 ### Detalle Estructural por Clan
@@ -72,7 +72,7 @@ flowchart TD
 - **Integrantes en la Bóveda**: [[Augusto Pinochet Hiriart]], [[Augusto Pinochet Ugarte]], [[Julio Ponce Lerou]], [[Lucia Hiriart Rodriguez]].
 - **Macro-Causas Acopladas (6)**: [[Caso CEMA Chile]], [[Caso Cascadas]], [[Caso Operacion FUBELT Intervencion CIA y DINA]], [[Caso Panama Papers Chile]], [[Caso Pinocheques]], [[Caso Riggs]].
 - **Aristas Reificadas Vinculadas (8)**: [[TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-CIA-01]], [[TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01]], [[TRX-1989-01-10-Emision-Pinocheques-Ejercito-Valmoval-01]], [[TRX-2004-07-14-Desvio-Gastos-Reservados-Riggs-Pinochet-01]], [[TRX-2005-08-10-Evasion-Tributaria-Cuentas-Riggs-SII-01]], [[TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01]], [[TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01]], [[TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01]].
-- **Volumen Financiero Consolidado**: **`$76.900.000.000 CLP`**.
+- **Volumen Financiero Consolidado**: **`$52.400.000.000 CLP`**.
 - **Síntesis de Captura de Red**: Conecta la captura patrimonial directa de fondos reservados y bienes fiscales durante la dictadura ([[Caso Pinocheques]], [[Caso Riggs]] y [[Caso CEMA Chile]]) con el control post-privatización de [[SQM SA]] y las [[Sociedad de Inversiones Pampa Calichera SA|Sociedades Cascada]] ([[Caso Cascadas]]), desde donde a su vez se financió transversalmente a la élite partidaria entre 2009 y 2015 ([[Caso SQM]]).
 
 #### 3.3. Clan Lavín–Barriga (Eje Holding Penta – Municipalidad de Maipú)
@@ -97,7 +97,7 @@ Para medir el impacto topológico de los vínculos familiares, comparamos la dis
 | [[Augusto Pinochet Ugarte]] | [[SQM SA]] | `5` | **`3`** | **-2 saltos** | [[Augusto Pinochet Ugarte]] → [[Julio Ponce Lerou]] → [[TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01]] → [[SQM SA]] |
 | [[Caso Riggs]] | [[Caso Cascadas]] | `5` | **`5`** | **0 saltos** | [[Caso Riggs]] → [[Sentencia-Corte-Suprema-CasoRiggs-2018]] → [[Corte Suprema de Chile]] → [[TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01]] → [[Negociacion Incompatible]] → [[Caso Cascadas]] |
 | [[Caso Pinocheques]] | [[Caso CEMA Chile]] | `5` | **`5`** | **0 saltos** | [[Caso Pinocheques]] → [[TRX-1989-01-10-Emision-Pinocheques-Ejercito-Valmoval-01]] → [[Augusto Pinochet Hiriart]] → [[Lucia Hiriart Rodriguez]] → [[TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01]] → [[Caso CEMA Chile]] |
-| [[Caso Penta]] | [[Caso Municipalidad de Maipu]] | `5` | **`5`** | **0 saltos** | [[Caso Penta]] → [[Delito Tributario]] → [[TRX-2023-05-10-Liquidacion-Tributaria-ProCultura-SII-01]] → [[Caso Convenios]] → [[Fraude al Fisco]] → [[Caso Municipalidad de Maipu]] |
+| [[Caso Penta]] | [[Caso Municipalidad de Maipu]] | `5` | **`5`** | **0 saltos** | [[Caso Penta]] → [[TRX-2011-03-10-Pagos-Penta-Wagner-01]] → [[Carlos Eugenio Lavin Garcia-Huidobro]] → [[Cathy Barriga Guerra]] → [[TRX-2020-12-15-Deficit-Maipu-Certificados-01]] → [[Caso Municipalidad de Maipu]] |
 
 ---
 

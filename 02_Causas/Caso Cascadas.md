@@ -19,8 +19,8 @@ fuentes:
     medio: "Minería Chilena"
     tipo: secundaria
     consultado: 2026-10-19
-alertas_verificacion:
-  - "La multa a Ponce Lerou (UF 1.700.000) fue rebajada a ~UF 75.000 tras fallo del TC; confirmar montos usados en TRX-2011-12-19."
+historial_correcciones:
+  - "Corregido el 2026-10-19: el TRX-2011-12-19 tenía un monto de $24.500 millones sin respaldo (coincidía con la multa de US$ 24,5 millones a Aldo Motta) y vinculaba a Patricio Contesse sin fuente; monto ajustado a 0 y vínculo eliminado."
 tags:
   - causa
   - mercado-valores

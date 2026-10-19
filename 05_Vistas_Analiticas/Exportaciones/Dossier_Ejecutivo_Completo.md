@@ -10,8 +10,8 @@ tags:
 
 - **Causas Penales Auditadas**: **33**
 - **Sujetos de Interés / Imputados**: **85**
-- **Aristas Reificadas (`TRX`)**: **70**
-- **Perjuicio / Flujo Global Consolidado**: **$694.022.063.198 CLP**
+- **Aristas Reificadas (`TRX`)**: **68**
+- **Perjuicio / Flujo Global Consolidado**: **$669.122.093.990 CLP**
 
 ---
 
@@ -108,7 +108,7 @@ tags:
 | [[Jose Antonio Pavez Canessa]] | `` | Imputado señalado por la Fiscalía como líder del 'Clan Canessa' (Operación Tributos) | Independiente | **`formalizado`** | Prisión preventiva (Anexo Capitán Yáber), según La Tercera |
 | [[Jose Codner Chijner]] | `` | Fundador y Ex Controlador de Farmacias Ahumada S.A. (FASA) | Independiente | **`descarte_procesal_sin_imputacion`** | Sin medidas cautelares vigentes; firmante del acuerdo conciliatorio de delación ante la FNE en marzo de 2009 |
 | [[Jovino Novoa Vasquez]] | `` | Ex Senador de la República, Ex Presidente del Senado y Ex Presidente de la UDI | [[Union Democrata Independiente]] | **`condenado`** | Fallecido en 2021 (Condenado en 2015 a 3 años de pena remitida en Caso Penta; sobreseído en Caso Spiniak en 2004) |
-| [[Jozo Santic Palomino]] | `` | Ex Coronel Jefe de Finanzas del Comando de Apoyo a la Fuerza (CAF) | Independiente | **`condenado`** | Condenado en primera instancia a 13 años por la ministra Romy Rutherford; la Corte Marcial revocó la condena por fraude al fisco en la arista Tecnodata II |
+| [[Jozo Santic Palomino]] | `` | Ex Coronel Jefe de Finanzas del Comando de Apoyo a la Fuerza (CAF) | Independiente | **`condenado`** | Condenado por la Corte Marcial (arista Tecnodata II) a 5 años y un día de presidio efectivo por falsedad en materia de administración militar; en primera instancia (nov-2019) la ministra Rutherford le había impuesto 10 años y un día y 3 años y un día |
 | [[Juan Miguel Fuente-Alba Poblete]] | `` | Ex Comandante en Jefe del Ejército de Chile (2010-2014) | Independiente | **`formalizado`** | Procesado por malversación de gastos reservados (Justicia Militar / Ordinaria) |
 | [[Juan Miguel Ovalle Garces]] | `` | Presidente Histórico de la Asociación de Productores Avícolas de Chile (APA) | Independiente | **`sancionado_administrativamente`** | Condena civil y económica; disolución forzada de la entidad gremial que presidía |
 | [[Juan Victor Galaz Rojas]] | `` | Imputado señalado por la Fiscalía como líder del 'Clan Galaz' (Operación Tributos) | Independiente | **`formalizado`** | — |
@@ -175,14 +175,14 @@ tags:
 | [[TRX-2010-11-15-Soborno-Licitacion-Basura-Maipu-01]] | 2010-11-15 | `cohecho_soborno` | [[KDM Empresas SA]] | [[Municipalidad de Maipu]] | [[Fernando Leon Steffens]] | [[Marcelo Torres Ferrari]] | **$186.500.000** | [[Caso Basura]] |
 | [[TRX-2010-12-10-Compraventa-Offshore-Dominga-Bancard-Delano-01]] | 2010-12-10 | `trato_directo` | [[Andes Iron SpA]] | [[Bancard Inversiones Ltda]] | [[Carlos Alberto Delano Abbott]] | [[Sebastian Pinera Echenique]] | **$75.500.000.000** | [[Caso Minera Dominga Pandora Papers]] |
 | [[TRX-2011-03-10-Pagos-Penta-Wagner-01]] | 2011-03-10 | `transferencia` | [[Empresas Penta SA]] | [[Servicio Impuestos Internos]] | [[Carlos Eugenio Lavin Garcia-Huidobro]] | [[Pablo Wagner San Martin]] | **$42.000.000** | [[Caso Penta]] |
-| [[TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01]] | 2011-12-19 | `desviacion_fondos` | [[Sociedad de Inversiones Pampa Calichera SA]] | [[SQM SA]] | [[Julio Ponce Lerou]] | [[Patricio Contesse Gonzalez]] | **$24.500.000.000** | [[Caso Cascadas]] |
+| [[TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01]] | 2011-12-19 | `desviacion_fondos` | [[Sociedad de Inversiones Pampa Calichera SA]] | [[SQM SA]] | [[Julio Ponce Lerou]] |  | **$0** | [[Caso Cascadas]] |
 | [[TRX-2012-03-22-Fraude-Residuos-CerroNavia-01]] | 2012-03-22 | `trato_directo` | [[Municipalidad de Cerro Navia]] | [[KDM Empresas SA]] | [[Luis Plaza Sanchez]] | [[Marcelo Torres Ferrari]] | **$1.120.000.000** | [[Caso Basura]] |
 | [[TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01]] | 2012-07-11 | `cohecho` | [[Corpesca SA]] | [[Senado de la Republica de Chile]] | [[Francisco Mujica Ortuzar]] | [[Jaime Orpis Bouchon]] | **$233.000.000** | [[Caso Corpesca]] |
 | [[TRX-2012-11-20-Inversion-Offshore-Bancard-Exalmar-LaHaya-01]] | 2012-11-20 | `gestion_influencia` | [[Bancard Inversiones Ltda]] | [[Contraloria General de la Republica]] | [[Sebastian Pinera Echenique]] | [[Santiago Valdes Gutierrez]] | **$8.250.000.000** | [[Caso Exalmar y Fideicomiso Ciego]] |
 | [[TRX-2013-05-20-Mencion-Referencial-Epstein-Dannatt-Velasco-01]] | 2013-05-20 | `correo_electronico` | [[Corte Suprema de Chile]] | [[Corte Suprema de Chile]] | [[Andres Velasco Branes]] | [[Andres Velasco Branes]] | **$0** | [[Caso Archivos Epstein Menciones Chile]] |
 | [[TRX-2013-07-15-Boletas-Falsas-Penta-UDI-01]] | 2013-07-15 | `factura_falsa` | [[Empresas Penta SA]] | [[Union Democrata Independiente]] | [[Carlos Alberto Delano Abbott]] | [[Pablo Longueira Montes]] | **$1.260.000.000** | [[Caso Penta]] |
 | [[TRX-2013-09-20-Boletas-Falsas-Penta-Novoa-01]] | 2013-09-20 | `factura_falsa` | [[Empresas Penta SA]] | [[Union Democrata Independiente]] | [[Carlos Alberto Delano Abbott]] | [[Jovino Novoa Vasquez]] | **$156.000.000** | [[Caso Penta]] |
-| [[TRX-2014-02-18-Soborno-Caval-Machali-01]] | 2014-02-18 | `cohecho_soborno` | [[Exportadora y de Gestion Caval Ltda]] | [[Municipalidad de Machali]] |  | [[Jorge Silva Menares]] | **$140.000.000** | [[Caso Caval]] |
+| [[TRX-2014-02-18-Soborno-Caval-Machali-01]] | 2014-02-18 | `cohecho_soborno` |  | [[Municipalidad de Machali]] |  | [[Jorge Silva Menares]] | **$55.030.792** | [[Caso Caval]] |
 | [[TRX-2014-05-20-Facturas-LeyReservadaCobre-01]] | 2014-05-20 | `transferencia` | [[Comando de Apoyo a la Fuerza del Ejercito]] | [[Frasim Ltda]] | [[Juan Miguel Fuente-Alba Poblete]] | [[Jozo Santic Palomino]] | **$6.100.000.000** | [[Caso Milicogate]] |
 | [[TRX-2015-01-29-Facturas-Falsas-Caval-SII-01]] | 2015-01-29 | `factura_falsa` | [[Exportadora y de Gestion Caval Ltda]] | [[Servicio Impuestos Internos]] | [[Natalia Compagnon Soto]] | [[Natalia Compagnon Soto]] | **$2.500.000.000** | [[Caso Caval]] |
 | [[TRX-2015-08-10-Contacto-Academico-Patrocinio-Guendelman-Epstein-01]] | 2015-08-10 | `solicitud_patrocinio` | [[Corte Suprema de Chile]] | [[Corte Suprema de Chile]] | [[Eduardo Guendelman Israel]] | [[Eduardo Guendelman Israel]] | **$0** | [[Caso Archivos Epstein Menciones Chile]] |
@@ -205,7 +205,6 @@ tags:
 | [[TRX-2020-12-15-Deficit-Maipu-Certificados-01]] | 2020-12-15 | `transferencia` | [[Municipalidad de Maipu]] | [[Municipalidad de Maipu]] | [[Cathy Barriga Guerra]] | [[Cathy Barriga Guerra]] | **$30.972.000.000** | [[Caso Municipalidad de Maipu]] |
 | [[TRX-2021-04-15-Subvencion-VitaDeportes-01]] | 2021-04-15 | `transferencia` | [[Municipalidad de Vitacura]] | [[Vita Deportes]] | [[Raul Torrealba del Pedregal]] | [[Domingo Prieto Urrejola]] | **$759.000.000** | [[Caso Vitacura]] |
 | [[TRX-2022-09-04-Presencia-Cerimedo-Sede-Renovacion-Nacional-01]] | 2022-09-04 | `reunion_lobby` | [[Numen Publicidad SpA]] | [[Renovacion Nacional]] | [[Fernando Cerimedo]] | [[Renovacion Nacional]] | **$0** | [[Caso Operaciones Digitales e Injerencia Electoral]] |
-| [[TRX-2022-09-12-Reunion-Lobby-ProCultura-Biobio-01]] | 2022-09-12 | `reunion_lobby` | [[Fundacion ProCultura]] | [[GORE Biobio]] | [[Alberto Larrain Salas]] | [[Rodrigo Diaz Worner]] | **$0** | [[Caso Convenios]] |
 | [[TRX-2022-10-03-Convenio-DV-01]] | 2022-10-03 | `convenio_directo` | [[Seremi MINVU Antofagasta]] | [[Fundacion Democracia Viva]] | [[Carlos Contreras Gutierrez]] | [[Daniel Andrade Schwarze]] | **$200.000.000** | [[Caso Convenios]] |
 | [[TRX-2022-10-19-Convenio-DV-02]] | 2022-10-19 | `convenio_directo` | [[Seremi MINVU Antofagasta]] | [[Fundacion Democracia Viva]] | [[Carlos Contreras Gutierrez]] | [[Daniel Andrade Schwarze]] | **$170.000.000** | [[Caso Convenios]] |
 | [[TRX-2022-10-28-Convenio-ProCultura-Antofagasta]] | 2022-10-28 | `convenio_directo` | [[Seremi MINVU Antofagasta]] | [[Fundacion ProCultura]] | [[Carlos Contreras Gutierrez]] | [[Alberto Larrain Salas]] | **$500.000.000** | [[Caso Convenios]] |
@@ -215,7 +214,6 @@ tags:
 | [[TRX-2022-12-20-Convenio-EnTi-01]] | 2022-12-20 | `convenio_directo` | [[GORE Biobio]] | [[Fundacion En Ti]] | [[Rodrigo Diaz Worner]] | [[Camila Polizzi Fonceca]] | **$250.635.000** | [[Caso Convenios]] |
 | [[TRX-2023-01-20-Compraventa-Clinica-SierraBella-01]] | 2023-01-20 | `trato_directo` | [[Municipalidad de Santiago]] | [[Inmobiliaria San Valentino SpA]] | [[Iraci Hassler Jacob]] | [[Felipe Sanchez Perez]] | **$0** | [[Caso Sierra Bella]] |
 | [[TRX-2023-02-09-Gestion-Judicial-Hermosilla-Vivanco-01]] | 2023-02-09 | `llamada` | [[Factop SpA]] | [[Corte Suprema de Chile]] | [[Luis Hermosilla Osorio]] | [[Angela Vivanco Martinez]] | **$0** | [[Caso Audios]] |
-| [[TRX-2023-05-10-Liquidacion-Tributaria-ProCultura-SII-01]] | 2023-05-10 | `factura_falsa` | [[Fundacion ProCultura]] | [[Servicio Impuestos Internos]] | [[Alberto Larrain Salas]] | [[Leonarda Villalobos Muth]] | **$315.000.000** | [[Caso Convenios]] |
 | [[TRX-2023-06-22-Reunion-Audios-01]] | 2023-06-22 | `cohecho` | [[Factop SpA]] | [[Servicio Impuestos Internos]] | [[Luis Hermosilla Osorio]] | [[Leonarda Villalobos Muth]] | **$100.000.000** | [[Caso Audios]] |
 | [[TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01]] | 2023-06-29 | `resolucion_administrativa` | [[Contraloria General de la Republica]] | [[Seremi MINVU Antofagasta]] | [[Jorge Bermudez Soto]] | [[Carlos Contreras Gutierrez]] | **$0** | [[Caso Convenios]] |
 | [[TRX-2023-08-25-Reporte-ROS-Factop-UAF-01]] | 2023-08-25 | `factura_falsa` | [[Factop SpA]] | [[Unidad de Analisis Financiero]] | [[Luis Hermosilla Osorio]] | [[Javier Cruz Tamburrino]] | **$480.000.000** | [[Caso Audios]] |

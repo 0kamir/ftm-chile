@@ -21,8 +21,8 @@ xychart-beta
   title "Caída del Tamaño de la Componente Gigante (LCC %) tras Remoción Dirigida"
   x-axis ["Paso 0", "Paso 1", "Paso 2", "Paso 3", "Paso 4", "Paso 5", "Paso 6"]
   y-axis "Porcentaje de la Red Conectada (%)" 0 --> 100
-  line [86.2, 79.4, 67.0, 59.2, 54.6, 54.1, 53.7]
-  bar [86.2, 79.4, 67.0, 59.2, 54.6, 54.1, 53.7]
+  line [84.7, 77.8, 65.3, 58.8, 58.3, 53.7, 53.2]
+  bar [84.7, 77.8, 65.3, 58.8, 58.3, 53.7, 53.2]
 ```
 
 ---
@@ -31,10 +31,10 @@ xychart-beta
 
 | Paso ($k$) | Nodo Neutralizado / Removido | Tipo de Actor | Islas Resultantes (Componentes) | Nodos en Mayor Componente (`LCC`) | Cohesión Residual (`LCC %`) |
 | :---: | :--- | :--- | :---: | :---: | ---: |
-| **0** | Estado Inicial (Sin remoción) | `—` | **17** | 188 de 218 | **86.2%** |
-| **1** | [[Corte Suprema de Chile]] | `entidad_publica` | **21** | 173 de 218 | **79.4%** |
-| **2** | [[Union Democrata Independiente]] | `partido_politico` | **23** | 146 de 218 | **67.0%** |
-| **3** | [[Servicio Impuestos Internos]] | `entidad_publica` | **26** | 129 de 218 | **59.2%** |
-| **4** | [[Renovacion Nacional]] | `partido_politico` | **29** | 119 de 218 | **54.6%** |
-| **5** | [[Sebastian Pinera Echenique]] | `persona` | **29** | 118 de 218 | **54.1%** |
-| **6** | [[Bancard Inversiones Ltda]] | `entidad_privada` | **29** | 117 de 218 | **53.7%** |
+| **0** | Estado Inicial (Sin remoción) | `—` | **18** | 183 de 216 | **84.7%** |
+| **1** | [[Corte Suprema de Chile]] | `entidad_publica` | **22** | 168 de 216 | **77.8%** |
+| **2** | [[Union Democrata Independiente]] | `partido_politico` | **24** | 141 de 216 | **65.3%** |
+| **3** | [[Servicio Impuestos Internos]] | `entidad_publica` | **27** | 127 de 216 | **58.8%** |
+| **4** | [[Sebastian Pinera Echenique]] | `persona` | **27** | 126 de 216 | **58.3%** |
+| **5** | [[Renovacion Nacional]] | `partido_politico` | **30** | 116 de 216 | **53.7%** |
+| **6** | [[Bancard Inversiones Ltda]] | `entidad_privada` | **30** | 115 de 216 | **53.2%** |

@@ -12,7 +12,7 @@ firmante_destino: "[[Hector Pena Veliz]]"
 delito_imputado: "[[Fraude al Fisco]]"
 causa_vinculada: "[[Caso MOP-Gate]]"
 evidencia_soporte: "[[Sentencia-Corte-Suprema-MOPGate-2016]]"
-estado_verificacion: parcial
+estado_verificacion: verificado
 fuentes:
   - url: "https://www.emol.com/noticias/Nacional/2016/06/29/810116/Corte-Suprema-dicta-sentencia-definitiva-en-el-caso-Mop-Gate-y-confirma-condenas.html"
     titulo: "Corte Suprema dicta sentencia definitiva en el caso MOP-Gate y confirma condenas"
@@ -26,8 +26,14 @@ fuentes:
     tipo: secundaria
     fecha: 2014-08-12
     consultado: 2026-10-19
-alertas_verificacion:
-  - "Prensa: perjuicio de 'más de $1.200 millones' en honorarios; verificar cifra exacta de $1.253 millones."
+  - url: "https://www.elmostrador.cl/noticias/pais/2026/06/09/fraude-al-fisco-el-delito-por-el-cual-jorge-quiroz-fue-condenado-y-luego-absuelto-por-la-suprema/"
+    titulo: "Fraude al fisco: el delito por el cual Jorge Quiroz fue condenado y luego absuelto por la Suprema"
+    medio: "El Mostrador"
+    tipo: secundaria
+    fecha: 2026-06-09
+    consultado: 2026-10-19
+historial_correcciones:
+  - "Verificado el 2026-10-19: perjuicio judicialmente acreditado de $1.253 millones en la causa principal (El Mostrador, 2026)."
 tags:
   - nexo/fraude-fisco
   - sobresueldos

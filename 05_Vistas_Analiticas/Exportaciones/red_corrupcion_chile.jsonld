@@ -1677,7 +1677,7 @@
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
-        "schema:value": 24500000000
+        "schema:value": 0
       },
       "osint:entidadOrigen": {
         "@id": "urn:cl-osint:node:Sociedad_de_Inversiones_Pampa_Calichera_SA"
@@ -1689,7 +1689,7 @@
         "@id": "urn:cl-osint:node:Julio_Ponce_Lerou"
       },
       "osint:firmanteDestino": {
-        "@id": "urn:cl-osint:node:Patricio_Contesse_Gonzalez"
+        "@id": "urn:cl-osint:node:"
       },
       "osint:causaVinculada": {
         "@id": "urn:cl-osint:node:Caso_Cascadas"
@@ -1852,10 +1852,10 @@
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
-        "schema:value": 140000000
+        "schema:value": 55030792
       },
       "osint:entidadOrigen": {
-        "@id": "urn:cl-osint:node:Exportadora_y_de_Gestion_Caval_Ltda"
+        "@id": "urn:cl-osint:node:"
       },
       "osint:entidadDestino": {
         "@id": "urn:cl-osint:node:Municipalidad_de_Machali"
@@ -2421,31 +2421,6 @@
       }
     },
     {
-      "@id": "urn:cl-osint:node:TRX-2022-09-12-Reunion-Lobby-ProCultura-Biobio-01",
-      "@type": "osint:nexo_transaccion",
-      "schema:name": "TRX-2022-09-12-Reunion-Lobby-ProCultura-Biobio-01",
-      "schema:amount": {
-        "@type": "schema:MonetaryAmount",
-        "schema:currency": "CLP",
-        "schema:value": 0
-      },
-      "osint:entidadOrigen": {
-        "@id": "urn:cl-osint:node:Fundacion_ProCultura"
-      },
-      "osint:entidadDestino": {
-        "@id": "urn:cl-osint:node:GORE_Biobio"
-      },
-      "osint:firmanteOrigen": {
-        "@id": "urn:cl-osint:node:Alberto_Larrain_Salas"
-      },
-      "osint:firmanteDestino": {
-        "@id": "urn:cl-osint:node:Rodrigo_Diaz_Worner"
-      },
-      "osint:causaVinculada": {
-        "@id": "urn:cl-osint:node:Caso_Convenios"
-      }
-    },
-    {
       "@id": "urn:cl-osint:node:TRX-2022-10-03-Convenio-DV-01",
       "@type": "osint:nexo_transaccion",
       "schema:name": "TRX-2022-10-03-Convenio-DV-01",
@@ -2668,31 +2643,6 @@
       },
       "osint:causaVinculada": {
         "@id": "urn:cl-osint:node:Caso_Audios"
-      }
-    },
-    {
-      "@id": "urn:cl-osint:node:TRX-2023-05-10-Liquidacion-Tributaria-ProCultura-SII-01",
-      "@type": "osint:nexo_transaccion",
-      "schema:name": "TRX-2023-05-10-Liquidacion-Tributaria-ProCultura-SII-01",
-      "schema:amount": {
-        "@type": "schema:MonetaryAmount",
-        "schema:currency": "CLP",
-        "schema:value": 315000000
-      },
-      "osint:entidadOrigen": {
-        "@id": "urn:cl-osint:node:Fundacion_ProCultura"
-      },
-      "osint:entidadDestino": {
-        "@id": "urn:cl-osint:node:Servicio_Impuestos_Internos"
-      },
-      "osint:firmanteOrigen": {
-        "@id": "urn:cl-osint:node:Alberto_Larrain_Salas"
-      },
-      "osint:firmanteDestino": {
-        "@id": "urn:cl-osint:node:Leonarda_Villalobos_Muth"
-      },
-      "osint:causaVinculada": {
-        "@id": "urn:cl-osint:node:Caso_Convenios"
       }
     },
     {
@@ -2919,11 +2869,6 @@
       "@id": "urn:cl-osint:node:Querella-SII-Megafraude-Tributario-2023",
       "@type": "osint:evidencia_documental",
       "schema:name": "Querella-SII-Megafraude-Tributario-2023"
-    },
-    {
-      "@id": "urn:cl-osint:node:Registro-Audiencia-InfoLobby-Biobio-2022",
-      "@type": "osint:evidencia_documental",
-      "schema:name": "Registro-Audiencia-InfoLobby-Biobio-2022"
     },
     {
       "@id": "urn:cl-osint:node:Requerimiento-FNE-Cartel-Pollos-2011",

@@ -223,14 +223,14 @@ MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2010-08-19-Correo-Royalty-SQM-01"
 MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2010-11-15-Soborno-Licitacion-Basura-Maipu-01"}) SET n.tipo_nodo = "nexo_transaccion", n.rut = "", n.monto_clp = 186500000, n.fecha = "2010-11-15";
 MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2010-12-10-Compraventa-Offshore-Dominga-Bancard-Delano-01"}) SET n.tipo_nodo = "nexo_transaccion", n.rut = "", n.monto_clp = 75500000000, n.fecha = "2010-12-10";
 MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2011-03-10-Pagos-Penta-Wagner-01"}) SET n.tipo_nodo = "nexo_transaccion", n.rut = "", n.monto_clp = 42000000, n.fecha = "2011-03-10";
-MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01"}) SET n.tipo_nodo = "nexo_transaccion", n.rut = "", n.monto_clp = 24500000000, n.fecha = "2011-12-19";
+MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01"}) SET n.tipo_nodo = "nexo_transaccion", n.rut = "", n.monto_clp = 0, n.fecha = "2011-12-19";
 MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2012-03-22-Fraude-Residuos-CerroNavia-01"}) SET n.tipo_nodo = "nexo_transaccion", n.rut = "", n.monto_clp = 1120000000, n.fecha = "2012-03-22";
 MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01"}) SET n.tipo_nodo = "nexo_transaccion", n.rut = "", n.monto_clp = 233000000, n.fecha = "2012-07-11";
 MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2012-11-20-Inversion-Offshore-Bancard-Exalmar-LaHaya-01"}) SET n.tipo_nodo = "nexo_transaccion", n.rut = "", n.monto_clp = 8250000000, n.fecha = "2012-11-20";
 MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2013-05-20-Mencion-Referencial-Epstein-Dannatt-Velasco-01"}) SET n.tipo_nodo = "nexo_transaccion", n.rut = "", n.monto_clp = 0, n.fecha = "2013-05-20";
 MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2013-07-15-Boletas-Falsas-Penta-UDI-01"}) SET n.tipo_nodo = "nexo_transaccion", n.rut = "", n.monto_clp = 1260000000, n.fecha = "2013-07-15";
 MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2013-09-20-Boletas-Falsas-Penta-Novoa-01"}) SET n.tipo_nodo = "nexo_transaccion", n.rut = "", n.monto_clp = 156000000, n.fecha = "2013-09-20";
-MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2014-02-18-Soborno-Caval-Machali-01"}) SET n.tipo_nodo = "nexo_transaccion", n.rut = "", n.monto_clp = 140000000, n.fecha = "2014-02-18";
+MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2014-02-18-Soborno-Caval-Machali-01"}) SET n.tipo_nodo = "nexo_transaccion", n.rut = "", n.monto_clp = 55030792, n.fecha = "2014-02-18";
 MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2014-05-20-Facturas-LeyReservadaCobre-01"}) SET n.tipo_nodo = "nexo_transaccion", n.rut = "", n.monto_clp = 6100000000, n.fecha = "2014-05-20";
 MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2015-01-29-Facturas-Falsas-Caval-SII-01"}) SET n.tipo_nodo = "nexo_transaccion", n.rut = "", n.monto_clp = 2500000000, n.fecha = "2015-01-29";
 MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2015-08-10-Contacto-Academico-Patrocinio-Guendelman-Epstein-01"}) SET n.tipo_nodo = "nexo_transaccion", n.rut = "", n.monto_clp = 0, n.fecha = "2015-08-10";
@@ -253,7 +253,6 @@ MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2020-11-25-Compensacion-Indemniza
 MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2020-12-15-Deficit-Maipu-Certificados-01"}) SET n.tipo_nodo = "nexo_transaccion", n.rut = "", n.monto_clp = 30972000000, n.fecha = "2020-12-15";
 MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2021-04-15-Subvencion-VitaDeportes-01"}) SET n.tipo_nodo = "nexo_transaccion", n.rut = "", n.monto_clp = 759000000, n.fecha = "2021-04-15";
 MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2022-09-04-Presencia-Cerimedo-Sede-Renovacion-Nacional-01"}) SET n.tipo_nodo = "nexo_transaccion", n.rut = "", n.monto_clp = 0, n.fecha = "2022-09-04";
-MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2022-09-12-Reunion-Lobby-ProCultura-Biobio-01"}) SET n.tipo_nodo = "nexo_transaccion", n.rut = "", n.monto_clp = 0, n.fecha = "2022-09-12";
 MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2022-10-03-Convenio-DV-01"}) SET n.tipo_nodo = "nexo_transaccion", n.rut = "", n.monto_clp = 200000000, n.fecha = "2022-10-03";
 MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2022-10-19-Convenio-DV-02"}) SET n.tipo_nodo = "nexo_transaccion", n.rut = "", n.monto_clp = 170000000, n.fecha = "2022-10-19";
 MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2022-10-28-Convenio-ProCultura-Antofagasta"}) SET n.tipo_nodo = "nexo_transaccion", n.rut = "", n.monto_clp = 500000000, n.fecha = "2022-10-28";
@@ -263,7 +262,6 @@ MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2022-11-29-Convenio-DV-03"}) SET 
 MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2022-12-20-Convenio-EnTi-01"}) SET n.tipo_nodo = "nexo_transaccion", n.rut = "", n.monto_clp = 250635000, n.fecha = "2022-12-20";
 MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2023-01-20-Compraventa-Clinica-SierraBella-01"}) SET n.tipo_nodo = "nexo_transaccion", n.rut = "", n.monto_clp = 0, n.fecha = "2023-01-20";
 MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2023-02-09-Gestion-Judicial-Hermosilla-Vivanco-01"}) SET n.tipo_nodo = "nexo_transaccion", n.rut = "", n.monto_clp = 0, n.fecha = "2023-02-09";
-MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2023-05-10-Liquidacion-Tributaria-ProCultura-SII-01"}) SET n.tipo_nodo = "nexo_transaccion", n.rut = "", n.monto_clp = 315000000, n.fecha = "2023-05-10";
 MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2023-06-22-Reunion-Audios-01"}) SET n.tipo_nodo = "nexo_transaccion", n.rut = "", n.monto_clp = 100000000, n.fecha = "2023-06-22";
 MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01"}) SET n.tipo_nodo = "nexo_transaccion", n.rut = "", n.monto_clp = 0, n.fecha = "2023-06-29";
 MERGE (n:NodoForense:NexoTransaccion {id: "TRX-2023-08-25-Reporte-ROS-Factop-UAF-01"}) SET n.tipo_nodo = "nexo_transaccion", n.rut = "", n.monto_clp = 480000000, n.fecha = "2023-08-25";
@@ -289,7 +287,6 @@ MERGE (n:NodoForense:EvidenciaDocumental {id: "Procesamientos-Ministra-Rutherfor
 MERGE (n:NodoForense:EvidenciaDocumental {id: "Publicacion-Archivos-DOJ-CasoEpstein-2026"}) SET n.tipo_nodo = "evidencia_documental", n.rut = "", n.monto_clp = 0, n.fecha = "2026-01-30";
 MERGE (n:NodoForense:EvidenciaDocumental {id: "Querella-SII-Boletas-SQM-2015"}) SET n.tipo_nodo = "evidencia_documental", n.rut = "", n.monto_clp = 0, n.fecha = "2015-03-24";
 MERGE (n:NodoForense:EvidenciaDocumental {id: "Querella-SII-Megafraude-Tributario-2023"}) SET n.tipo_nodo = "evidencia_documental", n.rut = "", n.monto_clp = 0, n.fecha = "2023-12-14";
-MERGE (n:NodoForense:EvidenciaDocumental {id: "Registro-Audiencia-InfoLobby-Biobio-2022"}) SET n.tipo_nodo = "evidencia_documental", n.rut = "", n.monto_clp = 0, n.fecha = "2022-09-12";
 MERGE (n:NodoForense:EvidenciaDocumental {id: "Requerimiento-FNE-Cartel-Pollos-2011"}) SET n.tipo_nodo = "evidencia_documental", n.rut = "", n.monto_clp = 0, n.fecha = "2011-11-30";
 MERGE (n:NodoForense:EvidenciaDocumental {id: "Resolucion-Exenta-MINVU-Antofagasta-2022"}) SET n.tipo_nodo = "evidencia_documental", n.rut = "", n.monto_clp = 0, n.fecha = "2022-10-03";
 MERGE (n:NodoForense:EvidenciaDocumental {id: "Resolucion-GORE-Biobio-EnTi-2022"}) SET n.tipo_nodo = "evidencia_documental", n.rut = "", n.monto_clp = 0, n.fecha = "2022-12-20";
@@ -590,7 +587,6 @@ MATCH (a:NodoForense {id: "TRX-2011-03-10-Pagos-Penta-Wagner-01"}), (b:NodoForen
 MATCH (a:NodoForense {id: "TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01"}), (b:NodoForense {id: "Sociedad de Inversiones Pampa Calichera SA"}) MERGE (a)-[:ORIGEN_DE_FONDOS {propiedad_yaml: "entidad_origen"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01"}), (b:NodoForense {id: "SQM SA"}) MERGE (a)-[:DESTINO_DE_FONDOS {propiedad_yaml: "entidad_destino"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01"}), (b:NodoForense {id: "Julio Ponce Lerou"}) MERGE (a)-[:AUTORIZADO_POR {propiedad_yaml: "firmante_origen"}]->(b);
-MATCH (a:NodoForense {id: "TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01"}), (b:NodoForense {id: "Patricio Contesse Gonzalez"}) MERGE (a)-[:SUSCRITO_POR {propiedad_yaml: "firmante_destino"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01"}), (b:NodoForense {id: "Negociacion Incompatible"}) MERGE (a)-[:CONFIGURA_DELITO {propiedad_yaml: "delito_imputado"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01"}), (b:NodoForense {id: "Caso Cascadas"}) MERGE (a)-[:INVESTIGADO_EN {propiedad_yaml: "causa_vinculada"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01"}), (b:NodoForense {id: "Resolucion-SVS-CasoCascadas-2014"}) MERGE (a)-[:RESPALDADO_POR {propiedad_yaml: "evidencia_soporte"}]->(b);
@@ -635,7 +631,6 @@ MATCH (a:NodoForense {id: "TRX-2013-09-20-Boletas-Falsas-Penta-Novoa-01"}), (b:N
 MATCH (a:NodoForense {id: "TRX-2013-09-20-Boletas-Falsas-Penta-Novoa-01"}), (b:NodoForense {id: "Delito Tributario"}) MERGE (a)-[:CONFIGURA_DELITO {propiedad_yaml: "delito_imputado"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2013-09-20-Boletas-Falsas-Penta-Novoa-01"}), (b:NodoForense {id: "Caso Penta"}) MERGE (a)-[:INVESTIGADO_EN {propiedad_yaml: "causa_vinculada"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2013-09-20-Boletas-Falsas-Penta-Novoa-01"}), (b:NodoForense {id: "Sentencia-8Juzgado-Garantia-Penta-2018"}) MERGE (a)-[:RESPALDADO_POR {propiedad_yaml: "evidencia_soporte"}]->(b);
-MATCH (a:NodoForense {id: "TRX-2014-02-18-Soborno-Caval-Machali-01"}), (b:NodoForense {id: "Exportadora y de Gestion Caval Ltda"}) MERGE (a)-[:ORIGEN_DE_FONDOS {propiedad_yaml: "entidad_origen"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2014-02-18-Soborno-Caval-Machali-01"}), (b:NodoForense {id: "Municipalidad de Machali"}) MERGE (a)-[:DESTINO_DE_FONDOS {propiedad_yaml: "entidad_destino"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2014-02-18-Soborno-Caval-Machali-01"}), (b:NodoForense {id: "Jorge Silva Menares"}) MERGE (a)-[:SUSCRITO_POR {propiedad_yaml: "firmante_destino"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2014-02-18-Soborno-Caval-Machali-01"}), (b:NodoForense {id: "Cohecho"}) MERGE (a)-[:CONFIGURA_DELITO {propiedad_yaml: "delito_imputado"}]->(b);
@@ -791,13 +786,6 @@ MATCH (a:NodoForense {id: "TRX-2022-09-04-Presencia-Cerimedo-Sede-Renovacion-Nac
 MATCH (a:NodoForense {id: "TRX-2022-09-04-Presencia-Cerimedo-Sede-Renovacion-Nacional-01"}), (b:NodoForense {id: "Renovacion Nacional"}) MERGE (a)-[:SUSCRITO_POR {propiedad_yaml: "firmante_destino"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2022-09-04-Presencia-Cerimedo-Sede-Renovacion-Nacional-01"}), (b:NodoForense {id: "Caso Operaciones Digitales e Injerencia Electoral"}) MERGE (a)-[:INVESTIGADO_EN {propiedad_yaml: "causa_vinculada"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2022-09-04-Presencia-Cerimedo-Sede-Renovacion-Nacional-01"}), (b:NodoForense {id: "Fotografia-Cerimedo-Sede-Renovacion-Nacional-2022"}) MERGE (a)-[:RESPALDADO_POR {propiedad_yaml: "evidencia_soporte"}]->(b);
-MATCH (a:NodoForense {id: "TRX-2022-09-12-Reunion-Lobby-ProCultura-Biobio-01"}), (b:NodoForense {id: "Fundacion ProCultura"}) MERGE (a)-[:ORIGEN_DE_FONDOS {propiedad_yaml: "entidad_origen"}]->(b);
-MATCH (a:NodoForense {id: "TRX-2022-09-12-Reunion-Lobby-ProCultura-Biobio-01"}), (b:NodoForense {id: "GORE Biobio"}) MERGE (a)-[:DESTINO_DE_FONDOS {propiedad_yaml: "entidad_destino"}]->(b);
-MATCH (a:NodoForense {id: "TRX-2022-09-12-Reunion-Lobby-ProCultura-Biobio-01"}), (b:NodoForense {id: "Alberto Larrain Salas"}) MERGE (a)-[:AUTORIZADO_POR {propiedad_yaml: "firmante_origen"}]->(b);
-MATCH (a:NodoForense {id: "TRX-2022-09-12-Reunion-Lobby-ProCultura-Biobio-01"}), (b:NodoForense {id: "Rodrigo Diaz Worner"}) MERGE (a)-[:SUSCRITO_POR {propiedad_yaml: "firmante_destino"}]->(b);
-MATCH (a:NodoForense {id: "TRX-2022-09-12-Reunion-Lobby-ProCultura-Biobio-01"}), (b:NodoForense {id: "Caso Convenios"}) MERGE (a)-[:INVESTIGADO_EN {propiedad_yaml: "causa_vinculada"}]->(b);
-MATCH (a:NodoForense {id: "TRX-2022-09-12-Reunion-Lobby-ProCultura-Biobio-01"}), (b:NodoForense {id: "Trafico de Influencias"}) MERGE (a)-[:CONFIGURA_DELITO {propiedad_yaml: "delito_imputado"}]->(b);
-MATCH (a:NodoForense {id: "TRX-2022-09-12-Reunion-Lobby-ProCultura-Biobio-01"}), (b:NodoForense {id: "Registro-Audiencia-InfoLobby-Biobio-2022"}) MERGE (a)-[:RESPALDADO_POR {propiedad_yaml: "evidencia_soporte"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2022-10-03-Convenio-DV-01"}), (b:NodoForense {id: "Seremi MINVU Antofagasta"}) MERGE (a)-[:ORIGEN_DE_FONDOS {propiedad_yaml: "entidad_origen"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2022-10-03-Convenio-DV-01"}), (b:NodoForense {id: "Fundacion Democracia Viva"}) MERGE (a)-[:DESTINO_DE_FONDOS {propiedad_yaml: "entidad_destino"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2022-10-03-Convenio-DV-01"}), (b:NodoForense {id: "Carlos Contreras Gutierrez"}) MERGE (a)-[:AUTORIZADO_POR {propiedad_yaml: "firmante_origen"}]->(b);
@@ -861,13 +849,6 @@ MATCH (a:NodoForense {id: "TRX-2023-02-09-Gestion-Judicial-Hermosilla-Vivanco-01
 MATCH (a:NodoForense {id: "TRX-2023-02-09-Gestion-Judicial-Hermosilla-Vivanco-01"}), (b:NodoForense {id: "Caso Audios"}) MERGE (a)-[:INVESTIGADO_EN {propiedad_yaml: "causa_vinculada"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2023-02-09-Gestion-Judicial-Hermosilla-Vivanco-01"}), (b:NodoForense {id: "Trafico de Influencias"}) MERGE (a)-[:CONFIGURA_DELITO {propiedad_yaml: "delito_imputado"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2023-02-09-Gestion-Judicial-Hermosilla-Vivanco-01"}), (b:NodoForense {id: "Audio-Reunion-Edificio-Alonso-2023"}) MERGE (a)-[:RESPALDADO_POR {propiedad_yaml: "evidencia_soporte"}]->(b);
-MATCH (a:NodoForense {id: "TRX-2023-05-10-Liquidacion-Tributaria-ProCultura-SII-01"}), (b:NodoForense {id: "Fundacion ProCultura"}) MERGE (a)-[:ORIGEN_DE_FONDOS {propiedad_yaml: "entidad_origen"}]->(b);
-MATCH (a:NodoForense {id: "TRX-2023-05-10-Liquidacion-Tributaria-ProCultura-SII-01"}), (b:NodoForense {id: "Servicio Impuestos Internos"}) MERGE (a)-[:DESTINO_DE_FONDOS {propiedad_yaml: "entidad_destino"}]->(b);
-MATCH (a:NodoForense {id: "TRX-2023-05-10-Liquidacion-Tributaria-ProCultura-SII-01"}), (b:NodoForense {id: "Alberto Larrain Salas"}) MERGE (a)-[:AUTORIZADO_POR {propiedad_yaml: "firmante_origen"}]->(b);
-MATCH (a:NodoForense {id: "TRX-2023-05-10-Liquidacion-Tributaria-ProCultura-SII-01"}), (b:NodoForense {id: "Leonarda Villalobos Muth"}) MERGE (a)-[:SUSCRITO_POR {propiedad_yaml: "firmante_destino"}]->(b);
-MATCH (a:NodoForense {id: "TRX-2023-05-10-Liquidacion-Tributaria-ProCultura-SII-01"}), (b:NodoForense {id: "Delito Tributario"}) MERGE (a)-[:CONFIGURA_DELITO {propiedad_yaml: "delito_imputado"}]->(b);
-MATCH (a:NodoForense {id: "TRX-2023-05-10-Liquidacion-Tributaria-ProCultura-SII-01"}), (b:NodoForense {id: "Caso Convenios"}) MERGE (a)-[:INVESTIGADO_EN {propiedad_yaml: "causa_vinculada"}]->(b);
-MATCH (a:NodoForense {id: "TRX-2023-05-10-Liquidacion-Tributaria-ProCultura-SII-01"}), (b:NodoForense {id: "Registro-Audiencia-InfoLobby-Biobio-2022"}) MERGE (a)-[:RESPALDADO_POR {propiedad_yaml: "evidencia_soporte"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2023-06-22-Reunion-Audios-01"}), (b:NodoForense {id: "Factop SpA"}) MERGE (a)-[:ORIGEN_DE_FONDOS {propiedad_yaml: "entidad_origen"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2023-06-22-Reunion-Audios-01"}), (b:NodoForense {id: "Servicio Impuestos Internos"}) MERGE (a)-[:DESTINO_DE_FONDOS {propiedad_yaml: "entidad_destino"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2023-06-22-Reunion-Audios-01"}), (b:NodoForense {id: "Luis Hermosilla Osorio"}) MERGE (a)-[:AUTORIZADO_POR {propiedad_yaml: "firmante_origen"}]->(b);
@@ -960,9 +941,6 @@ MATCH (a:NodoForense {id: "Querella-SII-Boletas-SQM-2015"}), (b:NodoForense {id:
 MATCH (a:NodoForense {id: "Querella-SII-Megafraude-Tributario-2023"}), (b:NodoForense {id: "Servicio Impuestos Internos"}) MERGE (a)-[:EMITIDO_POR {propiedad_yaml: "organismo_emisor"}]->(b);
 MATCH (a:NodoForense {id: "Querella-SII-Megafraude-Tributario-2023"}), (b:NodoForense {id: "Caso Megafraude Tributario Operacion Tributos"}) MERGE (a)-[:INVESTIGADO_EN {propiedad_yaml: "causa_vinculada"}]->(b);
 MATCH (a:NodoForense {id: "Querella-SII-Megafraude-Tributario-2023"}), (b:NodoForense {id: "TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01"}) MERGE (a)-[:ACREDITA_NEXO {propiedad_yaml: "nexo_respaldado"}]->(b);
-MATCH (a:NodoForense {id: "Registro-Audiencia-InfoLobby-Biobio-2022"}), (b:NodoForense {id: "GORE Biobio"}) MERGE (a)-[:EMITIDO_POR {propiedad_yaml: "organismo_emisor"}]->(b);
-MATCH (a:NodoForense {id: "Registro-Audiencia-InfoLobby-Biobio-2022"}), (b:NodoForense {id: "Caso Convenios"}) MERGE (a)-[:INVESTIGADO_EN {propiedad_yaml: "causa_vinculada"}]->(b);
-MATCH (a:NodoForense {id: "Registro-Audiencia-InfoLobby-Biobio-2022"}), (b:NodoForense {id: "TRX-2022-09-12-Reunion-Lobby-ProCultura-Biobio-01"}) MERGE (a)-[:ACREDITA_NEXO {propiedad_yaml: "nexo_respaldado"}]->(b);
 MATCH (a:NodoForense {id: "Requerimiento-FNE-Cartel-Pollos-2011"}), (b:NodoForense {id: "Fiscalia Nacional Economica"}) MERGE (a)-[:EMITIDO_POR {propiedad_yaml: "organismo_emisor"}]->(b);
 MATCH (a:NodoForense {id: "Requerimiento-FNE-Cartel-Pollos-2011"}), (b:NodoForense {id: "Caso Colusion de los Pollos"}) MERGE (a)-[:INVESTIGADO_EN {propiedad_yaml: "causa_vinculada"}]->(b);
 MATCH (a:NodoForense {id: "Requerimiento-FNE-Cartel-Pollos-2011"}), (b:NodoForense {id: "TRX-2008-01-15-Pacto-Cuotas-Produccion-Cartel-Pollos-01"}) MERGE (a)-[:ACREDITA_NEXO {propiedad_yaml: "nexo_respaldado"}]->(b);

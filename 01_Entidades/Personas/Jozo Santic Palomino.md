@@ -7,16 +7,21 @@ aliases:
 rol_principal: "Ex Coronel Jefe de Finanzas del Comando de Apoyo a la Fuerza (CAF)"
 afiliacion_politica: "Independiente"
 situacion_procesal: condenado
-medida_cautelar: "Condenado en primera instancia a 13 años por la ministra Romy Rutherford; la Corte Marcial revocó la condena por fraude al fisco en la arista Tecnodata II"
-estado_verificacion: parcial
+medida_cautelar: "Condenado por la Corte Marcial (arista Tecnodata II) a 5 años y un día de presidio efectivo por falsedad en materia de administración militar; en primera instancia (nov-2019) la ministra Rutherford le había impuesto 10 años y un día y 3 años y un día"
+estado_verificacion: verificado
 fuentes:
   - url: "https://vlex.cl/vid/corte-marcial-revoca-condena-844999287"
     titulo: "Corte Marcial revoca condena por fraude a general (r) Santic"
     medio: "vLex Chile"
     tipo: secundaria
     consultado: 2026-10-19
-alertas_verificacion:
-  - "La Corte Marcial revocó su condena por fraude al fisco en la arista Tecnodata II; verificar si su situación es 'condenado' en otras aristas."
+  - url: "https://www.elciudadano.com/?p=683869"
+    titulo: "Fraude en el Ejército: Corte Marcial disminuye condenas a cuatro uniformados"
+    medio: "El Ciudadano"
+    tipo: secundaria
+    consultado: 2026-10-19
+historial_correcciones:
+  - "Corregido el 2026-10-19: la Corte Marcial no revocó su condena, la redujo a 5 años y un día (falsedad); se descartó la condena por fraude al fisco."
 tags:
   - entidad/persona
   - caso-milicogate

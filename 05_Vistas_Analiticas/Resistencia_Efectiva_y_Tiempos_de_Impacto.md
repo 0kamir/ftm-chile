@@ -18,10 +18,10 @@ tags:
 
 ## 1. Invariantes Eléctricos y Estocásticos del Grafo
 
-- **Cobertura del Componente Gigante Conectado (LCC)**: **`218 / 238` nodos operativos (`91.6%`)**
-- **Índice Total de Kirchhoff ($Kf(G) = N \operatorname{Tr}(L^+)$)**: **`53203.29 Ω`**
-- **Resistencia Efectiva Promedio entre Pares ($\bar{\Omega}$)**: **`2.2493 Ω`**
-- **Constante de Kemeny de la Cadena de Markov ($K(G)$)**: **`663.87 pasos`**
+- **Cobertura del Componente Gigante Conectado (LCC)**: **`216 / 236` nodos operativos (`91.5%`)**
+- **Índice Total de Kirchhoff ($Kf(G) = N \operatorname{Tr}(L^+)$)**: **`60770.46 Ω`**
+- **Resistencia Efectiva Promedio entre Pares ($\bar{\Omega}$)**: **`2.6172 Ω`**
+- **Constante de Kemeny de la Cadena de Markov ($K(G)$)**: **`783.77 pasos`**
 
 ---
 
@@ -29,26 +29,26 @@ tags:
 
 | Pos | Nodo Operativo | Categoría | Cercanía de Corriente ($C_{\text{CF}}$) | Auto-Potencial $L^+_{uu}$ | Grado ($k_i$) |
 | :---: | :--- | :--- | :---: | :---: | :---: |
-| **1** | [[Corte Suprema de Chile]] | `entidad_publica` | **`0.7631`** | `0.1849` | `13` |
-| **2** | [[Servicio Impuestos Internos]] | `entidad_publica` | **`0.7445`** | `0.2174` | `9` |
-| **3** | [[Union Democrata Independiente]] | `partido_politico` | **`0.7312`** | `0.2419` | `15` |
-| **4** | [[Sebastian Pinera Echenique]] | `persona` | **`0.7133`** | `0.2760` | `7` |
-| **5** | [[Bancard Inversiones Ltda]] | `entidad_privada` | **`0.6894`** | `0.3244` | `6` |
-| **6** | [[TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01]] | `nexo_transaccion` | **`0.6886`** | `0.3261` | `5` |
-| **7** | [[Sergio Munoz Gajardo]] | `persona` | **`0.6864`** | `0.3306` | `5` |
-| **8** | [[Renovacion Nacional]] | `partido_politico` | **`0.6835`** | `0.3368` | `10` |
-| **9** | [[Augusto Pinochet Ugarte]] | `persona` | **`0.6832`** | `0.3375` | `8` |
-| **10** | [[TRX-2003-11-05-Operacion-Politico-Judicial-Spiniak-01]] | `nexo_transaccion` | **`0.6742`** | `0.3569` | `5` |
-| **11** | [[TRX-2005-08-10-Evasion-Tributaria-Cuentas-Riggs-SII-01]] | `nexo_transaccion` | **`0.6711`** | `0.3638` | `5` |
-| **12** | [[Factop SpA]] | `entidad_privada` | **`0.6707`** | `0.3646` | `6` |
-| **13** | [[Luis Hermosilla Osorio]] | `persona` | **`0.6707`** | `0.3646` | `6` |
-| **14** | [[TRX-2023-06-22-Reunion-Audios-01]] | `nexo_transaccion` | **`0.6698`** | `0.3666` | `5` |
-| **15** | [[Lucia Hiriart Rodriguez]] | `persona` | **`0.6646`** | `0.3782` | `6` |
-| **16** | [[TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01]] | `nexo_transaccion` | **`0.6631`** | `0.3817` | `5` |
-| **17** | [[Caso Audios]] | `causa_judicial` | **`0.6580`** | `0.3932` | `5` |
-| **18** | [[Carlos Alberto Delano Abbott]] | `persona` | **`0.6510`** | `0.4096` | `6` |
-| **19** | [[TRX-2011-03-10-Pagos-Penta-Wagner-01]] | `nexo_transaccion` | **`0.6480`** | `0.4167` | `5` |
-| **20** | [[TRX-2022-11-15-Gestion-Nombramientos-Hermosilla-Zaliasnik-01]] | `nexo_transaccion` | **`0.6464`** | `0.4204` | `5` |
+| **1** | [[Corte Suprema de Chile]] | `entidad_publica` | **`0.6614`** | `0.2025` | `13` |
+| **2** | [[Union Democrata Independiente]] | `partido_politico` | **`0.6388`** | `0.2557` | `15` |
+| **3** | [[Sebastian Pinera Echenique]] | `persona` | **`0.6299`** | `0.2778` | `7` |
+| **4** | [[Servicio Impuestos Internos]] | `entidad_publica` | **`0.6295`** | `0.2786` | `8` |
+| **5** | [[Bancard Inversiones Ltda]] | `entidad_privada` | **`0.6109`** | `0.3269` | `6` |
+| **6** | [[TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01]] | `nexo_transaccion` | **`0.6092`** | `0.3314` | `5` |
+| **7** | [[Renovacion Nacional]] | `partido_politico` | **`0.6059`** | `0.3402` | `10` |
+| **8** | [[Sergio Munoz Gajardo]] | `persona` | **`0.6033`** | `0.3474` | `5` |
+| **9** | [[Augusto Pinochet Ugarte]] | `persona` | **`0.5966`** | `0.3660` | `8` |
+| **10** | [[TRX-2003-11-05-Operacion-Politico-Judicial-Spiniak-01]] | `nexo_transaccion` | **`0.5959`** | `0.3679` | `5` |
+| **11** | [[TRX-2005-08-10-Evasion-Tributaria-Cuentas-Riggs-SII-01]] | `nexo_transaccion` | **`0.5871`** | `0.3930` | `5` |
+| **12** | [[Factop SpA]] | `entidad_privada` | **`0.5831`** | `0.4046` | `6` |
+| **13** | [[Luis Hermosilla Osorio]] | `persona` | **`0.5831`** | `0.4046` | `6` |
+| **14** | [[Lucia Hiriart Rodriguez]] | `persona` | **`0.5823`** | `0.4067` | `6` |
+| **15** | [[TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01]] | `nexo_transaccion` | **`0.5818`** | `0.4082` | `5` |
+| **16** | [[Carlos Alberto Delano Abbott]] | `persona` | **`0.5778`** | `0.4202` | `6` |
+| **17** | [[Caso Audios]] | `causa_judicial` | **`0.5735`** | `0.4332` | `5` |
+| **18** | [[TRX-2011-03-10-Pagos-Penta-Wagner-01]] | `nexo_transaccion` | **`0.5717`** | `0.4386` | `5` |
+| **19** | [[TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01]] | `nexo_transaccion` | **`0.5688`** | `0.4473` | `5` |
+| **20** | [[TRX-2022-11-15-Gestion-Nombramientos-Hermosilla-Zaliasnik-01]] | `nexo_transaccion` | **`0.5669`** | `0.4532` | `5` |
 
 ---
 
@@ -58,23 +58,23 @@ Pares de actores sin arista directa cuya **Resistencia Efectiva ($\Omega_{uv}$)*
 
 | # | Actor A ($u$) | Actor B ($v$) | Resistencia Efectiva ($\Omega_{uv}$) | Conductancia ($\Omega_{uv}^{-1}$) | Tiempo Conmutación ($H_{uv}+H_{vu}$) |
 | :---: | :--- | :--- | :---: | :---: | :---: |
-| **1** | [[Carlos Contreras Gutierrez]] | [[Seremi MINVU Antofagasta]] | **`0.3840 Ω`** | `2.6038 S` | `288.0 pasos` |
-| **2** | [[Carlos Contreras Gutierrez]] | [[Daniel Andrade Schwarze]] | **`0.4047 Ω`** | `2.4707 S` | `303.6 pasos` |
-| **3** | [[Corte Suprema de Chile]] | [[Servicio Impuestos Internos]] | **`0.4109 Ω`** | `2.4335 S` | `308.2 pasos` |
-| **4** | [[Empresas Penta SA]] | [[Union Democrata Independiente]] | **`0.4151 Ω`** | `2.4092 S` | `311.3 pasos` |
-| **5** | [[Corte Suprema de Chile]] | [[Sergio Munoz Gajardo]] | **`0.4310 Ω`** | `2.3204 S` | `323.2 pasos` |
-| **6** | [[Sebastian Pinera Echenique]] | [[Union Democrata Independiente]] | **`0.4404 Ω`** | `2.2708 S` | `330.3 pasos` |
-| **7** | [[Servicio Impuestos Internos]] | [[Union Democrata Independiente]] | **`0.4477 Ω`** | `2.2335 S` | `335.8 pasos` |
-| **8** | [[Augusto Pinochet Ugarte]] | [[Comando de Apoyo a la Fuerza del Ejercito]] | **`0.4533 Ω`** | `2.2060 S` | `340.0 pasos` |
-| **9** | [[Corte Suprema de Chile]] | [[Factop SpA]] | **`0.4576 Ω`** | `2.1855 S` | `343.2 pasos` |
-| **10** | [[Corte Suprema de Chile]] | [[Luis Hermosilla Osorio]] | **`0.4576 Ω`** | `2.1855 S` | `343.2 pasos` |
-| **11** | [[Corte Suprema de Chile]] | [[Sebastian Pinera Echenique]] | **`0.4588 Ω`** | `2.1794 S` | `344.1 pasos` |
-| **12** | [[Sergio Munoz Gajardo]] | [[Servicio Impuestos Internos]] | **`0.4671 Ω`** | `2.1410 S` | `350.3 pasos` |
-| **13** | [[Carlos Contreras Gutierrez]] | [[Fundacion Democracia Viva]] | **`0.4697 Ω`** | `2.1289 S` | `352.3 pasos` |
-| **14** | [[Daniel Andrade Schwarze]] | [[Seremi MINVU Antofagasta]] | **`0.4697 Ω`** | `2.1289 S` | `352.3 pasos` |
-| **15** | [[Augusto Pinochet Ugarte]] | [[Corte Suprema de Chile]] | **`0.4740 Ω`** | `2.1098 S` | `355.5 pasos` |
-| **16** | [[Corte Suprema de Chile]] | [[Union Democrata Independiente]] | **`0.4745 Ω`** | `2.1074 S` | `355.9 pasos` |
-| **17** | [[Bancard Inversiones Ltda]] | [[Union Democrata Independiente]] | **`0.4887 Ω`** | `2.0461 S` | `366.6 pasos` |
-| **18** | [[Sebastian Pinera Echenique]] | [[Servicio Impuestos Internos]] | **`0.4938 Ω`** | `2.0249 S` | `370.4 pasos` |
-| **19** | [[Corte Suprema de Chile]] | [[Lucia Hiriart Rodriguez]] | **`0.4971 Ω`** | `2.0118 S` | `372.8 pasos` |
-| **20** | [[Fundacion Democracia Viva]] | [[Seremi MINVU Antofagasta]] | **`0.5028 Ω`** | `1.9888 S` | `377.1 pasos` |
+| **1** | [[Carlos Contreras Gutierrez]] | [[Seremi MINVU Antofagasta]] | **`0.3841 Ω`** | `2.6038 S` | `278.8 pasos` |
+| **2** | [[Carlos Contreras Gutierrez]] | [[Daniel Andrade Schwarze]] | **`0.4058 Ω`** | `2.4645 S` | `294.6 pasos` |
+| **3** | [[Empresas Penta SA]] | [[Union Democrata Independiente]] | **`0.4152 Ω`** | `2.4085 S` | `301.4 pasos` |
+| **4** | [[Corte Suprema de Chile]] | [[Servicio Impuestos Internos]] | **`0.4308 Ω`** | `2.3213 S` | `312.7 pasos` |
+| **5** | [[Corte Suprema de Chile]] | [[Sergio Munoz Gajardo]] | **`0.4322 Ω`** | `2.3137 S` | `313.8 pasos` |
+| **6** | [[Sebastian Pinera Echenique]] | [[Union Democrata Independiente]] | **`0.4475 Ω`** | `2.2346 S` | `324.9 pasos` |
+| **7** | [[Augusto Pinochet Ugarte]] | [[Comando de Apoyo a la Fuerza del Ejercito]] | **`0.4544 Ω`** | `2.2009 S` | `329.9 pasos` |
+| **8** | [[Corte Suprema de Chile]] | [[Factop SpA]] | **`0.4655 Ω`** | `2.1482 S` | `338.0 pasos` |
+| **9** | [[Corte Suprema de Chile]] | [[Luis Hermosilla Osorio]] | **`0.4655 Ω`** | `2.1482 S` | `338.0 pasos` |
+| **10** | [[Daniel Andrade Schwarze]] | [[Seremi MINVU Antofagasta]] | **`0.4710 Ω`** | `2.1233 S` | `341.9 pasos` |
+| **11** | [[Carlos Contreras Gutierrez]] | [[Fundacion Democracia Viva]] | **`0.4710 Ω`** | `2.1233 S` | `341.9 pasos` |
+| **12** | [[Servicio Impuestos Internos]] | [[Union Democrata Independiente]] | **`0.4711 Ω`** | `2.1226 S` | `342.0 pasos` |
+| **13** | [[Corte Suprema de Chile]] | [[Sebastian Pinera Echenique]] | **`0.4731 Ω`** | `2.1137 S` | `343.5 pasos` |
+| **14** | [[Corte Suprema de Chile]] | [[Union Democrata Independiente]] | **`0.4803 Ω`** | `2.0822 S` | `348.7 pasos` |
+| **15** | [[Augusto Pinochet Ugarte]] | [[Corte Suprema de Chile]] | **`0.4808 Ω`** | `2.0799 S` | `349.1 pasos` |
+| **16** | [[Sergio Munoz Gajardo]] | [[Servicio Impuestos Internos]] | **`0.4820 Ω`** | `2.0746 S` | `349.9 pasos` |
+| **17** | [[Bancard Inversiones Ltda]] | [[Union Democrata Independiente]] | **`0.4977 Ω`** | `2.0091 S` | `361.4 pasos` |
+| **18** | [[Fundacion Democracia Viva]] | [[Seremi MINVU Antofagasta]] | **`0.5043 Ω`** | `1.9830 S` | `366.1 pasos` |
+| **19** | [[Corte Suprema de Chile]] | [[Lucia Hiriart Rodriguez]] | **`0.5046 Ω`** | `1.9816 S` | `366.4 pasos` |
+| **20** | [[Bancard Inversiones Ltda]] | [[Corte Suprema de Chile]] | **`0.5265 Ω`** | `1.8994 S` | `382.2 pasos` |

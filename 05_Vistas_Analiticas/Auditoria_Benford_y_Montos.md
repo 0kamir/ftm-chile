@@ -10,8 +10,8 @@ tags:
 
 # Auditoría Estadística Forense: Ley de Benford y Sesgo de Redondeo
 
-- **Operaciones Monetarias Analizadas (`monto_clp > 0`)**: **53**
-- **Operaciones con Monto Redondo Discrecional (Múltiplos de `$10.000.000 CLP`)**: **38 de 53 (71.7%)**
+- **Operaciones Monetarias Analizadas (`monto_clp > 0`)**: **51**
+- **Operaciones con Monto Redondo Discrecional (Múltiplos de `$10.000.000 CLP`)**: **36 de 51 (70.6%)**
 
 ---
 
@@ -22,21 +22,21 @@ xychart-beta
   title "Distribución del Primer Dígito: Observado (%) vs. Teórico Benford (%)"
   x-axis ["Dígito 1", "Dígito 2", "Dígito 3", "Dígito 4", "Dígito 5", "Dígito 6", "Dígito 7", "Dígito 8", "Dígito 9"]
   y-axis "Frecuencia (%)" 0 --> 45
-  bar [32.1, 26.4, 17.0, 5.7, 5.7, 1.9, 5.7, 1.9, 3.8]
+  bar [31.4, 25.5, 15.7, 5.9, 7.8, 2.0, 5.9, 2.0, 3.9]
   line [30.1, 17.6, 12.5, 9.7, 7.9, 6.7, 5.8, 5.1, 4.6]
 ```
 
 | Primer Dígito ($d$) | Conteo Observado | Frecuencia Observada (%) | Frecuencia Esperada Benford (%) | Desviación ($\Delta$) |
 | :---: | :---: | ---: | ---: | ---: |
-| **1** | 17 | 32.1% | 30.1% | `+2.0%` |
-| **2** | 14 | 26.4% | 17.6% | `+8.8%` |
-| **3** | 9 | 17.0% | 12.5% | `+4.5%` |
-| **4** | 3 | 5.7% | 9.7% | `-4.0%` |
-| **5** | 3 | 5.7% | 7.9% | `-2.2%` |
-| **6** | 1 | 1.9% | 6.7% | `-4.8%` |
-| **7** | 3 | 5.7% | 5.8% | `-0.1%` |
-| **8** | 1 | 1.9% | 5.1% | `-3.2%` |
-| **9** | 2 | 3.8% | 4.6% | `-0.8%` |
+| **1** | 16 | 31.4% | 30.1% | `+1.3%` |
+| **2** | 13 | 25.5% | 17.6% | `+7.9%` |
+| **3** | 8 | 15.7% | 12.5% | `+3.2%` |
+| **4** | 3 | 5.9% | 9.7% | `-3.8%` |
+| **5** | 4 | 7.8% | 7.9% | `-0.1%` |
+| **6** | 1 | 2.0% | 6.7% | `-4.7%` |
+| **7** | 3 | 5.9% | 5.8% | `+0.1%` |
+| **8** | 1 | 2.0% | 5.1% | `-3.1%` |
+| **9** | 2 | 3.9% | 4.6% | `-0.7%` |
 
 ---
 
@@ -50,7 +50,6 @@ En contabilidad forense, los presupuestos basados en cubicaciones reales de obra
 | [[TRX-2017-03-03-Compensacion-Historica-Consumidores-CMPC-SERNAC-01]] | 2017-03-03 | `compensacion_reparatoria` | [[Empresas CMPC SA]] | [[Servicio Nacional del Consumidor]] | **$97.500.000.000** | [[Caso Colusion del Papel Tissue]] |
 | [[TRX-2010-12-10-Compraventa-Offshore-Dominga-Bancard-Delano-01]] | 2010-12-10 | `trato_directo` | [[Andes Iron SpA]] | [[Bancard Inversiones Ltda]] | **$75.500.000.000** | [[Caso Minera Dominga Pandora Papers]] |
 | [[TRX-2015-10-29-Pago-Multas-Historicas-Cartel-Pollos-01]] | 2015-10-29 | `compensacion_reparatoria` | [[Agrosuper SA]] | [[Corte Suprema de Chile]] | **$38.400.000.000** | [[Caso Colusion de los Pollos]] |
-| [[TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01]] | 2011-12-19 | `desviacion_fondos` | [[Sociedad de Inversiones Pampa Calichera SA]] | [[SQM SA]] | **$24.500.000.000** | [[Caso Cascadas]] |
 | [[TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01]] | 2016-04-05 | `desviacion_fondos` | [[Mossack Fonseca y Sociedades Offshore Panama]] | [[Unidad de Analisis Financiero]] | **$19.500.000.000** | [[Caso Panama Papers Chile]] |
 | [[TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01]] | 1982-08-28 | `desviacion_fondos` | [[Bancard Inversiones Ltda]] | [[Corte Suprema de Chile]] | **$18.500.000.000** | [[Caso LAN Informacion Privilegiada y Banco de Talca]] |
 | [[TRX-2004-07-14-Desvio-Gastos-Reservados-Riggs-Pinochet-01]] | 2004-07-14 | `desviacion_fondos` | [[Comando de Apoyo a la Fuerza del Ejercito]] | [[Riggs Bank y Sociedades Offshore Ashburton]] | **$15.800.000.000** | [[Caso Riggs]] |
@@ -81,6 +80,5 @@ En contabilidad forense, los presupuestos basados en cubicaciones reales de obra
 | [[TRX-2022-10-03-Convenio-DV-01]] | 2022-10-03 | `convenio_directo` | [[Seremi MINVU Antofagasta]] | [[Fundacion Democracia Viva]] | **$200.000.000** | [[Caso Convenios]] |
 | [[TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01]] | 2019-12-11 | `transferencia` | [[Factop SpA]] | [[Senado de la Republica de Chile]] | **$190.000.000** | [[Caso Audios]] |
 | [[TRX-2022-10-19-Convenio-DV-02]] | 2022-10-19 | `convenio_directo` | [[Seremi MINVU Antofagasta]] | [[Fundacion Democracia Viva]] | **$170.000.000** | [[Caso Convenios]] |
-| [[TRX-2014-02-18-Soborno-Caval-Machali-01]] | 2014-02-18 | `cohecho_soborno` | [[Exportadora y de Gestion Caval Ltda]] | [[Municipalidad de Machali]] | **$140.000.000** | [[Caso Caval]] |
 | [[TRX-2003-11-05-Operacion-Politico-Judicial-Spiniak-01]] | 2003-11-05 | `gestion_influencia` | [[Renovacion Nacional]] | [[Corte Suprema de Chile]] | **$120.000.000** | [[Caso Spiniak]] |
 | [[TRX-2023-06-22-Reunion-Audios-01]] | 2023-06-22 | `cohecho` | [[Factop SpA]] | [[Servicio Impuestos Internos]] | **$100.000.000** | [[Caso Audios]] |

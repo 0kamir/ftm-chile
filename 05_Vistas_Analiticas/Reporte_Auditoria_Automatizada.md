@@ -10,8 +10,8 @@ tags:
 
 # Reporte de Auditoría Forense Automatizada (CGR / Ministerio Público)
 
-- **Monto Global Investigado**: **$694.022.063.198 CLP** (Equivalente a **11.661.961.8 UTM**)
-- **Total de Aristas Reificadas (`TRX`)**: **70**
+- **Monto Global Investigado**: **$669.122.093.990 CLP** (Equivalente a **11.252.779.5 UTM**)
+- **Total de Aristas Reificadas (`TRX`)**: **68**
 - **Casos de Fraccionamiento bajo 5.000 UTM detectados**: **1**
 
 ---
@@ -120,43 +120,43 @@ flowchart LR
   N81 --> N19["Servicio Impuestos Internos"]:::priv
   N82(["Carlos Eugenio Lavin Garcia-Huidobro"]):::pers -. "autoriza" .-> N81
   N81 -. "suscribe" .-> N83(["Pablo Wagner San Martin"]):::pers
-  N84["Sociedad de Inversiones Pampa Calichera SA"]:::pub --> N85("TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01<br/>$24.500.000.000"):::trx
+  N84["Sociedad de Inversiones Pampa Calichera SA"]:::pub --> N85("TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01<br/>$0"):::trx
   N85 --> N65["SQM SA"]:::priv
   N86(["Julio Ponce Lerou"]):::pers -. "autoriza" .-> N85
-  N85 -. "suscribe" .-> N67(["Patricio Contesse Gonzalez"]):::pers
-  N87["Municipalidad de Cerro Navia"]:::pub --> N88("TRX-2012-03-22-Fraude-Residuos-CerroNavia-01<br/>$1.120.000.000"):::trx
-  N88 --> N72["KDM Empresas SA"]:::priv
-  N89(["Luis Plaza Sanchez"]):::pers -. "autoriza" .-> N88
-  N88 -. "suscribe" .-> N76(["Marcelo Torres Ferrari"]):::pers
-  N90["Corpesca SA"]:::pub --> N92("TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01<br/>$233.000.000"):::trx
-  N92 --> N91["Senado de la Republica de Chile"]:::priv
-  N93(["Francisco Mujica Ortuzar"]):::pers -. "autoriza" .-> N92
-  N92 -. "suscribe" .-> N94(["Jaime Orpis Bouchon"]):::pers
-  N11["Bancard Inversiones Ltda"]:::pub --> N96("TRX-2012-11-20-Inversion-Offshore-Bancard-Exalmar-LaHaya-01<br/>$8.250.000.000"):::trx
-  N96 --> N95["Contraloria General de la Republica"]:::priv
-  N13(["Sebastian Pinera Echenique"]):::pers -. "autoriza" .-> N96
-  N96 -. "suscribe" .-> N68(["Santiago Valdes Gutierrez"]):::pers
-  N9["Corte Suprema de Chile"]:::pub --> N97("TRX-2013-05-20-Mencion-Referencial-Epstein-Dannatt-Velasco-01<br/>$0"):::trx
-  N97 --> N9["Corte Suprema de Chile"]:::priv
-  N98(["Andres Velasco Branes"]):::pers -. "autoriza" .-> N97
-  N97 -. "suscribe" .-> N98(["Andres Velasco Branes"]):::pers
-  N80["Empresas Penta SA"]:::pub --> N99("TRX-2013-07-15-Boletas-Falsas-Penta-UDI-01<br/>$1.260.000.000"):::trx
-  N99 --> N23["Union Democrata Independiente"]:::priv
-  N79(["Carlos Alberto Delano Abbott"]):::pers -. "autoriza" .-> N99
-  N99 -. "suscribe" .-> N71(["Pablo Longueira Montes"]):::pers
-  N80["Empresas Penta SA"]:::pub --> N100("TRX-2013-09-20-Boletas-Falsas-Penta-Novoa-01<br/>$156.000.000"):::trx
+  N85 -. "suscribe" .-> N87([""]):::pers
+  N88["Municipalidad de Cerro Navia"]:::pub --> N89("TRX-2012-03-22-Fraude-Residuos-CerroNavia-01<br/>$1.120.000.000"):::trx
+  N89 --> N72["KDM Empresas SA"]:::priv
+  N90(["Luis Plaza Sanchez"]):::pers -. "autoriza" .-> N89
+  N89 -. "suscribe" .-> N76(["Marcelo Torres Ferrari"]):::pers
+  N91["Corpesca SA"]:::pub --> N93("TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01<br/>$233.000.000"):::trx
+  N93 --> N92["Senado de la Republica de Chile"]:::priv
+  N94(["Francisco Mujica Ortuzar"]):::pers -. "autoriza" .-> N93
+  N93 -. "suscribe" .-> N95(["Jaime Orpis Bouchon"]):::pers
+  N11["Bancard Inversiones Ltda"]:::pub --> N97("TRX-2012-11-20-Inversion-Offshore-Bancard-Exalmar-LaHaya-01<br/>$8.250.000.000"):::trx
+  N97 --> N96["Contraloria General de la Republica"]:::priv
+  N13(["Sebastian Pinera Echenique"]):::pers -. "autoriza" .-> N97
+  N97 -. "suscribe" .-> N68(["Santiago Valdes Gutierrez"]):::pers
+  N9["Corte Suprema de Chile"]:::pub --> N98("TRX-2013-05-20-Mencion-Referencial-Epstein-Dannatt-Velasco-01<br/>$0"):::trx
+  N98 --> N9["Corte Suprema de Chile"]:::priv
+  N99(["Andres Velasco Branes"]):::pers -. "autoriza" .-> N98
+  N98 -. "suscribe" .-> N99(["Andres Velasco Branes"]):::pers
+  N80["Empresas Penta SA"]:::pub --> N100("TRX-2013-07-15-Boletas-Falsas-Penta-UDI-01<br/>$1.260.000.000"):::trx
   N100 --> N23["Union Democrata Independiente"]:::priv
   N79(["Carlos Alberto Delano Abbott"]):::pers -. "autoriza" .-> N100
-  N100 -. "suscribe" .-> N101(["Jovino Novoa Vasquez"]):::pers
-  N102["Exportadora y de Gestion Caval Ltda"]:::pub --> N104("TRX-2014-02-18-Soborno-Caval-Machali-01<br/>$140.000.000"):::trx
+  N100 -. "suscribe" .-> N71(["Pablo Longueira Montes"]):::pers
+  N80["Empresas Penta SA"]:::pub --> N101("TRX-2013-09-20-Boletas-Falsas-Penta-Novoa-01<br/>$156.000.000"):::trx
+  N101 --> N23["Union Democrata Independiente"]:::priv
+  N79(["Carlos Alberto Delano Abbott"]):::pers -. "autoriza" .-> N101
+  N101 -. "suscribe" .-> N102(["Jovino Novoa Vasquez"]):::pers
+  N87[""]:::pub --> N104("TRX-2014-02-18-Soborno-Caval-Machali-01<br/>$55.030.792"):::trx
   N104 --> N103["Municipalidad de Machali"]:::priv
-  N105([""]):::pers -. "autoriza" .-> N104
-  N104 -. "suscribe" .-> N106(["Jorge Silva Menares"]):::pers
-  N6["Comando de Apoyo a la Fuerza del Ejercito"]:::pub --> N108("TRX-2014-05-20-Facturas-LeyReservadaCobre-01<br/>$6.100.000.000"):::trx
-  N108 --> N107["Frasim Ltda"]:::priv
-  N109(["Juan Miguel Fuente-Alba Poblete"]):::pers -. "autoriza" .-> N108
-  N108 -. "suscribe" .-> N110(["Jozo Santic Palomino"]):::pers
-  N102["Exportadora y de Gestion Caval Ltda"]:::pub --> N111("TRX-2015-01-29-Facturas-Falsas-Caval-SII-01<br/>$2.500.000.000"):::trx
+  N87([""]):::pers -. "autoriza" .-> N104
+  N104 -. "suscribe" .-> N105(["Jorge Silva Menares"]):::pers
+  N6["Comando de Apoyo a la Fuerza del Ejercito"]:::pub --> N107("TRX-2014-05-20-Facturas-LeyReservadaCobre-01<br/>$6.100.000.000"):::trx
+  N107 --> N106["Frasim Ltda"]:::priv
+  N108(["Juan Miguel Fuente-Alba Poblete"]):::pers -. "autoriza" .-> N107
+  N107 -. "suscribe" .-> N109(["Jozo Santic Palomino"]):::pers
+  N110["Exportadora y de Gestion Caval Ltda"]:::pub --> N111("TRX-2015-01-29-Facturas-Falsas-Caval-SII-01<br/>$2.500.000.000"):::trx
   N111 --> N19["Servicio Impuestos Internos"]:::priv
   N112(["Natalia Compagnon Soto"]):::pers -. "autoriza" .-> N111
   N111 -. "suscribe" .-> N112(["Natalia Compagnon Soto"]):::pers
@@ -166,7 +166,7 @@ flowchart LR
   N113 -. "suscribe" .-> N114(["Eduardo Guendelman Israel"]):::pers
   N6["Comando de Apoyo a la Fuerza del Ejercito"]:::pub --> N116("TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01<br/>$3.500.000.000"):::trx
   N116 --> N115["Unidad de Analisis Financiero"]:::priv
-  N109(["Juan Miguel Fuente-Alba Poblete"]):::pers -. "autoriza" .-> N116
+  N108(["Juan Miguel Fuente-Alba Poblete"]):::pers -. "autoriza" .-> N116
   N116 -. "suscribe" .-> N117(["Javier Cruz Tamburrino"]):::pers
   N62["Agrosuper SA"]:::pub --> N118("TRX-2015-10-29-Pago-Multas-Historicas-Cartel-Pollos-01<br/>$38.400.000.000"):::trx
   N118 --> N9["Corte Suprema de Chile"]:::priv
@@ -221,7 +221,7 @@ flowchart LR
   N148(["Leon Marcelo Lefort Hernandez"]):::pers -. "autoriza" .-> N147
   N147 -. "suscribe" .-> N149(["Marcelo Campos Henriquez"]):::pers
   N150["Factop SpA"]:::pub --> N151("TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01<br/>$190.000.000"):::trx
-  N151 --> N91["Senado de la Republica de Chile"]:::priv
+  N151 --> N92["Senado de la Republica de Chile"]:::priv
   N152(["Luis Hermosilla Osorio"]):::pers -. "autoriza" .-> N151
   N151 -. "suscribe" .-> N153(["Andres Chadwick Pinera"]):::pers
   N57["Farmacias Salcobrand SA"]:::pub --> N154("TRX-2020-11-25-Compensacion-Indemnizatoria-Consumidores-Farmacias-01<br/>$2.180.000.000"):::trx
@@ -240,70 +240,62 @@ flowchart LR
   N164 --> N40["Renovacion Nacional"]:::priv
   N165(["Fernando Cerimedo"]):::pers -. "autoriza" .-> N164
   N164 -. "suscribe" .-> N40(["Renovacion Nacional"]):::pers
-  N166["Fundacion ProCultura"]:::pub --> N168("TRX-2022-09-12-Reunion-Lobby-ProCultura-Biobio-01<br/>$0"):::trx
-  N168 --> N167["GORE Biobio"]:::priv
-  N169(["Alberto Larrain Salas"]):::pers -. "autoriza" .-> N168
-  N168 -. "suscribe" .-> N170(["Rodrigo Diaz Worner"]):::pers
-  N171["Seremi MINVU Antofagasta"]:::pub --> N173("TRX-2022-10-03-Convenio-DV-01<br/>$200.000.000"):::trx
-  N173 --> N172["Fundacion Democracia Viva"]:::priv
-  N174(["Carlos Contreras Gutierrez"]):::pers -. "autoriza" .-> N173
-  N173 -. "suscribe" .-> N175(["Daniel Andrade Schwarze"]):::pers
-  N171["Seremi MINVU Antofagasta"]:::pub --> N176("TRX-2022-10-19-Convenio-DV-02<br/>$170.000.000"):::trx
-  N176 --> N172["Fundacion Democracia Viva"]:::priv
-  N174(["Carlos Contreras Gutierrez"]):::pers -. "autoriza" .-> N176
-  N176 -. "suscribe" .-> N175(["Daniel Andrade Schwarze"]):::pers
-  N171["Seremi MINVU Antofagasta"]:::pub --> N177("TRX-2022-10-28-Convenio-ProCultura-Antofagasta<br/>$500.000.000"):::trx
-  N177 --> N166["Fundacion ProCultura"]:::priv
-  N174(["Carlos Contreras Gutierrez"]):::pers -. "autoriza" .-> N177
-  N177 -. "suscribe" .-> N169(["Alberto Larrain Salas"]):::pers
-  N150["Factop SpA"]:::pub --> N178("TRX-2022-11-15-Gestion-Nombramientos-Hermosilla-Zaliasnik-01<br/>$0"):::trx
-  N178 --> N9["Corte Suprema de Chile"]:::priv
-  N152(["Luis Hermosilla Osorio"]):::pers -. "autoriza" .-> N178
-  N178 -. "suscribe" .-> N179(["Gabriel Zaliasnik Schilkrut"]):::pers
-  N167["GORE Biobio"]:::pub --> N180("TRX-2022-11-18-Convenio-ProCultura-Biobio<br/>$2.553.000.000"):::trx
-  N180 --> N166["Fundacion ProCultura"]:::priv
-  N170(["Rodrigo Diaz Worner"]):::pers -. "autoriza" .-> N180
-  N180 -. "suscribe" .-> N169(["Alberto Larrain Salas"]):::pers
-  N171["Seremi MINVU Antofagasta"]:::pub --> N181("TRX-2022-11-29-Convenio-DV-03<br/>$56.000.000"):::trx
-  N181 --> N172["Fundacion Democracia Viva"]:::priv
-  N174(["Carlos Contreras Gutierrez"]):::pers -. "autoriza" .-> N181
-  N181 -. "suscribe" .-> N175(["Daniel Andrade Schwarze"]):::pers
-  N167["GORE Biobio"]:::pub --> N183("TRX-2022-12-20-Convenio-EnTi-01<br/>$250.635.000"):::trx
-  N183 --> N182["Fundacion En Ti"]:::priv
-  N170(["Rodrigo Diaz Worner"]):::pers -. "autoriza" .-> N183
-  N183 -. "suscribe" .-> N184(["Camila Polizzi Fonceca"]):::pers
-  N185["Municipalidad de Santiago"]:::pub --> N187("TRX-2023-01-20-Compraventa-Clinica-SierraBella-01<br/>$0"):::trx
-  N187 --> N186["Inmobiliaria San Valentino SpA"]:::priv
-  N188(["Iraci Hassler Jacob"]):::pers -. "autoriza" .-> N187
-  N187 -. "suscribe" .-> N189(["Felipe Sanchez Perez"]):::pers
-  N150["Factop SpA"]:::pub --> N190("TRX-2023-02-09-Gestion-Judicial-Hermosilla-Vivanco-01<br/>$0"):::trx
-  N190 --> N9["Corte Suprema de Chile"]:::priv
-  N152(["Luis Hermosilla Osorio"]):::pers -. "autoriza" .-> N190
-  N190 -. "suscribe" .-> N191(["Angela Vivanco Martinez"]):::pers
-  N166["Fundacion ProCultura"]:::pub --> N192("TRX-2023-05-10-Liquidacion-Tributaria-ProCultura-SII-01<br/>$315.000.000"):::trx
-  N192 --> N19["Servicio Impuestos Internos"]:::priv
-  N169(["Alberto Larrain Salas"]):::pers -. "autoriza" .-> N192
-  N192 -. "suscribe" .-> N193(["Leonarda Villalobos Muth"]):::pers
-  N150["Factop SpA"]:::pub --> N194("TRX-2023-06-22-Reunion-Audios-01<br/>$100.000.000"):::trx
-  N194 --> N19["Servicio Impuestos Internos"]:::priv
-  N152(["Luis Hermosilla Osorio"]):::pers -. "autoriza" .-> N194
-  N194 -. "suscribe" .-> N193(["Leonarda Villalobos Muth"]):::pers
-  N95["Contraloria General de la Republica"]:::pub --> N195("TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01<br/>$0"):::trx
-  N195 --> N171["Seremi MINVU Antofagasta"]:::priv
-  N196(["Jorge Bermudez Soto"]):::pers -. "autoriza" .-> N195
-  N195 -. "suscribe" .-> N174(["Carlos Contreras Gutierrez"]):::pers
-  N150["Factop SpA"]:::pub --> N197("TRX-2023-08-25-Reporte-ROS-Factop-UAF-01<br/>$480.000.000"):::trx
-  N197 --> N115["Unidad de Analisis Financiero"]:::priv
-  N152(["Luis Hermosilla Osorio"]):::pers -. "autoriza" .-> N197
-  N197 -. "suscribe" .-> N117(["Javier Cruz Tamburrino"]):::pers
-  N105[""]:::pub --> N198("TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01<br/>$240.000.000.000"):::trx
-  N198 --> N19["Servicio Impuestos Internos"]:::priv
-  N105([""]):::pers -. "autoriza" .-> N198
-  N198 -. "suscribe" .-> N105([""]):::pers
-  N91["Senado de la Republica de Chile"]:::pub --> N200("TRX-2025-10-15-Denuncia-Retencion-Sueldos-Asesores-Flores-01<br/>$35.000.000"):::trx
-  N200 --> N199["Camila Flores Oporto"]:::priv
-  N91(["Senado de la Republica de Chile"]):::pers -. "autoriza" .-> N200
-  N200 -. "suscribe" .-> N199(["Camila Flores Oporto"]):::pers
+  N166["Seremi MINVU Antofagasta"]:::pub --> N168("TRX-2022-10-03-Convenio-DV-01<br/>$200.000.000"):::trx
+  N168 --> N167["Fundacion Democracia Viva"]:::priv
+  N169(["Carlos Contreras Gutierrez"]):::pers -. "autoriza" .-> N168
+  N168 -. "suscribe" .-> N170(["Daniel Andrade Schwarze"]):::pers
+  N166["Seremi MINVU Antofagasta"]:::pub --> N171("TRX-2022-10-19-Convenio-DV-02<br/>$170.000.000"):::trx
+  N171 --> N167["Fundacion Democracia Viva"]:::priv
+  N169(["Carlos Contreras Gutierrez"]):::pers -. "autoriza" .-> N171
+  N171 -. "suscribe" .-> N170(["Daniel Andrade Schwarze"]):::pers
+  N166["Seremi MINVU Antofagasta"]:::pub --> N173("TRX-2022-10-28-Convenio-ProCultura-Antofagasta<br/>$500.000.000"):::trx
+  N173 --> N172["Fundacion ProCultura"]:::priv
+  N169(["Carlos Contreras Gutierrez"]):::pers -. "autoriza" .-> N173
+  N173 -. "suscribe" .-> N174(["Alberto Larrain Salas"]):::pers
+  N150["Factop SpA"]:::pub --> N175("TRX-2022-11-15-Gestion-Nombramientos-Hermosilla-Zaliasnik-01<br/>$0"):::trx
+  N175 --> N9["Corte Suprema de Chile"]:::priv
+  N152(["Luis Hermosilla Osorio"]):::pers -. "autoriza" .-> N175
+  N175 -. "suscribe" .-> N176(["Gabriel Zaliasnik Schilkrut"]):::pers
+  N177["GORE Biobio"]:::pub --> N178("TRX-2022-11-18-Convenio-ProCultura-Biobio<br/>$2.553.000.000"):::trx
+  N178 --> N172["Fundacion ProCultura"]:::priv
+  N179(["Rodrigo Diaz Worner"]):::pers -. "autoriza" .-> N178
+  N178 -. "suscribe" .-> N174(["Alberto Larrain Salas"]):::pers
+  N166["Seremi MINVU Antofagasta"]:::pub --> N180("TRX-2022-11-29-Convenio-DV-03<br/>$56.000.000"):::trx
+  N180 --> N167["Fundacion Democracia Viva"]:::priv
+  N169(["Carlos Contreras Gutierrez"]):::pers -. "autoriza" .-> N180
+  N180 -. "suscribe" .-> N170(["Daniel Andrade Schwarze"]):::pers
+  N177["GORE Biobio"]:::pub --> N182("TRX-2022-12-20-Convenio-EnTi-01<br/>$250.635.000"):::trx
+  N182 --> N181["Fundacion En Ti"]:::priv
+  N179(["Rodrigo Diaz Worner"]):::pers -. "autoriza" .-> N182
+  N182 -. "suscribe" .-> N183(["Camila Polizzi Fonceca"]):::pers
+  N184["Municipalidad de Santiago"]:::pub --> N186("TRX-2023-01-20-Compraventa-Clinica-SierraBella-01<br/>$0"):::trx
+  N186 --> N185["Inmobiliaria San Valentino SpA"]:::priv
+  N187(["Iraci Hassler Jacob"]):::pers -. "autoriza" .-> N186
+  N186 -. "suscribe" .-> N188(["Felipe Sanchez Perez"]):::pers
+  N150["Factop SpA"]:::pub --> N189("TRX-2023-02-09-Gestion-Judicial-Hermosilla-Vivanco-01<br/>$0"):::trx
+  N189 --> N9["Corte Suprema de Chile"]:::priv
+  N152(["Luis Hermosilla Osorio"]):::pers -. "autoriza" .-> N189
+  N189 -. "suscribe" .-> N190(["Angela Vivanco Martinez"]):::pers
+  N150["Factop SpA"]:::pub --> N191("TRX-2023-06-22-Reunion-Audios-01<br/>$100.000.000"):::trx
+  N191 --> N19["Servicio Impuestos Internos"]:::priv
+  N152(["Luis Hermosilla Osorio"]):::pers -. "autoriza" .-> N191
+  N191 -. "suscribe" .-> N192(["Leonarda Villalobos Muth"]):::pers
+  N96["Contraloria General de la Republica"]:::pub --> N193("TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01<br/>$0"):::trx
+  N193 --> N166["Seremi MINVU Antofagasta"]:::priv
+  N194(["Jorge Bermudez Soto"]):::pers -. "autoriza" .-> N193
+  N193 -. "suscribe" .-> N169(["Carlos Contreras Gutierrez"]):::pers
+  N150["Factop SpA"]:::pub --> N195("TRX-2023-08-25-Reporte-ROS-Factop-UAF-01<br/>$480.000.000"):::trx
+  N195 --> N115["Unidad de Analisis Financiero"]:::priv
+  N152(["Luis Hermosilla Osorio"]):::pers -. "autoriza" .-> N195
+  N195 -. "suscribe" .-> N117(["Javier Cruz Tamburrino"]):::pers
+  N87[""]:::pub --> N196("TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01<br/>$240.000.000.000"):::trx
+  N196 --> N19["Servicio Impuestos Internos"]:::priv
+  N87([""]):::pers -. "autoriza" .-> N196
+  N196 -. "suscribe" .-> N87([""]):::pers
+  N92["Senado de la Republica de Chile"]:::pub --> N198("TRX-2025-10-15-Denuncia-Retencion-Sueldos-Asesores-Flores-01<br/>$35.000.000"):::trx
+  N198 --> N197["Camila Flores Oporto"]:::priv
+  N92(["Senado de la Republica de Chile"]):::pers -. "autoriza" .-> N198
+  N198 -. "suscribe" .-> N197(["Camila Flores Oporto"]):::pers
 ```
 
 ---
@@ -320,7 +312,7 @@ flowchart LR
 
 | Entidad Emisora | N° Receptores | Monto Total Emitido (CLP) | Índice HHI (0–10.000) | Diagnóstico de Concentración |
 | :--- | :---: | ---: | ---: | :--- |
-| [[]] | 1 | $240.000.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
+| [[]] | 2 | $240.055.030.792 | **9995** | Alta Concentración / Captura (> 2.500) |
 | [[Empresas CMPC SA]] | 1 | $97.500.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
 | [[Andes Iron SpA]] | 1 | $75.500.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
 | [[Agrosuper SA]] | 1 | $38.400.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
@@ -330,11 +322,10 @@ flowchart LR
 | [[Direccion de Finanzas de Carabineros]] | 2 | $29.798.928.198 | **9074** | Alta Concentración / Captura (> 2.500) |
 | [[Comando de Apoyo a la Fuerza del Ejercito]] | 4 | $28.350.000.000 | **3830** | Alta Concentración / Captura (> 2.500) |
 | [[Agencia Central de Inteligencia CIA y Escuela de las Americas]] | 3 | $26.400.000.000 | **4501** | Alta Concentración / Captura (> 2.500) |
-| [[Sociedad de Inversiones Pampa Calichera SA]] | 1 | $24.500.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
 | [[Fundacion CEMA Chile]] | 1 | $10.500.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
 | [[Sociedad Benefactora y Educacional Dignidad]] | 1 | $3.450.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
 | [[GORE Biobio]] | 2 | $2.803.635.000 | **8372** | Alta Concentración / Captura (> 2.500) |
-| [[Exportadora y de Gestion Caval Ltda]] | 2 | $2.640.000.000 | **8996** | Alta Concentración / Captura (> 2.500) |
+| [[Exportadora y de Gestion Caval Ltda]] | 1 | $2.500.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
 | [[Riggs Bank y Sociedades Offshore Ashburton]] | 1 | $2.450.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
 | [[Farmacias Salcobrand SA]] | 1 | $2.180.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
 | [[Empresas Penta SA]] | 2 | $1.458.000.000 | **9440** | Alta Concentración / Captura (> 2.500) |
@@ -345,7 +336,6 @@ flowchart LR
 | [[Factop SpA]] | 3 | $770.000.000 | **4664** | Alta Concentración / Captura (> 2.500) |
 | [[Municipalidad de Vitacura]] | 1 | $759.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
 | [[Inversiones El Bosque Ltda]] | 1 | $480.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
-| [[Fundacion ProCultura]] | 1 | $315.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
 | [[Union Democrata Independiente]] | 1 | $240.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
 | [[Corpesca SA]] | 1 | $233.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
 | [[KDM Empresas SA]] | 1 | $186.500.000 | **10000** | Alta Concentración / Captura (> 2.500) |
@@ -360,16 +350,16 @@ flowchart LR
 
 | Posición | Nodo / Entidad | Tipo de Nodo | Intermediación (Brandes) | PageRank Forense | Rol Topológico |
 | :---: | :--- | :--- | ---: | ---: | :--- |
-| 1 | [[Corte Suprema de Chile]] | `entidad_publica` | `0.4042` | `0.0283` | Conector Interregional / Puente Crítico |
-| 2 | [[Servicio Impuestos Internos]] | `entidad_publica` | `0.2393` | `0.0177` | Conector Interregional / Puente Crítico |
-| 3 | [[Augusto Pinochet Ugarte]] | `persona` | `0.0964` | `0.0089` | Conector Interregional / Puente Crítico |
-| 4 | [[Sergio Munoz Gajardo]] | `persona` | `0.0868` | `0.0083` | Conector Interregional / Puente Crítico |
-| 5 | [[Bancard Inversiones Ltda]] | `entidad_privada` | `0.0847` | `0.0081` | Conector Interregional / Puente Crítico |
-| 6 | [[Agrosuper SA]] | `entidad_privada` | `0.0786` | `0.0044` | Conector Interregional / Puente Crítico |
-| 7 | [[Gonzalo Vial Vial]] | `persona` | `0.0786` | `0.0044` | Conector Interregional / Puente Crítico |
-| 8 | [[Asociacion de Productores Avicolas de Chile AG]] | `entidad_privada` | `0.0688` | `0.0045` | Conector Interregional / Puente Crítico |
-| 9 | [[Juan Miguel Ovalle Garces]] | `persona` | `0.0688` | `0.0045` | Conector Interregional / Puente Crítico |
-| 10 | [[Factop SpA]] | `entidad_privada` | `0.0607` | `0.0072` | Conector Interregional / Puente Crítico |
+| 1 | [[Corte Suprema de Chile]] | `entidad_publica` | `0.4329` | `0.0286` | Conector Interregional / Puente Crítico |
+| 2 | [[Bancard Inversiones Ltda]] | `entidad_privada` | `0.1490` | `0.0083` | Conector Interregional / Puente Crítico |
+| 3 | [[Contraloria General de la Republica]] | `entidad_publica` | `0.1366` | `0.0052` | Conector Interregional / Puente Crítico |
+| 4 | [[Servicio Impuestos Internos]] | `entidad_publica` | `0.1194` | `0.0172` | Conector Interregional / Puente Crítico |
+| 5 | [[Augusto Pinochet Ugarte]] | `persona` | `0.1023` | `0.0091` | Conector Interregional / Puente Crítico |
+| 6 | [[Agrosuper SA]] | `entidad_privada` | `0.0775` | `0.0044` | Conector Interregional / Puente Crítico |
+| 7 | [[Gonzalo Vial Vial]] | `persona` | `0.0775` | `0.0044` | Conector Interregional / Puente Crítico |
+| 8 | [[Asociacion de Productores Avicolas de Chile AG]] | `entidad_privada` | `0.0678` | `0.0046` | Conector Interregional / Puente Crítico |
+| 9 | [[Juan Miguel Ovalle Garces]] | `persona` | `0.0678` | `0.0046` | Conector Interregional / Puente Crítico |
+| 10 | [[Sergio Munoz Gajardo]] | `persona` | `0.0650` | `0.0084` | Conector Interregional / Puente Crítico |
 
 ---
 
@@ -401,14 +391,14 @@ flowchart LR
 | [[TRX-2010-11-15-Soborno-Licitacion-Basura-Maipu-01]] | 2010-11-15 | `cohecho_soborno` | [[KDM Empresas SA]] | [[Municipalidad de Maipu]] | $186.500.000 | 3064.8 UTM | Exento (< 5.000 UTM) |
 | [[TRX-2010-12-10-Compraventa-Offshore-Dominga-Bancard-Delano-01]] | 2010-12-10 | `trato_directo` | [[Andes Iron SpA]] | [[Bancard Inversiones Ltda]] | $75.500.000.000 | 1240694.8 UTM | Afecto (>= 5.000 UTM) |
 | [[TRX-2011-03-10-Pagos-Penta-Wagner-01]] | 2011-03-10 | `transferencia` | [[Empresas Penta SA]] | [[Servicio Impuestos Internos]] | $42.000.000 | 690.2 UTM | Exento (< 5.000 UTM) |
-| [[TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01]] | 2011-12-19 | `desviacion_fondos` | [[Sociedad de Inversiones Pampa Calichera SA]] | [[SQM SA]] | $24.500.000.000 | 402609.6 UTM | Afecto (>= 5.000 UTM) |
+| [[TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01]] | 2011-12-19 | `desviacion_fondos` | [[Sociedad de Inversiones Pampa Calichera SA]] | [[SQM SA]] | $0 | 0.0 UTM | Exento (< 5.000 UTM) |
 | [[TRX-2012-03-22-Fraude-Residuos-CerroNavia-01]] | 2012-03-22 | `trato_directo` | [[Municipalidad de Cerro Navia]] | [[KDM Empresas SA]] | $1.120.000.000 | 18405.0 UTM | Afecto (>= 5.000 UTM) |
 | [[TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01]] | 2012-07-11 | `cohecho` | [[Corpesca SA]] | [[Senado de la Republica de Chile]] | $233.000.000 | 3828.9 UTM | Exento (< 5.000 UTM) |
 | [[TRX-2012-11-20-Inversion-Offshore-Bancard-Exalmar-LaHaya-01]] | 2012-11-20 | `gestion_influencia` | [[Bancard Inversiones Ltda]] | [[Contraloria General de la Republica]] | $8.250.000.000 | 135572.6 UTM | Afecto (>= 5.000 UTM) |
 | [[TRX-2013-05-20-Mencion-Referencial-Epstein-Dannatt-Velasco-01]] | 2013-05-20 | `correo_electronico` | [[Corte Suprema de Chile]] | [[Corte Suprema de Chile]] | $0 | 0.0 UTM | Exento (< 5.000 UTM) |
 | [[TRX-2013-07-15-Boletas-Falsas-Penta-UDI-01]] | 2013-07-15 | `factura_falsa` | [[Empresas Penta SA]] | [[Union Democrata Independiente]] | $1.260.000.000 | 20705.6 UTM | Afecto (>= 5.000 UTM) |
 | [[TRX-2013-09-20-Boletas-Falsas-Penta-Novoa-01]] | 2013-09-20 | `factura_falsa` | [[Empresas Penta SA]] | [[Union Democrata Independiente]] | $156.000.000 | 2563.6 UTM | Exento (< 5.000 UTM) |
-| [[TRX-2014-02-18-Soborno-Caval-Machali-01]] | 2014-02-18 | `cohecho_soborno` | [[Exportadora y de Gestion Caval Ltda]] | [[Municipalidad de Machali]] | $140.000.000 | 2300.6 UTM | Exento (< 5.000 UTM) |
+| [[TRX-2014-02-18-Soborno-Caval-Machali-01]] | 2014-02-18 | `cohecho_soborno` | [[]] | [[Municipalidad de Machali]] | $55.030.792 | 904.3 UTM | Exento (< 5.000 UTM) |
 | [[TRX-2014-05-20-Facturas-LeyReservadaCobre-01]] | 2014-05-20 | `transferencia` | [[Comando de Apoyo a la Fuerza del Ejercito]] | [[Frasim Ltda]] | $6.100.000.000 | 100241.6 UTM | Afecto (>= 5.000 UTM) |
 | [[TRX-2015-01-29-Facturas-Falsas-Caval-SII-01]] | 2015-01-29 | `factura_falsa` | [[Exportadora y de Gestion Caval Ltda]] | [[Servicio Impuestos Internos]] | $2.500.000.000 | 41082.6 UTM | Afecto (>= 5.000 UTM) |
 | [[TRX-2015-08-10-Contacto-Academico-Patrocinio-Guendelman-Epstein-01]] | 2015-08-10 | `solicitud_patrocinio` | [[Corte Suprema de Chile]] | [[Corte Suprema de Chile]] | $0 | 0.0 UTM | Exento (< 5.000 UTM) |
@@ -431,7 +421,6 @@ flowchart LR
 | [[TRX-2020-12-15-Deficit-Maipu-Certificados-01]] | 2020-12-15 | `transferencia` | [[Municipalidad de Maipu]] | [[Municipalidad de Maipu]] | $30.972.000.000 | 606949.0 UTM | Afecto (>= 5.000 UTM) |
 | [[TRX-2021-04-15-Subvencion-VitaDeportes-01]] | 2021-04-15 | `transferencia` | [[Municipalidad de Vitacura]] | [[Vita Deportes]] | $759.000.000 | 14711.6 UTM | Afecto (>= 5.000 UTM) |
 | [[TRX-2022-09-04-Presencia-Cerimedo-Sede-Renovacion-Nacional-01]] | 2022-09-04 | `reunion_lobby` | [[Numen Publicidad SpA]] | [[Renovacion Nacional]] | $0 | 0.0 UTM | Exento (< 5.000 UTM) |
-| [[TRX-2022-09-12-Reunion-Lobby-ProCultura-Biobio-01]] | 2022-09-12 | `reunion_lobby` | [[Fundacion ProCultura]] | [[GORE Biobio]] | $0 | 0.0 UTM | Exento (< 5.000 UTM) |
 | [[TRX-2022-10-03-Convenio-DV-01]] | 2022-10-03 | `convenio_directo` | [[Seremi MINVU Antofagasta]] | [[Fundacion Democracia Viva]] | $200.000.000 | 3316.2 UTM | Exento (< 5.000 UTM) |
 | [[TRX-2022-10-19-Convenio-DV-02]] | 2022-10-19 | `convenio_directo` | [[Seremi MINVU Antofagasta]] | [[Fundacion Democracia Viva]] | $170.000.000 | 2818.8 UTM | Exento (< 5.000 UTM) |
 | [[TRX-2022-10-28-Convenio-ProCultura-Antofagasta]] | 2022-10-28 | `convenio_directo` | [[Seremi MINVU Antofagasta]] | [[Fundacion ProCultura]] | $500.000.000 | 8290.5 UTM | Afecto (>= 5.000 UTM) |
@@ -441,7 +430,6 @@ flowchart LR
 | [[TRX-2022-12-20-Convenio-EnTi-01]] | 2022-12-20 | `convenio_directo` | [[GORE Biobio]] | [[Fundacion En Ti]] | $250.635.000 | 4098.2 UTM | Exento (< 5.000 UTM) |
 | [[TRX-2023-01-20-Compraventa-Clinica-SierraBella-01]] | 2023-01-20 | `trato_directo` | [[Municipalidad de Santiago]] | [[Inmobiliaria San Valentino SpA]] | $0 | 0.0 UTM | Exento (< 5.000 UTM) |
 | [[TRX-2023-02-09-Gestion-Judicial-Hermosilla-Vivanco-01]] | 2023-02-09 | `llamada` | [[Factop SpA]] | [[Corte Suprema de Chile]] | $0 | 0.0 UTM | Exento (< 5.000 UTM) |
-| [[TRX-2023-05-10-Liquidacion-Tributaria-ProCultura-SII-01]] | 2023-05-10 | `factura_falsa` | [[Fundacion ProCultura]] | [[Servicio Impuestos Internos]] | $315.000.000 | 5176.4 UTM | Afecto (>= 5.000 UTM) |
 | [[TRX-2023-06-22-Reunion-Audios-01]] | 2023-06-22 | `cohecho` | [[Factop SpA]] | [[Servicio Impuestos Internos]] | $100.000.000 | 1580.7 UTM | Exento (< 5.000 UTM) |
 | [[TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01]] | 2023-06-29 | `resolucion_administrativa` | [[Contraloria General de la Republica]] | [[Seremi MINVU Antofagasta]] | $0 | 0.0 UTM | Exento (< 5.000 UTM) |
 | [[TRX-2023-08-25-Reporte-ROS-Factop-UAF-01]] | 2023-08-25 | `factura_falsa` | [[Factop SpA]] | [[Unidad de Analisis Financiero]] | $480.000.000 | 7887.9 UTM | Afecto (>= 5.000 UTM) |

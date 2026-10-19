@@ -15,7 +15,6 @@ fuentes:
     tipo: secundaria
     fecha: 2026-04-02
     consultado: 2026-10-19
-alertas_verificacion:
 tags:
   - evidencia/sentencia
   - operacion-huracan

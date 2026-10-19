@@ -20,6 +20,11 @@ fuentes:
     medio: "vLex Chile"
     tipo: secundaria
     consultado: 2026-10-19
+  - url: "https://www.elciudadano.com/?p=683869"
+    titulo: "Fraude en el Ejército: Corte Marcial disminuye condenas a cuatro uniformados"
+    medio: "El Ciudadano"
+    tipo: secundaria
+    consultado: 2026-10-19
 tags:
   - evidencia/auto-procesamiento
   - caso-milicogate
@@ -38,7 +43,7 @@ tags:
 - **Nexo Respaldado**: `= this.nexo_respaldado`
 
 ## Extracto y Relevancia Probatoria
-Autos de procesamiento y sentencias de primera instancia dictados por la Ministra en Visita de la Corte Marcial, Romy Rutherford Parentti, en el [[Caso Milicogate]] sobre facturas por bienes y servicios inexistentes pagadas con fondos de la Ley Reservada del Cobre a proveedores como [[Frasim Ltda]] ([[TRX-2014-05-20-Facturas-LeyReservadaCobre-01]]). Entre ellos, el procesamiento del general (r) Héctor Ureta (feb-2018) y la condena de primera instancia a 13 años del general (r) [[Jozo Santic Palomino]], que la Corte Marcial revocó en la arista Tecnodata II. Un auto de procesamiento no es una condena. La investigación sobre gastos reservados de [[Juan Miguel Fuente-Alba Poblete]] es una arista distinta.
+Autos de procesamiento y sentencias de primera instancia dictados por la Ministra en Visita de la Corte Marcial, Romy Rutherford Parentti, en el [[Caso Milicogate]] sobre facturas por bienes y servicios inexistentes pagadas con fondos de la Ley Reservada del Cobre a proveedores como [[Frasim Ltda]] ([[TRX-2014-05-20-Facturas-LeyReservadaCobre-01]]). Entre ellos, el procesamiento del general (r) Héctor Ureta (feb-2018) y las condenas de primera instancia (nov-2019) del general (r) [[Jozo Santic Palomino]] a 10 años y un día y 3 años y un día, que la Corte Marcial redujo a 5 años y un día por falsedad en la arista Tecnodata II. Un auto de procesamiento no es una condena. La investigación sobre gastos reservados de [[Juan Miguel Fuente-Alba Poblete]] es una arista distinta.
 
 ## Fuentes Verificables
 ```dataview

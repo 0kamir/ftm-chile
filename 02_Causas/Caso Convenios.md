@@ -38,6 +38,7 @@ fuentes:
     tipo: secundaria
     fecha: 2026-08-05
     consultado: 2026-10-19
+historial_correcciones:
 tags:
   - causa
   - caso-convenios

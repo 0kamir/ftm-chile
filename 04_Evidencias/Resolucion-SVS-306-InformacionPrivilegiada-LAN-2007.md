@@ -7,6 +7,8 @@ organismo_emisor: "[[Comision para el Mercado Financiero]]"
 fuente_osint: "Comisión para el Mercado Financiero (cmfchile.cl — Resolución Exenta SVS N° 306/2007) / Poder Judicial de Chile"
 causa_vinculada: "[[Caso LAN Informacion Privilegiada y Banco de Talca]]"
 nexo_respaldado: "[[TRX-2006-07-24-Compra-Acciones-Informacion-Privilegiada-LAN-01]]"
+historial_correcciones:
+  - "Revisado el 2026-10-19: no se halló copia en línea de la Resolución Exenta 306 en cmfchile.cl; respaldada por CIPER (2009), Cooperativa (2007) y la presentación de LATAM ante la SEC."
 estado_verificacion: verificado
 fuentes:
   - url: "https://www.ciperchile.cl/2009/09/29/el-directorio-de-lan-que-se-transformo-en-la-peor-pesadilla-de-pinera/"
@@ -15,8 +17,12 @@ fuentes:
     tipo: secundaria
     fecha: 2009-09-29
     consultado: 2026-10-19
-alertas_verificacion:
-  - "Falta el enlace a la Resolución Exenta 306 en cmfchile.cl."
+  - url: "https://www.cooperativa.cl/noticias/site/artic/20070706/pags-amp/20070706181357.html"
+    titulo: "Piñera acusó motivos políticos en sanción de la SVS, aunque pagará la multa"
+    medio: "Cooperativa"
+    tipo: secundaria
+    fecha: 2007-07-06
+    consultado: 2026-10-19
 tags:
   - evidencia/resolucion
   - caso-lan

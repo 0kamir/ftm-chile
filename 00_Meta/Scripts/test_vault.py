@@ -124,7 +124,7 @@ class TestForensicVault(unittest.TestCase):
         with open(json_path, "r", encoding="utf-8") as f:
             data = json.load(f)
         # 751.189.363.198 + 35.000.000 (Cuota Flores) = 751.224.363.198
-        self.assertEqual(data["resumen"]["monto_total_clp"], 694022063198)
+        self.assertEqual(data["resumen"]["monto_total_clp"], 669122093990)
 
     def test_percolation_simulation(self):
         res = subprocess.run(

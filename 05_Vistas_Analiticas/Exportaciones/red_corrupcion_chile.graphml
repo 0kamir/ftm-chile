@@ -146,13 +146,13 @@
       <data key="d1" />
       <data key="d2">0</data>
       <data key="d3">0</data>
-      <data key="d4">415000000</data>
+      <data key="d4">100000000</data>
     </node>
     <node id="Alberto Larrain Salas">
       <data key="d0">persona</data>
       <data key="d1" />
       <data key="d2">0</data>
-      <data key="d3">315000000</data>
+      <data key="d3">0</data>
       <data key="d4">3053000000</data>
     </node>
     <node id="Raul Torrealba del Pedregal">
@@ -188,7 +188,7 @@
       <data key="d1" />
       <data key="d2">0</data>
       <data key="d3">1070000000</data>
-      <data key="d4">24500000000</data>
+      <data key="d4">0</data>
     </node>
     <node id="Pablo Longueira Montes">
       <data key="d0">persona</data>
@@ -293,7 +293,7 @@
       <data key="d1" />
       <data key="d2">0</data>
       <data key="d3">0</data>
-      <data key="d4">140000000</data>
+      <data key="d4">55030792</data>
     </node>
     <node id="Carlos Cruz Lorenzen">
       <data key="d0">persona</data>
@@ -355,7 +355,7 @@
       <data key="d0">persona</data>
       <data key="d1" />
       <data key="d2">0</data>
-      <data key="d3">24500000000</data>
+      <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
     <node id="Carlos Pavez Tolosa">
@@ -720,7 +720,7 @@
       <data key="d1">60.803.000-K</data>
       <data key="d2">0</data>
       <data key="d3">0</data>
-      <data key="d4">263537000000</data>
+      <data key="d4">263222000000</data>
     </node>
     <node id="Municipalidad de Vitacura">
       <data key="d0">entidad_publica</data>
@@ -783,7 +783,7 @@
       <data key="d1">69.080.400-K</data>
       <data key="d2">0</data>
       <data key="d3">0</data>
-      <data key="d4">140000000</data>
+      <data key="d4">55030792</data>
     </node>
     <node id="Ministerio de Obras Publicas">
       <data key="d0">entidad_publica</data>
@@ -873,7 +873,7 @@
       <data key="d0">entidad_privada</data>
       <data key="d1">65.034.810-9</data>
       <data key="d2">0</data>
-      <data key="d3">315000000</data>
+      <data key="d3">0</data>
       <data key="d4">3053000000</data>
     </node>
     <node id="Vita Deportes">
@@ -888,7 +888,7 @@
       <data key="d1">93.007.000-9</data>
       <data key="d2">0</data>
       <data key="d3">1070000000</data>
-      <data key="d4">24500000000</data>
+      <data key="d4">0</data>
     </node>
     <node id="Frasim Ltda">
       <data key="d0">entidad_privada</data>
@@ -922,7 +922,7 @@
       <data key="d0">entidad_privada</data>
       <data key="d1">76.195.420-2</data>
       <data key="d2">0</data>
-      <data key="d3">2640000000</data>
+      <data key="d3">2500000000</data>
       <data key="d4">0</data>
     </node>
     <node id="Gestion Ambiental y Territorial SA">
@@ -950,7 +950,7 @@
       <data key="d0">entidad_privada</data>
       <data key="d1">96.524.180-9</data>
       <data key="d2">0</data>
-      <data key="d3">24500000000</data>
+      <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
     <node id="Inversiones El Bosque Ltda">
@@ -1443,13 +1443,6 @@
       <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
-    <node id="TRX-2022-09-12-Reunion-Lobby-ProCultura-Biobio-01">
-      <data key="d0">nexo_transaccion</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">0</data>
-      <data key="d4">0</data>
-    </node>
     <node id="TRX-2020-12-15-Deficit-Maipu-Certificados-01">
       <data key="d0">nexo_transaccion</data>
       <data key="d1" />
@@ -1495,7 +1488,7 @@
     <node id="TRX-2014-02-18-Soborno-Caval-Machali-01">
       <data key="d0">nexo_transaccion</data>
       <data key="d1" />
-      <data key="d2">140000000</data>
+      <data key="d2">55030792</data>
       <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
@@ -1520,13 +1513,6 @@
       <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
-    <node id="TRX-2023-05-10-Liquidacion-Tributaria-ProCultura-SII-01">
-      <data key="d0">nexo_transaccion</data>
-      <data key="d1" />
-      <data key="d2">315000000</data>
-      <data key="d3">0</data>
-      <data key="d4">0</data>
-    </node>
     <node id="TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01">
       <data key="d0">nexo_transaccion</data>
       <data key="d1" />
@@ -1544,7 +1530,7 @@
     <node id="TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01">
       <data key="d0">nexo_transaccion</data>
       <data key="d1" />
-      <data key="d2">24500000000</data>
+      <data key="d2">0</data>
       <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
@@ -1898,13 +1884,6 @@
       <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
-    <node id="Registro-Audiencia-InfoLobby-Biobio-2022">
-      <data key="d0">evidencia_documental</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">0</data>
-      <data key="d4">0</data>
-    </node>
     <node id="Informe-Contraloria-Municipalidad-Maipu-2021">
       <data key="d0">evidencia_documental</data>
       <data key="d1" />
@@ -2115,13 +2094,6 @@
       <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
-    <node id="Sentencia-TOP-Temuco-OperacionHuracan-2026">
-      <data key="d0">evidencia_documental</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">0</data>
-      <data key="d4">0</data>
-    </node>
     <node id="Sentencia-3TOP-Santiago-Corpesca-2021">
       <data key="d0">evidencia_documental</data>
       <data key="d1" />
@@ -2151,6 +2123,13 @@
       <data key="d4">0</data>
     </node>
     <node id="Disolucion-CDE-Fundacion-CEMAChile-2021">
+      <data key="d0">evidencia_documental</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="Sentencia-TOP-Temuco-OperacionHuracan-2026">
       <data key="d0">evidencia_documental</data>
       <data key="d1" />
       <data key="d2">0</data>
@@ -2990,2159 +2969,2083 @@
       <data key="d5">evidencia_soporte</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e168" source="TRX-2022-09-12-Reunion-Lobby-ProCultura-Biobio-01" target="Fundacion ProCultura">
-      <data key="d5">entidad_origen</data>
-      <data key="d6">0</data>
-    </edge>
-    <edge id="e169" source="TRX-2022-09-12-Reunion-Lobby-ProCultura-Biobio-01" target="GORE Biobio">
-      <data key="d5">entidad_destino</data>
-      <data key="d6">0</data>
-    </edge>
-    <edge id="e170" source="TRX-2022-09-12-Reunion-Lobby-ProCultura-Biobio-01" target="Alberto Larrain Salas">
-      <data key="d5">firmante_origen</data>
-      <data key="d6">0</data>
-    </edge>
-    <edge id="e171" source="TRX-2022-09-12-Reunion-Lobby-ProCultura-Biobio-01" target="Rodrigo Diaz Worner">
-      <data key="d5">firmante_destino</data>
-      <data key="d6">0</data>
-    </edge>
-    <edge id="e172" source="TRX-2022-09-12-Reunion-Lobby-ProCultura-Biobio-01" target="Caso Convenios">
-      <data key="d5">causa_vinculada</data>
-      <data key="d6">0</data>
-    </edge>
-    <edge id="e173" source="TRX-2022-09-12-Reunion-Lobby-ProCultura-Biobio-01" target="Trafico de Influencias">
-      <data key="d5">delito_imputado</data>
-      <data key="d6">0</data>
-    </edge>
-    <edge id="e174" source="TRX-2022-09-12-Reunion-Lobby-ProCultura-Biobio-01" target="Registro-Audiencia-InfoLobby-Biobio-2022">
-      <data key="d5">evidencia_soporte</data>
-      <data key="d6">0</data>
-    </edge>
-    <edge id="e175" source="TRX-2020-12-15-Deficit-Maipu-Certificados-01" target="Municipalidad de Maipu">
+    <edge id="e168" source="TRX-2020-12-15-Deficit-Maipu-Certificados-01" target="Municipalidad de Maipu">
       <data key="d5">entidad_origen</data>
       <data key="d6">30972000000</data>
     </edge>
-    <edge id="e176" source="TRX-2020-12-15-Deficit-Maipu-Certificados-01" target="Municipalidad de Maipu">
+    <edge id="e169" source="TRX-2020-12-15-Deficit-Maipu-Certificados-01" target="Municipalidad de Maipu">
       <data key="d5">entidad_destino</data>
       <data key="d6">30972000000</data>
     </edge>
-    <edge id="e177" source="TRX-2020-12-15-Deficit-Maipu-Certificados-01" target="Cathy Barriga Guerra">
+    <edge id="e170" source="TRX-2020-12-15-Deficit-Maipu-Certificados-01" target="Cathy Barriga Guerra">
       <data key="d5">firmante_origen</data>
       <data key="d6">30972000000</data>
     </edge>
-    <edge id="e178" source="TRX-2020-12-15-Deficit-Maipu-Certificados-01" target="Cathy Barriga Guerra">
+    <edge id="e171" source="TRX-2020-12-15-Deficit-Maipu-Certificados-01" target="Cathy Barriga Guerra">
       <data key="d5">firmante_destino</data>
       <data key="d6">30972000000</data>
     </edge>
-    <edge id="e179" source="TRX-2020-12-15-Deficit-Maipu-Certificados-01" target="Caso Municipalidad de Maipu">
+    <edge id="e172" source="TRX-2020-12-15-Deficit-Maipu-Certificados-01" target="Caso Municipalidad de Maipu">
       <data key="d5">causa_vinculada</data>
       <data key="d6">30972000000</data>
     </edge>
-    <edge id="e180" source="TRX-2020-12-15-Deficit-Maipu-Certificados-01" target="Fraude al Fisco">
+    <edge id="e173" source="TRX-2020-12-15-Deficit-Maipu-Certificados-01" target="Fraude al Fisco">
       <data key="d5">delito_imputado</data>
       <data key="d6">30972000000</data>
     </edge>
-    <edge id="e181" source="TRX-2020-12-15-Deficit-Maipu-Certificados-01" target="Informe-Contraloria-Municipalidad-Maipu-2021">
+    <edge id="e174" source="TRX-2020-12-15-Deficit-Maipu-Certificados-01" target="Informe-Contraloria-Municipalidad-Maipu-2021">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">30972000000</data>
     </edge>
-    <edge id="e182" source="TRX-2010-08-19-Correo-Royalty-SQM-01" target="SQM SA">
+    <edge id="e175" source="TRX-2010-08-19-Correo-Royalty-SQM-01" target="SQM SA">
       <data key="d5">entidad_origen</data>
       <data key="d6">730000000</data>
     </edge>
-    <edge id="e183" source="TRX-2010-08-19-Correo-Royalty-SQM-01" target="Union Democrata Independiente">
+    <edge id="e176" source="TRX-2010-08-19-Correo-Royalty-SQM-01" target="Union Democrata Independiente">
       <data key="d5">entidad_destino</data>
       <data key="d6">730000000</data>
     </edge>
-    <edge id="e184" source="TRX-2010-08-19-Correo-Royalty-SQM-01" target="Patricio Contesse Gonzalez">
+    <edge id="e177" source="TRX-2010-08-19-Correo-Royalty-SQM-01" target="Patricio Contesse Gonzalez">
       <data key="d5">firmante_origen</data>
       <data key="d6">730000000</data>
     </edge>
-    <edge id="e185" source="TRX-2010-08-19-Correo-Royalty-SQM-01" target="Pablo Longueira Montes">
+    <edge id="e178" source="TRX-2010-08-19-Correo-Royalty-SQM-01" target="Pablo Longueira Montes">
       <data key="d5">firmante_destino</data>
       <data key="d6">730000000</data>
     </edge>
-    <edge id="e186" source="TRX-2010-08-19-Correo-Royalty-SQM-01" target="Caso SQM">
+    <edge id="e179" source="TRX-2010-08-19-Correo-Royalty-SQM-01" target="Caso SQM">
       <data key="d5">causa_vinculada</data>
       <data key="d6">730000000</data>
     </edge>
-    <edge id="e187" source="TRX-2010-08-19-Correo-Royalty-SQM-01" target="Cohecho">
+    <edge id="e180" source="TRX-2010-08-19-Correo-Royalty-SQM-01" target="Cohecho">
       <data key="d5">delito_imputado</data>
       <data key="d6">730000000</data>
     </edge>
-    <edge id="e188" source="TRX-2010-08-19-Correo-Royalty-SQM-01" target="Querella-SII-Boletas-SQM-2015">
+    <edge id="e181" source="TRX-2010-08-19-Correo-Royalty-SQM-01" target="Querella-SII-Boletas-SQM-2015">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">730000000</data>
     </edge>
-    <edge id="e189" source="TRX-2014-05-20-Facturas-LeyReservadaCobre-01" target="Comando de Apoyo a la Fuerza del Ejercito">
+    <edge id="e182" source="TRX-2014-05-20-Facturas-LeyReservadaCobre-01" target="Comando de Apoyo a la Fuerza del Ejercito">
       <data key="d5">entidad_origen</data>
       <data key="d6">6100000000</data>
     </edge>
-    <edge id="e190" source="TRX-2014-05-20-Facturas-LeyReservadaCobre-01" target="Frasim Ltda">
+    <edge id="e183" source="TRX-2014-05-20-Facturas-LeyReservadaCobre-01" target="Frasim Ltda">
       <data key="d5">entidad_destino</data>
       <data key="d6">6100000000</data>
     </edge>
-    <edge id="e191" source="TRX-2014-05-20-Facturas-LeyReservadaCobre-01" target="Juan Miguel Fuente-Alba Poblete">
+    <edge id="e184" source="TRX-2014-05-20-Facturas-LeyReservadaCobre-01" target="Juan Miguel Fuente-Alba Poblete">
       <data key="d5">firmante_origen</data>
       <data key="d6">6100000000</data>
     </edge>
-    <edge id="e192" source="TRX-2014-05-20-Facturas-LeyReservadaCobre-01" target="Jozo Santic Palomino">
+    <edge id="e185" source="TRX-2014-05-20-Facturas-LeyReservadaCobre-01" target="Jozo Santic Palomino">
       <data key="d5">firmante_destino</data>
       <data key="d6">6100000000</data>
     </edge>
-    <edge id="e193" source="TRX-2014-05-20-Facturas-LeyReservadaCobre-01" target="Caso Milicogate">
+    <edge id="e186" source="TRX-2014-05-20-Facturas-LeyReservadaCobre-01" target="Caso Milicogate">
       <data key="d5">causa_vinculada</data>
       <data key="d6">6100000000</data>
     </edge>
-    <edge id="e194" source="TRX-2014-05-20-Facturas-LeyReservadaCobre-01" target="Malversacion de Caudales Publicos">
+    <edge id="e187" source="TRX-2014-05-20-Facturas-LeyReservadaCobre-01" target="Malversacion de Caudales Publicos">
       <data key="d5">delito_imputado</data>
       <data key="d6">6100000000</data>
     </edge>
-    <edge id="e195" source="TRX-2014-05-20-Facturas-LeyReservadaCobre-01" target="Procesamientos-Ministra-Rutherford-Milicogate">
+    <edge id="e188" source="TRX-2014-05-20-Facturas-LeyReservadaCobre-01" target="Procesamientos-Ministra-Rutherford-Milicogate">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">6100000000</data>
     </edge>
-    <edge id="e196" source="TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01" target="Corpesca SA">
+    <edge id="e189" source="TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01" target="Corpesca SA">
       <data key="d5">entidad_origen</data>
       <data key="d6">233000000</data>
     </edge>
-    <edge id="e197" source="TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01" target="Senado de la Republica de Chile">
+    <edge id="e190" source="TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01" target="Senado de la Republica de Chile">
       <data key="d5">entidad_destino</data>
       <data key="d6">233000000</data>
     </edge>
-    <edge id="e198" source="TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01" target="Francisco Mujica Ortuzar">
+    <edge id="e191" source="TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01" target="Francisco Mujica Ortuzar">
       <data key="d5">firmante_origen</data>
       <data key="d6">233000000</data>
     </edge>
-    <edge id="e199" source="TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01" target="Jaime Orpis Bouchon">
+    <edge id="e192" source="TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01" target="Jaime Orpis Bouchon">
       <data key="d5">firmante_destino</data>
       <data key="d6">233000000</data>
     </edge>
-    <edge id="e200" source="TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01" target="Caso Corpesca">
+    <edge id="e193" source="TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01" target="Caso Corpesca">
       <data key="d5">causa_vinculada</data>
       <data key="d6">233000000</data>
     </edge>
-    <edge id="e201" source="TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01" target="Cohecho">
+    <edge id="e194" source="TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01" target="Cohecho">
       <data key="d5">delito_imputado</data>
       <data key="d6">233000000</data>
     </edge>
-    <edge id="e202" source="TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01" target="Sentencia-3TOP-Santiago-Corpesca-2021">
+    <edge id="e195" source="TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01" target="Sentencia-3TOP-Santiago-Corpesca-2021">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">233000000</data>
     </edge>
-    <edge id="e203" source="TRX-2019-05-14-Soborno-Luminarias-Chillan-01" target="Itelecom Holding Chile SpA">
+    <edge id="e196" source="TRX-2019-05-14-Soborno-Luminarias-Chillan-01" target="Itelecom Holding Chile SpA">
       <data key="d5">entidad_origen</data>
       <data key="d6">37000000</data>
     </edge>
-    <edge id="e204" source="TRX-2019-05-14-Soborno-Luminarias-Chillan-01" target="Municipalidad de Chillan">
+    <edge id="e197" source="TRX-2019-05-14-Soborno-Luminarias-Chillan-01" target="Municipalidad de Chillan">
       <data key="d5">entidad_destino</data>
       <data key="d6">37000000</data>
     </edge>
-    <edge id="e205" source="TRX-2019-05-14-Soborno-Luminarias-Chillan-01" target="Leon Marcelo Lefort Hernandez">
+    <edge id="e198" source="TRX-2019-05-14-Soborno-Luminarias-Chillan-01" target="Leon Marcelo Lefort Hernandez">
       <data key="d5">firmante_origen</data>
       <data key="d6">37000000</data>
     </edge>
-    <edge id="e206" source="TRX-2019-05-14-Soborno-Luminarias-Chillan-01" target="Marcelo Campos Henriquez">
+    <edge id="e199" source="TRX-2019-05-14-Soborno-Luminarias-Chillan-01" target="Marcelo Campos Henriquez">
       <data key="d5">firmante_destino</data>
       <data key="d6">37000000</data>
     </edge>
-    <edge id="e207" source="TRX-2019-05-14-Soborno-Luminarias-Chillan-01" target="Caso Luminarias LED">
+    <edge id="e200" source="TRX-2019-05-14-Soborno-Luminarias-Chillan-01" target="Caso Luminarias LED">
       <data key="d5">causa_vinculada</data>
       <data key="d6">37000000</data>
     </edge>
-    <edge id="e208" source="TRX-2019-05-14-Soborno-Luminarias-Chillan-01" target="Cohecho">
+    <edge id="e201" source="TRX-2019-05-14-Soborno-Luminarias-Chillan-01" target="Cohecho">
       <data key="d5">delito_imputado</data>
       <data key="d6">37000000</data>
     </edge>
-    <edge id="e209" source="TRX-2013-07-15-Boletas-Falsas-Penta-UDI-01" target="Empresas Penta SA">
+    <edge id="e202" source="TRX-2013-07-15-Boletas-Falsas-Penta-UDI-01" target="Empresas Penta SA">
       <data key="d5">entidad_origen</data>
       <data key="d6">1260000000</data>
     </edge>
-    <edge id="e210" source="TRX-2013-07-15-Boletas-Falsas-Penta-UDI-01" target="Union Democrata Independiente">
+    <edge id="e203" source="TRX-2013-07-15-Boletas-Falsas-Penta-UDI-01" target="Union Democrata Independiente">
       <data key="d5">entidad_destino</data>
       <data key="d6">1260000000</data>
     </edge>
-    <edge id="e211" source="TRX-2013-07-15-Boletas-Falsas-Penta-UDI-01" target="Carlos Alberto Delano Abbott">
+    <edge id="e204" source="TRX-2013-07-15-Boletas-Falsas-Penta-UDI-01" target="Carlos Alberto Delano Abbott">
       <data key="d5">firmante_origen</data>
       <data key="d6">1260000000</data>
     </edge>
-    <edge id="e212" source="TRX-2013-07-15-Boletas-Falsas-Penta-UDI-01" target="Pablo Longueira Montes">
+    <edge id="e205" source="TRX-2013-07-15-Boletas-Falsas-Penta-UDI-01" target="Pablo Longueira Montes">
       <data key="d5">firmante_destino</data>
       <data key="d6">1260000000</data>
     </edge>
-    <edge id="e213" source="TRX-2013-07-15-Boletas-Falsas-Penta-UDI-01" target="Delito Tributario">
+    <edge id="e206" source="TRX-2013-07-15-Boletas-Falsas-Penta-UDI-01" target="Delito Tributario">
       <data key="d5">delito_imputado</data>
       <data key="d6">1260000000</data>
     </edge>
-    <edge id="e214" source="TRX-2013-07-15-Boletas-Falsas-Penta-UDI-01" target="Caso Penta">
+    <edge id="e207" source="TRX-2013-07-15-Boletas-Falsas-Penta-UDI-01" target="Caso Penta">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1260000000</data>
     </edge>
-    <edge id="e215" source="TRX-2013-07-15-Boletas-Falsas-Penta-UDI-01" target="Sentencia-8Juzgado-Garantia-Penta-2018">
+    <edge id="e208" source="TRX-2013-07-15-Boletas-Falsas-Penta-UDI-01" target="Sentencia-8Juzgado-Garantia-Penta-2018">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">1260000000</data>
     </edge>
-    <edge id="e216" source="TRX-2014-02-18-Soborno-Caval-Machali-01" target="Exportadora y de Gestion Caval Ltda">
-      <data key="d5">entidad_origen</data>
-      <data key="d6">140000000</data>
-    </edge>
-    <edge id="e217" source="TRX-2014-02-18-Soborno-Caval-Machali-01" target="Municipalidad de Machali">
+    <edge id="e209" source="TRX-2014-02-18-Soborno-Caval-Machali-01" target="Municipalidad de Machali">
       <data key="d5">entidad_destino</data>
-      <data key="d6">140000000</data>
+      <data key="d6">55030792</data>
     </edge>
-    <edge id="e218" source="TRX-2014-02-18-Soborno-Caval-Machali-01" target="Jorge Silva Menares">
+    <edge id="e210" source="TRX-2014-02-18-Soborno-Caval-Machali-01" target="Jorge Silva Menares">
       <data key="d5">firmante_destino</data>
-      <data key="d6">140000000</data>
+      <data key="d6">55030792</data>
     </edge>
-    <edge id="e219" source="TRX-2014-02-18-Soborno-Caval-Machali-01" target="Cohecho">
+    <edge id="e211" source="TRX-2014-02-18-Soborno-Caval-Machali-01" target="Cohecho">
       <data key="d5">delito_imputado</data>
-      <data key="d6">140000000</data>
+      <data key="d6">55030792</data>
     </edge>
-    <edge id="e220" source="TRX-2014-02-18-Soborno-Caval-Machali-01" target="Caso Caval">
+    <edge id="e212" source="TRX-2014-02-18-Soborno-Caval-Machali-01" target="Caso Caval">
       <data key="d5">causa_vinculada</data>
-      <data key="d6">140000000</data>
+      <data key="d6">55030792</data>
     </edge>
-    <edge id="e221" source="TRX-2014-02-18-Soborno-Caval-Machali-01" target="Sentencia-TOP-Rancagua-Caval-2018">
+    <edge id="e213" source="TRX-2014-02-18-Soborno-Caval-Machali-01" target="Sentencia-TOP-Rancagua-Caval-2018">
       <data key="d5">evidencia_soporte</data>
-      <data key="d6">140000000</data>
+      <data key="d6">55030792</data>
     </edge>
-    <edge id="e222" source="TRX-2015-01-29-Facturas-Falsas-Caval-SII-01" target="Exportadora y de Gestion Caval Ltda">
+    <edge id="e214" source="TRX-2015-01-29-Facturas-Falsas-Caval-SII-01" target="Exportadora y de Gestion Caval Ltda">
       <data key="d5">entidad_origen</data>
       <data key="d6">2500000000</data>
     </edge>
-    <edge id="e223" source="TRX-2015-01-29-Facturas-Falsas-Caval-SII-01" target="Servicio Impuestos Internos">
+    <edge id="e215" source="TRX-2015-01-29-Facturas-Falsas-Caval-SII-01" target="Servicio Impuestos Internos">
       <data key="d5">entidad_destino</data>
       <data key="d6">2500000000</data>
     </edge>
-    <edge id="e224" source="TRX-2015-01-29-Facturas-Falsas-Caval-SII-01" target="Natalia Compagnon Soto">
+    <edge id="e216" source="TRX-2015-01-29-Facturas-Falsas-Caval-SII-01" target="Natalia Compagnon Soto">
       <data key="d5">firmante_origen</data>
       <data key="d6">2500000000</data>
     </edge>
-    <edge id="e225" source="TRX-2015-01-29-Facturas-Falsas-Caval-SII-01" target="Natalia Compagnon Soto">
+    <edge id="e217" source="TRX-2015-01-29-Facturas-Falsas-Caval-SII-01" target="Natalia Compagnon Soto">
       <data key="d5">firmante_destino</data>
       <data key="d6">2500000000</data>
     </edge>
-    <edge id="e226" source="TRX-2015-01-29-Facturas-Falsas-Caval-SII-01" target="Delito Tributario">
+    <edge id="e218" source="TRX-2015-01-29-Facturas-Falsas-Caval-SII-01" target="Delito Tributario">
       <data key="d5">delito_imputado</data>
       <data key="d6">2500000000</data>
     </edge>
-    <edge id="e227" source="TRX-2015-01-29-Facturas-Falsas-Caval-SII-01" target="Caso Caval">
+    <edge id="e219" source="TRX-2015-01-29-Facturas-Falsas-Caval-SII-01" target="Caso Caval">
       <data key="d5">causa_vinculada</data>
       <data key="d6">2500000000</data>
     </edge>
-    <edge id="e228" source="TRX-2015-01-29-Facturas-Falsas-Caval-SII-01" target="Sentencia-TOP-Rancagua-Caval-2018">
+    <edge id="e220" source="TRX-2015-01-29-Facturas-Falsas-Caval-SII-01" target="Sentencia-TOP-Rancagua-Caval-2018">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">2500000000</data>
     </edge>
-    <edge id="e229" source="TRX-2010-11-15-Soborno-Licitacion-Basura-Maipu-01" target="KDM Empresas SA">
+    <edge id="e221" source="TRX-2010-11-15-Soborno-Licitacion-Basura-Maipu-01" target="KDM Empresas SA">
       <data key="d5">entidad_origen</data>
       <data key="d6">186500000</data>
     </edge>
-    <edge id="e230" source="TRX-2010-11-15-Soborno-Licitacion-Basura-Maipu-01" target="Municipalidad de Maipu">
+    <edge id="e222" source="TRX-2010-11-15-Soborno-Licitacion-Basura-Maipu-01" target="Municipalidad de Maipu">
       <data key="d5">entidad_destino</data>
       <data key="d6">186500000</data>
     </edge>
-    <edge id="e231" source="TRX-2010-11-15-Soborno-Licitacion-Basura-Maipu-01" target="Fernando Leon Steffens">
+    <edge id="e223" source="TRX-2010-11-15-Soborno-Licitacion-Basura-Maipu-01" target="Fernando Leon Steffens">
       <data key="d5">firmante_origen</data>
       <data key="d6">186500000</data>
     </edge>
-    <edge id="e232" source="TRX-2010-11-15-Soborno-Licitacion-Basura-Maipu-01" target="Marcelo Torres Ferrari">
+    <edge id="e224" source="TRX-2010-11-15-Soborno-Licitacion-Basura-Maipu-01" target="Marcelo Torres Ferrari">
       <data key="d5">firmante_destino</data>
       <data key="d6">186500000</data>
     </edge>
-    <edge id="e233" source="TRX-2010-11-15-Soborno-Licitacion-Basura-Maipu-01" target="Cohecho">
+    <edge id="e225" source="TRX-2010-11-15-Soborno-Licitacion-Basura-Maipu-01" target="Cohecho">
       <data key="d5">delito_imputado</data>
       <data key="d6">186500000</data>
     </edge>
-    <edge id="e234" source="TRX-2010-11-15-Soborno-Licitacion-Basura-Maipu-01" target="Caso Basura">
+    <edge id="e226" source="TRX-2010-11-15-Soborno-Licitacion-Basura-Maipu-01" target="Caso Basura">
       <data key="d5">causa_vinculada</data>
       <data key="d6">186500000</data>
     </edge>
-    <edge id="e235" source="TRX-2010-11-15-Soborno-Licitacion-Basura-Maipu-01" target="Acusacion-Fiscalia-Occidente-CasoBasura-2017">
+    <edge id="e227" source="TRX-2010-11-15-Soborno-Licitacion-Basura-Maipu-01" target="Acusacion-Fiscalia-Occidente-CasoBasura-2017">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">186500000</data>
     </edge>
-    <edge id="e236" source="TRX-2012-03-22-Fraude-Residuos-CerroNavia-01" target="Municipalidad de Cerro Navia">
+    <edge id="e228" source="TRX-2012-03-22-Fraude-Residuos-CerroNavia-01" target="Municipalidad de Cerro Navia">
       <data key="d5">entidad_origen</data>
       <data key="d6">1120000000</data>
     </edge>
-    <edge id="e237" source="TRX-2012-03-22-Fraude-Residuos-CerroNavia-01" target="KDM Empresas SA">
+    <edge id="e229" source="TRX-2012-03-22-Fraude-Residuos-CerroNavia-01" target="KDM Empresas SA">
       <data key="d5">entidad_destino</data>
       <data key="d6">1120000000</data>
     </edge>
-    <edge id="e238" source="TRX-2012-03-22-Fraude-Residuos-CerroNavia-01" target="Luis Plaza Sanchez">
+    <edge id="e230" source="TRX-2012-03-22-Fraude-Residuos-CerroNavia-01" target="Luis Plaza Sanchez">
       <data key="d5">firmante_origen</data>
       <data key="d6">1120000000</data>
     </edge>
-    <edge id="e239" source="TRX-2012-03-22-Fraude-Residuos-CerroNavia-01" target="Marcelo Torres Ferrari">
+    <edge id="e231" source="TRX-2012-03-22-Fraude-Residuos-CerroNavia-01" target="Marcelo Torres Ferrari">
       <data key="d5">firmante_destino</data>
       <data key="d6">1120000000</data>
     </edge>
-    <edge id="e240" source="TRX-2012-03-22-Fraude-Residuos-CerroNavia-01" target="Fraude al Fisco">
+    <edge id="e232" source="TRX-2012-03-22-Fraude-Residuos-CerroNavia-01" target="Fraude al Fisco">
       <data key="d5">delito_imputado</data>
       <data key="d6">1120000000</data>
     </edge>
-    <edge id="e241" source="TRX-2012-03-22-Fraude-Residuos-CerroNavia-01" target="Caso Basura">
+    <edge id="e233" source="TRX-2012-03-22-Fraude-Residuos-CerroNavia-01" target="Caso Basura">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1120000000</data>
     </edge>
-    <edge id="e242" source="TRX-2012-03-22-Fraude-Residuos-CerroNavia-01" target="Acusacion-Fiscalia-Occidente-CasoBasura-2017">
+    <edge id="e234" source="TRX-2012-03-22-Fraude-Residuos-CerroNavia-01" target="Acusacion-Fiscalia-Occidente-CasoBasura-2017">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">1120000000</data>
     </edge>
-    <edge id="e243" source="TRX-2023-05-10-Liquidacion-Tributaria-ProCultura-SII-01" target="Fundacion ProCultura">
-      <data key="d5">entidad_origen</data>
-      <data key="d6">315000000</data>
-    </edge>
-    <edge id="e244" source="TRX-2023-05-10-Liquidacion-Tributaria-ProCultura-SII-01" target="Servicio Impuestos Internos">
-      <data key="d5">entidad_destino</data>
-      <data key="d6">315000000</data>
-    </edge>
-    <edge id="e245" source="TRX-2023-05-10-Liquidacion-Tributaria-ProCultura-SII-01" target="Alberto Larrain Salas">
-      <data key="d5">firmante_origen</data>
-      <data key="d6">315000000</data>
-    </edge>
-    <edge id="e246" source="TRX-2023-05-10-Liquidacion-Tributaria-ProCultura-SII-01" target="Leonarda Villalobos Muth">
-      <data key="d5">firmante_destino</data>
-      <data key="d6">315000000</data>
-    </edge>
-    <edge id="e247" source="TRX-2023-05-10-Liquidacion-Tributaria-ProCultura-SII-01" target="Delito Tributario">
-      <data key="d5">delito_imputado</data>
-      <data key="d6">315000000</data>
-    </edge>
-    <edge id="e248" source="TRX-2023-05-10-Liquidacion-Tributaria-ProCultura-SII-01" target="Caso Convenios">
-      <data key="d5">causa_vinculada</data>
-      <data key="d6">315000000</data>
-    </edge>
-    <edge id="e249" source="TRX-2023-05-10-Liquidacion-Tributaria-ProCultura-SII-01" target="Registro-Audiencia-InfoLobby-Biobio-2022">
-      <data key="d5">evidencia_soporte</data>
-      <data key="d6">315000000</data>
-    </edge>
-    <edge id="e250" source="TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01" target="Comando de Apoyo a la Fuerza del Ejercito">
+    <edge id="e235" source="TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01" target="Comando de Apoyo a la Fuerza del Ejercito">
       <data key="d5">entidad_origen</data>
       <data key="d6">3500000000</data>
     </edge>
-    <edge id="e251" source="TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01" target="Unidad de Analisis Financiero">
+    <edge id="e236" source="TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01" target="Unidad de Analisis Financiero">
       <data key="d5">entidad_destino</data>
       <data key="d6">3500000000</data>
     </edge>
-    <edge id="e252" source="TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01" target="Juan Miguel Fuente-Alba Poblete">
+    <edge id="e237" source="TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01" target="Juan Miguel Fuente-Alba Poblete">
       <data key="d5">firmante_origen</data>
       <data key="d6">3500000000</data>
     </edge>
-    <edge id="e253" source="TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01" target="Javier Cruz Tamburrino">
+    <edge id="e238" source="TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01" target="Javier Cruz Tamburrino">
       <data key="d5">firmante_destino</data>
       <data key="d6">3500000000</data>
     </edge>
-    <edge id="e254" source="TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01" target="Lavado de Activos">
+    <edge id="e239" source="TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01" target="Lavado de Activos">
       <data key="d5">delito_imputado</data>
       <data key="d6">3500000000</data>
     </edge>
-    <edge id="e255" source="TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01" target="Caso Milicogate">
+    <edge id="e240" source="TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01" target="Caso Milicogate">
       <data key="d5">causa_vinculada</data>
       <data key="d6">3500000000</data>
     </edge>
-    <edge id="e256" source="TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01" target="Procesamientos-Ministra-Rutherford-Milicogate">
+    <edge id="e241" source="TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01" target="Procesamientos-Ministra-Rutherford-Milicogate">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">3500000000</data>
     </edge>
-    <edge id="e257" source="TRX-2023-01-20-Compraventa-Clinica-SierraBella-01" target="Municipalidad de Santiago">
+    <edge id="e242" source="TRX-2023-01-20-Compraventa-Clinica-SierraBella-01" target="Municipalidad de Santiago">
       <data key="d5">entidad_origen</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e258" source="TRX-2023-01-20-Compraventa-Clinica-SierraBella-01" target="Inmobiliaria San Valentino SpA">
+    <edge id="e243" source="TRX-2023-01-20-Compraventa-Clinica-SierraBella-01" target="Inmobiliaria San Valentino SpA">
       <data key="d5">entidad_destino</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e259" source="TRX-2023-01-20-Compraventa-Clinica-SierraBella-01" target="Iraci Hassler Jacob">
+    <edge id="e244" source="TRX-2023-01-20-Compraventa-Clinica-SierraBella-01" target="Iraci Hassler Jacob">
       <data key="d5">firmante_origen</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e260" source="TRX-2023-01-20-Compraventa-Clinica-SierraBella-01" target="Felipe Sanchez Perez">
+    <edge id="e245" source="TRX-2023-01-20-Compraventa-Clinica-SierraBella-01" target="Felipe Sanchez Perez">
       <data key="d5">firmante_destino</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e261" source="TRX-2023-01-20-Compraventa-Clinica-SierraBella-01" target="Fraude al Fisco">
+    <edge id="e246" source="TRX-2023-01-20-Compraventa-Clinica-SierraBella-01" target="Fraude al Fisco">
       <data key="d5">delito_imputado</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e262" source="TRX-2023-01-20-Compraventa-Clinica-SierraBella-01" target="Caso Sierra Bella">
+    <edge id="e247" source="TRX-2023-01-20-Compraventa-Clinica-SierraBella-01" target="Caso Sierra Bella">
       <data key="d5">causa_vinculada</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e263" source="TRX-2023-01-20-Compraventa-Clinica-SierraBella-01" target="Dictamen-CGR-SierraBella-2023">
+    <edge id="e248" source="TRX-2023-01-20-Compraventa-Clinica-SierraBella-01" target="Dictamen-CGR-SierraBella-2023">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e264" source="TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01" target="Sociedad de Inversiones Pampa Calichera SA">
-      <data key="d5">entidad_origen</data>
-      <data key="d6">24500000000</data>
-    </edge>
-    <edge id="e265" source="TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01" target="SQM SA">
-      <data key="d5">entidad_destino</data>
-      <data key="d6">24500000000</data>
-    </edge>
-    <edge id="e266" source="TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01" target="Julio Ponce Lerou">
-      <data key="d5">firmante_origen</data>
-      <data key="d6">24500000000</data>
-    </edge>
-    <edge id="e267" source="TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01" target="Patricio Contesse Gonzalez">
-      <data key="d5">firmante_destino</data>
-      <data key="d6">24500000000</data>
-    </edge>
-    <edge id="e268" source="TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01" target="Negociacion Incompatible">
-      <data key="d5">delito_imputado</data>
-      <data key="d6">24500000000</data>
-    </edge>
-    <edge id="e269" source="TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01" target="Caso Cascadas">
-      <data key="d5">causa_vinculada</data>
-      <data key="d6">24500000000</data>
-    </edge>
-    <edge id="e270" source="TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01" target="Resolucion-SVS-CasoCascadas-2014">
-      <data key="d5">evidencia_soporte</data>
-      <data key="d6">24500000000</data>
-    </edge>
-    <edge id="e271" source="TRX-2023-08-25-Reporte-ROS-Factop-UAF-01" target="Factop SpA">
-      <data key="d5">entidad_origen</data>
-      <data key="d6">480000000</data>
-    </edge>
-    <edge id="e272" source="TRX-2023-08-25-Reporte-ROS-Factop-UAF-01" target="Unidad de Analisis Financiero">
-      <data key="d5">entidad_destino</data>
-      <data key="d6">480000000</data>
-    </edge>
-    <edge id="e273" source="TRX-2023-08-25-Reporte-ROS-Factop-UAF-01" target="Luis Hermosilla Osorio">
-      <data key="d5">firmante_origen</data>
-      <data key="d6">480000000</data>
-    </edge>
-    <edge id="e274" source="TRX-2023-08-25-Reporte-ROS-Factop-UAF-01" target="Javier Cruz Tamburrino">
-      <data key="d5">firmante_destino</data>
-      <data key="d6">480000000</data>
-    </edge>
-    <edge id="e275" source="TRX-2023-08-25-Reporte-ROS-Factop-UAF-01" target="Lavado de Activos">
-      <data key="d5">delito_imputado</data>
-      <data key="d6">480000000</data>
-    </edge>
-    <edge id="e276" source="TRX-2023-08-25-Reporte-ROS-Factop-UAF-01" target="Caso Audios">
-      <data key="d5">causa_vinculada</data>
-      <data key="d6">480000000</data>
-    </edge>
-    <edge id="e277" source="TRX-2023-08-25-Reporte-ROS-Factop-UAF-01" target="Audio-Reunion-Edificio-Alonso-2023">
-      <data key="d5">evidencia_soporte</data>
-      <data key="d6">480000000</data>
-    </edge>
-    <edge id="e278" source="TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01" target="Contraloria General de la Republica">
+    <edge id="e249" source="TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01" target="Sociedad de Inversiones Pampa Calichera SA">
       <data key="d5">entidad_origen</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e279" source="TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01" target="Seremi MINVU Antofagasta">
+    <edge id="e250" source="TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01" target="SQM SA">
       <data key="d5">entidad_destino</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e280" source="TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01" target="Jorge Bermudez Soto">
+    <edge id="e251" source="TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01" target="Julio Ponce Lerou">
       <data key="d5">firmante_origen</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e281" source="TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01" target="Carlos Contreras Gutierrez">
-      <data key="d5">firmante_destino</data>
-      <data key="d6">0</data>
-    </edge>
-    <edge id="e282" source="TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01" target="Fraude al Fisco">
+    <edge id="e252" source="TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01" target="Negociacion Incompatible">
       <data key="d5">delito_imputado</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e283" source="TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01" target="Caso Convenios">
+    <edge id="e253" source="TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01" target="Caso Cascadas">
       <data key="d5">causa_vinculada</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e284" source="TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01" target="Resolucion-Exenta-MINVU-Antofagasta-2022">
+    <edge id="e254" source="TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01" target="Resolucion-SVS-CasoCascadas-2014">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e285" source="TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01" target="Inversiones El Bosque Ltda">
+    <edge id="e255" source="TRX-2023-08-25-Reporte-ROS-Factop-UAF-01" target="Factop SpA">
       <data key="d5">entidad_origen</data>
       <data key="d6">480000000</data>
     </edge>
-    <edge id="e286" source="TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01" target="Servicio Impuestos Internos">
+    <edge id="e256" source="TRX-2023-08-25-Reporte-ROS-Factop-UAF-01" target="Unidad de Analisis Financiero">
       <data key="d5">entidad_destino</data>
       <data key="d6">480000000</data>
     </edge>
-    <edge id="e287" source="TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01" target="Claudio Spiniak Vilensky">
+    <edge id="e257" source="TRX-2023-08-25-Reporte-ROS-Factop-UAF-01" target="Luis Hermosilla Osorio">
       <data key="d5">firmante_origen</data>
       <data key="d6">480000000</data>
     </edge>
-    <edge id="e288" source="TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01" target="Sergio Munoz Gajardo">
+    <edge id="e258" source="TRX-2023-08-25-Reporte-ROS-Factop-UAF-01" target="Javier Cruz Tamburrino">
       <data key="d5">firmante_destino</data>
       <data key="d6">480000000</data>
     </edge>
-    <edge id="e289" source="TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01" target="Delito Tributario">
+    <edge id="e259" source="TRX-2023-08-25-Reporte-ROS-Factop-UAF-01" target="Lavado de Activos">
       <data key="d5">delito_imputado</data>
       <data key="d6">480000000</data>
     </edge>
-    <edge id="e290" source="TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01" target="Caso Spiniak">
+    <edge id="e260" source="TRX-2023-08-25-Reporte-ROS-Factop-UAF-01" target="Caso Audios">
       <data key="d5">causa_vinculada</data>
       <data key="d6">480000000</data>
     </edge>
-    <edge id="e291" source="TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01" target="Sentencia-Corte-Suprema-CasoSpiniak-2008">
+    <edge id="e261" source="TRX-2023-08-25-Reporte-ROS-Factop-UAF-01" target="Audio-Reunion-Edificio-Alonso-2023">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">480000000</data>
     </edge>
-    <edge id="e292" source="TRX-2003-11-05-Operacion-Politico-Judicial-Spiniak-01" target="Renovacion Nacional">
+    <edge id="e262" source="TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01" target="Contraloria General de la Republica">
+      <data key="d5">entidad_origen</data>
+      <data key="d6">0</data>
+    </edge>
+    <edge id="e263" source="TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01" target="Seremi MINVU Antofagasta">
+      <data key="d5">entidad_destino</data>
+      <data key="d6">0</data>
+    </edge>
+    <edge id="e264" source="TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01" target="Jorge Bermudez Soto">
+      <data key="d5">firmante_origen</data>
+      <data key="d6">0</data>
+    </edge>
+    <edge id="e265" source="TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01" target="Carlos Contreras Gutierrez">
+      <data key="d5">firmante_destino</data>
+      <data key="d6">0</data>
+    </edge>
+    <edge id="e266" source="TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01" target="Fraude al Fisco">
+      <data key="d5">delito_imputado</data>
+      <data key="d6">0</data>
+    </edge>
+    <edge id="e267" source="TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01" target="Caso Convenios">
+      <data key="d5">causa_vinculada</data>
+      <data key="d6">0</data>
+    </edge>
+    <edge id="e268" source="TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01" target="Resolucion-Exenta-MINVU-Antofagasta-2022">
+      <data key="d5">evidencia_soporte</data>
+      <data key="d6">0</data>
+    </edge>
+    <edge id="e269" source="TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01" target="Inversiones El Bosque Ltda">
+      <data key="d5">entidad_origen</data>
+      <data key="d6">480000000</data>
+    </edge>
+    <edge id="e270" source="TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01" target="Servicio Impuestos Internos">
+      <data key="d5">entidad_destino</data>
+      <data key="d6">480000000</data>
+    </edge>
+    <edge id="e271" source="TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01" target="Claudio Spiniak Vilensky">
+      <data key="d5">firmante_origen</data>
+      <data key="d6">480000000</data>
+    </edge>
+    <edge id="e272" source="TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01" target="Sergio Munoz Gajardo">
+      <data key="d5">firmante_destino</data>
+      <data key="d6">480000000</data>
+    </edge>
+    <edge id="e273" source="TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01" target="Delito Tributario">
+      <data key="d5">delito_imputado</data>
+      <data key="d6">480000000</data>
+    </edge>
+    <edge id="e274" source="TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01" target="Caso Spiniak">
+      <data key="d5">causa_vinculada</data>
+      <data key="d6">480000000</data>
+    </edge>
+    <edge id="e275" source="TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01" target="Sentencia-Corte-Suprema-CasoSpiniak-2008">
+      <data key="d5">evidencia_soporte</data>
+      <data key="d6">480000000</data>
+    </edge>
+    <edge id="e276" source="TRX-2003-11-05-Operacion-Politico-Judicial-Spiniak-01" target="Renovacion Nacional">
       <data key="d5">entidad_origen</data>
       <data key="d6">120000000</data>
     </edge>
-    <edge id="e293" source="TRX-2003-11-05-Operacion-Politico-Judicial-Spiniak-01" target="Corte Suprema de Chile">
+    <edge id="e277" source="TRX-2003-11-05-Operacion-Politico-Judicial-Spiniak-01" target="Corte Suprema de Chile">
       <data key="d5">entidad_destino</data>
       <data key="d6">120000000</data>
     </edge>
-    <edge id="e294" source="TRX-2003-11-05-Operacion-Politico-Judicial-Spiniak-01" target="Pia Guzman Mena">
+    <edge id="e278" source="TRX-2003-11-05-Operacion-Politico-Judicial-Spiniak-01" target="Pia Guzman Mena">
       <data key="d5">firmante_origen</data>
       <data key="d6">120000000</data>
     </edge>
-    <edge id="e295" source="TRX-2003-11-05-Operacion-Politico-Judicial-Spiniak-01" target="Sergio Munoz Gajardo">
+    <edge id="e279" source="TRX-2003-11-05-Operacion-Politico-Judicial-Spiniak-01" target="Sergio Munoz Gajardo">
       <data key="d5">firmante_destino</data>
       <data key="d6">120000000</data>
     </edge>
-    <edge id="e296" source="TRX-2003-11-05-Operacion-Politico-Judicial-Spiniak-01" target="Trafico de Influencias">
+    <edge id="e280" source="TRX-2003-11-05-Operacion-Politico-Judicial-Spiniak-01" target="Trafico de Influencias">
       <data key="d5">delito_imputado</data>
       <data key="d6">120000000</data>
     </edge>
-    <edge id="e297" source="TRX-2003-11-05-Operacion-Politico-Judicial-Spiniak-01" target="Caso Spiniak">
+    <edge id="e281" source="TRX-2003-11-05-Operacion-Politico-Judicial-Spiniak-01" target="Caso Spiniak">
       <data key="d5">causa_vinculada</data>
       <data key="d6">120000000</data>
     </edge>
-    <edge id="e298" source="TRX-2003-11-05-Operacion-Politico-Judicial-Spiniak-01" target="Sentencia-Corte-Suprema-CasoSpiniak-2008">
+    <edge id="e282" source="TRX-2003-11-05-Operacion-Politico-Judicial-Spiniak-01" target="Sentencia-Corte-Suprema-CasoSpiniak-2008">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">120000000</data>
     </edge>
-    <edge id="e299" source="TRX-2013-09-20-Boletas-Falsas-Penta-Novoa-01" target="Empresas Penta SA">
+    <edge id="e283" source="TRX-2013-09-20-Boletas-Falsas-Penta-Novoa-01" target="Empresas Penta SA">
       <data key="d5">entidad_origen</data>
       <data key="d6">156000000</data>
     </edge>
-    <edge id="e300" source="TRX-2013-09-20-Boletas-Falsas-Penta-Novoa-01" target="Union Democrata Independiente">
+    <edge id="e284" source="TRX-2013-09-20-Boletas-Falsas-Penta-Novoa-01" target="Union Democrata Independiente">
       <data key="d5">entidad_destino</data>
       <data key="d6">156000000</data>
     </edge>
-    <edge id="e301" source="TRX-2013-09-20-Boletas-Falsas-Penta-Novoa-01" target="Carlos Alberto Delano Abbott">
+    <edge id="e285" source="TRX-2013-09-20-Boletas-Falsas-Penta-Novoa-01" target="Carlos Alberto Delano Abbott">
       <data key="d5">firmante_origen</data>
       <data key="d6">156000000</data>
     </edge>
-    <edge id="e302" source="TRX-2013-09-20-Boletas-Falsas-Penta-Novoa-01" target="Jovino Novoa Vasquez">
+    <edge id="e286" source="TRX-2013-09-20-Boletas-Falsas-Penta-Novoa-01" target="Jovino Novoa Vasquez">
       <data key="d5">firmante_destino</data>
       <data key="d6">156000000</data>
     </edge>
-    <edge id="e303" source="TRX-2013-09-20-Boletas-Falsas-Penta-Novoa-01" target="Delito Tributario">
+    <edge id="e287" source="TRX-2013-09-20-Boletas-Falsas-Penta-Novoa-01" target="Delito Tributario">
       <data key="d5">delito_imputado</data>
       <data key="d6">156000000</data>
     </edge>
-    <edge id="e304" source="TRX-2013-09-20-Boletas-Falsas-Penta-Novoa-01" target="Caso Penta">
+    <edge id="e288" source="TRX-2013-09-20-Boletas-Falsas-Penta-Novoa-01" target="Caso Penta">
       <data key="d5">causa_vinculada</data>
       <data key="d6">156000000</data>
     </edge>
-    <edge id="e305" source="TRX-2013-09-20-Boletas-Falsas-Penta-Novoa-01" target="Sentencia-8Juzgado-Garantia-Penta-2018">
+    <edge id="e289" source="TRX-2013-09-20-Boletas-Falsas-Penta-Novoa-01" target="Sentencia-8Juzgado-Garantia-Penta-2018">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">156000000</data>
     </edge>
-    <edge id="e306" source="TRX-1991-01-31-Vaciamiento-Patrimonial-Evasion-ColoniaDignidad-01" target="Sociedad Benefactora y Educacional Dignidad">
+    <edge id="e290" source="TRX-1991-01-31-Vaciamiento-Patrimonial-Evasion-ColoniaDignidad-01" target="Sociedad Benefactora y Educacional Dignidad">
       <data key="d5">entidad_origen</data>
       <data key="d6">3450000000</data>
     </edge>
-    <edge id="e307" source="TRX-1991-01-31-Vaciamiento-Patrimonial-Evasion-ColoniaDignidad-01" target="Servicio Impuestos Internos">
+    <edge id="e291" source="TRX-1991-01-31-Vaciamiento-Patrimonial-Evasion-ColoniaDignidad-01" target="Servicio Impuestos Internos">
       <data key="d5">entidad_destino</data>
       <data key="d6">3450000000</data>
     </edge>
-    <edge id="e308" source="TRX-1991-01-31-Vaciamiento-Patrimonial-Evasion-ColoniaDignidad-01" target="Paul Schafer Schneider">
+    <edge id="e292" source="TRX-1991-01-31-Vaciamiento-Patrimonial-Evasion-ColoniaDignidad-01" target="Paul Schafer Schneider">
       <data key="d5">firmante_origen</data>
       <data key="d6">3450000000</data>
     </edge>
-    <edge id="e309" source="TRX-1991-01-31-Vaciamiento-Patrimonial-Evasion-ColoniaDignidad-01" target="Jorge Zepeda Arancibia">
+    <edge id="e293" source="TRX-1991-01-31-Vaciamiento-Patrimonial-Evasion-ColoniaDignidad-01" target="Jorge Zepeda Arancibia">
       <data key="d5">firmante_destino</data>
       <data key="d6">3450000000</data>
     </edge>
-    <edge id="e310" source="TRX-1991-01-31-Vaciamiento-Patrimonial-Evasion-ColoniaDignidad-01" target="Delito Tributario">
+    <edge id="e294" source="TRX-1991-01-31-Vaciamiento-Patrimonial-Evasion-ColoniaDignidad-01" target="Delito Tributario">
       <data key="d5">delito_imputado</data>
       <data key="d6">3450000000</data>
     </edge>
-    <edge id="e311" source="TRX-1991-01-31-Vaciamiento-Patrimonial-Evasion-ColoniaDignidad-01" target="Caso Colonia Dignidad">
+    <edge id="e295" source="TRX-1991-01-31-Vaciamiento-Patrimonial-Evasion-ColoniaDignidad-01" target="Caso Colonia Dignidad">
       <data key="d5">causa_vinculada</data>
       <data key="d6">3450000000</data>
     </edge>
-    <edge id="e312" source="TRX-1991-01-31-Vaciamiento-Patrimonial-Evasion-ColoniaDignidad-01" target="Sentencia-Corte-Suprema-ColoniaDignidad-2013">
+    <edge id="e296" source="TRX-1991-01-31-Vaciamiento-Patrimonial-Evasion-ColoniaDignidad-01" target="Sentencia-Corte-Suprema-ColoniaDignidad-2013">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">3450000000</data>
     </edge>
-    <edge id="e313" source="TRX-1996-06-12-Blindaje-Politico-Judicial-ColoniaDignidad-01" target="Union Democrata Independiente">
+    <edge id="e297" source="TRX-1996-06-12-Blindaje-Politico-Judicial-ColoniaDignidad-01" target="Union Democrata Independiente">
       <data key="d5">entidad_origen</data>
       <data key="d6">240000000</data>
     </edge>
-    <edge id="e314" source="TRX-1996-06-12-Blindaje-Politico-Judicial-ColoniaDignidad-01" target="Sociedad Benefactora y Educacional Dignidad">
+    <edge id="e298" source="TRX-1996-06-12-Blindaje-Politico-Judicial-ColoniaDignidad-01" target="Sociedad Benefactora y Educacional Dignidad">
       <data key="d5">entidad_destino</data>
       <data key="d6">240000000</data>
     </edge>
-    <edge id="e315" source="TRX-1996-06-12-Blindaje-Politico-Judicial-ColoniaDignidad-01" target="Hernan Larrain Fernandez">
+    <edge id="e299" source="TRX-1996-06-12-Blindaje-Politico-Judicial-ColoniaDignidad-01" target="Hernan Larrain Fernandez">
       <data key="d5">firmante_origen</data>
       <data key="d6">240000000</data>
     </edge>
-    <edge id="e316" source="TRX-1996-06-12-Blindaje-Politico-Judicial-ColoniaDignidad-01" target="Hartmut Hopp Miottel">
+    <edge id="e300" source="TRX-1996-06-12-Blindaje-Politico-Judicial-ColoniaDignidad-01" target="Hartmut Hopp Miottel">
       <data key="d5">firmante_destino</data>
       <data key="d6">240000000</data>
     </edge>
-    <edge id="e317" source="TRX-1996-06-12-Blindaje-Politico-Judicial-ColoniaDignidad-01" target="Trafico de Influencias">
+    <edge id="e301" source="TRX-1996-06-12-Blindaje-Politico-Judicial-ColoniaDignidad-01" target="Trafico de Influencias">
       <data key="d5">delito_imputado</data>
       <data key="d6">240000000</data>
     </edge>
-    <edge id="e318" source="TRX-1996-06-12-Blindaje-Politico-Judicial-ColoniaDignidad-01" target="Caso Colonia Dignidad">
+    <edge id="e302" source="TRX-1996-06-12-Blindaje-Politico-Judicial-ColoniaDignidad-01" target="Caso Colonia Dignidad">
       <data key="d5">causa_vinculada</data>
       <data key="d6">240000000</data>
     </edge>
-    <edge id="e319" source="TRX-1996-06-12-Blindaje-Politico-Judicial-ColoniaDignidad-01" target="Sentencia-Corte-Suprema-ColoniaDignidad-2013">
+    <edge id="e303" source="TRX-1996-06-12-Blindaje-Politico-Judicial-ColoniaDignidad-01" target="Sentencia-Corte-Suprema-ColoniaDignidad-2013">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">240000000</data>
     </edge>
-    <edge id="e320" source="TRX-2005-06-14-Arsenal-Clandestino-AsociacionIlicita-ColoniaDignidad-01" target="Sociedad Benefactora y Educacional Dignidad">
+    <edge id="e304" source="TRX-2005-06-14-Arsenal-Clandestino-AsociacionIlicita-ColoniaDignidad-01" target="Sociedad Benefactora y Educacional Dignidad">
       <data key="d5">entidad_origen</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e321" source="TRX-2005-06-14-Arsenal-Clandestino-AsociacionIlicita-ColoniaDignidad-01" target="Corte Suprema de Chile">
+    <edge id="e305" source="TRX-2005-06-14-Arsenal-Clandestino-AsociacionIlicita-ColoniaDignidad-01" target="Corte Suprema de Chile">
       <data key="d5">entidad_destino</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e322" source="TRX-2005-06-14-Arsenal-Clandestino-AsociacionIlicita-ColoniaDignidad-01" target="Paul Schafer Schneider">
+    <edge id="e306" source="TRX-2005-06-14-Arsenal-Clandestino-AsociacionIlicita-ColoniaDignidad-01" target="Paul Schafer Schneider">
       <data key="d5">firmante_origen</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e323" source="TRX-2005-06-14-Arsenal-Clandestino-AsociacionIlicita-ColoniaDignidad-01" target="Jorge Zepeda Arancibia">
+    <edge id="e307" source="TRX-2005-06-14-Arsenal-Clandestino-AsociacionIlicita-ColoniaDignidad-01" target="Jorge Zepeda Arancibia">
       <data key="d5">firmante_destino</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e324" source="TRX-2005-06-14-Arsenal-Clandestino-AsociacionIlicita-ColoniaDignidad-01" target="Lavado de Activos">
+    <edge id="e308" source="TRX-2005-06-14-Arsenal-Clandestino-AsociacionIlicita-ColoniaDignidad-01" target="Lavado de Activos">
       <data key="d5">delito_imputado</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e325" source="TRX-2005-06-14-Arsenal-Clandestino-AsociacionIlicita-ColoniaDignidad-01" target="Caso Colonia Dignidad">
+    <edge id="e309" source="TRX-2005-06-14-Arsenal-Clandestino-AsociacionIlicita-ColoniaDignidad-01" target="Caso Colonia Dignidad">
       <data key="d5">causa_vinculada</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e326" source="TRX-1989-01-10-Emision-Pinocheques-Ejercito-Valmoval-01" target="Comando de Apoyo a la Fuerza del Ejercito">
+    <edge id="e310" source="TRX-1989-01-10-Emision-Pinocheques-Ejercito-Valmoval-01" target="Comando de Apoyo a la Fuerza del Ejercito">
       <data key="d5">entidad_origen</data>
       <data key="d6">2950000000</data>
     </edge>
-    <edge id="e327" source="TRX-1989-01-10-Emision-Pinocheques-Ejercito-Valmoval-01" target="Valmoval Ltda">
+    <edge id="e311" source="TRX-1989-01-10-Emision-Pinocheques-Ejercito-Valmoval-01" target="Valmoval Ltda">
       <data key="d5">entidad_destino</data>
       <data key="d6">2950000000</data>
     </edge>
-    <edge id="e328" source="TRX-1989-01-10-Emision-Pinocheques-Ejercito-Valmoval-01" target="Augusto Pinochet Ugarte">
+    <edge id="e312" source="TRX-1989-01-10-Emision-Pinocheques-Ejercito-Valmoval-01" target="Augusto Pinochet Ugarte">
       <data key="d5">firmante_origen</data>
       <data key="d6">2950000000</data>
     </edge>
-    <edge id="e329" source="TRX-1989-01-10-Emision-Pinocheques-Ejercito-Valmoval-01" target="Augusto Pinochet Hiriart">
+    <edge id="e313" source="TRX-1989-01-10-Emision-Pinocheques-Ejercito-Valmoval-01" target="Augusto Pinochet Hiriart">
       <data key="d5">firmante_destino</data>
       <data key="d6">2950000000</data>
     </edge>
-    <edge id="e330" source="TRX-1989-01-10-Emision-Pinocheques-Ejercito-Valmoval-01" target="Fraude al Fisco">
+    <edge id="e314" source="TRX-1989-01-10-Emision-Pinocheques-Ejercito-Valmoval-01" target="Fraude al Fisco">
       <data key="d5">delito_imputado</data>
       <data key="d6">2950000000</data>
     </edge>
-    <edge id="e331" source="TRX-1989-01-10-Emision-Pinocheques-Ejercito-Valmoval-01" target="Caso Pinocheques">
+    <edge id="e315" source="TRX-1989-01-10-Emision-Pinocheques-Ejercito-Valmoval-01" target="Caso Pinocheques">
       <data key="d5">causa_vinculada</data>
       <data key="d6">2950000000</data>
     </edge>
-    <edge id="e332" source="TRX-1989-01-10-Emision-Pinocheques-Ejercito-Valmoval-01" target="Sentencia-Corte-Suprema-CasoRiggs-2018">
+    <edge id="e316" source="TRX-1989-01-10-Emision-Pinocheques-Ejercito-Valmoval-01" target="Sentencia-Corte-Suprema-CasoRiggs-2018">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">2950000000</data>
     </edge>
-    <edge id="e333" source="TRX-2004-07-14-Desvio-Gastos-Reservados-Riggs-Pinochet-01" target="Comando de Apoyo a la Fuerza del Ejercito">
+    <edge id="e317" source="TRX-2004-07-14-Desvio-Gastos-Reservados-Riggs-Pinochet-01" target="Comando de Apoyo a la Fuerza del Ejercito">
       <data key="d5">entidad_origen</data>
       <data key="d6">15800000000</data>
     </edge>
-    <edge id="e334" source="TRX-2004-07-14-Desvio-Gastos-Reservados-Riggs-Pinochet-01" target="Riggs Bank y Sociedades Offshore Ashburton">
+    <edge id="e318" source="TRX-2004-07-14-Desvio-Gastos-Reservados-Riggs-Pinochet-01" target="Riggs Bank y Sociedades Offshore Ashburton">
       <data key="d5">entidad_destino</data>
       <data key="d6">15800000000</data>
     </edge>
-    <edge id="e335" source="TRX-2004-07-14-Desvio-Gastos-Reservados-Riggs-Pinochet-01" target="Augusto Pinochet Ugarte">
+    <edge id="e319" source="TRX-2004-07-14-Desvio-Gastos-Reservados-Riggs-Pinochet-01" target="Augusto Pinochet Ugarte">
       <data key="d5">firmante_origen</data>
       <data key="d6">15800000000</data>
     </edge>
-    <edge id="e336" source="TRX-2004-07-14-Desvio-Gastos-Reservados-Riggs-Pinochet-01" target="Oscar Aitken Lavanchy">
+    <edge id="e320" source="TRX-2004-07-14-Desvio-Gastos-Reservados-Riggs-Pinochet-01" target="Oscar Aitken Lavanchy">
       <data key="d5">firmante_destino</data>
       <data key="d6">15800000000</data>
     </edge>
-    <edge id="e337" source="TRX-2004-07-14-Desvio-Gastos-Reservados-Riggs-Pinochet-01" target="Malversacion de Caudales Publicos">
+    <edge id="e321" source="TRX-2004-07-14-Desvio-Gastos-Reservados-Riggs-Pinochet-01" target="Malversacion de Caudales Publicos">
       <data key="d5">delito_imputado</data>
       <data key="d6">15800000000</data>
     </edge>
-    <edge id="e338" source="TRX-2004-07-14-Desvio-Gastos-Reservados-Riggs-Pinochet-01" target="Caso Riggs">
+    <edge id="e322" source="TRX-2004-07-14-Desvio-Gastos-Reservados-Riggs-Pinochet-01" target="Caso Riggs">
       <data key="d5">causa_vinculada</data>
       <data key="d6">15800000000</data>
     </edge>
-    <edge id="e339" source="TRX-2004-07-14-Desvio-Gastos-Reservados-Riggs-Pinochet-01" target="Sentencia-Corte-Suprema-CasoRiggs-2018">
+    <edge id="e323" source="TRX-2004-07-14-Desvio-Gastos-Reservados-Riggs-Pinochet-01" target="Sentencia-Corte-Suprema-CasoRiggs-2018">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">15800000000</data>
     </edge>
-    <edge id="e340" source="TRX-2005-08-10-Evasion-Tributaria-Cuentas-Riggs-SII-01" target="Riggs Bank y Sociedades Offshore Ashburton">
+    <edge id="e324" source="TRX-2005-08-10-Evasion-Tributaria-Cuentas-Riggs-SII-01" target="Riggs Bank y Sociedades Offshore Ashburton">
       <data key="d5">entidad_origen</data>
       <data key="d6">2450000000</data>
     </edge>
-    <edge id="e341" source="TRX-2005-08-10-Evasion-Tributaria-Cuentas-Riggs-SII-01" target="Servicio Impuestos Internos">
+    <edge id="e325" source="TRX-2005-08-10-Evasion-Tributaria-Cuentas-Riggs-SII-01" target="Servicio Impuestos Internos">
       <data key="d5">entidad_destino</data>
       <data key="d6">2450000000</data>
     </edge>
-    <edge id="e342" source="TRX-2005-08-10-Evasion-Tributaria-Cuentas-Riggs-SII-01" target="Lucia Hiriart Rodriguez">
+    <edge id="e326" source="TRX-2005-08-10-Evasion-Tributaria-Cuentas-Riggs-SII-01" target="Lucia Hiriart Rodriguez">
       <data key="d5">firmante_origen</data>
       <data key="d6">2450000000</data>
     </edge>
-    <edge id="e343" source="TRX-2005-08-10-Evasion-Tributaria-Cuentas-Riggs-SII-01" target="Sergio Munoz Gajardo">
+    <edge id="e327" source="TRX-2005-08-10-Evasion-Tributaria-Cuentas-Riggs-SII-01" target="Sergio Munoz Gajardo">
       <data key="d5">firmante_destino</data>
       <data key="d6">2450000000</data>
     </edge>
-    <edge id="e344" source="TRX-2005-08-10-Evasion-Tributaria-Cuentas-Riggs-SII-01" target="Delito Tributario">
+    <edge id="e328" source="TRX-2005-08-10-Evasion-Tributaria-Cuentas-Riggs-SII-01" target="Delito Tributario">
       <data key="d5">delito_imputado</data>
       <data key="d6">2450000000</data>
     </edge>
-    <edge id="e345" source="TRX-2005-08-10-Evasion-Tributaria-Cuentas-Riggs-SII-01" target="Caso Riggs">
+    <edge id="e329" source="TRX-2005-08-10-Evasion-Tributaria-Cuentas-Riggs-SII-01" target="Caso Riggs">
       <data key="d5">causa_vinculada</data>
       <data key="d6">2450000000</data>
     </edge>
-    <edge id="e346" source="TRX-2005-08-10-Evasion-Tributaria-Cuentas-Riggs-SII-01" target="Sentencia-Corte-Suprema-CasoRiggs-2018">
+    <edge id="e330" source="TRX-2005-08-10-Evasion-Tributaria-Cuentas-Riggs-SII-01" target="Sentencia-Corte-Suprema-CasoRiggs-2018">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">2450000000</data>
     </edge>
-    <edge id="e347" source="TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01" target="Fundacion CEMA Chile">
+    <edge id="e331" source="TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01" target="Fundacion CEMA Chile">
       <data key="d5">entidad_origen</data>
       <data key="d6">10500000000</data>
     </edge>
-    <edge id="e348" source="TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01" target="Corte Suprema de Chile">
+    <edge id="e332" source="TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01" target="Corte Suprema de Chile">
       <data key="d5">entidad_destino</data>
       <data key="d6">10500000000</data>
     </edge>
-    <edge id="e349" source="TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01" target="Lucia Hiriart Rodriguez">
+    <edge id="e333" source="TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01" target="Lucia Hiriart Rodriguez">
       <data key="d5">firmante_origen</data>
       <data key="d6">10500000000</data>
     </edge>
-    <edge id="e350" source="TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01" target="Sergio Munoz Gajardo">
+    <edge id="e334" source="TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01" target="Sergio Munoz Gajardo">
       <data key="d5">firmante_destino</data>
       <data key="d6">10500000000</data>
     </edge>
-    <edge id="e351" source="TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01" target="Malversacion de Caudales Publicos">
+    <edge id="e335" source="TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01" target="Malversacion de Caudales Publicos">
       <data key="d5">delito_imputado</data>
       <data key="d6">10500000000</data>
     </edge>
-    <edge id="e352" source="TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01" target="Caso CEMA Chile">
+    <edge id="e336" source="TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01" target="Caso CEMA Chile">
       <data key="d5">causa_vinculada</data>
       <data key="d6">10500000000</data>
     </edge>
-    <edge id="e353" source="TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01" target="Disolucion-CDE-Fundacion-CEMAChile-2021">
+    <edge id="e337" source="TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01" target="Disolucion-CDE-Fundacion-CEMAChile-2021">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">10500000000</data>
     </edge>
-    <edge id="e354" source="TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01" target="Bancard Inversiones Ltda">
+    <edge id="e338" source="TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01" target="Bancard Inversiones Ltda">
       <data key="d5">entidad_origen</data>
       <data key="d6">18500000000</data>
     </edge>
-    <edge id="e355" source="TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01" target="Corte Suprema de Chile">
+    <edge id="e339" source="TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01" target="Corte Suprema de Chile">
       <data key="d5">entidad_destino</data>
       <data key="d6">18500000000</data>
     </edge>
-    <edge id="e356" source="TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01" target="Sebastian Pinera Echenique">
+    <edge id="e340" source="TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01" target="Sebastian Pinera Echenique">
       <data key="d5">firmante_origen</data>
       <data key="d6">18500000000</data>
     </edge>
-    <edge id="e357" source="TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01" target="Sergio Munoz Gajardo">
+    <edge id="e341" source="TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01" target="Sergio Munoz Gajardo">
       <data key="d5">firmante_destino</data>
       <data key="d6">18500000000</data>
     </edge>
-    <edge id="e358" source="TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01" target="Negociacion Incompatible">
+    <edge id="e342" source="TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01" target="Negociacion Incompatible">
       <data key="d5">delito_imputado</data>
       <data key="d6">18500000000</data>
     </edge>
-    <edge id="e359" source="TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01" target="Caso LAN Informacion Privilegiada y Banco de Talca">
+    <edge id="e343" source="TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01" target="Caso LAN Informacion Privilegiada y Banco de Talca">
       <data key="d5">causa_vinculada</data>
       <data key="d6">18500000000</data>
     </edge>
-    <edge id="e360" source="TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01" target="Resolucion-SVS-306-InformacionPrivilegiada-LAN-2007">
+    <edge id="e344" source="TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01" target="Resolucion-SVS-306-InformacionPrivilegiada-LAN-2007">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">18500000000</data>
     </edge>
-    <edge id="e361" source="TRX-2006-07-24-Compra-Acciones-Informacion-Privilegiada-LAN-01" target="Bancard Inversiones Ltda">
+    <edge id="e345" source="TRX-2006-07-24-Compra-Acciones-Informacion-Privilegiada-LAN-01" target="Bancard Inversiones Ltda">
       <data key="d5">entidad_origen</data>
       <data key="d6">5300000000</data>
     </edge>
-    <edge id="e362" source="TRX-2006-07-24-Compra-Acciones-Informacion-Privilegiada-LAN-01" target="Comision para el Mercado Financiero">
+    <edge id="e346" source="TRX-2006-07-24-Compra-Acciones-Informacion-Privilegiada-LAN-01" target="Comision para el Mercado Financiero">
       <data key="d5">entidad_destino</data>
       <data key="d6">5300000000</data>
     </edge>
-    <edge id="e363" source="TRX-2006-07-24-Compra-Acciones-Informacion-Privilegiada-LAN-01" target="Sebastian Pinera Echenique">
+    <edge id="e347" source="TRX-2006-07-24-Compra-Acciones-Informacion-Privilegiada-LAN-01" target="Sebastian Pinera Echenique">
       <data key="d5">firmante_origen</data>
       <data key="d6">5300000000</data>
     </edge>
-    <edge id="e364" source="TRX-2006-07-24-Compra-Acciones-Informacion-Privilegiada-LAN-01" target="Carlos Pavez Tolosa">
+    <edge id="e348" source="TRX-2006-07-24-Compra-Acciones-Informacion-Privilegiada-LAN-01" target="Carlos Pavez Tolosa">
       <data key="d5">firmante_destino</data>
       <data key="d6">5300000000</data>
     </edge>
-    <edge id="e365" source="TRX-2006-07-24-Compra-Acciones-Informacion-Privilegiada-LAN-01" target="Negociacion Incompatible">
+    <edge id="e349" source="TRX-2006-07-24-Compra-Acciones-Informacion-Privilegiada-LAN-01" target="Negociacion Incompatible">
       <data key="d5">delito_imputado</data>
       <data key="d6">5300000000</data>
     </edge>
-    <edge id="e366" source="TRX-2006-07-24-Compra-Acciones-Informacion-Privilegiada-LAN-01" target="Caso LAN Informacion Privilegiada y Banco de Talca">
+    <edge id="e350" source="TRX-2006-07-24-Compra-Acciones-Informacion-Privilegiada-LAN-01" target="Caso LAN Informacion Privilegiada y Banco de Talca">
       <data key="d5">causa_vinculada</data>
       <data key="d6">5300000000</data>
     </edge>
-    <edge id="e367" source="TRX-2006-07-24-Compra-Acciones-Informacion-Privilegiada-LAN-01" target="Resolucion-SVS-306-InformacionPrivilegiada-LAN-2007">
+    <edge id="e351" source="TRX-2006-07-24-Compra-Acciones-Informacion-Privilegiada-LAN-01" target="Resolucion-SVS-306-InformacionPrivilegiada-LAN-2007">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">5300000000</data>
     </edge>
-    <edge id="e368" source="TRX-2009-11-18-Facturas-Falsas-Bancard-SQM-Campana-Pinera-01" target="SQM SA">
+    <edge id="e352" source="TRX-2009-11-18-Facturas-Falsas-Bancard-SQM-Campana-Pinera-01" target="SQM SA">
       <data key="d5">entidad_origen</data>
       <data key="d6">340000000</data>
     </edge>
-    <edge id="e369" source="TRX-2009-11-18-Facturas-Falsas-Bancard-SQM-Campana-Pinera-01" target="Bancard Inversiones Ltda">
+    <edge id="e353" source="TRX-2009-11-18-Facturas-Falsas-Bancard-SQM-Campana-Pinera-01" target="Bancard Inversiones Ltda">
       <data key="d5">entidad_destino</data>
       <data key="d6">340000000</data>
     </edge>
-    <edge id="e370" source="TRX-2009-11-18-Facturas-Falsas-Bancard-SQM-Campana-Pinera-01" target="Patricio Contesse Gonzalez">
+    <edge id="e354" source="TRX-2009-11-18-Facturas-Falsas-Bancard-SQM-Campana-Pinera-01" target="Patricio Contesse Gonzalez">
       <data key="d5">firmante_origen</data>
       <data key="d6">340000000</data>
     </edge>
-    <edge id="e371" source="TRX-2009-11-18-Facturas-Falsas-Bancard-SQM-Campana-Pinera-01" target="Santiago Valdes Gutierrez">
+    <edge id="e355" source="TRX-2009-11-18-Facturas-Falsas-Bancard-SQM-Campana-Pinera-01" target="Santiago Valdes Gutierrez">
       <data key="d5">firmante_destino</data>
       <data key="d6">340000000</data>
     </edge>
-    <edge id="e372" source="TRX-2009-11-18-Facturas-Falsas-Bancard-SQM-Campana-Pinera-01" target="Delito Tributario">
+    <edge id="e356" source="TRX-2009-11-18-Facturas-Falsas-Bancard-SQM-Campana-Pinera-01" target="Delito Tributario">
       <data key="d5">delito_imputado</data>
       <data key="d6">340000000</data>
     </edge>
-    <edge id="e373" source="TRX-2009-11-18-Facturas-Falsas-Bancard-SQM-Campana-Pinera-01" target="Caso SQM">
+    <edge id="e357" source="TRX-2009-11-18-Facturas-Falsas-Bancard-SQM-Campana-Pinera-01" target="Caso SQM">
       <data key="d5">causa_vinculada</data>
       <data key="d6">340000000</data>
     </edge>
-    <edge id="e374" source="TRX-2009-11-18-Facturas-Falsas-Bancard-SQM-Campana-Pinera-01" target="Querella-SII-Boletas-SQM-2015">
+    <edge id="e358" source="TRX-2009-11-18-Facturas-Falsas-Bancard-SQM-Campana-Pinera-01" target="Querella-SII-Boletas-SQM-2015">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">340000000</data>
     </edge>
-    <edge id="e375" source="TRX-2010-12-10-Compraventa-Offshore-Dominga-Bancard-Delano-01" target="Andes Iron SpA">
+    <edge id="e359" source="TRX-2010-12-10-Compraventa-Offshore-Dominga-Bancard-Delano-01" target="Andes Iron SpA">
       <data key="d5">entidad_origen</data>
       <data key="d6">75500000000</data>
     </edge>
-    <edge id="e376" source="TRX-2010-12-10-Compraventa-Offshore-Dominga-Bancard-Delano-01" target="Bancard Inversiones Ltda">
+    <edge id="e360" source="TRX-2010-12-10-Compraventa-Offshore-Dominga-Bancard-Delano-01" target="Bancard Inversiones Ltda">
       <data key="d5">entidad_destino</data>
       <data key="d6">75500000000</data>
     </edge>
-    <edge id="e377" source="TRX-2010-12-10-Compraventa-Offshore-Dominga-Bancard-Delano-01" target="Carlos Alberto Delano Abbott">
+    <edge id="e361" source="TRX-2010-12-10-Compraventa-Offshore-Dominga-Bancard-Delano-01" target="Carlos Alberto Delano Abbott">
       <data key="d5">firmante_origen</data>
       <data key="d6">75500000000</data>
     </edge>
-    <edge id="e378" source="TRX-2010-12-10-Compraventa-Offshore-Dominga-Bancard-Delano-01" target="Sebastian Pinera Echenique">
+    <edge id="e362" source="TRX-2010-12-10-Compraventa-Offshore-Dominga-Bancard-Delano-01" target="Sebastian Pinera Echenique">
       <data key="d5">firmante_destino</data>
       <data key="d6">75500000000</data>
     </edge>
-    <edge id="e379" source="TRX-2010-12-10-Compraventa-Offshore-Dominga-Bancard-Delano-01" target="Cohecho">
+    <edge id="e363" source="TRX-2010-12-10-Compraventa-Offshore-Dominga-Bancard-Delano-01" target="Cohecho">
       <data key="d5">delito_imputado</data>
       <data key="d6">75500000000</data>
     </edge>
-    <edge id="e380" source="TRX-2010-12-10-Compraventa-Offshore-Dominga-Bancard-Delano-01" target="Caso Minera Dominga Pandora Papers">
+    <edge id="e364" source="TRX-2010-12-10-Compraventa-Offshore-Dominga-Bancard-Delano-01" target="Caso Minera Dominga Pandora Papers">
       <data key="d5">causa_vinculada</data>
       <data key="d6">75500000000</data>
     </edge>
-    <edge id="e381" source="TRX-2010-12-10-Compraventa-Offshore-Dominga-Bancard-Delano-01" target="Contrato-Offshore-BVI-PandoraPapers-Dominga-2010">
+    <edge id="e365" source="TRX-2010-12-10-Compraventa-Offshore-Dominga-Bancard-Delano-01" target="Contrato-Offshore-BVI-PandoraPapers-Dominga-2010">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">75500000000</data>
     </edge>
-    <edge id="e382" source="TRX-2012-11-20-Inversion-Offshore-Bancard-Exalmar-LaHaya-01" target="Bancard Inversiones Ltda">
+    <edge id="e366" source="TRX-2012-11-20-Inversion-Offshore-Bancard-Exalmar-LaHaya-01" target="Bancard Inversiones Ltda">
       <data key="d5">entidad_origen</data>
       <data key="d6">8250000000</data>
     </edge>
-    <edge id="e383" source="TRX-2012-11-20-Inversion-Offshore-Bancard-Exalmar-LaHaya-01" target="Contraloria General de la Republica">
+    <edge id="e367" source="TRX-2012-11-20-Inversion-Offshore-Bancard-Exalmar-LaHaya-01" target="Contraloria General de la Republica">
       <data key="d5">entidad_destino</data>
       <data key="d6">8250000000</data>
     </edge>
-    <edge id="e384" source="TRX-2012-11-20-Inversion-Offshore-Bancard-Exalmar-LaHaya-01" target="Sebastian Pinera Echenique">
+    <edge id="e368" source="TRX-2012-11-20-Inversion-Offshore-Bancard-Exalmar-LaHaya-01" target="Sebastian Pinera Echenique">
       <data key="d5">firmante_origen</data>
       <data key="d6">8250000000</data>
     </edge>
-    <edge id="e385" source="TRX-2012-11-20-Inversion-Offshore-Bancard-Exalmar-LaHaya-01" target="Santiago Valdes Gutierrez">
+    <edge id="e369" source="TRX-2012-11-20-Inversion-Offshore-Bancard-Exalmar-LaHaya-01" target="Santiago Valdes Gutierrez">
       <data key="d5">firmante_destino</data>
       <data key="d6">8250000000</data>
     </edge>
-    <edge id="e386" source="TRX-2012-11-20-Inversion-Offshore-Bancard-Exalmar-LaHaya-01" target="Negociacion Incompatible">
+    <edge id="e370" source="TRX-2012-11-20-Inversion-Offshore-Bancard-Exalmar-LaHaya-01" target="Negociacion Incompatible">
       <data key="d5">delito_imputado</data>
       <data key="d6">8250000000</data>
     </edge>
-    <edge id="e387" source="TRX-2012-11-20-Inversion-Offshore-Bancard-Exalmar-LaHaya-01" target="Caso Exalmar y Fideicomiso Ciego">
+    <edge id="e371" source="TRX-2012-11-20-Inversion-Offshore-Bancard-Exalmar-LaHaya-01" target="Caso Exalmar y Fideicomiso Ciego">
       <data key="d5">causa_vinculada</data>
       <data key="d6">8250000000</data>
     </edge>
-    <edge id="e388" source="TRX-2012-11-20-Inversion-Offshore-Bancard-Exalmar-LaHaya-01" target="Contrato-Offshore-BVI-PandoraPapers-Dominga-2010">
+    <edge id="e372" source="TRX-2012-11-20-Inversion-Offshore-Bancard-Exalmar-LaHaya-01" target="Contrato-Offshore-BVI-PandoraPapers-Dominga-2010">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">8250000000</data>
     </edge>
-    <edge id="e389" source="TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01" target="Mossack Fonseca y Sociedades Offshore Panama">
+    <edge id="e373" source="TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01" target="Mossack Fonseca y Sociedades Offshore Panama">
       <data key="d5">entidad_origen</data>
       <data key="d6">14200000000</data>
     </edge>
-    <edge id="e390" source="TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01" target="Servicio Impuestos Internos">
+    <edge id="e374" source="TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01" target="Servicio Impuestos Internos">
       <data key="d5">entidad_destino</data>
       <data key="d6">14200000000</data>
     </edge>
-    <edge id="e391" source="TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01" target="Gonzalo Delaveau Swett">
+    <edge id="e375" source="TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01" target="Gonzalo Delaveau Swett">
       <data key="d5">firmante_origen</data>
       <data key="d6">14200000000</data>
     </edge>
-    <edge id="e392" source="TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01" target="Carlos Pavez Tolosa">
+    <edge id="e376" source="TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01" target="Carlos Pavez Tolosa">
       <data key="d5">firmante_destino</data>
       <data key="d6">14200000000</data>
     </edge>
-    <edge id="e393" source="TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01" target="Delito Tributario">
+    <edge id="e377" source="TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01" target="Delito Tributario">
       <data key="d5">delito_imputado</data>
       <data key="d6">14200000000</data>
     </edge>
-    <edge id="e394" source="TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01" target="Caso Panama Papers Chile">
+    <edge id="e378" source="TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01" target="Caso Panama Papers Chile">
       <data key="d5">causa_vinculada</data>
       <data key="d6">14200000000</data>
     </edge>
-    <edge id="e395" source="TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01" target="Filtracion-ICIJ-PanamaPapers-Chile-2016">
+    <edge id="e379" source="TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01" target="Filtracion-ICIJ-PanamaPapers-Chile-2016">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">14200000000</data>
     </edge>
-    <edge id="e396" source="TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01" target="Mossack Fonseca y Sociedades Offshore Panama">
+    <edge id="e380" source="TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01" target="Mossack Fonseca y Sociedades Offshore Panama">
       <data key="d5">entidad_origen</data>
       <data key="d6">19500000000</data>
     </edge>
-    <edge id="e397" source="TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01" target="Unidad de Analisis Financiero">
+    <edge id="e381" source="TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01" target="Unidad de Analisis Financiero">
       <data key="d5">entidad_destino</data>
       <data key="d6">19500000000</data>
     </edge>
-    <edge id="e398" source="TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01" target="Agustin Edwards Eastman">
+    <edge id="e382" source="TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01" target="Agustin Edwards Eastman">
       <data key="d5">firmante_origen</data>
       <data key="d6">19500000000</data>
     </edge>
-    <edge id="e399" source="TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01" target="Alfredo Ovalle Rodriguez">
+    <edge id="e383" source="TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01" target="Alfredo Ovalle Rodriguez">
       <data key="d5">firmante_destino</data>
       <data key="d6">19500000000</data>
     </edge>
-    <edge id="e400" source="TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01" target="Delito Tributario">
+    <edge id="e384" source="TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01" target="Delito Tributario">
       <data key="d5">delito_imputado</data>
       <data key="d6">19500000000</data>
     </edge>
-    <edge id="e401" source="TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01" target="Caso Panama Papers Chile">
+    <edge id="e385" source="TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01" target="Caso Panama Papers Chile">
       <data key="d5">causa_vinculada</data>
       <data key="d6">19500000000</data>
     </edge>
-    <edge id="e402" source="TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01" target="Filtracion-ICIJ-PanamaPapers-Chile-2016">
+    <edge id="e386" source="TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01" target="Filtracion-ICIJ-PanamaPapers-Chile-2016">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">19500000000</data>
     </edge>
-    <edge id="e403" source="TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01" target="Mossack Fonseca y Sociedades Offshore Panama">
+    <edge id="e387" source="TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01" target="Mossack Fonseca y Sociedades Offshore Panama">
       <data key="d5">entidad_origen</data>
       <data key="d6">3800000000</data>
     </edge>
-    <edge id="e404" source="TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01" target="Riggs Bank y Sociedades Offshore Ashburton">
+    <edge id="e388" source="TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01" target="Riggs Bank y Sociedades Offshore Ashburton">
       <data key="d5">entidad_destino</data>
       <data key="d6">3800000000</data>
     </edge>
-    <edge id="e405" source="TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01" target="Oscar Aitken Lavanchy">
+    <edge id="e389" source="TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01" target="Oscar Aitken Lavanchy">
       <data key="d5">firmante_origen</data>
       <data key="d6">3800000000</data>
     </edge>
-    <edge id="e406" source="TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01" target="Augusto Pinochet Ugarte">
+    <edge id="e390" source="TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01" target="Augusto Pinochet Ugarte">
       <data key="d5">firmante_destino</data>
       <data key="d6">3800000000</data>
     </edge>
-    <edge id="e407" source="TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01" target="Lavado de Activos">
+    <edge id="e391" source="TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01" target="Lavado de Activos">
       <data key="d5">delito_imputado</data>
       <data key="d6">3800000000</data>
     </edge>
-    <edge id="e408" source="TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01" target="Caso Panama Papers Chile">
+    <edge id="e392" source="TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01" target="Caso Panama Papers Chile">
       <data key="d5">causa_vinculada</data>
       <data key="d6">3800000000</data>
     </edge>
-    <edge id="e409" source="TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01" target="Filtracion-ICIJ-PanamaPapers-Chile-2016">
+    <edge id="e393" source="TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01" target="Filtracion-ICIJ-PanamaPapers-Chile-2016">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">3800000000</data>
     </edge>
-    <edge id="e410" source="TRX-1971-09-09-Financiamiento-Encubierto-CIA-ElMercurio-Edwards-01" target="Agencia Central de Inteligencia CIA y Escuela de las Americas">
+    <edge id="e394" source="TRX-1971-09-09-Financiamiento-Encubierto-CIA-ElMercurio-Edwards-01" target="Agencia Central de Inteligencia CIA y Escuela de las Americas">
       <data key="d5">entidad_origen</data>
       <data key="d6">9500000000</data>
     </edge>
-    <edge id="e411" source="TRX-1971-09-09-Financiamiento-Encubierto-CIA-ElMercurio-Edwards-01" target="Empresa El Mercurio SAP">
+    <edge id="e395" source="TRX-1971-09-09-Financiamiento-Encubierto-CIA-ElMercurio-Edwards-01" target="Empresa El Mercurio SAP">
       <data key="d5">entidad_destino</data>
       <data key="d6">9500000000</data>
     </edge>
-    <edge id="e412" source="TRX-1971-09-09-Financiamiento-Encubierto-CIA-ElMercurio-Edwards-01" target="Manuel Contreras Sepulveda">
+    <edge id="e396" source="TRX-1971-09-09-Financiamiento-Encubierto-CIA-ElMercurio-Edwards-01" target="Manuel Contreras Sepulveda">
       <data key="d5">firmante_origen</data>
       <data key="d6">9500000000</data>
     </edge>
-    <edge id="e413" source="TRX-1971-09-09-Financiamiento-Encubierto-CIA-ElMercurio-Edwards-01" target="Agustin Edwards Eastman">
+    <edge id="e397" source="TRX-1971-09-09-Financiamiento-Encubierto-CIA-ElMercurio-Edwards-01" target="Agustin Edwards Eastman">
       <data key="d5">firmante_destino</data>
       <data key="d6">9500000000</data>
     </edge>
-    <edge id="e414" source="TRX-1971-09-09-Financiamiento-Encubierto-CIA-ElMercurio-Edwards-01" target="Lavado de Activos">
+    <edge id="e398" source="TRX-1971-09-09-Financiamiento-Encubierto-CIA-ElMercurio-Edwards-01" target="Lavado de Activos">
       <data key="d5">delito_imputado</data>
       <data key="d6">9500000000</data>
     </edge>
-    <edge id="e415" source="TRX-1971-09-09-Financiamiento-Encubierto-CIA-ElMercurio-Edwards-01" target="Caso Operacion FUBELT Intervencion CIA y DINA">
+    <edge id="e399" source="TRX-1971-09-09-Financiamiento-Encubierto-CIA-ElMercurio-Edwards-01" target="Caso Operacion FUBELT Intervencion CIA y DINA">
       <data key="d5">causa_vinculada</data>
       <data key="d6">9500000000</data>
     </edge>
-    <edge id="e416" source="TRX-1971-09-09-Financiamiento-Encubierto-CIA-ElMercurio-Edwards-01" target="Informe-Comision-Church-1975-y-Hinchey-CIA-2000">
+    <edge id="e400" source="TRX-1971-09-09-Financiamiento-Encubierto-CIA-ElMercurio-Edwards-01" target="Informe-Comision-Church-1975-y-Hinchey-CIA-2000">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">9500000000</data>
     </edge>
-    <edge id="e417" source="TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-CIA-01" target="Agencia Central de Inteligencia CIA y Escuela de las Americas">
+    <edge id="e401" source="TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-CIA-01" target="Agencia Central de Inteligencia CIA y Escuela de las Americas">
       <data key="d5">entidad_origen</data>
       <data key="d6">14800000000</data>
     </edge>
-    <edge id="e418" source="TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-CIA-01" target="Comando de Apoyo a la Fuerza del Ejercito">
+    <edge id="e402" source="TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-CIA-01" target="Comando de Apoyo a la Fuerza del Ejercito">
       <data key="d5">entidad_destino</data>
       <data key="d6">14800000000</data>
     </edge>
-    <edge id="e419" source="TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-CIA-01" target="Agustin Edwards Eastman">
+    <edge id="e403" source="TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-CIA-01" target="Agustin Edwards Eastman">
       <data key="d5">firmante_origen</data>
       <data key="d6">14800000000</data>
     </edge>
-    <edge id="e420" source="TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-CIA-01" target="Augusto Pinochet Ugarte">
+    <edge id="e404" source="TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-CIA-01" target="Augusto Pinochet Ugarte">
       <data key="d5">firmante_destino</data>
       <data key="d6">14800000000</data>
     </edge>
-    <edge id="e421" source="TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-CIA-01" target="Trafico de Influencias">
+    <edge id="e405" source="TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-CIA-01" target="Trafico de Influencias">
       <data key="d5">delito_imputado</data>
       <data key="d6">14800000000</data>
     </edge>
-    <edge id="e422" source="TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-CIA-01" target="Caso Operacion FUBELT Intervencion CIA y DINA">
+    <edge id="e406" source="TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-CIA-01" target="Caso Operacion FUBELT Intervencion CIA y DINA">
       <data key="d5">causa_vinculada</data>
       <data key="d6">14800000000</data>
     </edge>
-    <edge id="e423" source="TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-CIA-01" target="Informe-Comision-Church-1975-y-Hinchey-CIA-2000">
+    <edge id="e407" source="TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-CIA-01" target="Informe-Comision-Church-1975-y-Hinchey-CIA-2000">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">14800000000</data>
     </edge>
-    <edge id="e424" source="TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01" target="Agencia Central de Inteligencia CIA y Escuela de las Americas">
+    <edge id="e408" source="TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01" target="Agencia Central de Inteligencia CIA y Escuela de las Americas">
       <data key="d5">entidad_origen</data>
       <data key="d6">2100000000</data>
     </edge>
-    <edge id="e425" source="TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01" target="Corte Suprema de Chile">
+    <edge id="e409" source="TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01" target="Corte Suprema de Chile">
       <data key="d5">entidad_destino</data>
       <data key="d6">2100000000</data>
     </edge>
-    <edge id="e426" source="TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01" target="Manuel Contreras Sepulveda">
+    <edge id="e410" source="TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01" target="Manuel Contreras Sepulveda">
       <data key="d5">firmante_origen</data>
       <data key="d6">2100000000</data>
     </edge>
-    <edge id="e427" source="TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01" target="Augusto Pinochet Ugarte">
+    <edge id="e411" source="TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01" target="Augusto Pinochet Ugarte">
       <data key="d5">firmante_destino</data>
       <data key="d6">2100000000</data>
     </edge>
-    <edge id="e428" source="TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01" target="Lavado de Activos">
+    <edge id="e412" source="TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01" target="Lavado de Activos">
       <data key="d5">delito_imputado</data>
       <data key="d6">2100000000</data>
     </edge>
-    <edge id="e429" source="TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01" target="Caso Operacion FUBELT Intervencion CIA y DINA">
+    <edge id="e413" source="TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01" target="Caso Operacion FUBELT Intervencion CIA y DINA">
       <data key="d5">causa_vinculada</data>
       <data key="d6">2100000000</data>
     </edge>
-    <edge id="e430" source="TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01" target="Informe-Comision-Church-1975-y-Hinchey-CIA-2000">
+    <edge id="e414" source="TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01" target="Informe-Comision-Church-1975-y-Hinchey-CIA-2000">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">2100000000</data>
     </edge>
-    <edge id="e431" source="TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01" target="Factop SpA">
+    <edge id="e415" source="TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01" target="Factop SpA">
       <data key="d5">entidad_origen</data>
       <data key="d6">190000000</data>
     </edge>
-    <edge id="e432" source="TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01" target="Senado de la Republica de Chile">
+    <edge id="e416" source="TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01" target="Senado de la Republica de Chile">
       <data key="d5">entidad_destino</data>
       <data key="d6">190000000</data>
     </edge>
-    <edge id="e433" source="TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01" target="Luis Hermosilla Osorio">
+    <edge id="e417" source="TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01" target="Luis Hermosilla Osorio">
       <data key="d5">firmante_origen</data>
       <data key="d6">190000000</data>
     </edge>
-    <edge id="e434" source="TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01" target="Andres Chadwick Pinera">
+    <edge id="e418" source="TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01" target="Andres Chadwick Pinera">
       <data key="d5">firmante_destino</data>
       <data key="d6">190000000</data>
     </edge>
-    <edge id="e435" source="TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01" target="Caso Audios">
+    <edge id="e419" source="TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01" target="Caso Audios">
       <data key="d5">causa_vinculada</data>
       <data key="d6">190000000</data>
     </edge>
-    <edge id="e436" source="TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01" target="Trafico de Influencias">
+    <edge id="e420" source="TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01" target="Trafico de Influencias">
       <data key="d5">delito_imputado</data>
       <data key="d6">190000000</data>
     </edge>
-    <edge id="e437" source="TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01" target="Audio-Reunion-Edificio-Alonso-2023">
+    <edge id="e421" source="TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01" target="Audio-Reunion-Edificio-Alonso-2023">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">190000000</data>
     </edge>
-    <edge id="e438" source="TRX-2015-11-14-Mencion-Indirecta-Epstein-BinSulayem-Luksic-01" target="Corte Suprema de Chile">
+    <edge id="e422" source="TRX-2015-11-14-Mencion-Indirecta-Epstein-BinSulayem-Luksic-01" target="Corte Suprema de Chile">
       <data key="d5">entidad_origen</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e439" source="TRX-2015-11-14-Mencion-Indirecta-Epstein-BinSulayem-Luksic-01" target="Corte Suprema de Chile">
+    <edge id="e423" source="TRX-2015-11-14-Mencion-Indirecta-Epstein-BinSulayem-Luksic-01" target="Corte Suprema de Chile">
       <data key="d5">entidad_destino</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e440" source="TRX-2015-11-14-Mencion-Indirecta-Epstein-BinSulayem-Luksic-01" target="Andronico Luksic Craig">
+    <edge id="e424" source="TRX-2015-11-14-Mencion-Indirecta-Epstein-BinSulayem-Luksic-01" target="Andronico Luksic Craig">
       <data key="d5">firmante_origen</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e441" source="TRX-2015-11-14-Mencion-Indirecta-Epstein-BinSulayem-Luksic-01" target="Andronico Luksic Craig">
+    <edge id="e425" source="TRX-2015-11-14-Mencion-Indirecta-Epstein-BinSulayem-Luksic-01" target="Andronico Luksic Craig">
       <data key="d5">firmante_destino</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e442" source="TRX-2015-11-14-Mencion-Indirecta-Epstein-BinSulayem-Luksic-01" target="Caso Archivos Epstein Menciones Chile">
+    <edge id="e426" source="TRX-2015-11-14-Mencion-Indirecta-Epstein-BinSulayem-Luksic-01" target="Caso Archivos Epstein Menciones Chile">
       <data key="d5">causa_vinculada</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e443" source="TRX-2015-11-14-Mencion-Indirecta-Epstein-BinSulayem-Luksic-01" target="Publicacion-Archivos-DOJ-CasoEpstein-2026">
+    <edge id="e427" source="TRX-2015-11-14-Mencion-Indirecta-Epstein-BinSulayem-Luksic-01" target="Publicacion-Archivos-DOJ-CasoEpstein-2026">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e444" source="TRX-2013-05-20-Mencion-Referencial-Epstein-Dannatt-Velasco-01" target="Corte Suprema de Chile">
+    <edge id="e428" source="TRX-2013-05-20-Mencion-Referencial-Epstein-Dannatt-Velasco-01" target="Corte Suprema de Chile">
       <data key="d5">entidad_origen</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e445" source="TRX-2013-05-20-Mencion-Referencial-Epstein-Dannatt-Velasco-01" target="Corte Suprema de Chile">
+    <edge id="e429" source="TRX-2013-05-20-Mencion-Referencial-Epstein-Dannatt-Velasco-01" target="Corte Suprema de Chile">
       <data key="d5">entidad_destino</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e446" source="TRX-2013-05-20-Mencion-Referencial-Epstein-Dannatt-Velasco-01" target="Andres Velasco Branes">
+    <edge id="e430" source="TRX-2013-05-20-Mencion-Referencial-Epstein-Dannatt-Velasco-01" target="Andres Velasco Branes">
       <data key="d5">firmante_origen</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e447" source="TRX-2013-05-20-Mencion-Referencial-Epstein-Dannatt-Velasco-01" target="Andres Velasco Branes">
+    <edge id="e431" source="TRX-2013-05-20-Mencion-Referencial-Epstein-Dannatt-Velasco-01" target="Andres Velasco Branes">
       <data key="d5">firmante_destino</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e448" source="TRX-2013-05-20-Mencion-Referencial-Epstein-Dannatt-Velasco-01" target="Caso Archivos Epstein Menciones Chile">
+    <edge id="e432" source="TRX-2013-05-20-Mencion-Referencial-Epstein-Dannatt-Velasco-01" target="Caso Archivos Epstein Menciones Chile">
       <data key="d5">causa_vinculada</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e449" source="TRX-2013-05-20-Mencion-Referencial-Epstein-Dannatt-Velasco-01" target="Publicacion-Archivos-DOJ-CasoEpstein-2026">
+    <edge id="e433" source="TRX-2013-05-20-Mencion-Referencial-Epstein-Dannatt-Velasco-01" target="Publicacion-Archivos-DOJ-CasoEpstein-2026">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e450" source="TRX-2015-08-10-Contacto-Academico-Patrocinio-Guendelman-Epstein-01" target="Corte Suprema de Chile">
+    <edge id="e434" source="TRX-2015-08-10-Contacto-Academico-Patrocinio-Guendelman-Epstein-01" target="Corte Suprema de Chile">
       <data key="d5">entidad_origen</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e451" source="TRX-2015-08-10-Contacto-Academico-Patrocinio-Guendelman-Epstein-01" target="Corte Suprema de Chile">
+    <edge id="e435" source="TRX-2015-08-10-Contacto-Academico-Patrocinio-Guendelman-Epstein-01" target="Corte Suprema de Chile">
       <data key="d5">entidad_destino</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e452" source="TRX-2015-08-10-Contacto-Academico-Patrocinio-Guendelman-Epstein-01" target="Eduardo Guendelman Israel">
+    <edge id="e436" source="TRX-2015-08-10-Contacto-Academico-Patrocinio-Guendelman-Epstein-01" target="Eduardo Guendelman Israel">
       <data key="d5">firmante_origen</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e453" source="TRX-2015-08-10-Contacto-Academico-Patrocinio-Guendelman-Epstein-01" target="Eduardo Guendelman Israel">
+    <edge id="e437" source="TRX-2015-08-10-Contacto-Academico-Patrocinio-Guendelman-Epstein-01" target="Eduardo Guendelman Israel">
       <data key="d5">firmante_destino</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e454" source="TRX-2015-08-10-Contacto-Academico-Patrocinio-Guendelman-Epstein-01" target="Caso Archivos Epstein Menciones Chile">
+    <edge id="e438" source="TRX-2015-08-10-Contacto-Academico-Patrocinio-Guendelman-Epstein-01" target="Caso Archivos Epstein Menciones Chile">
       <data key="d5">causa_vinculada</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e455" source="TRX-2015-08-10-Contacto-Academico-Patrocinio-Guendelman-Epstein-01" target="Publicacion-Archivos-DOJ-CasoEpstein-2026">
+    <edge id="e439" source="TRX-2015-08-10-Contacto-Academico-Patrocinio-Guendelman-Epstein-01" target="Publicacion-Archivos-DOJ-CasoEpstein-2026">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e456" source="TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01" target="Direccion de Inteligencia Policial de Carabineros">
+    <edge id="e440" source="TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01" target="Direccion de Inteligencia Policial de Carabineros">
       <data key="d5">entidad_origen</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e457" source="TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01" target="Corte Suprema de Chile">
+    <edge id="e441" source="TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01" target="Corte Suprema de Chile">
       <data key="d5">entidad_destino</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e458" source="TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01" target="Gonzalo Blu Rodriguez">
+    <edge id="e442" source="TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01" target="Gonzalo Blu Rodriguez">
       <data key="d5">firmante_origen</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e459" source="TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01" target="Alex Smith Leay">
+    <edge id="e443" source="TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01" target="Alex Smith Leay">
       <data key="d5">firmante_destino</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e460" source="TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01" target="Caso Operacion Huracan">
+    <edge id="e444" source="TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01" target="Caso Operacion Huracan">
       <data key="d5">causa_vinculada</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e461" source="TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01" target="Falsificacion de Instrumento Publico">
+    <edge id="e445" source="TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01" target="Falsificacion de Instrumento Publico">
       <data key="d5">delito_imputado</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e462" source="TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01" target="Sentencia-TOP-Temuco-OperacionHuracan-2026">
+    <edge id="e446" source="TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01" target="Sentencia-TOP-Temuco-OperacionHuracan-2026">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e463" source="TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01" target="Direccion de Inteligencia Policial de Carabineros">
+    <edge id="e447" source="TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01" target="Direccion de Inteligencia Policial de Carabineros">
       <data key="d5">entidad_origen</data>
       <data key="d6">25000000</data>
     </edge>
-    <edge id="e464" source="TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01" target="Direccion de Inteligencia Policial de Carabineros">
+    <edge id="e448" source="TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01" target="Direccion de Inteligencia Policial de Carabineros">
       <data key="d5">entidad_destino</data>
       <data key="d6">25000000</data>
     </edge>
-    <edge id="e465" source="TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01" target="Patricio Marin Lazo">
+    <edge id="e449" source="TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01" target="Patricio Marin Lazo">
       <data key="d5">firmante_origen</data>
       <data key="d6">25000000</data>
     </edge>
-    <edge id="e466" source="TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01" target="Alex Smith Leay">
+    <edge id="e450" source="TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01" target="Alex Smith Leay">
       <data key="d5">firmante_destino</data>
       <data key="d6">25000000</data>
     </edge>
-    <edge id="e467" source="TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01" target="Caso Operacion Huracan">
+    <edge id="e451" source="TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01" target="Caso Operacion Huracan">
       <data key="d5">causa_vinculada</data>
       <data key="d6">25000000</data>
     </edge>
-    <edge id="e468" source="TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01" target="Malversacion de Caudales Publicos">
+    <edge id="e452" source="TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01" target="Malversacion de Caudales Publicos">
       <data key="d5">delito_imputado</data>
       <data key="d6">25000000</data>
     </edge>
-    <edge id="e469" source="TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01" target="Sentencia-TOP-Temuco-OperacionHuracan-2026">
+    <edge id="e453" source="TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01" target="Sentencia-TOP-Temuco-OperacionHuracan-2026">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">25000000</data>
     </edge>
-    <edge id="e470" source="TRX-2018-01-25-Peritaje-Cibercrimen-Descarte-Antorcha-01" target="Corte Suprema de Chile">
+    <edge id="e454" source="TRX-2018-01-25-Peritaje-Cibercrimen-Descarte-Antorcha-01" target="Corte Suprema de Chile">
       <data key="d5">entidad_origen</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e471" source="TRX-2018-01-25-Peritaje-Cibercrimen-Descarte-Antorcha-01" target="Direccion de Inteligencia Policial de Carabineros">
+    <edge id="e455" source="TRX-2018-01-25-Peritaje-Cibercrimen-Descarte-Antorcha-01" target="Direccion de Inteligencia Policial de Carabineros">
       <data key="d5">entidad_destino</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e472" source="TRX-2018-01-25-Peritaje-Cibercrimen-Descarte-Antorcha-01" target="Leonardo Osses Sandoval">
+    <edge id="e456" source="TRX-2018-01-25-Peritaje-Cibercrimen-Descarte-Antorcha-01" target="Leonardo Osses Sandoval">
       <data key="d5">firmante_origen</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e473" source="TRX-2018-01-25-Peritaje-Cibercrimen-Descarte-Antorcha-01" target="Alex Smith Leay">
+    <edge id="e457" source="TRX-2018-01-25-Peritaje-Cibercrimen-Descarte-Antorcha-01" target="Alex Smith Leay">
       <data key="d5">firmante_destino</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e474" source="TRX-2018-01-25-Peritaje-Cibercrimen-Descarte-Antorcha-01" target="Caso Operacion Huracan">
+    <edge id="e458" source="TRX-2018-01-25-Peritaje-Cibercrimen-Descarte-Antorcha-01" target="Caso Operacion Huracan">
       <data key="d5">causa_vinculada</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e475" source="TRX-2018-01-25-Peritaje-Cibercrimen-Descarte-Antorcha-01" target="Obstruccion a la Investigacion">
+    <edge id="e459" source="TRX-2018-01-25-Peritaje-Cibercrimen-Descarte-Antorcha-01" target="Obstruccion a la Investigacion">
       <data key="d5">delito_imputado</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e476" source="TRX-2018-01-25-Peritaje-Cibercrimen-Descarte-Antorcha-01" target="Peritaje-Cibercrimen-PDI-SoftwareAntorcha-2018">
+    <edge id="e460" source="TRX-2018-01-25-Peritaje-Cibercrimen-Descarte-Antorcha-01" target="Peritaje-Cibercrimen-PDI-SoftwareAntorcha-2018">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e477" source="TRX-2022-11-15-Gestion-Nombramientos-Hermosilla-Zaliasnik-01" target="Factop SpA">
+    <edge id="e461" source="TRX-2022-11-15-Gestion-Nombramientos-Hermosilla-Zaliasnik-01" target="Factop SpA">
       <data key="d5">entidad_origen</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e478" source="TRX-2022-11-15-Gestion-Nombramientos-Hermosilla-Zaliasnik-01" target="Corte Suprema de Chile">
+    <edge id="e462" source="TRX-2022-11-15-Gestion-Nombramientos-Hermosilla-Zaliasnik-01" target="Corte Suprema de Chile">
       <data key="d5">entidad_destino</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e479" source="TRX-2022-11-15-Gestion-Nombramientos-Hermosilla-Zaliasnik-01" target="Luis Hermosilla Osorio">
+    <edge id="e463" source="TRX-2022-11-15-Gestion-Nombramientos-Hermosilla-Zaliasnik-01" target="Luis Hermosilla Osorio">
       <data key="d5">firmante_origen</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e480" source="TRX-2022-11-15-Gestion-Nombramientos-Hermosilla-Zaliasnik-01" target="Gabriel Zaliasnik Schilkrut">
+    <edge id="e464" source="TRX-2022-11-15-Gestion-Nombramientos-Hermosilla-Zaliasnik-01" target="Gabriel Zaliasnik Schilkrut">
       <data key="d5">firmante_destino</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e481" source="TRX-2022-11-15-Gestion-Nombramientos-Hermosilla-Zaliasnik-01" target="Caso Audios">
+    <edge id="e465" source="TRX-2022-11-15-Gestion-Nombramientos-Hermosilla-Zaliasnik-01" target="Caso Audios">
       <data key="d5">causa_vinculada</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e482" source="TRX-2022-11-15-Gestion-Nombramientos-Hermosilla-Zaliasnik-01" target="Trafico de Influencias">
+    <edge id="e466" source="TRX-2022-11-15-Gestion-Nombramientos-Hermosilla-Zaliasnik-01" target="Trafico de Influencias">
       <data key="d5">delito_imputado</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e483" source="TRX-2022-11-15-Gestion-Nombramientos-Hermosilla-Zaliasnik-01" target="Audio-Reunion-Edificio-Alonso-2023">
+    <edge id="e467" source="TRX-2022-11-15-Gestion-Nombramientos-Hermosilla-Zaliasnik-01" target="Audio-Reunion-Edificio-Alonso-2023">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e484" source="TRX-2000-05-15-Pacto-Colusion-Precios-Cuotas-CMPC-PISA-01" target="Empresas CMPC SA">
+    <edge id="e468" source="TRX-2000-05-15-Pacto-Colusion-Precios-Cuotas-CMPC-PISA-01" target="Empresas CMPC SA">
       <data key="d5">entidad_origen</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e485" source="TRX-2000-05-15-Pacto-Colusion-Precios-Cuotas-CMPC-PISA-01" target="SCA Chile SA">
+    <edge id="e469" source="TRX-2000-05-15-Pacto-Colusion-Precios-Cuotas-CMPC-PISA-01" target="SCA Chile SA">
       <data key="d5">entidad_destino</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e486" source="TRX-2000-05-15-Pacto-Colusion-Precios-Cuotas-CMPC-PISA-01" target="Eliodoro Matte Larrain">
+    <edge id="e470" source="TRX-2000-05-15-Pacto-Colusion-Precios-Cuotas-CMPC-PISA-01" target="Eliodoro Matte Larrain">
       <data key="d5">firmante_origen</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e487" source="TRX-2000-05-15-Pacto-Colusion-Precios-Cuotas-CMPC-PISA-01" target="Gabriel Ruiz-Tagle Serrano">
+    <edge id="e471" source="TRX-2000-05-15-Pacto-Colusion-Precios-Cuotas-CMPC-PISA-01" target="Gabriel Ruiz-Tagle Serrano">
       <data key="d5">firmante_destino</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e488" source="TRX-2000-05-15-Pacto-Colusion-Precios-Cuotas-CMPC-PISA-01" target="Caso Colusion del Papel Tissue">
+    <edge id="e472" source="TRX-2000-05-15-Pacto-Colusion-Precios-Cuotas-CMPC-PISA-01" target="Caso Colusion del Papel Tissue">
       <data key="d5">causa_vinculada</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e489" source="TRX-2000-05-15-Pacto-Colusion-Precios-Cuotas-CMPC-PISA-01" target="Colusion y Atentado a la Libre Competencia">
+    <edge id="e473" source="TRX-2000-05-15-Pacto-Colusion-Precios-Cuotas-CMPC-PISA-01" target="Colusion y Atentado a la Libre Competencia">
       <data key="d5">delito_imputado</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e490" source="TRX-2000-05-15-Pacto-Colusion-Precios-Cuotas-CMPC-PISA-01" target="Sentencia-TDLC-160-Colusion-Tissue-2017">
+    <edge id="e474" source="TRX-2000-05-15-Pacto-Colusion-Precios-Cuotas-CMPC-PISA-01" target="Sentencia-TDLC-160-Colusion-Tissue-2017">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e491" source="TRX-2017-03-03-Compensacion-Historica-Consumidores-CMPC-SERNAC-01" target="Empresas CMPC SA">
+    <edge id="e475" source="TRX-2017-03-03-Compensacion-Historica-Consumidores-CMPC-SERNAC-01" target="Empresas CMPC SA">
       <data key="d5">entidad_origen</data>
       <data key="d6">97500000000</data>
     </edge>
-    <edge id="e492" source="TRX-2017-03-03-Compensacion-Historica-Consumidores-CMPC-SERNAC-01" target="Servicio Nacional del Consumidor">
+    <edge id="e476" source="TRX-2017-03-03-Compensacion-Historica-Consumidores-CMPC-SERNAC-01" target="Servicio Nacional del Consumidor">
       <data key="d5">entidad_destino</data>
       <data key="d6">97500000000</data>
     </edge>
-    <edge id="e493" source="TRX-2017-03-03-Compensacion-Historica-Consumidores-CMPC-SERNAC-01" target="Eliodoro Matte Larrain">
+    <edge id="e477" source="TRX-2017-03-03-Compensacion-Historica-Consumidores-CMPC-SERNAC-01" target="Eliodoro Matte Larrain">
       <data key="d5">firmante_origen</data>
       <data key="d6">97500000000</data>
     </edge>
-    <edge id="e494" source="TRX-2017-03-03-Compensacion-Historica-Consumidores-CMPC-SERNAC-01" target="Gabriel Ruiz-Tagle Serrano">
+    <edge id="e478" source="TRX-2017-03-03-Compensacion-Historica-Consumidores-CMPC-SERNAC-01" target="Gabriel Ruiz-Tagle Serrano">
       <data key="d5">firmante_destino</data>
       <data key="d6">97500000000</data>
     </edge>
-    <edge id="e495" source="TRX-2017-03-03-Compensacion-Historica-Consumidores-CMPC-SERNAC-01" target="Caso Colusion del Papel Tissue">
+    <edge id="e479" source="TRX-2017-03-03-Compensacion-Historica-Consumidores-CMPC-SERNAC-01" target="Caso Colusion del Papel Tissue">
       <data key="d5">causa_vinculada</data>
       <data key="d6">97500000000</data>
     </edge>
-    <edge id="e496" source="TRX-2017-03-03-Compensacion-Historica-Consumidores-CMPC-SERNAC-01" target="Colusion y Atentado a la Libre Competencia">
+    <edge id="e480" source="TRX-2017-03-03-Compensacion-Historica-Consumidores-CMPC-SERNAC-01" target="Colusion y Atentado a la Libre Competencia">
       <data key="d5">delito_imputado</data>
       <data key="d6">97500000000</data>
     </edge>
-    <edge id="e497" source="TRX-2017-03-03-Compensacion-Historica-Consumidores-CMPC-SERNAC-01" target="Acuerdo-Compensatorio-SERNAC-CMPC-Tissue-2017">
+    <edge id="e481" source="TRX-2017-03-03-Compensacion-Historica-Consumidores-CMPC-SERNAC-01" target="Acuerdo-Compensatorio-SERNAC-CMPC-Tissue-2017">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">97500000000</data>
     </edge>
-    <edge id="e498" source="TRX-2007-11-01-Coordinacion-Cartel-Precios-Medicamentos-Farmacias-01" target="Farmacias Salcobrand SA">
+    <edge id="e482" source="TRX-2007-11-01-Coordinacion-Cartel-Precios-Medicamentos-Farmacias-01" target="Farmacias Salcobrand SA">
       <data key="d5">entidad_origen</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e499" source="TRX-2007-11-01-Coordinacion-Cartel-Precios-Medicamentos-Farmacias-01" target="Farmacias Cruz Verde SA">
+    <edge id="e483" source="TRX-2007-11-01-Coordinacion-Cartel-Precios-Medicamentos-Farmacias-01" target="Farmacias Cruz Verde SA">
       <data key="d5">entidad_destino</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e500" source="TRX-2007-11-01-Coordinacion-Cartel-Precios-Medicamentos-Farmacias-01" target="Roberto Belloni Pechini">
+    <edge id="e484" source="TRX-2007-11-01-Coordinacion-Cartel-Precios-Medicamentos-Farmacias-01" target="Roberto Belloni Pechini">
       <data key="d5">firmante_origen</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e501" source="TRX-2007-11-01-Coordinacion-Cartel-Precios-Medicamentos-Farmacias-01" target="Guillermo Harding Alvarado">
+    <edge id="e485" source="TRX-2007-11-01-Coordinacion-Cartel-Precios-Medicamentos-Farmacias-01" target="Guillermo Harding Alvarado">
       <data key="d5">firmante_destino</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e502" source="TRX-2007-11-01-Coordinacion-Cartel-Precios-Medicamentos-Farmacias-01" target="Caso Colusion de las Farmacias">
+    <edge id="e486" source="TRX-2007-11-01-Coordinacion-Cartel-Precios-Medicamentos-Farmacias-01" target="Caso Colusion de las Farmacias">
       <data key="d5">causa_vinculada</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e503" source="TRX-2007-11-01-Coordinacion-Cartel-Precios-Medicamentos-Farmacias-01" target="Colusion y Atentado a la Libre Competencia">
+    <edge id="e487" source="TRX-2007-11-01-Coordinacion-Cartel-Precios-Medicamentos-Farmacias-01" target="Colusion y Atentado a la Libre Competencia">
       <data key="d5">delito_imputado</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e504" source="TRX-2007-11-01-Coordinacion-Cartel-Precios-Medicamentos-Farmacias-01" target="Sentencia-TDLC-119-Colusion-Farmacias-2012">
+    <edge id="e488" source="TRX-2007-11-01-Coordinacion-Cartel-Precios-Medicamentos-Farmacias-01" target="Sentencia-TDLC-119-Colusion-Farmacias-2012">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e505" source="TRX-2020-11-25-Compensacion-Indemnizatoria-Consumidores-Farmacias-01" target="Farmacias Salcobrand SA">
+    <edge id="e489" source="TRX-2020-11-25-Compensacion-Indemnizatoria-Consumidores-Farmacias-01" target="Farmacias Salcobrand SA">
       <data key="d5">entidad_origen</data>
       <data key="d6">2180000000</data>
     </edge>
-    <edge id="e506" source="TRX-2020-11-25-Compensacion-Indemnizatoria-Consumidores-Farmacias-01" target="Servicio Nacional del Consumidor">
+    <edge id="e490" source="TRX-2020-11-25-Compensacion-Indemnizatoria-Consumidores-Farmacias-01" target="Servicio Nacional del Consumidor">
       <data key="d5">entidad_destino</data>
       <data key="d6">2180000000</data>
     </edge>
-    <edge id="e507" source="TRX-2020-11-25-Compensacion-Indemnizatoria-Consumidores-Farmacias-01" target="Roberto Belloni Pechini">
+    <edge id="e491" source="TRX-2020-11-25-Compensacion-Indemnizatoria-Consumidores-Farmacias-01" target="Roberto Belloni Pechini">
       <data key="d5">firmante_origen</data>
       <data key="d6">2180000000</data>
     </edge>
-    <edge id="e508" source="TRX-2020-11-25-Compensacion-Indemnizatoria-Consumidores-Farmacias-01" target="Jose Codner Chijner">
+    <edge id="e492" source="TRX-2020-11-25-Compensacion-Indemnizatoria-Consumidores-Farmacias-01" target="Jose Codner Chijner">
       <data key="d5">firmante_destino</data>
       <data key="d6">2180000000</data>
     </edge>
-    <edge id="e509" source="TRX-2020-11-25-Compensacion-Indemnizatoria-Consumidores-Farmacias-01" target="Caso Colusion de las Farmacias">
+    <edge id="e493" source="TRX-2020-11-25-Compensacion-Indemnizatoria-Consumidores-Farmacias-01" target="Caso Colusion de las Farmacias">
       <data key="d5">causa_vinculada</data>
       <data key="d6">2180000000</data>
     </edge>
-    <edge id="e510" source="TRX-2020-11-25-Compensacion-Indemnizatoria-Consumidores-Farmacias-01" target="Colusion y Atentado a la Libre Competencia">
+    <edge id="e494" source="TRX-2020-11-25-Compensacion-Indemnizatoria-Consumidores-Farmacias-01" target="Colusion y Atentado a la Libre Competencia">
       <data key="d5">delito_imputado</data>
       <data key="d6">2180000000</data>
     </edge>
-    <edge id="e511" source="TRX-2020-11-25-Compensacion-Indemnizatoria-Consumidores-Farmacias-01" target="Sentencia-Corte-Suprema-Colusion-Farmacias-2012">
+    <edge id="e495" source="TRX-2020-11-25-Compensacion-Indemnizatoria-Consumidores-Farmacias-01" target="Sentencia-Corte-Suprema-Colusion-Farmacias-2012">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">2180000000</data>
     </edge>
-    <edge id="e512" source="TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01" target="Servicio Impuestos Internos">
+    <edge id="e496" source="TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01" target="Servicio Impuestos Internos">
       <data key="d5">entidad_destino</data>
       <data key="d6">240000000000</data>
     </edge>
-    <edge id="e513" source="TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01" target="Caso Megafraude Tributario Operacion Tributos">
+    <edge id="e497" source="TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01" target="Caso Megafraude Tributario Operacion Tributos">
       <data key="d5">causa_vinculada</data>
       <data key="d6">240000000000</data>
     </edge>
-    <edge id="e514" source="TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01" target="Delito Tributario">
+    <edge id="e498" source="TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01" target="Delito Tributario">
       <data key="d5">delito_imputado</data>
       <data key="d6">240000000000</data>
     </edge>
-    <edge id="e515" source="TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01" target="Querella-SII-Megafraude-Tributario-2023">
+    <edge id="e499" source="TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01" target="Querella-SII-Megafraude-Tributario-2023">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">240000000000</data>
     </edge>
-    <edge id="e516" source="TRX-2008-01-15-Pacto-Cuotas-Produccion-Cartel-Pollos-01" target="Agrosuper SA">
+    <edge id="e500" source="TRX-2008-01-15-Pacto-Cuotas-Produccion-Cartel-Pollos-01" target="Agrosuper SA">
       <data key="d5">entidad_origen</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e517" source="TRX-2008-01-15-Pacto-Cuotas-Produccion-Cartel-Pollos-01" target="Asociacion de Productores Avicolas de Chile AG">
+    <edge id="e501" source="TRX-2008-01-15-Pacto-Cuotas-Produccion-Cartel-Pollos-01" target="Asociacion de Productores Avicolas de Chile AG">
       <data key="d5">entidad_destino</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e518" source="TRX-2008-01-15-Pacto-Cuotas-Produccion-Cartel-Pollos-01" target="Gonzalo Vial Vial">
+    <edge id="e502" source="TRX-2008-01-15-Pacto-Cuotas-Produccion-Cartel-Pollos-01" target="Gonzalo Vial Vial">
       <data key="d5">firmante_origen</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e519" source="TRX-2008-01-15-Pacto-Cuotas-Produccion-Cartel-Pollos-01" target="Juan Miguel Ovalle Garces">
+    <edge id="e503" source="TRX-2008-01-15-Pacto-Cuotas-Produccion-Cartel-Pollos-01" target="Juan Miguel Ovalle Garces">
       <data key="d5">firmante_destino</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e520" source="TRX-2008-01-15-Pacto-Cuotas-Produccion-Cartel-Pollos-01" target="Caso Colusion de los Pollos">
+    <edge id="e504" source="TRX-2008-01-15-Pacto-Cuotas-Produccion-Cartel-Pollos-01" target="Caso Colusion de los Pollos">
       <data key="d5">causa_vinculada</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e521" source="TRX-2008-01-15-Pacto-Cuotas-Produccion-Cartel-Pollos-01" target="Colusion y Atentado a la Libre Competencia">
+    <edge id="e505" source="TRX-2008-01-15-Pacto-Cuotas-Produccion-Cartel-Pollos-01" target="Colusion y Atentado a la Libre Competencia">
       <data key="d5">delito_imputado</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e522" source="TRX-2008-01-15-Pacto-Cuotas-Produccion-Cartel-Pollos-01" target="Sentencia-TDLC-139-Colusion-Pollos-2014">
+    <edge id="e506" source="TRX-2008-01-15-Pacto-Cuotas-Produccion-Cartel-Pollos-01" target="Sentencia-TDLC-139-Colusion-Pollos-2014">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e523" source="TRX-2015-10-29-Pago-Multas-Historicas-Cartel-Pollos-01" target="Agrosuper SA">
+    <edge id="e507" source="TRX-2015-10-29-Pago-Multas-Historicas-Cartel-Pollos-01" target="Agrosuper SA">
       <data key="d5">entidad_origen</data>
       <data key="d6">38400000000</data>
     </edge>
-    <edge id="e524" source="TRX-2015-10-29-Pago-Multas-Historicas-Cartel-Pollos-01" target="Corte Suprema de Chile">
+    <edge id="e508" source="TRX-2015-10-29-Pago-Multas-Historicas-Cartel-Pollos-01" target="Corte Suprema de Chile">
       <data key="d5">entidad_destino</data>
       <data key="d6">38400000000</data>
     </edge>
-    <edge id="e525" source="TRX-2015-10-29-Pago-Multas-Historicas-Cartel-Pollos-01" target="Gonzalo Vial Vial">
+    <edge id="e509" source="TRX-2015-10-29-Pago-Multas-Historicas-Cartel-Pollos-01" target="Gonzalo Vial Vial">
       <data key="d5">firmante_origen</data>
       <data key="d6">38400000000</data>
     </edge>
-    <edge id="e526" source="TRX-2015-10-29-Pago-Multas-Historicas-Cartel-Pollos-01" target="Manuel Ariztia Ruiz">
+    <edge id="e510" source="TRX-2015-10-29-Pago-Multas-Historicas-Cartel-Pollos-01" target="Manuel Ariztia Ruiz">
       <data key="d5">firmante_destino</data>
       <data key="d6">38400000000</data>
     </edge>
-    <edge id="e527" source="TRX-2015-10-29-Pago-Multas-Historicas-Cartel-Pollos-01" target="Caso Colusion de los Pollos">
+    <edge id="e511" source="TRX-2015-10-29-Pago-Multas-Historicas-Cartel-Pollos-01" target="Caso Colusion de los Pollos">
       <data key="d5">causa_vinculada</data>
       <data key="d6">38400000000</data>
     </edge>
-    <edge id="e528" source="TRX-2015-10-29-Pago-Multas-Historicas-Cartel-Pollos-01" target="Colusion y Atentado a la Libre Competencia">
+    <edge id="e512" source="TRX-2015-10-29-Pago-Multas-Historicas-Cartel-Pollos-01" target="Colusion y Atentado a la Libre Competencia">
       <data key="d5">delito_imputado</data>
       <data key="d6">38400000000</data>
     </edge>
-    <edge id="e529" source="TRX-2015-10-29-Pago-Multas-Historicas-Cartel-Pollos-01" target="Sentencia-Corte-Suprema-Colusion-Pollos-2015">
+    <edge id="e513" source="TRX-2015-10-29-Pago-Multas-Historicas-Cartel-Pollos-01" target="Sentencia-Corte-Suprema-Colusion-Pollos-2015">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">38400000000</data>
     </edge>
-    <edge id="e530" source="TRX-2007-04-10-Modelo-Proyeccion-Demanda-APA-Pollos-01" target="Quiroz y Asociados Consultores SpA">
+    <edge id="e514" source="TRX-2007-04-10-Modelo-Proyeccion-Demanda-APA-Pollos-01" target="Quiroz y Asociados Consultores SpA">
       <data key="d5">entidad_origen</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e531" source="TRX-2007-04-10-Modelo-Proyeccion-Demanda-APA-Pollos-01" target="Asociacion de Productores Avicolas de Chile AG">
+    <edge id="e515" source="TRX-2007-04-10-Modelo-Proyeccion-Demanda-APA-Pollos-01" target="Asociacion de Productores Avicolas de Chile AG">
       <data key="d5">entidad_destino</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e532" source="TRX-2007-04-10-Modelo-Proyeccion-Demanda-APA-Pollos-01" target="Jorge Quiroz Castro">
+    <edge id="e516" source="TRX-2007-04-10-Modelo-Proyeccion-Demanda-APA-Pollos-01" target="Jorge Quiroz Castro">
       <data key="d5">firmante_origen</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e533" source="TRX-2007-04-10-Modelo-Proyeccion-Demanda-APA-Pollos-01" target="Juan Miguel Ovalle Garces">
+    <edge id="e517" source="TRX-2007-04-10-Modelo-Proyeccion-Demanda-APA-Pollos-01" target="Juan Miguel Ovalle Garces">
       <data key="d5">firmante_destino</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e534" source="TRX-2007-04-10-Modelo-Proyeccion-Demanda-APA-Pollos-01" target="Caso Colusion de los Pollos">
+    <edge id="e518" source="TRX-2007-04-10-Modelo-Proyeccion-Demanda-APA-Pollos-01" target="Caso Colusion de los Pollos">
       <data key="d5">causa_vinculada</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e535" source="TRX-2007-04-10-Modelo-Proyeccion-Demanda-APA-Pollos-01" target="Colusion y Atentado a la Libre Competencia">
+    <edge id="e519" source="TRX-2007-04-10-Modelo-Proyeccion-Demanda-APA-Pollos-01" target="Colusion y Atentado a la Libre Competencia">
       <data key="d5">delito_imputado</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e536" source="TRX-2007-04-10-Modelo-Proyeccion-Demanda-APA-Pollos-01" target="Sentencia-TDLC-139-Colusion-Pollos-2014">
+    <edge id="e520" source="TRX-2007-04-10-Modelo-Proyeccion-Demanda-APA-Pollos-01" target="Sentencia-TDLC-139-Colusion-Pollos-2014">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e537" source="TRX-2010-06-15-Informe-Economico-Peritaje-Defensa-Salcobrand-01" target="Quiroz y Asociados Consultores SpA">
+    <edge id="e521" source="TRX-2010-06-15-Informe-Economico-Peritaje-Defensa-Salcobrand-01" target="Quiroz y Asociados Consultores SpA">
       <data key="d5">entidad_origen</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e538" source="TRX-2010-06-15-Informe-Economico-Peritaje-Defensa-Salcobrand-01" target="Farmacias Salcobrand SA">
+    <edge id="e522" source="TRX-2010-06-15-Informe-Economico-Peritaje-Defensa-Salcobrand-01" target="Farmacias Salcobrand SA">
       <data key="d5">entidad_destino</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e539" source="TRX-2010-06-15-Informe-Economico-Peritaje-Defensa-Salcobrand-01" target="Jorge Quiroz Castro">
+    <edge id="e523" source="TRX-2010-06-15-Informe-Economico-Peritaje-Defensa-Salcobrand-01" target="Jorge Quiroz Castro">
       <data key="d5">firmante_origen</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e540" source="TRX-2010-06-15-Informe-Economico-Peritaje-Defensa-Salcobrand-01" target="Roberto Belloni Pechini">
+    <edge id="e524" source="TRX-2010-06-15-Informe-Economico-Peritaje-Defensa-Salcobrand-01" target="Roberto Belloni Pechini">
       <data key="d5">firmante_destino</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e541" source="TRX-2010-06-15-Informe-Economico-Peritaje-Defensa-Salcobrand-01" target="Caso Colusion de las Farmacias">
+    <edge id="e525" source="TRX-2010-06-15-Informe-Economico-Peritaje-Defensa-Salcobrand-01" target="Caso Colusion de las Farmacias">
       <data key="d5">causa_vinculada</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e542" source="TRX-2010-06-15-Informe-Economico-Peritaje-Defensa-Salcobrand-01" target="Colusion y Atentado a la Libre Competencia">
+    <edge id="e526" source="TRX-2010-06-15-Informe-Economico-Peritaje-Defensa-Salcobrand-01" target="Colusion y Atentado a la Libre Competencia">
       <data key="d5">delito_imputado</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e543" source="TRX-2010-06-15-Informe-Economico-Peritaje-Defensa-Salcobrand-01" target="Sentencia-TDLC-119-Colusion-Farmacias-2012">
+    <edge id="e527" source="TRX-2010-06-15-Informe-Economico-Peritaje-Defensa-Salcobrand-01" target="Sentencia-TDLC-119-Colusion-Farmacias-2012">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e544" source="TRX-2022-09-04-Presencia-Cerimedo-Sede-Renovacion-Nacional-01" target="Numen Publicidad SpA">
+    <edge id="e528" source="TRX-2022-09-04-Presencia-Cerimedo-Sede-Renovacion-Nacional-01" target="Numen Publicidad SpA">
       <data key="d5">entidad_origen</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e545" source="TRX-2022-09-04-Presencia-Cerimedo-Sede-Renovacion-Nacional-01" target="Renovacion Nacional">
+    <edge id="e529" source="TRX-2022-09-04-Presencia-Cerimedo-Sede-Renovacion-Nacional-01" target="Renovacion Nacional">
       <data key="d5">entidad_destino</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e546" source="TRX-2022-09-04-Presencia-Cerimedo-Sede-Renovacion-Nacional-01" target="Fernando Cerimedo">
+    <edge id="e530" source="TRX-2022-09-04-Presencia-Cerimedo-Sede-Renovacion-Nacional-01" target="Fernando Cerimedo">
       <data key="d5">firmante_origen</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e547" source="TRX-2022-09-04-Presencia-Cerimedo-Sede-Renovacion-Nacional-01" target="Renovacion Nacional">
+    <edge id="e531" source="TRX-2022-09-04-Presencia-Cerimedo-Sede-Renovacion-Nacional-01" target="Renovacion Nacional">
       <data key="d5">firmante_destino</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e548" source="TRX-2022-09-04-Presencia-Cerimedo-Sede-Renovacion-Nacional-01" target="Caso Operaciones Digitales e Injerencia Electoral">
+    <edge id="e532" source="TRX-2022-09-04-Presencia-Cerimedo-Sede-Renovacion-Nacional-01" target="Caso Operaciones Digitales e Injerencia Electoral">
       <data key="d5">causa_vinculada</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e549" source="TRX-2022-09-04-Presencia-Cerimedo-Sede-Renovacion-Nacional-01" target="Fotografia-Cerimedo-Sede-Renovacion-Nacional-2022">
+    <edge id="e533" source="TRX-2022-09-04-Presencia-Cerimedo-Sede-Renovacion-Nacional-01" target="Fotografia-Cerimedo-Sede-Renovacion-Nacional-2022">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">0</data>
     </edge>
-    <edge id="e550" source="TRX-2025-10-15-Denuncia-Retencion-Sueldos-Asesores-Flores-01" target="Senado de la Republica de Chile">
+    <edge id="e534" source="TRX-2025-10-15-Denuncia-Retencion-Sueldos-Asesores-Flores-01" target="Senado de la Republica de Chile">
       <data key="d5">entidad_origen</data>
       <data key="d6">35000000</data>
     </edge>
-    <edge id="e551" source="TRX-2025-10-15-Denuncia-Retencion-Sueldos-Asesores-Flores-01" target="Camila Flores Oporto">
+    <edge id="e535" source="TRX-2025-10-15-Denuncia-Retencion-Sueldos-Asesores-Flores-01" target="Camila Flores Oporto">
       <data key="d5">entidad_destino</data>
       <data key="d6">35000000</data>
     </edge>
-    <edge id="e552" source="TRX-2025-10-15-Denuncia-Retencion-Sueldos-Asesores-Flores-01" target="Senado de la Republica de Chile">
+    <edge id="e536" source="TRX-2025-10-15-Denuncia-Retencion-Sueldos-Asesores-Flores-01" target="Senado de la Republica de Chile">
       <data key="d5">firmante_origen</data>
       <data key="d6">35000000</data>
     </edge>
-    <edge id="e553" source="TRX-2025-10-15-Denuncia-Retencion-Sueldos-Asesores-Flores-01" target="Camila Flores Oporto">
+    <edge id="e537" source="TRX-2025-10-15-Denuncia-Retencion-Sueldos-Asesores-Flores-01" target="Camila Flores Oporto">
       <data key="d5">firmante_destino</data>
       <data key="d6">35000000</data>
     </edge>
-    <edge id="e554" source="TRX-2025-10-15-Denuncia-Retencion-Sueldos-Asesores-Flores-01" target="Caso Asignaciones Parlamentarias y Cuota Flores">
+    <edge id="e538" source="TRX-2025-10-15-Denuncia-Retencion-Sueldos-Asesores-Flores-01" target="Caso Asignaciones Parlamentarias y Cuota Flores">
       <data key="d5">causa_vinculada</data>
       <data key="d6">35000000</data>
     </edge>
-    <edge id="e555" source="TRX-2025-10-15-Denuncia-Retencion-Sueldos-Asesores-Flores-01" target="Fraude al Fisco">
+    <edge id="e539" source="TRX-2025-10-15-Denuncia-Retencion-Sueldos-Asesores-Flores-01" target="Fraude al Fisco">
       <data key="d5">delito_imputado</data>
       <data key="d6">35000000</data>
     </edge>
-    <edge id="e556" source="TRX-2025-10-15-Denuncia-Retencion-Sueldos-Asesores-Flores-01" target="Orden-Entrada-Registro-Congreso-Caso-Flores-2026">
+    <edge id="e540" source="TRX-2025-10-15-Denuncia-Retencion-Sueldos-Asesores-Flores-01" target="Orden-Entrada-Registro-Congreso-Caso-Flores-2026">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">35000000</data>
     </edge>
-    <edge id="e557" source="TRX-2011-03-10-Pagos-Penta-Wagner-01" target="Empresas Penta SA">
+    <edge id="e541" source="TRX-2011-03-10-Pagos-Penta-Wagner-01" target="Empresas Penta SA">
       <data key="d5">entidad_origen</data>
       <data key="d6">42000000</data>
     </edge>
-    <edge id="e558" source="TRX-2011-03-10-Pagos-Penta-Wagner-01" target="Servicio Impuestos Internos">
+    <edge id="e542" source="TRX-2011-03-10-Pagos-Penta-Wagner-01" target="Servicio Impuestos Internos">
       <data key="d5">entidad_destino</data>
       <data key="d6">42000000</data>
     </edge>
-    <edge id="e559" source="TRX-2011-03-10-Pagos-Penta-Wagner-01" target="Carlos Eugenio Lavin Garcia-Huidobro">
+    <edge id="e543" source="TRX-2011-03-10-Pagos-Penta-Wagner-01" target="Carlos Eugenio Lavin Garcia-Huidobro">
       <data key="d5">firmante_origen</data>
       <data key="d6">42000000</data>
     </edge>
-    <edge id="e560" source="TRX-2011-03-10-Pagos-Penta-Wagner-01" target="Pablo Wagner San Martin">
+    <edge id="e544" source="TRX-2011-03-10-Pagos-Penta-Wagner-01" target="Pablo Wagner San Martin">
       <data key="d5">firmante_destino</data>
       <data key="d6">42000000</data>
     </edge>
-    <edge id="e561" source="TRX-2011-03-10-Pagos-Penta-Wagner-01" target="Delito Tributario">
+    <edge id="e545" source="TRX-2011-03-10-Pagos-Penta-Wagner-01" target="Delito Tributario">
       <data key="d5">delito_imputado</data>
       <data key="d6">42000000</data>
     </edge>
-    <edge id="e562" source="TRX-2011-03-10-Pagos-Penta-Wagner-01" target="Caso Penta">
+    <edge id="e546" source="TRX-2011-03-10-Pagos-Penta-Wagner-01" target="Caso Penta">
       <data key="d5">causa_vinculada</data>
       <data key="d6">42000000</data>
     </edge>
-    <edge id="e563" source="TRX-2011-03-10-Pagos-Penta-Wagner-01" target="Sentencia-8Juzgado-Garantia-Penta-2018">
+    <edge id="e547" source="TRX-2011-03-10-Pagos-Penta-Wagner-01" target="Sentencia-8Juzgado-Garantia-Penta-2018">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">42000000</data>
     </edge>
-    <edge id="e564" source="TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01" target="Direccion de Finanzas de Carabineros">
+    <edge id="e548" source="TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01" target="Direccion de Finanzas de Carabineros">
       <data key="d5">entidad_origen</data>
       <data key="d6">28348928198</data>
     </edge>
-    <edge id="e565" source="TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01" target="Direccion de Finanzas de Carabineros">
+    <edge id="e549" source="TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01" target="Direccion de Finanzas de Carabineros">
       <data key="d5">entidad_destino</data>
       <data key="d6">28348928198</data>
     </edge>
-    <edge id="e566" source="TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01" target="Flavio Echeverria Cortez">
+    <edge id="e550" source="TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01" target="Flavio Echeverria Cortez">
       <data key="d5">firmante_origen</data>
       <data key="d6">28348928198</data>
     </edge>
-    <edge id="e567" source="TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01" target="Jaime Paz Meneses">
+    <edge id="e551" source="TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01" target="Jaime Paz Meneses">
       <data key="d5">firmante_destino</data>
       <data key="d6">28348928198</data>
     </edge>
-    <edge id="e568" source="TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01" target="Caso Pacogate">
+    <edge id="e552" source="TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01" target="Caso Pacogate">
       <data key="d5">causa_vinculada</data>
       <data key="d6">28348928198</data>
     </edge>
-    <edge id="e569" source="TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01" target="Malversacion de Caudales Publicos">
+    <edge id="e553" source="TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01" target="Malversacion de Caudales Publicos">
       <data key="d5">delito_imputado</data>
       <data key="d6">28348928198</data>
     </edge>
-    <edge id="e570" source="TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01" target="Veredicto-TOP-Santiago-Pacogate-2026">
+    <edge id="e554" source="TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01" target="Veredicto-TOP-Santiago-Pacogate-2026">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">28348928198</data>
     </edge>
-    <edge id="e571" source="TRX-2017-03-06-Lavado-Activos-Carabineros-UAF-01" target="Direccion de Finanzas de Carabineros">
+    <edge id="e555" source="TRX-2017-03-06-Lavado-Activos-Carabineros-UAF-01" target="Direccion de Finanzas de Carabineros">
       <data key="d5">entidad_origen</data>
       <data key="d6">1450000000</data>
     </edge>
-    <edge id="e572" source="TRX-2017-03-06-Lavado-Activos-Carabineros-UAF-01" target="Unidad de Analisis Financiero">
+    <edge id="e556" source="TRX-2017-03-06-Lavado-Activos-Carabineros-UAF-01" target="Unidad de Analisis Financiero">
       <data key="d5">entidad_destino</data>
       <data key="d6">1450000000</data>
     </edge>
-    <edge id="e573" source="TRX-2017-03-06-Lavado-Activos-Carabineros-UAF-01" target="Flavio Echeverria Cortez">
+    <edge id="e557" source="TRX-2017-03-06-Lavado-Activos-Carabineros-UAF-01" target="Flavio Echeverria Cortez">
       <data key="d5">firmante_origen</data>
       <data key="d6">1450000000</data>
     </edge>
-    <edge id="e574" source="TRX-2017-03-06-Lavado-Activos-Carabineros-UAF-01" target="Javier Cruz Tamburrino">
+    <edge id="e558" source="TRX-2017-03-06-Lavado-Activos-Carabineros-UAF-01" target="Javier Cruz Tamburrino">
       <data key="d5">firmante_destino</data>
       <data key="d6">1450000000</data>
     </edge>
-    <edge id="e575" source="TRX-2017-03-06-Lavado-Activos-Carabineros-UAF-01" target="Lavado de Activos">
+    <edge id="e559" source="TRX-2017-03-06-Lavado-Activos-Carabineros-UAF-01" target="Lavado de Activos">
       <data key="d5">delito_imputado</data>
       <data key="d6">1450000000</data>
     </edge>
-    <edge id="e576" source="TRX-2017-03-06-Lavado-Activos-Carabineros-UAF-01" target="Caso Pacogate">
+    <edge id="e560" source="TRX-2017-03-06-Lavado-Activos-Carabineros-UAF-01" target="Caso Pacogate">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1450000000</data>
     </edge>
-    <edge id="e577" source="TRX-2017-03-06-Lavado-Activos-Carabineros-UAF-01" target="Veredicto-TOP-Santiago-Pacogate-2026">
+    <edge id="e561" source="TRX-2017-03-06-Lavado-Activos-Carabineros-UAF-01" target="Veredicto-TOP-Santiago-Pacogate-2026">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">1450000000</data>
     </edge>
-    <edge id="e578" source="TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01" target="Ministerio de Obras Publicas">
+    <edge id="e562" source="TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01" target="Ministerio de Obras Publicas">
       <data key="d5">entidad_origen</data>
       <data key="d6">1253000000</data>
     </edge>
-    <edge id="e579" source="TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01" target="Gestion Ambiental y Territorial SA">
+    <edge id="e563" source="TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01" target="Gestion Ambiental y Territorial SA">
       <data key="d5">entidad_destino</data>
       <data key="d6">1253000000</data>
     </edge>
-    <edge id="e580" source="TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01" target="Carlos Cruz Lorenzen">
+    <edge id="e564" source="TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01" target="Carlos Cruz Lorenzen">
       <data key="d5">firmante_origen</data>
       <data key="d6">1253000000</data>
     </edge>
-    <edge id="e581" source="TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01" target="Hector Pena Veliz">
+    <edge id="e565" source="TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01" target="Hector Pena Veliz">
       <data key="d5">firmante_destino</data>
       <data key="d6">1253000000</data>
     </edge>
-    <edge id="e582" source="TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01" target="Fraude al Fisco">
+    <edge id="e566" source="TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01" target="Fraude al Fisco">
       <data key="d5">delito_imputado</data>
       <data key="d6">1253000000</data>
     </edge>
-    <edge id="e583" source="TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01" target="Caso MOP-Gate">
+    <edge id="e567" source="TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01" target="Caso MOP-Gate">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1253000000</data>
     </edge>
-    <edge id="e584" source="TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01" target="Sentencia-Corte-Suprema-MOPGate-2016">
+    <edge id="e568" source="TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01" target="Sentencia-Corte-Suprema-MOPGate-2016">
       <data key="d5">evidencia_soporte</data>
       <data key="d6">1253000000</data>
     </edge>
-    <edge id="e585" source="Resolucion-Exenta-MINVU-Antofagasta-2022" target="Seremi MINVU Antofagasta">
+    <edge id="e569" source="Resolucion-Exenta-MINVU-Antofagasta-2022" target="Seremi MINVU Antofagasta">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e586" source="Resolucion-Exenta-MINVU-Antofagasta-2022" target="Caso Convenios">
+    <edge id="e570" source="Resolucion-Exenta-MINVU-Antofagasta-2022" target="Caso Convenios">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e587" source="Resolucion-Exenta-MINVU-Antofagasta-2022" target="TRX-2022-10-03-Convenio-DV-01">
+    <edge id="e571" source="Resolucion-Exenta-MINVU-Antofagasta-2022" target="TRX-2022-10-03-Convenio-DV-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e588" source="Resolucion-GORE-Biobio-EnTi-2022" target="GORE Biobio">
+    <edge id="e572" source="Resolucion-GORE-Biobio-EnTi-2022" target="GORE Biobio">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e589" source="Resolucion-GORE-Biobio-EnTi-2022" target="Caso Convenios">
+    <edge id="e573" source="Resolucion-GORE-Biobio-EnTi-2022" target="Caso Convenios">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e590" source="Resolucion-GORE-Biobio-EnTi-2022" target="TRX-2022-12-20-Convenio-EnTi-01">
+    <edge id="e574" source="Resolucion-GORE-Biobio-EnTi-2022" target="TRX-2022-12-20-Convenio-EnTi-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e591" source="Audio-Reunion-Edificio-Alonso-2023" target="Factop SpA">
+    <edge id="e575" source="Audio-Reunion-Edificio-Alonso-2023" target="Factop SpA">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e592" source="Audio-Reunion-Edificio-Alonso-2023" target="Caso Audios">
+    <edge id="e576" source="Audio-Reunion-Edificio-Alonso-2023" target="Caso Audios">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e593" source="Audio-Reunion-Edificio-Alonso-2023" target="TRX-2023-06-22-Reunion-Audios-01">
+    <edge id="e577" source="Audio-Reunion-Edificio-Alonso-2023" target="TRX-2023-06-22-Reunion-Audios-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e594" source="Declaracion-Judicial-Prieto-Vitacura-2021" target="Municipalidad de Vitacura">
+    <edge id="e578" source="Declaracion-Judicial-Prieto-Vitacura-2021" target="Municipalidad de Vitacura">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e595" source="Declaracion-Judicial-Prieto-Vitacura-2021" target="Caso Vitacura">
+    <edge id="e579" source="Declaracion-Judicial-Prieto-Vitacura-2021" target="Caso Vitacura">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e596" source="Declaracion-Judicial-Prieto-Vitacura-2021" target="TRX-2021-04-15-Subvencion-VitaDeportes-01">
+    <edge id="e580" source="Declaracion-Judicial-Prieto-Vitacura-2021" target="TRX-2021-04-15-Subvencion-VitaDeportes-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e597" source="Registro-Audiencia-InfoLobby-Biobio-2022" target="GORE Biobio">
+    <edge id="e581" source="Informe-Contraloria-Municipalidad-Maipu-2021" target="Municipalidad de Maipu">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e598" source="Registro-Audiencia-InfoLobby-Biobio-2022" target="Caso Convenios">
+    <edge id="e582" source="Informe-Contraloria-Municipalidad-Maipu-2021" target="Caso Municipalidad de Maipu">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e599" source="Registro-Audiencia-InfoLobby-Biobio-2022" target="TRX-2022-09-12-Reunion-Lobby-ProCultura-Biobio-01">
+    <edge id="e583" source="Informe-Contraloria-Municipalidad-Maipu-2021" target="TRX-2020-12-15-Deficit-Maipu-Certificados-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e600" source="Informe-Contraloria-Municipalidad-Maipu-2021" target="Municipalidad de Maipu">
+    <edge id="e584" source="Querella-SII-Boletas-SQM-2015" target="Servicio Impuestos Internos">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e601" source="Informe-Contraloria-Municipalidad-Maipu-2021" target="Caso Municipalidad de Maipu">
+    <edge id="e585" source="Querella-SII-Boletas-SQM-2015" target="Caso SQM">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e602" source="Informe-Contraloria-Municipalidad-Maipu-2021" target="TRX-2020-12-15-Deficit-Maipu-Certificados-01">
+    <edge id="e586" source="Querella-SII-Boletas-SQM-2015" target="TRX-2010-08-19-Correo-Royalty-SQM-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e603" source="Querella-SII-Boletas-SQM-2015" target="Servicio Impuestos Internos">
+    <edge id="e587" source="Sentencia-TOP-Rancagua-Caval-2018" target="Corte Suprema de Chile">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e604" source="Querella-SII-Boletas-SQM-2015" target="Caso SQM">
+    <edge id="e588" source="Sentencia-TOP-Rancagua-Caval-2018" target="Caso Caval">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e605" source="Querella-SII-Boletas-SQM-2015" target="TRX-2010-08-19-Correo-Royalty-SQM-01">
+    <edge id="e589" source="Sentencia-TOP-Rancagua-Caval-2018" target="TRX-2015-01-29-Facturas-Falsas-Caval-SII-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e606" source="Sentencia-TOP-Rancagua-Caval-2018" target="Corte Suprema de Chile">
+    <edge id="e590" source="Sentencia-Corte-Suprema-MOPGate-2016" target="Corte Suprema de Chile">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e607" source="Sentencia-TOP-Rancagua-Caval-2018" target="Caso Caval">
+    <edge id="e591" source="Sentencia-Corte-Suprema-MOPGate-2016" target="Caso MOP-Gate">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e608" source="Sentencia-TOP-Rancagua-Caval-2018" target="TRX-2015-01-29-Facturas-Falsas-Caval-SII-01">
+    <edge id="e592" source="Sentencia-Corte-Suprema-MOPGate-2016" target="TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e609" source="Sentencia-Corte-Suprema-MOPGate-2016" target="Corte Suprema de Chile">
+    <edge id="e593" source="Acusacion-Fiscalia-Occidente-CasoBasura-2017" target="Corte Suprema de Chile">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e610" source="Sentencia-Corte-Suprema-MOPGate-2016" target="Caso MOP-Gate">
+    <edge id="e594" source="Acusacion-Fiscalia-Occidente-CasoBasura-2017" target="Caso Basura">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e611" source="Sentencia-Corte-Suprema-MOPGate-2016" target="TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01">
+    <edge id="e595" source="Acusacion-Fiscalia-Occidente-CasoBasura-2017" target="TRX-2010-11-15-Soborno-Licitacion-Basura-Maipu-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e612" source="Acusacion-Fiscalia-Occidente-CasoBasura-2017" target="Corte Suprema de Chile">
+    <edge id="e596" source="Dictamen-CGR-SierraBella-2023" target="Contraloria General de la Republica">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e613" source="Acusacion-Fiscalia-Occidente-CasoBasura-2017" target="Caso Basura">
+    <edge id="e597" source="Dictamen-CGR-SierraBella-2023" target="Caso Sierra Bella">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e614" source="Acusacion-Fiscalia-Occidente-CasoBasura-2017" target="TRX-2010-11-15-Soborno-Licitacion-Basura-Maipu-01">
+    <edge id="e598" source="Dictamen-CGR-SierraBella-2023" target="TRX-2023-01-20-Compraventa-Clinica-SierraBella-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e615" source="Dictamen-CGR-SierraBella-2023" target="Contraloria General de la Republica">
+    <edge id="e599" source="Resolucion-SVS-CasoCascadas-2014" target="Comision para el Mercado Financiero">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e616" source="Dictamen-CGR-SierraBella-2023" target="Caso Sierra Bella">
+    <edge id="e600" source="Resolucion-SVS-CasoCascadas-2014" target="Caso Cascadas">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e617" source="Dictamen-CGR-SierraBella-2023" target="TRX-2023-01-20-Compraventa-Clinica-SierraBella-01">
+    <edge id="e601" source="Resolucion-SVS-CasoCascadas-2014" target="TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e618" source="Resolucion-SVS-CasoCascadas-2014" target="Comision para el Mercado Financiero">
+    <edge id="e602" source="Sentencia-Corte-Suprema-CasoSpiniak-2008" target="Corte Suprema de Chile">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e619" source="Resolucion-SVS-CasoCascadas-2014" target="Caso Cascadas">
+    <edge id="e603" source="Sentencia-Corte-Suprema-CasoSpiniak-2008" target="Caso Spiniak">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e620" source="Resolucion-SVS-CasoCascadas-2014" target="TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01">
+    <edge id="e604" source="Sentencia-Corte-Suprema-CasoSpiniak-2008" target="TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e621" source="Sentencia-Corte-Suprema-CasoSpiniak-2008" target="Corte Suprema de Chile">
+    <edge id="e605" source="Sentencia-Corte-Suprema-ColoniaDignidad-2013" target="Corte Suprema de Chile">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e622" source="Sentencia-Corte-Suprema-CasoSpiniak-2008" target="Caso Spiniak">
+    <edge id="e606" source="Sentencia-Corte-Suprema-ColoniaDignidad-2013" target="Caso Colonia Dignidad">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e623" source="Sentencia-Corte-Suprema-CasoSpiniak-2008" target="TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01">
+    <edge id="e607" source="Sentencia-Corte-Suprema-ColoniaDignidad-2013" target="TRX-1991-01-31-Vaciamiento-Patrimonial-Evasion-ColoniaDignidad-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e624" source="Sentencia-Corte-Suprema-ColoniaDignidad-2013" target="Corte Suprema de Chile">
+    <edge id="e608" source="Sentencia-Corte-Suprema-CasoRiggs-2018" target="Corte Suprema de Chile">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e625" source="Sentencia-Corte-Suprema-ColoniaDignidad-2013" target="Caso Colonia Dignidad">
+    <edge id="e609" source="Sentencia-Corte-Suprema-CasoRiggs-2018" target="Caso Riggs">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e626" source="Sentencia-Corte-Suprema-ColoniaDignidad-2013" target="TRX-1991-01-31-Vaciamiento-Patrimonial-Evasion-ColoniaDignidad-01">
+    <edge id="e610" source="Sentencia-Corte-Suprema-CasoRiggs-2018" target="TRX-2004-07-14-Desvio-Gastos-Reservados-Riggs-Pinochet-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e627" source="Sentencia-Corte-Suprema-CasoRiggs-2018" target="Corte Suprema de Chile">
+    <edge id="e611" source="Resolucion-SVS-306-InformacionPrivilegiada-LAN-2007" target="Comision para el Mercado Financiero">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e628" source="Sentencia-Corte-Suprema-CasoRiggs-2018" target="Caso Riggs">
+    <edge id="e612" source="Resolucion-SVS-306-InformacionPrivilegiada-LAN-2007" target="Caso LAN Informacion Privilegiada y Banco de Talca">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e629" source="Sentencia-Corte-Suprema-CasoRiggs-2018" target="TRX-2004-07-14-Desvio-Gastos-Reservados-Riggs-Pinochet-01">
+    <edge id="e613" source="Resolucion-SVS-306-InformacionPrivilegiada-LAN-2007" target="TRX-2006-07-24-Compra-Acciones-Informacion-Privilegiada-LAN-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e630" source="Resolucion-SVS-306-InformacionPrivilegiada-LAN-2007" target="Comision para el Mercado Financiero">
+    <edge id="e614" source="Contrato-Offshore-BVI-PandoraPapers-Dominga-2010" target="Corte Suprema de Chile">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e631" source="Resolucion-SVS-306-InformacionPrivilegiada-LAN-2007" target="Caso LAN Informacion Privilegiada y Banco de Talca">
+    <edge id="e615" source="Contrato-Offshore-BVI-PandoraPapers-Dominga-2010" target="Caso Minera Dominga Pandora Papers">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e632" source="Resolucion-SVS-306-InformacionPrivilegiada-LAN-2007" target="TRX-2006-07-24-Compra-Acciones-Informacion-Privilegiada-LAN-01">
+    <edge id="e616" source="Contrato-Offshore-BVI-PandoraPapers-Dominga-2010" target="TRX-2010-12-10-Compraventa-Offshore-Dominga-Bancard-Delano-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e633" source="Contrato-Offshore-BVI-PandoraPapers-Dominga-2010" target="Corte Suprema de Chile">
+    <edge id="e617" source="Informe-Comision-Church-1975-y-Hinchey-CIA-2000" target="Corte Suprema de Chile">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e634" source="Contrato-Offshore-BVI-PandoraPapers-Dominga-2010" target="Caso Minera Dominga Pandora Papers">
+    <edge id="e618" source="Informe-Comision-Church-1975-y-Hinchey-CIA-2000" target="Caso Operacion FUBELT Intervencion CIA y DINA">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e635" source="Contrato-Offshore-BVI-PandoraPapers-Dominga-2010" target="TRX-2010-12-10-Compraventa-Offshore-Dominga-Bancard-Delano-01">
+    <edge id="e619" source="Informe-Comision-Church-1975-y-Hinchey-CIA-2000" target="TRX-1971-09-09-Financiamiento-Encubierto-CIA-ElMercurio-Edwards-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e636" source="Informe-Comision-Church-1975-y-Hinchey-CIA-2000" target="Corte Suprema de Chile">
+    <edge id="e620" source="Peritaje-Cibercrimen-PDI-SoftwareAntorcha-2018" target="Corte Suprema de Chile">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e637" source="Informe-Comision-Church-1975-y-Hinchey-CIA-2000" target="Caso Operacion FUBELT Intervencion CIA y DINA">
+    <edge id="e621" source="Peritaje-Cibercrimen-PDI-SoftwareAntorcha-2018" target="Caso Operacion Huracan">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e638" source="Informe-Comision-Church-1975-y-Hinchey-CIA-2000" target="TRX-1971-09-09-Financiamiento-Encubierto-CIA-ElMercurio-Edwards-01">
+    <edge id="e622" source="Peritaje-Cibercrimen-PDI-SoftwareAntorcha-2018" target="TRX-2018-01-25-Peritaje-Cibercrimen-Descarte-Antorcha-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e639" source="Peritaje-Cibercrimen-PDI-SoftwareAntorcha-2018" target="Corte Suprema de Chile">
+    <edge id="e623" source="Sentencia-TDLC-160-Colusion-Tissue-2017" target="Corte Suprema de Chile">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e640" source="Peritaje-Cibercrimen-PDI-SoftwareAntorcha-2018" target="Caso Operacion Huracan">
+    <edge id="e624" source="Sentencia-TDLC-160-Colusion-Tissue-2017" target="Caso Colusion del Papel Tissue">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e641" source="Peritaje-Cibercrimen-PDI-SoftwareAntorcha-2018" target="TRX-2018-01-25-Peritaje-Cibercrimen-Descarte-Antorcha-01">
+    <edge id="e625" source="Sentencia-TDLC-160-Colusion-Tissue-2017" target="TRX-2000-05-15-Pacto-Colusion-Precios-Cuotas-CMPC-PISA-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e642" source="Sentencia-TDLC-160-Colusion-Tissue-2017" target="Corte Suprema de Chile">
+    <edge id="e626" source="Sentencia-Corte-Suprema-Colusion-PapelTissue-2020" target="Corte Suprema de Chile">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e643" source="Sentencia-TDLC-160-Colusion-Tissue-2017" target="Caso Colusion del Papel Tissue">
+    <edge id="e627" source="Sentencia-Corte-Suprema-Colusion-PapelTissue-2020" target="Caso Colusion del Papel Tissue">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e644" source="Sentencia-TDLC-160-Colusion-Tissue-2017" target="TRX-2000-05-15-Pacto-Colusion-Precios-Cuotas-CMPC-PISA-01">
+    <edge id="e628" source="Sentencia-Corte-Suprema-Colusion-PapelTissue-2020" target="TRX-2000-05-15-Pacto-Colusion-Precios-Cuotas-CMPC-PISA-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e645" source="Sentencia-Corte-Suprema-Colusion-PapelTissue-2020" target="Corte Suprema de Chile">
+    <edge id="e629" source="Acuerdo-Compensatorio-SERNAC-CMPC-Tissue-2017" target="Servicio Nacional del Consumidor">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e646" source="Sentencia-Corte-Suprema-Colusion-PapelTissue-2020" target="Caso Colusion del Papel Tissue">
+    <edge id="e630" source="Acuerdo-Compensatorio-SERNAC-CMPC-Tissue-2017" target="Caso Colusion del Papel Tissue">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e647" source="Sentencia-Corte-Suprema-Colusion-PapelTissue-2020" target="TRX-2000-05-15-Pacto-Colusion-Precios-Cuotas-CMPC-PISA-01">
+    <edge id="e631" source="Acuerdo-Compensatorio-SERNAC-CMPC-Tissue-2017" target="TRX-2017-03-03-Compensacion-Historica-Consumidores-CMPC-SERNAC-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e648" source="Acuerdo-Compensatorio-SERNAC-CMPC-Tissue-2017" target="Servicio Nacional del Consumidor">
+    <edge id="e632" source="Sentencia-TDLC-119-Colusion-Farmacias-2012" target="Corte Suprema de Chile">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e649" source="Acuerdo-Compensatorio-SERNAC-CMPC-Tissue-2017" target="Caso Colusion del Papel Tissue">
+    <edge id="e633" source="Sentencia-TDLC-119-Colusion-Farmacias-2012" target="Caso Colusion de las Farmacias">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e650" source="Acuerdo-Compensatorio-SERNAC-CMPC-Tissue-2017" target="TRX-2017-03-03-Compensacion-Historica-Consumidores-CMPC-SERNAC-01">
+    <edge id="e634" source="Sentencia-TDLC-119-Colusion-Farmacias-2012" target="TRX-2007-11-01-Coordinacion-Cartel-Precios-Medicamentos-Farmacias-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e651" source="Sentencia-TDLC-119-Colusion-Farmacias-2012" target="Corte Suprema de Chile">
+    <edge id="e635" source="Sentencia-Corte-Suprema-Colusion-Farmacias-2012" target="Corte Suprema de Chile">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e652" source="Sentencia-TDLC-119-Colusion-Farmacias-2012" target="Caso Colusion de las Farmacias">
+    <edge id="e636" source="Sentencia-Corte-Suprema-Colusion-Farmacias-2012" target="Caso Colusion de las Farmacias">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e653" source="Sentencia-TDLC-119-Colusion-Farmacias-2012" target="TRX-2007-11-01-Coordinacion-Cartel-Precios-Medicamentos-Farmacias-01">
+    <edge id="e637" source="Sentencia-Corte-Suprema-Colusion-Farmacias-2012" target="TRX-2007-11-01-Coordinacion-Cartel-Precios-Medicamentos-Farmacias-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e654" source="Sentencia-Corte-Suprema-Colusion-Farmacias-2012" target="Corte Suprema de Chile">
+    <edge id="e638" source="Acuerdo-Conciliatorio-FNE-FASA-2009" target="Fiscalia Nacional Economica">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e655" source="Sentencia-Corte-Suprema-Colusion-Farmacias-2012" target="Caso Colusion de las Farmacias">
+    <edge id="e639" source="Acuerdo-Conciliatorio-FNE-FASA-2009" target="Caso Colusion de las Farmacias">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e656" source="Sentencia-Corte-Suprema-Colusion-Farmacias-2012" target="TRX-2007-11-01-Coordinacion-Cartel-Precios-Medicamentos-Farmacias-01">
+    <edge id="e640" source="Acuerdo-Conciliatorio-FNE-FASA-2009" target="TRX-2007-11-01-Coordinacion-Cartel-Precios-Medicamentos-Farmacias-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e657" source="Acuerdo-Conciliatorio-FNE-FASA-2009" target="Fiscalia Nacional Economica">
+    <edge id="e641" source="Querella-SII-Megafraude-Tributario-2023" target="Servicio Impuestos Internos">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e658" source="Acuerdo-Conciliatorio-FNE-FASA-2009" target="Caso Colusion de las Farmacias">
+    <edge id="e642" source="Querella-SII-Megafraude-Tributario-2023" target="Caso Megafraude Tributario Operacion Tributos">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e659" source="Acuerdo-Conciliatorio-FNE-FASA-2009" target="TRX-2007-11-01-Coordinacion-Cartel-Precios-Medicamentos-Farmacias-01">
+    <edge id="e643" source="Querella-SII-Megafraude-Tributario-2023" target="TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e660" source="Querella-SII-Megafraude-Tributario-2023" target="Servicio Impuestos Internos">
+    <edge id="e644" source="Formalizacion-Megafraude-Operacion-Tributos-2023" target="Corte Suprema de Chile">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e661" source="Querella-SII-Megafraude-Tributario-2023" target="Caso Megafraude Tributario Operacion Tributos">
+    <edge id="e645" source="Formalizacion-Megafraude-Operacion-Tributos-2023" target="Caso Megafraude Tributario Operacion Tributos">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e662" source="Querella-SII-Megafraude-Tributario-2023" target="TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01">
+    <edge id="e646" source="Formalizacion-Megafraude-Operacion-Tributos-2023" target="TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e663" source="Formalizacion-Megafraude-Operacion-Tributos-2023" target="Corte Suprema de Chile">
+    <edge id="e647" source="Informe-BRILAC-PDI-Operacion-Tributos-2023" target="Direccion de Inteligencia Policial de Carabineros">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e664" source="Formalizacion-Megafraude-Operacion-Tributos-2023" target="Caso Megafraude Tributario Operacion Tributos">
+    <edge id="e648" source="Informe-BRILAC-PDI-Operacion-Tributos-2023" target="Caso Megafraude Tributario Operacion Tributos">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e665" source="Formalizacion-Megafraude-Operacion-Tributos-2023" target="TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01">
+    <edge id="e649" source="Informe-BRILAC-PDI-Operacion-Tributos-2023" target="TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e666" source="Informe-BRILAC-PDI-Operacion-Tributos-2023" target="Direccion de Inteligencia Policial de Carabineros">
+    <edge id="e650" source="Sentencia-TDLC-139-Colusion-Pollos-2014" target="Corte Suprema de Chile">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e667" source="Informe-BRILAC-PDI-Operacion-Tributos-2023" target="Caso Megafraude Tributario Operacion Tributos">
+    <edge id="e651" source="Sentencia-TDLC-139-Colusion-Pollos-2014" target="Caso Colusion de los Pollos">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e668" source="Informe-BRILAC-PDI-Operacion-Tributos-2023" target="TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01">
+    <edge id="e652" source="Sentencia-TDLC-139-Colusion-Pollos-2014" target="TRX-2008-01-15-Pacto-Cuotas-Produccion-Cartel-Pollos-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e669" source="Sentencia-TDLC-139-Colusion-Pollos-2014" target="Corte Suprema de Chile">
+    <edge id="e653" source="Sentencia-Corte-Suprema-Colusion-Pollos-2015" target="Corte Suprema de Chile">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e670" source="Sentencia-TDLC-139-Colusion-Pollos-2014" target="Caso Colusion de los Pollos">
+    <edge id="e654" source="Sentencia-Corte-Suprema-Colusion-Pollos-2015" target="Caso Colusion de los Pollos">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e671" source="Sentencia-TDLC-139-Colusion-Pollos-2014" target="TRX-2008-01-15-Pacto-Cuotas-Produccion-Cartel-Pollos-01">
+    <edge id="e655" source="Sentencia-Corte-Suprema-Colusion-Pollos-2015" target="TRX-2015-10-29-Pago-Multas-Historicas-Cartel-Pollos-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e672" source="Sentencia-Corte-Suprema-Colusion-Pollos-2015" target="Corte Suprema de Chile">
+    <edge id="e656" source="Requerimiento-FNE-Cartel-Pollos-2011" target="Fiscalia Nacional Economica">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e673" source="Sentencia-Corte-Suprema-Colusion-Pollos-2015" target="Caso Colusion de los Pollos">
+    <edge id="e657" source="Requerimiento-FNE-Cartel-Pollos-2011" target="Caso Colusion de los Pollos">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e674" source="Sentencia-Corte-Suprema-Colusion-Pollos-2015" target="TRX-2015-10-29-Pago-Multas-Historicas-Cartel-Pollos-01">
+    <edge id="e658" source="Requerimiento-FNE-Cartel-Pollos-2011" target="TRX-2008-01-15-Pacto-Cuotas-Produccion-Cartel-Pollos-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e675" source="Requerimiento-FNE-Cartel-Pollos-2011" target="Fiscalia Nacional Economica">
+    <edge id="e659" source="Fotografia-Cerimedo-Sede-Renovacion-Nacional-2022" target="Corte Suprema de Chile">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e676" source="Requerimiento-FNE-Cartel-Pollos-2011" target="Caso Colusion de los Pollos">
+    <edge id="e660" source="Fotografia-Cerimedo-Sede-Renovacion-Nacional-2022" target="Caso Operaciones Digitales e Injerencia Electoral">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e677" source="Requerimiento-FNE-Cartel-Pollos-2011" target="TRX-2008-01-15-Pacto-Cuotas-Produccion-Cartel-Pollos-01">
+    <edge id="e661" source="Fotografia-Cerimedo-Sede-Renovacion-Nacional-2022" target="TRX-2022-09-04-Presencia-Cerimedo-Sede-Renovacion-Nacional-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e678" source="Fotografia-Cerimedo-Sede-Renovacion-Nacional-2022" target="Corte Suprema de Chile">
+    <edge id="e662" source="Orden-Entrada-Registro-Congreso-Caso-Flores-2026" target="Corte Suprema de Chile">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e679" source="Fotografia-Cerimedo-Sede-Renovacion-Nacional-2022" target="Caso Operaciones Digitales e Injerencia Electoral">
+    <edge id="e663" source="Orden-Entrada-Registro-Congreso-Caso-Flores-2026" target="Caso Asignaciones Parlamentarias y Cuota Flores">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e680" source="Fotografia-Cerimedo-Sede-Renovacion-Nacional-2022" target="TRX-2022-09-04-Presencia-Cerimedo-Sede-Renovacion-Nacional-01">
+    <edge id="e664" source="Orden-Entrada-Registro-Congreso-Caso-Flores-2026" target="TRX-2025-10-15-Denuncia-Retencion-Sueldos-Asesores-Flores-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e681" source="Orden-Entrada-Registro-Congreso-Caso-Flores-2026" target="Corte Suprema de Chile">
+    <edge id="e665" source="Sentencia-8Juzgado-Garantia-Penta-2018" target="Corte Suprema de Chile">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e682" source="Orden-Entrada-Registro-Congreso-Caso-Flores-2026" target="Caso Asignaciones Parlamentarias y Cuota Flores">
+    <edge id="e666" source="Sentencia-8Juzgado-Garantia-Penta-2018" target="Caso Penta">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e683" source="Orden-Entrada-Registro-Congreso-Caso-Flores-2026" target="TRX-2025-10-15-Denuncia-Retencion-Sueldos-Asesores-Flores-01">
+    <edge id="e667" source="Sentencia-8Juzgado-Garantia-Penta-2018" target="TRX-2013-07-15-Boletas-Falsas-Penta-UDI-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e684" source="Sentencia-8Juzgado-Garantia-Penta-2018" target="Corte Suprema de Chile">
+    <edge id="e668" source="Veredicto-TOP-Santiago-Pacogate-2026" target="Caso Pacogate">
+      <data key="d5">causa_vinculada</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge id="e669" source="Veredicto-TOP-Santiago-Pacogate-2026" target="TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01">
+      <data key="d5">nexo_respaldado</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge id="e670" source="Sentencia-3TOP-Santiago-Corpesca-2021" target="Corte Suprema de Chile">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e685" source="Sentencia-8Juzgado-Garantia-Penta-2018" target="Caso Penta">
+    <edge id="e671" source="Sentencia-3TOP-Santiago-Corpesca-2021" target="Caso Corpesca">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e686" source="Sentencia-8Juzgado-Garantia-Penta-2018" target="TRX-2013-07-15-Boletas-Falsas-Penta-UDI-01">
+    <edge id="e672" source="Sentencia-3TOP-Santiago-Corpesca-2021" target="TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e687" source="Veredicto-TOP-Santiago-Pacogate-2026" target="Caso Pacogate">
-      <data key="d5">causa_vinculada</data>
-      <data key="d6">1</data>
-    </edge>
-    <edge id="e688" source="Veredicto-TOP-Santiago-Pacogate-2026" target="TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01">
-      <data key="d5">nexo_respaldado</data>
-      <data key="d6">1</data>
-    </edge>
-    <edge id="e689" source="Sentencia-TOP-Temuco-OperacionHuracan-2026" target="Corte Suprema de Chile">
+    <edge id="e673" source="Publicacion-Archivos-DOJ-CasoEpstein-2026" target="Corte Suprema de Chile">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e690" source="Sentencia-TOP-Temuco-OperacionHuracan-2026" target="Caso Operacion Huracan">
+    <edge id="e674" source="Publicacion-Archivos-DOJ-CasoEpstein-2026" target="Caso Archivos Epstein Menciones Chile">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e691" source="Sentencia-TOP-Temuco-OperacionHuracan-2026" target="TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01">
+    <edge id="e675" source="Publicacion-Archivos-DOJ-CasoEpstein-2026" target="TRX-2015-11-14-Mencion-Indirecta-Epstein-BinSulayem-Luksic-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e692" source="Sentencia-3TOP-Santiago-Corpesca-2021" target="Corte Suprema de Chile">
+    <edge id="e676" source="Filtracion-ICIJ-PanamaPapers-Chile-2016" target="Servicio Impuestos Internos">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e693" source="Sentencia-3TOP-Santiago-Corpesca-2021" target="Caso Corpesca">
+    <edge id="e677" source="Filtracion-ICIJ-PanamaPapers-Chile-2016" target="Caso Panama Papers Chile">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e694" source="Sentencia-3TOP-Santiago-Corpesca-2021" target="TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01">
+    <edge id="e678" source="Filtracion-ICIJ-PanamaPapers-Chile-2016" target="TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e695" source="Publicacion-Archivos-DOJ-CasoEpstein-2026" target="Corte Suprema de Chile">
+    <edge id="e679" source="Procesamientos-Ministra-Rutherford-Milicogate" target="Corte Suprema de Chile">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e696" source="Publicacion-Archivos-DOJ-CasoEpstein-2026" target="Caso Archivos Epstein Menciones Chile">
+    <edge id="e680" source="Procesamientos-Ministra-Rutherford-Milicogate" target="Caso Milicogate">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e697" source="Publicacion-Archivos-DOJ-CasoEpstein-2026" target="TRX-2015-11-14-Mencion-Indirecta-Epstein-BinSulayem-Luksic-01">
+    <edge id="e681" source="Procesamientos-Ministra-Rutherford-Milicogate" target="TRX-2014-05-20-Facturas-LeyReservadaCobre-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e698" source="Filtracion-ICIJ-PanamaPapers-Chile-2016" target="Servicio Impuestos Internos">
+    <edge id="e682" source="Disolucion-CDE-Fundacion-CEMAChile-2021" target="Corte Suprema de Chile">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e699" source="Filtracion-ICIJ-PanamaPapers-Chile-2016" target="Caso Panama Papers Chile">
+    <edge id="e683" source="Disolucion-CDE-Fundacion-CEMAChile-2021" target="Caso CEMA Chile">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e700" source="Filtracion-ICIJ-PanamaPapers-Chile-2016" target="TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01">
+    <edge id="e684" source="Disolucion-CDE-Fundacion-CEMAChile-2021" target="TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e701" source="Procesamientos-Ministra-Rutherford-Milicogate" target="Corte Suprema de Chile">
+    <edge id="e685" source="Sentencia-TOP-Temuco-OperacionHuracan-2026" target="Corte Suprema de Chile">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e702" source="Procesamientos-Ministra-Rutherford-Milicogate" target="Caso Milicogate">
+    <edge id="e686" source="Sentencia-TOP-Temuco-OperacionHuracan-2026" target="Caso Operacion Huracan">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e703" source="Procesamientos-Ministra-Rutherford-Milicogate" target="TRX-2014-05-20-Facturas-LeyReservadaCobre-01">
-      <data key="d5">nexo_respaldado</data>
-      <data key="d6">1</data>
-    </edge>
-    <edge id="e704" source="Disolucion-CDE-Fundacion-CEMAChile-2021" target="Corte Suprema de Chile">
-      <data key="d5">organismo_emisor</data>
-      <data key="d6">1</data>
-    </edge>
-    <edge id="e705" source="Disolucion-CDE-Fundacion-CEMAChile-2021" target="Caso CEMA Chile">
-      <data key="d5">causa_vinculada</data>
-      <data key="d6">1</data>
-    </edge>
-    <edge id="e706" source="Disolucion-CDE-Fundacion-CEMAChile-2021" target="TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01">
+    <edge id="e687" source="Sentencia-TOP-Temuco-OperacionHuracan-2026" target="TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
