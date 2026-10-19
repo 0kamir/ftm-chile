@@ -1,6 +1,6 @@
 {
   "resumen": {
-    "total_nodos": 330,
+    "total_nodos": 331,
     "total_aristas": 715,
     "monto_total_clp": 725998563198
   },
@@ -1469,17 +1469,6 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Sentencia-TOP-Temuco-OperacionHuracan-2024",
-      "tipo_nodo": "evidencia_documental",
-      "rut": "",
-      "monto_clp": 0,
-      "path": "04_Evidencias/Sentencia-TOP-Temuco-OperacionHuracan-2024.md",
-      "in_degree": 2,
-      "out_degree": 3,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
       "id": "Sentencia-TDLC-119-Colusion-Farmacias-2012",
       "tipo_nodo": "evidencia_documental",
       "rut": "",
@@ -1496,6 +1485,17 @@
       "rut": "",
       "monto_clp": 0,
       "path": "04_Evidencias/Sentencia-TDLC-139-Colusion-Pollos-2014.md",
+      "in_degree": 2,
+      "out_degree": 3,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "Sentencia-TOP-Temuco-OperacionHuracan-2026",
+      "tipo_nodo": "evidencia_documental",
+      "rut": "",
+      "monto_clp": 0,
+      "path": "04_Evidencias/Sentencia-TOP-Temuco-OperacionHuracan-2026.md",
       "in_degree": 2,
       "out_degree": 3,
       "flujo_emitido_clp": 0,
@@ -3597,6 +3597,17 @@
       "rut": "",
       "monto_clp": 0,
       "path": "05_Vistas_Analiticas/Cobertura_de_Fuentes.md",
+      "in_degree": 0,
+      "out_degree": 0,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "Revision_Riesgo_Difamacion",
+      "tipo_nodo": "vista_analitica",
+      "rut": "",
+      "monto_clp": 0,
+      "path": "05_Vistas_Analiticas/Revision_Riesgo_Difamacion.md",
       "in_degree": 0,
       "out_degree": 0,
       "flujo_emitido_clp": 0,
@@ -6417,7 +6428,7 @@
     },
     {
       "source": "TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01",
-      "target": "Sentencia-TOP-Temuco-OperacionHuracan-2024",
+      "target": "Sentencia-TOP-Temuco-OperacionHuracan-2026",
       "relation": "evidencia_soporte",
       "weight": 0
     },
@@ -6459,7 +6470,7 @@
     },
     {
       "source": "TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01",
-      "target": "Sentencia-TOP-Temuco-OperacionHuracan-2024",
+      "target": "Sentencia-TOP-Temuco-OperacionHuracan-2026",
       "relation": "evidencia_soporte",
       "weight": 25000000
     },
@@ -7610,24 +7621,6 @@
       "weight": 1
     },
     {
-      "source": "Sentencia-TOP-Temuco-OperacionHuracan-2024",
-      "target": "Corte Suprema de Chile",
-      "relation": "organismo_emisor",
-      "weight": 1
-    },
-    {
-      "source": "Sentencia-TOP-Temuco-OperacionHuracan-2024",
-      "target": "Caso Operacion Huracan",
-      "relation": "causa_vinculada",
-      "weight": 1
-    },
-    {
-      "source": "Sentencia-TOP-Temuco-OperacionHuracan-2024",
-      "target": "TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01",
-      "relation": "nexo_respaldado",
-      "weight": 1
-    },
-    {
       "source": "Peritaje-Cibercrimen-PDI-SoftwareAntorcha-2018",
       "target": "Corte Suprema de Chile",
       "relation": "organismo_emisor",
@@ -7924,6 +7917,24 @@
     {
       "source": "Veredicto-TOP-Santiago-Pacogate-2026",
       "target": "TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01",
+      "relation": "nexo_respaldado",
+      "weight": 1
+    },
+    {
+      "source": "Sentencia-TOP-Temuco-OperacionHuracan-2026",
+      "target": "Corte Suprema de Chile",
+      "relation": "organismo_emisor",
+      "weight": 1
+    },
+    {
+      "source": "Sentencia-TOP-Temuco-OperacionHuracan-2026",
+      "target": "Caso Operacion Huracan",
+      "relation": "causa_vinculada",
+      "weight": 1
+    },
+    {
+      "source": "Sentencia-TOP-Temuco-OperacionHuracan-2026",
+      "target": "TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01",
       "relation": "nexo_respaldado",
       "weight": 1
     }

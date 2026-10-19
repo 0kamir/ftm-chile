@@ -3045,9 +3045,9 @@
       "schema:name": "Sentencia-TOP-Rancagua-Caval-2018"
     },
     {
-      "@id": "urn:cl-osint:node:Sentencia-TOP-Temuco-OperacionHuracan-2024",
+      "@id": "urn:cl-osint:node:Sentencia-TOP-Temuco-OperacionHuracan-2026",
       "@type": "osint:evidencia_documental",
-      "schema:name": "Sentencia-TOP-Temuco-OperacionHuracan-2024"
+      "schema:name": "Sentencia-TOP-Temuco-OperacionHuracan-2026"
     },
     {
       "@id": "urn:cl-osint:node:Veredicto-TOP-Santiago-Pacogate-2026",

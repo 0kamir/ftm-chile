@@ -23,7 +23,7 @@ tags:
 | `parcial` | 12 |
 | `verificado` | 59 |
 
-## Alertas de Verificación Pendientes (44)
+## Alertas de Verificación Pendientes (43)
 
 - **[[Acuerdo-Judicial-Restitucion-CEMAChile-2019]]**: No se encontró un 'acuerdo judicial de restitución' de 2019; la prensa describe el traspaso de bienes y la disolución vía CDE en 2021.
 - **[[Audio-Reunion-Edificio-Alonso-2023]]**: Agregar el reportaje original de CIPER (14-11-2023) como fuente primaria periodística.
@@ -58,7 +58,6 @@ tags:
 - **[[Registro-Audiencia-InfoLobby-Biobio-2022]]**: Falta el enlace directo al registro de audiencia en leylobby.gob.cl.
 - **[[Resolucion-SVS-306-InformacionPrivilegiada-LAN-2007]]**: Falta el enlace a la Resolución Exenta 306 en cmfchile.cl.
 - **[[Sentencia-Corte-Suprema-Colusion-Pollos-2015]]**: El rol del fallo publicado por la FNE es 27.181-2014; la nota usa 27.175-2014 en id_evidencia.
-- **[[Sentencia-TOP-Temuco-OperacionHuracan-2024]]**: La sentencia es del 02-04-2026, no de 2024; renombrar la nota y corregir fecha_emision.
 - **[[TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01]]**: Prensa: perjuicio de 'más de $1.200 millones' en honorarios; verificar cifra exacta de $1.253 millones.
 - **[[TRX-2002-04-12-Facturas-Triangulacion-GATE-SII-01]]**: Sin fuente específica para el monto de $450 millones ni para facturas ante el SII; la condena del caso es por fraude al fisco.
 - **[[TRX-2009-11-18-Facturas-Falsas-Bancard-SQM-Campana-Pinera-01]]**: Hecho no adjudicado: investigación cerrada por prescripción (2019).

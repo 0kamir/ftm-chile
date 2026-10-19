@@ -46,7 +46,7 @@ tags:
 - **Evidencia / Sentencia Firme**: `= this.evidencia_soporte`
 
 ## Descripción Forense de la Operación
-Presunta adjudicación irregular de la licitación pública de recambio de luminarias a tecnología LED en la [[Municipalidad de Chillan]] por **$3.200.000.000 CLP** a favor de [[Itelecom Holding Chile SpA]] ([[Leon Marcelo Lefort Hernandez]]), obtenida mediante el pago de sobornos a [[Marcelo Campos Henriquez]] (integrante de la comisión evaluadora y administrador municipal), según la hipótesis de la Fiscalía en el [[Caso Luminarias LED]] (sin sentencia conocida al 2026-10-19).
+Presunta adjudicación irregular de la licitación pública de recambio de luminarias a tecnología LED en la [[Municipalidad de Chillan]] por **$3.200.000.000 CLP** a favor de [[Itelecom Holding Chile SpA]] ([[Leon Marcelo Lefort Hernandez]]), que, según la Fiscalía, se habría obtenido mediante el pago de sobornos a [[Marcelo Campos Henriquez]] (integrante de la comisión evaluadora y administrador municipal), según la hipótesis de la Fiscalía en el [[Caso Luminarias LED]] (sin sentencia conocida al 2026-10-19).
 
 ## Fuentes Verificables
 ```dataview

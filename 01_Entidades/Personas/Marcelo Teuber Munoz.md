@@ -7,7 +7,7 @@ aliases:
 rol_principal: "Ex Coronel de Carabineros y Ex Jefe de la UIOE en La Araucanía"
 afiliacion_politica: "Militar / Carabineros"
 situacion_procesal: condenado
-medida_cautelar: "Condenado a 3 años y un día más 100 días de presidio por el TOP de Temuco"
+medida_cautelar: "Condenado a 3 años y un día más 100 días de presidio por el TOP de Temuco — sentencia no firme: recursos de nulidad pendientes (2026)"
 tags:
   - entidad/persona
   - caso-operacion-huracan
@@ -28,7 +28,7 @@ tags:
 ## Síntesis Forense
 Coronel de Carabineros y jefe directo de la Unidad de Inteligencia Operativa Especializada (UIOE) en La Araucanía durante el desarrollo de la [[Caso Operacion Huracan]]. Estuvo a cargo de la coordinación territorial del operativo policial de detención y de visar administrativamente los oficios policiales remitidos a la Fiscalía de Temuco con base en la información fraudulenta provista por [[Alex Smith Leay]] y [[Leonardo Osses Sandoval]].
 
-En el juicio oral ante el Tribunal de Juicio Oral en lo Penal de Temuco ([[Sentencia-TOP-Temuco-OperacionHuracan-2024]]), fue sentenciado a penas que sumaron **3 años y un día más 100 días de presidio** por [[Falsificacion de Instrumento Publico]] y [[Obstruccion a la Investigacion]], conmutadas a penas sustitutivas.
+En el juicio oral ante el Tribunal de Juicio Oral en lo Penal de Temuco ([[Sentencia-TOP-Temuco-OperacionHuracan-2026]]), fue sentenciado a penas que sumaron **3 años y un día más 100 días de presidio** por [[Falsificacion de Instrumento Publico]] y [[Obstruccion a la Investigacion]], conmutadas a penas sustitutivas.
 
 ## Auditoría Contable: Registros Reificados
 ```dataviewjs

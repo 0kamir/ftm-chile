@@ -7,7 +7,7 @@ aliases:
 rol_principal: "Ex General Inspector y Ex Director Nacional de Inteligencia, Drogas e Investigación Criminal de Carabineros"
 afiliacion_politica: "Militar / Carabineros"
 situacion_procesal: condenado
-medida_cautelar: "Condenado a 5 años de presidio (libertad vigilada intensiva) por el TOP de Temuco"
+medida_cautelar: "Condenado a 5 años de presidio (libertad vigilada intensiva) por el TOP de Temuco — sentencia no firme: recursos de nulidad pendientes (2026)"
 tags:
   - entidad/persona
   - caso-operacion-huracan
@@ -28,7 +28,7 @@ tags:
 ## Síntesis Forense
 General inspector de Carabineros que ejerció como Director Nacional de Inteligencia, Drogas e Investigación Criminal. Fue el máximo responsable policial que validó institucionalmente ante el Gobierno y la Fiscalía los informes fraudulentos de la UIOE en la [[Caso Operacion Huracan]], defendiendo públicamente la eficacia del software «Antorcha» desarrollado por [[Alex Smith Leay]]. 
 
-Tras destaparse la falsificación por parte de los peritajes de la PDI ([[Peritaje-Cibercrimen-PDI-SoftwareAntorcha-2018]]), fue dado de baja y formalizado por el Ministerio Público. En el juicio oral ante el Tribunal de Juicio Oral en lo Penal de Temuco ([[Sentencia-TOP-Temuco-OperacionHuracan-2024]]) fue condenado a **5 años de presidio** menor en su grado máximo por [[Falsificacion de Instrumento Publico]] y [[Obstruccion a la Investigacion]].
+Tras destaparse la falsificación por parte de los peritajes de la PDI ([[Peritaje-Cibercrimen-PDI-SoftwareAntorcha-2018]]), fue dado de baja y formalizado por el Ministerio Público. En el juicio oral ante el Tribunal de Juicio Oral en lo Penal de Temuco ([[Sentencia-TOP-Temuco-OperacionHuracan-2026]]) fue condenado a **5 años de presidio** menor en su grado máximo por [[Falsificacion de Instrumento Publico]] y [[Obstruccion a la Investigacion]].
 
 ## Auditoría Contable: Registros Reificados
 ```dataviewjs

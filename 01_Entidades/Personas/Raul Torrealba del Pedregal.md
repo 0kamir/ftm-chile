@@ -24,7 +24,7 @@ tags:
 - **Medida Cautelar Vigente**: `= this.medida_cautelar`
 
 ## Síntesis Forense
-Exalcalde de la [[Municipalidad de Vitacura]] y exmilitante histórico de [[Renovacion Nacional]]. Fue formalizado en el [[Caso Vitacura]] por 29 delitos de [[Fraude al Fisco]] / [[Malversacion de Caudales Publicos]], asociación ilícita, delitos tributarios y [[Lavado de Activos]], tras acreditarse mediante la autodenuncia de [[Domingo Prieto Urrejola]] ([[Declaracion-Judicial-Prieto-Vitacura-2021]]) el desvío sistemático de subvenciones municipales otorgadas a [[Vita Deportes]] ([[TRX-2021-04-15-Subvencion-VitaDeportes-01]]).
+Exalcalde de la [[Municipalidad de Vitacura]] y exmilitante histórico de [[Renovacion Nacional]]. Fue formalizado en el [[Caso Vitacura]] por 29 delitos de [[Fraude al Fisco]] / [[Malversacion de Caudales Publicos]], asociación ilícita, delitos tributarios y [[Lavado de Activos]], tras la autodenuncia de [[Domingo Prieto Urrejola]] ([[Declaracion-Judicial-Prieto-Vitacura-2021]]) el presunto desvío sistemático de subvenciones municipales otorgadas a [[Vita Deportes]] ([[TRX-2021-04-15-Subvencion-VitaDeportes-01]]).
 
 ## Auditoría Contable: Montos Autorizados como Firmante de Origen
 ```dataviewjs

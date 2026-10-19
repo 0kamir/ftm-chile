@@ -30,4 +30,4 @@ tags:
 - **Evidencia Documental**: `= this.evidencia_soporte`
 
 ## Descripción Forense de la Operación
-Defraudación patrimonial consolidada en la [[Municipalidad de Maipu]] bajo la administración de [[Cathy Barriga Guerra]] por **$30.972.000.000 CLP**, ejecutada mediante la emisión de Certificados de Disponibilidad Presupuestaria (CDP) sin respaldo contable, ocultamiento de pasivos devengados y desvío de fondos de uso exclusivo (como recursos de la sanitaria municipal SMAPA), según consta en el [[Informe-Contraloria-Municipalidad-Maipu-2021]] y la formalización del [[Caso Municipalidad de Maipu]].
+Déficit presupuestario, que la Fiscalía imputa como fraude al fisco, en la [[Municipalidad de Maipu]] bajo la administración de [[Cathy Barriga Guerra]] por **$30.972.000.000 CLP**, atribuido por la acusación a la emisión de Certificados de Disponibilidad Presupuestaria (CDP) sin respaldo contable, ocultamiento de pasivos devengados y desvío de fondos de uso exclusivo (como recursos de la sanitaria municipal SMAPA), según consta en el [[Informe-Contraloria-Municipalidad-Maipu-2021]] y la formalización del [[Caso Municipalidad de Maipu]].

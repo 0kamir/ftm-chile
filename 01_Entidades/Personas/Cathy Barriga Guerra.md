@@ -28,7 +28,7 @@ tags:
 - **Medida Cautelar Vigente**: `= this.medida_cautelar`
 
 ## Síntesis Forense
-Exalcaldesa de la [[Municipalidad de Maipu]] y ex Consejera Regional, electa en el cupo de [[Union Democrata Independiente]]. Fue formalizada por la Fiscalía Metropolitana Oriente en el [[Caso Municipalidad de Maipu]] por delitos reiterados de [[Fraude al Fisco]] y falsificación de instrumento público por un perjuicio patrimonial de **$30.972.000.000 CLP** ([[TRX-2020-12-15-Deficit-Maipu-Certificados-01]]), acreditado en el [[Informe-Contraloria-Municipalidad-Maipu-2021]].
+Exalcaldesa de la [[Municipalidad de Maipu]] y ex Consejera Regional, electa en el cupo de [[Union Democrata Independiente]]. Fue formalizada por la Fiscalía Metropolitana Oriente en el [[Caso Municipalidad de Maipu]] por delitos reiterados de [[Fraude al Fisco]] y falsificación de instrumento público por un perjuicio patrimonial de **$30.972.000.000 CLP** ([[TRX-2020-12-15-Deficit-Maipu-Certificados-01]]), según el [[Informe-Contraloria-Municipalidad-Maipu-2021]].
 
 ## Auditoría Contable: Montos Imputados como Firmante de Origen
 ```dataviewjs

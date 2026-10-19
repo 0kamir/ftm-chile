@@ -309,7 +309,7 @@ MERGE (n:NodoForense:EvidenciaDocumental {id: "Sentencia-TDLC-119-Colusion-Farma
 MERGE (n:NodoForense:EvidenciaDocumental {id: "Sentencia-TDLC-139-Colusion-Pollos-2014"}) SET n.tipo_nodo = "evidencia_documental", n.rut = "", n.monto_clp = 0, n.fecha = "2014-09-25";
 MERGE (n:NodoForense:EvidenciaDocumental {id: "Sentencia-TDLC-160-Colusion-Tissue-2017"}) SET n.tipo_nodo = "evidencia_documental", n.rut = "", n.monto_clp = 0, n.fecha = "2017-12-14";
 MERGE (n:NodoForense:EvidenciaDocumental {id: "Sentencia-TOP-Rancagua-Caval-2018"}) SET n.tipo_nodo = "evidencia_documental", n.rut = "", n.monto_clp = 0, n.fecha = "2018-07-11";
-MERGE (n:NodoForense:EvidenciaDocumental {id: "Sentencia-TOP-Temuco-OperacionHuracan-2024"}) SET n.tipo_nodo = "evidencia_documental", n.rut = "", n.monto_clp = 0, n.fecha = "2024-04-12";
+MERGE (n:NodoForense:EvidenciaDocumental {id: "Sentencia-TOP-Temuco-OperacionHuracan-2026"}) SET n.tipo_nodo = "evidencia_documental", n.rut = "", n.monto_clp = 0, n.fecha = "2026-04-02";
 MERGE (n:NodoForense:EvidenciaDocumental {id: "Veredicto-TOP-Santiago-Pacogate-2026"}) SET n.tipo_nodo = "evidencia_documental", n.rut = "", n.monto_clp = 0, n.fecha = "2026-04-15";
 MERGE (n:NodoForense:Entidad {id: "Dossier_Ejecutivo_Completo"}) SET n.tipo_nodo = "dossier_pericial", n.rut = "", n.monto_clp = 0, n.fecha = "";
 MERGE (n:NodoForense:Entidad {id: "Drawing 2026-10-18 02.19.23.excalidraw"}) SET n.tipo_nodo = "Otro", n.rut = "", n.monto_clp = 0, n.fecha = "";
@@ -745,14 +745,14 @@ MATCH (a:NodoForense {id: "TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01"
 MATCH (a:NodoForense {id: "TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01"}), (b:NodoForense {id: "Alex Smith Leay"}) MERGE (a)-[:SUSCRITO_POR {propiedad_yaml: "firmante_destino"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01"}), (b:NodoForense {id: "Caso Operacion Huracan"}) MERGE (a)-[:INVESTIGADO_EN {propiedad_yaml: "causa_vinculada"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01"}), (b:NodoForense {id: "Falsificacion de Instrumento Publico"}) MERGE (a)-[:CONFIGURA_DELITO {propiedad_yaml: "delito_imputado"}]->(b);
-MATCH (a:NodoForense {id: "TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01"}), (b:NodoForense {id: "Sentencia-TOP-Temuco-OperacionHuracan-2024"}) MERGE (a)-[:RESPALDADO_POR {propiedad_yaml: "evidencia_soporte"}]->(b);
+MATCH (a:NodoForense {id: "TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01"}), (b:NodoForense {id: "Sentencia-TOP-Temuco-OperacionHuracan-2026"}) MERGE (a)-[:RESPALDADO_POR {propiedad_yaml: "evidencia_soporte"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01"}), (b:NodoForense {id: "Direccion de Inteligencia Policial de Carabineros"}) MERGE (a)-[:ORIGEN_DE_FONDOS {propiedad_yaml: "entidad_origen"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01"}), (b:NodoForense {id: "Direccion de Inteligencia Policial de Carabineros"}) MERGE (a)-[:DESTINO_DE_FONDOS {propiedad_yaml: "entidad_destino"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01"}), (b:NodoForense {id: "Patricio Marin Lazo"}) MERGE (a)-[:AUTORIZADO_POR {propiedad_yaml: "firmante_origen"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01"}), (b:NodoForense {id: "Alex Smith Leay"}) MERGE (a)-[:SUSCRITO_POR {propiedad_yaml: "firmante_destino"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01"}), (b:NodoForense {id: "Caso Operacion Huracan"}) MERGE (a)-[:INVESTIGADO_EN {propiedad_yaml: "causa_vinculada"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01"}), (b:NodoForense {id: "Malversacion de Caudales Publicos"}) MERGE (a)-[:CONFIGURA_DELITO {propiedad_yaml: "delito_imputado"}]->(b);
-MATCH (a:NodoForense {id: "TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01"}), (b:NodoForense {id: "Sentencia-TOP-Temuco-OperacionHuracan-2024"}) MERGE (a)-[:RESPALDADO_POR {propiedad_yaml: "evidencia_soporte"}]->(b);
+MATCH (a:NodoForense {id: "TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01"}), (b:NodoForense {id: "Sentencia-TOP-Temuco-OperacionHuracan-2026"}) MERGE (a)-[:RESPALDADO_POR {propiedad_yaml: "evidencia_soporte"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2018-01-25-Peritaje-Cibercrimen-Descarte-Antorcha-01"}), (b:NodoForense {id: "Corte Suprema de Chile"}) MERGE (a)-[:ORIGEN_DE_FONDOS {propiedad_yaml: "entidad_origen"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2018-01-25-Peritaje-Cibercrimen-Descarte-Antorcha-01"}), (b:NodoForense {id: "Direccion de Inteligencia Policial de Carabineros"}) MERGE (a)-[:DESTINO_DE_FONDOS {propiedad_yaml: "entidad_destino"}]->(b);
 MATCH (a:NodoForense {id: "TRX-2018-01-25-Peritaje-Cibercrimen-Descarte-Antorcha-01"}), (b:NodoForense {id: "Leonardo Osses Sandoval"}) MERGE (a)-[:AUTORIZADO_POR {propiedad_yaml: "firmante_origen"}]->(b);
@@ -1026,9 +1026,9 @@ MATCH (a:NodoForense {id: "Sentencia-TDLC-160-Colusion-Tissue-2017"}), (b:NodoFo
 MATCH (a:NodoForense {id: "Sentencia-TOP-Rancagua-Caval-2018"}), (b:NodoForense {id: "Corte Suprema de Chile"}) MERGE (a)-[:EMITIDO_POR {propiedad_yaml: "organismo_emisor"}]->(b);
 MATCH (a:NodoForense {id: "Sentencia-TOP-Rancagua-Caval-2018"}), (b:NodoForense {id: "Caso Caval"}) MERGE (a)-[:INVESTIGADO_EN {propiedad_yaml: "causa_vinculada"}]->(b);
 MATCH (a:NodoForense {id: "Sentencia-TOP-Rancagua-Caval-2018"}), (b:NodoForense {id: "TRX-2015-01-29-Facturas-Falsas-Caval-SII-01"}) MERGE (a)-[:ACREDITA_NEXO {propiedad_yaml: "nexo_respaldado"}]->(b);
-MATCH (a:NodoForense {id: "Sentencia-TOP-Temuco-OperacionHuracan-2024"}), (b:NodoForense {id: "Corte Suprema de Chile"}) MERGE (a)-[:EMITIDO_POR {propiedad_yaml: "organismo_emisor"}]->(b);
-MATCH (a:NodoForense {id: "Sentencia-TOP-Temuco-OperacionHuracan-2024"}), (b:NodoForense {id: "Caso Operacion Huracan"}) MERGE (a)-[:INVESTIGADO_EN {propiedad_yaml: "causa_vinculada"}]->(b);
-MATCH (a:NodoForense {id: "Sentencia-TOP-Temuco-OperacionHuracan-2024"}), (b:NodoForense {id: "TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01"}) MERGE (a)-[:ACREDITA_NEXO {propiedad_yaml: "nexo_respaldado"}]->(b);
+MATCH (a:NodoForense {id: "Sentencia-TOP-Temuco-OperacionHuracan-2026"}), (b:NodoForense {id: "Corte Suprema de Chile"}) MERGE (a)-[:EMITIDO_POR {propiedad_yaml: "organismo_emisor"}]->(b);
+MATCH (a:NodoForense {id: "Sentencia-TOP-Temuco-OperacionHuracan-2026"}), (b:NodoForense {id: "Caso Operacion Huracan"}) MERGE (a)-[:INVESTIGADO_EN {propiedad_yaml: "causa_vinculada"}]->(b);
+MATCH (a:NodoForense {id: "Sentencia-TOP-Temuco-OperacionHuracan-2026"}), (b:NodoForense {id: "TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01"}) MERGE (a)-[:ACREDITA_NEXO {propiedad_yaml: "nexo_respaldado"}]->(b);
 MATCH (a:NodoForense {id: "Veredicto-TOP-Santiago-Pacogate-2026"}), (b:NodoForense {id: "Caso Pacogate"}) MERGE (a)-[:INVESTIGADO_EN {propiedad_yaml: "causa_vinculada"}]->(b);
 MATCH (a:NodoForense {id: "Veredicto-TOP-Santiago-Pacogate-2026"}), (b:NodoForense {id: "TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01"}) MERGE (a)-[:ACREDITA_NEXO {propiedad_yaml: "nexo_respaldado"}]->(b);
 

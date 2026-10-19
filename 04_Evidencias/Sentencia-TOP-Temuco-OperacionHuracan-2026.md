@@ -2,7 +2,7 @@
 tipo_nodo: evidencia_documental
 id_evidencia: "EVD-TOP-TEM-2024-HUR"
 tipo_documento: "Sentencia Condenatoria Definitiva del Tribunal de Juicio Oral en lo Penal de Temuco en Caso Operación Huracán (RIT 180-2020)"
-fecha_emision: 2024-04-12
+fecha_emision: 2026-04-02
 organismo_emisor: "[[Corte Suprema de Chile]]"
 fuente_osint: "Poder Judicial de Chile (pjud.cl) / Fiscalía de Chile / Tribunal de Juicio Oral en lo Penal de Temuco"
 causa_vinculada: "[[Caso Operacion Huracan]]"
@@ -16,7 +16,6 @@ fuentes:
     fecha: 2026-04-02
     consultado: 2026-10-19
 alertas_verificacion:
-  - "La sentencia es del 02-04-2026, no de 2024; renombrar la nota y corregir fecha_emision."
 tags:
   - evidencia/sentencia
   - operacion-huracan
@@ -24,7 +23,7 @@ tags:
   - condena-efectiva
 ---
 
-# Sentencia-TOP-Temuco-OperacionHuracan-2024
+# Sentencia-TOP-Temuco-OperacionHuracan-2026
 
 ## Metadatos de Fuente Primaria (Cadena de Custodia Judicial)
 - **ID Evidencia**: `= this.id_evidencia`

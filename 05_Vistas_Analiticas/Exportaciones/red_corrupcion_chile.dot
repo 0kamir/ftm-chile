@@ -136,9 +136,9 @@ digraph RedCorrupcionChile {
   "Sentencia-Corte-Suprema-CasoSpiniak-2008" [label="Sentencia-Corte-Suprema-CasoSpiniak-2008", shape=note, style=filled, fillcolor="#475569", fontcolor="#ffffff"];
   "Resolucion-SVS-306-InformacionPrivilegiada-LAN-2007" [label="Resolucion-SVS-306-InformacionPrivilegiada-LAN-2007", shape=note, style=filled, fillcolor="#475569", fontcolor="#ffffff"];
   "Contrato-Offshore-BVI-PandoraPapers-Dominga-2010" [label="Contrato-Offshore-BVI-PandoraPapers-Dominga-2010", shape=note, style=filled, fillcolor="#475569", fontcolor="#ffffff"];
-  "Sentencia-TOP-Temuco-OperacionHuracan-2024" [label="Sentencia-TOP-Temuco-OperacionHuracan-2024", shape=note, style=filled, fillcolor="#475569", fontcolor="#ffffff"];
   "Sentencia-TDLC-119-Colusion-Farmacias-2012" [label="Sentencia-TDLC-119-Colusion-Farmacias-2012", shape=note, style=filled, fillcolor="#475569", fontcolor="#ffffff"];
   "Sentencia-TDLC-139-Colusion-Pollos-2014" [label="Sentencia-TDLC-139-Colusion-Pollos-2014", shape=note, style=filled, fillcolor="#475569", fontcolor="#ffffff"];
+  "Sentencia-TOP-Temuco-OperacionHuracan-2026" [label="Sentencia-TOP-Temuco-OperacionHuracan-2026", shape=note, style=filled, fillcolor="#475569", fontcolor="#ffffff"];
   "Municipalidad de Maipu" [label="Municipalidad de Maipu", shape=box, style="filled,rounded", fillcolor="#15803d", fontcolor="#ffffff"];
   "Agustin Edwards Eastman" [label="Agustin Edwards Eastman", shape=ellipse, style=filled, fillcolor="#1e40af", fontcolor="#ffffff"];
   "Mossack Fonseca y Sociedades Offshore Panama" [label="Mossack Fonseca y Sociedades Offshore Panama", shape=component, style=filled, fillcolor="#c2410c", fontcolor="#ffffff"];
@@ -776,14 +776,14 @@ digraph RedCorrupcionChile {
   "TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01" -> "Alex Smith Leay" [label="firmante_destino"];
   "TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01" -> "Caso Operacion Huracan" [label="causa_vinculada"];
   "TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01" -> "Falsificacion de Instrumento Publico" [label="delito_imputado"];
-  "TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01" -> "Sentencia-TOP-Temuco-OperacionHuracan-2024" [label="evidencia_soporte"];
+  "TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01" -> "Sentencia-TOP-Temuco-OperacionHuracan-2026" [label="evidencia_soporte"];
   "TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01" -> "Direccion de Inteligencia Policial de Carabineros" [label="entidad_origen"];
   "TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01" -> "Direccion de Inteligencia Policial de Carabineros" [label="entidad_destino"];
   "TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01" -> "Patricio Marin Lazo" [label="firmante_origen"];
   "TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01" -> "Alex Smith Leay" [label="firmante_destino"];
   "TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01" -> "Caso Operacion Huracan" [label="causa_vinculada"];
   "TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01" -> "Malversacion de Caudales Publicos" [label="delito_imputado"];
-  "TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01" -> "Sentencia-TOP-Temuco-OperacionHuracan-2024" [label="evidencia_soporte"];
+  "TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01" -> "Sentencia-TOP-Temuco-OperacionHuracan-2026" [label="evidencia_soporte"];
   "TRX-2018-01-25-Peritaje-Cibercrimen-Descarte-Antorcha-01" -> "Corte Suprema de Chile" [label="entidad_origen"];
   "TRX-2018-01-25-Peritaje-Cibercrimen-Descarte-Antorcha-01" -> "Direccion de Inteligencia Policial de Carabineros" [label="entidad_destino"];
   "TRX-2018-01-25-Peritaje-Cibercrimen-Descarte-Antorcha-01" -> "Leonardo Osses Sandoval" [label="firmante_origen"];
@@ -975,9 +975,6 @@ digraph RedCorrupcionChile {
   "Desclasificacion-Documentos-DOJ-CasoEpstein-2024" -> "Corte Suprema de Chile" [label="organismo_emisor"];
   "Desclasificacion-Documentos-DOJ-CasoEpstein-2024" -> "Caso Archivos Epstein Menciones Chile" [label="causa_vinculada"];
   "Desclasificacion-Documentos-DOJ-CasoEpstein-2024" -> "TRX-2015-11-14-Mencion-Indirecta-Epstein-BinSulayem-Luksic-01" [label="nexo_respaldado"];
-  "Sentencia-TOP-Temuco-OperacionHuracan-2024" -> "Corte Suprema de Chile" [label="organismo_emisor"];
-  "Sentencia-TOP-Temuco-OperacionHuracan-2024" -> "Caso Operacion Huracan" [label="causa_vinculada"];
-  "Sentencia-TOP-Temuco-OperacionHuracan-2024" -> "TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01" [label="nexo_respaldado"];
   "Peritaje-Cibercrimen-PDI-SoftwareAntorcha-2018" -> "Corte Suprema de Chile" [label="organismo_emisor"];
   "Peritaje-Cibercrimen-PDI-SoftwareAntorcha-2018" -> "Caso Operacion Huracan" [label="causa_vinculada"];
   "Peritaje-Cibercrimen-PDI-SoftwareAntorcha-2018" -> "TRX-2018-01-25-Peritaje-Cibercrimen-Descarte-Antorcha-01" [label="nexo_respaldado"];
@@ -1028,4 +1025,7 @@ digraph RedCorrupcionChile {
   "Sentencia-8Juzgado-Garantia-Penta-2018" -> "TRX-2013-07-15-Boletas-Falsas-Penta-UDI-01" [label="nexo_respaldado"];
   "Veredicto-TOP-Santiago-Pacogate-2026" -> "Caso Pacogate" [label="causa_vinculada"];
   "Veredicto-TOP-Santiago-Pacogate-2026" -> "TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01" [label="nexo_respaldado"];
+  "Sentencia-TOP-Temuco-OperacionHuracan-2026" -> "Corte Suprema de Chile" [label="organismo_emisor"];
+  "Sentencia-TOP-Temuco-OperacionHuracan-2026" -> "Caso Operacion Huracan" [label="causa_vinculada"];
+  "Sentencia-TOP-Temuco-OperacionHuracan-2026" -> "TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01" [label="nexo_respaldado"];
 }
