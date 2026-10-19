@@ -119,7 +119,7 @@ def compute_hhi_by_origin(nexos: list[dict]) -> list[dict]:
             continue
         hhi = sum(((monto / total) * 100.0) ** 2 for monto in destinos.values())
         nivel = (
-            "Alta Concentración / Captura (> 2.500)"
+            "Alta Concentración (> 2.500)"
             if hhi >= 2500
             else "Concentración Moderada"
         )

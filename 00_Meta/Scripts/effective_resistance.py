@@ -240,7 +240,7 @@ def generate_report():
         "",
         "> [!IMPORTANT] Redes Eléctricas de Kirchhoff y Cadenas de Markov sobre Grafos",
         "> A diferencia de la distancia geodésica más corta (que ignora caminos alternativos), la **Distancia de Resistencia Efectiva de Klein & Randić ($\\Omega_{uv} = L^+_{uu} + L^+_{vv} - 2L^+_{uv}$)** modela cada vínculo como un resistor de $1\\,\\Omega$ y pondera simultáneamente **todos los caminos paralelos** entre dos sujetos:",
-        "> 1. **Centralidad por Flujo de Corriente ($C_{\\text{CF}}(u)$)**: Identifica los nodos con menor impedancia global hacia el resto del aparato criminal/institucional.",
+        "> 1. **Centralidad por Flujo de Corriente ($C_{\\text{CF}}(u)$)**: Identifica los nodos con menor impedancia global hacia el resto del grafo.",
         "> 2. **Tiempo de Conmutación e Impacto de Tetali ($H_{uv} + H_{vu}$)** y **Constante de Kemeny ($K(G)$)**: Miden el número esperado de pasos de una auditoría o contagio estocástico para transitar entre dos actores cualesquiera.",
         "",
         "## 1. Invariantes Eléctricos y Estocásticos del Grafo",

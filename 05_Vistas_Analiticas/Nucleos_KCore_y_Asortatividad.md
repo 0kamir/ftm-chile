@@ -16,16 +16,16 @@ tags:
 
 
 > [!NOTE] Topología Núcleo-Periferia y Arbitraje de Agujeros Estructurales
-> Esta vista implementa tres teoremas clásicos de la ciencia de redes criminales:
+> Esta vista implementa tres teoremas clásicos del análisis de redes:
 > 1. **Descomposición $k$-Core y *Onion Layers* (Batagelj & Zaversnik)**: Pela iterativamente la periferia del grafo hasta aislar el **Núcleo Profundo ($k_{\max}$)**.
-> 2. **Coeficiente de Asortatividad de Grado de Newman ($r \in [-1, 1]$)**: Determina matemáticamente si la red es **disasortativa ($r < 0$)** —típico de agrupamientos que compartimentan el riesgo mediante fundaciones u operadores satélite—.
+> 2. **Coeficiente de Asortatividad de Grado de Newman ($r \in [-1, 1]$)**: Determina matemáticamente si la red es **disasortativa ($r < 0$)** —los nodos de alto grado se conectan con nodos de bajo grado—. Describe la forma del grafo, no una estrategia de los actores.
 > 3. **Restricción Estructural de Ronald Burt ($C_i$)**: Identifica los actores que explotan **Agujeros Estructurales** (menor restricción $C_i$ implica mayor poder de corretaje e intermediación exclusiva entre grupos desconectados).
 
 ## 1. Indicadores Estructurales Globales
 
 - **Nodos Operativos Activos ($|V|$)**: `229` | **Aristas No Dirigidas ($|E|$)**: `375`
 - **Coeficiente de Asortatividad de Grado de Newman ($r$)**: **`-0.1046`**
-  - *Diagnóstico Topológico*: **Disasortativo (Arquitectura Hub-and-Spoke / Estrella: los grandes nodos articuladores operan a través de entidades instrumentales o testaferros periféricos)**
+  - *Diagnóstico Topológico*: **Disasortativo (Arquitectura Hub-and-Spoke / Estrella: los nodos de mayor grado se conectan sobre todo con nodos periféricos)**
 - **Degeneración / Coreness Máximo ($k_{\max}$)**: `3-Core`
 - **Profundidad Máxima de Pelado (*Onion Layers*)**: `14 capas`
 

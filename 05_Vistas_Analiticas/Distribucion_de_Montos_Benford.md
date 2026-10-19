@@ -48,7 +48,7 @@ xychart-beta
 
 ## 2. Detección de Sesgo de Redondeo Artificial (Múltiplos Exactos de `$10.000.000 CLP`)
 
-En contabilidad, los presupuestos basados en cubicaciones reales de obra o nóminas efectivas rara vez terminan en múltiplos exactos de diez millones de pesos (ej. [[TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01]] por `$28.348.928.198` o [[TRX-2022-12-20-Convenio-EnTi-01]] por `$250.635.000`). Por el contrario, las asignaciones discrecionales o cajas negras suelen fijarse en cifras cerradas:
+En contabilidad, los presupuestos basados en cubicaciones reales de obra o nóminas efectivas rara vez terminan en múltiplos exactos de diez millones de pesos (ej. [[TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01]] por `$28.348.928.198` o [[TRX-2022-12-20-Convenio-EnTi-01]] por `$250.635.000`). Las cifras cerradas pueden reflejar montos estimados, redondeados por la fuente o fijados por acuerdo, y no indican por sí solas una irregularidad:
 
 | Nexo (`TRX`) | Fecha | Tipo | Origen | Destino | Monto Redondo (CLP) | Causa |
 | :--- | :---: | :---: | :--- | :--- | ---: | :--- |

@@ -306,37 +306,37 @@ flowchart LR
 
 | Entidad Emisora | N° Receptores | Monto Total Emitido (CLP) | Índice HHI (0–10.000) | Diagnóstico de Concentración |
 | :--- | :---: | ---: | ---: | :--- |
-| [[]] | 2 | $240.055.030.792 | **9995** | Alta Concentración / Captura (> 2.500) |
-| [[Empresas CMPC SA]] | 1 | $97.500.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
-| [[Andes Iron SpA]] | 1 | $75.500.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
-| [[Agrosuper SA]] | 1 | $38.400.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
-| [[Mossack Fonseca y Sociedades Offshore Panama]] | 3 | $37.500.000.000 | **4241** | Alta Concentración / Captura (> 2.500) |
-| [[Bancard Inversiones Ltda]] | 3 | $32.050.000.000 | **4268** | Alta Concentración / Captura (> 2.500) |
-| [[Municipalidad de Maipu]] | 1 | $30.972.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
-| [[Direccion de Finanzas de Carabineros]] | 2 | $29.798.928.198 | **9074** | Alta Concentración / Captura (> 2.500) |
-| [[Comando de Apoyo a la Fuerza del Ejercito]] | 4 | $28.350.000.000 | **3830** | Alta Concentración / Captura (> 2.500) |
-| [[Agencia Central de Inteligencia CIA y Escuela de las Americas]] | 3 | $26.400.000.000 | **4501** | Alta Concentración / Captura (> 2.500) |
-| [[Fundacion CEMA Chile]] | 1 | $10.500.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
-| [[Sociedad Benefactora y Educacional Dignidad]] | 1 | $3.450.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
-| [[GORE Biobio]] | 2 | $2.803.635.000 | **8372** | Alta Concentración / Captura (> 2.500) |
-| [[Exportadora y de Gestion Caval Ltda]] | 1 | $2.500.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
-| [[Riggs Bank y Sociedades Offshore Ashburton]] | 1 | $2.450.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
-| [[Farmacias Salcobrand SA]] | 1 | $2.180.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
-| [[Empresas Penta SA]] | 2 | $1.458.000.000 | **9440** | Alta Concentración / Captura (> 2.500) |
-| [[Ministerio de Obras Publicas]] | 1 | $1.253.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
-| [[Municipalidad de Cerro Navia]] | 1 | $1.120.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
-| [[SQM SA]] | 2 | $1.070.000.000 | **5664** | Alta Concentración / Captura (> 2.500) |
-| [[Seremi MINVU Antofagasta]] | 2 | $926.000.000 | **5032** | Alta Concentración / Captura (> 2.500) |
-| [[Factop SpA]] | 3 | $770.000.000 | **4664** | Alta Concentración / Captura (> 2.500) |
-| [[Municipalidad de Vitacura]] | 1 | $759.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
-| [[Inversiones El Bosque Ltda]] | 1 | $480.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
-| [[Union Democrata Independiente]] | 1 | $240.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
-| [[Corpesca SA]] | 1 | $233.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
-| [[KDM Empresas SA]] | 1 | $186.500.000 | **10000** | Alta Concentración / Captura (> 2.500) |
-| [[Renovacion Nacional]] | 1 | $120.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
-| [[Itelecom Holding Chile SpA]] | 1 | $37.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
-| [[Senado de la Republica de Chile]] | 1 | $35.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
-| [[Direccion de Inteligencia Policial de Carabineros]] | 1 | $25.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
+| [[]] | 2 | $240.055.030.792 | **9995** | Alta Concentración (> 2.500) |
+| [[Empresas CMPC SA]] | 1 | $97.500.000.000 | **10000** | Alta Concentración (> 2.500) |
+| [[Andes Iron SpA]] | 1 | $75.500.000.000 | **10000** | Alta Concentración (> 2.500) |
+| [[Agrosuper SA]] | 1 | $38.400.000.000 | **10000** | Alta Concentración (> 2.500) |
+| [[Mossack Fonseca y Sociedades Offshore Panama]] | 3 | $37.500.000.000 | **4241** | Alta Concentración (> 2.500) |
+| [[Bancard Inversiones Ltda]] | 3 | $32.050.000.000 | **4268** | Alta Concentración (> 2.500) |
+| [[Municipalidad de Maipu]] | 1 | $30.972.000.000 | **10000** | Alta Concentración (> 2.500) |
+| [[Direccion de Finanzas de Carabineros]] | 2 | $29.798.928.198 | **9074** | Alta Concentración (> 2.500) |
+| [[Comando de Apoyo a la Fuerza del Ejercito]] | 4 | $28.350.000.000 | **3830** | Alta Concentración (> 2.500) |
+| [[Agencia Central de Inteligencia CIA y Escuela de las Americas]] | 3 | $26.400.000.000 | **4501** | Alta Concentración (> 2.500) |
+| [[Fundacion CEMA Chile]] | 1 | $10.500.000.000 | **10000** | Alta Concentración (> 2.500) |
+| [[Sociedad Benefactora y Educacional Dignidad]] | 1 | $3.450.000.000 | **10000** | Alta Concentración (> 2.500) |
+| [[GORE Biobio]] | 2 | $2.803.635.000 | **8372** | Alta Concentración (> 2.500) |
+| [[Exportadora y de Gestion Caval Ltda]] | 1 | $2.500.000.000 | **10000** | Alta Concentración (> 2.500) |
+| [[Riggs Bank y Sociedades Offshore Ashburton]] | 1 | $2.450.000.000 | **10000** | Alta Concentración (> 2.500) |
+| [[Farmacias Salcobrand SA]] | 1 | $2.180.000.000 | **10000** | Alta Concentración (> 2.500) |
+| [[Empresas Penta SA]] | 2 | $1.458.000.000 | **9440** | Alta Concentración (> 2.500) |
+| [[Ministerio de Obras Publicas]] | 1 | $1.253.000.000 | **10000** | Alta Concentración (> 2.500) |
+| [[Municipalidad de Cerro Navia]] | 1 | $1.120.000.000 | **10000** | Alta Concentración (> 2.500) |
+| [[SQM SA]] | 2 | $1.070.000.000 | **5664** | Alta Concentración (> 2.500) |
+| [[Seremi MINVU Antofagasta]] | 2 | $926.000.000 | **5032** | Alta Concentración (> 2.500) |
+| [[Factop SpA]] | 3 | $770.000.000 | **4664** | Alta Concentración (> 2.500) |
+| [[Municipalidad de Vitacura]] | 1 | $759.000.000 | **10000** | Alta Concentración (> 2.500) |
+| [[Inversiones El Bosque Ltda]] | 1 | $480.000.000 | **10000** | Alta Concentración (> 2.500) |
+| [[Union Democrata Independiente]] | 1 | $240.000.000 | **10000** | Alta Concentración (> 2.500) |
+| [[Corpesca SA]] | 1 | $233.000.000 | **10000** | Alta Concentración (> 2.500) |
+| [[KDM Empresas SA]] | 1 | $186.500.000 | **10000** | Alta Concentración (> 2.500) |
+| [[Renovacion Nacional]] | 1 | $120.000.000 | **10000** | Alta Concentración (> 2.500) |
+| [[Itelecom Holding Chile SpA]] | 1 | $37.000.000 | **10000** | Alta Concentración (> 2.500) |
+| [[Senado de la Republica de Chile]] | 1 | $35.000.000 | **10000** | Alta Concentración (> 2.500) |
+| [[Direccion de Inteligencia Policial de Carabineros]] | 1 | $25.000.000 | **10000** | Alta Concentración (> 2.500) |
 
 ---
 

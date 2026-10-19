@@ -165,7 +165,7 @@ def generate_report():
     )
 
     regimen = (
-        "Disasortativo (Arquitectura Hub-and-Spoke / Estrella: los grandes nodos articuladores operan a través de entidades instrumentales o testaferros periféricos)"
+        "Disasortativo (Arquitectura Hub-and-Spoke / Estrella: los nodos de mayor grado se conectan sobre todo con nodos periféricos)"
         if r_assort < 0
         else "Asortativo (Núcleo oligárquico densamente interconectado entre pares de alto grado)"
     )
@@ -187,9 +187,9 @@ def generate_report():
         *descargo(),
         "",
         "> [!NOTE] Topología Núcleo-Periferia y Arbitraje de Agujeros Estructurales",
-        "> Esta vista implementa tres teoremas clásicos de la ciencia de redes criminales:",
+        "> Esta vista implementa tres teoremas clásicos del análisis de redes:",
         "> 1. **Descomposición $k$-Core y *Onion Layers* (Batagelj & Zaversnik)**: Pela iterativamente la periferia del grafo hasta aislar el **Núcleo Profundo ($k_{\\max}$)**.",
-        "> 2. **Coeficiente de Asortatividad de Grado de Newman ($r \\in [-1, 1]$)**: Determina matemáticamente si la red es **disasortativa ($r < 0$)** —típico de agrupamientos que compartimentan el riesgo mediante fundaciones u operadores satélite—.",
+        "> 2. **Coeficiente de Asortatividad de Grado de Newman ($r \\in [-1, 1]$)**: Determina matemáticamente si la red es **disasortativa ($r < 0$)** —los nodos de alto grado se conectan con nodos de bajo grado—. Describe la forma del grafo, no una estrategia de los actores.",
         "> 3. **Restricción Estructural de Ronald Burt ($C_i$)**: Identifica los actores que explotan **Agujeros Estructurales** (menor restricción $C_i$ implica mayor poder de corretaje e intermediación exclusiva entre grupos desconectados).",
         "",
         "## 1. Indicadores Estructurales Globales",

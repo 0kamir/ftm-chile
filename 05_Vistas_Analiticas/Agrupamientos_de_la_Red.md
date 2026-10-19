@@ -16,7 +16,7 @@ tags:
 > Un agrupamiento es un conjunto de nodos densamente conectados en el grafo, casi siempre porque aparecen en la misma causa o expediente. **No es una organización, una asociación ni una red delictiva.**
 
 
-> [!NOTE] Ciencia de Redes aplicada a Estructuras de Corrupción (Clauset-Newman-Moore & Guimerà-Amaral)
+> [!NOTE] Análisis de modularidad (Clauset-Newman-Moore & Guimerà-Amaral)
 > Esta vista aplica maximización aglomerativa de **Modularidad de Newman-Girvan ($Q$)** (algoritmo de Clauset-Newman-Moore sobre la red de actores, causas y transacciones, excluyendo artículos penales genéricos) para particionar el grafo en **Agrupamientos**, y calcula el **Coeficiente de Participación ($P_i$)** de Guimerà & Amaral (2005) para descubrir los *brokers* que conectan agrupamientos criminales o políticas distintas.
 
 ## 1. Indicadores Globales de Partición

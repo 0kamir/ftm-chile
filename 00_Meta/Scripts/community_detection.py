@@ -2,7 +2,7 @@
 """
 Detector de Agrupamientos de la red y Modularidad (Clauset-Newman-Moore Q)
 =================================================================================
-Analiza la topología de la red criminal/política en `metricas_red.json`
+Analiza la topología del grafo del vault en `metricas_red.json`
 mediante maximización aglomerativa de Modularidad de Newman-Girvan / Clauset-Newman-Moore (CNM)
 sobre los nodos (`persona`, `entidad_publica`, `entidad_privada`,
 `partido_politico`, `nexo_transaccion`, `causa_judicial`), excluyendo nodos de
@@ -196,7 +196,7 @@ def generate_report():
         "",
         *descargo("agrupamientos"),
         "",
-        "> [!NOTE] Ciencia de Redes aplicada a Estructuras de Corrupción (Clauset-Newman-Moore & Guimerà-Amaral)",
+        "> [!NOTE] Análisis de modularidad (Clauset-Newman-Moore & Guimerà-Amaral)",
         "> Esta vista aplica maximización aglomerativa de **Modularidad de Newman-Girvan ($Q$)** (algoritmo de Clauset-Newman-Moore sobre la red de actores, causas y transacciones, excluyendo artículos penales genéricos) para particionar el grafo en **Agrupamientos**, y calcula el **Coeficiente de Participación ($P_i$)** de Guimerà & Amaral (2005) para descubrir los *brokers* que conectan agrupamientos criminales o políticas distintas.",
         "",
         "## 1. Indicadores Globales de Partición",

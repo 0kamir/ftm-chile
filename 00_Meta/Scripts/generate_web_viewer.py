@@ -30,7 +30,7 @@ def main() -> int:
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <title>Visor OSINT — Redes de Corrupción en Chile</title>
+  <title>Visor de la Red FTM-Chile</title>
   <style>
     :root {{
       --bg: #0f172a;

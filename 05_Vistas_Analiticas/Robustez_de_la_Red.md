@@ -16,7 +16,7 @@ tags:
 > La simulación elimina nodos del grafo para medir su conectividad. Es un ejercicio matemático y no describe ni sugiere acciones sobre personas reales.
 
 
-Modelamiento topológico basado en el protocolo de **percolación dirigida adaptativa** (Borgatti, 2006): evalúa cómo se fragmenta la Componente Gigante (`LCC`) de la red al neutralizar secuencialmente los actores con mayor centralidad de intermediación recalculada en cada paso.
+Modelamiento topológico basado en el protocolo de **percolación dirigida adaptativa** (Borgatti, 2006): evalúa cómo se fragmenta la Componente Gigante (`LCC`) de la red al eliminar secuencialmente los actores con mayor centralidad de intermediación recalculada en cada paso.
 
 ---
 
@@ -33,9 +33,9 @@ xychart-beta
 
 ---
 
-## 2. Secuencia Óptima de Neutralización de Nodos Puente
+## 2. Secuencia de Eliminación de Nodos Puente
 
-| Paso ($k$) | Nodo Neutralizado / Removido | Tipo de Actor | Islas Resultantes (Componentes) | Nodos en Mayor Componente (`LCC`) | Cohesión Residual (`LCC %`) |
+| Paso ($k$) | Nodo Eliminado | Tipo de Actor | Islas Resultantes (Componentes) | Nodos en Mayor Componente (`LCC`) | Cohesión Residual (`LCC %`) |
 | :---: | :--- | :--- | :---: | :---: | ---: |
 | **0** | Estado Inicial (Sin remoción) | `—` | **19** | 177 de 211 | **83.9%** |
 | **1** | [[Corte Suprema de Chile]] | `entidad_publica` | **20** | 168 de 211 | **79.6%** |

@@ -4,7 +4,7 @@ Motor de Teoría Espectral de Grafos, Conectividad Algebraica de Fiedler y Bisec
 =============================================================================================
 Resuelve de manera exacta (algoritmo cíclico de rotaciones de Jacobi en Python puro)
 el espectro de la Matriz de Adyacencia A y de la Matriz Laplaciana Combinatoria L = D - A
-sobre el Componente Gigante Conectado (LCC) de la red criminal/política:
+sobre el Componente Gigante Conectado (LCC) del grafo del vault:
 
 1. Conectividad Algebraica de Fiedler (lambda_2 de L) y cotas isoperimétricas de Cheeger.
 2. Vector de Fiedler (v_2) para Bisección Espectral en 2 Hemisferios Macro-Estructurales

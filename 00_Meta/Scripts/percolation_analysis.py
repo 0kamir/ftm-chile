@@ -170,7 +170,7 @@ def main() -> int:
         "",
         *descargo("robustez"),
         "",
-        "Modelamiento topológico basado en el protocolo de **percolación dirigida adaptativa** (Borgatti, 2006): evalúa cómo se fragmenta la Componente Gigante (`LCC`) de la red al neutralizar secuencialmente los actores con mayor centralidad de intermediación recalculada en cada paso.",
+        "Modelamiento topológico basado en el protocolo de **percolación dirigida adaptativa** (Borgatti, 2006): evalúa cómo se fragmenta la Componente Gigante (`LCC`) de la red al eliminar secuencialmente los actores con mayor centralidad de intermediación recalculada en cada paso.",
         "",
         "---",
         "",
@@ -187,9 +187,9 @@ def main() -> int:
         "",
         "---",
         "",
-        "## 2. Secuencia Óptima de Neutralización de Nodos Puente",
+        "## 2. Secuencia de Eliminación de Nodos Puente",
         "",
-        "| Paso ($k$) | Nodo Neutralizado / Removido | Tipo de Actor | Islas Resultantes (Componentes) | Nodos en Mayor Componente (`LCC`) | Cohesión Residual (`LCC %`) |",
+        "| Paso ($k$) | Nodo Eliminado | Tipo de Actor | Islas Resultantes (Componentes) | Nodos en Mayor Componente (`LCC`) | Cohesión Residual (`LCC %`) |",
         "| :---: | :--- | :--- | :---: | :---: | ---: |",
     ]
 
