@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "10.584.219-8"
+rut: ""
 aliases:
   - "Rodrigo Díaz"
   - "Rodrigo Díaz Wörner"

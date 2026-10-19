@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "6.418.923-9"
+rut: ""
 aliases:
   - "Claudio Spiniak"
 rol_principal: "Empresario y Controlador de Inversiones El Bosque Ltda. (Gimnasio Go Fitness)"

@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "7.419.620-9"
+rut: ""
 aliases:
   - "Jorge Silva"
 rol_principal: "Ex Director de Obras Municipales (DOM) de la Municipalidad de Machalí"

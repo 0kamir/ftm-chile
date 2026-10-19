@@ -30,7 +30,8 @@ flowchart LR
 3. **Presunción de inocencia.** El campo `situacion_procesal` refleja exactamente lo que dicen las fuentes (`formalizado` no es `condenado`). Las absoluciones y sobreseimientos se registran con la misma visibilidad que las acusaciones.
 4. **Privacidad y víctimas.** No se incorporan hechos de la vida íntima, de salud o familiares ajenos al eje de corrupción, aunque hayan salido en prensa. Las víctimas no se modelan como actores de un nexo.
 5. **Mención no es vínculo.** Aparecer en una filtración (Panama/Pandora Papers, archivos Epstein) no constituye un hecho ilícito. Esas notas deben decirlo de forma explícita y usar `tipo: secundaria` salvo que exista el documento original.
-6. **Nada inventado.** RUC, RUT, roles, montos y fechas se copian del documento fuente. Si no se conoce un dato, se deja vacío; no se estima ni se completa con un valor plausible.
+6. **Sin datos personales.** No se publica el RUT, domicilio, teléfono ni datos de familia de personas naturales; el validador rechaza notas de persona con `rut`. Los RUT de empresas y organismos públicos sí se registran, con su fuente.
+7. **Nada inventado.** RUC, RUT, roles, montos y fechas se copian del documento fuente. Si no se conoce un dato, se deja vacío; no se estima ni se completa con un valor plausible.
 
 ## 2. Jerarquía de Fuentes
 | Nivel | Ejemplos | `tipo` |
@@ -87,8 +88,11 @@ El ingestador nunca sobrescribe notas existentes y marca como `sin_fuente` las f
 make validate   # YAML, Módulo 11, enlaces internos y esquema de fuentes
 make sources    # regenera [[Cobertura_de_Fuentes]] (cobertura y alertas pendientes)
 make links      # comprueba que cada URL responda
+make screen     # triaje de riesgo de difamación con un modelo local (Ollama)
 make test       # suite completa
 ```
+`make screen` requiere [Ollama](https://ollama.com) con `qwen3:14b` (u otro modelo vía `--modelo`) y genera [[Revision_Riesgo_Difamacion]]. Es un filtro de triaje: el modelo puede equivocarse, así que cada hallazgo se contrasta con las fuentes antes de editar. Las frases que el modelo no copia literalmente se descartan.
+
 `make validate-strict` es lo que corre el CI: falla si alguna causa o evidencia queda sin fuente.
 
 ### Paso 5 — Pull Request

@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "5.129.384-3"
+rut: ""
 aliases:
   - "Guillermo Harding"
   - "Guillermo Harding Alvarado"

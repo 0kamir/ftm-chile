@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "4.892.147-7"
+rut: ""
 aliases:
   - "Juan Miguel Ovalle"
   - "Juan Miguel Ovalle Garces"

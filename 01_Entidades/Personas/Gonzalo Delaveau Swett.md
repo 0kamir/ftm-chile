@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "7.319.482-2"
+rut: ""
 aliases:
   - "Gonzalo Delaveau"
 rol_principal: "Abogado Societario, Agente de Mossack Fonseca en Chile y Ex Presidente de Chile Transparente"

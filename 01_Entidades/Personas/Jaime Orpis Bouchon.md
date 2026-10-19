@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "7.018.430-3"
+rut: ""
 aliases:
   - "Jaime Orpis"
   - "Senador Jaime Orpis Bouchon"

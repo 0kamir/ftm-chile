@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "6.982.415-3"
+rut: ""
 aliases:
   - "Jorge Quiroz"
   - "Jorge Quiroz Castro"

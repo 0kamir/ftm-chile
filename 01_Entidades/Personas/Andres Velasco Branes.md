@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "6.849.201-7"
+rut: ""
 aliases:
   - "Andrés Velasco"
   - "Andrés Velasco Brañes"

@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "2.341.892-4"
+rut: ""
 aliases:
   - "Lucía Hiriart"
   - "María Lucía Hiriart Rodríguez"

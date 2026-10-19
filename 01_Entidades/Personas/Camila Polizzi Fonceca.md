@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "17.342.815-4"
+rut: ""
 aliases:
   - "Camila Polizzi"
   - "Camila Polizzi Fonceca"

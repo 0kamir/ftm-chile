@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "7.061.842-7"
+rut: ""
 aliases:
   - "Andrés Chadwick"
   - "Andrés Pío Bernardino Chadwick Piñera"

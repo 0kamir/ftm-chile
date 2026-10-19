@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "10.394.820-7"
+rut: ""
 aliases:
   - "Marcelo Lefort"
   - "León Marcelo Lefort Hernández"

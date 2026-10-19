@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "10.842.915-1"
+rut: ""
 aliases:
   - "Álex Smith"
   - "Álex Smith Leay"

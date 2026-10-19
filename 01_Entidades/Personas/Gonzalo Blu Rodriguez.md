@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "7.419.283-1"
+rut: ""
 aliases:
   - "Gonzalo Blu"
   - "Gonzalo Blu Rodríguez"

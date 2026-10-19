@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "7.584.210-4"
+rut: ""
 aliases:
   - "Luis Plaza"
 rol_principal: "Ex Alcalde de la Municipalidad de Cerro Navia (2008-2016)"

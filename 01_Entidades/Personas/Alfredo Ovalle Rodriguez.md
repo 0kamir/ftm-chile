@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "3.618.294-6"
+rut: ""
 aliases:
   - "Alfredo Ovalle"
 rol_principal: "Empresario Minero, Ex Presidente de la CPC y Ex Presidente de la SONAMI"

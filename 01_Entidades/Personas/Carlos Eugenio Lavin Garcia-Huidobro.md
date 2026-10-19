@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "4.918.320-8"
+rut: ""
 aliases:
   - "Carlos Eugenio Lavín"
 rol_principal: "Cofundador y Controlador de Empresas Penta S.A."

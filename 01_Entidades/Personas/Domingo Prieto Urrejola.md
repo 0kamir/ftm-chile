@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "6.821.340-1"
+rut: ""
 aliases:
   - "Domingo Prieto"
   - "Domingo Prieto Urrejola"

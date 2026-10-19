@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "17.648.210-9"
+rut: ""
 aliases:
   - "Irací Hassler"
 rol_principal: "Ex Alcaldesa de la Municipalidad de Santiago (2021-2024)"

@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "9.841.203-4"
+rut: ""
 aliases:
   - "Marcelo Teuber"
   - "Marcelo Teuber Muñoz"

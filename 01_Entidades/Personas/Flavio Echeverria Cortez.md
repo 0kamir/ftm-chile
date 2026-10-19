@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "8.419.320-8"
+rut: ""
 aliases:
   - "Flavio Echeverría"
   - "General Flavio Echeverría Cortez"

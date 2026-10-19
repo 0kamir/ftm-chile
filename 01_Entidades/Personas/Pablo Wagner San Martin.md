@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "10.642.810-7"
+rut: ""
 aliases:
   - "Pablo Wagner"
 rol_principal: "Ex Subsecretario de Minería (2010-2012) y Ex Ejecutivo de Empresas Penta"

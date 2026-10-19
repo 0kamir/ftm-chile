@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "8.129.450-K"
+rut: ""
 aliases:
   - "Jozo Santic"
   - "Coronel Jozo Santic Palomino"

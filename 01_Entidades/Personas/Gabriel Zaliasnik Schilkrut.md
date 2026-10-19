@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "10.148.923-K"
+rut: ""
 aliases:
   - "Gabriel Zaliasnik"
   - "Gabriel Zaliasnik Schilkrut"

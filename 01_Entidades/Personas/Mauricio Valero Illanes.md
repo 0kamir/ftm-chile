@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "9.842.310-9"
+rut: ""
 aliases:
   - "Mauricio Valero"
 rol_principal: "Socio Administrador de Exportadora y de Gestión Caval Ltda."

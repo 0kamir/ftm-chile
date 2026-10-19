@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "12.849.102-3"
+rut: ""
 aliases:
   - "Patricio Marín"
   - "Patricio Marín Lazo"

@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "3.148.920-2"
+rut: ""
 aliases:
   - "Manuel Contreras"
   - "Mamo Contreras"

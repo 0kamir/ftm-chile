@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "6.418.920-4"
+rut: ""
 aliases:
   - "Juan Miguel Fuente-Alba"
   - "General Fuente-Alba"

@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "5.781.429-2"
+rut: ""
 aliases:
   - "Andrónico Luksic"
   - "Andrónico Luksic Craig"

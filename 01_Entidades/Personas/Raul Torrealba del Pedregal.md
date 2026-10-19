@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "5.412.890-8"
+rut: ""
 aliases:
   - "Raúl Torrealba"
   - "El Tronco"

@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "15.482.910-5"
+rut: ""
 aliases:
   - "Carlos Contreras"
   - "Carlos Contreras Gutiérrez"

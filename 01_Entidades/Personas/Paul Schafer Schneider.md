@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "4.918.234-1"
+rut: ""
 aliases:
   - "Paul Schäfer"
   - "Paul Schaefer"

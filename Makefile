@@ -1,4 +1,4 @@
-.PHONY: all validate validate-strict sources links audit benford export percolation linkpred communities flowcut kcore spectral temporal motifs resistance kinship dot ftm cypher jsonld csv dossier web test
+.PHONY: all validate validate-strict sources links screen audit benford export percolation linkpred communities flowcut kcore spectral temporal motifs resistance kinship dot ftm cypher jsonld csv dossier web test
 
 all: validate sources audit benford export percolation linkpred communities flowcut kcore spectral temporal motifs resistance kinship dot ftm cypher jsonld csv dossier web test
 
@@ -13,6 +13,9 @@ sources:
 
 links:
 	python3 00_Meta/Scripts/check_sources.py --links
+
+screen:
+	python3 00_Meta/Scripts/screen_defamation.py
 
 audit:
 	python3 00_Meta/Scripts/forensic_audit.py

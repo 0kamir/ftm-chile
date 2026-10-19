@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "16.294.810-5"
+rut: ""
 aliases:
   - "Felipe Sánchez"
 rol_principal: "Representante Legal y Controlador de Inmobiliaria San Valentino SpA"

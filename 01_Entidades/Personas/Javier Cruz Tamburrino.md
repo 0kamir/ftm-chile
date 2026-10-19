@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "12.481.920-2"
+rut: ""
 aliases:
   - "Javier Cruz"
 rol_principal: "Ex Director de la Unidad de Análisis Financiero (UAF)"

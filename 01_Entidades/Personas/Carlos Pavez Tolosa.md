@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "8.642.190-9"
+rut: ""
 aliases:
   - "Carlos Pavez"
 rol_principal: "Ex Superintendente de Valores y Seguros (SVS / CMF, 2014-2018)"

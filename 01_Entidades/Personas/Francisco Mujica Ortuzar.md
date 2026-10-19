@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "6.194.820-1"
+rut: ""
 aliases:
   - "Francisco Mujica"
   - "Francisco Mujica Ortúzar"

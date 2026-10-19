@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "8.492.310-9"
+rut: ""
 aliases:
   - "Fernando León"
 rol_principal: "Ex Gerente General de KDM Empresas S.A. / Demarco S.A."

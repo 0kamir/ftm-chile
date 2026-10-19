@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "6.371.420-8"
+rut: ""
 aliases:
   - "Patricio Contesse"
   - "Patricio Contesse González"

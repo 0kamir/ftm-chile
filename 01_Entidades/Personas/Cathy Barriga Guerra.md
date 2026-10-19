@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "12.485.910-7"
+rut: ""
 aliases:
   - "Cathy Barriga"
   - "Cathy Carolina Barriga Guerra"

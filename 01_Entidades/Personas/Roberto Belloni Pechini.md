@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "6.381.940-9"
+rut: ""
 aliases:
   - "Roberto Belloni"
   - "Roberto Belloni Pechini"

@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "7.182.945-6"
+rut: ""
 aliases:
   - "Bruno Villalobos"
   - "Bruno Villalobos Krumm"

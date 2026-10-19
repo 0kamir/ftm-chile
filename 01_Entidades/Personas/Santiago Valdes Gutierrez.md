@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "8.412.935-6"
+rut: ""
 aliases:
   - "Santiago Valdés"
 rol_principal: "Ex Gerente de Administración y Finanzas de Bancard y Administrador Electoral Campaña Presidencial 2009"

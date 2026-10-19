@@ -85,7 +85,7 @@
     {
       "id": "Augusto Pinochet Ugarte",
       "tipo_nodo": "persona",
-      "rut": "1.128.923-1",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Augusto Pinochet Ugarte.md",
       "in_degree": 8,
@@ -151,7 +151,7 @@
     {
       "id": "Lucia Hiriart Rodriguez",
       "tipo_nodo": "persona",
-      "rut": "2.341.892-4",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Lucia Hiriart Rodriguez.md",
       "in_degree": 6,
@@ -184,7 +184,7 @@
     {
       "id": "Sebastian Pinera Echenique",
       "tipo_nodo": "persona",
-      "rut": "5.126.663-3",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Sebastian Pinera Echenique.md",
       "in_degree": 6,
@@ -998,7 +998,7 @@
     {
       "id": "Carlos Alberto Delano Abbott",
       "tipo_nodo": "persona",
-      "rut": "5.842.190-1",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Carlos Alberto Delano Abbott.md",
       "in_degree": 5,
@@ -1009,7 +1009,7 @@
     {
       "id": "Julio Ponce Lerou",
       "tipo_nodo": "persona",
-      "rut": "5.194.820-3",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Julio Ponce Lerou.md",
       "in_degree": 4,
@@ -1020,7 +1020,7 @@
     {
       "id": "Augusto Pinochet Hiriart",
       "tipo_nodo": "persona",
-      "rut": "5.192.834-2",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Augusto Pinochet Hiriart.md",
       "in_degree": 4,
@@ -1031,7 +1031,7 @@
     {
       "id": "Carlos Contreras Gutierrez",
       "tipo_nodo": "persona",
-      "rut": "15.482.910-5",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Carlos Contreras Gutierrez.md",
       "in_degree": 5,
@@ -1053,7 +1053,7 @@
     {
       "id": "Luis Hermosilla Osorio",
       "tipo_nodo": "persona",
-      "rut": "7.014.892-7",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Luis Hermosilla Osorio.md",
       "in_degree": 6,
@@ -1196,7 +1196,7 @@
     {
       "id": "Cathy Barriga Guerra",
       "tipo_nodo": "persona",
-      "rut": "12.485.910-7",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Cathy Barriga Guerra.md",
       "in_degree": 3,
@@ -1218,7 +1218,7 @@
     {
       "id": "Sergio Munoz Gajardo",
       "tipo_nodo": "persona",
-      "rut": "7.045.812-8",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Sergio Munoz Gajardo.md",
       "in_degree": 5,
@@ -1240,7 +1240,7 @@
     {
       "id": "Alberto Larrain Salas",
       "tipo_nodo": "persona",
-      "rut": "15.378.412-4",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Alberto Larrain Salas.md",
       "in_degree": 5,
@@ -1273,7 +1273,7 @@
     {
       "id": "Daniel Andrade Schwarze",
       "tipo_nodo": "persona",
-      "rut": "17.893.204-7",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Daniel Andrade Schwarze.md",
       "in_degree": 4,
@@ -1515,7 +1515,7 @@
     {
       "id": "Agustin Edwards Eastman",
       "tipo_nodo": "persona",
-      "rut": "2.891.435-0",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Agustin Edwards Eastman.md",
       "in_degree": 4,
@@ -1548,7 +1548,7 @@
     {
       "id": "Patricio Contesse Gonzalez",
       "tipo_nodo": "persona",
-      "rut": "6.371.420-8",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Patricio Contesse Gonzalez.md",
       "in_degree": 4,
@@ -1603,7 +1603,7 @@
     {
       "id": "Javier Cruz Tamburrino",
       "tipo_nodo": "persona",
-      "rut": "12.481.920-2",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Javier Cruz Tamburrino.md",
       "in_degree": 4,
@@ -1625,7 +1625,7 @@
     {
       "id": "Carlos Cruz Lorenzen",
       "tipo_nodo": "persona",
-      "rut": "6.482.910-6",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Carlos Cruz Lorenzen.md",
       "in_degree": 3,
@@ -1669,7 +1669,7 @@
     {
       "id": "Andres Chadwick Pinera",
       "tipo_nodo": "persona",
-      "rut": "7.061.842-7",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Andres Chadwick Pinera.md",
       "in_degree": 2,
@@ -1680,7 +1680,7 @@
     {
       "id": "Carlos Eugenio Lavin Garcia-Huidobro",
       "tipo_nodo": "persona",
-      "rut": "4.918.320-8",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Carlos Eugenio Lavin Garcia-Huidobro.md",
       "in_degree": 2,
@@ -1966,7 +1966,7 @@
     {
       "id": "Gabriel Ruiz-Tagle Serrano",
       "tipo_nodo": "persona",
-      "rut": "5.948.123-1",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Gabriel Ruiz-Tagle Serrano.md",
       "in_degree": 2,
@@ -1988,7 +1988,7 @@
     {
       "id": "Marcelo Torres Ferrari",
       "tipo_nodo": "persona",
-      "rut": "10.194.820-K",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Marcelo Torres Ferrari.md",
       "in_degree": 2,
@@ -2010,7 +2010,7 @@
     {
       "id": "Oscar Aitken Lavanchy",
       "tipo_nodo": "persona",
-      "rut": "4.891.236-2",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Oscar Aitken Lavanchy.md",
       "in_degree": 3,
@@ -2021,7 +2021,7 @@
     {
       "id": "Carlos Pavez Tolosa",
       "tipo_nodo": "persona",
-      "rut": "8.642.190-9",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Carlos Pavez Tolosa.md",
       "in_degree": 3,
@@ -2032,7 +2032,7 @@
     {
       "id": "Manuel Contreras Sepulveda",
       "tipo_nodo": "persona",
-      "rut": "3.148.920-2",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Manuel Contreras Sepulveda.md",
       "in_degree": 3,
@@ -2043,7 +2043,7 @@
     {
       "id": "Santiago Valdes Gutierrez",
       "tipo_nodo": "persona",
-      "rut": "8.412.935-6",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Santiago Valdes Gutierrez.md",
       "in_degree": 2,
@@ -2054,7 +2054,7 @@
     {
       "id": "Iraci Hassler Jacob",
       "tipo_nodo": "persona",
-      "rut": "17.648.210-9",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Iraci Hassler Jacob.md",
       "in_degree": 2,
@@ -2065,7 +2065,7 @@
     {
       "id": "Paul Schafer Schneider",
       "tipo_nodo": "persona",
-      "rut": "4.918.234-1",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Paul Schafer Schneider.md",
       "in_degree": 3,
@@ -2076,7 +2076,7 @@
     {
       "id": "Rodrigo Diaz Worner",
       "tipo_nodo": "persona",
-      "rut": "10.584.219-8",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Rodrigo Diaz Worner.md",
       "in_degree": 3,
@@ -2098,7 +2098,7 @@
     {
       "id": "Roberto Belloni Pechini",
       "tipo_nodo": "persona",
-      "rut": "6.381.940-9",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Roberto Belloni Pechini.md",
       "in_degree": 3,
@@ -2120,7 +2120,7 @@
     {
       "id": "Pablo Longueira Montes",
       "tipo_nodo": "persona",
-      "rut": "7.192.450-5",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Pablo Longueira Montes.md",
       "in_degree": 2,
@@ -2153,7 +2153,7 @@
     {
       "id": "Luis Plaza Sanchez",
       "tipo_nodo": "persona",
-      "rut": "7.584.210-4",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Luis Plaza Sanchez.md",
       "in_degree": 2,
@@ -2164,7 +2164,7 @@
     {
       "id": "Camila Flores Oporto",
       "tipo_nodo": "persona",
-      "rut": "16.428.915-K",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Camila Flores Oporto.md",
       "in_degree": 2,
@@ -2175,7 +2175,7 @@
     {
       "id": "Alex Smith Leay",
       "tipo_nodo": "persona",
-      "rut": "10.842.915-1",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Alex Smith Leay.md",
       "in_degree": 3,
@@ -2186,7 +2186,7 @@
     {
       "id": "Juan Miguel Ovalle Garces",
       "tipo_nodo": "persona",
-      "rut": "4.892.147-7",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Juan Miguel Ovalle Garces.md",
       "in_degree": 3,
@@ -2197,7 +2197,7 @@
     {
       "id": "Jorge Quiroz Castro",
       "tipo_nodo": "persona",
-      "rut": "6.982.415-3",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Jorge Quiroz Castro.md",
       "in_degree": 3,
@@ -2384,7 +2384,7 @@
     {
       "id": "Eliodoro Matte Larrain",
       "tipo_nodo": "persona",
-      "rut": "4.619.382-2",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Eliodoro Matte Larrain.md",
       "in_degree": 2,
@@ -2417,7 +2417,7 @@
     {
       "id": "Gonzalo Vial Vial",
       "tipo_nodo": "persona",
-      "rut": "3.624.195-0",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Gonzalo Vial Vial.md",
       "in_degree": 2,
@@ -2439,7 +2439,7 @@
     {
       "id": "Flavio Echeverria Cortez",
       "tipo_nodo": "persona",
-      "rut": "8.419.320-8",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Flavio Echeverria Cortez.md",
       "in_degree": 2,
@@ -2461,7 +2461,7 @@
     {
       "id": "Fernando Leon Steffens",
       "tipo_nodo": "persona",
-      "rut": "8.492.310-9",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Fernando Leon Steffens.md",
       "in_degree": 2,
@@ -2472,7 +2472,7 @@
     {
       "id": "Gonzalo Delaveau Swett",
       "tipo_nodo": "persona",
-      "rut": "7.319.482-2",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Gonzalo Delaveau Swett.md",
       "in_degree": 2,
@@ -2494,7 +2494,7 @@
     {
       "id": "Juan Miguel Fuente-Alba Poblete",
       "tipo_nodo": "persona",
-      "rut": "6.418.920-4",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Juan Miguel Fuente-Alba Poblete.md",
       "in_degree": 2,
@@ -2516,7 +2516,7 @@
     {
       "id": "Felipe Sanchez Perez",
       "tipo_nodo": "persona",
-      "rut": "16.294.810-5",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Felipe Sanchez Perez.md",
       "in_degree": 2,
@@ -2549,7 +2549,7 @@
     {
       "id": "Jozo Santic Palomino",
       "tipo_nodo": "persona",
-      "rut": "8.129.450-K",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Jozo Santic Palomino.md",
       "in_degree": 2,
@@ -2571,7 +2571,7 @@
     {
       "id": "Jorge Zepeda Arancibia",
       "tipo_nodo": "persona",
-      "rut": "6.129.485-6",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Jorge Zepeda Arancibia.md",
       "in_degree": 2,
@@ -2582,7 +2582,7 @@
     {
       "id": "Natalia Compagnon Soto",
       "tipo_nodo": "persona",
-      "rut": "15.324.810-9",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Natalia Compagnon Soto.md",
       "in_degree": 2,
@@ -2593,7 +2593,7 @@
     {
       "id": "Leon Marcelo Lefort Hernandez",
       "tipo_nodo": "persona",
-      "rut": "10.394.820-7",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Leon Marcelo Lefort Hernandez.md",
       "in_degree": 2,
@@ -2648,7 +2648,7 @@
     {
       "id": "Raul Torrealba del Pedregal",
       "tipo_nodo": "persona",
-      "rut": "5.412.890-8",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Raul Torrealba del Pedregal.md",
       "in_degree": 1,
@@ -2659,7 +2659,7 @@
     {
       "id": "Domingo Prieto Urrejola",
       "tipo_nodo": "persona",
-      "rut": "6.821.340-1",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Domingo Prieto Urrejola.md",
       "in_degree": 2,
@@ -2692,7 +2692,7 @@
     {
       "id": "Claudio Spiniak Vilensky",
       "tipo_nodo": "persona",
-      "rut": "6.418.923-9",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Claudio Spiniak Vilensky.md",
       "in_degree": 2,
@@ -2714,7 +2714,7 @@
     {
       "id": "Leonarda Villalobos Muth",
       "tipo_nodo": "persona",
-      "rut": "13.492.108-0",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Leonarda Villalobos Muth.md",
       "in_degree": 2,
@@ -2725,7 +2725,7 @@
     {
       "id": "Camila Polizzi Fonceca",
       "tipo_nodo": "persona",
-      "rut": "17.342.815-4",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Camila Polizzi Fonceca.md",
       "in_degree": 2,
@@ -2747,7 +2747,7 @@
     {
       "id": "Hernan Larrain Fernandez",
       "tipo_nodo": "persona",
-      "rut": "5.281.943-1",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Hernan Larrain Fernandez.md",
       "in_degree": 1,
@@ -2758,7 +2758,7 @@
     {
       "id": "Jaime Orpis Bouchon",
       "tipo_nodo": "persona",
-      "rut": "7.018.430-3",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Jaime Orpis Bouchon.md",
       "in_degree": 1,
@@ -2769,7 +2769,7 @@
     {
       "id": "Francisco Mujica Ortuzar",
       "tipo_nodo": "persona",
-      "rut": "6.194.820-1",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Francisco Mujica Ortuzar.md",
       "in_degree": 2,
@@ -2791,7 +2791,7 @@
     {
       "id": "Jovino Novoa Vasquez",
       "tipo_nodo": "persona",
-      "rut": "4.812.635-9",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Jovino Novoa Vasquez.md",
       "in_degree": 1,
@@ -2802,7 +2802,7 @@
     {
       "id": "Jorge Silva Menares",
       "tipo_nodo": "persona",
-      "rut": "7.419.620-9",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Jorge Silva Menares.md",
       "in_degree": 2,
@@ -2824,7 +2824,7 @@
     {
       "id": "Pia Guzman Mena",
       "tipo_nodo": "persona",
-      "rut": "7.128.349-6",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Pia Guzman Mena.md",
       "in_degree": 1,
@@ -2835,7 +2835,7 @@
     {
       "id": "Pablo Wagner San Martin",
       "tipo_nodo": "persona",
-      "rut": "10.642.810-7",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Pablo Wagner San Martin.md",
       "in_degree": 1,
@@ -2857,7 +2857,7 @@
     {
       "id": "Jorge Bermudez Soto",
       "tipo_nodo": "persona",
-      "rut": "10.842.310-2",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Jorge Bermudez Soto.md",
       "in_degree": 2,
@@ -2868,7 +2868,7 @@
     {
       "id": "Andronico Luksic Craig",
       "tipo_nodo": "persona",
-      "rut": "5.781.429-2",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Andronico Luksic Craig.md",
       "in_degree": 2,
@@ -2879,7 +2879,7 @@
     {
       "id": "Andres Velasco Branes",
       "tipo_nodo": "persona",
-      "rut": "6.849.201-7",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Andres Velasco Branes.md",
       "in_degree": 2,
@@ -2890,7 +2890,7 @@
     {
       "id": "Eduardo Guendelman Israel",
       "tipo_nodo": "persona",
-      "rut": "5.619.384-7",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Eduardo Guendelman Israel.md",
       "in_degree": 2,
@@ -2901,7 +2901,7 @@
     {
       "id": "Fernando Cerimedo",
       "tipo_nodo": "persona",
-      "rut": "26.784.192-6",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Fernando Cerimedo.md",
       "in_degree": 2,
@@ -2978,7 +2978,7 @@
     {
       "id": "Manuel Ariztia Ruiz",
       "tipo_nodo": "persona",
-      "rut": "3.154.829-2",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Manuel Ariztia Ruiz.md",
       "in_degree": 1,
@@ -2989,7 +2989,7 @@
     {
       "id": "Jaime Paz Meneses",
       "tipo_nodo": "persona",
-      "rut": "9.624.180-1",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Jaime Paz Meneses.md",
       "in_degree": 1,
@@ -3000,7 +3000,7 @@
     {
       "id": "Alfredo Ovalle Rodriguez",
       "tipo_nodo": "persona",
-      "rut": "3.618.294-6",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Alfredo Ovalle Rodriguez.md",
       "in_degree": 1,
@@ -3011,7 +3011,7 @@
     {
       "id": "Marcelo Campos Henriquez",
       "tipo_nodo": "persona",
-      "rut": "12.918.430-2",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Marcelo Campos Henriquez.md",
       "in_degree": 1,
@@ -3033,7 +3033,7 @@
     {
       "id": "Jose Codner Chijner",
       "tipo_nodo": "persona",
-      "rut": "3.948.123-5",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Jose Codner Chijner.md",
       "in_degree": 1,
@@ -3044,7 +3044,7 @@
     {
       "id": "Hartmut Hopp Miottel",
       "tipo_nodo": "persona",
-      "rut": "5.823.419-2",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Hartmut Hopp Miottel.md",
       "in_degree": 1,
@@ -3055,7 +3055,7 @@
     {
       "id": "Patricio Marin Lazo",
       "tipo_nodo": "persona",
-      "rut": "12.849.102-3",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Patricio Marin Lazo.md",
       "in_degree": 1,
@@ -3077,7 +3077,7 @@
     {
       "id": "Angela Vivanco Martinez",
       "tipo_nodo": "persona",
-      "rut": "8.943.210-3",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Angela Vivanco Martinez.md",
       "in_degree": 1,
@@ -3088,7 +3088,7 @@
     {
       "id": "Mauricio Valero Illanes",
       "tipo_nodo": "persona",
-      "rut": "9.842.310-9",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Mauricio Valero Illanes.md",
       "in_degree": 1,
@@ -3099,7 +3099,7 @@
     {
       "id": "Loreto Letelier",
       "tipo_nodo": "persona",
-      "rut": "13.482.915-K",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Loreto Letelier.md",
       "in_degree": 0,
@@ -3110,7 +3110,7 @@
     {
       "id": "Gonzalo Blu Rodriguez",
       "tipo_nodo": "persona",
-      "rut": "7.419.283-1",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Gonzalo Blu Rodriguez.md",
       "in_degree": 1,
@@ -3121,7 +3121,7 @@
     {
       "id": "Leonardo Osses Sandoval",
       "tipo_nodo": "persona",
-      "rut": "13.918.240-5",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Leonardo Osses Sandoval.md",
       "in_degree": 1,
@@ -3132,7 +3132,7 @@
     {
       "id": "Gabriel Zaliasnik Schilkrut",
       "tipo_nodo": "persona",
-      "rut": "10.148.923-K",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Gabriel Zaliasnik Schilkrut.md",
       "in_degree": 1,
@@ -3143,7 +3143,7 @@
     {
       "id": "Guillermo Harding Alvarado",
       "tipo_nodo": "persona",
-      "rut": "5.129.384-3",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Guillermo Harding Alvarado.md",
       "in_degree": 1,
@@ -3253,7 +3253,7 @@
     {
       "id": "Bruno Villalobos Krumm",
       "tipo_nodo": "persona",
-      "rut": "7.182.945-6",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Bruno Villalobos Krumm.md",
       "in_degree": 0,
@@ -3264,7 +3264,7 @@
     {
       "id": "Marcelo Teuber Munoz",
       "tipo_nodo": "persona",
-      "rut": "9.841.203-4",
+      "rut": "",
       "monto_clp": 0,
       "path": "01_Entidades/Personas/Marcelo Teuber Munoz.md",
       "in_degree": 0,

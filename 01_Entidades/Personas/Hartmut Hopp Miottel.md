@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "5.823.419-2"
+rut: ""
 aliases:
   - "Hartmut Hopp"
 rol_principal: "Director Médico, Vocero y Subdirector Administrativo de Colonia Dignidad (Villa Baviera)"

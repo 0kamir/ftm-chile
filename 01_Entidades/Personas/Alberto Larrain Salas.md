@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "15.378.412-4"
+rut: ""
 aliases:
   - "Alberto Larraín"
   - "Alberto Larraín Salas"

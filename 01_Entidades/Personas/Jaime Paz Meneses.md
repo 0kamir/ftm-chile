@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "9.624.180-1"
+rut: ""
 aliases:
   - "Jaime Paz"
   - "Coronel Jaime Paz Meneses"

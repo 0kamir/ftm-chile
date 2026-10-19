@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "7.192.450-5"
+rut: ""
 aliases:
   - "Pablo Longueira"
   - "Juan Pablo Longueira Montes"

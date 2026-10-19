@@ -72,218 +72,182 @@
     {
       "@id": "urn:cl-osint:node:Agustin_Edwards_Eastman",
       "@type": "osint:persona",
-      "schema:name": "Agustin Edwards Eastman",
-      "schema:identifier": "2.891.435-0"
+      "schema:name": "Agustin Edwards Eastman"
     },
     {
       "@id": "urn:cl-osint:node:Alberto_Larrain_Salas",
       "@type": "osint:persona",
-      "schema:name": "Alberto Larrain Salas",
-      "schema:identifier": "15.378.412-4"
+      "schema:name": "Alberto Larrain Salas"
     },
     {
       "@id": "urn:cl-osint:node:Alex_Smith_Leay",
       "@type": "osint:persona",
-      "schema:name": "Alex Smith Leay",
-      "schema:identifier": "10.842.915-1"
+      "schema:name": "Alex Smith Leay"
     },
     {
       "@id": "urn:cl-osint:node:Alfredo_Ovalle_Rodriguez",
       "@type": "osint:persona",
-      "schema:name": "Alfredo Ovalle Rodriguez",
-      "schema:identifier": "3.618.294-6"
+      "schema:name": "Alfredo Ovalle Rodriguez"
     },
     {
       "@id": "urn:cl-osint:node:Andres_Chadwick_Pinera",
       "@type": "osint:persona",
-      "schema:name": "Andres Chadwick Pinera",
-      "schema:identifier": "7.061.842-7"
+      "schema:name": "Andres Chadwick Pinera"
     },
     {
       "@id": "urn:cl-osint:node:Andres_Velasco_Branes",
       "@type": "osint:persona",
-      "schema:name": "Andres Velasco Branes",
-      "schema:identifier": "6.849.201-7"
+      "schema:name": "Andres Velasco Branes"
     },
     {
       "@id": "urn:cl-osint:node:Andronico_Luksic_Craig",
       "@type": "osint:persona",
-      "schema:name": "Andronico Luksic Craig",
-      "schema:identifier": "5.781.429-2"
+      "schema:name": "Andronico Luksic Craig"
     },
     {
       "@id": "urn:cl-osint:node:Angela_Vivanco_Martinez",
       "@type": "osint:persona",
-      "schema:name": "Angela Vivanco Martinez",
-      "schema:identifier": "8.943.210-3"
+      "schema:name": "Angela Vivanco Martinez"
     },
     {
       "@id": "urn:cl-osint:node:Augusto_Pinochet_Hiriart",
       "@type": "osint:persona",
-      "schema:name": "Augusto Pinochet Hiriart",
-      "schema:identifier": "5.192.834-2"
+      "schema:name": "Augusto Pinochet Hiriart"
     },
     {
       "@id": "urn:cl-osint:node:Augusto_Pinochet_Ugarte",
       "@type": "osint:persona",
-      "schema:name": "Augusto Pinochet Ugarte",
-      "schema:identifier": "1.128.923-1"
+      "schema:name": "Augusto Pinochet Ugarte"
     },
     {
       "@id": "urn:cl-osint:node:Bruno_Villalobos_Krumm",
       "@type": "osint:persona",
-      "schema:name": "Bruno Villalobos Krumm",
-      "schema:identifier": "7.182.945-6"
+      "schema:name": "Bruno Villalobos Krumm"
     },
     {
       "@id": "urn:cl-osint:node:Camila_Flores_Oporto",
       "@type": "osint:persona",
-      "schema:name": "Camila Flores Oporto",
-      "schema:identifier": "16.428.915-K"
+      "schema:name": "Camila Flores Oporto"
     },
     {
       "@id": "urn:cl-osint:node:Camila_Polizzi_Fonceca",
       "@type": "osint:persona",
-      "schema:name": "Camila Polizzi Fonceca",
-      "schema:identifier": "17.342.815-4"
+      "schema:name": "Camila Polizzi Fonceca"
     },
     {
       "@id": "urn:cl-osint:node:Carlos_Alberto_Delano_Abbott",
       "@type": "osint:persona",
-      "schema:name": "Carlos Alberto Delano Abbott",
-      "schema:identifier": "5.842.190-1"
+      "schema:name": "Carlos Alberto Delano Abbott"
     },
     {
       "@id": "urn:cl-osint:node:Carlos_Contreras_Gutierrez",
       "@type": "osint:persona",
-      "schema:name": "Carlos Contreras Gutierrez",
-      "schema:identifier": "15.482.910-5"
+      "schema:name": "Carlos Contreras Gutierrez"
     },
     {
       "@id": "urn:cl-osint:node:Carlos_Cruz_Lorenzen",
       "@type": "osint:persona",
-      "schema:name": "Carlos Cruz Lorenzen",
-      "schema:identifier": "6.482.910-6"
+      "schema:name": "Carlos Cruz Lorenzen"
     },
     {
       "@id": "urn:cl-osint:node:Carlos_Eugenio_Lavin_Garcia-Huidobro",
       "@type": "osint:persona",
-      "schema:name": "Carlos Eugenio Lavin Garcia-Huidobro",
-      "schema:identifier": "4.918.320-8"
+      "schema:name": "Carlos Eugenio Lavin Garcia-Huidobro"
     },
     {
       "@id": "urn:cl-osint:node:Carlos_Pavez_Tolosa",
       "@type": "osint:persona",
-      "schema:name": "Carlos Pavez Tolosa",
-      "schema:identifier": "8.642.190-9"
+      "schema:name": "Carlos Pavez Tolosa"
     },
     {
       "@id": "urn:cl-osint:node:Cathy_Barriga_Guerra",
       "@type": "osint:persona",
-      "schema:name": "Cathy Barriga Guerra",
-      "schema:identifier": "12.485.910-7"
+      "schema:name": "Cathy Barriga Guerra"
     },
     {
       "@id": "urn:cl-osint:node:Claudio_Spiniak_Vilensky",
       "@type": "osint:persona",
-      "schema:name": "Claudio Spiniak Vilensky",
-      "schema:identifier": "6.418.923-9"
+      "schema:name": "Claudio Spiniak Vilensky"
     },
     {
       "@id": "urn:cl-osint:node:Daniel_Andrade_Schwarze",
       "@type": "osint:persona",
-      "schema:name": "Daniel Andrade Schwarze",
-      "schema:identifier": "17.893.204-7"
+      "schema:name": "Daniel Andrade Schwarze"
     },
     {
       "@id": "urn:cl-osint:node:Domingo_Prieto_Urrejola",
       "@type": "osint:persona",
-      "schema:name": "Domingo Prieto Urrejola",
-      "schema:identifier": "6.821.340-1"
+      "schema:name": "Domingo Prieto Urrejola"
     },
     {
       "@id": "urn:cl-osint:node:Eduardo_Guendelman_Israel",
       "@type": "osint:persona",
-      "schema:name": "Eduardo Guendelman Israel",
-      "schema:identifier": "5.619.384-7"
+      "schema:name": "Eduardo Guendelman Israel"
     },
     {
       "@id": "urn:cl-osint:node:Eliodoro_Matte_Larrain",
       "@type": "osint:persona",
-      "schema:name": "Eliodoro Matte Larrain",
-      "schema:identifier": "4.619.382-2"
+      "schema:name": "Eliodoro Matte Larrain"
     },
     {
       "@id": "urn:cl-osint:node:Felipe_Sanchez_Perez",
       "@type": "osint:persona",
-      "schema:name": "Felipe Sanchez Perez",
-      "schema:identifier": "16.294.810-5"
+      "schema:name": "Felipe Sanchez Perez"
     },
     {
       "@id": "urn:cl-osint:node:Fernando_Cerimedo",
       "@type": "osint:persona",
-      "schema:name": "Fernando Cerimedo",
-      "schema:identifier": "26.784.192-6"
+      "schema:name": "Fernando Cerimedo"
     },
     {
       "@id": "urn:cl-osint:node:Fernando_Leon_Steffens",
       "@type": "osint:persona",
-      "schema:name": "Fernando Leon Steffens",
-      "schema:identifier": "8.492.310-9"
+      "schema:name": "Fernando Leon Steffens"
     },
     {
       "@id": "urn:cl-osint:node:Flavio_Echeverria_Cortez",
       "@type": "osint:persona",
-      "schema:name": "Flavio Echeverria Cortez",
-      "schema:identifier": "8.419.320-8"
+      "schema:name": "Flavio Echeverria Cortez"
     },
     {
       "@id": "urn:cl-osint:node:Francisco_Mujica_Ortuzar",
       "@type": "osint:persona",
-      "schema:name": "Francisco Mujica Ortuzar",
-      "schema:identifier": "6.194.820-1"
+      "schema:name": "Francisco Mujica Ortuzar"
     },
     {
       "@id": "urn:cl-osint:node:Gabriel_Ruiz-Tagle_Serrano",
       "@type": "osint:persona",
-      "schema:name": "Gabriel Ruiz-Tagle Serrano",
-      "schema:identifier": "5.948.123-1"
+      "schema:name": "Gabriel Ruiz-Tagle Serrano"
     },
     {
       "@id": "urn:cl-osint:node:Gabriel_Zaliasnik_Schilkrut",
       "@type": "osint:persona",
-      "schema:name": "Gabriel Zaliasnik Schilkrut",
-      "schema:identifier": "10.148.923-K"
+      "schema:name": "Gabriel Zaliasnik Schilkrut"
     },
     {
       "@id": "urn:cl-osint:node:Gonzalo_Blu_Rodriguez",
       "@type": "osint:persona",
-      "schema:name": "Gonzalo Blu Rodriguez",
-      "schema:identifier": "7.419.283-1"
+      "schema:name": "Gonzalo Blu Rodriguez"
     },
     {
       "@id": "urn:cl-osint:node:Gonzalo_Delaveau_Swett",
       "@type": "osint:persona",
-      "schema:name": "Gonzalo Delaveau Swett",
-      "schema:identifier": "7.319.482-2"
+      "schema:name": "Gonzalo Delaveau Swett"
     },
     {
       "@id": "urn:cl-osint:node:Gonzalo_Vial_Vial",
       "@type": "osint:persona",
-      "schema:name": "Gonzalo Vial Vial",
-      "schema:identifier": "3.624.195-0"
+      "schema:name": "Gonzalo Vial Vial"
     },
     {
       "@id": "urn:cl-osint:node:Guillermo_Harding_Alvarado",
       "@type": "osint:persona",
-      "schema:name": "Guillermo Harding Alvarado",
-      "schema:identifier": "5.129.384-3"
+      "schema:name": "Guillermo Harding Alvarado"
     },
     {
       "@id": "urn:cl-osint:node:Hartmut_Hopp_Miottel",
       "@type": "osint:persona",
-      "schema:name": "Hartmut Hopp Miottel",
-      "schema:identifier": "5.823.419-2"
+      "schema:name": "Hartmut Hopp Miottel"
     },
     {
       "@id": "urn:cl-osint:node:Hector_Pena_Veliz",
@@ -293,56 +257,47 @@
     {
       "@id": "urn:cl-osint:node:Hernan_Larrain_Fernandez",
       "@type": "osint:persona",
-      "schema:name": "Hernan Larrain Fernandez",
-      "schema:identifier": "5.281.943-1"
+      "schema:name": "Hernan Larrain Fernandez"
     },
     {
       "@id": "urn:cl-osint:node:Iraci_Hassler_Jacob",
       "@type": "osint:persona",
-      "schema:name": "Iraci Hassler Jacob",
-      "schema:identifier": "17.648.210-9"
+      "schema:name": "Iraci Hassler Jacob"
     },
     {
       "@id": "urn:cl-osint:node:Jaime_Orpis_Bouchon",
       "@type": "osint:persona",
-      "schema:name": "Jaime Orpis Bouchon",
-      "schema:identifier": "7.018.430-3"
+      "schema:name": "Jaime Orpis Bouchon"
     },
     {
       "@id": "urn:cl-osint:node:Jaime_Paz_Meneses",
       "@type": "osint:persona",
-      "schema:name": "Jaime Paz Meneses",
-      "schema:identifier": "9.624.180-1"
+      "schema:name": "Jaime Paz Meneses"
     },
     {
       "@id": "urn:cl-osint:node:Javier_Cruz_Tamburrino",
       "@type": "osint:persona",
-      "schema:name": "Javier Cruz Tamburrino",
-      "schema:identifier": "12.481.920-2"
+      "schema:name": "Javier Cruz Tamburrino"
     },
     {
       "@id": "urn:cl-osint:node:Jorge_Bermudez_Soto",
       "@type": "osint:persona",
-      "schema:name": "Jorge Bermudez Soto",
-      "schema:identifier": "10.842.310-2"
+      "schema:name": "Jorge Bermudez Soto"
     },
     {
       "@id": "urn:cl-osint:node:Jorge_Quiroz_Castro",
       "@type": "osint:persona",
-      "schema:name": "Jorge Quiroz Castro",
-      "schema:identifier": "6.982.415-3"
+      "schema:name": "Jorge Quiroz Castro"
     },
     {
       "@id": "urn:cl-osint:node:Jorge_Silva_Menares",
       "@type": "osint:persona",
-      "schema:name": "Jorge Silva Menares",
-      "schema:identifier": "7.419.620-9"
+      "schema:name": "Jorge Silva Menares"
     },
     {
       "@id": "urn:cl-osint:node:Jorge_Zepeda_Arancibia",
       "@type": "osint:persona",
-      "schema:name": "Jorge Zepeda Arancibia",
-      "schema:identifier": "6.129.485-6"
+      "schema:name": "Jorge Zepeda Arancibia"
     },
     {
       "@id": "urn:cl-osint:node:Jose_Antonio_Pavez_Canessa",
@@ -352,32 +307,27 @@
     {
       "@id": "urn:cl-osint:node:Jose_Codner_Chijner",
       "@type": "osint:persona",
-      "schema:name": "Jose Codner Chijner",
-      "schema:identifier": "3.948.123-5"
+      "schema:name": "Jose Codner Chijner"
     },
     {
       "@id": "urn:cl-osint:node:Jovino_Novoa_Vasquez",
       "@type": "osint:persona",
-      "schema:name": "Jovino Novoa Vasquez",
-      "schema:identifier": "4.812.635-9"
+      "schema:name": "Jovino Novoa Vasquez"
     },
     {
       "@id": "urn:cl-osint:node:Jozo_Santic_Palomino",
       "@type": "osint:persona",
-      "schema:name": "Jozo Santic Palomino",
-      "schema:identifier": "8.129.450-K"
+      "schema:name": "Jozo Santic Palomino"
     },
     {
       "@id": "urn:cl-osint:node:Juan_Miguel_Fuente-Alba_Poblete",
       "@type": "osint:persona",
-      "schema:name": "Juan Miguel Fuente-Alba Poblete",
-      "schema:identifier": "6.418.920-4"
+      "schema:name": "Juan Miguel Fuente-Alba Poblete"
     },
     {
       "@id": "urn:cl-osint:node:Juan_Miguel_Ovalle_Garces",
       "@type": "osint:persona",
-      "schema:name": "Juan Miguel Ovalle Garces",
-      "schema:identifier": "4.892.147-7"
+      "schema:name": "Juan Miguel Ovalle Garces"
     },
     {
       "@id": "urn:cl-osint:node:Juan_Victor_Galaz_Rojas",
@@ -387,92 +337,77 @@
     {
       "@id": "urn:cl-osint:node:Julio_Ponce_Lerou",
       "@type": "osint:persona",
-      "schema:name": "Julio Ponce Lerou",
-      "schema:identifier": "5.194.820-3"
+      "schema:name": "Julio Ponce Lerou"
     },
     {
       "@id": "urn:cl-osint:node:Leon_Marcelo_Lefort_Hernandez",
       "@type": "osint:persona",
-      "schema:name": "Leon Marcelo Lefort Hernandez",
-      "schema:identifier": "10.394.820-7"
+      "schema:name": "Leon Marcelo Lefort Hernandez"
     },
     {
       "@id": "urn:cl-osint:node:Leonarda_Villalobos_Muth",
       "@type": "osint:persona",
-      "schema:name": "Leonarda Villalobos Muth",
-      "schema:identifier": "13.492.108-0"
+      "schema:name": "Leonarda Villalobos Muth"
     },
     {
       "@id": "urn:cl-osint:node:Leonardo_Osses_Sandoval",
       "@type": "osint:persona",
-      "schema:name": "Leonardo Osses Sandoval",
-      "schema:identifier": "13.918.240-5"
+      "schema:name": "Leonardo Osses Sandoval"
     },
     {
       "@id": "urn:cl-osint:node:Loreto_Letelier",
       "@type": "osint:persona",
-      "schema:name": "Loreto Letelier",
-      "schema:identifier": "13.482.915-K"
+      "schema:name": "Loreto Letelier"
     },
     {
       "@id": "urn:cl-osint:node:Lucia_Hiriart_Rodriguez",
       "@type": "osint:persona",
-      "schema:name": "Lucia Hiriart Rodriguez",
-      "schema:identifier": "2.341.892-4"
+      "schema:name": "Lucia Hiriart Rodriguez"
     },
     {
       "@id": "urn:cl-osint:node:Luis_Hermosilla_Osorio",
       "@type": "osint:persona",
-      "schema:name": "Luis Hermosilla Osorio",
-      "schema:identifier": "7.014.892-7"
+      "schema:name": "Luis Hermosilla Osorio"
     },
     {
       "@id": "urn:cl-osint:node:Luis_Plaza_Sanchez",
       "@type": "osint:persona",
-      "schema:name": "Luis Plaza Sanchez",
-      "schema:identifier": "7.584.210-4"
+      "schema:name": "Luis Plaza Sanchez"
     },
     {
       "@id": "urn:cl-osint:node:Manuel_Ariztia_Ruiz",
       "@type": "osint:persona",
-      "schema:name": "Manuel Ariztia Ruiz",
-      "schema:identifier": "3.154.829-2"
+      "schema:name": "Manuel Ariztia Ruiz"
     },
     {
       "@id": "urn:cl-osint:node:Manuel_Contreras_Sepulveda",
       "@type": "osint:persona",
-      "schema:name": "Manuel Contreras Sepulveda",
-      "schema:identifier": "3.148.920-2"
+      "schema:name": "Manuel Contreras Sepulveda"
     },
     {
       "@id": "urn:cl-osint:node:Marcelo_Campos_Henriquez",
       "@type": "osint:persona",
-      "schema:name": "Marcelo Campos Henriquez",
-      "schema:identifier": "12.918.430-2"
+      "schema:name": "Marcelo Campos Henriquez"
     },
     {
       "@id": "urn:cl-osint:node:Marcelo_Teuber_Munoz",
       "@type": "osint:persona",
-      "schema:name": "Marcelo Teuber Munoz",
-      "schema:identifier": "9.841.203-4"
+      "schema:name": "Marcelo Teuber Munoz"
     },
     {
       "@id": "urn:cl-osint:node:Marcelo_Torres_Ferrari",
       "@type": "osint:persona",
-      "schema:name": "Marcelo Torres Ferrari",
-      "schema:identifier": "10.194.820-K"
+      "schema:name": "Marcelo Torres Ferrari"
     },
     {
       "@id": "urn:cl-osint:node:Mauricio_Valero_Illanes",
       "@type": "osint:persona",
-      "schema:name": "Mauricio Valero Illanes",
-      "schema:identifier": "9.842.310-9"
+      "schema:name": "Mauricio Valero Illanes"
     },
     {
       "@id": "urn:cl-osint:node:Natalia_Compagnon_Soto",
       "@type": "osint:persona",
-      "schema:name": "Natalia Compagnon Soto",
-      "schema:identifier": "15.324.810-9"
+      "schema:name": "Natalia Compagnon Soto"
     },
     {
       "@id": "urn:cl-osint:node:Olga_Paz_Barraza_Quezada",
@@ -482,8 +417,7 @@
     {
       "@id": "urn:cl-osint:node:Oscar_Aitken_Lavanchy",
       "@type": "osint:persona",
-      "schema:name": "Oscar Aitken Lavanchy",
-      "schema:identifier": "4.891.236-2"
+      "schema:name": "Oscar Aitken Lavanchy"
     },
     {
       "@id": "urn:cl-osint:node:Osvaldo_Mario_Luis_Sacco_Croxatto",
@@ -493,32 +427,27 @@
     {
       "@id": "urn:cl-osint:node:Pablo_Longueira_Montes",
       "@type": "osint:persona",
-      "schema:name": "Pablo Longueira Montes",
-      "schema:identifier": "7.192.450-5"
+      "schema:name": "Pablo Longueira Montes"
     },
     {
       "@id": "urn:cl-osint:node:Pablo_Wagner_San_Martin",
       "@type": "osint:persona",
-      "schema:name": "Pablo Wagner San Martin",
-      "schema:identifier": "10.642.810-7"
+      "schema:name": "Pablo Wagner San Martin"
     },
     {
       "@id": "urn:cl-osint:node:Patricio_Contesse_Gonzalez",
       "@type": "osint:persona",
-      "schema:name": "Patricio Contesse Gonzalez",
-      "schema:identifier": "6.371.420-8"
+      "schema:name": "Patricio Contesse Gonzalez"
     },
     {
       "@id": "urn:cl-osint:node:Patricio_Marin_Lazo",
       "@type": "osint:persona",
-      "schema:name": "Patricio Marin Lazo",
-      "schema:identifier": "12.849.102-3"
+      "schema:name": "Patricio Marin Lazo"
     },
     {
       "@id": "urn:cl-osint:node:Paul_Schafer_Schneider",
       "@type": "osint:persona",
-      "schema:name": "Paul Schafer Schneider",
-      "schema:identifier": "4.918.234-1"
+      "schema:name": "Paul Schafer Schneider"
     },
     {
       "@id": "urn:cl-osint:node:Percy_Marin_Vera",
@@ -528,44 +457,37 @@
     {
       "@id": "urn:cl-osint:node:Pia_Guzman_Mena",
       "@type": "osint:persona",
-      "schema:name": "Pia Guzman Mena",
-      "schema:identifier": "7.128.349-6"
+      "schema:name": "Pia Guzman Mena"
     },
     {
       "@id": "urn:cl-osint:node:Raul_Torrealba_del_Pedregal",
       "@type": "osint:persona",
-      "schema:name": "Raul Torrealba del Pedregal",
-      "schema:identifier": "5.412.890-8"
+      "schema:name": "Raul Torrealba del Pedregal"
     },
     {
       "@id": "urn:cl-osint:node:Roberto_Belloni_Pechini",
       "@type": "osint:persona",
-      "schema:name": "Roberto Belloni Pechini",
-      "schema:identifier": "6.381.940-9"
+      "schema:name": "Roberto Belloni Pechini"
     },
     {
       "@id": "urn:cl-osint:node:Rodrigo_Diaz_Worner",
       "@type": "osint:persona",
-      "schema:name": "Rodrigo Diaz Worner",
-      "schema:identifier": "10.584.219-8"
+      "schema:name": "Rodrigo Diaz Worner"
     },
     {
       "@id": "urn:cl-osint:node:Santiago_Valdes_Gutierrez",
       "@type": "osint:persona",
-      "schema:name": "Santiago Valdes Gutierrez",
-      "schema:identifier": "8.412.935-6"
+      "schema:name": "Santiago Valdes Gutierrez"
     },
     {
       "@id": "urn:cl-osint:node:Sebastian_Pinera_Echenique",
       "@type": "osint:persona",
-      "schema:name": "Sebastian Pinera Echenique",
-      "schema:identifier": "5.126.663-3"
+      "schema:name": "Sebastian Pinera Echenique"
     },
     {
       "@id": "urn:cl-osint:node:Sergio_Munoz_Gajardo",
       "@type": "osint:persona",
-      "schema:name": "Sergio Munoz Gajardo",
-      "schema:identifier": "7.045.812-8"
+      "schema:name": "Sergio Munoz Gajardo"
     },
     {
       "@id": "urn:cl-osint:node:Ximena_Tavitxa_Jimenez_Farias",

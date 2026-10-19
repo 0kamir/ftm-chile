@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "7.014.892-7"
+rut: ""
 aliases:
   - "Luis Hermosilla"
   - "Luis Hermosilla Osorio"

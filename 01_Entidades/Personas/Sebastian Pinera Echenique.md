@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "5.126.663-3"
+rut: ""
 aliases:
   - "Sebastián Piñera"
   - "Miguel Juan Sebastián Piñera Echenique"

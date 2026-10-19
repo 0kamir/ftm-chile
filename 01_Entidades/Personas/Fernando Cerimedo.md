@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "26.784.192-6"
+rut: ""
 aliases:
   - "Fernando Cerimedo"
   - "Fernando Cerimedo Numen"

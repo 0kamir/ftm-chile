@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "10.194.820-K"
+rut: ""
 aliases:
   - "Marcelo Torres"
 rol_principal: "Ex Concejal de Maipú y Ex Administrador Municipal de Cerro Navia"

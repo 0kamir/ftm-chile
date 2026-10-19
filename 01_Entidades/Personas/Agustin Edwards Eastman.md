@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "2.891.435-0"
+rut: ""
 aliases:
   - "Agustín Edwards"
   - "Agustin Edwards"

@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "5.194.820-3"
+rut: ""
 aliases:
   - "Julio Ponce"
 rol_principal: "Ex Presidente y Controlador de las Sociedades Cascada y de SQM S.A."

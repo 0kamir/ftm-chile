@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "7.045.812-8"
+rut: ""
 aliases:
   - "Sergio Muñoz"
   - "Ministro Sergio Muñoz Gajardo"

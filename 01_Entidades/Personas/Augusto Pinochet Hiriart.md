@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "5.192.834-2"
+rut: ""
 aliases:
   - "Augusto Pinochet Hiriart"
 rol_principal: "Ex Oficial de Ejército y Empresario (Receptor de los Pinocheques en Caso Valmoval)"

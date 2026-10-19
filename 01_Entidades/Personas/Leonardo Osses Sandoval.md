@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "13.918.240-5"
+rut: ""
 aliases:
   - "Leonardo Osses"
   - "Leonardo Osses Sandoval"

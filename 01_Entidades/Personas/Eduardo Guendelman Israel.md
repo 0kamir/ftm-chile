@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "5.619.384-7"
+rut: ""
 aliases:
   - "Eduardo Guendelman"
   - "Eduardo I. Guendelman"

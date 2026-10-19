@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "12.918.430-2"
+rut: ""
 aliases:
   - "Marcelo Campos"
   - "Marcelo Campos Henríquez"

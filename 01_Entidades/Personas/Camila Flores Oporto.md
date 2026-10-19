@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "16.428.915-K"
+rut: ""
 aliases:
   - "Camila Flores"
   - "Camila Flores Oporto"

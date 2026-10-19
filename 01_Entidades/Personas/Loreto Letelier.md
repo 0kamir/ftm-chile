@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "13.482.915-K"
+rut: ""
 aliases:
   - "Loreto Letelier"
 rol_principal: "Abogada y Ex Candidata a Diputada por el Distrito 9 (Pasada al Tribunal Supremo de la UDI en 2017)"

@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "6.482.910-6"
+rut: ""
 aliases:
   - "Carlos Cruz"
 rol_principal: "Ex Ministro de Obras Públicas (2000-2002) y Ex Coordinador General de Concesiones"

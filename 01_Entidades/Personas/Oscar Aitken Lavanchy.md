@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "4.891.236-2"
+rut: ""
 aliases:
   - "Óscar Aitken"
   - "Oscar Aitken"

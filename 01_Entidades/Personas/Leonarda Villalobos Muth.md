@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "13.492.108-0"
+rut: ""
 aliases:
   - "Leonarda Villalobos"
   - "María Leonarda Villalobos Muth"

@@ -200,7 +200,11 @@ def main(estricto: bool = False) -> int:
                     )
 
         if not is_tpl:
-            if "rut" in meta and meta["rut"]:
+            if tipo == "persona" and meta.get("rut"):
+                errors.append(
+                    f"[{rel_path}] No se publica el RUT de personas naturales (dato personal): dejar rut vacío."
+                )
+            elif "rut" in meta and meta["rut"]:
                 rut_val = str(meta["rut"])
                 if not validar_rut_chileno(rut_val):
                     errors.append(
