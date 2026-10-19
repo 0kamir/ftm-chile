@@ -6,6 +6,25 @@ tribunal_o_fiscalia: "Tribunal de Defensa de la Libre Competencia (TDLC) / Corte
 fiscal_a_cargo: "Enrique Vergara Vial (Fiscal Nacional Económico) / TDLC"
 estado_judicial: cerrada_con_condena
 delito_principal: "[[Colusion y Atentado a la Libre Competencia]]"
+estado_verificacion: verificado
+fuentes:
+  - url: "https://centrocompetencia.com/wp-content/uploads/2022/03/Sentencia_119_Corte_Suprema.pdf"
+    titulo: "Sentencia TDLC N° 119/2012 y fallo Corte Suprema Rol 2578-2012"
+    medio: "CentroCompetencia (copia del fallo)"
+    tipo: primaria
+    fecha: 2012-09-07
+    consultado: 2026-10-19
+  - url: "https://www.df.cl/empresas/suprema-confirma-acuerdo-entre-fne-y-fasa-por-caso-colusion"
+    titulo: "Suprema confirma acuerdo entre FNE y FASA por caso colusión"
+    medio: "Diario Financiero"
+    tipo: secundaria
+    consultado: 2026-10-19
+  - url: "https://www.cooperativa.cl/noticias/site/artic/20191220/pags-amp/20191220104347.html"
+    titulo: "Grandes cadenas de farmacias deberán pagar compensaciones a clientes tras colusión"
+    medio: "Cooperativa"
+    tipo: secundaria
+    fecha: 2019-12-20
+    consultado: 2026-10-19
 tags:
   - causa
   - libre-competencia
@@ -49,4 +68,16 @@ TABLE WITHOUT ID
 FROM "03_Hechos_y_Nexos"
 WHERE contains(string(causa_vinculada), this.file.name)
 SORT fecha ASC
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```

@@ -6,6 +6,26 @@ tribunal_o_fiscalia: "Tribunal de Defensa de la Libre Competencia (TDLC) / Corte
 fiscal_a_cargo: "Felipe Irarrázabal Philippi (Fiscal Nacional Económico) / TDLC"
 estado_judicial: cerrada_con_condena
 delito_principal: "[[Colusion y Atentado a la Libre Competencia]]"
+estado_verificacion: verificado
+fuentes:
+  - url: "https://www.emol.com/noticias/Economia/2017/12/29/889225/TDLC-dicta-sentencia-en-caso-Tissue-Multa-a-SCA-con-US18-millones-y-exime-a-CMPC.html"
+    titulo: "TDLC dicta sentencia en caso Tissue: multa a SCA y exime a CMPC"
+    medio: "Emol"
+    tipo: secundaria
+    fecha: 2017-12-29
+    consultado: 2026-10-19
+  - url: "https://www.emol.com/noticias/Economia/2020/01/06/972511/Suprema-condena-CMPC-SCA-colusion.html"
+    titulo: "Suprema condena a CMPC y SCA por colusión"
+    medio: "Emol"
+    tipo: secundaria
+    fecha: 2020-01-06
+    consultado: 2026-10-19
+  - url: "https://www.biobiochile.cl/noticias/economia/negocios-y-empresas/2020/01/06/cmpc-tendra-que-pagar-una-millonaria-multa-por-la-colusion-del-papel.shtml"
+    titulo: "CMPC tendrá que pagar una millonaria multa por la colusión del papel"
+    medio: "BioBioChile"
+    tipo: secundaria
+    fecha: 2020-01-06
+    consultado: 2026-10-19
 tags:
   - causa
   - libre-competencia
@@ -47,4 +67,16 @@ TABLE WITHOUT ID
 FROM "03_Hechos_y_Nexos"
 WHERE contains(string(causa_vinculada), this.file.name)
 SORT fecha ASC
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```

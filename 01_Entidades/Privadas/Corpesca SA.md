@@ -22,7 +22,7 @@ tags:
 - **Gerente General en Período Condenado**: `= this.representante_legal`
 
 ## Contexto Forense y Societario
-Empresa pesquera industrial condenada penalmente como persona jurídica (bajo la Ley N° 20.393) en el [[Caso Corpesca]] ([[Sentencia-3TOP-Santiago-Corpesca-2020]]) al pago de 10.000 UTM y publicación de extracto de la sentencia por el delito de [[Cohecho]] activo (soborno), tras financiar con **$233.000.000 CLP** ([[TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01]]) al entonces senador [[Jaime Orpis Bouchon]] en el [[Senado de la Republica de Chile]].
+Empresa pesquera industrial condenada penalmente como persona jurídica (bajo la Ley N° 20.393) en el [[Caso Corpesca]] ([[Sentencia-3TOP-Santiago-Corpesca-2021]]) al pago de 10.000 UTM y publicación de extracto de la sentencia por el delito de [[Cohecho]] activo (soborno), tras financiar con **$233.000.000 CLP** ([[TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01]]) al entonces senador [[Jaime Orpis Bouchon]] en el [[Senado de la Republica de Chile]].
 
 ## Historial de Nexos y Pagos Investigados
 ```dataview

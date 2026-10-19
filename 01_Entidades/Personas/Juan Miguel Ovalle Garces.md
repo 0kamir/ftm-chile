@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "4.892.147-7"
+rut: ""
 aliases:
   - "Juan Miguel Ovalle"
   - "Juan Miguel Ovalle Garces"
@@ -27,7 +27,7 @@ tags:
 ## Síntesis Forense
 Dirigente gremial y médico veterinario que ejerció durante más de dos décadas como presidente ejecutivo de la [[Asociacion de Productores Avicolas de Chile AG]] (APA). 
 
-En el marco del [[Caso Colusion de los Pollos]], la investigación de la [[Fiscalia Nacional Economica]] y los tribunales de justicia lo identificaron como el artífice técnico y coordinador cotidiano del cartel. Desde su posición en la APA, calculaba y distribuía las cuotas de producción entre [[Agrosuper SA]], [[Empresas Ariztia SA]] y [[Agricola Don Pollo Limitada]], auditaba los despachos e intervenía ante eventuales desviaciones de los acuerdos de restricción de oferta, lo que culminó en la disolución judicial forzosa del gremio.
+En el marco del [[Caso Colusion de los Pollos]], la investigación de la [[Fiscalia Nacional Economica]] y los tribunales de justicia lo identificaron como coordinador del acuerdo colusorio sancionado por el TDLC. Desde su posición en la APA, calculaba y distribuía las cuotas de producción entre [[Agrosuper SA]], [[Empresas Ariztia SA]] y [[Agricola Don Pollo Limitada]], auditaba los despachos e intervenía ante eventuales desviaciones de los acuerdos de restricción de oferta, lo que culminó en la disolución judicial forzosa del gremio.
 
 ## Auditoría Contable: Registros Reificados
 ```dataviewjs

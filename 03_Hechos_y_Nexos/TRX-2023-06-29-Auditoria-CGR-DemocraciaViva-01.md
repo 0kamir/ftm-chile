@@ -34,4 +34,4 @@ tags:
 - **Evidencia de Soporte**: `= this.evidencia_soporte`
 
 ## Descripción Forense del Hecho
-Auditoría especial y toma de control de legalidad instruida por la [[Contraloria General de la Republica]] bajo la dirección del Contralor [[Jorge Bermudez Soto]] sobre la [[Seremi MINVU Antofagasta]] ([[Carlos Contreras Gutierrez]]), que acreditó el fraccionamiento doloso de los tres convenios transferidos a [[Fundacion Democracia Viva]] ([[Daniel Andrade Schwarze]]) para eludir el umbral de Toma de Razón de `5.000 UTM` en el [[Caso Convenios]].
+Auditoría especial y toma de control de legalidad instruida por la [[Contraloria General de la Republica]] bajo la dirección del Contralor [[Jorge Bermudez Soto]] sobre la [[Seremi MINVU Antofagasta]] ([[Carlos Contreras Gutierrez]]), que constató el fraccionamiento de los pagos de los tres convenios transferidos a [[Fundacion Democracia Viva]] ([[Daniel Andrade Schwarze]]) para eludir el umbral de Toma de Razón de `5.000 UTM` en el [[Caso Convenios]].

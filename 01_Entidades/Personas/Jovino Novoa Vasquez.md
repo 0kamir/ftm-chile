@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "4.812.635-9"
+rut: ""
 aliases:
   - "Jovino Novoa"
 rol_principal: "Ex Senador de la República, Ex Presidente del Senado y Ex Presidente de la UDI"

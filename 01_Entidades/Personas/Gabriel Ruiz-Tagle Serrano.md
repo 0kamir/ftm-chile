@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "5.948.123-1"
+rut: ""
 aliases:
   - "Gabriel Ruiz-Tagle"
   - "Gabriel Ruiz-Tagle Serrano"

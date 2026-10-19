@@ -3,15 +3,22 @@ tipo_nodo: nexo_transaccion
 id_transaccion: "TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01"
 fecha: 2011-12-19
 tipo_nexo: desviacion_fondos
-monto_clp: 24500000000
+monto_clp: 0
 metodo_adjudicacion: no_aplica
 entidad_origen: "[[Sociedad de Inversiones Pampa Calichera SA]]"
 entidad_destino: "[[SQM SA]]"
 firmante_origen: "[[Julio Ponce Lerou]]"
-firmante_destino: "[[Patricio Contesse Gonzalez]]"
+firmante_destino: ""
 delito_imputado: "[[Negociacion Incompatible]]"
 causa_vinculada: "[[Caso Cascadas]]"
 evidencia_soporte: "[[Resolucion-SVS-CasoCascadas-2014]]"
+estado_verificacion: verificado
+fuentes:
+  - url: "https://www.mch.cl/15-preguntas-para-entender-el-caso-cascada-las-sanciones-y-que-arriesgan-los-involucrados/"
+    titulo: "15 preguntas para entender el Caso Cascadas, las sanciones y qué arriesgan los involucrados"
+    medio: "Minería Chilena"
+    tipo: secundaria
+    consultado: 2026-10-19
 tags:
   - nexo/operacion-bursatil
   - sociedades-cascada
@@ -35,4 +42,16 @@ tags:
 - **Evidencia de Soporte**: `= this.evidencia_soporte`
 
 ## Descripción Forense del Hecho
-Ciclo de compraventas bursátiles trianguladas y préstamos de acciones ejecutados a través de [[Sociedad de Inversiones Pampa Calichera SA]] bajo el control de [[Julio Ponce Lerou]] sobre paquetes accionarios vinculados a [[SQM SA]] (gerenciada por [[Patricio Contesse Gonzalez]]), sancionados por la [[Comision para el Mercado Financiero]] ([[Carlos Pavez Tolosa]]) en el [[Caso Cascadas]] ([[Resolucion-SVS-CasoCascadas-2014]]) por un diferencial patrimonial y multas consolidadas de `$24.500.000.000 CLP`.
+Ciclo de compraventas bursátiles trianguladas y préstamos de acciones ejecutados a través de [[Sociedad de Inversiones Pampa Calichera SA]] bajo el control de [[Julio Ponce Lerou]] sobre paquetes accionarios vinculados a [[SQM SA]], sancionados por la [[Comision para el Mercado Financiero]] ([[Carlos Pavez Tolosa]]) en el [[Caso Cascadas]] ([[Resolucion-SVS-CasoCascadas-2014]]) con multas totales de UF 4.010.000 (unos US$ 164 millones) en septiembre de 2014; la SVS estimó un sobrecosto de US$ 300 millones para las sociedades cascada entre 2009 y 2011. La multa de Ponce Lerou (UF 1.700.000) fue rebajada a unas UF 75.000 tras un fallo del Tribunal Constitucional.
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
+```

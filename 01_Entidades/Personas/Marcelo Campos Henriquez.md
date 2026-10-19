@@ -1,13 +1,13 @@
 ---
 tipo_nodo: persona
-rut: "12.918.430-2"
+rut: ""
 aliases:
   - "Marcelo Campos"
   - "Marcelo Campos Henríquez"
 rol_principal: "Ex Administrador Municipal y Asesor Jurídico de la Municipalidad de Chillán"
 afiliacion_politica: "Independiente"
-situacion_procesal: condenado
-medida_cautelar: "Condena efectiva por cohecho y lavado de activos (TOP de Chillán)"
+situacion_procesal: formalizado
+medida_cautelar: ""
 tags:
   - entidad/persona
   - caso-luminarias-led
@@ -25,7 +25,7 @@ tags:
 - **Medida Cautelar / Condena Vigente**: `= this.medida_cautelar`
 
 ## Síntesis Forense
-Abogado y exdirectivo de la [[Municipalidad de Chillan]]. Fue condenado en juicio oral por el Tribunal de Juicio Oral en lo Penal de Chillán ([[Sentencia-TOP-Chillan-Luminarias-2023]]) en el [[Caso Luminarias LED]] por los delitos de [[Cohecho]] pasivo y [[Lavado de Activos]], tras acreditarse que recibió sobornos de [[Itelecom Holding Chile SpA]] ([[Leon Marcelo Lefort Hernandez]]) para asegurar la adjudicación del contrato de recambio de alumbrado público por **$3.200.000.000 CLP** ([[TRX-2019-05-14-Soborno-Luminarias-Chillan-01]]).
+Abogado, exasesor jurídico de la [[Municipalidad de Chillan]] y juez de policía local. Imputado en el [[Caso Luminarias LED]] por [[Cohecho]] y [[Violacion de Secreto]] ([[TRX-2019-05-14-Soborno-Luminarias-Chillan-01]]). Según la Fiscalía de Ñuble, [[Leon Marcelo Lefort Hernandez]] fue detenido el 05-05-2020 tras entregar presuntamente $37 millones en efectivo a [[Marcelo Campos Henriquez]], quien habría anticipado las bases técnicas de la licitación a [[Itelecom Holding Chile SpA]]. A la fecha de la última verificación (2026-10-19) no se encontró sentencia: la causa registra formalizaciones, prisión preventiva luego sustituida por arresto domiciliario y una acusación contra 15 imputados. Rige la presunción de inocencia.
 
 ## Auditoría Contable: Montos Asociados como Firmante/Destinatario
 ```dataviewjs

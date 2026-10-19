@@ -9,7 +9,7 @@ firmante_origen: "[[Patricio Marin Lazo]]"
 firmante_destino: "[[Alex Smith Leay]]"
 causa_vinculada: "[[Caso Operacion Huracan]]"
 delito_imputado: "[[Malversacion de Caudales Publicos]]"
-evidencia_soporte: "[[Sentencia-TOP-Temuco-OperacionHuracan-2024]]"
+evidencia_soporte: "[[Sentencia-TOP-Temuco-OperacionHuracan-2026]]"
 tags:
   - nexo/transaccion
   - operacion-huracan

@@ -5,9 +5,22 @@ tipo_documento: "Sentencia de la Tercera Sala de la Corte Suprema en Recursos de
 fecha_emision: 2012-09-07
 organismo_emisor: "[[Corte Suprema de Chile]]"
 fuente_osint: "Poder Judicial de Chile (pjud.cl) / Fiscalía Nacional Económica"
-estado_verificacion: verificado
 causa_vinculada: "[[Caso Colusion de las Farmacias]]"
 nexo_respaldado: "[[TRX-2007-11-01-Coordinacion-Cartel-Precios-Medicamentos-Farmacias-01]]"
+estado_verificacion: verificado
+fuentes:
+  - url: "https://centrocompetencia.com/wp-content/uploads/2022/03/Sentencia_119_Corte_Suprema.pdf"
+    titulo: "Fallo Corte Suprema Rol 2578-2012 (caso Farmacias)"
+    medio: "CentroCompetencia (copia del fallo)"
+    tipo: primaria
+    fecha: 2012-09-07
+    consultado: 2026-10-19
+  - url: "https://www.theclinic.cl/2012/09/07/suprema-le-hace-una-tapa-de-100-metros-a-farmacias-por-reclamo-sobre-multas-en-caso-colusion/"
+    titulo: "Suprema rechaza reclamo de farmacias sobre multas"
+    medio: "The Clinic"
+    tipo: secundaria
+    fecha: 2012-09-07
+    consultado: 2026-10-19
 tags:
   - evidencia/sentencia
   - corte-suprema
@@ -28,3 +41,15 @@ tags:
 
 ## Extracto y Relevancia Probatoria
 Fallo definitivo e inapelable de la Corte Suprema que rechazó en todas sus partes los recursos de reclamación interpuestos por [[Farmacias Cruz Verde SA]] y [[Farmacias Salcobrand SA]], confirmando la existencia del cartel y la aplicación de la multa de **20.000 UTA** a cada una. La Corte dio por plenamente demostrado que ambas cadenas utilizaron a los laboratorios proveedores farmacéuticos para verificar el cumplimiento del acuerdo ilícito sobre los 222 medicamentos críticos.
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
+```

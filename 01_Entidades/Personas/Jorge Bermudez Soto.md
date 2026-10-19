@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "10.842.310-2"
+rut: ""
 aliases:
   - "Jorge Bermúdez"
 rol_principal: "Ex Contralor General de la República (2015-2023)"

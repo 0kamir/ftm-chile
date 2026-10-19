@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "16.428.915-K"
+rut: ""
 aliases:
   - "Camila Flores"
   - "Camila Flores Oporto"
@@ -33,7 +33,6 @@ Abogada y dirigenta política del ala conservadora de [[Renovacion Nacional]]. S
 En el marco del [[Caso Asignaciones Parlamentarias y Cuota Flores]], es investigada penalmente por la Unidad Regional Anticorrupción (URAC) de la Fiscalía de Valparaíso y el OS9 de Carabineros por presunto **fraude al Fisco reiterado**:
 
 1. **Investigación "Cuota Flores"**: La fiscalía indaga el presunto cobro de aportes o devoluciones compulsivas en efectivo exigidas a asesores y trabajadores contratados con cargo a los fondos públicos de asignaciones del Congreso ([[TRX-2025-10-15-Denuncia-Retencion-Sueldos-Asesores-Flores-01]]). En abril de 2026, la policía allanó sus oficinas legislativas e incautó sus teléfonos y computadores portátiles bajo la orden judicial [[Orden-Entrada-Registro-Congreso-Caso-Flores-2026]].
-2. **Arista Vulneración de Intimidad y Difusión de Registros Privados**: A mediados de 2026, la senadora presentó una denuncia penal ante la Brigada del Cibercrimen de la PDI por la sustracción y difusión no consentida de registros audiovisuales íntimos captados por cámaras de seguridad de su residencia particular, sindicando como presunto responsable a su exmarido [[Percy Marin Vera]] ([[TRX-2026-06-20-Extraccion-Difusion-Ilicita-Registros-Intimos-01]]), en una causa abierta por delitos contra la intimidad y la Ley Integral contra la Violencia hacia las Mujeres.
 
 ## Auditoría Contable: Registros Reificados
 ```dataviewjs

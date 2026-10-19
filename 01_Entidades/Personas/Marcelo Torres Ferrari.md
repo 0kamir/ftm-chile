@@ -1,12 +1,26 @@
 ---
 tipo_nodo: persona
-rut: "10.194.820-K"
+rut: ""
 aliases:
   - "Marcelo Torres"
 rol_principal: "Ex Concejal de Maipú y Ex Administrador Municipal de Cerro Navia"
 afiliacion_politica: "[[Renovacion Nacional]]"
-situacion_procesal: formalizado
-medida_cautelar: "Prisión preventiva histórica y acusación por cohecho, fraude al fisco y lavado de activos"
+situacion_procesal: condenado
+medida_cautelar: "Condenado por cohecho y lavado de activos (arista Maipú, 2022) y por fraude al fisco reiterado (arista Cerro Navia, dic-2024)"
+estado_verificacion: verificado
+fuentes:
+  - url: "https://www.eldinamo.cl/pais/2022/07/28/ex-concejal-rn-de-maipu-es-condenado-por-lavado-de-activos-y-cohecho-en-caso-basura/"
+    titulo: "Ex concejal RN de Maipú es condenado por lavado de activos y cohecho en caso Basura"
+    medio: "El Dínamo"
+    tipo: secundaria
+    fecha: 2022-07-28
+    consultado: 2026-10-19
+  - url: "https://media-front.elmostrador.cl/2025/06/20250603-COMUNICADO-CASO-BASURA.pdf"
+    titulo: "Comunicado Fiscalía Occidente: condenas Caso Basura arista Cerro Navia"
+    medio: "Fiscalía Regional Metropolitana Occidente (vía El Mostrador)"
+    tipo: primaria
+    fecha: 2025-06-03
+    consultado: 2026-10-19
 tags:
   - entidad/persona
   - caso-basura
@@ -53,4 +67,16 @@ dv.table(
     p.causa_vinculada
   ])
 );
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```

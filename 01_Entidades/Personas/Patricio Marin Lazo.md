@@ -1,13 +1,13 @@
 ---
 tipo_nodo: persona
-rut: "12.849.102-3"
+rut: ""
 aliases:
   - "Patricio Marín"
   - "Patricio Marín Lazo"
 rol_principal: "Ex Mayor de Carabineros y Ex Jefe Operativo de la UIOE en La Araucanía"
 afiliacion_politica: "Militar / Carabineros"
 situacion_procesal: condenado
-medida_cautelar: "Condenado a 5 años de presidio (libertad vigilada intensiva) por el TOP de Temuco"
+medida_cautelar: "Condenado a 5 años de presidio (libertad vigilada intensiva) por el TOP de Temuco — sentencia no firme: recursos de nulidad pendientes (2026)"
 tags:
   - entidad/persona
   - caso-operacion-huracan
@@ -28,7 +28,7 @@ tags:
 ## Síntesis Forense
 Mayor de Carabineros que se desempeñó como jefe de operaciones de la Unidad de Inteligencia Operativa Especializada (UIOE) en Temuco. Coordinó en terreno la ejecución de la [[Caso Operacion Huracan]], supervisó la incorporación de [[Alex Smith Leay]] a las labores de inteligencia y gestionó el pago de fondos reservados para financiar el supuesto software «Antorcha» ([[TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01]]).
 
-Durante el juicio oral ([[Sentencia-TOP-Temuco-OperacionHuracan-2024]]), el tribunal acreditó su autoría en la remisión de informes falsificados dirigidos al Ministerio Público y a tribunales con el objeto de inducir detenciones y medidas cautelares ([[TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01]]), siendo sentenciado a **5 años de presidio** menor en su grado máximo por [[Falsificacion de Instrumento Publico]] y [[Obstruccion a la Investigacion]].
+Durante el juicio oral ([[Sentencia-TOP-Temuco-OperacionHuracan-2026]]), el tribunal acreditó su autoría en la remisión de informes falsificados dirigidos al Ministerio Público y a tribunales con el objeto de inducir detenciones y medidas cautelares ([[TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01]]), siendo sentenciado a **5 años de presidio** menor en su grado máximo por [[Falsificacion de Instrumento Publico]] y [[Obstruccion a la Investigacion]].
 
 ## Auditoría Contable: Registros Reificados
 ```dataviewjs

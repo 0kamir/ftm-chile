@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "5.842.190-1"
+rut: ""
 aliases:
   - "Carlos Alberto Délano"
   - "Choclo Délano"

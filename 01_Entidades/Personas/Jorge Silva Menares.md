@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "7.419.620-9"
+rut: ""
 aliases:
   - "Jorge Silva"
 rol_principal: "Ex Director de Obras Municipales (DOM) de la Municipalidad de Machalí"
@@ -23,7 +23,7 @@ tags:
 - **Medida Cautelar / Condena Vigente**: `= this.medida_cautelar`
 
 ## Síntesis Forense
-Ex Director de Obras Municipales de la [[Municipalidad de Machali]]. En el [[Caso Caval]], se acreditó que recibió pagos ilícitos por un total de `$140.000.000 CLP` vinculados a la operación de [[Exportadora y de Gestion Caval Ltda]] y [[Mauricio Valero Illanes]] a cambio de gestionar e informar favorablemente la modificación del uso de suelo en el Plan Regulador Intercomunal de Rancagua para los terrenos de Machalí ([[TRX-2014-02-18-Soborno-Caval-Machali-01]]), siendo condenado por [[Cohecho]] conforme a [[Sentencia-TOP-Rancagua-Caval-2018]].
+Ex Director de Obras Municipales de la [[Municipalidad de Machali]]. En el [[Caso Caval]] fue condenado en enero de 2018 por cohecho reiterado (818 días con remisión condicional) por recibir $55.030.792 del gestor inmobiliario Juan Díaz, vinculados a predios que luego compró [[Exportadora y de Gestion Caval Ltda]], a cambio de gestionar e informar favorablemente la modificación del uso de suelo en el Plan Regulador Intercomunal de Rancagua para los terrenos de Machalí ([[TRX-2014-02-18-Soborno-Caval-Machali-01]]). El socio de Caval [[Mauricio Valero Illanes]] fue absuelto del cargo de soborno ([[Sentencia-TOP-Rancagua-Caval-2018]]).
 
 ## Auditoría Contable: Montos Recibidos como Firmante de Destino
 ```dataviewjs

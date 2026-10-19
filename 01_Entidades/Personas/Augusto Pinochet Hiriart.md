@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "5.192.834-2"
+rut: ""
 aliases:
   - "Augusto Pinochet Hiriart"
 rol_principal: "Ex Oficial de Ejército y Empresario (Receptor de los Pinocheques en Caso Valmoval)"
@@ -28,7 +28,7 @@ tags:
 - **Medida Cautelar Vigente**: `= this.medida_cautelar`
 
 ## Síntesis Forense
-Hijo mayor de [[Augusto Pinochet Ugarte]] y [[Lucia Hiriart Rodriguez]]. En enero de 1989 recibió tres cheques girados directamente a su nombre por FAMAE / Ejército de Chile ([[Comando de Apoyo a la Fuerza del Ejercito]]) por cerca de US$ 3 millones (`$2.950.000.000 CLP` actualizados) por la compraventa de la empresa armera quebrada [[Valmoval Ltda]], operación que dio origen al [[Caso Pinocheques]] ([[TRX-1989-01-10-Emision-Pinocheques-Ejercito-Valmoval-01]]). Posteriormente, en el [[Caso Riggs]], el Ministro en Visita [[Sergio Munoz Gajardo]] y las querellas del [[Servicio Impuestos Internos]] acreditaron el flujo de esos recursos hacia cuentas en el extranjero vinculadas a [[Riggs Bank y Sociedades Offshore Ashburton]], siendo procesado en la arista tributaria y patrimonial ([[Sentencia-Corte-Suprema-CasoRiggs-2018]]).
+Hijo mayor de [[Augusto Pinochet Ugarte]] y [[Lucia Hiriart Rodriguez]]. En enero de 1989 recibió tres cheques girados directamente a su nombre por FAMAE / Ejército de Chile ([[Comando de Apoyo a la Fuerza del Ejercito]]) por cerca de US$ 3 millones (`$2.950.000.000 CLP` actualizados) por la compraventa de la empresa armera quebrada [[Valmoval Ltda]], operación que dio origen al [[Caso Pinocheques]] ([[TRX-1989-01-10-Emision-Pinocheques-Ejercito-Valmoval-01]]). Posteriormente, en el [[Caso Riggs]], el Ministro en Visita [[Sergio Munoz Gajardo]] y las querellas del [[Servicio Impuestos Internos]] investigaron un eventual flujo de esos recursos hacia cuentas en el extranjero (en 2010 el ministro Valderrama sobreseyó la arista Pinocheques al determinar que no llegaron a las cuentas de Pinochet Ugarte) vinculadas a [[Riggs Bank y Sociedades Offshore Ashburton]], siendo procesado en la arista tributaria y patrimonial ([[Sentencia-Corte-Suprema-CasoRiggs-2018]]).
 
 ## Auditoría Contable: Montos Imputados como Receptor Directo
 ```dataviewjs

@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "6.482.910-6"
+rut: ""
 aliases:
   - "Carlos Cruz"
 rol_principal: "Ex Ministro de Obras Públicas (2000-2002) y Ex Coordinador General de Concesiones"
@@ -23,7 +23,7 @@ tags:
 - **Medida Cautelar / Condena Vigente**: `= this.medida_cautelar`
 
 ## Síntesis Forense
-Ex Ministro de Obras Públicas y militante del [[Partido Socialista de Chile]]. Fue condenado por la Ministra en Visita Gloria Ana Chevesich y ratificado por la [[Corte Suprema de Chile]] en el [[Caso MOP-Gate]] ([[Sentencia-Corte-Suprema-MOPGate-2016]]) como autor del delito reiterado de [[Fraude al Fisco]], tras articular junto a [[Roberto Lewin Valdivieso]] ([[Gestion Ambiental y Territorial SA]]) la suscripción de contratos abultados y simulados en el [[Ministerio de Obras Publicas]] por **$1.253.000.000 CLP** para financiar sobresueldos de directivos públicos ([[TRX-2001-08-20-Contratos-Simulados-MOP-GESCAM-01]]).
+Ex Ministro de Obras Públicas y militante del [[Partido Socialista de Chile]]. Fue condenado por la Ministra en Visita Gloria Ana Chevesich y ratificado por la [[Corte Suprema de Chile]] en el [[Caso MOP-Gate]] ([[Sentencia-Corte-Suprema-MOPGate-2016]]) como autor del delito reiterado de [[Fraude al Fisco]], tras articular junto a [[Hector Pena Veliz]] ([[Gestion Ambiental y Territorial SA]]) la suscripción de contratos abultados y simulados en el [[Ministerio de Obras Publicas]] por **$1.253.000.000 CLP** para financiar sobresueldos de directivos públicos ([[TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01]]).
 
 ## Auditoría Contable: Montos Autorizados como Firmante de Origen
 ```dataviewjs

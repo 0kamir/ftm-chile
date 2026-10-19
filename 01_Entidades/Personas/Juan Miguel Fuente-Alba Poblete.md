@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "6.418.920-4"
+rut: ""
 aliases:
   - "Juan Miguel Fuente-Alba"
   - "General Fuente-Alba"
@@ -24,7 +24,7 @@ tags:
 - **Medida Cautelar Vigente**: `= this.medida_cautelar`
 
 ## Síntesis Forense
-General de Ejército (r) y Comandante en Jefe entre 2010 y 2014. Fue sometido a proceso por la Ministra en Visita Romy Rutherford ([[Auto-Procesamiento-Ministra-Rutherford-2019]]) en el [[Caso Milicogate]] por [[Malversacion de Caudales Publicos]] de gastos reservados y juzgado en la justicia ordinaria por [[Lavado de Activos]]. Durante su período de mando operó asimismo el desfalco de la Ley Reservada del Cobre en el [[Comando de Apoyo a la Fuerza del Ejercito]] ([[TRX-2014-05-20-Facturas-LeyReservadaCobre-01]]).
+General de Ejército (r) y Comandante en Jefe entre 2010 y 2014. Fue sometido a proceso por la Ministra en Visita Romy Rutherford ([[Procesamientos-Ministra-Rutherford-Milicogate]]) en el [[Caso Milicogate]] por [[Malversacion de Caudales Publicos]] de gastos reservados y juzgado en la justicia ordinaria por [[Lavado de Activos]]. Durante su período de mando operó asimismo el desfalco de la Ley Reservada del Cobre en el [[Comando de Apoyo a la Fuerza del Ejercito]] ([[TRX-2014-05-20-Facturas-LeyReservadaCobre-01]]).
 
 ## Auditoría Contable: Montos Asociados como Mando de Origen
 ```dataviewjs

@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "1.128.923-1"
+rut: ""
 aliases:
   - "Augusto Pinochet"
   - "Daniel López"

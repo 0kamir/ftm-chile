@@ -1,12 +1,25 @@
 ---
 tipo_nodo: persona
-rut: "9.842.310-9"
+rut: ""
 aliases:
   - "Mauricio Valero"
 rol_principal: "Socio Administrador de Exportadora y de Gestión Caval Ltda."
 afiliacion_politica: "Independiente"
-situacion_procesal: condenado
-medida_cautelar: "Condena ejecutoriada por soborno y delitos tributarios reiterados"
+situacion_procesal: absuelto
+medida_cautelar: "Absuelto por el TOP de Rancagua (julio de 2018)"
+estado_verificacion: verificado
+fuentes:
+  - url: "https://radio.uchile.cl/?p=478347"
+    titulo: "Caso Caval: Tribunal condena a Natalia Compagnon por delito tributario"
+    medio: "Radio Universidad de Chile"
+    tipo: secundaria
+    fecha: 2018-07-11
+    consultado: 2026-10-19
+  - url: "https://www.elciudadano.com/?p=524007"
+    titulo: "Mauricio Valero fue absuelto"
+    medio: "El Ciudadano"
+    tipo: secundaria
+    consultado: 2026-10-19
 tags:
   - entidad/persona
   - caso-caval
@@ -23,7 +36,7 @@ tags:
 - **Medida Cautelar / Condena Vigente**: `= this.medida_cautelar`
 
 ## Síntesis Forense
-Socio administrador del 50% de [[Exportadora y de Gestion Caval Ltda]] junto a [[Natalia Compagnon Soto]]. En el [[Caso Caval]] fue condenado por soborno tras acreditarse pagos dirigidos al Director de Obras de la [[Municipalidad de Machali]], [[Jorge Silva Menares]] ([[TRX-2014-02-18-Soborno-Caval-Machali-01]]), y por delitos tributarios reiterados ante el [[Servicio Impuestos Internos]] ([[TRX-2015-01-29-Facturas-Falsas-Caval-SII-01]]), según [[Sentencia-TOP-Rancagua-Caval-2018]].
+Socio administrador del 50% de [[Exportadora y de Gestion Caval Ltda]] junto a [[Natalia Compagnon Soto]]. En el [[Caso Caval]] fue acusado de soborno y delitos tributarios, pero el Tribunal de Juicio Oral en lo Penal de Rancagua lo **absolvió** en julio de 2018, al igual que a la sociedad ([[Sentencia-TOP-Rancagua-Caval-2018]]). Rige la presunción de inocencia.
 
 ## Auditoría Contable: Montos Operados como Firmante
 ```dataviewjs
@@ -54,4 +67,16 @@ dv.table(
     p.causa_vinculada
   ])
 );
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```

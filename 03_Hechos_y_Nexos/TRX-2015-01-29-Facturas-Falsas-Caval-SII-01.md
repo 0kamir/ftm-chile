@@ -8,7 +8,7 @@ metodo_adjudicacion: no_aplica
 entidad_origen: "[[Exportadora y de Gestion Caval Ltda]]"
 entidad_destino: "[[Servicio Impuestos Internos]]"
 firmante_origen: "[[Natalia Compagnon Soto]]"
-firmante_destino: "[[Mauricio Valero Illanes]]"
+firmante_destino: "[[Natalia Compagnon Soto]]"
 delito_imputado: "[[Delito Tributario]]"
 causa_vinculada: "[[Caso Caval]]"
 evidencia_soporte: "[[Sentencia-TOP-Rancagua-Caval-2018]]"
@@ -34,4 +34,4 @@ tags:
 - **Evidencia de Soporte**: `= this.evidencia_soporte`
 
 ## Descripción Forense del Hecho
-Operación de compraventa especulativa de los predios de Machalí que generó una utilidad bruta de `$2.500.000.000 CLP` para [[Exportadora y de Gestion Caval Ltda]], respecto de la cual sus socios [[Natalia Compagnon Soto]] y [[Mauricio Valero Illanes]] incorporaron en la contabilidad social facturas ideológicamente falsas por asesorías inexistentes en los años tributarios 2013, 2014 y 2015, presentando declaraciones maliciosamente falsas ante el [[Servicio Impuestos Internos]].
+Operación de compraventa especulativa de los predios de Machalí que generó una utilidad bruta de `$2.500.000.000 CLP` para [[Exportadora y de Gestion Caval Ltda]], respecto de la cual el TOP de Rancagua condenó a [[Natalia Compagnon Soto]] por permitir que la contabilidad social incorporara facturas ideológicamente falsas por asesorías inexistentes en los años tributarios 2013, 2014 y 2015, ante el [[Servicio Impuestos Internos]]. El socio [[Mauricio Valero Illanes]] fue absuelto (julio de 2018).

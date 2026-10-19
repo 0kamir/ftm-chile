@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "3.154.829-2"
+rut: ""
 aliases:
   - "Manuel Ariztia"
   - "Manuel Ariztia Ruiz"

@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "6.129.485-6"
+rut: ""
 aliases:
   - "Jorge Zepeda"
   - "Ministro Jorge Zepeda Arancibia"

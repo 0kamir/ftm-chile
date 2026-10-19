@@ -6,6 +6,21 @@ tribunal_o_fiscalia: "Corte de Distrito de EE.UU. para el Distrito Sur de Nueva 
 fiscal_a_cargo: "Jueza Loretta Preska / Fiscalía Federal del Distrito Sur de Nueva York"
 estado_judicial: descarte_procesal_sin_imputacion
 delito_principal: "[[Trafico de Influencias]]"
+estado_verificacion: parcial
+fuentes:
+  - url: "https://www.cnnchile.com/pais/cientifico-chileno-correos-jeffrey-epstein-eduardo-guendelman/"
+    titulo: "Científico chileno en correos de Jeffrey Epstein (Eduardo Guendelman)"
+    medio: "CNN Chile"
+    tipo: secundaria
+    consultado: 2026-10-19
+  - url: "https://www.justice.gov/epstein"
+    titulo: "Epstein Library (archivos publicados por el DOJ)"
+    medio: "U.S. Department of Justice"
+    tipo: primaria
+    fecha: 2026-01-30
+    consultado: 2026-10-19
+historial_correcciones:
+  - "ALTO RIESGO REPUTACIONAL: las fuentes indican menciones referenciales, sin imputación ni contacto directo acreditado con Velasco o Luksic. La publicación masiva del DOJ es de diciembre 2025 a enero 2026, no 2024 como dice la evidencia. Considerar retirar las aristas TRX de 'mención'."
 tags:
   - causa
   - epstein-files
@@ -25,7 +40,7 @@ tags:
 - **Ámbito / Tipología Analizada**: `= this.delito_principal` *(Evaluación de redes de influencia internacional y donaciones)*
 
 ## Resumen Ejecutivo y Marco de Prevención contra Injurias
-Investigación y auditoría documental originada por la desclasificación masiva de millones de páginas de expedientes judiciales, agendas y correos electrónicos ordenada por la jueza Loretta Preska del Tribunal Federal de Manhattan (SDNY) y el Departamento de Justicia de los Estados Unidos (DOJ) en el caso contra Jeffrey Epstein y Ghislaine Maxwell ([[Desclasificacion-Documentos-DOJ-CasoEpstein-2024]]).
+Investigación y auditoría documental originada por la desclasificación masiva de millones de páginas de expedientes judiciales, agendas y correos electrónicos ordenada por la jueza Loretta Preska del Tribunal Federal de Manhattan (SDNY) y el Departamento de Justicia de los Estados Unidos (DOJ) en el caso contra Jeffrey Epstein y Ghislaine Maxwell ([[Publicacion-Archivos-DOJ-CasoEpstein-2026]]).
 
 En el marco de la metodología de inteligencia de fuentes abiertas (OSINT) y el estándar internacional contra la difamación (ICIJ, OCCRP y Sociedad Interamericana de Prensa), es imperativo distinguir entre **participación en una red delictual** versus **mención incidental o referencial en correspondencia de terceros**. 
 
@@ -58,4 +73,16 @@ TABLE WITHOUT ID
 FROM "03_Hechos_y_Nexos"
 WHERE contains(string(causa_vinculada), this.file.name)
 SORT fecha ASC
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```

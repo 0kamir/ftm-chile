@@ -6,8 +6,8 @@
   <img src="https://img.shields.io/badge/Grafo-Reificado-blue.svg?style=for-the-badge&logo=obsidian" alt="Obsidian Reified Graph" />
   <img src="https://img.shields.io/badge/Estándar-OCCRP%20Aleph%20%7C%20ICIJ-orange.svg?style=for-the-badge" alt="OCCRP / ICIJ Standard" />
   <img src="https://img.shields.io/badge/Tests-24%2F24%20Passing-brightgreen.svg?style=for-the-badge&logo=pytest" alt="Tests 24/24" />
-  <img src="https://img.shields.io/badge/RUTs%20Módulo%2011-152%20Validados-purple.svg?style=for-the-badge" alt="RUTs Modulo 11" />
-  <img src="https://img.shields.io/badge/Monto%20Auditado-$751.224%20M%20CLP-red.svg?style=for-the-badge" alt="Monto CLP" />
+  <img src="https://img.shields.io/badge/RUTs%20Módulo%2011-62%20Validados-purple.svg?style=for-the-badge" alt="RUTs Modulo 11" />
+  <img src="https://img.shields.io/badge/Monto%20Auditado-$669.122%20M%20CLP-red.svg?style=for-the-badge" alt="Monto CLP" />
 </p>
 
 ---
@@ -145,11 +145,11 @@ Cada transacción o reunión constituye una nota independiente con metadatos con
 
 | Métrica Pericial | Valor Auditado | Verificación |
 | :--- | :---: | :--- |
-| **Notas Indexadas en Markdown** | **343** | Esquema estricto con metadatos YAML |
-| **RUTs Chilenos Validados** | **152** | Validación Módulo 11 con 0 colisiones |
-| **Aristas Reificadas (`TRX`)** | **75** | Flujos transaccionales y nexos documentados |
+| **Notas Indexadas en Markdown** | **334** | Esquema estricto con metadatos YAML |
+| **RUTs Chilenos Validados** | **62** | RUT de empresas y organismos (Módulo 11); no se publican RUT de personas |
+| **Aristas Reificadas (`TRX`)** | **68** | Flujos transaccionales y nexos documentados |
 | **Macro-Causas Judiciales y Carteles** | **32** | Causas activas y ejecutoriadas |
-| **Monto Financiero Consolidado** | **$751.224.363.198 CLP** | Auditoría contable automatizada |
+| **Monto Financiero Consolidado** | **$669.122.093.990 CLP** | Auditoría contable automatizada |
 | **Batería de Pruebas Unitarias** | **24 / 24 OK** | `pytest` / `unittest` en entorno continuo |
 
 ---
@@ -251,11 +251,17 @@ El directorio [`05_Vistas_Analiticas/Exportaciones/`](05_Vistas_Analiticas/Expor
 
 ## 🤝 Contribuciones y Reporte de Errores
 
-Este proyecto es de código abierto. Si detectas información desactualizada, errores en RUTs, cambios en resoluciones judiciales o deseas aportar nuevas causas documentadas:
-1. Haz un Fork del repositorio.
-2. Crea una rama para tu aporte: `git checkout -b feature/nueva-causa`.
-3. Asegúrate de que `make all` ejecute sin errores y supere todos los tests de Módulo 11.
-4. Envía un Pull Request detallando las fuentes primarias judiciales u oficiales de respaldo.
+Este proyecto es de código abierto. Toda información nueva sigue el **[Flujo de Incorporación de Información](00_Meta/Flujo_Incorporacion_Informacion.md)**: sin una fuente pública verificable (URL) no se publica ninguna nota.
+
+1. **Propón** el aporte abriendo un *Issue* con la plantilla "Nueva información" o "Rectificación", con la URL de respaldo.
+2. **Verifica** contra la fuente primaria (pjud.cl, tdlc.cl, fne.gob.cl, contraloria.cl, cmfchile.cl, fiscaliadechile.cl…) y archiva la URL en web.archive.org.
+3. **Registra** la nota desde `00_Meta/Plantillas/` o agrega fuentes a una nota existente:
+   ```bash
+   python3 00_Meta/Scripts/add_source.py --nota "Caso SQM" --url "https://..." \
+     --titulo "Título" --medio "Medio" --tipo secundaria --fecha 2025-10-22
+   ```
+4. **Valida** con `make validate sources links test`. El reporte [Cobertura de Fuentes](05_Vistas_Analiticas/Cobertura_de_Fuentes.md) lista la cobertura y las alertas de verificación pendientes.
+5. **Envía un Pull Request** con la lista de verificación editorial. El CI ejecuta `validate_vault.py --estricto`, que falla si alguna causa o evidencia queda sin fuente.
 
 ---
 

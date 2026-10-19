@@ -1,0 +1,40 @@
+name: Rectificación o retiro
+description: Informar un dato erróneo o desactualizado, o solicitar el retiro de un registro.
+title: "[Rectificación] "
+labels: ["rectificacion", "prioridad-alta"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Las rectificaciones con respaldo documental se atienden con prioridad sobre cualquier otro trabajo
+        (ver punto 5 del descargo de responsabilidad del README).
+  - type: input
+    id: nota
+    attributes:
+      label: Nota afectada
+      placeholder: "Nombre de la persona, entidad, causa o TRX"
+    validations:
+      required: true
+  - type: dropdown
+    id: motivo
+    attributes:
+      label: Motivo
+      options:
+        - Dato erróneo (nombre, RUT, monto, fecha, rol)
+        - Estado procesal desactualizado (absolución, sobreseimiento, sentencia)
+        - Información sin respaldo
+        - Afecta la vida privada o a una víctima
+        - Otro
+    validations:
+      required: true
+  - type: textarea
+    id: detalle
+    attributes:
+      label: Qué debe corregirse y por qué
+    validations:
+      required: true
+  - type: textarea
+    id: respaldo
+    attributes:
+      label: Documentación de respaldo
+      description: URL o descripción del documento (resolución de sobreseimiento, sentencia absolutoria, etc.).

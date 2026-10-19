@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "3.948.123-5"
+rut: ""
 aliases:
   - "José Codner"
   - "José Codner Chijner"

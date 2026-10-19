@@ -5,9 +5,24 @@ tipo_documento: "Resolución Exenta N° 306 de la Superintendencia de Valores y 
 fecha_emision: 2007-07-06
 organismo_emisor: "[[Comision para el Mercado Financiero]]"
 fuente_osint: "Comisión para el Mercado Financiero (cmfchile.cl — Resolución Exenta SVS N° 306/2007) / Poder Judicial de Chile"
-estado_verificacion: verificado
 causa_vinculada: "[[Caso LAN Informacion Privilegiada y Banco de Talca]]"
 nexo_respaldado: "[[TRX-2006-07-24-Compra-Acciones-Informacion-Privilegiada-LAN-01]]"
+historial_correcciones:
+  - "Revisado el 2026-10-19: no se halló copia en línea de la Resolución Exenta 306 en cmfchile.cl; respaldada por CIPER (2009), Cooperativa (2007) y la presentación de LATAM ante la SEC."
+estado_verificacion: verificado
+fuentes:
+  - url: "https://www.ciperchile.cl/2009/09/29/el-directorio-de-lan-que-se-transformo-en-la-peor-pesadilla-de-pinera/"
+    titulo: "El directorio de Lan que se transformó en la peor pesadilla de Piñera"
+    medio: "CIPER Chile"
+    tipo: secundaria
+    fecha: 2009-09-29
+    consultado: 2026-10-19
+  - url: "https://www.cooperativa.cl/noticias/site/artic/20070706/pags-amp/20070706181357.html"
+    titulo: "Piñera acusó motivos políticos en sanción de la SVS, aunque pagará la multa"
+    medio: "Cooperativa"
+    tipo: secundaria
+    fecha: 2007-07-06
+    consultado: 2026-10-19
 tags:
   - evidencia/resolucion
   - caso-lan
@@ -29,3 +44,15 @@ tags:
 
 ## Extracto y Relevancia Probatoria
 Resolución administrativa sancionatoria dictada el 6 de julio de 2007 por la Superintendencia de Valores y Seguros (hoy [[Comision para el Mercado Financiero]]) en el [[Caso LAN Informacion Privilegiada y Banco de Talca]], que acreditó que el 24 de julio de 2006 [[Sebastian Pinera Echenique]] —estando en posesión de información privilegiada sobre los estados financieros de *LAN Airlines S.A.* conocida en sesión de directorio— no se abstuvo de operar e instruyó a [[Bancard Inversiones Ltda]] (*Inversiones Santa Cecilia S.A.*) adquirir **3.000.000 de acciones de LAN** por **`$5.300.000.000 CLP`** ([[TRX-2006-07-24-Compra-Acciones-Informacion-Privilegiada-LAN-01]]), imponiéndole una **multa de 11.470 UF (~US$ 363.000)** por infracción al artículo 165 de la Ley N° 18.045 de Mercado de Valores. El expediente complementa además los antecedentes judiciales del colapso del *Banco de Talca* de agosto de 1982 ([[TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01]]).
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
+```

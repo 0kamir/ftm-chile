@@ -11,7 +11,7 @@ firmante_origen: "[[Juan Miguel Fuente-Alba Poblete]]"
 firmante_destino: "[[Javier Cruz Tamburrino]]"
 delito_imputado: "[[Lavado de Activos]]"
 causa_vinculada: "[[Caso Milicogate]]"
-evidencia_soporte: "[[Auto-Procesamiento-Ministra-Rutherford-2019]]"
+evidencia_soporte: "[[Procesamientos-Ministra-Rutherford-Milicogate]]"
 tags:
   - nexo/lavado-activos
   - ros-uaf
@@ -35,4 +35,4 @@ tags:
 - **Evidencia de Soporte**: `= this.evidencia_soporte`
 
 ## Descripción Forense del Hecho
-Operaciones de blanqueo de capitales, compra de automóviles de alta gama al contado, inversiones financieras y adquisición de propiedades inmobiliarias por `$3.500.000.000 CLP` realizadas por [[Juan Miguel Fuente-Alba Poblete]] con fondos provenientes de gastos reservados del Ejército y del [[Comando de Apoyo a la Fuerza del Ejercito]], detectadas y reportadas al Ministerio Público mediante Reportes de Operaciones Sospechosas (ROS) de la [[Unidad de Analisis Financiero]] bajo la dirección de [[Javier Cruz Tamburrino]].
+Operaciones de blanqueo de capitales, compra de automóviles de alta gama al contado, inversiones financieras y adquisición de propiedades inmobiliarias por `$3.500.000.000 CLP` atribuidas por la investigación a [[Juan Miguel Fuente-Alba Poblete]], presuntamente con fondos provenientes de gastos reservados del Ejército y del [[Comando de Apoyo a la Fuerza del Ejercito]], detectadas y reportadas al Ministerio Público mediante Reportes de Operaciones Sospechosas (ROS) de la [[Unidad de Analisis Financiero]] bajo la dirección de [[Javier Cruz Tamburrino]].

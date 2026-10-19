@@ -6,6 +6,26 @@ tribunal_o_fiscalia: "Fiscalía Nacional / Fiscalía Regional de Valparaíso / 7
 fiscal_a_cargo: "Claudia Perivancich Hoyuelos (Fiscal Regional de Valparaíso) / Manuel Guerra Fuenzalida (Arista 2017)"
 estado_judicial: sobreseida
 delito_principal: "[[Cohecho]]"
+estado_verificacion: verificado
+fuentes:
+  - url: "https://www.latercera.com/nacional/noticia/fiscalia-cierra-investigacion-por-el-caso-dominga-y-solicita-sobreseimiento-definitivo/ETCJHQKLVNFKVBX3M7Y7SJGK6I/"
+    titulo: "Fiscalía cierra investigación por el caso Dominga y solicita sobreseimiento definitivo"
+    medio: "La Tercera"
+    tipo: secundaria
+    fecha: 2024-01-05
+    consultado: 2026-10-19
+  - url: "https://www.meganoticias.cl/nacional/354151-sebastian-pinera-presidente-pandora-papers-proyecto-minera-dominga-venta-paraiso-fiscal-islas-virgenes-05-10-2021.html"
+    titulo: "Pandora Papers: venta de Minera Dominga en Islas Vírgenes"
+    medio: "Meganoticias"
+    tipo: secundaria
+    fecha: 2021-10-05
+    consultado: 2026-10-19
+  - url: "https://www.eldinamo.cl/pais/2024/05/09/caso-minera-dominga-tribunal-sobresee-definitivamente-causa-que-involucraba-a-sebastian-pinera/"
+    titulo: "Caso Minera Dominga: tribunal sobresee definitivamente causa que involucraba a Sebastián Piñera"
+    medio: "El Dínamo"
+    tipo: secundaria
+    fecha: 2024-05-09
+    consultado: 2026-10-19
 tags:
   - causa
   - caso-dominga
@@ -29,7 +49,7 @@ Investigación penal y constitucional desencadenada en octubre de 2021 por la fi
 
 Los elementos forenses centrales documentados en [[Contrato-Offshore-BVI-PandoraPapers-Dominga-2010]] son:
 1. **Cláusula Condicional Supeditada a Decisión Presidencial**: El contrato suscrito en el paraíso fiscal de Islas Vírgenes Británicas por **US$ 138 millones** (más US$ 14 millones en Chile) estableció que el pago de la tercera y última cuota —por **US$ 9,9 millones**— quedaba expresamente condicionado a que el Gobierno de Chile (encabezado por [[Sebastian Pinera Echenique]]) **no declarara la zona de emplazamiento del proyecto (frente a la Reserva Nacional Pingüino de Humboldt / Punta de Choros) como un área de exclusión o parque nacional** que impidiera la construcción del puerto minero de [[Andes Iron SpA]].
-2. **Omisión de Protección Ambiental y Arista Subsecretaría de Minería**: Durante el primer gobierno de Piñera no se decretó dicha zona de exclusión ambiental, habilitándose el cobro de la cuota final. Asimismo, el entonces Subsecretario de Minería [[Pablo Wagner San Martin]] (condenado en el [[Caso Penta]]) intervino en gestiones favorables al proyecto.
+2. **Omisión de Protección Ambiental y Arista Subsecretaría de Minería**: Durante el primer gobierno de Piñera no se decretó dicha zona de exclusión ambiental, habilitándose el cobro de la cuota final. Asimismo, el entonces Subsecretario de Minería era [[Pablo Wagner San Martin]], condenado en el [[Caso Penta]] por delitos tributarios y enriquecimiento ilícito (absuelto de cohecho); no se encontró fuente que acredite gestiones suyas a favor del proyecto.
 3. **Acusación Constitucional (Noviembre 2021)**: El 9 de noviembre de 2021, la Cámara de Diputados aprobó la acusación constitucional contra [[Sebastian Pinera Echenique]] por infringir gravemente el principio de probidad constitucional y comprometer el honor de la Nación.
 
 ## Transacciones y Nexos Reificados Vinculados
@@ -45,4 +65,16 @@ TABLE WITHOUT ID
 FROM "03_Hechos_y_Nexos"
 WHERE contains(string(causa_vinculada), this.file.name)
 SORT fecha ASC
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```

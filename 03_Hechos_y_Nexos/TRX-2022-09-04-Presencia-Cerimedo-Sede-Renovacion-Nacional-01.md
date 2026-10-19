@@ -8,8 +8,12 @@ entidad_destino: "[[Renovacion Nacional]]"
 firmante_origen: "[[Fernando Cerimedo]]"
 firmante_destino: "[[Renovacion Nacional]]"
 causa_vinculada: "[[Caso Operaciones Digitales e Injerencia Electoral]]"
-delito_imputado: "[[Fraude al Fisco]]"
+delito_imputado: ""
 evidencia_soporte: "[[Fotografia-Cerimedo-Sede-Renovacion-Nacional-2022]]"
+estado_verificacion: sin_fuente
+fuentes: []
+historial_correcciones:
+  - "Se eliminó delito_imputado (2026-10-19): la presencia en una sede partidaria no es un delito imputado. RN afirma que Cerimedo nunca fue contratado."
 tags:
   - nexo/transaccion
   - cerimedo
@@ -33,6 +37,18 @@ tags:
 - **Evidencia Soporte**: `= this.evidencia_soporte`
 
 ## Descripción Forense de la Operación
-Registro acreditado de la permanencia y participación del consultor político argentino [[Fernando Cerimedo]], titular de [[Numen Publicidad SpA]], en la sede central de [[Renovacion Nacional]] durante la jornada electoral y celebración de los resultados del Plebiscito Constitucional del 4 de septiembre de 2022. 
+Registro fotográfico, difundido por The Clinic, de la presencia del consultor político argentino [[Fernando Cerimedo]], titular de [[Numen Publicidad SpA]], en la sede central de [[Renovacion Nacional]] durante la jornada electoral y celebración de los resultados del Plebiscito Constitucional del 4 de septiembre de 2022. 
 
 En dicha instancia, documentada en la [[Fotografia-Cerimedo-Sede-Renovacion-Nacional-2022]] revelada por *The Clinic*, Cerimedo compartió dependencias con el entonces prosecretario del partido Manuel José Errázuriz y operadores de campaña. El hecho motivó requerimientos parlamentarios ante el Servel y la apertura de investigaciones de la Fiscalía Centro Norte respecto de la falta de rendición contable de servicios digitales extranjeros o aportes de campaña no declarados.
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
+```

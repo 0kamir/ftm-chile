@@ -8,8 +8,12 @@ entidad_destino: "[[Corte Suprema de Chile]]"
 firmante_origen: "[[Eduardo Guendelman Israel]]"
 firmante_destino: "[[Eduardo Guendelman Israel]]"
 causa_vinculada: "[[Caso Archivos Epstein Menciones Chile]]"
-delito_imputado: "[[Trafico de Influencias]]"
-evidencia_soporte: "[[Desclasificacion-Documentos-DOJ-CasoEpstein-2024]]"
+delito_imputado: ""
+evidencia_soporte: "[[Publicacion-Archivos-DOJ-CasoEpstein-2026]]"
+estado_verificacion: sin_fuente
+fuentes: []
+historial_correcciones:
+  - "Mención documental sin imputación: se eliminó delito_imputado (2026-10-19). Aparecer en los archivos Epstein no constituye delito."
 tags:
   - nexo/desclasificacion
   - epstein-files
@@ -34,3 +38,15 @@ La investigación de la Unidad de Investigación de *BioBioChile* sobre los corr
 
 **Determinación Forense**:
 Los fondos solicitados nunca llegaron a transferirse ni a materializarse. El vínculo fue estrictamente epistolar y de carácter científico-académico, sin vinculación alguna con las actividades delictivas investigadas en la causa penal.
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
+```

@@ -21,7 +21,7 @@ tags:
 - **Socio Administrador**: `= this.representante_legal` (junto a [[Natalia Compagnon Soto]])
 
 ## Contexto Forense y Societario
-Sociedad de responsabilidad limitada constituida en febrero de 2012 en partes iguales (50% cada uno) por [[Natalia Compagnon Soto]] y [[Mauricio Valero Illanes]] con un capital inicial de apenas `$6.000.000 CLP`. En el [[Caso Caval]], obtuvo un crédito bancario por `$6.500.000.000 CLP` para comprar y revender tres predios en la comuna de Machalí con una plusvalía proyectada superior a `$2.500.000.000 CLP`, operación acompañada de pagos de cohecho al Director de Obras de la [[Municipalidad de Machali]] [[Jorge Silva Menares]] ([[TRX-2014-02-18-Soborno-Caval-Machali-01]]) y de evasión impositiva mediante facturas falsas ante el [[Servicio Impuestos Internos]] ([[TRX-2015-01-29-Facturas-Falsas-Caval-SII-01]], [[Sentencia-TOP-Rancagua-Caval-2018]]).
+Sociedad de responsabilidad limitada constituida en febrero de 2012 en partes iguales (50% cada uno) por [[Natalia Compagnon Soto]] y [[Mauricio Valero Illanes]] con un capital inicial de apenas `$6.000.000 CLP`. En el [[Caso Caval]], obtuvo un crédito bancario por `$6.500.000.000 CLP` para comprar y revender tres predios en la comuna de Machalí con una plusvalía proyectada superior a `$2.500.000.000 CLP`, operación por la que fue acusada de soborno al Director de Obras de la [[Municipalidad de Machali]] [[Jorge Silva Menares]] ([[TRX-2014-02-18-Soborno-Caval-Machali-01]]) y de delitos tributarios ([[TRX-2015-01-29-Facturas-Falsas-Caval-SII-01]]). La sociedad fue absuelta en julio de 2018; solo [[Natalia Compagnon Soto]] fue condenada, por delito tributario ([[Sentencia-TOP-Rancagua-Caval-2018]]).
 
 ## Historial de Nexos y Transacciones Auditadas
 ```dataview

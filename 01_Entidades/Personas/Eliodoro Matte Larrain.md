@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "4.619.382-2"
+rut: ""
 aliases:
   - "Eliodoro Matte"
   - "Eliodoro Matte Larraín"

@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "5.781.429-2"
+rut: ""
 aliases:
   - "Andrónico Luksic"
   - "Andrónico Luksic Craig"
@@ -29,7 +29,7 @@ tags:
 Empresario chileno, ex líder del consorcio empresarial Quiñenco S.A. y figura central del sector financiero y minero en Chile. Su registro en esta bóveda forense abarca dos dimensiones diferenciadas:
 
 1. **Auditoría de Desclasificaciones Judiciales del Caso Epstein (`Mención Indirecta de Terceros / Sin Imputación`)**:
-   - En las desclasificaciones masivas de correos del tribunal federal de Nueva York (SDNY) relativas a Jeffrey Epstein ([[Desclasificacion-Documentos-DOJ-CasoEpstein-2024]]), su nombre figura de manera incidental en un correo electrónico enviado por el empresario emiratí Sultan Ahmed bin Sulayem (presidente de *DP World*) a Epstein.
+   - En las desclasificaciones masivas de correos del tribunal federal de Nueva York (SDNY) relativas a Jeffrey Epstein ([[Publicacion-Archivos-DOJ-CasoEpstein-2026]]), su nombre figura de manera incidental en un correo electrónico enviado por el empresario emiratí Sultan Ahmed bin Sulayem (presidente de *DP World*) a Epstein.
    - En dicho mensaje, Bin Sulayem adjuntó el currículum de Luksic y consultó: *«¿Sabes algo sobre este tipo?»*, en el marco de la coordinación protocolar de una reunión comercial en Dubái con ejecutivos de *DP World*.
    - **Conclusión pericial**: Los registros desclasificados **no contienen ninguna evidencia de que haya existido una reunión, llamada o comunicación directa entre Luksic y Epstein**, descartándose cualquier relación ilícita o societaria ([[TRX-2015-11-14-Mencion-Indirecta-Epstein-BinSulayem-Luksic-01]]). Luksic desmintió públicamente cualquier vínculo.
 

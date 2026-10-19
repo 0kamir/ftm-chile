@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "7.128.349-6"
+rut: ""
 aliases:
   - "Pía Guzmán"
   - "María Pía Guzmán Mena"

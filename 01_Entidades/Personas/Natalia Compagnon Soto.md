@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "15.324.810-9"
+rut: ""
 aliases:
   - "Natalia Compagnon"
 rol_principal: "Socia Cofundadora de Exportadora y de Gestión Caval Ltda."

@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "6.849.201-7"
+rut: ""
 aliases:
   - "Andrés Velasco"
   - "Andrés Velasco Brañes"
@@ -28,7 +28,7 @@ tags:
 Economista y académico chileno, ministro de Hacienda durante el primer gobierno de Michelle Bachelet (2006–2010), excandidato presidencial en las primarias de 2013 y actual decano de la Escuela de Políticas Públicas de la London School of Economics (LSE). Su registro en esta bóveda forense analiza dos antecedentes verificados:
 
 1. **Auditoría de Desclasificaciones Judiciales del Caso Epstein (`Mención Referencial de Terceros / Sin Imputación`)**:
-   - En los archivos desclasificados por el Departamento de Justicia de EE. UU. ([[Desclasificacion-Documentos-DOJ-CasoEpstein-2024]]), su nombre figura en una comunicación remitida por el escritor y curador británico Adrian Dannatt a un destinatario no identificado, con el asunto *«Future President of Chile etc.»*.
+   - En los archivos desclasificados por el Departamento de Justicia de EE. UU. ([[Publicacion-Archivos-DOJ-CasoEpstein-2026]]), su nombre figura en una comunicación remitida por el escritor y curador británico Adrian Dannatt a un destinatario no identificado, con el asunto *«Future President of Chile etc.»*.
    - El mensaje describe a Velasco como un *«brillante economista y profesor de Harvard»* y menciona informalmente una cena o encuentro en Londres en el marco de su precandidatura presidencial de 2013 para reunir adherentes en el extranjero.
    - **Conclusión pericial**: Los antecedentes del tribunal estadounidense **no acreditan ninguna interacción, correo directo, reunión, aporte financiero ni vínculo societario entre Andrés Velasco y Jeffrey Epstein** ([[TRX-2013-05-20-Mencion-Referencial-Epstein-Dannatt-Velasco-01]]), tratándose estrictamente de un comentario social de un tercero sobre política internacional.
 

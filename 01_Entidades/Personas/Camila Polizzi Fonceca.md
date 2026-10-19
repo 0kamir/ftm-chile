@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "17.342.815-4"
+rut: ""
 aliases:
   - "Camila Polizzi"
   - "Camila Polizzi Fonceca"
@@ -24,7 +24,7 @@ tags:
 - **Medida Cautelar Vigente**: `= this.medida_cautelar`
 
 ## Síntesis Forense
-Imputada en la arista regional del [[Caso Convenios]] en el Biobío por estafa, falsificación de documento oficial, usurpación de identidad y [[Lavado de Activos]] / [[Fraude al Fisco]]. Gestionó la adjudicación del convenio [[TRX-2022-12-20-Convenio-EnTi-01]] con el [[GORE Biobio]] (encabezado por [[Rodrigo Diaz Worner]]) utilizando la personalidad jurídica de [[Fundacion En Ti]] por **$250.635.000 CLP** según consta en la [[Resolucion-GORE-Biobio-EnTi-2022]].
+Imputada en la arista regional del [[Caso Convenios]] en el Biobío por estafa, falsificación de documento oficial, usurpación de identidad y [[Lavado de Activos]] / [[Fraude al Fisco]]. Según la Fiscalía, habría gestionado la adjudicación del convenio [[TRX-2022-12-20-Convenio-EnTi-01]] con el [[GORE Biobio]] (encabezado por [[Rodrigo Diaz Worner]]) utilizando la personalidad jurídica de [[Fundacion En Ti]] por **$250.635.000 CLP** según consta en la [[Resolucion-GORE-Biobio-EnTi-2022]].
 
 ## Auditoría Contable: Montos Recibidos como Firmante de Destino
 ```dataviewjs

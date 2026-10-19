@@ -1,13 +1,26 @@
 ---
 tipo_nodo: persona
-rut: "15.632.187-7"
-aliases:
-  - "Olga Barraza Quezada"
-  - "Olga Paz Barraza Quezada"
-rol_principal: "Líder del Clan Barraza en el Megafraude de la Operación Tributos"
+rut: ""
+aliases: []
+rol_principal: "Imputada señalada por la Fiscalía como líder del 'Clan Barraza' (Operación Tributos)"
 afiliacion_politica: "Independiente"
-situacion_procesal: formalizada
-medida_cautelar: "Prisión preventiva por asociación ilícita, fraude tributario y lavado de activos"
+situacion_procesal: formalizado
+medida_cautelar: ""
+estado_verificacion: parcial
+fuentes: 
+  - url: "https://www.latercera.com/la-tercera-pm/noticia/expediente-secreto-del-sii-como-funcionaba-los-seis-clanes-que-crearon-el-mecanismo-del-fraude-tributario-mas-grande-de-la-historia/I4RBDAJD2JEZZJLGXGIDE7ZR6A/"
+    titulo: "Expediente secreto del SII: cómo funcionaban los seis clanes del fraude tributario"
+    medio: "La Tercera"
+    tipo: secundaria
+    consultado: 2026-10-19
+  - url: "https://www.latercera.com/nacional/noticia/el-listado-de-los-55-imputados-por-el-megafraude-tributario/JEH5YAOVRJHAPMLM5UIGN3N4CM/"
+    titulo: "El listado de los 55 imputados por el megafraude tributario"
+    medio: "La Tercera"
+    tipo: secundaria
+    fecha: 2023-12-15
+    consultado: 2026-10-19
+historial_correcciones:
+  - "Nombre y rol corregidos el 2026-10-19 según el listado publicado por la prensa; RUT eliminado por no constar en fuente pública."
 tags:
   - entidad/persona
   - megafraude-sii
@@ -25,9 +38,7 @@ tags:
 - **Medida Cautelar / Sanciones**: `= this.medida_cautelar`
 
 ## Síntesis Forense
-Operadora comercial y líder del "Clan Barraza", articulación criminal formalizada en el marco del [[Caso Megafraude Tributario Operacion Tributos]]. Según la querella del [[Servicio Impuestos Internos]], su organización suministró facturación fraudulenta a empresas del rubro de la construcción, transporte y servicios en diversas regiones del país, captando comisiones porcentuales sobre el valor del IVA descontado ilegítimamente por los receptores.
-
-Fue detenida en diciembre de 2023 por la BRILAC de la PDI y puesta en prisión preventiva por resolución del 1° Juzgado de Garantía de Santiago.
+Figura en el listado de 55 imputados formalizados en diciembre de 2023. Según el expediente del [[Servicio Impuestos Internos]] reportado por La Tercera, la Fiscalía la sindica como líder del denominado 'Clan Barraza', que habría obtenido devoluciones del impuesto específico al diésel por $2.489 millones a través de una supuesta empresa de transporte y siete proveedores de facturas falsas en el [[Caso Megafraude Tributario Operacion Tributos]]. Rige la presunción de inocencia: la causa no tiene sentencia.
 
 ## Auditoría Contable: Registros Reificados
 ```dataviewjs

@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "13.492.108-0"
+rut: ""
 aliases:
   - "Leonarda Villalobos"
   - "María Leonarda Villalobos Muth"
@@ -24,7 +24,7 @@ tags:
 - **Medida Cautelar Vigente**: `= this.medida_cautelar`
 
 ## Síntesis Forense
-Abogada formalizada en el [[Caso Audios]] por [[Cohecho]], [[Lavado de Activos]] y delitos tributarios. Registró y participó en la reunión del edificio Alonso de Córdova ([[Audio-Reunion-Edificio-Alonso-2023]]) con [[Luis Hermosilla Osorio]], donde se detalló la canalización de pagos por **$100.000.000 CLP** ([[TRX-2023-06-22-Reunion-Audios-01]]) desde el entorno de [[Factop SpA]] hacia funcionarios del [[Servicio Impuestos Internos]].
+Abogada formalizada en el [[Caso Audios]] por [[Cohecho]], [[Lavado de Activos]] y delitos tributarios. Registró y participó en la reunión del edificio Alonso de Córdova ([[Audio-Reunion-Edificio-Alonso-2023]]) con [[Luis Hermosilla Osorio]], donde, según el audio difundido por CIPER, se mencionaron pagos por **$100.000.000 CLP** ([[TRX-2023-06-22-Reunion-Audios-01]]) desde el entorno de [[Factop SpA]] hacia funcionarios del [[Servicio Impuestos Internos]].
 
 ## Auditoría Contable: Montos Canalizados como Firmante/Operadora de Destino
 ```dataviewjs

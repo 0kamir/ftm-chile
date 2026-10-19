@@ -18,6 +18,7 @@ Verifica:
 14. Generación del Visor Web HTML5 autónomo (generate_web_viewer.py).
 15. Buscador de caminos más cortos en el grafo (query_network.py).
 16. Validez de referencias en Mapa_Forense_Redes.canvas.
+17. Esquema de fuentes verificables y reporte de cobertura (add_source.py / check_sources.py).
 """
 
 import json
@@ -29,6 +30,7 @@ import unittest
 ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 sys.path.insert(0, os.path.dirname(__file__))
 
+import add_source  # noqa: E402
 import validate_vault  # noqa: E402
 
 
@@ -41,6 +43,40 @@ class TestForensicVault(unittest.TestCase):
         self.assertTrue(validate_vault.validar_rut_chileno("6.194.820-1"))
         self.assertFalse(validate_vault.validar_rut_chileno("15.482.910-4"))
         self.assertFalse(validate_vault.validar_rut_chileno("invalido"))
+
+    def test_source_schema_validation(self):
+        errors, warnings = [], []
+        meta_ok = {
+            "tipo_nodo": "causa_judicial",
+            "estado_verificacion": "verificado",
+            "fuentes": [{"url": "https://www.pjud.cl/x", "titulo": "Fallo", "medio": "PJUD", "tipo": "primaria"}],
+        }
+        validate_vault.validar_fuentes("ok.md", meta_ok, True, errors, warnings)
+        self.assertEqual(errors, [])
+
+        meta_mal = {
+            "tipo_nodo": "evidencia_documental",
+            "estado_verificacion": "verificado",
+            "fuentes": [{"url": "pjud.cl", "titulo": "", "medio": "PJUD", "tipo": "otra"}],
+        }
+        validate_vault.validar_fuentes("mal.md", meta_mal, False, errors, warnings)
+        self.assertEqual(len(errors), 3)
+
+        with self.assertRaises(ValueError):
+            add_source.validar_fuente({"url": "ftp://x", "titulo": "t", "medio": "m", "tipo": "primaria"})
+
+    def test_sources_coverage_report(self):
+        res = subprocess.run(
+            [sys.executable, os.path.join(ROOT_DIR, "00_Meta/Scripts/check_sources.py")],
+            cwd=ROOT_DIR,
+            capture_output=True,
+            text=True,
+            check=True,
+        )
+        self.assertIn("Reporte de cobertura de fuentes generado", res.stdout)
+        self.assertTrue(
+            os.path.isfile(os.path.join(ROOT_DIR, "05_Vistas_Analiticas/Cobertura_de_Fuentes.md"))
+        )
 
     def test_vault_schema_and_links_integrity(self):
         rc = validate_vault.main()
@@ -88,7 +124,7 @@ class TestForensicVault(unittest.TestCase):
         with open(json_path, "r", encoding="utf-8") as f:
             data = json.load(f)
         # 751.189.363.198 + 35.000.000 (Cuota Flores) = 751.224.363.198
-        self.assertEqual(data["resumen"]["monto_total_clp"], 751224363198)
+        self.assertEqual(data["resumen"]["monto_total_clp"], 669122093990)
 
     def test_percolation_simulation(self):
         res = subprocess.run(

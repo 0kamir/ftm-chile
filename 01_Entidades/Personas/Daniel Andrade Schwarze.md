@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "17.893.204-7"
+rut: ""
 aliases:
   - "Daniel Andrade"
   - "Daniel Andrade Schwarze"

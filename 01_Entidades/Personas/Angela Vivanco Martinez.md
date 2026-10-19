@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "8.943.210-3"
+rut: ""
 aliases:
   - "Ángela Vivanco"
   - "Ángela Vivanco Martínez"

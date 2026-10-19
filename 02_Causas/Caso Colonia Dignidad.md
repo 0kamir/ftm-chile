@@ -1,11 +1,25 @@
 ---
 tipo_nodo: causa_judicial
-ruc: "9600218200-5"
+ruc: ""
 año_inicio: 1996
 tribunal_o_fiscalia: "Corte de Apelaciones de Santiago / Corte Suprema de Chile (Ministro en Visita Extraordinario — Rol 2.182-1998 y acumulados)"
 fiscal_a_cargo: "Ministro en Visita Jorge Zepeda Arancibia (y Ministro Hernán González García en etapa inicial)"
 estado_judicial: cerrada_con_condena
 delito_principal: "[[Lavado de Activos]]"
+estado_verificacion: verificado
+fuentes:
+  - url: "https://www.elmostrador.cl/noticias/pais/2013/01/28/corte-suprema-decreta-prision-para-seis-ex-lideres-de-colonia-dignidad/"
+    titulo: "Corte Suprema decreta prisión para seis ex líderes de Colonia Dignidad"
+    medio: "El Mostrador"
+    tipo: secundaria
+    fecha: 2013-01-28
+    consultado: 2026-10-19
+  - url: "https://www.cooperativa.cl/noticias/site/artic/20130128/pags-amp/20130128100305.html"
+    titulo: "Seis ex jerarcas de Colonia Dignidad fueron condenados a prisión por la Corte Suprema"
+    medio: "Cooperativa"
+    tipo: secundaria
+    fecha: 2013-01-28
+    consultado: 2026-10-19
 tags:
   - causa
   - caso-colonia-dignidad
@@ -43,4 +57,16 @@ TABLE WITHOUT ID
 FROM "03_Hechos_y_Nexos"
 WHERE contains(string(causa_vinculada), this.file.name)
 SORT fecha ASC
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```

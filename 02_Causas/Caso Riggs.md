@@ -6,6 +6,22 @@ tribunal_o_fiscalia: "Corte de Apelaciones de Santiago / Corte Suprema de Chile 
 fiscal_a_cargo: "Ministros en Visita Sergio Muñoz Gajardo, Carlos Cerda Fernández y Manuel Antonio Valderrama Rebolledo"
 estado_judicial: cerrada_con_condena
 delito_principal: "[[Malversacion de Caudales Publicos]]"
+estado_verificacion: verificado
+fuentes:
+  - url: "https://www.cnnchile.com/pais/caso-riggs-fue-cerrado-por-la-corte-suprema-tras-14-anos/"
+    titulo: "Caso Riggs fue cerrado por la Corte Suprema tras 14 años"
+    medio: "CNN Chile"
+    tipo: secundaria
+    fecha: 2018-08-24
+    consultado: 2026-10-19
+  - url: "https://www.theclinic.cl/2018/08/25/ordenan-decomiso-de-bienes-de-pinochet-por-mas-de-us-16-millones/"
+    titulo: "Ordenan decomiso de bienes de Pinochet"
+    medio: "The Clinic"
+    tipo: secundaria
+    fecha: 2018-08-25
+    consultado: 2026-10-19
+historial_correcciones:
+  - "La CS condenó a tres exmilitares (Vergara, Mac Lean, Castillo) por malversación de US$ 6,47 millones y ordenó comiso de US$ 1,62 millones. Pinochet murió (2006) sin condena."
 tags:
   - causa
   - caso-riggs
@@ -45,4 +61,16 @@ TABLE WITHOUT ID
 FROM "03_Hechos_y_Nexos"
 WHERE contains(string(causa_vinculada), this.file.name)
 SORT fecha ASC
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```

@@ -11,7 +11,7 @@ firmante_origen: "[[Oscar Aitken Lavanchy]]"
 firmante_destino: "[[Augusto Pinochet Ugarte]]"
 delito_imputado: "[[Lavado de Activos]]"
 causa_vinculada: "[[Caso Panama Papers Chile]]"
-evidencia_soporte: "[[Informe-ICIJ-SII-PanamaPapers-Chile-2016]]"
+evidencia_soporte: "[[Filtracion-ICIJ-PanamaPapers-Chile-2016]]"
 tags:
   - nexo/desviacion-fondos
   - panama-papers
@@ -36,4 +36,4 @@ tags:
 - **Evidencia de Soporte**: `= this.evidencia_soporte`
 
 ## Descripción Forense del Hecho
-Intersección documental acreditada en los archivos internos de [[Mossack Fonseca y Sociedades Offshore Panama]] ([[Informe-ICIJ-SII-PanamaPapers-Chile-2016]]) que probó que el bufete panameño administró y prestó servicios de agente residente en las Islas Vírgenes Británicas y Bahamas para sociedades de papel integradas en el circuito de [[Riggs Bank y Sociedades Offshore Ashburton]], estructuradas con intervención de [[Oscar Aitken Lavanchy]] para ocultar caudales de [[Augusto Pinochet Ugarte]] investigados en el [[Caso Riggs]] y posteriormente afectos al comiso de la [[Corte Suprema de Chile]] ([[Sentencia-Corte-Suprema-CasoRiggs-2018]]).
+Intersección documental acreditada en los archivos internos de [[Mossack Fonseca y Sociedades Offshore Panama]] ([[Filtracion-ICIJ-PanamaPapers-Chile-2016]]) que documenta que el bufete panameño administró y prestó servicios de agente residente en las Islas Vírgenes Británicas y Bahamas para sociedades de papel integradas en el circuito de [[Riggs Bank y Sociedades Offshore Ashburton]], estructuradas con intervención de [[Oscar Aitken Lavanchy]] para ocultar caudales de [[Augusto Pinochet Ugarte]] investigados en el [[Caso Riggs]] y posteriormente afectos al comiso de la [[Corte Suprema de Chile]] ([[Sentencia-Corte-Suprema-CasoRiggs-2018]]).

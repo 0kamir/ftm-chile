@@ -3,10 +3,10 @@ tipo_nodo: nexo_transaccion
 fecha: 2023-12-14
 tipo_nexo: factura_falsa
 monto_clp: 240000000000
-entidad_origen: "[[Inversiones y Asesorias Pavez SpA]]"
+entidad_origen: ""
 entidad_destino: "[[Servicio Impuestos Internos]]"
-firmante_origen: "[[Jose Antonio Pavez Campillay]]"
-firmante_destino: "[[Ximena Jimenez Faras]]"
+firmante_origen: ""
+firmante_destino: ""
 causa_vinculada: "[[Caso Megafraude Tributario Operacion Tributos]]"
 delito_imputado: "[[Delito Tributario]]"
 evidencia_soporte: "[[Querella-SII-Megafraude-Tributario-2023]]"
@@ -33,4 +33,5 @@ tags:
 - **Evidencia Soporte**: `= this.evidencia_soporte`
 
 ## Descripción Forense de la Operación
-En el marco de la investigación de la Fiscalía Metropolitana Occidente y la BRILAC de la PDI, se formalizó a 55 imputados liderados por [[Jose Antonio Pavez Campillay]] y su contadora [[Ximena Jimenez Faras]] por la creación de un holding ilícito de más de 300 sociedades de papel destinadas a la emisión de más de 100.000 facturas falsas. Mediante este mecanismo, el cartel defraudó al Fisco de Chile por un monto consolidado de **`$240.000.000.000 CLP`**, mediante la obtención ilegal de devoluciones del IVA exportador y la venta de créditos fiscales fraudulentos a empresas operativas para evadir el Impuesto a la Renta.
+Hecho agregado que representa el perjuicio fiscal total estimado por el [[Servicio Impuestos Internos]] (**`$240.000.000.000 CLP`**) atribuido por la Fiscalía Metropolitana Occidente a seis grupos de imputados que habrían emitido más de 100.000 facturas falsas mediante sociedades de papel entre 2014 y 2020. No se atribuye a una persona individual; ver el detalle por grupo en [[Caso Megafraude Tributario Operacion Tributos]]. Hipótesis acusatoria sin sentencia.
+

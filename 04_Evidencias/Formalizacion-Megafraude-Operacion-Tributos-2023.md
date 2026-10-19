@@ -5,9 +5,16 @@ tipo_documento: "Acta de Audiencia de Formalización y Resolución de Medidas Ca
 fecha_emision: 2023-12-22
 organismo_emisor: "[[Corte Suprema de Chile]]"
 fuente_osint: "Poder Judicial de Chile (pjud.cl) / 1° Juzgado de Garantía de Santiago"
-estado_verificacion: verificado
 causa_vinculada: "[[Caso Megafraude Tributario Operacion Tributos]]"
 nexo_respaldado: "[[TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01]]"
+estado_verificacion: verificado
+fuentes:
+  - url: "https://www.cnnchile.com/pais/nombres-55-empresarios-detenidos-fraude-fisco-grande-historia_20231215/"
+    titulo: "Nombres de los 55 empresarios detenidos por el mayor fraude al fisco"
+    medio: "CNN Chile"
+    tipo: secundaria
+    fecha: 2023-12-15
+    consultado: 2026-10-19
 tags:
   - evidencia/resolucion-judicial
   - poder-judicial
@@ -28,4 +35,16 @@ tags:
 - **Nexo Respaldado**: `= this.nexo_respaldado`
 
 ## Contenido Probatorio y Relevancia
-Resolución del 1° Juzgado de Garantía de Santiago tras una maratónica audiencia de formalización de cargos contra 55 imputados por los delitos de asociación ilícita, fraude al Fisco, delitos tributarios reiterados y lavado de activos. El tribunal decretó la prisión preventiva de más de 30 cabecillas y operadores principales, incluyendo a [[Jose Antonio Pavez Campillay]], [[Ximena Jimenez Faras]], [[Andres Esteban Galaz Soto]], [[Olga Paz Barraza Quezada]] y [[Juan Alberto Croxatto Romero]], ordenando el embargo y retención preventiva de bienes muebles, inmuebles y cuentas bancarias.
+Audiencia de formalización ante el 1° Juzgado de Garantía de Santiago (diciembre de 2023) de 55 imputados por delitos tributarios, asociación ilícita, lavado de activos y declaración maliciosamente falsa en la exportación. La Fiscalía pidió prisión preventiva para 26 de ellos. El listado de imputados fue publicado por la prensa; el acta no está disponible públicamente.
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
+```

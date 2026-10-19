@@ -9,7 +9,7 @@ firmante_origen: "[[Juan Miguel Fuente-Alba Poblete]]"
 firmante_destino: "[[Jozo Santic Palomino]]"
 causa_vinculada: "[[Caso Milicogate]]"
 delito_imputado: "[[Malversacion de Caudales Publicos]]"
-evidencia_soporte: "[[Auto-Procesamiento-Ministra-Rutherford-2019]]"
+evidencia_soporte: "[[Procesamientos-Ministra-Rutherford-Milicogate]]"
 tags:
   - nexo/transaccion
   - transferencia
@@ -32,4 +32,4 @@ tags:
 - **Evidencia Judicial**: `= this.evidencia_soporte`
 
 ## Descripción Forense de la Operación
-Defraudación patrimonial por un monto consolidado de **$6.100.000.000 CLP** ejecutada mediante el pago de facturas ideológicamente falsas con cargo a los fondos de la Ley N° 13.196 Reservada del Cobre en el [[Comando de Apoyo a la Fuerza del Ejercito]] hacia proveedores coludidos como [[Frasim Ltda]] (con intervención de [[Jozo Santic Palomino]]) y sustracción de gastos reservados durante el mando de [[Juan Miguel Fuente-Alba Poblete]], acreditada en [[Auto-Procesamiento-Ministra-Rutherford-2019]] dentro del [[Caso Milicogate]].
+Defraudación patrimonial por un monto consolidado de **$6.100.000.000 CLP** ejecutada mediante el pago de facturas ideológicamente falsas con cargo a los fondos de la Ley N° 13.196 Reservada del Cobre en el [[Comando de Apoyo a la Fuerza del Ejercito]] hacia proveedores coludidos como [[Frasim Ltda]] (con intervención de [[Jozo Santic Palomino]]) y sustracción de gastos reservados durante el mando de [[Juan Miguel Fuente-Alba Poblete]], imputada en [[Procesamientos-Ministra-Rutherford-Milicogate]] (un auto de procesamiento no es una condena) dentro del [[Caso Milicogate]].

@@ -6,6 +6,26 @@ tribunal_o_fiscalia: "Fiscalía Regional Metropolitana Oriente / 9° Juzgado de 
 fiscal_a_cargo: "Lorena Parra / Constanza Encina"
 estado_judicial: formalizada
 delito_principal: "[[Fraude al Fisco]]"
+estado_verificacion: verificado
+fuentes:
+  - url: "https://www.cnnchile.com/pais/formalizacion-cathy-barriga-que-delitos-imputan_20240116/"
+    titulo: "Formalización de Cathy Barriga: qué delitos le imputan"
+    medio: "CNN Chile"
+    tipo: secundaria
+    fecha: 2024-01-16
+    consultado: 2026-10-19
+  - url: "https://www.elmostrador.cl/noticias/pais/2023/11/28/exalcaldesa-cathy-barriga-sera-formalizada-en-enero-de-2024-por-fraude-al-fisco-y-corrupcion/"
+    titulo: "Exalcaldesa Cathy Barriga será formalizada en enero de 2024"
+    medio: "El Mostrador"
+    tipo: secundaria
+    fecha: 2023-11-28
+    consultado: 2026-10-19
+  - url: "https://www.meganoticias.cl/nacional/456234-cathy-barriga-reformalizacion-maipu-fiscalia-mega-investiga-19-08-2024.html"
+    titulo: "Caso Maipú: Fiscalía Oriente reformalizará a Cathy Barriga"
+    medio: "Meganoticias"
+    tipo: secundaria
+    fecha: 2024-08-19
+    consultado: 2026-10-19
 tags:
   - causa
   - caso-maipu
@@ -39,4 +59,16 @@ TABLE WITHOUT ID
 FROM "03_Hechos_y_Nexos"
 WHERE contains(string(causa_vinculada), this.file.name)
 SORT fecha ASC
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```

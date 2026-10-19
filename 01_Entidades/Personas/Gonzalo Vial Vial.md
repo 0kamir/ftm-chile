@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "3.624.195-0"
+rut: ""
 aliases:
   - "Gonzalo Vial"
   - "Gonzalo Vial Vial"

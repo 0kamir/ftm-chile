@@ -1,6 +1,6 @@
 ---
 tipo_nodo: persona
-rut: "5.281.943-1"
+rut: ""
 aliases:
   - "Hernán Larraín"
 rol_principal: "Ex Senador por el Maule Sur, Ex Presidente del Senado, Ex Presidente de la UDI y Ex Ministro de Justicia"

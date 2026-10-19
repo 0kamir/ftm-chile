@@ -8,8 +8,12 @@ entidad_destino: "[[Corte Suprema de Chile]]"
 firmante_origen: "[[Andres Velasco Branes]]"
 firmante_destino: "[[Andres Velasco Branes]]"
 causa_vinculada: "[[Caso Archivos Epstein Menciones Chile]]"
-delito_imputado: "[[Trafico de Influencias]]"
-evidencia_soporte: "[[Desclasificacion-Documentos-DOJ-CasoEpstein-2024]]"
+delito_imputado: ""
+evidencia_soporte: "[[Publicacion-Archivos-DOJ-CasoEpstein-2026]]"
+estado_verificacion: sin_fuente
+fuentes: []
+historial_correcciones:
+  - "Mención documental sin imputación: se eliminó delito_imputado (2026-10-19). Aparecer en los archivos Epstein no constituye delito."
 tags:
   - nexo/desclasificacion
   - epstein-files
@@ -34,3 +38,15 @@ En los correos desclasificados del litigio federal *Giuffre v. Maxwell*, figura 
 
 **Determinación Forense**:
 Los expedientes judiciales no acreditan ninguna interacción, correo directo, reunión, aporte de campaña ni relación de ningún tipo entre [[Andres Velasco Branes]] y Jeffrey Epstein, tratándose únicamente de una mención contextual realizada por un tercero.
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
+```

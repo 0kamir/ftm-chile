@@ -5,9 +5,15 @@ tipo_documento: "Bases de Conciliación y Reconocimiento de Hechos entre FNE y F
 fecha_emision: 2009-03-13
 organismo_emisor: "[[Fiscalia Nacional Economica]]"
 fuente_osint: "Tribunal de Defensa de la Libre Competencia / Fiscalía Nacional Económica (fne.gob.cl)"
-estado_verificacion: verificado
 causa_vinculada: "[[Caso Colusion de las Farmacias]]"
 nexo_respaldado: "[[TRX-2007-11-01-Coordinacion-Cartel-Precios-Medicamentos-Farmacias-01]]"
+estado_verificacion: verificado
+fuentes:
+  - url: "https://www.df.cl/empresas/suprema-confirma-acuerdo-entre-fne-y-fasa-por-caso-colusion"
+    titulo: "Suprema confirma acuerdo entre FNE y FASA por caso colusión"
+    medio: "Diario Financiero"
+    tipo: secundaria
+    consultado: 2026-10-19
 tags:
   - evidencia/acuerdo
   - fne
@@ -28,3 +34,15 @@ tags:
 
 ## Extracto y Relevancia Probatoria
 Acuerdo judicial aprobado por el TDLC en marzo de 2009 mediante el cual [[Farmacias Ahumada SA]] (controlada en ese momento por [[Jose Codner Chijner]]) reconoció explícitamente haber participado en un mecanismo de coordinación de precios con [[Farmacias Cruz Verde SA]] y [[Farmacias Salcobrand SA]] entre diciembre de 2007 y marzo de 2008, obligándose a pagar a beneficio fiscal la suma de **$1.000.000 USD** e implementando un manual interno de libre competencia. La confesión desarticuló la estrategia procesal de las cadenas competidoras y aportó correos y planillas de precios claves para la condena final del cartel.
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
+```

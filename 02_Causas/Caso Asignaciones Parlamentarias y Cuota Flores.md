@@ -6,6 +6,28 @@ tribunal_o_fiscalia: "Juzgado de Garantía de Valparaíso / Unidad Regional Anti
 fiscal_a_cargo: "Claudia Perivancich Hoyuelos / OS9 y Cibercrimen de la PDI"
 estado_judicial: investigacion_desformalizada_con_allanamientos
 delito_principal: "[[Fraude al Fisco]]"
+estado_verificacion: verificado
+fuentes:
+  - url: "https://www.emol.com/noticias/Nacional/2026/04/09/1196710/camila-flores-investigacion-fraude-fisco.html"
+    titulo: "Camila Flores: investigación por fraude al fisco"
+    medio: "Emol"
+    tipo: secundaria
+    fecha: 2026-04-09
+    consultado: 2026-10-19
+  - url: "https://www.ciperchile.cl/2026/05/06/fiscalia-ingresa-al-senado-por-investigacion-contra-camila-flores-por-posible-fraude-al-fisco/"
+    titulo: "Fiscalía ingresa al Senado por investigación contra Camila Flores"
+    medio: "CIPER Chile"
+    tipo: secundaria
+    fecha: 2026-05-06
+    consultado: 2026-10-19
+  - url: "https://www.diarioconstitucional.cl/2026/05/09/rn-remite-a-camila-flores-al-tribunal-supremo-en-medio-de-investigacion-por-presunto-fraude-al-fisco/"
+    titulo: "RN remite a Camila Flores al Tribunal Supremo"
+    medio: "Diario Constitucional"
+    tipo: secundaria
+    fecha: 2026-05-09
+    consultado: 2026-10-19
+historial_correcciones:
+  - "Investigación desformalizada: no hay imputación formal. La arista de registros íntimos se retiró el 2026-10-19 por tratarse de la vida privada de una víctima, ajena al eje de corrupción."
 tags:
   - causa
   - asignaciones-parlamentarias
@@ -34,8 +56,6 @@ La causa se estructura en dos aristas complementarias:
 1. **Arista "Cuota Flores" (Fraude al Fisco por Diezmos Parlamentarios)**:
    A raíz de denuncias de excolaboradores y personal de apoyo financiado con cargo a asignaciones parlamentarias del [[Senado de la Republica de Chile]], la Fiscalía Regional de Valparaíso indaga la exigencia sistemática a asesores legislativos de entregar en efectivo un porcentaje recurrente de sus remuneraciones mensuales ([[TRX-2025-10-15-Denuncia-Retencion-Sueldos-Asesores-Flores-01]]). En abril de 2026, el OS9 de Carabineros ejecutó allanamientos e incautaciones de computadores y celulares en dependencias del Congreso y en el domicilio de la parlamentaria ([[Orden-Entrada-Registro-Congreso-Caso-Flores-2026]]).
 
-2. **Arista Registros Íntimos y Disputa Conyugal**:
-   Paralelamente, a mediados de 2026 se abrió una causa penal en la Brigada del Cibercrimen de la PDI tras la denuncia de Camila Flores por la obtención, sustracción y difusión no consentida de registros audiovisuales íntimos y privados grabados por cámaras de seguridad en su hogar ([[Denuncia-Cibercrimen-PDI-Registros-Intimos-2026]]), apuntando a su exmarido [[Percy Marin Vera]] ([[TRX-2026-06-20-Extraccion-Difusion-Ilicita-Registros-Intimos-01]]). Este hecho derivó además en la interposición de recursos de cautela de garantía por parte de la defensa ante el Juzgado de Garantía y la Corte Suprema para evitar la filtración de material de índole estrictamente privada requisado en los dispositivos incautados.
 
 ## Hechos y Nexos Vinculados a la Causa
 ```dataview
@@ -51,4 +71,16 @@ TABLE WITHOUT ID
 FROM "03_Hechos_y_Nexos"
 WHERE contains(string(causa_vinculada), this.file.name)
 SORT fecha ASC
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```

@@ -6,6 +6,21 @@ tribunal_o_fiscalia: "Servicio de Impuestos Internos (Subdirección de Fiscaliza
 fiscal_a_cargo: "Subdirección de Fiscalización SII / Unidad Especializada Anticorrupción y Lavado de Activos (UNAC)"
 estado_judicial: en_investigacion
 delito_principal: "[[Delito Tributario]]"
+estado_verificacion: parcial
+fuentes:
+  - url: "https://ciperchile.cl/2016/04/04/the-panama-papers-los-secretos-de-chilenos-en-paraisos-fiscales-salen-a-la-luz/"
+    titulo: "The Panama Papers: los secretos de chilenos en paraísos fiscales salen a la luz"
+    medio: "CIPER Chile"
+    tipo: secundaria
+    fecha: 2016-04-04
+    consultado: 2026-10-19
+  - url: "https://offshoreleaks.icij.org/"
+    titulo: "ICIJ Offshore Leaks Database"
+    medio: "ICIJ"
+    tipo: primaria
+    consultado: 2026-10-19
+historial_correcciones:
+  - "Aparecer en Panama Papers no implica ilegalidad (CIPER 2016: 'aún no hay evidencias de ilegalidades'). No se encontró fuente para la actuación del SII/UAF ni para el RUC indicado."
 tags:
   - causa
   - panama-papers
@@ -27,7 +42,7 @@ tags:
 ## Síntesis Forense de la Causa
 Capítulo chileno de la filtración global **Panama Papers** (11,5 millones de documentos internos del bufete panameño **Mossack Fonseca**, procesados en abril de 2016 por **ICIJ**, el diario alemán *Süddeutsche Zeitung* y en Chile por **CIPER**), que dejó al descubierto cerca de **200 sociedades *offshore* vinculadas a empresarios, estudios jurídicos y figuras públicas chilenas** constituidas en paraísos fiscales como Panamá, Bahamas, Islas Vírgenes Británicas y Seychelles, agrupadas en el nodo [[Mossack Fonseca y Sociedades Offshore Panama]].
 
-Las cuatro aristas forenses principales acreditadas en Chile ([[Informe-ICIJ-SII-PanamaPapers-Chile-2016]]) son:
+Las cuatro aristas forenses principales acreditadas en Chile ([[Filtracion-ICIJ-PanamaPapers-Chile-2016]]) son:
 1. **Caída del Presidente de *Chile Transparente* y Estructuras Mineras en Bahamas (`Turnbrook / Andes Copper`)**: La filtración reveló que el abogado [[Gonzalo Delaveau Swett]] —quien hasta ese momento ejercía como **Presidente de *Chile Transparente*** (el capítulo chileno de Transparencia Internacional)— actuaba simultáneamente como agente e intermediario de [[Mossack Fonseca y Sociedades Offshore Panama]], gestionando y administrando al menos cinco sociedades *offshore* domiciliadas en Bahamas (*Turnbrook Corporation*, *DKL Holdings*, *Westquarter Limited*, *Mining Press Holdings* y *Turnbrook Mining Ltd.*) articuladas en torno al proyecto minero *Andes Copper* ([[TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01]]), lo que forzó su renuncia inmediata el 4 de abril de 2016.
 2. **Fundaciones Privadas y Sociedades de la Élite Empresarial (`Edwards / Ovalle / CPC`)**: Los registros de Mossack Fonseca documentaron la creación de las fundaciones de interés privado *Ashton Foundation* y *Kintyre Foundation* en Panamá por parte del propietario de *El Mercurio*, [[Agustin Edwards Eastman]], así como las sociedades *Sierra Leona S.A.* y *Railton Foundation* vinculadas al expresidente de la Confederación de la Producción y del Comercio (CPC) y de la SONAMI, [[Alfredo Ovalle Rodriguez]] ([[TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01]]).
 3. **Conexión con las Sociedades *Offshore* de Augusto Pinochet (`Caso Riggs`)**: Los archivos internos de [[Mossack Fonseca y Sociedades Offshore Panama]] confirmaron que el bufete panameño prestó servicios registrales a sociedades de papel en las Islas Vírgenes Británicas conectadas con la red fiduciaria de [[Riggs Bank y Sociedades Offshore Ashburton]], operada por [[Augusto Pinochet Ugarte]] y [[Oscar Aitken Lavanchy]] en el [[Caso Riggs]] ([[TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01]]).
@@ -46,4 +61,16 @@ TABLE WITHOUT ID
 FROM "03_Hechos_y_Nexos"
 WHERE contains(string(causa_vinculada), this.file.name)
 SORT fecha ASC
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```
