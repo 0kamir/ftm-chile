@@ -25,7 +25,7 @@ Panel central de inteligencia de fuentes abiertas (OSINT) y contabilidad forense
 > - [[Censo_Triadico_y_Motivos_Superiores]] — Clausura triádica ($\Delta$), **Lazos Fuertes de Simmel** y **Cuadrángulos Multi-Canal ($C_4$)**.
 > - [[Resistencia_Efectiva_y_Tiempos_de_Impacto]] — Pseudoinversa de Moore-Penrose ($L^+$), **Índice de Kirchhoff ($\Omega_{uv}$)** y **Constante de Kemeny ($K(G)$)**.
 > - [[Redes_Parentesco_y_Clanes_Familiares]] — Capa multiplex de parentesco (`vinculos_familiares`), **Clanes Dinásticos** (Piñera–Chadwick, Pinochet–Hiriart–Ponce Lerou, Lavín–Barriga) y atajos geodésicos ($\Delta d$).
-> - [[Auditoria_Desclasificaciones_Internacionales_Epstein]] — Desclasificaciones masivas DOJ (Corte SDNY), auditoría de menciones a ciudadanos chilenos y prevención de injurias.
+> - [[Menciones de Chilenos en Archivos Epstein]] — Anexo documental fuera del grafo: menciones reportadas por la prensa, sin imputación.
 > - [[Auditoria_Benford_y_Montos]] — Test estadístico de Ley de Benford y detección de montos redondos discrecionales (`$10M CLP`).
 > - [[Simulacion_Desarticulacion_Red]] — Simulación de percolación dirigida (*Key Player Problem*) y fragmentación de la red.
 > - [[Matriz_Partidos_y_Regiones]] — Distribución del perjuicio fiscal por Partido Político y por Región.

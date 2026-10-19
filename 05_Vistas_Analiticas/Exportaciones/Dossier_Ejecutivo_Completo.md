@@ -8,9 +8,9 @@ tags:
 
 # Dossier Ejecutivo Consolidado — Auditoría Forense de Corrupción en Chile
 
-- **Causas Penales Auditadas**: **33**
-- **Sujetos de Interés / Imputados**: **85**
-- **Aristas Reificadas (`TRX`)**: **68**
+- **Causas Penales Auditadas**: **32**
+- **Sujetos de Interés / Imputados**: **83**
+- **Aristas Reificadas (`TRX`)**: **65**
 - **Perjuicio / Flujo Global Consolidado**: **$669.122.093.990 CLP**
 
 ---
@@ -49,7 +49,6 @@ tags:
 | [[Caso Convenios]] | `2300674512-K` | 2023 | `formalizada` | [[Fraude al Fisco]] | Fiscalía Regional de Antofagasta / Juzgado de Garantía de Antofagasta |
 | [[Caso Megafraude Tributario Operacion Tributos]] | `RIT-13745-2023-1JG` | 2023 | `formalizada_con_prisiones_preventivas` | [[Delito Tributario]] | 1° Juzgado de Garantía de Santiago / Fiscalía Regional Metropolitana Occidente |
 | [[Caso Sierra Bella]] | `2300094812-3` | 2023 | `cerrada_sin_formalizacion` | [[Fraude al Fisco]] | Fiscalía Metropolitana Centro Norte (fiscal Patricio Cooper, luego fiscal regional de Coquimbo) / Contraloría General de la República |
-| [[Caso Archivos Epstein Menciones Chile]] | `15-CV-07433-LAP-SDNY` | 2024 | `descarte_procesal_sin_imputacion` | [[Trafico de Influencias]] | Corte de Distrito de EE.UU. para el Distrito Sur de Nueva York (SDNY) / Departamento de Justicia (DOJ) |
 | [[Caso Asignaciones Parlamentarias y Cuota Flores]] | `RUC-2500819421-2` | 2025 | `investigacion_desformalizada_con_allanamientos` | [[Fraude al Fisco]] | Juzgado de Garantía de Valparaíso / Unidad Regional Anticorrupción (URAC) Fiscalía de Valparaíso |
 | [[Caso Operaciones Digitales e Injerencia Electoral]] | `` | 2026 | `investigacion_desformalizada` | [[Fraude al Fisco]] | Fiscalía Regional Metropolitana Centro Norte / 7° Juzgado de Garantía de Santiago |
 
@@ -64,8 +63,7 @@ tags:
 | [[Alex Smith Leay]] | `` | Creador Civil del Software Antorcha y Asesor de Inteligencia de la UIOE / DIPOLCAR | Independiente | **`condenado`** | Condenado a 12 años de presidio efectivo por el TOP de Temuco (Falsificación de instrumento público y obstrucción a la investigación) — sentencia no firme: recursos de nulidad pendientes (2026) |
 | [[Alfredo Ovalle Rodriguez]] | `` | Empresario Minero, Ex Presidente de la CPC y Ex Presidente de la SONAMI | Independiente (Dirigente Gremial Empresarial) | **`testigo_clave`** | Fallecido en julio de 2021 (Incluido en las auditorías del SII por sociedades offshore en Panamá e Islas Vírgenes Británicas) |
 | [[Andres Chadwick Pinera]] | `` | Ex Ministro del Interior y Seguridad Pública (2012–2014 y 2018–2019), Ex Senador UDI y Socio de Comunidad de Oficina con Luis Hermosilla | [[Union Democrata Independiente]] | **`en_investigacion`** | Inhabilitado por 5 años para ejercer cargos públicos por el Senado (Acusación Constitucional 2019); imputado en aristas Parque Capital y nombramientos judiciales del Caso Audios |
-| [[Andres Velasco Branes]] | `` | Economista, Ex Ministro de Hacienda (2006–2010) y Decano de la Escuela de Políticas Públicas de LSE | Independiente (Ex precandidato presidencial y fundador de Fuerza Pública / Ciudadanos) | **`ninguna`** | Sin medidas cautelares ni procesos judiciales vigentes (Sobreseído definitivamente en Caso Penta; mención referencial de terceros en archivos Epstein sin contacto acreditado) |
-| [[Andronico Luksic Craig]] | `` | Empresario y Ex Presidente del Holding Quiñenco S.A. y Banco de Chile | Independiente | **`ninguna`** | Sin medidas cautelares ni procesos judiciales vigentes (Mención indirecta de terceros en archivos Epstein descartada sin contacto) |
+| [[Andronico Luksic Craig]] | `` | Empresario y Ex Presidente del Holding Quiñenco S.A. y Banco de Chile | Independiente | **`ninguna`** | Sin medidas cautelares ni procesos judiciales vigentes |
 | [[Angela Vivanco Martinez]] | `` | Ex Ministra de la Corte Suprema de Chile (2018-2024) | Independiente (Ex RN) | **`formalizado`** | Sujeta a investigación penal y destituida por cuaderno de remoción |
 | [[Augusto Pinochet Hiriart]] | `` | Ex Oficial de Ejército y Empresario (Receptor de los Pinocheques en Caso Valmoval) | Independiente | **`formalizado`** | Sin medidas cautelares vigentes (Procesado en Caso Riggs y Caso recepción de vehículos robados; beneficiario del cierre por razón de Estado en Caso Pinocheques) |
 | [[Augusto Pinochet Ugarte]] | `` | Ex Comandante en Jefe del Ejército de Chile y Jefe de la Junta Militar (1973–1990) | Militar / Dictadura Cívico-Militar (Respaldado políticamente por UDI y RN) | **`formalizado`** | Fallecido en diciembre de 2006 bajo arresto domiciliario y desafuero; patrimonio ilícito comisado por sentencia definitiva de la Corte Suprema en 2018 |
@@ -81,7 +79,6 @@ tags:
 | [[Claudio Spiniak Vilensky]] | `` | Empresario y Controlador de Inversiones El Bosque Ltda. (Gimnasio Go Fitness) | Independiente | **`condenado`** | Fallecido en marzo de 2026; había cumplido su condena (12 años, ratificada por la Corte Suprema en 2008) |
 | [[Daniel Andrade Schwarze]] | `` | Presidente y Representante Legal de Fundación Democracia Viva | [[Revolucion Democratica]] | **`formalizado`** | Arresto domiciliario total y arraigo nacional (previa prisión preventiva) |
 | [[Domingo Prieto Urrejola]] | `` | Ex Presidente y Representante Legal de Vita Deportes | Independiente | **`formalizado`** | Firma mensual y arraigo nacional (colaboración sustancial) |
-| [[Eduardo Guendelman Israel]] | `` | Doctor en Física Teórica y Profesor Emérito del Departamento de Física de la Universidad Ben-Gurión del Néguev | Independiente | **`ninguna`** | Sin medidas cautelares ni investigaciones penales vigentes (Correspondencia estrictamente académica para patrocinio científico no materializado) |
 | [[Eliodoro Matte Larrain]] | `` | Ex Presidente del Directorio de Empresas CMPC S.A. y Patriarca del Grupo Matte | Independiente (Vinculado a centros de pensamiento de centroderecha / CEP) | **`descarte_procesal_sin_imputacion`** | Renuncia obligada a la presidencia de CMPC en abril de 2016 tras estallar el Cartel del Confort |
 | [[Felipe Sanchez Perez]] | `` | Representante Legal y Controlador de Inmobiliaria San Valentino SpA | Independiente | **`ninguna`** | Sin cargos: la Fiscalía decidió no perseverar en la investigación (26-05-2025); nunca fue formalizado/a |
 | [[Fernando Cerimedo]] | `` | Consultor de Comunicación Digital, Fundador de Numen y La Derecha Diario | Independiente / Estratega Digital de Derecha Radical | **`investigado`** | Indiciado por la Policía Federal de Brasil (nov-2024) sin ser acusado por la PGR; investigado en Chile por la Fiscalía Centro Norte (sin formalización) |
@@ -179,16 +176,13 @@ tags:
 | [[TRX-2012-03-22-Fraude-Residuos-CerroNavia-01]] | 2012-03-22 | `trato_directo` | [[Municipalidad de Cerro Navia]] | [[KDM Empresas SA]] | [[Luis Plaza Sanchez]] | [[Marcelo Torres Ferrari]] | **$1.120.000.000** | [[Caso Basura]] |
 | [[TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01]] | 2012-07-11 | `cohecho` | [[Corpesca SA]] | [[Senado de la Republica de Chile]] | [[Francisco Mujica Ortuzar]] | [[Jaime Orpis Bouchon]] | **$233.000.000** | [[Caso Corpesca]] |
 | [[TRX-2012-11-20-Inversion-Offshore-Bancard-Exalmar-LaHaya-01]] | 2012-11-20 | `gestion_influencia` | [[Bancard Inversiones Ltda]] | [[Contraloria General de la Republica]] | [[Sebastian Pinera Echenique]] | [[Santiago Valdes Gutierrez]] | **$8.250.000.000** | [[Caso Exalmar y Fideicomiso Ciego]] |
-| [[TRX-2013-05-20-Mencion-Referencial-Epstein-Dannatt-Velasco-01]] | 2013-05-20 | `correo_electronico` | [[Corte Suprema de Chile]] | [[Corte Suprema de Chile]] | [[Andres Velasco Branes]] | [[Andres Velasco Branes]] | **$0** | [[Caso Archivos Epstein Menciones Chile]] |
 | [[TRX-2013-07-15-Boletas-Falsas-Penta-UDI-01]] | 2013-07-15 | `factura_falsa` | [[Empresas Penta SA]] | [[Union Democrata Independiente]] | [[Carlos Alberto Delano Abbott]] | [[Pablo Longueira Montes]] | **$1.260.000.000** | [[Caso Penta]] |
 | [[TRX-2013-09-20-Boletas-Falsas-Penta-Novoa-01]] | 2013-09-20 | `factura_falsa` | [[Empresas Penta SA]] | [[Union Democrata Independiente]] | [[Carlos Alberto Delano Abbott]] | [[Jovino Novoa Vasquez]] | **$156.000.000** | [[Caso Penta]] |
 | [[TRX-2014-02-18-Soborno-Caval-Machali-01]] | 2014-02-18 | `cohecho_soborno` |  | [[Municipalidad de Machali]] |  | [[Jorge Silva Menares]] | **$55.030.792** | [[Caso Caval]] |
 | [[TRX-2014-05-20-Facturas-LeyReservadaCobre-01]] | 2014-05-20 | `transferencia` | [[Comando de Apoyo a la Fuerza del Ejercito]] | [[Frasim Ltda]] | [[Juan Miguel Fuente-Alba Poblete]] | [[Jozo Santic Palomino]] | **$6.100.000.000** | [[Caso Milicogate]] |
 | [[TRX-2015-01-29-Facturas-Falsas-Caval-SII-01]] | 2015-01-29 | `factura_falsa` | [[Exportadora y de Gestion Caval Ltda]] | [[Servicio Impuestos Internos]] | [[Natalia Compagnon Soto]] | [[Natalia Compagnon Soto]] | **$2.500.000.000** | [[Caso Caval]] |
-| [[TRX-2015-08-10-Contacto-Academico-Patrocinio-Guendelman-Epstein-01]] | 2015-08-10 | `solicitud_patrocinio` | [[Corte Suprema de Chile]] | [[Corte Suprema de Chile]] | [[Eduardo Guendelman Israel]] | [[Eduardo Guendelman Israel]] | **$0** | [[Caso Archivos Epstein Menciones Chile]] |
 | [[TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01]] | 2015-08-14 | `desviacion_fondos` | [[Comando de Apoyo a la Fuerza del Ejercito]] | [[Unidad de Analisis Financiero]] | [[Juan Miguel Fuente-Alba Poblete]] | [[Javier Cruz Tamburrino]] | **$3.500.000.000** | [[Caso Milicogate]] |
 | [[TRX-2015-10-29-Pago-Multas-Historicas-Cartel-Pollos-01]] | 2015-10-29 | `compensacion_reparatoria` | [[Agrosuper SA]] | [[Corte Suprema de Chile]] | [[Gonzalo Vial Vial]] | [[Manuel Ariztia Ruiz]] | **$38.400.000.000** | [[Caso Colusion de los Pollos]] |
-| [[TRX-2015-11-14-Mencion-Indirecta-Epstein-BinSulayem-Luksic-01]] | 2015-11-14 | `consulta_terceros` | [[Corte Suprema de Chile]] | [[Corte Suprema de Chile]] | [[Andronico Luksic Craig]] | [[Andronico Luksic Craig]] | **$0** | [[Caso Archivos Epstein Menciones Chile]] |
 | [[TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01]] | 2016-04-03 | `gestion_influencia` | [[Mossack Fonseca y Sociedades Offshore Panama]] | [[Servicio Impuestos Internos]] | [[Gonzalo Delaveau Swett]] | [[Carlos Pavez Tolosa]] | **$14.200.000.000** | [[Caso Panama Papers Chile]] |
 | [[TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01]] | 2016-04-05 | `desviacion_fondos` | [[Mossack Fonseca y Sociedades Offshore Panama]] | [[Unidad de Analisis Financiero]] | [[Agustin Edwards Eastman]] | [[Alfredo Ovalle Rodriguez]] | **$19.500.000.000** | [[Caso Panama Papers Chile]] |
 | [[TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01]] | 2016-04-15 | `desviacion_fondos` | [[Mossack Fonseca y Sociedades Offshore Panama]] | [[Riggs Bank y Sociedades Offshore Ashburton]] | [[Oscar Aitken Lavanchy]] | [[Augusto Pinochet Ugarte]] | **$3.800.000.000** | [[Caso Panama Papers Chile]] |

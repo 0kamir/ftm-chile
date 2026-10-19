@@ -18,11 +18,11 @@ tags:
 
 ## 1. Métricas Globales del Censo de Motivos
 
-- **Nodos Operativos Activos ($|V|$)**: `236`
-- **2-Caminos Abiertos (*Wedges* $\wedge$)**: `1321`
+- **Nodos Operativos Activos ($|V|$)**: `229`
+- **2-Caminos Abiertos (*Wedges* $\wedge$)**: `1276`
 - **Triángulos Cerrados ($|\Delta|$)**: **`64`**
-- **Índice de Transitividad Global ($T = 3|\Delta| / |\wedge|$)**: **`0.1453`**
-- **Coeficiente de Clustering Local Promedio ($\bar{C}$)**: **`0.2447`**
+- **Índice de Transitividad Global ($T = 3|\Delta| / |\wedge|$)**: **`0.1505`**
+- **Coeficiente de Clustering Local Promedio ($\bar{C}$)**: **`0.2522`**
 - **Aristas Simmelianas (con incrustación $|N(u) \cap N(v)| \ge 1$)**: `164`
 - **Pares de Actores en Cuadrángulos Multi-Canal ($C_4$)**: **`54`**
 
