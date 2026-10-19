@@ -4,7 +4,7 @@ ruc: "2300094812-3"
 año_inicio: 2023
 tribunal_o_fiscalia: "Fiscalía Metropolitana Centro Norte (fiscal Patricio Cooper, luego fiscal regional de Coquimbo) / Contraloría General de la República"
 fiscal_a_cargo: "Patricio Cooper Monti"
-estado_judicial: cerrada_sin_formalizacion
+estado_judicial: sobreseida_con_nueva_querella
 delito_principal: "[[Fraude al Fisco]]"
 estado_verificacion: verificado
 fuentes:
@@ -31,6 +31,23 @@ fuentes:
     medio: "24 Horas"
     tipo: secundaria
     fecha: 2025-05-26
+    consultado: 2026-10-19
+  - url: "https://www.latercera.com/nacional/noticia/sierra-bella-ningun-querellante-pidio-reapertura-y-se-cierra-el-telon-del-caso-para-iraci-hassler/"
+    titulo: "Sierra Bella: ningún querellante pidió reapertura y se cierra el telón del caso para Irací Hassler"
+    medio: "La Tercera"
+    tipo: secundaria
+    consultado: 2026-10-19
+  - url: "https://www.elmostrador.cl/noticias/pais/2026/06/04/tribunal-admite-querella-de-santiago-contra-iraci-hassler-por-fraude-al-fisco/"
+    titulo: "Tribunal admite querella de Santiago contra Irací Hassler por fraude al fisco"
+    medio: "El Mostrador"
+    tipo: secundaria
+    fecha: 2026-06-04
+    consultado: 2026-10-19
+  - url: "https://www.biobiochile.cl/noticias/nacional/region-metropolitana/2026/06/05/desbordes-tras-querella-contra-hassler-por-caso-sierra-bella-el-informe-de-contraloria-es-muy-duro.shtml"
+    titulo: "Desbordes tras querella contra Hassler por caso Sierra Bella: 'El informe de Contraloría es muy duro'"
+    medio: "BioBioChile"
+    tipo: secundaria
+    fecha: 2026-06-05
     consultado: 2026-10-19
 tags:
   - causa
@@ -65,6 +82,9 @@ FROM "03_Hechos_y_Nexos"
 WHERE contains(string(causa_vinculada), this.file.name)
 SORT fecha ASC
 ```
+
+## Desarrollo Judicial Posterior
+En mayo de 2025 la Fiscalía decidió no perseverar y la causa quedó con sobreseimiento definitivo, confirmado por la Corte Suprema; Hassler nunca fue formalizada. En mayo de 2026 un sumario de la Contraloría dio por acreditada su responsabilidad administrativa en la compra. En junio de 2026 el 7° Juzgado de Garantía de Santiago declaró admisible una nueva querella de la Municipalidad de Santiago por fraude al fisco, que el Ministerio Público debe evaluar; Hassler sostiene que se trata de hechos ya juzgados y querelló por denuncia calumniosa contra el alcalde Mario Desbordes, acción que el tribunal también admitió. Rige la presunción de inocencia.
 
 ## Fuentes Verificables
 ```dataview

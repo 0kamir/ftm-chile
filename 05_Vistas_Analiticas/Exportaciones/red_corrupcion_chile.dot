@@ -285,7 +285,6 @@ digraph RedCorrupcionChile {
   "Flujo_Incorporacion_Informacion" [label="Flujo_Incorporacion_Informacion", shape=box, style=filled, fillcolor="#334155", fontcolor="#ffffff"];
   "Violacion de Secreto" [label="Violacion de Secreto", shape=octagon, style=filled, fillcolor="#9f1239", fontcolor="#ffffff"];
   "Asociacion Ilicita" [label="Asociacion Ilicita", shape=octagon, style=filled, fillcolor="#9f1239", fontcolor="#ffffff"];
-  "Andronico Luksic Craig" [label="Andronico Luksic Craig", shape=ellipse, style=filled, fillcolor="#1e40af", fontcolor="#ffffff"];
   "Bruno Villalobos Krumm" [label="Bruno Villalobos Krumm", shape=ellipse, style=filled, fillcolor="#1e40af", fontcolor="#ffffff"];
   "Jose Antonio Pavez Canessa" [label="Jose Antonio Pavez Canessa", shape=ellipse, style=filled, fillcolor="#1e40af", fontcolor="#ffffff"];
   "Juan Victor Galaz Rojas" [label="Juan Victor Galaz Rojas", shape=ellipse, style=filled, fillcolor="#1e40af", fontcolor="#ffffff"];
@@ -293,6 +292,7 @@ digraph RedCorrupcionChile {
   "Olga Paz Barraza Quezada" [label="Olga Paz Barraza Quezada", shape=ellipse, style=filled, fillcolor="#1e40af", fontcolor="#ffffff"];
   "Osvaldo Mario Luis Sacco Croxatto" [label="Osvaldo Mario Luis Sacco Croxatto", shape=ellipse, style=filled, fillcolor="#1e40af", fontcolor="#ffffff"];
   "Ximena Tavitxa Jimenez Farias" [label="Ximena Tavitxa Jimenez Farias", shape=ellipse, style=filled, fillcolor="#1e40af", fontcolor="#ffffff"];
+  "Andronico Luksic Craig" [label="Andronico Luksic Craig", shape=ellipse, style=filled, fillcolor="#1e40af", fontcolor="#ffffff"];
   "Direccion ChileCompra" [label="Direccion ChileCompra", shape=box, style="filled,rounded", fillcolor="#15803d", fontcolor="#ffffff"];
   "Banco de Chile" [label="Banco de Chile", shape=component, style=filled, fillcolor="#c2410c", fontcolor="#ffffff"];
   "Farmacias Ahumada SA" [label="Farmacias Ahumada SA", shape=component, style=filled, fillcolor="#c2410c", fontcolor="#ffffff"];
