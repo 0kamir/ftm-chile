@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_privada
-rut: "91.533.000-2"
+rut: ""
 razon_social: "Empresas Ariztía S.A."
 fecha_constitucion: 1960-03-15
 objeto_social: "Crianza, faenamiento, elaboración y comercialización de aves, cecinas, quesos y productos agrícolas"

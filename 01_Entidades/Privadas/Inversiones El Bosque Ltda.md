@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_privada
-rut: "77.412.890-5"
+rut: ""
 razon_social: "Inversiones y Centro de Eventos El Bosque Limitada (Go Fitness)"
 fecha_constitucion: 1998-04-14
 objeto_social: "Inversiones inmobiliarias, administración de centros deportivos, gimnasios, estética y eventos"

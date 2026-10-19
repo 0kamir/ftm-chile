@@ -1,10 +1,19 @@
 ---
 tipo_nodo: entidad_privada
-rut: "96.522.000-3"
+rut: "76.129.263-3"
 razon_social: "Agrosuper S.A."
 fecha_constitucion: 1955-08-10
 objeto_social: "Producción, procesamiento, faenamiento, distribución y exportación de productos cárnicos (pollo, cerdo, pavo y salmón)"
 representante_legal: "José Guzmán Vial"
+estado_verificacion: parcial
+fuentes:
+  - url: "https://www.agrosuper.com/inversionistas/wp-content/uploads/2023/02/Reporte-Integrado-Agrosuper-2024-v29_17_06.pdf"
+    titulo: "Reporte Integrado Agrosuper 2024 (identificación de la sociedad)"
+    medio: "Agrosuper S.A."
+    tipo: primaria
+    consultado: 2026-10-19
+historial_correcciones:
+  - "RUT corregido el 2026-10-19: el vault registraba 96.522.000-3, que no corresponde a la empresa; el RUT verificado es 76.129.263-3."
 tags:
   - entidad/privada
   - agrosuper
@@ -38,4 +47,16 @@ TABLE WITHOUT ID
 FROM "03_Hechos_y_Nexos"
 WHERE contains(string(entidad_origen), this.file.name) OR contains(string(entidad_destino), this.file.name)
 SORT fecha ASC
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  elink(f.url, f.titulo) AS "Fuente",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```

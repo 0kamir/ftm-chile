@@ -1,6 +1,6 @@
 ---
 tipo_nodo: causa_judicial
-ruc: "1601012894-2"
+ruc: ""
 año_inicio: 2016
 tribunal_o_fiscalia: "Fiscalía Regional de Magallanes / 7° Juzgado de Garantía de Santiago / 4° TOP de Santiago"
 fiscal_a_cargo: "Eugenio Campos Lucero"

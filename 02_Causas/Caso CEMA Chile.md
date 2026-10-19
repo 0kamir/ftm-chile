@@ -1,6 +1,6 @@
 ---
 tipo_nodo: causa_judicial
-ruc: "1600341250-8"
+ruc: ""
 año_inicio: 2016
 tribunal_o_fiscalia: "Corte de Apelaciones de Santiago / 34° Juzgado del Crimen de Santiago / Consejo de Defensa del Estado (Rol 34.125-2016)"
 fiscal_a_cargo: "Ministro en Visita Guillermo de la Barra Dünner / Consejo de Defensa del Estado"

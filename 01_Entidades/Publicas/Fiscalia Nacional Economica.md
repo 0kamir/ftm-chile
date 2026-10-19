@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_publica
-rut: "61.202.000-0"
+rut: ""
 categoria: Servicio Público Autónomo
 region: "Nacional (Sede Santiago)"
 superior_jerarquico: "Ministerio de Economía, Fomento y Turismo (Supervigilancia)"

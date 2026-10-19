@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_publica
-rut: "60.506.000-5"
+rut: ""
 categoria: Policía
 region: "Nacional / Macrozona Sur (UIOE Temuco)"
 superior_jerarquico: "Carabineros de Chile / Ministerio del Interior y Seguridad Pública"

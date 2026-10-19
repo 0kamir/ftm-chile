@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_privada
-rut: "76.195.420-2"
+rut: ""
 razon_social: "Exportadora y de Gestión Caval Limitada"
 fecha_constitucion: "2012-02-03"
 objeto_social: "Asesorías comerciales, gestión inmobiliaria, inversiones y consultoría estratégica"

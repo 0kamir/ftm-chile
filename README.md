@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/Grafo-Reificado-blue.svg?style=for-the-badge&logo=obsidian" alt="Obsidian Reified Graph" />
   <img src="https://img.shields.io/badge/Estándar-OCCRP%20Aleph%20%7C%20ICIJ-orange.svg?style=for-the-badge" alt="OCCRP / ICIJ Standard" />
   <img src="https://img.shields.io/badge/Tests-24%2F24%20Passing-brightgreen.svg?style=for-the-badge&logo=pytest" alt="Tests 24/24" />
-  <img src="https://img.shields.io/badge/RUTs%20Módulo%2011-62%20Validados-purple.svg?style=for-the-badge" alt="RUTs Modulo 11" />
+  <img src="https://img.shields.io/badge/RUTs%20verificados-8%20con%20fuente-purple.svg?style=for-the-badge" alt="RUTs Modulo 11" />
   <img src="https://img.shields.io/badge/Monto%20Auditado-$669.122%20M%20CLP-red.svg?style=for-the-badge" alt="Monto CLP" />
 </p>
 
@@ -146,7 +146,7 @@ Cada transacción o reunión constituye una nota independiente con metadatos con
 | Métrica Pericial | Valor Auditado | Verificación |
 | :--- | :---: | :--- |
 | **Notas Indexadas en Markdown** | **327** | Esquema estricto con metadatos YAML |
-| **RUTs Chilenos Validados** | **62** | RUT de empresas y organismos (Módulo 11); no se publican RUT de personas |
+| **RUTs de Empresas Verificados** | **8** | Solo RUT con fuente (registro SII o documento oficial); no se publican RUT de personas |
 | **Aristas Reificadas (`TRX`)** | **65** | Flujos transaccionales y nexos documentados |
 | **Macro-Causas Judiciales y Carteles** | **32** | Causas activas y ejecutoriadas |
 | **Monto Financiero Consolidado** | **$669.122.093.990 CLP** | Auditoría contable automatizada |

@@ -1,6 +1,6 @@
 ---
 tipo_nodo: causa_judicial
-ruc: "1300589410-8"
+ruc: ""
 año_inicio: 2013
 tribunal_o_fiscalia: "Fiscalía de Alta Complejidad Centro Norte / 3° TOP de Santiago"
 fiscal_a_cargo: "Ximena Chong / Jaime Retamal"

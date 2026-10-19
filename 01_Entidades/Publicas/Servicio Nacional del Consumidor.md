@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_publica
-rut: "60.805.000-0"
+rut: ""
 categoria: Servicio Público Descentralizado
 region: "Nacional (Sede Santiago)"
 superior_jerarquico: "Ministerio de Economía, Fomento y Turismo"

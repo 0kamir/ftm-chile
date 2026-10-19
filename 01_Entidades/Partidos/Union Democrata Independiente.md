@@ -1,6 +1,6 @@
 ---
 tipo_nodo: partido_politico
-rut: "65.008.910-3"
+rut: ""
 sigla: "UDI"
 fecha_fundacion: "1983-09-24"
 coalicion: "Chile Vamos"

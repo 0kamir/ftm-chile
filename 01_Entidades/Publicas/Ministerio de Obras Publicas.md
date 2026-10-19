@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_publica
-rut: "61.202.000-0"
+rut: ""
 categoria: Ministerio
 region: "Metropolitana de Santiago (Alcance Nacional)"
 superior_jerarquico: "Presidencia de la República de Chile"

@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_privada
-rut: "65.184.310-3"
+rut: ""
 razon_social: "Fundación En Ti"
 fecha_constitucion: "2018-05-14"
 objeto_social: "Capacitación comunitaria, desarrollo social y apoyo barrial"

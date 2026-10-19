@@ -1,6 +1,6 @@
 ---
 tipo_nodo: causa_judicial
-ruc: "2300674512-K"
+ruc: ""
 año_inicio: 2023
 tribunal_o_fiscalia: "Fiscalía Regional de Antofagasta / Juzgado de Garantía de Antofagasta"
 fiscal_a_cargo: "Juan Castro Bekios / Cristian Aguilar"

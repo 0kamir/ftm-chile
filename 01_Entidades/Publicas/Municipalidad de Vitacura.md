@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_publica
-rut: "69.254.900-7"
+rut: ""
 categoria: Municipio
 region: "Metropolitana de Santiago"
 superior_jerarquico: "Concejo Municipal de Vitacura (Autónoma)"

@@ -1,6 +1,6 @@
 ---
 tipo_nodo: causa_judicial
-ruc: "2100912845-3"
+ruc: ""
 año_inicio: 2021
 tribunal_o_fiscalia: "Fiscalía Nacional / Fiscalía Regional de Valparaíso / 7° Juzgado de Garantía de Santiago / Cámara de Diputados"
 fiscal_a_cargo: "Claudia Perivancich Hoyuelos (Fiscal Regional de Valparaíso) / Manuel Guerra Fuenzalida (Arista 2017)"

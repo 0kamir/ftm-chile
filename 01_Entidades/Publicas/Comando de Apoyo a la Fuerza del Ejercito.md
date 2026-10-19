@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_publica
-rut: "61.101.000-1"
+rut: ""
 categoria: Ministerio
 region: "Nacional (Sede Santiago)"
 superior_jerarquico: "Ejército de Chile / Ministerio de Defensa Nacional"

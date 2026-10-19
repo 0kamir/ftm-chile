@@ -1,6 +1,6 @@
 ---
 tipo_nodo: causa_judicial
-ruc: "1600403190-5"
+ruc: ""
 año_inicio: 2016
 tribunal_o_fiscalia: "Servicio de Impuestos Internos (Subdirección de Fiscalización Internacional) / Unidad de Análisis Financiero / Fiscalía Nacional"
 fiscal_a_cargo: "Subdirección de Fiscalización SII / Unidad Especializada Anticorrupción y Lavado de Activos (UNAC)"

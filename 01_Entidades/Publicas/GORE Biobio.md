@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_publica
-rut: "72.260.900-K"
+rut: ""
 categoria: GORE
 region: "Biobío (VIII Región)"
 superior_jerarquico: "Gobierno Regional del Biobío (Autónomo)"

@@ -5,6 +5,13 @@ razon_social: "Corpesca S.A."
 fecha_constitucion: "1999-11-05"
 objeto_social: "Pesca industrial extractiva, producción de harina y aceite de pescado"
 representante_legal: "[[Francisco Mujica Ortuzar]]"
+estado_verificacion: parcial
+fuentes:
+  - url: "https://snifa.sma.gob.cl/General/Descargar/1104217912"
+    titulo: "Expediente de fiscalización con RUT de Corpesca S.A."
+    medio: "Superintendencia del Medio Ambiente"
+    tipo: primaria
+    consultado: 2026-10-19
 tags:
   - entidad/privada
   - pesquera
@@ -37,4 +44,16 @@ TABLE WITHOUT ID
 FROM "03_Hechos_y_Nexos"
 WHERE contains(string(entidad_destino), this.file.name) OR contains(string(entidad_origen), this.file.name)
 SORT fecha DESC
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  elink(f.url, f.titulo) AS "Fuente",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```

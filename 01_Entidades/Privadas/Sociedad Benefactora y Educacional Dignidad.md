@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_privada
-rut: "70.145.820-6"
+rut: ""
 razon_social: "Sociedad Benefactora y Educacional Dignidad (Holding Villa Baviera / Cerro Florido S.A.)"
 fecha_constitucion: 1961-09-20
 objeto_social: "Beneficencia, educación, asistencia médica y explotación agrícola, forestal, industrial e inmobiliaria"

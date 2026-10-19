@@ -1,10 +1,19 @@
 ---
 tipo_nodo: entidad_privada
-rut: "96.677.000-7"
+rut: "89.807.200-2"
 razon_social: "Farmacias Cruz Verde S.A. (Socofar)"
 fecha_constitucion: 1984-01-05
 objeto_social: "Distribución, droguería, importación y venta al por menor de medicamentos e insumos médicos"
 representante_legal: "Eduardo Castillo Castillo"
+estado_verificacion: parcial
+fuentes:
+  - url: "https://www.portalchile.org/empresa/farmacias-cruz-verde-spa-89807200"
+    titulo: "Registro de RUT: Farmacias Cruz Verde"
+    medio: "PortalChile (datos SII)"
+    tipo: secundaria
+    consultado: 2026-10-19
+historial_correcciones:
+  - "RUT corregido el 2026-10-19: el vault registraba 96.677.000-7, que no corresponde a la empresa; el RUT verificado es 89.807.200-2."
 tags:
   - entidad/privada
   - farmacias
@@ -38,4 +47,16 @@ TABLE WITHOUT ID
 FROM "03_Hechos_y_Nexos"
 WHERE contains(string(entidad_origen), this.file.name) OR contains(string(entidad_destino), this.file.name)
 SORT fecha ASC
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  elink(f.url, f.titulo) AS "Fuente",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```

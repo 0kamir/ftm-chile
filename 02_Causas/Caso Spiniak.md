@@ -1,6 +1,6 @@
 ---
 tipo_nodo: causa_judicial
-ruc: "0300932700-3"
+ruc: ""
 año_inicio: 2003
 tribunal_o_fiscalia: "33° Juzgado del Crimen de Santiago / Corte de Apelaciones de Santiago / Corte Suprema de Chile (Causa Rol 9.327-2003)"
 fiscal_a_cargo: "Ministro en Visita Sergio Muñoz Gajardo (tras inhabilitación de Juez Daniel Calvo Flores)"

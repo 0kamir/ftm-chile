@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_privada
-rut: "76.128.490-8"
+rut: ""
 razon_social: "Andes Iron SpA (Titular del Proyecto Minero-Portuario Dominga)"
 fecha_constitucion: 2010-08-05
 objeto_social: "Exploración, explotación minera de hierro y cobre, y desarrollo de infraestructura portuaria y desaladora en La Higuera"

@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_publica
-rut: "60.201.000-7"
+rut: ""
 categoria: Ministerio
 region: "Valparaíso (V Región) / Nacional"
 superior_jerarquico: "Congreso Nacional de Chile (Poder Legislativo)"

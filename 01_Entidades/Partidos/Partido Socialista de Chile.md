@@ -1,6 +1,6 @@
 ---
 tipo_nodo: partido_politico
-rut: "65.014.320-5"
+rut: ""
 sigla: "PS"
 fecha_fundacion: "1933-04-19"
 coalicion: "Socialismo Democrático (ex Concertación)"

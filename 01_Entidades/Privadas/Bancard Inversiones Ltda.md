@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_privada
-rut: "96.582.410-3"
+rut: ""
 razon_social: "Bancard Inversiones Limitada / Bancard International Investment Inc. (BVI) / Inversiones Santa Cecilia S.A."
 fecha_constitucion: 1989-11-14
 objeto_social: "Family office, sociedades de inversión bursátil, capital privado y vehículos offshore en Islas Vírgenes Británicas y Luxemburgo"

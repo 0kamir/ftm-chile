@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_privada
-rut: "76.284.190-8"
+rut: ""
 razon_social: "Itelecom Holding Chile SpA"
 fecha_constitucion: "2013-07-22"
 objeto_social: "Ingeniería eléctrica, eficiencia energética, telegestión y alumbrado público LED"

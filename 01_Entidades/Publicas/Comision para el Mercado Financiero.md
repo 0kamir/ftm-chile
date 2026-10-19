@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_publica
-rut: "60.819.000-7"
+rut: ""
 categoria: Servicio Público Fiscalizador Autónomo
 region: "Metropolitana de Santiago (Alcance Nacional)"
 superior_jerarquico: "Consejo de la Comisión para el Mercado Financiero (Relación vía Ministerio de Hacienda)"

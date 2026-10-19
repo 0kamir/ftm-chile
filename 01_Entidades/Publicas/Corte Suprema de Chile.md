@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_publica
-rut: "60.301.000-0"
+rut: ""
 categoria: Poder Judicial
 region: "Nacional (Sede Santiago)"
 superior_jerarquico: "Corte Suprema de Justicia (Órgano Autónomo Constitucional)"

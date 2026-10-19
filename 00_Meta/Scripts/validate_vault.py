@@ -204,6 +204,10 @@ def main(estricto: bool = False) -> int:
                 errors.append(
                     f"[{rel_path}] No se publica el RUT de personas naturales (dato personal): dejar rut vacío."
                 )
+            elif meta.get("rut") and not meta.get("fuentes"):
+                errors.append(
+                    f"[{rel_path}] RUT sin fuente que lo respalde: agregar la fuente o dejar rut vacío."
+                )
             elif "rut" in meta and meta["rut"]:
                 rut_val = str(meta["rut"])
                 if not validar_rut_chileno(rut_val):

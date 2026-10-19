@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_publica
-rut: "69.070.100-6"
+rut: ""
 categoria: Municipio
 region: "Metropolitana de Santiago"
 superior_jerarquico: "Concejo Municipal de Santiago (Autónoma)"

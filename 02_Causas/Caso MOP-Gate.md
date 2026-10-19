@@ -1,6 +1,6 @@
 ---
 tipo_nodo: causa_judicial
-ruc: "0300148920-1"
+ruc: ""
 año_inicio: 2003
 tribunal_o_fiscalia: "3° Juzgado del Crimen de Santiago / Ministra en Visita Gloria Ana Chevesich / Corte Suprema"
 fiscal_a_cargo: "Gloria Ana Chevesich Ruiz (Ministra en Visita Extraordinaria)"

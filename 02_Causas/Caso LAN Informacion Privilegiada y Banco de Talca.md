@@ -1,6 +1,6 @@
 ---
 tipo_nodo: causa_judicial
-ruc: "0600306114-2"
+ruc: ""
 año_inicio: 2006
 tribunal_o_fiscalia: "Superintendencia de Valores y Seguros (CMF) / Corte de Apelaciones de Santiago / Corte Suprema de Chile"
 fiscal_a_cargo: "Superintendencia de Valores y Seguros (Resolución Exenta N° 306-2007) / Ministro Luis Correa Bulo (Causa Banco de Talca 1982)"

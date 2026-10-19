@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_privada
-rut: "59.301.420-7"
+rut: ""
 razon_social: "Central Intelligence Agency (Comité 40 / Proyecto FUBELT) & U.S. Army School of the Americas (SOA)"
 fecha_constitucion: 1947-09-18
 objeto_social: "Operaciones de inteligencia exterior, acción política/económica encubierta y adiestramiento militar contrainsurgente (Fort Gulick, Panamá)"

@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_privada
-rut: "65.089.120-1"
+rut: ""
 razon_social: "Consejo Local de Deportes Vitacura (Vita Deportes)"
 fecha_constitucion: "2001-06-12"
 objeto_social: "Fomento del deporte comunal y administración de recintos deportivos en Vitacura"

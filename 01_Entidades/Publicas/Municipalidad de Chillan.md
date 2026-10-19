@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_publica
-rut: "69.140.900-7"
+rut: ""
 categoria: Municipio
 region: "Ñuble (XVI Región)"
 superior_jerarquico: "Concejo Municipal de Chillán (Autónoma)"

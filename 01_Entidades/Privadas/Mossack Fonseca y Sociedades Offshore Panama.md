@@ -1,6 +1,6 @@
 ---
 tipo_nodo: entidad_privada
-rut: "59.214.830-7"
+rut: ""
 razon_social: "Mossack Fonseca & Co. y Red de 200 Sociedades Offshore Chilenas (Turnbrook Corp. / Ashton Foundation / Sierra Leona S.A.)"
 fecha_constitucion: 1977-03-18
 objeto_social: "Servicios jurídicos fiduciarios, incorporación de sociedades offshore y fundaciones de interés privado en Panamá, Bahamas e Islas Vírgenes Británicas"
