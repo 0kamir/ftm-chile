@@ -3,8 +3,8 @@ tipo_nodo: nexo_transaccion
 id_transaccion: "TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-CIA-01"
 fecha: 1972-10-12
 tipo_nexo: gestion_influencia
-monto_clp: 14800000000
-monto_origen: no_verificado
+monto_clp: 0
+monto_origen: sin_monto
 metodo_adjudicacion: trato_directo
 entidad_origen: "[[Agencia Central de Inteligencia CIA y Escuela de las Americas]]"
 entidad_destino: "[[Comando de Apoyo a la Fuerza del Ejercito]]"
@@ -13,6 +13,8 @@ firmante_destino: "[[Augusto Pinochet Ugarte]]"
 delito_imputado: "[[Trafico de Influencias]]"
 causa_vinculada: "[[Caso Operacion FUBELT Intervencion CIA y DINA]]"
 evidencia_soporte: "[[Informe-Comision-Church-1975-y-Hinchey-CIA-2000]]"
+historial_correcciones:
+  - "2026-10-19: monto_clp $14.800.000.000 llevado a 0; la cifra no aparece en ninguna fuente verificable."
 tags:
   - nexo/gestion-influencia
   - proyecto-fubelt
@@ -37,4 +39,8 @@ tags:
 - **Evidencia de Soporte**: `= this.evidencia_soporte`
 
 ## Descripción del Hecho
+
+> [!NOTE] Monto sin respaldo
+> Las cifras en pesos mencionadas en esta nota no aparecen en ninguna fuente verificable y no se contabilizan en los totales del vault (antes: $14.800.000.000 CLP).
+
 Canalización de más de **US$ 6 millones** adicionales de fondos secretos de la [[Agencia Central de Inteligencia CIA y Escuela de las Americas]] (equivalentes actualizados a **$14.800.000.000 CLP**) entre 1970 y septiembre de 1973 hacia organizaciones políticas opositoras, medios de comunicación y entidades gremiales del sector privado chileno. Según dejó establecido el **Informe de la Comisión Church del Senado de EE.UU. (1975)** ([[Informe-Comision-Church-1975-y-Hinchey-CIA-2000]]), pese a que la agencia estadounidense sabía que las organizaciones empresariales y gremiales receptoras estaban transfiriendo recursos para sostener las huelgas patronales y los **paros de la Confederación de Dueños de Camiones** de octubre de 1972 y de mediados de 1973 (que paralizaron el abastecimiento nacional de alimentos y combustibles), la CIA continuó inyectando liquidez en dólares en el mercado negro para profundizar el colapso económico previo al golpe de Estado encabezado por [[Augusto Pinochet Ugarte]].

@@ -977,7 +977,7 @@
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
-        "schema:value": 9500000000
+        "schema:value": 0
       },
       "osint:entidadOrigen": {
         "@id": "urn:cl-osint:node:Agencia_Central_de_Inteligencia_CIA_y_Escuela_de_las_Americas"
@@ -1002,7 +1002,7 @@
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
-        "schema:value": 14800000000
+        "schema:value": 0
       },
       "osint:entidadOrigen": {
         "@id": "urn:cl-osint:node:Agencia_Central_de_Inteligencia_CIA_y_Escuela_de_las_Americas"
@@ -1027,7 +1027,7 @@
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
-        "schema:value": 2100000000
+        "schema:value": 0
       },
       "osint:entidadOrigen": {
         "@id": "urn:cl-osint:node:Agencia_Central_de_Inteligencia_CIA_y_Escuela_de_las_Americas"
@@ -1052,7 +1052,7 @@
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
-        "schema:value": 18500000000
+        "schema:value": 0
       },
       "osint:entidadOrigen": {
         "@id": "urn:cl-osint:node:Bancard_Inversiones_Ltda"
@@ -1102,7 +1102,7 @@
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
-        "schema:value": 3450000000
+        "schema:value": 0
       },
       "osint:entidadOrigen": {
         "@id": "urn:cl-osint:node:Sociedad_Benefactora_y_Educacional_Dignidad"
@@ -1127,7 +1127,7 @@
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
-        "schema:value": 240000000
+        "schema:value": 0
       },
       "osint:entidadOrigen": {
         "@id": "urn:cl-osint:node:Union_Democrata_Independiente"
@@ -1202,7 +1202,7 @@
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
-        "schema:value": 480000000
+        "schema:value": 0
       },
       "osint:entidadOrigen": {
         "@id": "urn:cl-osint:node:Inversiones_El_Bosque_Ltda"
@@ -1227,7 +1227,7 @@
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
-        "schema:value": 120000000
+        "schema:value": 0
       },
       "osint:entidadOrigen": {
         "@id": "urn:cl-osint:node:Renovacion_Nacional"
@@ -1852,7 +1852,7 @@
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
-        "schema:value": 14200000000
+        "schema:value": 0
       },
       "osint:entidadOrigen": {
         "@id": "urn:cl-osint:node:Mossack_Fonseca_y_Sociedades_Offshore_Panama"
@@ -1877,7 +1877,7 @@
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
-        "schema:value": 19500000000
+        "schema:value": 0
       },
       "osint:entidadOrigen": {
         "@id": "urn:cl-osint:node:Mossack_Fonseca_y_Sociedades_Offshore_Panama"
@@ -1902,7 +1902,7 @@
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
-        "schema:value": 3800000000
+        "schema:value": 0
       },
       "osint:entidadOrigen": {
         "@id": "urn:cl-osint:node:Mossack_Fonseca_y_Sociedades_Offshore_Panama"
@@ -1927,7 +1927,7 @@
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
-        "schema:value": 10500000000
+        "schema:value": 0
       },
       "osint:entidadOrigen": {
         "@id": "urn:cl-osint:node:Fundacion_CEMA_Chile"
@@ -2527,7 +2527,7 @@
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
-        "schema:value": 480000000
+        "schema:value": 0
       },
       "osint:entidadOrigen": {
         "@id": "urn:cl-osint:node:Factop_SpA"

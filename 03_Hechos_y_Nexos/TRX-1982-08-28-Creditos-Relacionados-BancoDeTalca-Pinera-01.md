@@ -3,8 +3,8 @@ tipo_nodo: nexo_transaccion
 id_transaccion: "TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01"
 fecha: 1982-08-28
 tipo_nexo: desviacion_fondos
-monto_clp: 18500000000
-monto_origen: no_verificado
+monto_clp: 0
+monto_origen: sin_monto
 metodo_adjudicacion: trato_directo
 entidad_origen: "[[Bancard Inversiones Ltda]]"
 entidad_destino: "[[Corte Suprema de Chile]]"
@@ -27,6 +27,8 @@ fuentes:
     tipo: secundaria
     fecha: 2017-02-27
     consultado: 2026-10-19
+historial_correcciones:
+  - "2026-10-19: monto_clp $18.500.000.000 llevado a 0; la cifra no aparece en ninguna fuente verificable."
 tags:
   - nexo/desviacion-fondos
   - banco-de-talca
@@ -50,6 +52,10 @@ tags:
 - **Evidencia de Soporte**: `= this.evidencia_soporte`
 
 ## Descripción del Hecho
+
+> [!NOTE] Monto sin respaldo
+> Las cifras en pesos mencionadas en esta nota no aparecen en ninguna fuente verificable y no se contabilizan en los totales del vault (antes: $18.500.000.000 CLP).
+
 Otorgamiento sistemático de préstamos y créditos cruzados a sociedades de papel relacionadas con los propios directores y ejecutivos del *Banco de Talca* (donde [[Sebastian Pinera Echenique]] se desempeñaba como gerente general) por más de **US$ 38 millones** (`~85%` de las colocaciones totales del banco, valorizados en **$18.500.000.000 CLP**) sin respaldos ni garantías reales, lo que provocó la insolvencia e intervención estatal de la institución financiera. El 28 de agosto de 1982 el juez Luis Correa Bulo dictó encargatoria de reo y orden de detención contra [[Sebastian Pinera Echenique]], quien permaneció **24 días prófugo** hasta que la [[Corte Suprema de Chile]] acogió un recurso de amparo que anuló la orden de aprehensión ([[Resolucion-SVS-306-InformacionPrivilegiada-LAN-2007]]).
 
 ## Fuentes Verificables

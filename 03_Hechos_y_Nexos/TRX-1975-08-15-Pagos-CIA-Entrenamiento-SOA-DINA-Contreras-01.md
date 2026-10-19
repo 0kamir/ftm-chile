@@ -3,8 +3,8 @@ tipo_nodo: nexo_transaccion
 id_transaccion: "TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01"
 fecha: 1975-08-15
 tipo_nexo: desviacion_fondos
-monto_clp: 2100000000
-monto_origen: no_verificado
+monto_clp: 0
+monto_origen: sin_monto
 metodo_adjudicacion: trato_directo
 entidad_origen: "[[Agencia Central de Inteligencia CIA y Escuela de las Americas]]"
 entidad_destino: "[[Corte Suprema de Chile]]"
@@ -13,6 +13,8 @@ firmante_destino: "[[Augusto Pinochet Ugarte]]"
 delito_imputado: "[[Lavado de Activos]]"
 causa_vinculada: "[[Caso Operacion FUBELT Intervencion CIA y DINA]]"
 evidencia_soporte: "[[Informe-Comision-Church-1975-y-Hinchey-CIA-2000]]"
+historial_correcciones:
+  - "2026-10-19: monto_clp $2.100.000.000 llevado a 0; la cifra no aparece en ninguna fuente verificable."
 tags:
   - nexo/desviacion-fondos
   - escuela-de-las-americas
@@ -37,6 +39,10 @@ tags:
 - **Evidencia de Soporte**: `= this.evidencia_soporte`
 
 ## Descripción del Hecho
+
+> [!NOTE] Monto sin respaldo
+> Las cifras en pesos mencionadas en esta nota no aparecen en ninguna fuente verificable y no se contabilizan en los totales del vault (antes: $2.100.000.000 CLP).
+
 Operación de asistencia técnica, adiestramiento contrainsurgente y financiamiento de inteligencia documentada oficialmente en dos fuentes gubernamentales de los Estados Unidos ([[Informe-Comision-Church-1975-y-Hinchey-CIA-2000]]):
 1. **Instrucción en Tortura en la Escuela de las Américas (SOA)**: El Departamento de Defensa de EE.UU. desclasificó en septiembre de 1996 siete manuales de entrenamiento en español (*Proyecto X*) empleados en la *U.S. Army School of the Americas* (Panamá) donde se formaron centenares de oficiales chilenos de la DINA y del Ejército, los cuales enseñaban técnicas de interrogatorio coercitivo, apremios físicos, chantaje a familiares y ejecuciones sumarias.
 2. **[[Manuel Contreras Sepulveda]] como Activo Pagado por la CIA (1974–1977)**: El **Informe Hinchey al Congreso de EE.UU. (19 de septiembre de 2000)** admitió que la [[Agencia Central de Inteligencia CIA y Escuela de las Americas]] mantuvo a [[Manuel Contreras Sepulveda]] —director de la DINA subordinado a [[Augusto Pinochet Ugarte]]— como un contacto e informante remunerado entre 1974 y 1977, entregándole pagos en dinero incluso después de tener conocimiento de su responsabilidad en crímenes transnacionales. En Chile, la [[Corte Suprema de Chile]] condenó posteriormente a Contreras a más de **529 años de presidio efectivo**.

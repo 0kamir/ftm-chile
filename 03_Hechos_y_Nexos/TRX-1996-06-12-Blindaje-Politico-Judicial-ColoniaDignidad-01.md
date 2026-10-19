@@ -3,8 +3,8 @@ tipo_nodo: nexo_transaccion
 id_transaccion: "TRX-1996-06-12-Blindaje-Politico-Judicial-ColoniaDignidad-01"
 fecha: 1996-06-12
 tipo_nexo: gestion_influencia
-monto_clp: 240000000
-monto_origen: no_verificado
+monto_clp: 0
+monto_origen: sin_monto
 metodo_adjudicacion: no_aplica
 entidad_origen: "[[Union Democrata Independiente]]"
 entidad_destino: "[[Sociedad Benefactora y Educacional Dignidad]]"
@@ -13,6 +13,8 @@ firmante_destino: "[[Hartmut Hopp Miottel]]"
 delito_imputado: "[[Trafico de Influencias]]"
 causa_vinculada: "[[Caso Colonia Dignidad]]"
 evidencia_soporte: "[[Sentencia-Corte-Suprema-ColoniaDignidad-2013]]"
+historial_correcciones:
+  - "2026-10-19: monto_clp $240.000.000 llevado a 0; la cifra no aparece en ninguna fuente verificable."
 tags:
   - nexo/gestion-influencia
   - caso-colonia-dignidad
@@ -36,4 +38,8 @@ tags:
 - **Evidencia de Soporte**: `= this.evidencia_soporte`
 
 ## Descripción del Hecho
+
+> [!NOTE] Monto sin respaldo
+> Las cifras en pesos mencionadas en esta nota no aparecen en ninguna fuente verificable y no se contabilizan en los totales del vault (antes: $240.000.000 CLP).
+
 Operación de blindaje político, parlamentario y comunicacional desplegada durante la década de 1990 en favor de [[Sociedad Benefactora y Educacional Dignidad]] mientras [[Paul Schafer Schneider]] se encontraba prófugo de la justicia chilena por abusos sexuales reiterados contra menores. Parlamentarios vinculados al denominado *"Grupo de Amigos de Colonia Dignidad"*, encabezados en la Región del Maule por el entonces senador de la [[Union Democrata Independiente]], [[Hernan Larrain Fernandez]], actuaron en coordinación con el vocero y subdirector del enclave [[Hartmut Hopp Miottel]], presentando recursos ante el Tribunal Constitucional contra la cancelación de la personalidad jurídica de la corporación, visitando públicamente el recinto en Parral y cuestionando la legalidad de los allanamientos policiales instruidos por los tribunales en el [[Caso Colonia Dignidad]]. El monto refleja el valor estimado de los recursos de litigación constitucional, defensa corporativa y logística de protección movilizados en el período.

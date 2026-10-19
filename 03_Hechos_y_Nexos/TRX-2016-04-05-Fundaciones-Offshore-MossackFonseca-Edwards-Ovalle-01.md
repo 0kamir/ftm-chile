@@ -3,8 +3,8 @@ tipo_nodo: nexo_transaccion
 id_transaccion: "TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01"
 fecha: 2016-04-05
 tipo_nexo: desviacion_fondos
-monto_clp: 19500000000
-monto_origen: no_verificado
+monto_clp: 0
+monto_origen: sin_monto
 metodo_adjudicacion: no_aplica
 entidad_origen: "[[Mossack Fonseca y Sociedades Offshore Panama]]"
 entidad_destino: "[[Unidad de Analisis Financiero]]"
@@ -13,6 +13,8 @@ firmante_destino: "[[Alfredo Ovalle Rodriguez]]"
 delito_imputado: "[[Delito Tributario]]"
 causa_vinculada: "[[Caso Panama Papers Chile]]"
 evidencia_soporte: "[[Filtracion-ICIJ-PanamaPapers-Chile-2016]]"
+historial_correcciones:
+  - "2026-10-19: monto_clp $19.500.000.000 llevado a 0; la cifra no aparece en ninguna fuente verificable."
 tags:
   - nexo/desviacion-fondos
   - panama-papers
@@ -36,4 +38,8 @@ tags:
 - **Evidencia de Soporte**: `= this.evidencia_soporte`
 
 ## Descripción del Hecho
+
+> [!NOTE] Monto sin respaldo
+> Las cifras en pesos mencionadas en esta nota no aparecen en ninguna fuente verificable y no se contabilizan en los totales del vault (antes: $19.500.000.000 CLP).
+
 Estructuración de fundaciones de interés privado y sociedades al portador en Panamá e Islas Vírgenes Británicas a través de [[Mossack Fonseca y Sociedades Offshore Panama]] para radicar activos empresariales y familiares fuera del control impositivo chileno, incluyendo las fundaciones *Ashton Foundation* y *Kintyre Foundation* vinculadas a [[Agustin Edwards Eastman]] y las sociedades *Sierra Leona S.A.* y *Railton Foundation* vinculadas al expresidente de la CPC y de la SONAMI [[Alfredo Ovalle Rodriguez]]. En el [[Caso Panama Papers Chile]], estos vehículos —junto al resto de las casi 200 sociedades chilenas reveladas en [[Filtracion-ICIJ-PanamaPapers-Chile-2016]]— fueron incorporados en las auditorías cruzadas de la [[Unidad de Analisis Financiero]] y del [[Servicio Impuestos Internos]] por un volumen patrimonial estimado en **$19.500.000.000 CLP**.

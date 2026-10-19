@@ -110,8 +110,15 @@
       <data key="d0">persona</data>
       <data key="d1" />
       <data key="d2">0</data>
-      <data key="d3">34300000000</data>
-      <data key="d4">9500000000</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="Alberto Larrain Salas">
+      <data key="d0">persona</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">0</data>
+      <data key="d4">3053000000</data>
     </node>
     <node id="Alex Smith Leay">
       <data key="d0">persona</data>
@@ -125,7 +132,7 @@
       <data key="d1" />
       <data key="d2">0</data>
       <data key="d3">0</data>
-      <data key="d4">19500000000</data>
+      <data key="d4">0</data>
     </node>
     <node id="Andres Chadwick Pinera">
       <data key="d0">persona</data>
@@ -133,6 +140,13 @@
       <data key="d2">0</data>
       <data key="d3">0</data>
       <data key="d4">190000000</data>
+    </node>
+    <node id="Andronico Luksic Craig">
+      <data key="d0">persona</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
     </node>
     <node id="Angela Vivanco Martinez">
       <data key="d0">persona</data>
@@ -153,7 +167,7 @@
       <data key="d1" />
       <data key="d2">0</data>
       <data key="d3">18750000000</data>
-      <data key="d4">20700000000</data>
+      <data key="d4">0</data>
     </node>
     <node id="Bruno Villalobos Krumm">
       <data key="d0">persona</data>
@@ -209,7 +223,7 @@
       <data key="d1" />
       <data key="d2">0</data>
       <data key="d3">0</data>
-      <data key="d4">19500000000</data>
+      <data key="d4">5300000000</data>
     </node>
     <node id="Cathy Barriga Guerra">
       <data key="d0">persona</data>
@@ -222,7 +236,7 @@
       <data key="d0">persona</data>
       <data key="d1" />
       <data key="d2">0</data>
-      <data key="d3">480000000</data>
+      <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
     <node id="Daniel Andrade Schwarze">
@@ -244,6 +258,34 @@
       <data key="d1" />
       <data key="d2">0</data>
       <data key="d3">97500000000</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="Felipe Sanchez Perez">
+      <data key="d0">persona</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="Fernando Cerimedo">
+      <data key="d0">persona</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="Fernando Leon Steffens">
+      <data key="d0">persona</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">186500000</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="Flavio Echeverria Cortez">
+      <data key="d0">persona</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">29798928198</data>
       <data key="d4">0</data>
     </node>
     <node id="Francisco Mujica Ortuzar">
@@ -278,7 +320,7 @@
       <data key="d0">persona</data>
       <data key="d1" />
       <data key="d2">0</data>
-      <data key="d3">14200000000</data>
+      <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
     <node id="Gonzalo Vial Vial">
@@ -300,13 +342,27 @@
       <data key="d1" />
       <data key="d2">0</data>
       <data key="d3">0</data>
-      <data key="d4">240000000</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="Hector Pena Veliz">
+      <data key="d0">persona</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">0</data>
+      <data key="d4">1253000000</data>
     </node>
     <node id="Hernan Larrain Fernandez">
       <data key="d0">persona</data>
       <data key="d1" />
       <data key="d2">0</data>
-      <data key="d3">240000000</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="Iraci Hassler Jacob">
+      <data key="d0">persona</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
     <node id="Jaime Orpis Bouchon">
@@ -316,12 +372,19 @@
       <data key="d3">0</data>
       <data key="d4">233000000</data>
     </node>
+    <node id="Jaime Paz Meneses">
+      <data key="d0">persona</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">0</data>
+      <data key="d4">28348928198</data>
+    </node>
     <node id="Javier Cruz Tamburrino">
       <data key="d0">persona</data>
       <data key="d1" />
       <data key="d2">0</data>
       <data key="d3">0</data>
-      <data key="d4">5430000000</data>
+      <data key="d4">4950000000</data>
     </node>
     <node id="Jorge Bermudez Soto">
       <data key="d0">persona</data>
@@ -349,7 +412,7 @@
       <data key="d1" />
       <data key="d2">0</data>
       <data key="d3">0</data>
-      <data key="d4">3450000000</data>
+      <data key="d4">0</data>
     </node>
     <node id="Jose Antonio Pavez Canessa">
       <data key="d0">persona</data>
@@ -371,6 +434,20 @@
       <data key="d2">0</data>
       <data key="d3">0</data>
       <data key="d4">156000000</data>
+    </node>
+    <node id="Jozo Santic Palomino">
+      <data key="d0">persona</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">0</data>
+      <data key="d4">6100000000</data>
+    </node>
+    <node id="Juan Miguel Fuente-Alba Poblete">
+      <data key="d0">persona</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">9600000000</data>
+      <data key="d4">0</data>
     </node>
     <node id="Juan Miguel Ovalle Garces">
       <data key="d0">persona</data>
@@ -421,11 +498,25 @@
       <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
+    <node id="Lucia Hiriart Rodriguez">
+      <data key="d0">persona</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">2450000000</data>
+      <data key="d4">0</data>
+    </node>
     <node id="Luis Hermosilla Osorio">
       <data key="d0">persona</data>
       <data key="d1" />
       <data key="d2">0</data>
-      <data key="d3">770000000</data>
+      <data key="d3">290000000</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="Luis Plaza Sanchez">
+      <data key="d0">persona</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">1120000000</data>
       <data key="d4">0</data>
     </node>
     <node id="Manuel Ariztia Ruiz">
@@ -439,7 +530,7 @@
       <data key="d0">persona</data>
       <data key="d1" />
       <data key="d2">0</data>
-      <data key="d3">11600000000</data>
+      <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
     <node id="Marcelo Campos Henriquez">
@@ -450,6 +541,20 @@
       <data key="d4">37000000</data>
     </node>
     <node id="Marcelo Teuber Munoz">
+      <data key="d0">persona</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="Marcelo Torres Ferrari">
+      <data key="d0">persona</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">0</data>
+      <data key="d4">1306500000</data>
+    </node>
+    <node id="Mauricio Valero Illanes">
       <data key="d0">persona</data>
       <data key="d1" />
       <data key="d2">0</data>
@@ -474,171 +579,10 @@
       <data key="d0">persona</data>
       <data key="d1" />
       <data key="d2">0</data>
-      <data key="d3">3800000000</data>
+      <data key="d3">0</data>
       <data key="d4">15800000000</data>
     </node>
     <node id="Osvaldo Mario Luis Sacco Croxatto">
-      <data key="d0">persona</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">0</data>
-      <data key="d4">0</data>
-    </node>
-    <node id="Patricio Marin Lazo">
-      <data key="d0">persona</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">25000000</data>
-      <data key="d4">0</data>
-    </node>
-    <node id="Paul Schafer Schneider">
-      <data key="d0">persona</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">3450000000</data>
-      <data key="d4">0</data>
-    </node>
-    <node id="Pia Guzman Mena">
-      <data key="d0">persona</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">120000000</data>
-      <data key="d4">0</data>
-    </node>
-    <node id="Raul Torrealba del Pedregal">
-      <data key="d0">persona</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">759000000</data>
-      <data key="d4">0</data>
-    </node>
-    <node id="Roberto Belloni Pechini">
-      <data key="d0">persona</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">2180000000</data>
-      <data key="d4">0</data>
-    </node>
-    <node id="Rodrigo Diaz Worner">
-      <data key="d0">persona</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">2803635000</data>
-      <data key="d4">0</data>
-    </node>
-    <node id="Sergio Munoz Gajardo">
-      <data key="d0">persona</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">0</data>
-      <data key="d4">32050000000</data>
-    </node>
-    <node id="Ximena Tavitxa Jimenez Farias">
-      <data key="d0">persona</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">0</data>
-      <data key="d4">0</data>
-    </node>
-    <node id="Juan Miguel Fuente-Alba Poblete">
-      <data key="d0">persona</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">9600000000</data>
-      <data key="d4">0</data>
-    </node>
-    <node id="Lucia Hiriart Rodriguez">
-      <data key="d0">persona</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">12950000000</data>
-      <data key="d4">0</data>
-    </node>
-    <node id="Andronico Luksic Craig">
-      <data key="d0">persona</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">0</data>
-      <data key="d4">0</data>
-    </node>
-    <node id="Alberto Larrain Salas">
-      <data key="d0">persona</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">0</data>
-      <data key="d4">3053000000</data>
-    </node>
-    <node id="Felipe Sanchez Perez">
-      <data key="d0">persona</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">0</data>
-      <data key="d4">0</data>
-    </node>
-    <node id="Fernando Cerimedo">
-      <data key="d0">persona</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">0</data>
-      <data key="d4">0</data>
-    </node>
-    <node id="Fernando Leon Steffens">
-      <data key="d0">persona</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">186500000</data>
-      <data key="d4">0</data>
-    </node>
-    <node id="Flavio Echeverria Cortez">
-      <data key="d0">persona</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">29798928198</data>
-      <data key="d4">0</data>
-    </node>
-    <node id="Hector Pena Veliz">
-      <data key="d0">persona</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">0</data>
-      <data key="d4">1253000000</data>
-    </node>
-    <node id="Iraci Hassler Jacob">
-      <data key="d0">persona</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">0</data>
-      <data key="d4">0</data>
-    </node>
-    <node id="Jaime Paz Meneses">
-      <data key="d0">persona</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">0</data>
-      <data key="d4">28348928198</data>
-    </node>
-    <node id="Jozo Santic Palomino">
-      <data key="d0">persona</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">0</data>
-      <data key="d4">6100000000</data>
-    </node>
-    <node id="Luis Plaza Sanchez">
-      <data key="d0">persona</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">1120000000</data>
-      <data key="d4">0</data>
-    </node>
-    <node id="Marcelo Torres Ferrari">
-      <data key="d0">persona</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">0</data>
-      <data key="d4">1306500000</data>
-    </node>
-    <node id="Mauricio Valero Illanes">
       <data key="d0">persona</data>
       <data key="d1" />
       <data key="d2">0</data>
@@ -666,11 +610,53 @@
       <data key="d3">1070000000</data>
       <data key="d4">0</data>
     </node>
+    <node id="Patricio Marin Lazo">
+      <data key="d0">persona</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">25000000</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="Paul Schafer Schneider">
+      <data key="d0">persona</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+    </node>
     <node id="Percy Marin Vera">
       <data key="d0">persona</data>
       <data key="d1" />
       <data key="d2">0</data>
       <data key="d3">0</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="Pia Guzman Mena">
+      <data key="d0">persona</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="Raul Torrealba del Pedregal">
+      <data key="d0">persona</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">759000000</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="Roberto Belloni Pechini">
+      <data key="d0">persona</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">2180000000</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="Rodrigo Diaz Worner">
+      <data key="d0">persona</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">2803635000</data>
       <data key="d4">0</data>
     </node>
     <node id="Santiago Valdes Gutierrez">
@@ -684,15 +670,29 @@
       <data key="d0">persona</data>
       <data key="d1" />
       <data key="d2">0</data>
-      <data key="d3">32050000000</data>
+      <data key="d3">13550000000</data>
       <data key="d4">75500000000</data>
+    </node>
+    <node id="Sergio Munoz Gajardo">
+      <data key="d0">persona</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">0</data>
+      <data key="d4">2450000000</data>
+    </node>
+    <node id="Ximena Tavitxa Jimenez Farias">
+      <data key="d0">persona</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
     </node>
     <node id="Comando de Apoyo a la Fuerza del Ejercito">
       <data key="d0">entidad_publica</data>
       <data key="d1" />
       <data key="d2">0</data>
       <data key="d3">28350000000</data>
-      <data key="d4">14800000000</data>
+      <data key="d4">0</data>
     </node>
     <node id="Comision para el Mercado Financiero">
       <data key="d0">entidad_publica</data>
@@ -713,7 +713,7 @@
       <data key="d1" />
       <data key="d2">0</data>
       <data key="d3">0</data>
-      <data key="d4">69620000000</data>
+      <data key="d4">38400000000</data>
     </node>
     <node id="Direccion ChileCompra">
       <data key="d0">entidad_publica</data>
@@ -818,7 +818,7 @@
       <data key="d1" />
       <data key="d2">0</data>
       <data key="d3">0</data>
-      <data key="d4">263222000000</data>
+      <data key="d4">245092000000</data>
     </node>
     <node id="Servicio Nacional del Consumidor">
       <data key="d0">entidad_publica</data>
@@ -832,20 +832,20 @@
       <data key="d1" />
       <data key="d2">0</data>
       <data key="d3">0</data>
-      <data key="d4">24930000000</data>
+      <data key="d4">4950000000</data>
     </node>
-    <node id="Gestion Ambiental y Territorial SA">
+    <node id="Fundacion ProCultura">
       <data key="d0">entidad_privada</data>
       <data key="d1" />
       <data key="d2">0</data>
       <data key="d3">0</data>
-      <data key="d4">1253000000</data>
+      <data key="d4">3053000000</data>
     </node>
     <node id="Agencia Central de Inteligencia CIA y Escuela de las Americas">
       <data key="d0">entidad_privada</data>
       <data key="d1" />
       <data key="d2">0</data>
-      <data key="d3">26400000000</data>
+      <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
     <node id="Agricola Don Pollo Limitada">
@@ -880,7 +880,7 @@
       <data key="d0">entidad_privada</data>
       <data key="d1" />
       <data key="d2">0</data>
-      <data key="d3">32050000000</data>
+      <data key="d3">13550000000</data>
       <data key="d4">75840000000</data>
     </node>
     <node id="Banco de Chile">
@@ -902,7 +902,7 @@
       <data key="d1">90.193.000-7</data>
       <data key="d2">0</data>
       <data key="d3">0</data>
-      <data key="d4">9500000000</data>
+      <data key="d4">0</data>
     </node>
     <node id="Empresas Ariztia SA">
       <data key="d0">entidad_privada</data>
@@ -936,7 +936,7 @@
       <data key="d0">entidad_privada</data>
       <data key="d1" />
       <data key="d2">0</data>
-      <data key="d3">770000000</data>
+      <data key="d3">290000000</data>
       <data key="d4">0</data>
     </node>
     <node id="Farmacias Ahumada SA">
@@ -971,7 +971,7 @@
       <data key="d0">entidad_privada</data>
       <data key="d1" />
       <data key="d2">0</data>
-      <data key="d3">10500000000</data>
+      <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
     <node id="Fundacion Democracia Viva">
@@ -988,12 +988,12 @@
       <data key="d3">0</data>
       <data key="d4">250635000</data>
     </node>
-    <node id="Fundacion ProCultura">
+    <node id="Gestion Ambiental y Territorial SA">
       <data key="d0">entidad_privada</data>
       <data key="d1" />
       <data key="d2">0</data>
       <data key="d3">0</data>
-      <data key="d4">3053000000</data>
+      <data key="d4">1253000000</data>
     </node>
     <node id="Inmobiliaria San Valentino SpA">
       <data key="d0">entidad_privada</data>
@@ -1006,7 +1006,7 @@
       <data key="d0">entidad_privada</data>
       <data key="d1" />
       <data key="d2">0</data>
-      <data key="d3">480000000</data>
+      <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
     <node id="Itelecom Holding Chile SpA">
@@ -1027,7 +1027,7 @@
       <data key="d0">entidad_privada</data>
       <data key="d1" />
       <data key="d2">0</data>
-      <data key="d3">37500000000</data>
+      <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
     <node id="Numen Publicidad SpA">
@@ -1049,7 +1049,7 @@
       <data key="d1" />
       <data key="d2">0</data>
       <data key="d3">2450000000</data>
-      <data key="d4">19600000000</data>
+      <data key="d4">15800000000</data>
     </node>
     <node id="SCA Chile SA">
       <data key="d0">entidad_privada</data>
@@ -1069,8 +1069,8 @@
       <data key="d0">entidad_privada</data>
       <data key="d1" />
       <data key="d2">0</data>
-      <data key="d3">3450000000</data>
-      <data key="d4">240000000</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
     </node>
     <node id="Sociedad de Inversiones Pampa Calichera SA">
       <data key="d0">entidad_privada</data>
@@ -1111,7 +1111,7 @@
       <data key="d0">partido_politico</data>
       <data key="d1" />
       <data key="d2">0</data>
-      <data key="d3">120000000</data>
+      <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
     <node id="Revolucion Democratica">
@@ -1125,22 +1125,8 @@
       <data key="d0">partido_politico</data>
       <data key="d1" />
       <data key="d2">0</data>
-      <data key="d3">240000000</data>
+      <data key="d3">0</data>
       <data key="d4">2146000000</data>
-    </node>
-    <node id="Caso Colonia Dignidad">
-      <data key="d0">causa_judicial</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">0</data>
-      <data key="d4">0</data>
-    </node>
-    <node id="Caso Colusion de las Farmacias">
-      <data key="d0">causa_judicial</data>
-      <data key="d1">ROL-C-184-08-TDLC</data>
-      <data key="d2">0</data>
-      <data key="d3">0</data>
-      <data key="d4">0</data>
     </node>
     <node id="Caso Colusion de los Pollos">
       <data key="d0">causa_judicial</data>
@@ -1156,20 +1142,6 @@
       <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
-    <node id="Caso Operaciones Digitales e Injerencia Electoral">
-      <data key="d0">causa_judicial</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">0</data>
-      <data key="d4">0</data>
-    </node>
-    <node id="Caso Pinocheques">
-      <data key="d0">causa_judicial</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">0</data>
-      <data key="d4">0</data>
-    </node>
     <node id="Caso Asignaciones Parlamentarias y Cuota Flores">
       <data key="d0">causa_judicial</data>
       <data key="d1" />
@@ -1178,6 +1150,76 @@
       <data key="d4">0</data>
     </node>
     <node id="Caso Audios">
+      <data key="d0">causa_judicial</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="Caso Convenios">
+      <data key="d0">causa_judicial</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="Caso Corpesca">
+      <data key="d0">causa_judicial</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="Caso Luminarias LED">
+      <data key="d0">causa_judicial</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="Caso Megafraude Tributario Operacion Tributos">
+      <data key="d0">causa_judicial</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="Caso Milicogate">
+      <data key="d0">causa_judicial</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="Caso Municipalidad de Maipu">
+      <data key="d0">causa_judicial</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="Caso Operacion Huracan">
+      <data key="d0">causa_judicial</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="Caso Pacogate">
+      <data key="d0">causa_judicial</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="Caso SQM">
+      <data key="d0">causa_judicial</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="Caso Vitacura">
       <data key="d0">causa_judicial</data>
       <data key="d1" />
       <data key="d2">0</data>
@@ -1212,16 +1254,16 @@
       <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
-    <node id="Caso Convenios">
+    <node id="Caso Colonia Dignidad">
       <data key="d0">causa_judicial</data>
       <data key="d1" />
       <data key="d2">0</data>
       <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
-    <node id="Caso Corpesca">
+    <node id="Caso Colusion de las Farmacias">
       <data key="d0">causa_judicial</data>
-      <data key="d1" />
+      <data key="d1">ROL-C-184-08-TDLC</data>
       <data key="d2">0</data>
       <data key="d3">0</data>
       <data key="d4">0</data>
@@ -1240,28 +1282,7 @@
       <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
-    <node id="Caso Luminarias LED">
-      <data key="d0">causa_judicial</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">0</data>
-      <data key="d4">0</data>
-    </node>
     <node id="Caso MOP-Gate">
-      <data key="d0">causa_judicial</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">0</data>
-      <data key="d4">0</data>
-    </node>
-    <node id="Caso Megafraude Tributario Operacion Tributos">
-      <data key="d0">causa_judicial</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">0</data>
-      <data key="d4">0</data>
-    </node>
-    <node id="Caso Milicogate">
       <data key="d0">causa_judicial</data>
       <data key="d1" />
       <data key="d2">0</data>
@@ -1275,21 +1296,14 @@
       <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
-    <node id="Caso Municipalidad de Maipu">
+    <node id="Caso Operacion FUBELT Intervencion CIA y DINA">
       <data key="d0">causa_judicial</data>
       <data key="d1" />
       <data key="d2">0</data>
       <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
-    <node id="Caso Operacion Huracan">
-      <data key="d0">causa_judicial</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">0</data>
-      <data key="d4">0</data>
-    </node>
-    <node id="Caso Pacogate">
+    <node id="Caso Operaciones Digitales e Injerencia Electoral">
       <data key="d0">causa_judicial</data>
       <data key="d1" />
       <data key="d2">0</data>
@@ -1310,14 +1324,14 @@
       <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
-    <node id="Caso Riggs">
+    <node id="Caso Pinocheques">
       <data key="d0">causa_judicial</data>
       <data key="d1" />
       <data key="d2">0</data>
       <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
-    <node id="Caso SQM">
+    <node id="Caso Riggs">
       <data key="d0">causa_judicial</data>
       <data key="d1" />
       <data key="d2">0</data>
@@ -1338,45 +1352,31 @@
       <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
-    <node id="Caso Vitacura">
-      <data key="d0">causa_judicial</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">0</data>
-      <data key="d4">0</data>
-    </node>
-    <node id="Caso Operacion FUBELT Intervencion CIA y DINA">
-      <data key="d0">causa_judicial</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">0</data>
-      <data key="d4">0</data>
-    </node>
     <node id="TRX-1971-09-09-Financiamiento-Encubierto-CIA-ElMercurio-Edwards-01">
       <data key="d0">nexo_transaccion</data>
       <data key="d1" />
-      <data key="d2">9500000000</data>
+      <data key="d2">0</data>
       <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
     <node id="TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-CIA-01">
       <data key="d0">nexo_transaccion</data>
       <data key="d1" />
-      <data key="d2">14800000000</data>
+      <data key="d2">0</data>
       <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
     <node id="TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01">
       <data key="d0">nexo_transaccion</data>
       <data key="d1" />
-      <data key="d2">2100000000</data>
+      <data key="d2">0</data>
       <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
     <node id="TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01">
       <data key="d0">nexo_transaccion</data>
       <data key="d1" />
-      <data key="d2">18500000000</data>
+      <data key="d2">0</data>
       <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
@@ -1390,14 +1390,14 @@
     <node id="TRX-1991-01-31-Vaciamiento-Patrimonial-Evasion-ColoniaDignidad-01">
       <data key="d0">nexo_transaccion</data>
       <data key="d1" />
-      <data key="d2">3450000000</data>
+      <data key="d2">0</data>
       <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
     <node id="TRX-1996-06-12-Blindaje-Politico-Judicial-ColoniaDignidad-01">
       <data key="d0">nexo_transaccion</data>
       <data key="d1" />
-      <data key="d2">240000000</data>
+      <data key="d2">0</data>
       <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
@@ -1418,14 +1418,14 @@
     <node id="TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01">
       <data key="d0">nexo_transaccion</data>
       <data key="d1" />
-      <data key="d2">480000000</data>
+      <data key="d2">0</data>
       <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
     <node id="TRX-2003-11-05-Operacion-Politico-Judicial-Spiniak-01">
       <data key="d0">nexo_transaccion</data>
       <data key="d1" />
-      <data key="d2">120000000</data>
+      <data key="d2">0</data>
       <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
@@ -1600,28 +1600,28 @@
     <node id="TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01">
       <data key="d0">nexo_transaccion</data>
       <data key="d1" />
-      <data key="d2">14200000000</data>
+      <data key="d2">0</data>
       <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
     <node id="TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01">
       <data key="d0">nexo_transaccion</data>
       <data key="d1" />
-      <data key="d2">19500000000</data>
+      <data key="d2">0</data>
       <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
     <node id="TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01">
       <data key="d0">nexo_transaccion</data>
       <data key="d1" />
-      <data key="d2">3800000000</data>
+      <data key="d2">0</data>
       <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
     <node id="TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01">
       <data key="d0">nexo_transaccion</data>
       <data key="d1" />
-      <data key="d2">10500000000</data>
+      <data key="d2">0</data>
       <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
@@ -1789,7 +1789,7 @@
     <node id="TRX-2023-08-25-Reporte-ROS-Factop-UAF-01">
       <data key="d0">nexo_transaccion</data>
       <data key="d1" />
-      <data key="d2">480000000</data>
+      <data key="d2">0</data>
       <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
@@ -2080,27 +2080,6 @@
       <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
-    <node id="Linea_de_Tiempo">
-      <data key="d0">vista_analitica</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">0</data>
-      <data key="d4">0</data>
-    </node>
-    <node id="Matriz_Partidos_y_Regiones">
-      <data key="d0">vista_analitica</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">0</data>
-      <data key="d4">0</data>
-    </node>
-    <node id="Analisis_Flujo_Financiero_y_Corte_Minimo">
-      <data key="d0">vista_analitica</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">0</data>
-      <data key="d4">0</data>
-    </node>
     <node id="Revision_Riesgo_Difamacion">
       <data key="d0">vista_analitica</data>
       <data key="d1" />
@@ -2108,7 +2087,28 @@
       <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
+    <node id="Cobertura_de_Fuentes">
+      <data key="d0">vista_analitica</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="Agrupamientos_de_la_Red">
+      <data key="d0">vista_analitica</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+    </node>
     <node id="Analisis_Espectral_y_Fiedler">
+      <data key="d0">vista_analitica</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="Analisis_Flujo_Financiero_y_Corte_Minimo">
       <data key="d0">vista_analitica</data>
       <data key="d1" />
       <data key="d2">0</data>
@@ -2129,7 +2129,35 @@
       <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
+    <node id="Distribucion_de_Montos_Benford">
+      <data key="d0">vista_analitica</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+    </node>
     <node id="Evolucion_Temporal_y_Transicion_de_Fase">
+      <data key="d0">vista_analitica</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="Indice_de_Centralidad">
+      <data key="d0">vista_analitica</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="Linea_de_Tiempo">
+      <data key="d0">vista_analitica</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="Matriz_Partidos_y_Regiones">
       <data key="d0">vista_analitica</data>
       <data key="d1" />
       <data key="d2">0</data>
@@ -2143,35 +2171,7 @@
       <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
-    <node id="Resistencia_Efectiva_y_Tiempos_de_Impacto">
-      <data key="d0">vista_analitica</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">0</data>
-      <data key="d4">0</data>
-    </node>
-    <node id="Cobertura_de_Fuentes">
-      <data key="d0">vista_analitica</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">0</data>
-      <data key="d4">0</data>
-    </node>
-    <node id="Similitud_Estructural_de_Nodos">
-      <data key="d0">vista_analitica</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">0</data>
-      <data key="d4">0</data>
-    </node>
-    <node id="Agrupamientos_de_la_Red">
-      <data key="d0">vista_analitica</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">0</data>
-      <data key="d4">0</data>
-    </node>
-    <node id="Robustez_de_la_Red">
+    <node id="Redes_de_Parentesco">
       <data key="d0">vista_analitica</data>
       <data key="d1" />
       <data key="d2">0</data>
@@ -2185,14 +2185,14 @@
       <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
-    <node id="Distribucion_de_Montos_Benford">
+    <node id="Resistencia_Efectiva_y_Tiempos_de_Impacto">
       <data key="d0">vista_analitica</data>
       <data key="d1" />
       <data key="d2">0</data>
       <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
-    <node id="Redes_de_Parentesco">
+    <node id="Robustez_de_la_Red">
       <data key="d0">vista_analitica</data>
       <data key="d1" />
       <data key="d2">0</data>
@@ -2206,7 +2206,7 @@
       <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
-    <node id="Indice_de_Centralidad">
+    <node id="Similitud_Estructural_de_Nodos">
       <data key="d0">vista_analitica</data>
       <data key="d1" />
       <data key="d2">0</data>
@@ -2298,67 +2298,67 @@
       <data key="d5">afiliacion_politica</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e16" source="Jaime Orpis Bouchon" target="Union Democrata Independiente">
+    <edge id="e16" source="Iraci Hassler Jacob" target="Partido Comunista de Chile">
       <data key="d5">afiliacion_politica</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e17" source="Jovino Novoa Vasquez" target="Union Democrata Independiente">
+    <edge id="e17" source="Jaime Orpis Bouchon" target="Union Democrata Independiente">
       <data key="d5">afiliacion_politica</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e18" source="Julio Ponce Lerou" target="Augusto Pinochet Ugarte">
+    <edge id="e18" source="Jovino Novoa Vasquez" target="Union Democrata Independiente">
+      <data key="d5">afiliacion_politica</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge id="e19" source="Julio Ponce Lerou" target="Augusto Pinochet Ugarte">
       <data key="d5">vinculos_familiares</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e19" source="Julio Ponce Lerou" target="Lucia Hiriart Rodriguez">
+    <edge id="e20" source="Julio Ponce Lerou" target="Lucia Hiriart Rodriguez">
       <data key="d5">vinculos_familiares</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e20" source="Loreto Letelier" target="Union Democrata Independiente">
+    <edge id="e21" source="Loreto Letelier" target="Union Democrata Independiente">
       <data key="d5">afiliacion_politica</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e21" source="Pia Guzman Mena" target="Renovacion Nacional">
-      <data key="d5">afiliacion_politica</data>
-      <data key="d6">1</data>
-    </edge>
-    <edge id="e22" source="Raul Torrealba del Pedregal" target="Renovacion Nacional">
-      <data key="d5">afiliacion_politica</data>
-      <data key="d6">1</data>
-    </edge>
-    <edge id="e23" source="Lucia Hiriart Rodriguez" target="Augusto Pinochet Ugarte">
+    <edge id="e22" source="Lucia Hiriart Rodriguez" target="Augusto Pinochet Ugarte">
       <data key="d5">vinculos_familiares</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e24" source="Lucia Hiriart Rodriguez" target="Augusto Pinochet Hiriart">
+    <edge id="e23" source="Lucia Hiriart Rodriguez" target="Augusto Pinochet Hiriart">
       <data key="d5">vinculos_familiares</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e25" source="Lucia Hiriart Rodriguez" target="Julio Ponce Lerou">
+    <edge id="e24" source="Lucia Hiriart Rodriguez" target="Julio Ponce Lerou">
       <data key="d5">vinculos_familiares</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e26" source="Iraci Hassler Jacob" target="Partido Comunista de Chile">
+    <edge id="e25" source="Luis Plaza Sanchez" target="Renovacion Nacional">
       <data key="d5">afiliacion_politica</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e27" source="Luis Plaza Sanchez" target="Renovacion Nacional">
+    <edge id="e26" source="Marcelo Torres Ferrari" target="Renovacion Nacional">
       <data key="d5">afiliacion_politica</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e28" source="Marcelo Torres Ferrari" target="Renovacion Nacional">
+    <edge id="e27" source="Pablo Longueira Montes" target="Union Democrata Independiente">
       <data key="d5">afiliacion_politica</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e29" source="Pablo Longueira Montes" target="Union Democrata Independiente">
+    <edge id="e28" source="Pablo Wagner San Martin" target="Union Democrata Independiente">
       <data key="d5">afiliacion_politica</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e30" source="Pablo Wagner San Martin" target="Union Democrata Independiente">
+    <edge id="e29" source="Percy Marin Vera" target="Renovacion Nacional">
       <data key="d5">afiliacion_politica</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e31" source="Percy Marin Vera" target="Renovacion Nacional">
+    <edge id="e30" source="Pia Guzman Mena" target="Renovacion Nacional">
+      <data key="d5">afiliacion_politica</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge id="e31" source="Raul Torrealba del Pedregal" target="Renovacion Nacional">
       <data key="d5">afiliacion_politica</data>
       <data key="d6">1</data>
     </edge>
@@ -2402,7 +2402,7 @@
       <data key="d5">autoridad_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e42" source="Gestion Ambiental y Territorial SA" target="Hector Pena Veliz">
+    <edge id="e42" source="Fundacion ProCultura" target="Alberto Larrain Salas">
       <data key="d5">representante_legal</data>
       <data key="d6">1</data>
     </edge>
@@ -2458,7 +2458,7 @@
       <data key="d5">representante_legal</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e56" source="Fundacion ProCultura" target="Alberto Larrain Salas">
+    <edge id="e56" source="Gestion Ambiental y Territorial SA" target="Hector Pena Veliz">
       <data key="d5">representante_legal</data>
       <data key="d6">1</data>
     </edge>
@@ -2514,245 +2514,245 @@
       <data key="d5">representante_legal</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e70" source="Caso Colonia Dignidad" target="Lavado de Activos">
+    <edge id="e70" source="Caso Colusion de los Pollos" target="Colusion y Atentado a la Libre Competencia">
       <data key="d5">delito_principal</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e71" source="Caso Colusion de las Farmacias" target="Colusion y Atentado a la Libre Competencia">
+    <edge id="e71" source="Caso Colusion del Papel Tissue" target="Colusion y Atentado a la Libre Competencia">
       <data key="d5">delito_principal</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e72" source="Caso Colusion de los Pollos" target="Colusion y Atentado a la Libre Competencia">
+    <edge id="e72" source="Caso Asignaciones Parlamentarias y Cuota Flores" target="Fraude al Fisco">
       <data key="d5">delito_principal</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e73" source="Caso Colusion del Papel Tissue" target="Colusion y Atentado a la Libre Competencia">
+    <edge id="e73" source="Caso Audios" target="Cohecho">
       <data key="d5">delito_principal</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e74" source="Caso Operaciones Digitales e Injerencia Electoral" target="Fraude al Fisco">
+    <edge id="e74" source="Caso Convenios" target="Fraude al Fisco">
       <data key="d5">delito_principal</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e75" source="Caso Pinocheques" target="Fraude al Fisco">
+    <edge id="e75" source="Caso Corpesca" target="Cohecho">
       <data key="d5">delito_principal</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e76" source="Caso Asignaciones Parlamentarias y Cuota Flores" target="Fraude al Fisco">
+    <edge id="e76" source="Caso Luminarias LED" target="Cohecho">
       <data key="d5">delito_principal</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e77" source="Caso Audios" target="Cohecho">
+    <edge id="e77" source="Caso Megafraude Tributario Operacion Tributos" target="Delito Tributario">
       <data key="d5">delito_principal</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e78" source="Caso Basura" target="Cohecho">
+    <edge id="e78" source="Caso Milicogate" target="Malversacion de Caudales Publicos">
       <data key="d5">delito_principal</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e79" source="Caso CEMA Chile" target="Malversacion de Caudales Publicos">
+    <edge id="e79" source="Caso Municipalidad de Maipu" target="Fraude al Fisco">
       <data key="d5">delito_principal</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e80" source="Caso Cascadas" target="Negociacion Incompatible">
+    <edge id="e80" source="Caso Operacion Huracan" target="Falsificacion de Instrumento Publico">
       <data key="d5">delito_principal</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e81" source="Caso Caval" target="Delito Tributario">
+    <edge id="e81" source="Caso Pacogate" target="Malversacion de Caudales Publicos">
       <data key="d5">delito_principal</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e82" source="Caso Convenios" target="Fraude al Fisco">
+    <edge id="e82" source="Caso SQM" target="Cohecho">
       <data key="d5">delito_principal</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e83" source="Caso Corpesca" target="Cohecho">
+    <edge id="e83" source="Caso Vitacura" target="Malversacion de Caudales Publicos">
       <data key="d5">delito_principal</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e84" source="Caso Exalmar y Fideicomiso Ciego" target="Negociacion Incompatible">
+    <edge id="e84" source="Caso Basura" target="Cohecho">
       <data key="d5">delito_principal</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e85" source="Caso LAN Informacion Privilegiada y Banco de Talca" target="Negociacion Incompatible">
+    <edge id="e85" source="Caso CEMA Chile" target="Malversacion de Caudales Publicos">
       <data key="d5">delito_principal</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e86" source="Caso Luminarias LED" target="Cohecho">
+    <edge id="e86" source="Caso Cascadas" target="Negociacion Incompatible">
       <data key="d5">delito_principal</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e87" source="Caso MOP-Gate" target="Fraude al Fisco">
+    <edge id="e87" source="Caso Caval" target="Delito Tributario">
       <data key="d5">delito_principal</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e88" source="Caso Megafraude Tributario Operacion Tributos" target="Delito Tributario">
+    <edge id="e88" source="Caso Colonia Dignidad" target="Lavado de Activos">
       <data key="d5">delito_principal</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e89" source="Caso Milicogate" target="Malversacion de Caudales Publicos">
+    <edge id="e89" source="Caso Colusion de las Farmacias" target="Colusion y Atentado a la Libre Competencia">
       <data key="d5">delito_principal</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e90" source="Caso Minera Dominga Pandora Papers" target="Cohecho">
+    <edge id="e90" source="Caso Exalmar y Fideicomiso Ciego" target="Negociacion Incompatible">
       <data key="d5">delito_principal</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e91" source="Caso Municipalidad de Maipu" target="Fraude al Fisco">
+    <edge id="e91" source="Caso LAN Informacion Privilegiada y Banco de Talca" target="Negociacion Incompatible">
       <data key="d5">delito_principal</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e92" source="Caso Operacion Huracan" target="Falsificacion de Instrumento Publico">
+    <edge id="e92" source="Caso MOP-Gate" target="Fraude al Fisco">
       <data key="d5">delito_principal</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e93" source="Caso Pacogate" target="Malversacion de Caudales Publicos">
+    <edge id="e93" source="Caso Minera Dominga Pandora Papers" target="Cohecho">
       <data key="d5">delito_principal</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e94" source="Caso Panama Papers Chile" target="Delito Tributario">
+    <edge id="e94" source="Caso Operacion FUBELT Intervencion CIA y DINA" target="Lavado de Activos">
       <data key="d5">delito_principal</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e95" source="Caso Penta" target="Delito Tributario">
+    <edge id="e95" source="Caso Operaciones Digitales e Injerencia Electoral" target="Fraude al Fisco">
       <data key="d5">delito_principal</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e96" source="Caso Riggs" target="Malversacion de Caudales Publicos">
+    <edge id="e96" source="Caso Panama Papers Chile" target="Delito Tributario">
       <data key="d5">delito_principal</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e97" source="Caso SQM" target="Cohecho">
+    <edge id="e97" source="Caso Penta" target="Delito Tributario">
       <data key="d5">delito_principal</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e98" source="Caso Sierra Bella" target="Fraude al Fisco">
+    <edge id="e98" source="Caso Pinocheques" target="Fraude al Fisco">
       <data key="d5">delito_principal</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e99" source="Caso Spiniak" target="Lavado de Activos">
+    <edge id="e99" source="Caso Riggs" target="Malversacion de Caudales Publicos">
       <data key="d5">delito_principal</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e100" source="Caso Vitacura" target="Malversacion de Caudales Publicos">
+    <edge id="e100" source="Caso Sierra Bella" target="Fraude al Fisco">
       <data key="d5">delito_principal</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e101" source="Caso Operacion FUBELT Intervencion CIA y DINA" target="Lavado de Activos">
+    <edge id="e101" source="Caso Spiniak" target="Lavado de Activos">
       <data key="d5">delito_principal</data>
       <data key="d6">1</data>
     </edge>
     <edge id="e102" source="TRX-1971-09-09-Financiamiento-Encubierto-CIA-ElMercurio-Edwards-01" target="Agencia Central de Inteligencia CIA y Escuela de las Americas">
       <data key="d5">entidad_origen</data>
-      <data key="d6">9500000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e103" source="TRX-1971-09-09-Financiamiento-Encubierto-CIA-ElMercurio-Edwards-01" target="Empresa El Mercurio SAP">
       <data key="d5">entidad_destino</data>
-      <data key="d6">9500000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e104" source="TRX-1971-09-09-Financiamiento-Encubierto-CIA-ElMercurio-Edwards-01" target="Manuel Contreras Sepulveda">
       <data key="d5">firmante_origen</data>
-      <data key="d6">9500000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e105" source="TRX-1971-09-09-Financiamiento-Encubierto-CIA-ElMercurio-Edwards-01" target="Agustin Edwards Eastman">
       <data key="d5">firmante_destino</data>
-      <data key="d6">9500000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e106" source="TRX-1971-09-09-Financiamiento-Encubierto-CIA-ElMercurio-Edwards-01" target="Lavado de Activos">
       <data key="d5">delito_imputado</data>
-      <data key="d6">9500000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e107" source="TRX-1971-09-09-Financiamiento-Encubierto-CIA-ElMercurio-Edwards-01" target="Caso Operacion FUBELT Intervencion CIA y DINA">
       <data key="d5">causa_vinculada</data>
-      <data key="d6">9500000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e108" source="TRX-1971-09-09-Financiamiento-Encubierto-CIA-ElMercurio-Edwards-01" target="Informe-Comision-Church-1975-y-Hinchey-CIA-2000">
       <data key="d5">evidencia_soporte</data>
-      <data key="d6">9500000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e109" source="TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-CIA-01" target="Agencia Central de Inteligencia CIA y Escuela de las Americas">
       <data key="d5">entidad_origen</data>
-      <data key="d6">14800000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e110" source="TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-CIA-01" target="Comando de Apoyo a la Fuerza del Ejercito">
       <data key="d5">entidad_destino</data>
-      <data key="d6">14800000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e111" source="TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-CIA-01" target="Agustin Edwards Eastman">
       <data key="d5">firmante_origen</data>
-      <data key="d6">14800000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e112" source="TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-CIA-01" target="Augusto Pinochet Ugarte">
       <data key="d5">firmante_destino</data>
-      <data key="d6">14800000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e113" source="TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-CIA-01" target="Trafico de Influencias">
       <data key="d5">delito_imputado</data>
-      <data key="d6">14800000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e114" source="TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-CIA-01" target="Caso Operacion FUBELT Intervencion CIA y DINA">
       <data key="d5">causa_vinculada</data>
-      <data key="d6">14800000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e115" source="TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-CIA-01" target="Informe-Comision-Church-1975-y-Hinchey-CIA-2000">
       <data key="d5">evidencia_soporte</data>
-      <data key="d6">14800000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e116" source="TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01" target="Agencia Central de Inteligencia CIA y Escuela de las Americas">
       <data key="d5">entidad_origen</data>
-      <data key="d6">2100000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e117" source="TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01" target="Corte Suprema de Chile">
       <data key="d5">entidad_destino</data>
-      <data key="d6">2100000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e118" source="TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01" target="Manuel Contreras Sepulveda">
       <data key="d5">firmante_origen</data>
-      <data key="d6">2100000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e119" source="TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01" target="Augusto Pinochet Ugarte">
       <data key="d5">firmante_destino</data>
-      <data key="d6">2100000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e120" source="TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01" target="Lavado de Activos">
       <data key="d5">delito_imputado</data>
-      <data key="d6">2100000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e121" source="TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01" target="Caso Operacion FUBELT Intervencion CIA y DINA">
       <data key="d5">causa_vinculada</data>
-      <data key="d6">2100000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e122" source="TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01" target="Informe-Comision-Church-1975-y-Hinchey-CIA-2000">
       <data key="d5">evidencia_soporte</data>
-      <data key="d6">2100000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e123" source="TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01" target="Bancard Inversiones Ltda">
       <data key="d5">entidad_origen</data>
-      <data key="d6">18500000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e124" source="TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01" target="Corte Suprema de Chile">
       <data key="d5">entidad_destino</data>
-      <data key="d6">18500000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e125" source="TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01" target="Sebastian Pinera Echenique">
       <data key="d5">firmante_origen</data>
-      <data key="d6">18500000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e126" source="TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01" target="Sergio Munoz Gajardo">
       <data key="d5">firmante_destino</data>
-      <data key="d6">18500000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e127" source="TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01" target="Negociacion Incompatible">
       <data key="d5">delito_imputado</data>
-      <data key="d6">18500000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e128" source="TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01" target="Caso LAN Informacion Privilegiada y Banco de Talca">
       <data key="d5">causa_vinculada</data>
-      <data key="d6">18500000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e129" source="TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01" target="Resolucion-SVS-306-InformacionPrivilegiada-LAN-2007">
       <data key="d5">evidencia_soporte</data>
-      <data key="d6">18500000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e130" source="TRX-1989-01-10-Emision-Pinocheques-Ejercito-Valmoval-01" target="Comando de Apoyo a la Fuerza del Ejercito">
       <data key="d5">entidad_origen</data>
@@ -2784,59 +2784,59 @@
     </edge>
     <edge id="e137" source="TRX-1991-01-31-Vaciamiento-Patrimonial-Evasion-ColoniaDignidad-01" target="Sociedad Benefactora y Educacional Dignidad">
       <data key="d5">entidad_origen</data>
-      <data key="d6">3450000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e138" source="TRX-1991-01-31-Vaciamiento-Patrimonial-Evasion-ColoniaDignidad-01" target="Servicio Impuestos Internos">
       <data key="d5">entidad_destino</data>
-      <data key="d6">3450000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e139" source="TRX-1991-01-31-Vaciamiento-Patrimonial-Evasion-ColoniaDignidad-01" target="Paul Schafer Schneider">
       <data key="d5">firmante_origen</data>
-      <data key="d6">3450000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e140" source="TRX-1991-01-31-Vaciamiento-Patrimonial-Evasion-ColoniaDignidad-01" target="Jorge Zepeda Arancibia">
       <data key="d5">firmante_destino</data>
-      <data key="d6">3450000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e141" source="TRX-1991-01-31-Vaciamiento-Patrimonial-Evasion-ColoniaDignidad-01" target="Delito Tributario">
       <data key="d5">delito_imputado</data>
-      <data key="d6">3450000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e142" source="TRX-1991-01-31-Vaciamiento-Patrimonial-Evasion-ColoniaDignidad-01" target="Caso Colonia Dignidad">
       <data key="d5">causa_vinculada</data>
-      <data key="d6">3450000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e143" source="TRX-1991-01-31-Vaciamiento-Patrimonial-Evasion-ColoniaDignidad-01" target="Sentencia-Corte-Suprema-ColoniaDignidad-2013">
       <data key="d5">evidencia_soporte</data>
-      <data key="d6">3450000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e144" source="TRX-1996-06-12-Blindaje-Politico-Judicial-ColoniaDignidad-01" target="Union Democrata Independiente">
       <data key="d5">entidad_origen</data>
-      <data key="d6">240000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e145" source="TRX-1996-06-12-Blindaje-Politico-Judicial-ColoniaDignidad-01" target="Sociedad Benefactora y Educacional Dignidad">
       <data key="d5">entidad_destino</data>
-      <data key="d6">240000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e146" source="TRX-1996-06-12-Blindaje-Politico-Judicial-ColoniaDignidad-01" target="Hernan Larrain Fernandez">
       <data key="d5">firmante_origen</data>
-      <data key="d6">240000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e147" source="TRX-1996-06-12-Blindaje-Politico-Judicial-ColoniaDignidad-01" target="Hartmut Hopp Miottel">
       <data key="d5">firmante_destino</data>
-      <data key="d6">240000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e148" source="TRX-1996-06-12-Blindaje-Politico-Judicial-ColoniaDignidad-01" target="Trafico de Influencias">
       <data key="d5">delito_imputado</data>
-      <data key="d6">240000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e149" source="TRX-1996-06-12-Blindaje-Politico-Judicial-ColoniaDignidad-01" target="Caso Colonia Dignidad">
       <data key="d5">causa_vinculada</data>
-      <data key="d6">240000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e150" source="TRX-1996-06-12-Blindaje-Politico-Judicial-ColoniaDignidad-01" target="Sentencia-Corte-Suprema-ColoniaDignidad-2013">
       <data key="d5">evidencia_soporte</data>
-      <data key="d6">240000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e151" source="TRX-2000-05-15-Pacto-Colusion-Precios-Cuotas-CMPC-PISA-01" target="Empresas CMPC SA">
       <data key="d5">entidad_origen</data>
@@ -2896,59 +2896,59 @@
     </edge>
     <edge id="e165" source="TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01" target="Inversiones El Bosque Ltda">
       <data key="d5">entidad_origen</data>
-      <data key="d6">480000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e166" source="TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01" target="Servicio Impuestos Internos">
       <data key="d5">entidad_destino</data>
-      <data key="d6">480000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e167" source="TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01" target="Claudio Spiniak Vilensky">
       <data key="d5">firmante_origen</data>
-      <data key="d6">480000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e168" source="TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01" target="Sergio Munoz Gajardo">
       <data key="d5">firmante_destino</data>
-      <data key="d6">480000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e169" source="TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01" target="Delito Tributario">
       <data key="d5">delito_imputado</data>
-      <data key="d6">480000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e170" source="TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01" target="Caso Spiniak">
       <data key="d5">causa_vinculada</data>
-      <data key="d6">480000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e171" source="TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01" target="Sentencia-Corte-Suprema-CasoSpiniak-2008">
       <data key="d5">evidencia_soporte</data>
-      <data key="d6">480000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e172" source="TRX-2003-11-05-Operacion-Politico-Judicial-Spiniak-01" target="Renovacion Nacional">
       <data key="d5">entidad_origen</data>
-      <data key="d6">120000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e173" source="TRX-2003-11-05-Operacion-Politico-Judicial-Spiniak-01" target="Corte Suprema de Chile">
       <data key="d5">entidad_destino</data>
-      <data key="d6">120000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e174" source="TRX-2003-11-05-Operacion-Politico-Judicial-Spiniak-01" target="Pia Guzman Mena">
       <data key="d5">firmante_origen</data>
-      <data key="d6">120000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e175" source="TRX-2003-11-05-Operacion-Politico-Judicial-Spiniak-01" target="Sergio Munoz Gajardo">
       <data key="d5">firmante_destino</data>
-      <data key="d6">120000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e176" source="TRX-2003-11-05-Operacion-Politico-Judicial-Spiniak-01" target="Trafico de Influencias">
       <data key="d5">delito_imputado</data>
-      <data key="d6">120000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e177" source="TRX-2003-11-05-Operacion-Politico-Judicial-Spiniak-01" target="Caso Spiniak">
       <data key="d5">causa_vinculada</data>
-      <data key="d6">120000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e178" source="TRX-2003-11-05-Operacion-Politico-Judicial-Spiniak-01" target="Sentencia-Corte-Suprema-CasoSpiniak-2008">
       <data key="d5">evidencia_soporte</data>
-      <data key="d6">120000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e179" source="TRX-2004-07-14-Desvio-Gastos-Reservados-Riggs-Pinochet-01" target="Comando de Apoyo a la Fuerza del Ejercito">
       <data key="d5">entidad_origen</data>
@@ -3608,115 +3608,115 @@
     </edge>
     <edge id="e343" source="TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01" target="Mossack Fonseca y Sociedades Offshore Panama">
       <data key="d5">entidad_origen</data>
-      <data key="d6">14200000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e344" source="TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01" target="Servicio Impuestos Internos">
       <data key="d5">entidad_destino</data>
-      <data key="d6">14200000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e345" source="TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01" target="Gonzalo Delaveau Swett">
       <data key="d5">firmante_origen</data>
-      <data key="d6">14200000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e346" source="TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01" target="Carlos Pavez Tolosa">
       <data key="d5">firmante_destino</data>
-      <data key="d6">14200000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e347" source="TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01" target="Delito Tributario">
       <data key="d5">delito_imputado</data>
-      <data key="d6">14200000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e348" source="TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01" target="Caso Panama Papers Chile">
       <data key="d5">causa_vinculada</data>
-      <data key="d6">14200000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e349" source="TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01" target="Filtracion-ICIJ-PanamaPapers-Chile-2016">
       <data key="d5">evidencia_soporte</data>
-      <data key="d6">14200000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e350" source="TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01" target="Mossack Fonseca y Sociedades Offshore Panama">
       <data key="d5">entidad_origen</data>
-      <data key="d6">19500000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e351" source="TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01" target="Unidad de Analisis Financiero">
       <data key="d5">entidad_destino</data>
-      <data key="d6">19500000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e352" source="TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01" target="Agustin Edwards Eastman">
       <data key="d5">firmante_origen</data>
-      <data key="d6">19500000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e353" source="TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01" target="Alfredo Ovalle Rodriguez">
       <data key="d5">firmante_destino</data>
-      <data key="d6">19500000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e354" source="TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01" target="Delito Tributario">
       <data key="d5">delito_imputado</data>
-      <data key="d6">19500000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e355" source="TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01" target="Caso Panama Papers Chile">
       <data key="d5">causa_vinculada</data>
-      <data key="d6">19500000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e356" source="TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01" target="Filtracion-ICIJ-PanamaPapers-Chile-2016">
       <data key="d5">evidencia_soporte</data>
-      <data key="d6">19500000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e357" source="TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01" target="Mossack Fonseca y Sociedades Offshore Panama">
       <data key="d5">entidad_origen</data>
-      <data key="d6">3800000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e358" source="TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01" target="Riggs Bank y Sociedades Offshore Ashburton">
       <data key="d5">entidad_destino</data>
-      <data key="d6">3800000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e359" source="TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01" target="Oscar Aitken Lavanchy">
       <data key="d5">firmante_origen</data>
-      <data key="d6">3800000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e360" source="TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01" target="Augusto Pinochet Ugarte">
       <data key="d5">firmante_destino</data>
-      <data key="d6">3800000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e361" source="TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01" target="Lavado de Activos">
       <data key="d5">delito_imputado</data>
-      <data key="d6">3800000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e362" source="TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01" target="Caso Panama Papers Chile">
       <data key="d5">causa_vinculada</data>
-      <data key="d6">3800000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e363" source="TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01" target="Filtracion-ICIJ-PanamaPapers-Chile-2016">
       <data key="d5">evidencia_soporte</data>
-      <data key="d6">3800000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e364" source="TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01" target="Fundacion CEMA Chile">
       <data key="d5">entidad_origen</data>
-      <data key="d6">10500000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e365" source="TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01" target="Corte Suprema de Chile">
       <data key="d5">entidad_destino</data>
-      <data key="d6">10500000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e366" source="TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01" target="Lucia Hiriart Rodriguez">
       <data key="d5">firmante_origen</data>
-      <data key="d6">10500000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e367" source="TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01" target="Sergio Munoz Gajardo">
       <data key="d5">firmante_destino</data>
-      <data key="d6">10500000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e368" source="TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01" target="Malversacion de Caudales Publicos">
       <data key="d5">delito_imputado</data>
-      <data key="d6">10500000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e369" source="TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01" target="Caso CEMA Chile">
       <data key="d5">causa_vinculada</data>
-      <data key="d6">10500000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e370" source="TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01" target="Disolucion-CDE-Fundacion-CEMAChile-2021">
       <data key="d5">evidencia_soporte</data>
-      <data key="d6">10500000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e371" source="TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01" target="Direccion de Finanzas de Carabineros">
       <data key="d5">entidad_origen</data>
@@ -4356,31 +4356,31 @@
     </edge>
     <edge id="e530" source="TRX-2023-08-25-Reporte-ROS-Factop-UAF-01" target="Factop SpA">
       <data key="d5">entidad_origen</data>
-      <data key="d6">480000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e531" source="TRX-2023-08-25-Reporte-ROS-Factop-UAF-01" target="Unidad de Analisis Financiero">
       <data key="d5">entidad_destino</data>
-      <data key="d6">480000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e532" source="TRX-2023-08-25-Reporte-ROS-Factop-UAF-01" target="Luis Hermosilla Osorio">
       <data key="d5">firmante_origen</data>
-      <data key="d6">480000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e533" source="TRX-2023-08-25-Reporte-ROS-Factop-UAF-01" target="Javier Cruz Tamburrino">
       <data key="d5">firmante_destino</data>
-      <data key="d6">480000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e534" source="TRX-2023-08-25-Reporte-ROS-Factop-UAF-01" target="Lavado de Activos">
       <data key="d5">delito_imputado</data>
-      <data key="d6">480000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e535" source="TRX-2023-08-25-Reporte-ROS-Factop-UAF-01" target="Caso Audios">
       <data key="d5">causa_vinculada</data>
-      <data key="d6">480000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e536" source="TRX-2023-08-25-Reporte-ROS-Factop-UAF-01" target="Audio-Reunion-Edificio-Alonso-2023">
       <data key="d5">evidencia_soporte</data>
-      <data key="d6">480000000</data>
+      <data key="d6">0</data>
     </edge>
     <edge id="e537" source="TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01" target="Servicio Impuestos Internos">
       <data key="d5">entidad_destino</data>
