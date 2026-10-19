@@ -23,6 +23,19 @@ tags:
 | `parcial` | 10 |
 | `verificado` | 59 |
 
+## Montos por Origen
+> Una cifra de sentencia o resolución está acreditada; una de acusación, estimación o prensa no. No se suman como si tuvieran la misma calidad.
+
+| Origen del monto | Hechos | Monto (CLP) |
+| :--- | ---: | ---: |
+| `sentencia` | 9 | $58.305.530.792 |
+| `resolucion_administrativa` | 6 | $134.198.000.000 |
+| `estimacion_oficial` | 1 | $240.000.000.000 |
+| `acusacion` | 18 | $49.748.563.198 |
+| `prensa` | 4 | $89.200.000.000 |
+| `no_verificado` | 13 | $97.670.000.000 |
+| `sin_monto` | 14 | $0 |
+
 ## Alertas de Verificación Pendientes (3)
 
 - **[[Caso Pacogate]]**: Veredicto del juicio oral: abril de 2026 (25 de 28 condenados; se descartó asociación ilícita). Las penas se conocerán en la sentencia (prensa: feb-2027). La evidencia 'Veredicto-TOP-Santiago-Pacogate-2026' no coincide con esa cronología.

@@ -4,6 +4,7 @@ id_transaccion: "TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01"
 fecha: 1982-08-28
 tipo_nexo: desviacion_fondos
 monto_clp: 18500000000
+monto_origen: no_verificado
 metodo_adjudicacion: trato_directo
 entidad_origen: "[[Bancard Inversiones Ltda]]"
 entidad_destino: "[[Corte Suprema de Chile]]"

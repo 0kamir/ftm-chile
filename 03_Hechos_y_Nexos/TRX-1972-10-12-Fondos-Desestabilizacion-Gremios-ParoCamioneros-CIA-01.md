@@ -4,6 +4,7 @@ id_transaccion: "TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-
 fecha: 1972-10-12
 tipo_nexo: gestion_influencia
 monto_clp: 14800000000
+monto_origen: no_verificado
 metodo_adjudicacion: trato_directo
 entidad_origen: "[[Agencia Central de Inteligencia CIA y Escuela de las Americas]]"
 entidad_destino: "[[Comando de Apoyo a la Fuerza del Ejercito]]"

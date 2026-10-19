@@ -4,7 +4,7 @@ Ingestador OSINT de Transferencias y Convenios Públicos (Estándar Registros 19
 Convierte filas CSV o registros JSON en nodos de aristas reificadas (.md) dentro de `03_Hechos_y_Nexos/`.
 
 Columnas de fuente (recomendadas): fuente_url, fuente_titulo, fuente_medio, fuente_tipo, fuente_fecha.
-Sin `fuente_url` la nota queda con `estado_verificacion: sin_fuente`. Nunca sobrescribe notas existentes.
+Sin `fuente_url` la nota queda con `estado_verificacion: sin_fuente` y `monto_origen` vacío, que el editor debe completar. Nunca sobrescribe notas existentes.
 
 Uso:
   python3 00_Meta/Scripts/ingest_osint.py --input transferencias.csv [--dry-run]
@@ -71,6 +71,7 @@ tipo_nodo: nexo_transaccion
 fecha: {fecha}
 tipo_nexo: {tipo_nexo}
 monto_clp: {monto_clp}
+monto_origen: {"sin_monto" if not monto_clp else ("registro_oficial" if fuente_url else '""')}
 entidad_origen: "[[{entidad_origen}]]"
 entidad_destino: "[[{entidad_destino}]]"
 firmante_origen: "[[{firmante_origen}]]"

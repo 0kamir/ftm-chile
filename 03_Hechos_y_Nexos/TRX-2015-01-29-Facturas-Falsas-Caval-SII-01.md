@@ -4,6 +4,7 @@ id_transaccion: "TRX-2015-01-29-Facturas-Falsas-Caval-SII-01"
 fecha: 2015-01-29
 tipo_nexo: factura_falsa
 monto_clp: 2500000000
+monto_origen: prensa
 metodo_adjudicacion: no_aplica
 entidad_origen: "[[Exportadora y de Gestion Caval Ltda]]"
 entidad_destino: "[[Servicio Impuestos Internos]]"

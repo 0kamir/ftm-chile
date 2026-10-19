@@ -3,6 +3,7 @@ tipo_nodo: nexo_transaccion
 fecha: 2023-06-22
 tipo_nexo: cohecho
 monto_clp: 100000000
+monto_origen: acusacion
 entidad_origen: "[[Factop SpA]]"
 entidad_destino: "[[Servicio Impuestos Internos]]"
 firmante_origen: "[[Luis Hermosilla Osorio]]"

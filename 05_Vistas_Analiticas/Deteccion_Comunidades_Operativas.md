@@ -110,8 +110,6 @@ tags:
 | [[TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01]] | Célula #07 (Caso Operacion FUBELT Intervencion CIA y DINA / Caso Panama Papers Chile) | `vinculo` | [[Servicio Impuestos Internos]] | Célula #08 (Caso Caval / Caso Megafraude Tributario Operacion Tributos) |
 | [[TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01]] | Célula #07 (Caso Operacion FUBELT Intervencion CIA y DINA / Caso Panama Papers Chile) | `vinculo` | [[Carlos Pavez Tolosa]] | Célula #01 (Caso Exalmar y Fideicomiso Ciego / Caso LAN Informacion Privilegiada y Banco de Talca) |
 | [[TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01]] | Célula #07 (Caso Operacion FUBELT Intervencion CIA y DINA / Caso Panama Papers Chile) | `vinculo` | [[Unidad de Analisis Financiero]] | Célula #02 (Caso Audios / Caso Milicogate) |
-| [[TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01]] | Célula #06 (Caso CEMA Chile / Caso Cascadas) | `vinculo` | [[Mossack Fonseca y Sociedades Offshore Panama]] | Célula #07 (Caso Operacion FUBELT Intervencion CIA y DINA / Caso Panama Papers Chile) |
-| [[TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01]] | Célula #06 (Caso CEMA Chile / Caso Cascadas) | `vinculo` | [[Caso Panama Papers Chile]] | Célula #07 (Caso Operacion FUBELT Intervencion CIA y DINA / Caso Panama Papers Chile) |
 | [[TRX-2023-06-22-Reunion-Audios-01]] | Célula #02 (Caso Audios / Caso Milicogate) | `vinculo` | [[Servicio Impuestos Internos]] | Célula #08 (Caso Caval / Caso Megafraude Tributario Operacion Tributos) |
 | [[TRX-2014-05-20-Facturas-LeyReservadaCobre-01]] | Célula #02 (Caso Audios / Caso Milicogate) | `vinculo` | [[Comando de Apoyo a la Fuerza del Ejercito]] | Célula #06 (Caso CEMA Chile / Caso Cascadas) |
 | [[TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01]] | Célula #06 (Caso CEMA Chile / Caso Cascadas) | `vinculo` | [[Corte Suprema de Chile]] | Célula #09 (Caso Operacion Huracan) |
@@ -123,6 +121,8 @@ tags:
 | [[TRX-2010-11-15-Soborno-Licitacion-Basura-Maipu-01]] | Célula #03 (Caso Basura / Caso Operaciones Digitales e Injerencia Electoral) | `vinculo` | [[Municipalidad de Maipu]] | Célula #01 (Caso Exalmar y Fideicomiso Ciego / Caso LAN Informacion Privilegiada y Banco de Talca) |
 | [[TRX-2011-03-10-Pagos-Penta-Wagner-01]] | Célula #01 (Caso Exalmar y Fideicomiso Ciego / Caso LAN Informacion Privilegiada y Banco de Talca) | `vinculo` | [[Servicio Impuestos Internos]] | Célula #08 (Caso Caval / Caso Megafraude Tributario Operacion Tributos) |
 | [[TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01]] | Célula #06 (Caso CEMA Chile / Caso Cascadas) | `vinculo` | [[SQM SA]] | Célula #01 (Caso Exalmar y Fideicomiso Ciego / Caso LAN Informacion Privilegiada y Banco de Talca) |
+| [[TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01]] | Célula #06 (Caso CEMA Chile / Caso Cascadas) | `vinculo` | [[Mossack Fonseca y Sociedades Offshore Panama]] | Célula #07 (Caso Operacion FUBELT Intervencion CIA y DINA / Caso Panama Papers Chile) |
+| [[TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01]] | Célula #06 (Caso CEMA Chile / Caso Cascadas) | `vinculo` | [[Caso Panama Papers Chile]] | Célula #07 (Caso Operacion FUBELT Intervencion CIA y DINA / Caso Panama Papers Chile) |
 
 ---
 

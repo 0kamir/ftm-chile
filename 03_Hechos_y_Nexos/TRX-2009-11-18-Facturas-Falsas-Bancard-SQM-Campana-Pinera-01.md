@@ -4,6 +4,7 @@ id_transaccion: "TRX-2009-11-18-Facturas-Falsas-Bancard-SQM-Campana-Pinera-01"
 fecha: 2009-11-18
 tipo_nexo: factura_falsa
 monto_clp: 340000000
+monto_origen: acusacion
 metodo_adjudicacion: no_aplica
 entidad_origen: "[[SQM SA]]"
 entidad_destino: "[[Bancard Inversiones Ltda]]"

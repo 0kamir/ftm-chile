@@ -3,6 +3,7 @@ tipo_nodo: nexo_transaccion
 fecha: 2019-05-14
 tipo_nexo: cohecho
 monto_clp: 37000000
+monto_origen: acusacion
 entidad_origen: "[[Itelecom Holding Chile SpA]]"
 entidad_destino: "[[Municipalidad de Chillan]]"
 firmante_origen: "[[Leon Marcelo Lefort Hernandez]]"

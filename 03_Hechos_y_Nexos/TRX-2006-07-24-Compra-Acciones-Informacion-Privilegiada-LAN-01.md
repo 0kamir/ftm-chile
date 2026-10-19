@@ -4,6 +4,7 @@ id_transaccion: "TRX-2006-07-24-Compra-Acciones-Informacion-Privilegiada-LAN-01"
 fecha: 2006-07-24
 tipo_nexo: gestion_influencia
 monto_clp: 5300000000
+monto_origen: resolucion_administrativa
 metodo_adjudicacion: trato_directo
 entidad_origen: "[[Bancard Inversiones Ltda]]"
 entidad_destino: "[[Comision para el Mercado Financiero]]"

@@ -4,6 +4,7 @@ id_transaccion: "TRX-2014-02-18-Soborno-Caval-Machali-01"
 fecha: 2014-02-18
 tipo_nexo: cohecho_soborno
 monto_clp: 55030792
+monto_origen: sentencia
 metodo_adjudicacion: no_aplica
 entidad_origen: ""
 entidad_destino: "[[Municipalidad de Machali]]"

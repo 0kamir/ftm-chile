@@ -4,6 +4,7 @@ id_transaccion: "TRX-2012-11-20-Inversion-Offshore-Bancard-Exalmar-LaHaya-01"
 fecha: 2012-11-20
 tipo_nexo: gestion_influencia
 monto_clp: 8250000000
+monto_origen: prensa
 metodo_adjudicacion: trato_directo
 entidad_origen: "[[Bancard Inversiones Ltda]]"
 entidad_destino: "[[Contraloria General de la Republica]]"

@@ -3,6 +3,7 @@ tipo_nodo: nexo_transaccion
 fecha: 2015-10-29
 tipo_nexo: compensacion_reparatoria
 monto_clp: 38400000000
+monto_origen: sentencia
 entidad_origen: "[[Agrosuper SA]]"
 entidad_destino: "[[Corte Suprema de Chile]]"
 firmante_origen: "[[Gonzalo Vial Vial]]"

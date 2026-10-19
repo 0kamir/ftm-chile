@@ -3,6 +3,7 @@ tipo_nodo: nexo_transaccion
 fecha: 2020-12-15
 tipo_nexo: transferencia
 monto_clp: 30972000000
+monto_origen: resolucion_administrativa
 entidad_origen: "[[Municipalidad de Maipu]]"
 entidad_destino: "[[Municipalidad de Maipu]]"
 firmante_origen: "[[Cathy Barriga Guerra]]"

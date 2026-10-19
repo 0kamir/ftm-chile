@@ -4,6 +4,7 @@ id_transaccion: "TRX-1989-01-10-Emision-Pinocheques-Ejercito-Valmoval-01"
 fecha: 1989-01-10
 tipo_nexo: desviacion_fondos
 monto_clp: 2950000000
+monto_origen: prensa
 metodo_adjudicacion: trato_directo
 entidad_origen: "[[Comando de Apoyo a la Fuerza del Ejercito]]"
 entidad_destino: "[[Valmoval Ltda]]"

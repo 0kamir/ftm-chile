@@ -4,6 +4,7 @@ id_transaccion: "TRX-1971-09-09-Financiamiento-Encubierto-CIA-ElMercurio-Edwards
 fecha: 1971-09-09
 tipo_nexo: desviacion_fondos
 monto_clp: 9500000000
+monto_origen: no_verificado
 metodo_adjudicacion: trato_directo
 entidad_origen: "[[Agencia Central de Inteligencia CIA y Escuela de las Americas]]"
 entidad_destino: "[[Empresa El Mercurio SAP]]"

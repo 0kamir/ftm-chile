@@ -3,6 +3,7 @@ tipo_nodo: nexo_transaccion
 fecha: 2022-12-20
 tipo_nexo: convenio_directo
 monto_clp: 250635000
+monto_origen: acusacion
 entidad_origen: "[[GORE Biobio]]"
 entidad_destino: "[[Fundacion En Ti]]"
 firmante_origen: "[[Rodrigo Diaz Worner]]"

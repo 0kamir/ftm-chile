@@ -158,7 +158,6 @@ MERGE (n:NodoForense:EntidadPrivada {id: "Sociedad Benefactora y Educacional Dig
 MERGE (n:NodoForense:EntidadPrivada {id: "Sociedad de Inversiones Pampa Calichera SA"}) SET n.tipo_nodo = "entidad_privada", n.rut = "", n.monto_clp = 0, n.fecha = "1988-06-21";
 MERGE (n:NodoForense:EntidadPrivada {id: "Valmoval Ltda"}) SET n.tipo_nodo = "entidad_privada", n.rut = "", n.monto_clp = 0, n.fecha = "1984-06-15";
 MERGE (n:NodoForense:EntidadPrivada {id: "Vita Deportes"}) SET n.tipo_nodo = "entidad_privada", n.rut = "", n.monto_clp = 0, n.fecha = "2001-06-12";
-MERGE (n:NodoForense:Entidad {id: "Drawing 2026-10-18 11.54.03.excalidraw"}) SET n.tipo_nodo = "Otro", n.rut = "", n.monto_clp = 0, n.fecha = "";
 MERGE (n:NodoForense:PartidoPolitico {id: "Partido Comunista de Chile"}) SET n.tipo_nodo = "partido_politico", n.rut = "", n.monto_clp = 0, n.fecha = "";
 MERGE (n:NodoForense:PartidoPolitico {id: "Partido Socialista de Chile"}) SET n.tipo_nodo = "partido_politico", n.rut = "", n.monto_clp = 0, n.fecha = "";
 MERGE (n:NodoForense:PartidoPolitico {id: "Renovacion Nacional"}) SET n.tipo_nodo = "partido_politico", n.rut = "", n.monto_clp = 0, n.fecha = "";

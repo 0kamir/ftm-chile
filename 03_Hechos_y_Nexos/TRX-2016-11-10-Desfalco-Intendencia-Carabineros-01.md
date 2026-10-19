@@ -3,6 +3,7 @@ tipo_nodo: nexo_transaccion
 fecha: 2016-11-10
 tipo_nexo: transferencia
 monto_clp: 28348928198
+monto_origen: acusacion
 entidad_origen: "[[Direccion de Finanzas de Carabineros]]"
 entidad_destino: "[[Direccion de Finanzas de Carabineros]]"
 firmante_origen: "[[Flavio Echeverria Cortez]]"

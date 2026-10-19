@@ -4,6 +4,7 @@ id_transaccion: "TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01"
 fecha: 2023-06-29
 tipo_nexo: resolucion_administrativa
 monto_clp: 0
+monto_origen: sin_monto
 metodo_adjudicacion: no_aplica
 entidad_origen: "[[Contraloria General de la Republica]]"
 entidad_destino: "[[Seremi MINVU Antofagasta]]"

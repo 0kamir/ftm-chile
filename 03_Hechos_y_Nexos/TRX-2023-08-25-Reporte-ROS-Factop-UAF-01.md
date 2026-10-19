@@ -4,6 +4,7 @@ id_transaccion: "TRX-2023-08-25-Reporte-ROS-Factop-UAF-01"
 fecha: 2023-08-25
 tipo_nexo: factura_falsa
 monto_clp: 480000000
+monto_origen: no_verificado
 metodo_adjudicacion: no_aplica
 entidad_origen: "[[Factop SpA]]"
 entidad_destino: "[[Unidad de Analisis Financiero]]"

@@ -3,6 +3,7 @@ tipo_nodo: nexo_transaccion
 fecha: 2017-03-03
 tipo_nexo: compensacion_reparatoria
 monto_clp: 97500000000
+monto_origen: resolucion_administrativa
 entidad_origen: "[[Empresas CMPC SA]]"
 entidad_destino: "[[Servicio Nacional del Consumidor]]"
 firmante_origen: "[[Eliodoro Matte Larrain]]"

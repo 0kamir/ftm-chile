@@ -3,6 +3,7 @@ tipo_nodo: nexo_transaccion
 fecha: 2007-11-01
 tipo_nexo: acuerdo_colusorio
 monto_clp: 0
+monto_origen: sin_monto
 entidad_origen: "[[Farmacias Salcobrand SA]]"
 entidad_destino: "[[Farmacias Cruz Verde SA]]"
 firmante_origen: "[[Roberto Belloni Pechini]]"

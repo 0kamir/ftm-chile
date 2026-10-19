@@ -3,6 +3,7 @@ tipo_nodo: nexo_transaccion
 fecha: 2025-10-15
 tipo_nexo: desviacion_fondos
 monto_clp: 35000000
+monto_origen: acusacion
 entidad_origen: "[[Senado de la Republica de Chile]]"
 entidad_destino: "[[Camila Flores Oporto]]"
 firmante_origen: "[[Senado de la Republica de Chile]]"

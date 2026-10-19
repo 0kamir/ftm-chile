@@ -53,6 +53,17 @@ Siguiendo el modelo **FollowTheMoney (OCCRP Aleph)** e **ICIJ Offshore Leaks**, 
 - `llamada`: Comunicación telefónica o mensajería periciada.
 - `reunion_lobby`: Audiencia registrada por Ley N° 20.730 o reunión extrainstitucional.
 
+### `monto_origen` (en `tpl_nexo_transaccion.md`)
+De dónde sale la cifra de `monto_clp`, de más a menos firme. Los totales nunca se suman como si tuvieran la misma calidad.
+- `sentencia`: monto dado por acreditado por un tribunal (juicio oral, abreviado, Corte).
+- `resolucion_administrativa`: multa o acuerdo fijado por TDLC, SVS/CMF, SERNAC, o hallazgo de un informe de Contraloría.
+- `registro_oficial`: monto de un registro público (Mercado Público, Transparencia Activa).
+- `estimacion_oficial`: cálculo de un organismo (SII, UAF, comisión) que no es sanción ni sentencia.
+- `acusacion`: proviene de Fiscalía o querella sin sentencia que lo acredite (o con absolución).
+- `prensa`: solo lo reporta la prensa o una filtración periodística.
+- `no_verificado`: no se encontró fuente para la cifra; debe verificarse o llevarse a 0.
+- `sin_monto`: el hecho no tiene monto (`monto_clp: 0`).
+
 ### `estado_verificacion` (en causas, evidencias y nexos)
 - `verificado`: Al menos una fuente con URL respalda el hecho tal como está descrito.
 - `parcial`: Existen fuentes, pero algún dato (monto, fecha, rol, identificador) no está confirmado.

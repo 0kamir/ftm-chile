@@ -4,6 +4,7 @@ id_transaccion: "TRX-1996-06-12-Blindaje-Politico-Judicial-ColoniaDignidad-01"
 fecha: 1996-06-12
 tipo_nexo: gestion_influencia
 monto_clp: 240000000
+monto_origen: no_verificado
 metodo_adjudicacion: no_aplica
 entidad_origen: "[[Union Democrata Independiente]]"
 entidad_destino: "[[Sociedad Benefactora y Educacional Dignidad]]"

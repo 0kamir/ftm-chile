@@ -31,7 +31,8 @@ flowchart LR
 4. **Privacidad y víctimas.** No se incorporan hechos de la vida íntima, de salud o familiares ajenos al eje de corrupción, aunque hayan salido en prensa. Las víctimas no se modelan como actores de un nexo.
 5. **Mención no es vínculo.** Aparecer en una filtración o desclasificación (Panama/Pandora Papers, archivos Epstein) no constituye un hecho ilícito. Si no hay investigación ni imputación en Chile, la información va a un anexo documental en `06_Anexos/`, fuera del grafo (ver sección 5).
 6. **Sin datos personales.** No se publica el RUT, domicilio, teléfono ni datos de familia de personas naturales; el validador rechaza notas de persona con `rut`. Los RUT de empresas y organismos públicos se registran solo con una fuente que los respalde (registro del SII, memoria anual, documento oficial); el validador rechaza un RUT de entidad sin fuentes. Lo mismo vale para el RUC de una causa: si no aparece en una fuente, el campo queda vacío.
-7. **Nada inventado.** RUC, RUT, roles, montos y fechas se copian del documento fuente. Si no se conoce un dato, se deja vacío; no se estima ni se completa con un valor plausible.
+7. **Monto con origen.** Cada hecho declara en `monto_origen` si su cifra viene de una sentencia, una resolución administrativa, un registro oficial, una estimación, una acusación o la prensa. Una cifra de acusación no se presenta como monto probado.
+8. **Nada inventado.** RUC, RUT, roles, montos y fechas se copian del documento fuente. Si no se conoce un dato, se deja vacío; no se estima ni se completa con un valor plausible.
 
 ## 2. Jerarquía de Fuentes
 | Nivel | Ejemplos | `tipo` |

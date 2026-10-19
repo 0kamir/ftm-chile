@@ -3,6 +3,7 @@ tipo_nodo: nexo_transaccion
 fecha: 2008-01-15
 tipo_nexo: acuerdo_colusorio
 monto_clp: 0
+monto_origen: sin_monto
 entidad_origen: "[[Agrosuper SA]]"
 entidad_destino: "[[Asociacion de Productores Avicolas de Chile AG]]"
 firmante_origen: "[[Gonzalo Vial Vial]]"

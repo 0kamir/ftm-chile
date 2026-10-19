@@ -4,6 +4,7 @@ id_transaccion: "TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01"
 fecha: 2016-08-12
 tipo_nexo: desviacion_fondos
 monto_clp: 10500000000
+monto_origen: no_verificado
 metodo_adjudicacion: trato_directo
 entidad_origen: "[[Fundacion CEMA Chile]]"
 entidad_destino: "[[Corte Suprema de Chile]]"

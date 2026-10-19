@@ -4,6 +4,7 @@ id_transaccion: "TRX-2003-11-05-Operacion-Politico-Judicial-Spiniak-01"
 fecha: 2003-11-05
 tipo_nexo: gestion_influencia
 monto_clp: 120000000
+monto_origen: no_verificado
 metodo_adjudicacion: no_aplica
 entidad_origen: "[[Renovacion Nacional]]"
 entidad_destino: "[[Corte Suprema de Chile]]"

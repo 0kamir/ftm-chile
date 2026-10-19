@@ -4,6 +4,7 @@ id_transaccion: "TRX-2023-01-20-Compraventa-Clinica-SierraBella-01"
 fecha: 2023-01-20
 tipo_nexo: trato_directo
 monto_clp: 0
+monto_origen: sin_monto
 metodo_adjudicacion: trato_directo
 entidad_origen: "[[Municipalidad de Santiago]]"
 entidad_destino: "[[Inmobiliaria San Valentino SpA]]"

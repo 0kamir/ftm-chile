@@ -3,6 +3,7 @@ tipo_nodo: nexo_transaccion
 fecha: 2018-01-25
 tipo_nexo: peritaje_forense
 monto_clp: 0
+monto_origen: sin_monto
 entidad_origen: "[[Corte Suprema de Chile]]"
 entidad_destino: "[[Direccion de Inteligencia Policial de Carabineros]]"
 firmante_origen: "[[Leonardo Osses Sandoval]]"
