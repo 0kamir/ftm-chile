@@ -38,7 +38,7 @@ tags:
 - **Delito Principal**: `= this.delito_principal` (junto a [[Fraude al Fisco]] y [[Lavado de Activos]])
 
 ## Resumen Ejecutivo
-Investigación judicial sobre el desfalco de recursos provenientes de la Ley N° 13.196 Reservada del Cobre y de gastos reservados asignados al Ejército de Chile. En la arista de facturas falsas del [[Comando de Apoyo a la Fuerza del Ejercito]] (CAF), oficiales como el coronel (r) [[Jozo Santic Palomino]] fueron condenados por pagar servicios inexistentes a proveedores coludidos como [[Frasim Ltda]] ([[TRX-2014-05-20-Facturas-LeyReservadaCobre-01]]) por más de **$6.100.000.000 CLP**, mientras que en la arista gastos reservados fue procesado el ex Comandante en Jefe [[Juan Miguel Fuente-Alba Poblete]] según consta en el [[Procesamientos-Ministra-Rutherford-Milicogate]].
+Investigación judicial sobre el desfalco de recursos provenientes de la Ley N° 13.196 Reservada del Cobre y de gastos reservados asignados al Ejército de Chile. En la arista de facturas falsas del [[Comando de Apoyo a la Fuerza del Ejercito]] (CAF), oficiales como el general (r) [[Jozo Santic Palomino]] fueron condenados por pagar servicios inexistentes a proveedores coludidos como [[Frasim Ltda]] ([[TRX-2014-05-20-Facturas-LeyReservadaCobre-01]]) por más de **$6.100.000.000 CLP**, mientras que en la arista gastos reservados fue procesado el ex Comandante en Jefe [[Juan Miguel Fuente-Alba Poblete]] según consta en el [[Procesamientos-Ministra-Rutherford-Milicogate]].
 
 ## Hechos y Nexos Vinculados a la Causa
 ```dataview

@@ -7,7 +7,15 @@ aliases:
 rol_principal: "Consultor de Comunicación Digital, Fundador de Numen y La Derecha Diario"
 afiliacion_politica: "Independiente / Estratega Digital de Derecha Radical"
 situacion_procesal: investigado
-medida_cautelar: "Imputado en Brasil por el STF por desinformación electoral; investigado penalmente en Chile por Fiscalía Centro Norte"
+medida_cautelar: "Indiciado por la Policía Federal de Brasil (nov-2024) sin ser acusado por la PGR; investigado en Chile por la Fiscalía Centro Norte (sin formalización)"
+estado_verificacion: parcial
+fuentes:
+  - url: "https://apublica.org/2025/09/julgamento-stf-quem-foi-indiciado-mas-nao-deve-ser-julgado/"
+    titulo: "Julgamento no STF: quem foi indiciado mas não deve ser julgado"
+    medio: "Agência Pública"
+    tipo: secundaria
+    fecha: 2025-09-01
+    consultado: 2026-10-19
 tags:
   - entidad/persona
   - consultor-digital
@@ -43,7 +51,7 @@ Dicha presencia consta en registros fotográficos revelados por el medio *The Cl
 ### 3. Indagatorias Judiciales y Parlamentarias
 - **Fiscalía Centro Norte**: Abrió causa penal para determinar eventuales infracciones a la Ley 19.884 sobre Control del Gasto Electoral y la Ley de Delitos Informáticos, ante la falta de reportes financieros en las rendiciones del Servel.
 - **Cámara de Diputadas y Diputados**: Aprobó la creación de una Comisión Especial Investigadora sobre la participación de agencias digitales internacionales y desinformación en los plebiscitos chilenos.
-- **Operación Tempus Veritatis (Brasil)**: En febrero de 2024, la Policía Federal de Brasil y el Supremo Tribunal Federal (STF) lo imputaron dentro del núcleo de desinformación por difundir ataques contra el sistema de votación electrónica brasileño.
+- **Operación Tempus Veritatis (Brasil)**: En noviembre de 2024 la Policía Federal de Brasil lo incluyó entre los indiciados de la investigación sobre la intentona golpista de 2022, por una transmisión en la que difundió supuestas fraudes en las urnas electrónicas. La Procuraduría General de la República no lo incluyó en la acusación de febrero de 2025, por lo que no es acusado ante el STF.
 
 ## Auditoría Contable: Registros Reificados
 ```dataviewjs
@@ -63,4 +71,16 @@ dv.table(
     p.causa_vinculada
   ])
 );
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```
