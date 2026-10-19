@@ -151,7 +151,7 @@ Cada transacción o reunión constituye una nota independiente con metadatos con
 | **Macro-Causas Judiciales y Carteles** | **32** | Causas activas y ejecutoriadas |
 | **Monto acreditado por sentencia** | **$58.305.530.792 CLP** | Cifras dadas por probadas por un tribunal |
 | **Monto de resoluciones administrativas** | **$134.198.000.000 CLP** | Multas y acuerdos (TDLC, SVS/CMF, SERNAC) e informes de Contraloría |
-| **Montos sin acreditar** | **$476.618.563.198 CLP** | Acusaciones, estimaciones oficiales, prensa y cifras no verificadas; no son montos probados |
+| **Montos sin acreditar** | **$378.948.563.198 CLP** | Acusaciones, estimaciones oficiales y prensa; no son montos probados. Las cifras sin ninguna fuente se llevaron a 0 |
 | **Batería de Pruebas Unitarias** | **24 / 24 OK** | `pytest` / `unittest` en entorno continuo |
 
 ---

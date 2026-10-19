@@ -16,7 +16,7 @@ tags:
 > Los umbrales (por ejemplo, el de toma de razón de la Contraloría) se usan como señales para revisar documentos, no como determinación de una irregularidad.
 
 
-- **Monto Global Investigado**: **$669.122.093.990 CLP** (Equivalente a **11.252.779.5 UTM**)
+- **Monto Global Investigado**: **$571.452.093.990 CLP** (Equivalente a **9.647.764.1 UTM**)
 - **Total de Aristas Reificadas (`TRX`)**: **65**
 - **Casos de Fraccionamiento bajo 5.000 UTM detectados**: **1**
 
@@ -30,19 +30,19 @@ flowchart LR
   classDef priv fill:#e65100,stroke:#ffb74d,color:#fff,stroke-width:2px;
   classDef trx fill:#b71c1c,stroke:#ef9a9a,color:#fff,stroke-width:1.5px;
   classDef pers fill:#0d47a1,stroke:#64b5f6,color:#fff,stroke-width:1.5px;
-  N1["Agencia Central de Inteligencia CIA y Escuela de las Americas"]:::pub --> N3("TRX-1971-09-09-Financiamiento-Encubierto-CIA-ElMercurio-Edwards-01<br/>$9.500.000.000"):::trx
+  N1["Agencia Central de Inteligencia CIA y Escuela de las Americas"]:::pub --> N3("TRX-1971-09-09-Financiamiento-Encubierto-CIA-ElMercurio-Edwards-01<br/>$0"):::trx
   N3 --> N2["Empresa El Mercurio SAP"]:::priv
   N4(["Manuel Contreras Sepulveda"]):::pers -. "autoriza" .-> N3
   N3 -. "suscribe" .-> N5(["Agustin Edwards Eastman"]):::pers
-  N1["Agencia Central de Inteligencia CIA y Escuela de las Americas"]:::pub --> N7("TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-CIA-01<br/>$14.800.000.000"):::trx
+  N1["Agencia Central de Inteligencia CIA y Escuela de las Americas"]:::pub --> N7("TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-CIA-01<br/>$0"):::trx
   N7 --> N6["Comando de Apoyo a la Fuerza del Ejercito"]:::priv
   N5(["Agustin Edwards Eastman"]):::pers -. "autoriza" .-> N7
   N7 -. "suscribe" .-> N8(["Augusto Pinochet Ugarte"]):::pers
-  N1["Agencia Central de Inteligencia CIA y Escuela de las Americas"]:::pub --> N10("TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01<br/>$2.100.000.000"):::trx
+  N1["Agencia Central de Inteligencia CIA y Escuela de las Americas"]:::pub --> N10("TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01<br/>$0"):::trx
   N10 --> N9["Corte Suprema de Chile"]:::priv
   N4(["Manuel Contreras Sepulveda"]):::pers -. "autoriza" .-> N10
   N10 -. "suscribe" .-> N8(["Augusto Pinochet Ugarte"]):::pers
-  N11["Bancard Inversiones Ltda"]:::pub --> N12("TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01<br/>$18.500.000.000"):::trx
+  N11["Bancard Inversiones Ltda"]:::pub --> N12("TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01<br/>$0"):::trx
   N12 --> N9["Corte Suprema de Chile"]:::priv
   N13(["Sebastian Pinera Echenique"]):::pers -. "autoriza" .-> N12
   N12 -. "suscribe" .-> N14(["Sergio Munoz Gajardo"]):::pers
@@ -50,11 +50,11 @@ flowchart LR
   N16 --> N15["Valmoval Ltda"]:::priv
   N8(["Augusto Pinochet Ugarte"]):::pers -. "autoriza" .-> N16
   N16 -. "suscribe" .-> N17(["Augusto Pinochet Hiriart"]):::pers
-  N18["Sociedad Benefactora y Educacional Dignidad"]:::pub --> N20("TRX-1991-01-31-Vaciamiento-Patrimonial-Evasion-ColoniaDignidad-01<br/>$3.450.000.000"):::trx
+  N18["Sociedad Benefactora y Educacional Dignidad"]:::pub --> N20("TRX-1991-01-31-Vaciamiento-Patrimonial-Evasion-ColoniaDignidad-01<br/>$0"):::trx
   N20 --> N19["Servicio Impuestos Internos"]:::priv
   N21(["Paul Schafer Schneider"]):::pers -. "autoriza" .-> N20
   N20 -. "suscribe" .-> N22(["Jorge Zepeda Arancibia"]):::pers
-  N23["Union Democrata Independiente"]:::pub --> N24("TRX-1996-06-12-Blindaje-Politico-Judicial-ColoniaDignidad-01<br/>$240.000.000"):::trx
+  N23["Union Democrata Independiente"]:::pub --> N24("TRX-1996-06-12-Blindaje-Politico-Judicial-ColoniaDignidad-01<br/>$0"):::trx
   N24 --> N18["Sociedad Benefactora y Educacional Dignidad"]:::priv
   N25(["Hernan Larrain Fernandez"]):::pers -. "autoriza" .-> N24
   N24 -. "suscribe" .-> N26(["Hartmut Hopp Miottel"]):::pers
@@ -66,11 +66,11 @@ flowchart LR
   N34 --> N33["Gestion Ambiental y Territorial SA"]:::priv
   N35(["Carlos Cruz Lorenzen"]):::pers -. "autoriza" .-> N34
   N34 -. "suscribe" .-> N36(["Hector Pena Veliz"]):::pers
-  N37["Inversiones El Bosque Ltda"]:::pub --> N38("TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01<br/>$480.000.000"):::trx
+  N37["Inversiones El Bosque Ltda"]:::pub --> N38("TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01<br/>$0"):::trx
   N38 --> N19["Servicio Impuestos Internos"]:::priv
   N39(["Claudio Spiniak Vilensky"]):::pers -. "autoriza" .-> N38
   N38 -. "suscribe" .-> N14(["Sergio Munoz Gajardo"]):::pers
-  N40["Renovacion Nacional"]:::pub --> N41("TRX-2003-11-05-Operacion-Politico-Judicial-Spiniak-01<br/>$120.000.000"):::trx
+  N40["Renovacion Nacional"]:::pub --> N41("TRX-2003-11-05-Operacion-Politico-Judicial-Spiniak-01<br/>$0"):::trx
   N41 --> N9["Corte Suprema de Chile"]:::priv
   N42(["Pia Guzman Mena"]):::pers -. "autoriza" .-> N41
   N41 -. "suscribe" .-> N14(["Sergio Munoz Gajardo"]):::pers
@@ -170,19 +170,19 @@ flowchart LR
   N114 --> N9["Corte Suprema de Chile"]:::priv
   N64(["Gonzalo Vial Vial"]):::pers -. "autoriza" .-> N114
   N114 -. "suscribe" .-> N115(["Manuel Ariztia Ruiz"]):::pers
-  N116["Mossack Fonseca y Sociedades Offshore Panama"]:::pub --> N117("TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01<br/>$14.200.000.000"):::trx
+  N116["Mossack Fonseca y Sociedades Offshore Panama"]:::pub --> N117("TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01<br/>$0"):::trx
   N117 --> N19["Servicio Impuestos Internos"]:::priv
   N118(["Gonzalo Delaveau Swett"]):::pers -. "autoriza" .-> N117
   N117 -. "suscribe" .-> N51(["Carlos Pavez Tolosa"]):::pers
-  N116["Mossack Fonseca y Sociedades Offshore Panama"]:::pub --> N119("TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01<br/>$19.500.000.000"):::trx
+  N116["Mossack Fonseca y Sociedades Offshore Panama"]:::pub --> N119("TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01<br/>$0"):::trx
   N119 --> N111["Unidad de Analisis Financiero"]:::priv
   N5(["Agustin Edwards Eastman"]):::pers -. "autoriza" .-> N119
   N119 -. "suscribe" .-> N120(["Alfredo Ovalle Rodriguez"]):::pers
-  N116["Mossack Fonseca y Sociedades Offshore Panama"]:::pub --> N121("TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01<br/>$3.800.000.000"):::trx
+  N116["Mossack Fonseca y Sociedades Offshore Panama"]:::pub --> N121("TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01<br/>$0"):::trx
   N121 --> N43["Riggs Bank y Sociedades Offshore Ashburton"]:::priv
   N45(["Oscar Aitken Lavanchy"]):::pers -. "autoriza" .-> N121
   N121 -. "suscribe" .-> N8(["Augusto Pinochet Ugarte"]):::pers
-  N122["Fundacion CEMA Chile"]:::pub --> N123("TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01<br/>$10.500.000.000"):::trx
+  N122["Fundacion CEMA Chile"]:::pub --> N123("TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01<br/>$0"):::trx
   N123 --> N9["Corte Suprema de Chile"]:::priv
   N48(["Lucia Hiriart Rodriguez"]):::pers -. "autoriza" .-> N123
   N123 -. "suscribe" .-> N14(["Sergio Munoz Gajardo"]):::pers
@@ -278,7 +278,7 @@ flowchart LR
   N187 --> N160["Seremi MINVU Antofagasta"]:::priv
   N188(["Jorge Bermudez Soto"]):::pers -. "autoriza" .-> N187
   N187 -. "suscribe" .-> N163(["Carlos Contreras Gutierrez"]):::pers
-  N144["Factop SpA"]:::pub --> N189("TRX-2023-08-25-Reporte-ROS-Factop-UAF-01<br/>$480.000.000"):::trx
+  N144["Factop SpA"]:::pub --> N189("TRX-2023-08-25-Reporte-ROS-Factop-UAF-01<br/>$0"):::trx
   N189 --> N111["Unidad de Analisis Financiero"]:::priv
   N146(["Luis Hermosilla Osorio"]):::pers -. "autoriza" .-> N189
   N189 -. "suscribe" .-> N113(["Javier Cruz Tamburrino"]):::pers
@@ -310,14 +310,10 @@ flowchart LR
 | [[Empresas CMPC SA]] | 1 | $97.500.000.000 | **10000** | Alta Concentración (> 2.500) |
 | [[Andes Iron SpA]] | 1 | $75.500.000.000 | **10000** | Alta Concentración (> 2.500) |
 | [[Agrosuper SA]] | 1 | $38.400.000.000 | **10000** | Alta Concentración (> 2.500) |
-| [[Mossack Fonseca y Sociedades Offshore Panama]] | 3 | $37.500.000.000 | **4241** | Alta Concentración (> 2.500) |
-| [[Bancard Inversiones Ltda]] | 3 | $32.050.000.000 | **4268** | Alta Concentración (> 2.500) |
 | [[Municipalidad de Maipu]] | 1 | $30.972.000.000 | **10000** | Alta Concentración (> 2.500) |
 | [[Direccion de Finanzas de Carabineros]] | 2 | $29.798.928.198 | **9074** | Alta Concentración (> 2.500) |
 | [[Comando de Apoyo a la Fuerza del Ejercito]] | 4 | $28.350.000.000 | **3830** | Alta Concentración (> 2.500) |
-| [[Agencia Central de Inteligencia CIA y Escuela de las Americas]] | 3 | $26.400.000.000 | **4501** | Alta Concentración (> 2.500) |
-| [[Fundacion CEMA Chile]] | 1 | $10.500.000.000 | **10000** | Alta Concentración (> 2.500) |
-| [[Sociedad Benefactora y Educacional Dignidad]] | 1 | $3.450.000.000 | **10000** | Alta Concentración (> 2.500) |
+| [[Bancard Inversiones Ltda]] | 2 | $13.550.000.000 | **5237** | Alta Concentración (> 2.500) |
 | [[GORE Biobio]] | 2 | $2.803.635.000 | **8372** | Alta Concentración (> 2.500) |
 | [[Exportadora y de Gestion Caval Ltda]] | 1 | $2.500.000.000 | **10000** | Alta Concentración (> 2.500) |
 | [[Riggs Bank y Sociedades Offshore Ashburton]] | 1 | $2.450.000.000 | **10000** | Alta Concentración (> 2.500) |
@@ -327,13 +323,10 @@ flowchart LR
 | [[Municipalidad de Cerro Navia]] | 1 | $1.120.000.000 | **10000** | Alta Concentración (> 2.500) |
 | [[SQM SA]] | 2 | $1.070.000.000 | **5664** | Alta Concentración (> 2.500) |
 | [[Seremi MINVU Antofagasta]] | 2 | $926.000.000 | **5032** | Alta Concentración (> 2.500) |
-| [[Factop SpA]] | 3 | $770.000.000 | **4664** | Alta Concentración (> 2.500) |
 | [[Municipalidad de Vitacura]] | 1 | $759.000.000 | **10000** | Alta Concentración (> 2.500) |
-| [[Inversiones El Bosque Ltda]] | 1 | $480.000.000 | **10000** | Alta Concentración (> 2.500) |
-| [[Union Democrata Independiente]] | 1 | $240.000.000 | **10000** | Alta Concentración (> 2.500) |
+| [[Factop SpA]] | 2 | $290.000.000 | **5482** | Alta Concentración (> 2.500) |
 | [[Corpesca SA]] | 1 | $233.000.000 | **10000** | Alta Concentración (> 2.500) |
 | [[KDM Empresas SA]] | 1 | $186.500.000 | **10000** | Alta Concentración (> 2.500) |
-| [[Renovacion Nacional]] | 1 | $120.000.000 | **10000** | Alta Concentración (> 2.500) |
 | [[Itelecom Holding Chile SpA]] | 1 | $37.000.000 | **10000** | Alta Concentración (> 2.500) |
 | [[Senado de la Republica de Chile]] | 1 | $35.000.000 | **10000** | Alta Concentración (> 2.500) |
 | [[Direccion de Inteligencia Policial de Carabineros]] | 1 | $25.000.000 | **10000** | Alta Concentración (> 2.500) |
@@ -361,17 +354,17 @@ flowchart LR
 
 | Nexo (`TRX`) | Fecha | Tipo | Origen | Destino | Monto (CLP) | Equivalencia (UTM) | Toma de Razón Individual |
 | :--- | :---: | :---: | :--- | :--- | ---: | ---: | :---: |
-| [[TRX-1971-09-09-Financiamiento-Encubierto-CIA-ElMercurio-Edwards-01]] | 1971-09-09 | `desviacion_fondos` | [[Agencia Central de Inteligencia CIA y Escuela de las Americas]] | [[Empresa El Mercurio SAP]] | $9.500.000.000 | 156113.9 UTM | Afecto (>= 5.000 UTM) |
-| [[TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-CIA-01]] | 1972-10-12 | `gestion_influencia` | [[Agencia Central de Inteligencia CIA y Escuela de las Americas]] | [[Comando de Apoyo a la Fuerza del Ejercito]] | $14.800.000.000 | 243209.0 UTM | Afecto (>= 5.000 UTM) |
-| [[TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01]] | 1975-08-15 | `desviacion_fondos` | [[Agencia Central de Inteligencia CIA y Escuela de las Americas]] | [[Corte Suprema de Chile]] | $2.100.000.000 | 34509.4 UTM | Afecto (>= 5.000 UTM) |
-| [[TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01]] | 1982-08-28 | `desviacion_fondos` | [[Bancard Inversiones Ltda]] | [[Corte Suprema de Chile]] | $18.500.000.000 | 304011.3 UTM | Afecto (>= 5.000 UTM) |
+| [[TRX-1971-09-09-Financiamiento-Encubierto-CIA-ElMercurio-Edwards-01]] | 1971-09-09 | `desviacion_fondos` | [[Agencia Central de Inteligencia CIA y Escuela de las Americas]] | [[Empresa El Mercurio SAP]] | $0 | 0.0 UTM | Exento (< 5.000 UTM) |
+| [[TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-CIA-01]] | 1972-10-12 | `gestion_influencia` | [[Agencia Central de Inteligencia CIA y Escuela de las Americas]] | [[Comando de Apoyo a la Fuerza del Ejercito]] | $0 | 0.0 UTM | Exento (< 5.000 UTM) |
+| [[TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01]] | 1975-08-15 | `desviacion_fondos` | [[Agencia Central de Inteligencia CIA y Escuela de las Americas]] | [[Corte Suprema de Chile]] | $0 | 0.0 UTM | Exento (< 5.000 UTM) |
+| [[TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01]] | 1982-08-28 | `desviacion_fondos` | [[Bancard Inversiones Ltda]] | [[Corte Suprema de Chile]] | $0 | 0.0 UTM | Exento (< 5.000 UTM) |
 | [[TRX-1989-01-10-Emision-Pinocheques-Ejercito-Valmoval-01]] | 1989-01-10 | `desviacion_fondos` | [[Comando de Apoyo a la Fuerza del Ejercito]] | [[Valmoval Ltda]] | $2.950.000.000 | 48477.5 UTM | Afecto (>= 5.000 UTM) |
-| [[TRX-1991-01-31-Vaciamiento-Patrimonial-Evasion-ColoniaDignidad-01]] | 1991-01-31 | `desviacion_fondos` | [[Sociedad Benefactora y Educacional Dignidad]] | [[Servicio Impuestos Internos]] | $3.450.000.000 | 56694.0 UTM | Afecto (>= 5.000 UTM) |
-| [[TRX-1996-06-12-Blindaje-Politico-Judicial-ColoniaDignidad-01]] | 1996-06-12 | `gestion_influencia` | [[Union Democrata Independiente]] | [[Sociedad Benefactora y Educacional Dignidad]] | $240.000.000 | 3943.9 UTM | Exento (< 5.000 UTM) |
+| [[TRX-1991-01-31-Vaciamiento-Patrimonial-Evasion-ColoniaDignidad-01]] | 1991-01-31 | `desviacion_fondos` | [[Sociedad Benefactora y Educacional Dignidad]] | [[Servicio Impuestos Internos]] | $0 | 0.0 UTM | Exento (< 5.000 UTM) |
+| [[TRX-1996-06-12-Blindaje-Politico-Judicial-ColoniaDignidad-01]] | 1996-06-12 | `gestion_influencia` | [[Union Democrata Independiente]] | [[Sociedad Benefactora y Educacional Dignidad]] | $0 | 0.0 UTM | Exento (< 5.000 UTM) |
 | [[TRX-2000-05-15-Pacto-Colusion-Precios-Cuotas-CMPC-PISA-01]] | 2000-05-15 | `acuerdo_colusorio` | [[Empresas CMPC SA]] | [[SCA Chile SA]] | $0 | 0.0 UTM | Exento (< 5.000 UTM) |
 | [[TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01]] | 2001-08-20 | `trato_directo` | [[Ministerio de Obras Publicas]] | [[Gestion Ambiental y Territorial SA]] | $1.253.000.000 | 20590.6 UTM | Afecto (>= 5.000 UTM) |
-| [[TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01]] | 2003-10-15 | `desviacion_fondos` | [[Inversiones El Bosque Ltda]] | [[Servicio Impuestos Internos]] | $480.000.000 | 7887.9 UTM | Afecto (>= 5.000 UTM) |
-| [[TRX-2003-11-05-Operacion-Politico-Judicial-Spiniak-01]] | 2003-11-05 | `gestion_influencia` | [[Renovacion Nacional]] | [[Corte Suprema de Chile]] | $120.000.000 | 1972.0 UTM | Exento (< 5.000 UTM) |
+| [[TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01]] | 2003-10-15 | `desviacion_fondos` | [[Inversiones El Bosque Ltda]] | [[Servicio Impuestos Internos]] | $0 | 0.0 UTM | Exento (< 5.000 UTM) |
+| [[TRX-2003-11-05-Operacion-Politico-Judicial-Spiniak-01]] | 2003-11-05 | `gestion_influencia` | [[Renovacion Nacional]] | [[Corte Suprema de Chile]] | $0 | 0.0 UTM | Exento (< 5.000 UTM) |
 | [[TRX-2004-07-14-Desvio-Gastos-Reservados-Riggs-Pinochet-01]] | 2004-07-14 | `desviacion_fondos` | [[Comando de Apoyo a la Fuerza del Ejercito]] | [[Riggs Bank y Sociedades Offshore Ashburton]] | $15.800.000.000 | 259642.1 UTM | Afecto (>= 5.000 UTM) |
 | [[TRX-2005-06-14-Arsenal-Clandestino-AsociacionIlicita-ColoniaDignidad-01]] | 2005-06-14 | `desviacion_fondos` | [[Sociedad Benefactora y Educacional Dignidad]] | [[Corte Suprema de Chile]] | $0 | 0.0 UTM | Exento (< 5.000 UTM) |
 | [[TRX-2005-08-10-Evasion-Tributaria-Cuentas-Riggs-SII-01]] | 2005-08-10 | `desviacion_fondos` | [[Riggs Bank y Sociedades Offshore Ashburton]] | [[Servicio Impuestos Internos]] | $2.450.000.000 | 40261.0 UTM | Afecto (>= 5.000 UTM) |
@@ -396,10 +389,10 @@ flowchart LR
 | [[TRX-2015-01-29-Facturas-Falsas-Caval-SII-01]] | 2015-01-29 | `factura_falsa` | [[Exportadora y de Gestion Caval Ltda]] | [[Servicio Impuestos Internos]] | $2.500.000.000 | 41082.6 UTM | Afecto (>= 5.000 UTM) |
 | [[TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01]] | 2015-08-14 | `desviacion_fondos` | [[Comando de Apoyo a la Fuerza del Ejercito]] | [[Unidad de Analisis Financiero]] | $3.500.000.000 | 57515.7 UTM | Afecto (>= 5.000 UTM) |
 | [[TRX-2015-10-29-Pago-Multas-Historicas-Cartel-Pollos-01]] | 2015-10-29 | `compensacion_reparatoria` | [[Agrosuper SA]] | [[Corte Suprema de Chile]] | $38.400.000.000 | 631028.9 UTM | Afecto (>= 5.000 UTM) |
-| [[TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01]] | 2016-04-03 | `gestion_influencia` | [[Mossack Fonseca y Sociedades Offshore Panama]] | [[Servicio Impuestos Internos]] | $14.200.000.000 | 233349.2 UTM | Afecto (>= 5.000 UTM) |
-| [[TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01]] | 2016-04-05 | `desviacion_fondos` | [[Mossack Fonseca y Sociedades Offshore Panama]] | [[Unidad de Analisis Financiero]] | $19.500.000.000 | 320444.3 UTM | Afecto (>= 5.000 UTM) |
-| [[TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01]] | 2016-04-15 | `desviacion_fondos` | [[Mossack Fonseca y Sociedades Offshore Panama]] | [[Riggs Bank y Sociedades Offshore Ashburton]] | $3.800.000.000 | 62445.6 UTM | Afecto (>= 5.000 UTM) |
-| [[TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01]] | 2016-08-12 | `desviacion_fondos` | [[Fundacion CEMA Chile]] | [[Corte Suprema de Chile]] | $10.500.000.000 | 172547.0 UTM | Afecto (>= 5.000 UTM) |
+| [[TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01]] | 2016-04-03 | `gestion_influencia` | [[Mossack Fonseca y Sociedades Offshore Panama]] | [[Servicio Impuestos Internos]] | $0 | 0.0 UTM | Exento (< 5.000 UTM) |
+| [[TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01]] | 2016-04-05 | `desviacion_fondos` | [[Mossack Fonseca y Sociedades Offshore Panama]] | [[Unidad de Analisis Financiero]] | $0 | 0.0 UTM | Exento (< 5.000 UTM) |
+| [[TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01]] | 2016-04-15 | `desviacion_fondos` | [[Mossack Fonseca y Sociedades Offshore Panama]] | [[Riggs Bank y Sociedades Offshore Ashburton]] | $0 | 0.0 UTM | Exento (< 5.000 UTM) |
+| [[TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01]] | 2016-08-12 | `desviacion_fondos` | [[Fundacion CEMA Chile]] | [[Corte Suprema de Chile]] | $0 | 0.0 UTM | Exento (< 5.000 UTM) |
 | [[TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01]] | 2016-11-10 | `transferencia` | [[Direccion de Finanzas de Carabineros]] | [[Direccion de Finanzas de Carabineros]] | $28.348.928.198 | 615064.3 UTM | Afecto (>= 5.000 UTM) |
 | [[TRX-2017-03-03-Compensacion-Historica-Consumidores-CMPC-SERNAC-01]] | 2017-03-03 | `compensacion_reparatoria` | [[Empresas CMPC SA]] | [[Servicio Nacional del Consumidor]] | $97.500.000.000 | 1602221.7 UTM | Afecto (>= 5.000 UTM) |
 | [[TRX-2017-03-06-Lavado-Activos-Carabineros-UAF-01]] | 2017-03-06 | `desviacion_fondos` | [[Direccion de Finanzas de Carabineros]] | [[Unidad de Analisis Financiero]] | $1.450.000.000 | 23827.9 UTM | Afecto (>= 5.000 UTM) |
@@ -423,6 +416,6 @@ flowchart LR
 | [[TRX-2023-02-09-Gestion-Judicial-Hermosilla-Vivanco-01]] | 2023-02-09 | `llamada` | [[Factop SpA]] | [[Corte Suprema de Chile]] | $0 | 0.0 UTM | Exento (< 5.000 UTM) |
 | [[TRX-2023-06-22-Reunion-Audios-01]] | 2023-06-22 | `cohecho` | [[Factop SpA]] | [[Servicio Impuestos Internos]] | $100.000.000 | 1580.7 UTM | Exento (< 5.000 UTM) |
 | [[TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01]] | 2023-06-29 | `resolucion_administrativa` | [[Contraloria General de la Republica]] | [[Seremi MINVU Antofagasta]] | $0 | 0.0 UTM | Exento (< 5.000 UTM) |
-| [[TRX-2023-08-25-Reporte-ROS-Factop-UAF-01]] | 2023-08-25 | `factura_falsa` | [[Factop SpA]] | [[Unidad de Analisis Financiero]] | $480.000.000 | 7887.9 UTM | Afecto (>= 5.000 UTM) |
+| [[TRX-2023-08-25-Reporte-ROS-Factop-UAF-01]] | 2023-08-25 | `factura_falsa` | [[Factop SpA]] | [[Unidad de Analisis Financiero]] | $0 | 0.0 UTM | Exento (< 5.000 UTM) |
 | [[TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01]] | 2023-12-14 | `factura_falsa` | [[]] | [[Servicio Impuestos Internos]] | $240.000.000.000 | 3943930.5 UTM | Afecto (>= 5.000 UTM) |
 | [[TRX-2025-10-15-Denuncia-Retencion-Sueldos-Asesores-Flores-01]] | 2025-10-15 | `desviacion_fondos` | [[Senado de la Republica de Chile]] | [[Camila Flores Oporto]] | $35.000.000 | 575.2 UTM | Exento (< 5.000 UTM) |

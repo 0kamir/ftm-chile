@@ -3,8 +3,8 @@ tipo_nodo: nexo_transaccion
 id_transaccion: "TRX-2023-08-25-Reporte-ROS-Factop-UAF-01"
 fecha: 2023-08-25
 tipo_nexo: factura_falsa
-monto_clp: 480000000
-monto_origen: no_verificado
+monto_clp: 0
+monto_origen: sin_monto
 metodo_adjudicacion: no_aplica
 entidad_origen: "[[Factop SpA]]"
 entidad_destino: "[[Unidad de Analisis Financiero]]"
@@ -13,6 +13,8 @@ firmante_destino: "[[Javier Cruz Tamburrino]]"
 delito_imputado: "[[Lavado de Activos]]"
 causa_vinculada: "[[Caso Audios]]"
 evidencia_soporte: "[[Audio-Reunion-Edificio-Alonso-2023]]"
+historial_correcciones:
+  - "2026-10-19: monto_clp $480.000.000 llevado a 0; la cifra no aparece en ninguna fuente verificable."
 tags:
   - nexo/lavado-activos
   - ros-uaf
@@ -36,4 +38,8 @@ tags:
 - **Evidencia de Soporte**: `= this.evidencia_soporte`
 
 ## Descripción del Hecho
+
+> [!NOTE] Monto sin respaldo
+> Las cifras en pesos mencionadas en esta nota no aparecen en ninguna fuente verificable y no se contabilizan en los totales del vault (antes: $480.000.000 CLP).
+
 Operaciones de descuento de facturas ideológicamente falsas y triangulación bancaria ejecutadas a través de [[Factop SpA]] en el circuito de [[Luis Hermosilla Osorio]] y [[Leonarda Villalobos Muth]] por `$480.000.000 CLP`, cuyos flujos activaron reportes de inteligencia patrimonial ante la [[Unidad de Analisis Financiero]] y la [[Comision para el Mercado Financiero]] en el [[Caso Audios]].

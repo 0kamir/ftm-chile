@@ -135,13 +135,13 @@ tags:
 ## 4. Radiografía de Agrupamientos Detectadas
 
 ### Agrupamiento #01 (Caso Exalmar y Fideicomiso Ciego / Caso LAN Informacion Privilegiada y Banco de Talca)
-- **Tamaño del Clúster**: `31` nodos | **Flujo Registrado en la Agrupamiento**: `$110.078.000.000 CLP`
+- **Tamaño del Clúster**: `31` nodos | **Flujo Registrado en la Agrupamiento**: `$91.578.000.000 CLP`
 - **Personas Involucradas (11)**: [[Andres Chadwick Pinera]], [[Carlos Alberto Delano Abbott]], [[Carlos Eugenio Lavin Garcia-Huidobro]], [[Carlos Pavez Tolosa]], [[Jovino Novoa Vasquez]], [[Loreto Letelier]], [[Pablo Longueira Montes]], [[Pablo Wagner San Martin]], [[Patricio Contesse Gonzalez]], [[Santiago Valdes Gutierrez]], [[Sebastian Pinera Echenique]]
 - **Entidades Públicas/Privadas (6)**: [[Andes Iron SpA]], [[Bancard Inversiones Ltda]], [[Comision para el Mercado Financiero]], [[Empresas Penta SA]], [[SQM SA]], [[Union Democrata Independiente]]
 - **Transacciones Reificadas (9)**: [[TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01]], [[TRX-2006-07-24-Compra-Acciones-Informacion-Privilegiada-LAN-01]], [[TRX-2009-11-18-Facturas-Falsas-Bancard-SQM-Campana-Pinera-01]], [[TRX-2010-08-19-Correo-Royalty-SQM-01]], [[TRX-2010-12-10-Compraventa-Offshore-Dominga-Bancard-Delano-01]], [[TRX-2011-03-10-Pagos-Penta-Wagner-01]], [[TRX-2012-11-20-Inversion-Offshore-Bancard-Exalmar-LaHaya-01]], [[TRX-2013-07-15-Boletas-Falsas-Penta-UDI-01]], [[TRX-2013-09-20-Boletas-Falsas-Penta-Novoa-01]]
 
 ### Agrupamiento #02 (Caso Audios / Caso Milicogate)
-- **Tamaño del Clúster**: `25` nodos | **Flujo Registrado en la Agrupamiento**: `$40.168.928.198 CLP`
+- **Tamaño del Clúster**: `25` nodos | **Flujo Registrado en la Agrupamiento**: `$39.688.928.198 CLP`
 - **Personas Involucradas (9)**: [[Angela Vivanco Martinez]], [[Flavio Echeverria Cortez]], [[Gabriel Zaliasnik Schilkrut]], [[Jaime Paz Meneses]], [[Javier Cruz Tamburrino]], [[Jozo Santic Palomino]], [[Juan Miguel Fuente-Alba Poblete]], [[Leonarda Villalobos Muth]], [[Luis Hermosilla Osorio]]
 - **Entidades Públicas/Privadas (4)**: [[Direccion de Finanzas de Carabineros]], [[Factop SpA]], [[Frasim Ltda]], [[Unidad de Analisis Financiero]]
 - **Transacciones Reificadas (9)**: [[TRX-2014-05-20-Facturas-LeyReservadaCobre-01]], [[TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01]], [[TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01]], [[TRX-2017-03-06-Lavado-Activos-Carabineros-UAF-01]], [[TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01]], [[TRX-2022-11-15-Gestion-Nombramientos-Hermosilla-Zaliasnik-01]], [[TRX-2023-02-09-Gestion-Judicial-Hermosilla-Vivanco-01]], [[TRX-2023-06-22-Reunion-Audios-01]], [[TRX-2023-08-25-Reporte-ROS-Factop-UAF-01]]
@@ -159,25 +159,25 @@ tags:
 - **Transacciones Reificadas (7)**: [[TRX-2022-10-03-Convenio-DV-01]], [[TRX-2022-10-19-Convenio-DV-02]], [[TRX-2022-10-28-Convenio-ProCultura-Antofagasta]], [[TRX-2022-11-18-Convenio-ProCultura-Biobio]], [[TRX-2022-11-29-Convenio-DV-03]], [[TRX-2022-12-20-Convenio-EnTi-01]], [[TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01]]
 
 ### Agrupamiento #05 (Caso CEMA Chile / Caso Cascadas)
-- **Tamaño del Clúster**: `21` nodos | **Flujo Registrado en la Agrupamiento**: `$35.500.000.000 CLP`
+- **Tamaño del Clúster**: `21` nodos | **Flujo Registrado en la Agrupamiento**: `$21.200.000.000 CLP`
 - **Personas Involucradas (6)**: [[Augusto Pinochet Hiriart]], [[Augusto Pinochet Ugarte]], [[Julio Ponce Lerou]], [[Lucia Hiriart Rodriguez]], [[Oscar Aitken Lavanchy]], [[Sergio Munoz Gajardo]]
 - **Entidades Públicas/Privadas (5)**: [[Comando de Apoyo a la Fuerza del Ejercito]], [[Fundacion CEMA Chile]], [[Riggs Bank y Sociedades Offshore Ashburton]], [[Sociedad de Inversiones Pampa Calichera SA]], [[Valmoval Ltda]]
 - **Transacciones Reificadas (6)**: [[TRX-1989-01-10-Emision-Pinocheques-Ejercito-Valmoval-01]], [[TRX-2004-07-14-Desvio-Gastos-Reservados-Riggs-Pinochet-01]], [[TRX-2005-08-10-Evasion-Tributaria-Cuentas-Riggs-SII-01]], [[TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01]], [[TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01]], [[TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01]]
 
 ### Agrupamiento #06 (Caso Basura / Caso Municipalidad de Maipu)
-- **Tamaño del Clúster**: `21` nodos | **Flujo Registrado en la Agrupamiento**: `$32.398.500.000 CLP`
+- **Tamaño del Clúster**: `21` nodos | **Flujo Registrado en la Agrupamiento**: `$32.278.500.000 CLP`
 - **Personas Involucradas (7)**: [[Cathy Barriga Guerra]], [[Fernando Cerimedo]], [[Fernando Leon Steffens]], [[Luis Plaza Sanchez]], [[Marcelo Torres Ferrari]], [[Percy Marin Vera]], [[Pia Guzman Mena]]
 - **Entidades Públicas/Privadas (5)**: [[KDM Empresas SA]], [[Municipalidad de Cerro Navia]], [[Municipalidad de Maipu]], [[Numen Publicidad SpA]], [[Renovacion Nacional]]
 - **Transacciones Reificadas (5)**: [[TRX-2003-11-05-Operacion-Politico-Judicial-Spiniak-01]], [[TRX-2010-11-15-Soborno-Licitacion-Basura-Maipu-01]], [[TRX-2012-03-22-Fraude-Residuos-CerroNavia-01]], [[TRX-2020-12-15-Deficit-Maipu-Certificados-01]], [[TRX-2022-09-04-Presencia-Cerimedo-Sede-Renovacion-Nacional-01]]
 
 ### Agrupamiento #07 (Caso Operacion FUBELT Intervencion CIA y DINA / Caso Panama Papers Chile)
-- **Tamaño del Clúster**: `14` nodos | **Flujo Registrado en la Agrupamiento**: `$60.100.000.000 CLP`
+- **Tamaño del Clúster**: `14` nodos | **Flujo Registrado en la Agrupamiento**: `$0 CLP`
 - **Personas Involucradas (4)**: [[Agustin Edwards Eastman]], [[Alfredo Ovalle Rodriguez]], [[Gonzalo Delaveau Swett]], [[Manuel Contreras Sepulveda]]
 - **Entidades Públicas/Privadas (3)**: [[Agencia Central de Inteligencia CIA y Escuela de las Americas]], [[Empresa El Mercurio SAP]], [[Mossack Fonseca y Sociedades Offshore Panama]]
 - **Transacciones Reificadas (5)**: [[TRX-1971-09-09-Financiamiento-Encubierto-CIA-ElMercurio-Edwards-01]], [[TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-CIA-01]], [[TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01]], [[TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01]], [[TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01]]
 
 ### Agrupamiento #08 (Caso Caval / Caso Megafraude Tributario Operacion Tributos)
-- **Tamaño del Clúster**: `14` nodos | **Flujo Registrado en la Agrupamiento**: `$243.035.030.792 CLP`
+- **Tamaño del Clúster**: `14` nodos | **Flujo Registrado en la Agrupamiento**: `$242.555.030.792 CLP`
 - **Personas Involucradas (4)**: [[Claudio Spiniak Vilensky]], [[Jorge Silva Menares]], [[Mauricio Valero Illanes]], [[Natalia Compagnon Soto]]
 - **Entidades Públicas/Privadas (4)**: [[Exportadora y de Gestion Caval Ltda]], [[Inversiones El Bosque Ltda]], [[Municipalidad de Machali]], [[Servicio Impuestos Internos]]
 - **Transacciones Reificadas (4)**: [[TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01]], [[TRX-2014-02-18-Soborno-Caval-Machali-01]], [[TRX-2015-01-29-Facturas-Falsas-Caval-SII-01]], [[TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01]]
@@ -195,7 +195,7 @@ tags:
 - **Transacciones Reificadas (2)**: [[TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01]], [[TRX-2025-10-15-Denuncia-Retencion-Sueldos-Asesores-Flores-01]]
 
 ### Agrupamiento #11 (Caso Colonia Dignidad)
-- **Tamaño del Clúster**: `9` nodos | **Flujo Registrado en la Agrupamiento**: `$3.690.000.000 CLP`
+- **Tamaño del Clúster**: `9` nodos | **Flujo Registrado en la Agrupamiento**: `$0 CLP`
 - **Personas Involucradas (4)**: [[Hartmut Hopp Miottel]], [[Hernan Larrain Fernandez]], [[Jorge Zepeda Arancibia]], [[Paul Schafer Schneider]]
 - **Entidades Públicas/Privadas (1)**: [[Sociedad Benefactora y Educacional Dignidad]]
 - **Transacciones Reificadas (3)**: [[TRX-1991-01-31-Vaciamiento-Patrimonial-Evasion-ColoniaDignidad-01]], [[TRX-1996-06-12-Blindaje-Politico-Judicial-ColoniaDignidad-01]], [[TRX-2005-06-14-Arsenal-Clandestino-AsociacionIlicita-ColoniaDignidad-01]]

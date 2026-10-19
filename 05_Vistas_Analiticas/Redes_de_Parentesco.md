@@ -24,7 +24,7 @@ tags:
 - **Grupos familiares / Familiares Modelados**: **2** componentes conexas familiares.
 - **Sujetos Integrados en Redes de Parentesco Explícito**: **6** nodos de tipo `persona`.
 - **Aristas de Parentesco Bidireccionales (`vinculos_familiares`)**: **6 pares familiares** (12 aristas dirigidas en el grafo).
-- **Montos Registrados en Hechos con Integrantes de Grupos Familiares**: **`$160.140.000.000 CLP`** a través de **13 transacciones reificadas**.
+- **Montos Registrados en Hechos con Integrantes de Grupos Familiares**: **`$110.440.000.000 CLP`** a través de **13 transacciones reificadas**.
 
 ---
 
@@ -32,8 +32,8 @@ tags:
 
 | Grupo familiar / Familiar | Tipo de Parentesco | Miembros (`persona`) | Macro-Causas Conectadas | N° TRX | Volumen Patrimonial Asociado (CLP) |
 | :--- | :--- | :--- | :--- | :---: | ---: |
-| **Grupo familiar Piñera–Chadwick** | Primos hermanos (hijos de hermanos Piñera Carvallo) | [[Andres Chadwick Pinera]], [[Sebastian Pinera Echenique]] | [[Caso Audios]], [[Caso Exalmar y Fideicomiso Ciego]], [[Caso LAN Informacion Privilegiada y Banco de Talca]], [[Caso Minera Dominga Pandora Papers]] | 5 | **$107.740.000.000** |
-| **Grupo familiar Pinochet–Hiriart** | Cónyuges, hijo y exyerno (Julio Ponce Lerou estuvo casado con Verónica Pinochet Hiriart) | [[Augusto Pinochet Hiriart]], [[Augusto Pinochet Ugarte]], [[Julio Ponce Lerou]], [[Lucia Hiriart Rodriguez]] | [[Caso CEMA Chile]], [[Caso Cascadas]], [[Caso Operacion FUBELT Intervencion CIA y DINA]], [[Caso Panama Papers Chile]], [[Caso Pinocheques]], [[Caso Riggs]] | 8 | **$52.400.000.000** |
+| **Grupo familiar Piñera–Chadwick** | Primos hermanos (hijos de hermanos Piñera Carvallo) | [[Andres Chadwick Pinera]], [[Sebastian Pinera Echenique]] | [[Caso Audios]], [[Caso Exalmar y Fideicomiso Ciego]], [[Caso LAN Informacion Privilegiada y Banco de Talca]], [[Caso Minera Dominga Pandora Papers]] | 5 | **$89.240.000.000** |
+| **Grupo familiar Pinochet–Hiriart** | Cónyuges, hijo y exyerno (Julio Ponce Lerou estuvo casado con Verónica Pinochet Hiriart) | [[Augusto Pinochet Hiriart]], [[Augusto Pinochet Ugarte]], [[Julio Ponce Lerou]], [[Lucia Hiriart Rodriguez]] | [[Caso CEMA Chile]], [[Caso Cascadas]], [[Caso Operacion FUBELT Intervencion CIA y DINA]], [[Caso Panama Papers Chile]], [[Caso Pinocheques]], [[Caso Riggs]] | 8 | **$21.200.000.000** |
 
 ### Detalle por Grupo Familiar
 
@@ -42,7 +42,7 @@ tags:
 - **Integrantes en la Bóveda**: [[Andres Chadwick Pinera]], [[Sebastian Pinera Echenique]].
 - **Macro-Causas Acopladas (4)**: [[Caso Audios]], [[Caso Exalmar y Fideicomiso Ciego]], [[Caso LAN Informacion Privilegiada y Banco de Talca]], [[Caso Minera Dominga Pandora Papers]].
 - **Aristas Reificadas Vinculadas (5)**: [[TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01]], [[TRX-2006-07-24-Compra-Acciones-Informacion-Privilegiada-LAN-01]], [[TRX-2010-12-10-Compraventa-Offshore-Dominga-Bancard-Delano-01]], [[TRX-2012-11-20-Inversion-Offshore-Bancard-Exalmar-LaHaya-01]], [[TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01]].
-- **Volumen Financiero Consolidado**: **`$107.740.000.000 CLP`**.
+- **Volumen Financiero Consolidado**: **`$89.240.000.000 CLP`**.
 - **Síntesis de Captura de Red**: Parentesco de conocimiento público. No implica participación conjunta en los hechos registrados.
 
 #### 3.2. Grupo familiar Pinochet–Hiriart
@@ -50,7 +50,7 @@ tags:
 - **Integrantes en la Bóveda**: [[Augusto Pinochet Hiriart]], [[Augusto Pinochet Ugarte]], [[Julio Ponce Lerou]], [[Lucia Hiriart Rodriguez]].
 - **Macro-Causas Acopladas (6)**: [[Caso CEMA Chile]], [[Caso Cascadas]], [[Caso Operacion FUBELT Intervencion CIA y DINA]], [[Caso Panama Papers Chile]], [[Caso Pinocheques]], [[Caso Riggs]].
 - **Aristas Reificadas Vinculadas (8)**: [[TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-CIA-01]], [[TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01]], [[TRX-1989-01-10-Emision-Pinocheques-Ejercito-Valmoval-01]], [[TRX-2004-07-14-Desvio-Gastos-Reservados-Riggs-Pinochet-01]], [[TRX-2005-08-10-Evasion-Tributaria-Cuentas-Riggs-SII-01]], [[TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01]], [[TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01]], [[TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01]].
-- **Volumen Financiero Consolidado**: **`$52.400.000.000 CLP`**.
+- **Volumen Financiero Consolidado**: **`$21.200.000.000 CLP`**.
 - **Síntesis de Captura de Red**: Parentesco de conocimiento público. No implica participación conjunta en los hechos registrados.
 
 ---

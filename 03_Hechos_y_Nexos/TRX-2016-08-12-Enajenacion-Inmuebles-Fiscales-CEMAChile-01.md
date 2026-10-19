@@ -3,8 +3,8 @@ tipo_nodo: nexo_transaccion
 id_transaccion: "TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01"
 fecha: 2016-08-12
 tipo_nexo: desviacion_fondos
-monto_clp: 10500000000
-monto_origen: no_verificado
+monto_clp: 0
+monto_origen: sin_monto
 metodo_adjudicacion: trato_directo
 entidad_origen: "[[Fundacion CEMA Chile]]"
 entidad_destino: "[[Corte Suprema de Chile]]"
@@ -13,6 +13,8 @@ firmante_destino: "[[Sergio Munoz Gajardo]]"
 delito_imputado: "[[Malversacion de Caudales Publicos]]"
 causa_vinculada: "[[Caso CEMA Chile]]"
 evidencia_soporte: "[[Disolucion-CDE-Fundacion-CEMAChile-2021]]"
+historial_correcciones:
+  - "2026-10-19: monto_clp $10.500.000.000 llevado a 0; la cifra no aparece en ninguna fuente verificable."
 tags:
   - nexo/desviacion-fondos
   - caso-cema-chile
@@ -36,4 +38,8 @@ tags:
 - **Evidencia de Soporte**: `= this.evidencia_soporte`
 
 ## Descripción del Hecho
+
+> [!NOTE] Monto sin respaldo
+> Las cifras en pesos mencionadas en esta nota no aparecen en ninguna fuente verificable y no se contabilizan en los totales del vault (antes: $10.500.000.000 CLP).
+
 Apropiación estatutaria, venta comercial a terceros y posterior embargo y restitución forzosa al Fisco de Chile del patrimonio inmobiliario transferido gratuitamente por el Estado entre 1973 y 1990 a la [[Fundacion CEMA Chile]], presidida vitaliciamente por [[Lucia Hiriart Rodriguez]]. Tras las primeras pesquisas de desvíos de fondos de CEMA hacia la familia Pinochet detectadas por el ministro [[Sergio Munoz Gajardo]] en el [[Caso Riggs]], la reapertura judicial de 2016 en el [[Caso CEMA Chile]] investigó ventas inmobiliarias por más de `$8.900.000.000 CLP` y derivó en la disolución de la fundación vía CDE (2021) y el traspaso de sus bienes al Fisco y a fundaciones de beneficencia (según Emol, el Estado recuperó más de $18.000 millones; la cifra de $10.500 millones previa no tiene fuente) ([[Disolucion-CDE-Fundacion-CEMAChile-2021]]).

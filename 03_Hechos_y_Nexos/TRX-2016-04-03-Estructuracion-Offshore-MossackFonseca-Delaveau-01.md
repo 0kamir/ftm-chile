@@ -3,8 +3,8 @@ tipo_nodo: nexo_transaccion
 id_transaccion: "TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01"
 fecha: 2016-04-03
 tipo_nexo: gestion_influencia
-monto_clp: 14200000000
-monto_origen: no_verificado
+monto_clp: 0
+monto_origen: sin_monto
 metodo_adjudicacion: no_aplica
 entidad_origen: "[[Mossack Fonseca y Sociedades Offshore Panama]]"
 entidad_destino: "[[Servicio Impuestos Internos]]"
@@ -13,6 +13,8 @@ firmante_destino: "[[Carlos Pavez Tolosa]]"
 delito_imputado: "[[Delito Tributario]]"
 causa_vinculada: "[[Caso Panama Papers Chile]]"
 evidencia_soporte: "[[Filtracion-ICIJ-PanamaPapers-Chile-2016]]"
+historial_correcciones:
+  - "2026-10-19: monto_clp $14.200.000.000 llevado a 0; la cifra no aparece en ninguna fuente verificable."
 tags:
   - nexo/gestion-influencia
   - panama-papers
@@ -37,4 +39,8 @@ tags:
 - **Evidencia de Soporte**: `= this.evidencia_soporte`
 
 ## Descripción del Hecho
+
+> [!NOTE] Monto sin respaldo
+> Las cifras en pesos mencionadas en esta nota no aparecen en ninguna fuente verificable y no se contabilizan en los totales del vault (antes: $14.200.000.000 CLP).
+
 Constitución, secretaría corporativa y administración fiduciaria de al menos **cinco sociedades *offshore* domiciliadas en Bahamas** (*Turnbrook Corporation*, *DKL Holdings*, *Westquarter Limited*, *Mining Press Holdings* y *Turnbrook Mining Ltd.*) por parte del abogado [[Gonzalo Delaveau Swett]] en su doble calidad de intermediario en Chile del bufete [[Mossack Fonseca y Sociedades Offshore Panama]] y **Presidente de *Chile Transparente*** (capítulo nacional de Transparencia Internacional). Dichos vehículos *offshore* canalizaron inversiones mineras en el proyecto *Andes Copper* por cerca de **$14.200.000.000 CLP** fuera de la tributación ordinaria chilena, provocando la renuncia inmediata de Delaveau el 4 de abril de 2016 y la apertura del plan especial de fiscalización del [[Servicio Impuestos Internos]] en el [[Caso Panama Papers Chile]] ([[Filtracion-ICIJ-PanamaPapers-Chile-2016]]).

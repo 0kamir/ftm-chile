@@ -3,8 +3,8 @@ tipo_nodo: nexo_transaccion
 id_transaccion: "TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01"
 fecha: 2016-04-15
 tipo_nexo: desviacion_fondos
-monto_clp: 3800000000
-monto_origen: no_verificado
+monto_clp: 0
+monto_origen: sin_monto
 metodo_adjudicacion: no_aplica
 entidad_origen: "[[Mossack Fonseca y Sociedades Offshore Panama]]"
 entidad_destino: "[[Riggs Bank y Sociedades Offshore Ashburton]]"
@@ -13,6 +13,8 @@ firmante_destino: "[[Augusto Pinochet Ugarte]]"
 delito_imputado: "[[Lavado de Activos]]"
 causa_vinculada: "[[Caso Panama Papers Chile]]"
 evidencia_soporte: "[[Filtracion-ICIJ-PanamaPapers-Chile-2016]]"
+historial_correcciones:
+  - "2026-10-19: monto_clp $3.800.000.000 llevado a 0; la cifra no aparece en ninguna fuente verificable."
 tags:
   - nexo/desviacion-fondos
   - panama-papers
@@ -37,4 +39,8 @@ tags:
 - **Evidencia de Soporte**: `= this.evidencia_soporte`
 
 ## Descripción del Hecho
+
+> [!NOTE] Monto sin respaldo
+> Las cifras en pesos mencionadas en esta nota no aparecen en ninguna fuente verificable y no se contabilizan en los totales del vault (antes: $3.800.000.000 CLP).
+
 Intersección documental acreditada en los archivos internos de [[Mossack Fonseca y Sociedades Offshore Panama]] ([[Filtracion-ICIJ-PanamaPapers-Chile-2016]]) que documenta que el bufete panameño administró y prestó servicios de agente residente en las Islas Vírgenes Británicas y Bahamas para sociedades de papel integradas en el circuito de [[Riggs Bank y Sociedades Offshore Ashburton]], estructuradas con intervención de [[Oscar Aitken Lavanchy]] para ocultar caudales de [[Augusto Pinochet Ugarte]] investigados en el [[Caso Riggs]] y posteriormente afectos al comiso de la [[Corte Suprema de Chile]] ([[Sentencia-Corte-Suprema-CasoRiggs-2018]]).

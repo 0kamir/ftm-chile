@@ -33,8 +33,7 @@ tags:
 | `estimacion_oficial` | 1 | $240.000.000.000 |
 | `acusacion` | 18 | $49.748.563.198 |
 | `prensa` | 4 | $89.200.000.000 |
-| `no_verificado` | 13 | $97.670.000.000 |
-| `sin_monto` | 14 | $0 |
+| `sin_monto` | 27 | $0 |
 
 ## Alertas de Verificación Pendientes (3)
 
