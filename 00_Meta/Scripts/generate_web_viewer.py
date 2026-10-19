@@ -213,6 +213,19 @@ def main() -> int:
       return visited;
     }}
 
+    function esc(t) {{
+      return String(t ?? "").replace(/[&<>"']/g, c => ({{"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"}})[c]);
+    }}
+
+    function fuentesHtml(node) {{
+      const fuentes = (node.fuentes || []).filter(f => String(f.url).startsWith("http://") || String(f.url).startsWith("https://"));
+      if (!fuentes.length) return `<div style="color:#94a3b8">Sin fuentes registradas en esta nota.</div>`;
+      return `<ul style="padding-left:16px;margin-top:4px">` + fuentes.map(f =>
+        `<li><a href="${{esc(f.url)}}" target="_blank" rel="noopener noreferrer" style="color:#38bdf8">${{esc(f.titulo || f.url)}}</a>` +
+        `<div style="color:#94a3b8;font-size:0.8rem">${{esc(f.medio)}}${{f.tipo ? " · " + esc(f.tipo) : ""}}${{f.fecha ? " · " + esc(f.fecha) : ""}}</div></li>`
+      ).join("") + `</ul>`;
+    }}
+
     function updateDetails(node) {{
       if (!node) return;
       const connected = edges.filter(e => e.source === node.id || e.target === node.id);
@@ -229,6 +242,12 @@ def main() -> int:
         ${{node.monto_clp > 0 ? `<div><strong>Monto Transacción:</strong> ${{fmtClp.format(node.monto_clp)}}</div>` : ""}}
         ${{node.flujo_emitido_clp > 0 ? `<div><strong>Flujo Autorizado/Emitido:</strong> ${{fmtClp.format(node.flujo_emitido_clp)}}</div>` : ""}}
         ${{node.flujo_recibido_clp > 0 ? `<div><strong>Flujo Recibido/Suscrito:</strong> ${{fmtClp.format(node.flujo_recibido_clp)}}</div>` : ""}}
+        ${{node.situacion_procesal ? `<div><strong>Situación procesal:</strong> ${{esc(node.situacion_procesal)}}</div>` : ""}}
+        ${{node.monto_origen ? `<div><strong>Origen del monto:</strong> <code>${{esc(node.monto_origen)}}</code></div>` : ""}}
+        ${{node.estado_verificacion ? `<div><strong>Verificación:</strong> <code>${{esc(node.estado_verificacion)}}</code></div>` : ""}}
+        <hr style="border-color:#334155;margin:8px 0"/>
+        <div><strong>Fuentes (${{(node.fuentes || []).length}}):</strong></div>
+        ${{fuentesHtml(node)}}
         <hr style="border-color:#334155;margin:8px 0"/>
         <div><strong>Conexiones directas (${{connected.length}}):</strong></div>
         <ul style="padding-left:16px;margin-top:4px">${{listHtml}}</ul>
