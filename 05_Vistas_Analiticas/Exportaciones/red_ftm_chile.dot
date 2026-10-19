@@ -204,7 +204,7 @@ digraph RedCorrupcionChile {
   "Acuerdo-Conciliatorio-FNE-FASA-2009" [label="Acuerdo-Conciliatorio-FNE-FASA-2009", shape=note, style=filled, fillcolor="#475569", fontcolor="#ffffff"];
   "Formalizacion-Megafraude-Operacion-Tributos-2023" [label="Formalizacion-Megafraude-Operacion-Tributos-2023", shape=note, style=filled, fillcolor="#475569", fontcolor="#ffffff"];
   "Informe-BRILAC-PDI-Operacion-Tributos-2023" [label="Informe-BRILAC-PDI-Operacion-Tributos-2023", shape=note, style=filled, fillcolor="#475569", fontcolor="#ffffff"];
-  "Requerimiento-FNE-Cartel-Pollos-2011" [label="Requerimiento-FNE-Cartel-Pollos-2011", shape=note, style=filled, fillcolor="#475569", fontcolor="#ffffff"];
+  "Requerimiento-FNE-Colusion-Pollos-2011" [label="Requerimiento-FNE-Colusion-Pollos-2011", shape=note, style=filled, fillcolor="#475569", fontcolor="#ffffff"];
   "Eliodoro Matte Larrain" [label="Eliodoro Matte Larrain", shape=ellipse, style=filled, fillcolor="#1e40af", fontcolor="#ffffff"];
   "Empresas CMPC SA" [label="Empresas CMPC SA", shape=component, style=filled, fillcolor="#c2410c", fontcolor="#ffffff"];
   "Andes Iron SpA" [label="Andes Iron SpA", shape=component, style=filled, fillcolor="#c2410c", fontcolor="#ffffff"];
@@ -924,9 +924,6 @@ digraph RedCorrupcionChile {
   "Querella-SII-Megafraude-Tributario-2023" -> "Servicio Impuestos Internos" [label="organismo_emisor"];
   "Querella-SII-Megafraude-Tributario-2023" -> "Caso Megafraude Tributario Operacion Tributos" [label="causa_vinculada"];
   "Querella-SII-Megafraude-Tributario-2023" -> "TRX-2023-12-14-Perjuicio-Fiscal-Operacion-Tributos-01" [label="nexo_respaldado"];
-  "Requerimiento-FNE-Cartel-Pollos-2011" -> "Fiscalia Nacional Economica" [label="organismo_emisor"];
-  "Requerimiento-FNE-Cartel-Pollos-2011" -> "Caso Colusion de los Pollos" [label="causa_vinculada"];
-  "Requerimiento-FNE-Cartel-Pollos-2011" -> "TRX-2008-01-15-Colusion-Cuotas-Produccion-Pollos-01" [label="nexo_respaldado"];
   "Sentencia-3TOP-Santiago-Corpesca-2021" -> "Corte Suprema de Chile" [label="organismo_emisor"];
   "Sentencia-3TOP-Santiago-Corpesca-2021" -> "Caso Corpesca" [label="causa_vinculada"];
   "Sentencia-3TOP-Santiago-Corpesca-2021" -> "TRX-2012-07-11-Pagos-Corpesca-LeyDePesca-01" [label="nexo_respaldado"];
@@ -965,4 +962,7 @@ digraph RedCorrupcionChile {
   "Sentencia-TOP-Temuco-OperacionHuracan-2026" -> "TRX-2017-09-23-Detenciones-OperacionHuracan-01" [label="nexo_respaldado"];
   "Veredicto-TOP-Santiago-Pacogate-2026" -> "Caso Pacogate" [label="causa_vinculada"];
   "Veredicto-TOP-Santiago-Pacogate-2026" -> "TRX-2016-11-10-Fondos-Direccion-Finanzas-Carabineros-01" [label="nexo_respaldado"];
+  "Requerimiento-FNE-Colusion-Pollos-2011" -> "Fiscalia Nacional Economica" [label="organismo_emisor"];
+  "Requerimiento-FNE-Colusion-Pollos-2011" -> "Caso Colusion de los Pollos" [label="causa_vinculada"];
+  "Requerimiento-FNE-Colusion-Pollos-2011" -> "TRX-2008-01-15-Colusion-Cuotas-Produccion-Pollos-01" [label="nexo_respaldado"];
 }

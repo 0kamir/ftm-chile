@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Auditoría Estadística de Ley de Benford y Detección de Sesgo de Redondeo Artificial (`benford_forensic.py`).
+Auditoría Estadística de Ley de Benford y Detección de Sesgo de Redondeo Artificial (`benford_analysis.py`).
 Analiza todos los montos monetarios (`monto_clp > 0`) en `03_Hechos_y_Nexos/`:
 1. Compara la frecuencia observada del primer dígito significativo (1..9) con la Ley de Benford:
      P(d) = log10(1 + 1/d)

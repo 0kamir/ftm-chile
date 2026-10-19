@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Exportador a Formato Graphviz DOT (`export_graphviz_dot.py`).
-Genera `05_Vistas_Analiticas/Exportaciones/red_corrupcion_chile.dot` con estilos cromáticos
+Genera `05_Vistas_Analiticas/Exportaciones/red_ftm_chile.dot` con estilos cromáticos
 por tipo de entidad, listo para compilar con `dot -Tsvg` o `dot -Tpdf`.
 """
 
@@ -13,7 +13,7 @@ JSON_PATH = os.path.join(
     ROOT_DIR, "05_Vistas_Analiticas", "Exportaciones", "metricas_red.json"
 )
 OUT_DOT = os.path.join(
-    ROOT_DIR, "05_Vistas_Analiticas", "Exportaciones", "red_corrupcion_chile.dot"
+    ROOT_DIR, "05_Vistas_Analiticas", "Exportaciones", "red_ftm_chile.dot"
 )
 
 STYLE_MAP = {

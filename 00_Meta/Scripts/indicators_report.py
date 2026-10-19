@@ -4,7 +4,7 @@ Motor de Detección de Anomalías, Cálculo de UTM, Índice de Concentración HH
 Centralidad de Intermediación (Brandes), PageRank y Generador de Reporte Ejecutivo Markdown.
 
 Ejecución:
-  python3 00_Meta/Scripts/forensic_audit.py
+  python3 00_Meta/Scripts/indicators_report.py
 Genera:
   05_Vistas_Analiticas/Reporte_Automatico_de_Indicadores.md
 """

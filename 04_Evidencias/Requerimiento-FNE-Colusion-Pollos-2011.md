@@ -22,7 +22,7 @@ tags:
   - libre-competencia
 ---
 
-# Requerimiento-FNE-Cartel-Pollos-2011
+# Requerimiento-FNE-Colusion-Pollos-2011
 
 ## Metadatos de la Fuente
 - **ID Evidencia**: `= this.id_evidencia`

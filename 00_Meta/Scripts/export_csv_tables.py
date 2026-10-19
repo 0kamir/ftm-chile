@@ -2,9 +2,9 @@
 """
 Exportador de Planillas Contables CSV para Anexos Judiciales.
 Genera en `05_Vistas_Analiticas/Exportaciones/`:
-  - peritaje_transacciones.csv
-  - peritaje_imputados.csv
-  - peritaje_entidades.csv
+  - hechos.csv
+  - personas.csv
+  - entidades.csv
 """
 
 import csv
@@ -26,7 +26,7 @@ def clean_link(val) -> str:
 def main() -> int:
     os.makedirs(EXPORT_DIR, exist_ok=True)
     transacciones = []
-    imputados = []
+    personas = []
     entidades = []
 
     for dirpath, dirnames, filenames in os.walk(ROOT_DIR):
@@ -54,6 +54,7 @@ def main() -> int:
                         "fecha": str(meta.get("fecha", "")),
                         "tipo_nexo": str(meta.get("tipo_nexo", "")),
                         "monto_clp": int(meta.get("monto_clp", 0) or 0),
+                        "monto_origen": str(meta.get("monto_origen") or ""),
                         "entidad_origen": clean_link(meta.get("entidad_origen")),
                         "entidad_destino": clean_link(meta.get("entidad_destino")),
                         "firmante_origen": clean_link(meta.get("firmante_origen")),
@@ -64,7 +65,7 @@ def main() -> int:
                     }
                 )
             elif tipo == "persona":
-                imputados.append(
+                personas.append(
                     {
                         "nombre": name,
                         "rut": str(meta.get("rut", "")),
@@ -99,19 +100,19 @@ def main() -> int:
                     }
                 )
 
-    trx_csv = os.path.join(EXPORT_DIR, "peritaje_transacciones.csv")
+    trx_csv = os.path.join(EXPORT_DIR, "hechos.csv")
     with open(trx_csv, "w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(transacciones[0].keys()))
         w.writeheader()
         w.writerows(sorted(transacciones, key=lambda x: x["fecha"]))
 
-    imp_csv = os.path.join(EXPORT_DIR, "peritaje_imputados.csv")
+    imp_csv = os.path.join(EXPORT_DIR, "personas.csv")
     with open(imp_csv, "w", encoding="utf-8", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=list(imputados[0].keys()))
+        w = csv.DictWriter(f, fieldnames=list(personas[0].keys()))
         w.writeheader()
-        w.writerows(imputados)
+        w.writerows(personas)
 
-    ent_csv = os.path.join(EXPORT_DIR, "peritaje_entidades.csv")
+    ent_csv = os.path.join(EXPORT_DIR, "entidades.csv")
     with open(ent_csv, "w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(entidades[0].keys()))
         w.writeheader()
@@ -119,7 +120,7 @@ def main() -> int:
 
     print(
         f"[OK] Planillas CSV de peritaje generadas en 05_Vistas_Analiticas/Exportaciones/ "
-        f"({len(transacciones)} nexos, {len(imputados)} personas, {len(entidades)} entidades)"
+        f"({len(transacciones)} nexos, {len(personas)} personas, {len(entidades)} entidades)"
     )
     return 0
 

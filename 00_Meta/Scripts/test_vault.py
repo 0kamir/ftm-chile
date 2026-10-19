@@ -4,8 +4,8 @@ Suite de Pruebas Automatizadas (Unit & Integration Tests) para el Vault OSINT de
 Verifica:
 1. Validación Módulo 11 de RUTs chilenos.
 2. Integridad de esquemas YAML y enlaces internos (validate_vault.py).
-3. Generación de reporte UTM, HHI, PageRank y detección de fraccionamiento (forensic_audit.py).
-4. Auditoría Estadística de Ley de Benford y Sesgo de Montos Redondos (benford_forensic.py).
+3. Generación de reporte UTM, HHI, PageRank y detección de fraccionamiento (indicators_report.py).
+4. Auditoría Estadística de Ley de Benford y Sesgo de Montos Redondos (benford_analysis.py).
 5. Exportación GraphML y JSON (export_graph.py).
 6. Simulación de Percolación y Fragmentación de Nodos Clave (percolation_analysis.py).
 7. Predicción de Similitud estructural mediante Adamic-Adar y Jaccard (link_prediction.py).
@@ -82,9 +82,9 @@ class TestForensicVault(unittest.TestCase):
         rc = validate_vault.main()
         self.assertEqual(rc, 0, "validate_vault.py detectó errores en el vault")
 
-    def test_forensic_audit_and_utm_fractioning(self):
+    def test_indicators_report_and_utm_fractioning(self):
         res = subprocess.run(
-            [sys.executable, os.path.join(ROOT_DIR, "00_Meta/Scripts/forensic_audit.py")],
+            [sys.executable, os.path.join(ROOT_DIR, "00_Meta/Scripts/indicators_report.py")],
             cwd=ROOT_DIR,
             capture_output=True,
             text=True,
@@ -98,7 +98,7 @@ class TestForensicVault(unittest.TestCase):
 
     def test_benford_statistical_audit(self):
         res = subprocess.run(
-            [sys.executable, os.path.join(ROOT_DIR, "00_Meta/Scripts/benford_forensic.py")],
+            [sys.executable, os.path.join(ROOT_DIR, "00_Meta/Scripts/benford_analysis.py")],
             cwd=ROOT_DIR,
             capture_output=True,
             text=True,
@@ -261,7 +261,7 @@ class TestForensicVault(unittest.TestCase):
             check=True,
         )
         dot_path = os.path.join(
-            ROOT_DIR, "05_Vistas_Analiticas/Exportaciones/red_corrupcion_chile.dot"
+            ROOT_DIR, "05_Vistas_Analiticas/Exportaciones/red_ftm_chile.dot"
         )
         self.assertTrue(os.path.isfile(dot_path))
 
@@ -300,7 +300,7 @@ class TestForensicVault(unittest.TestCase):
             check=True,
         )
         jsonld_path = os.path.join(
-            ROOT_DIR, "05_Vistas_Analiticas/Exportaciones/red_corrupcion_chile.jsonld"
+            ROOT_DIR, "05_Vistas_Analiticas/Exportaciones/red_ftm_chile.jsonld"
         )
         self.assertTrue(os.path.isfile(jsonld_path))
 
@@ -313,9 +313,9 @@ class TestForensicVault(unittest.TestCase):
             check=True,
         )
         for name in (
-            "peritaje_transacciones.csv",
-            "peritaje_imputados.csv",
-            "peritaje_entidades.csv",
+            "hechos.csv",
+            "personas.csv",
+            "entidades.csv",
         ):
             p = os.path.join(ROOT_DIR, "05_Vistas_Analiticas/Exportaciones", name)
             self.assertTrue(os.path.isfile(p))
@@ -377,9 +377,9 @@ class TestForensicVault(unittest.TestCase):
                     f"Nodo Canvas apunta a archivo inexistente: {node['file']}",
                 )
 
-    def test_kinship_and_clans_analysis(self):
+    def test_kinship_networks_analysis(self):
         res = subprocess.run(
-            [sys.executable, os.path.join(ROOT_DIR, "00_Meta/Scripts/kinship_and_clans.py")],
+            [sys.executable, os.path.join(ROOT_DIR, "00_Meta/Scripts/kinship_networks.py")],
             cwd=ROOT_DIR,
             capture_output=True,
             text=True,

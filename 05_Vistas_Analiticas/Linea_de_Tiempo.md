@@ -59,4 +59,4 @@ dv.table(
 ## 2. Índice Maestro de Vistas Analíticas (MOC)
 - [[Dashboard_General]] — Cuantificación global en CLP, matriz general de nexos y control de medidas cautelares.
 - [[Senales_para_Revision]] — Detector heurístico de fraccionamiento bajo 5.000 UTM, endogamia partidaria, constitución reciente y nodos puente.
-- [[Reporte_Automatico_de_Indicadores]] — Informe técnico generado por `forensic_audit.py` con conversión a UTM históricas, ranking de centralidad de intermediación (*Brandes*) y diagrama Mermaid.
+- [[Reporte_Automatico_de_Indicadores]] — Informe técnico generado por `indicators_report.py` con conversión a UTM históricas, ranking de centralidad de intermediación (*Brandes*) y diagrama Mermaid.

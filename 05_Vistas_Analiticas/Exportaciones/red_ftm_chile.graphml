@@ -1982,13 +1982,6 @@
       <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
-    <node id="Requerimiento-FNE-Cartel-Pollos-2011">
-      <data key="d0">evidencia_documental</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">0</data>
-      <data key="d4">0</data>
-    </node>
     <node id="Sentencia-3TOP-Santiago-Corpesca-2021">
       <data key="d0">evidencia_documental</data>
       <data key="d1" />
@@ -2080,6 +2073,13 @@
       <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
+    <node id="Requerimiento-FNE-Colusion-Pollos-2011">
+      <data key="d0">evidencia_documental</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+    </node>
     <node id="Dashboard_General">
       <data key="d0">vista_analitica</data>
       <data key="d1" />
@@ -2116,13 +2116,6 @@
       <data key="d4">0</data>
     </node>
     <node id="Senales_para_Revision">
-      <data key="d0">vista_analitica</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">0</data>
-      <data key="d4">0</data>
-    </node>
-    <node id="Agrupamientos_de_la_Red">
       <data key="d0">vista_analitica</data>
       <data key="d1" />
       <data key="d2">0</data>
@@ -2207,6 +2200,13 @@
       <data key="d4">0</data>
     </node>
     <node id="Similitud_Estructural_de_Nodos">
+      <data key="d0">vista_analitica</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="Agrupamientos_de_la_Red">
       <data key="d0">vista_analitica</data>
       <data key="d1" />
       <data key="d2">0</data>
@@ -4726,167 +4726,167 @@
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e623" source="Requerimiento-FNE-Cartel-Pollos-2011" target="Fiscalia Nacional Economica">
+    <edge id="e623" source="Sentencia-3TOP-Santiago-Corpesca-2021" target="Corte Suprema de Chile">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e624" source="Requerimiento-FNE-Cartel-Pollos-2011" target="Caso Colusion de los Pollos">
+    <edge id="e624" source="Sentencia-3TOP-Santiago-Corpesca-2021" target="Caso Corpesca">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e625" source="Requerimiento-FNE-Cartel-Pollos-2011" target="TRX-2008-01-15-Colusion-Cuotas-Produccion-Pollos-01">
+    <edge id="e625" source="Sentencia-3TOP-Santiago-Corpesca-2021" target="TRX-2012-07-11-Pagos-Corpesca-LeyDePesca-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e626" source="Sentencia-3TOP-Santiago-Corpesca-2021" target="Corte Suprema de Chile">
+    <edge id="e626" source="Sentencia-8Juzgado-Garantia-Penta-2018" target="Corte Suprema de Chile">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e627" source="Sentencia-3TOP-Santiago-Corpesca-2021" target="Caso Corpesca">
+    <edge id="e627" source="Sentencia-8Juzgado-Garantia-Penta-2018" target="Caso Penta">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e628" source="Sentencia-3TOP-Santiago-Corpesca-2021" target="TRX-2012-07-11-Pagos-Corpesca-LeyDePesca-01">
+    <edge id="e628" source="Sentencia-8Juzgado-Garantia-Penta-2018" target="TRX-2013-07-15-Boletas-Penta-UDI-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e629" source="Sentencia-8Juzgado-Garantia-Penta-2018" target="Corte Suprema de Chile">
+    <edge id="e629" source="Sentencia-Corte-Suprema-CasoRiggs-2018" target="Corte Suprema de Chile">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e630" source="Sentencia-8Juzgado-Garantia-Penta-2018" target="Caso Penta">
+    <edge id="e630" source="Sentencia-Corte-Suprema-CasoRiggs-2018" target="Caso Riggs">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e631" source="Sentencia-8Juzgado-Garantia-Penta-2018" target="TRX-2013-07-15-Boletas-Penta-UDI-01">
+    <edge id="e631" source="Sentencia-Corte-Suprema-CasoRiggs-2018" target="TRX-2004-07-14-Gastos-Reservados-Riggs-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e632" source="Sentencia-Corte-Suprema-CasoRiggs-2018" target="Corte Suprema de Chile">
+    <edge id="e632" source="Sentencia-Corte-Suprema-CasoSpiniak-2008" target="Corte Suprema de Chile">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e633" source="Sentencia-Corte-Suprema-CasoRiggs-2018" target="Caso Riggs">
+    <edge id="e633" source="Sentencia-Corte-Suprema-CasoSpiniak-2008" target="Caso Spiniak">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e634" source="Sentencia-Corte-Suprema-CasoRiggs-2018" target="TRX-2004-07-14-Gastos-Reservados-Riggs-01">
+    <edge id="e634" source="Sentencia-Corte-Suprema-CasoSpiniak-2008" target="TRX-2003-10-15-Patrimonio-ElBosque-Spiniak-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e635" source="Sentencia-Corte-Suprema-CasoSpiniak-2008" target="Corte Suprema de Chile">
+    <edge id="e635" source="Sentencia-Corte-Suprema-ColoniaDignidad-2013" target="Corte Suprema de Chile">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e636" source="Sentencia-Corte-Suprema-CasoSpiniak-2008" target="Caso Spiniak">
+    <edge id="e636" source="Sentencia-Corte-Suprema-ColoniaDignidad-2013" target="Caso Colonia Dignidad">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e637" source="Sentencia-Corte-Suprema-CasoSpiniak-2008" target="TRX-2003-10-15-Patrimonio-ElBosque-Spiniak-01">
+    <edge id="e637" source="Sentencia-Corte-Suprema-ColoniaDignidad-2013" target="TRX-1991-01-31-Movimientos-Patrimoniales-ColoniaDignidad-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e638" source="Sentencia-Corte-Suprema-ColoniaDignidad-2013" target="Corte Suprema de Chile">
+    <edge id="e638" source="Sentencia-Corte-Suprema-Colusion-Farmacias-2012" target="Corte Suprema de Chile">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e639" source="Sentencia-Corte-Suprema-ColoniaDignidad-2013" target="Caso Colonia Dignidad">
+    <edge id="e639" source="Sentencia-Corte-Suprema-Colusion-Farmacias-2012" target="Caso Colusion de las Farmacias">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e640" source="Sentencia-Corte-Suprema-ColoniaDignidad-2013" target="TRX-1991-01-31-Movimientos-Patrimoniales-ColoniaDignidad-01">
+    <edge id="e640" source="Sentencia-Corte-Suprema-Colusion-Farmacias-2012" target="TRX-2007-11-01-Colusion-Precios-Medicamentos-Farmacias-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e641" source="Sentencia-Corte-Suprema-Colusion-Farmacias-2012" target="Corte Suprema de Chile">
+    <edge id="e641" source="Sentencia-Corte-Suprema-Colusion-Pollos-2015" target="Corte Suprema de Chile">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e642" source="Sentencia-Corte-Suprema-Colusion-Farmacias-2012" target="Caso Colusion de las Farmacias">
+    <edge id="e642" source="Sentencia-Corte-Suprema-Colusion-Pollos-2015" target="Caso Colusion de los Pollos">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e643" source="Sentencia-Corte-Suprema-Colusion-Farmacias-2012" target="TRX-2007-11-01-Colusion-Precios-Medicamentos-Farmacias-01">
+    <edge id="e643" source="Sentencia-Corte-Suprema-Colusion-Pollos-2015" target="TRX-2015-10-29-Pago-Multas-Colusion-Pollos-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e644" source="Sentencia-Corte-Suprema-Colusion-Pollos-2015" target="Corte Suprema de Chile">
+    <edge id="e644" source="Sentencia-Corte-Suprema-MOPGate-2016" target="Corte Suprema de Chile">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e645" source="Sentencia-Corte-Suprema-Colusion-Pollos-2015" target="Caso Colusion de los Pollos">
+    <edge id="e645" source="Sentencia-Corte-Suprema-MOPGate-2016" target="Caso MOP-Gate">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e646" source="Sentencia-Corte-Suprema-Colusion-Pollos-2015" target="TRX-2015-10-29-Pago-Multas-Colusion-Pollos-01">
+    <edge id="e646" source="Sentencia-Corte-Suprema-MOPGate-2016" target="TRX-2001-08-20-Contratos-MOP-GATE-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e647" source="Sentencia-Corte-Suprema-MOPGate-2016" target="Corte Suprema de Chile">
+    <edge id="e647" source="Sentencia-TDLC-119-Colusion-Farmacias-2012" target="Corte Suprema de Chile">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e648" source="Sentencia-Corte-Suprema-MOPGate-2016" target="Caso MOP-Gate">
+    <edge id="e648" source="Sentencia-TDLC-119-Colusion-Farmacias-2012" target="Caso Colusion de las Farmacias">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e649" source="Sentencia-Corte-Suprema-MOPGate-2016" target="TRX-2001-08-20-Contratos-MOP-GATE-01">
+    <edge id="e649" source="Sentencia-TDLC-119-Colusion-Farmacias-2012" target="TRX-2007-11-01-Colusion-Precios-Medicamentos-Farmacias-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e650" source="Sentencia-TDLC-119-Colusion-Farmacias-2012" target="Corte Suprema de Chile">
+    <edge id="e650" source="Sentencia-TDLC-139-Colusion-Pollos-2014" target="Corte Suprema de Chile">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e651" source="Sentencia-TDLC-119-Colusion-Farmacias-2012" target="Caso Colusion de las Farmacias">
+    <edge id="e651" source="Sentencia-TDLC-139-Colusion-Pollos-2014" target="Caso Colusion de los Pollos">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e652" source="Sentencia-TDLC-119-Colusion-Farmacias-2012" target="TRX-2007-11-01-Colusion-Precios-Medicamentos-Farmacias-01">
+    <edge id="e652" source="Sentencia-TDLC-139-Colusion-Pollos-2014" target="TRX-2008-01-15-Colusion-Cuotas-Produccion-Pollos-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e653" source="Sentencia-TDLC-139-Colusion-Pollos-2014" target="Corte Suprema de Chile">
+    <edge id="e653" source="Sentencia-TOP-Rancagua-Caval-2018" target="Corte Suprema de Chile">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e654" source="Sentencia-TDLC-139-Colusion-Pollos-2014" target="Caso Colusion de los Pollos">
+    <edge id="e654" source="Sentencia-TOP-Rancagua-Caval-2018" target="Caso Caval">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e655" source="Sentencia-TDLC-139-Colusion-Pollos-2014" target="TRX-2008-01-15-Colusion-Cuotas-Produccion-Pollos-01">
+    <edge id="e655" source="Sentencia-TOP-Rancagua-Caval-2018" target="TRX-2015-01-29-Facturas-Caval-SII-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e656" source="Sentencia-TOP-Rancagua-Caval-2018" target="Corte Suprema de Chile">
+    <edge id="e656" source="Sentencia-TOP-Temuco-OperacionHuracan-2026" target="Corte Suprema de Chile">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e657" source="Sentencia-TOP-Rancagua-Caval-2018" target="Caso Caval">
+    <edge id="e657" source="Sentencia-TOP-Temuco-OperacionHuracan-2026" target="Caso Operacion Huracan">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e658" source="Sentencia-TOP-Rancagua-Caval-2018" target="TRX-2015-01-29-Facturas-Caval-SII-01">
+    <edge id="e658" source="Sentencia-TOP-Temuco-OperacionHuracan-2026" target="TRX-2017-09-23-Detenciones-OperacionHuracan-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e659" source="Sentencia-TOP-Temuco-OperacionHuracan-2026" target="Corte Suprema de Chile">
+    <edge id="e659" source="Veredicto-TOP-Santiago-Pacogate-2026" target="Caso Pacogate">
+      <data key="d5">causa_vinculada</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge id="e660" source="Veredicto-TOP-Santiago-Pacogate-2026" target="TRX-2016-11-10-Fondos-Direccion-Finanzas-Carabineros-01">
+      <data key="d5">nexo_respaldado</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge id="e661" source="Requerimiento-FNE-Colusion-Pollos-2011" target="Fiscalia Nacional Economica">
       <data key="d5">organismo_emisor</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e660" source="Sentencia-TOP-Temuco-OperacionHuracan-2026" target="Caso Operacion Huracan">
+    <edge id="e662" source="Requerimiento-FNE-Colusion-Pollos-2011" target="Caso Colusion de los Pollos">
       <data key="d5">causa_vinculada</data>
       <data key="d6">1</data>
     </edge>
-    <edge id="e661" source="Sentencia-TOP-Temuco-OperacionHuracan-2026" target="TRX-2017-09-23-Detenciones-OperacionHuracan-01">
-      <data key="d5">nexo_respaldado</data>
-      <data key="d6">1</data>
-    </edge>
-    <edge id="e662" source="Veredicto-TOP-Santiago-Pacogate-2026" target="Caso Pacogate">
-      <data key="d5">causa_vinculada</data>
-      <data key="d6">1</data>
-    </edge>
-    <edge id="e663" source="Veredicto-TOP-Santiago-Pacogate-2026" target="TRX-2016-11-10-Fondos-Direccion-Finanzas-Carabineros-01">
+    <edge id="e663" source="Requerimiento-FNE-Colusion-Pollos-2011" target="TRX-2008-01-15-Colusion-Cuotas-Produccion-Pollos-01">
       <data key="d5">nexo_respaldado</data>
       <data key="d6">1</data>
     </edge>

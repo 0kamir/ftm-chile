@@ -2691,9 +2691,9 @@
       "schema:name": "Querella-SII-Megafraude-Tributario-2023"
     },
     {
-      "@id": "urn:cl-osint:node:Requerimiento-FNE-Cartel-Pollos-2011",
+      "@id": "urn:cl-osint:node:Requerimiento-FNE-Colusion-Pollos-2011",
       "@type": "osint:evidencia_documental",
-      "schema:name": "Requerimiento-FNE-Cartel-Pollos-2011"
+      "schema:name": "Requerimiento-FNE-Colusion-Pollos-2011"
     },
     {
       "@id": "urn:cl-osint:node:Resolucion-Exenta-MINVU-Antofagasta-2022",

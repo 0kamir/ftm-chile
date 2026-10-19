@@ -4392,11 +4392,11 @@
       ]
     },
     {
-      "id": "Requerimiento-FNE-Cartel-Pollos-2011",
+      "id": "Requerimiento-FNE-Colusion-Pollos-2011",
       "tipo_nodo": "evidencia_documental",
       "rut": "",
       "monto_clp": 0,
-      "path": "04_Evidencias/Requerimiento-FNE-Cartel-Pollos-2011.md",
+      "path": "04_Evidencias/Requerimiento-FNE-Colusion-Pollos-2011.md",
       "in_degree": 0,
       "out_degree": 3,
       "flujo_emitido_clp": 0,
@@ -6227,21 +6227,6 @@
       "fuentes": []
     },
     {
-      "id": "Agrupamientos_de_la_Red",
-      "tipo_nodo": "vista_analitica",
-      "rut": "",
-      "monto_clp": 0,
-      "path": "05_Vistas_Analiticas/Agrupamientos_de_la_Red.md",
-      "in_degree": 0,
-      "out_degree": 0,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0,
-      "estado_verificacion": "",
-      "monto_origen": "",
-      "situacion_procesal": "",
-      "fuentes": []
-    },
-    {
       "id": "Analisis_Espectral_y_Fiedler",
       "tipo_nodo": "vista_analitica",
       "rut": "",
@@ -6412,6 +6397,21 @@
       "rut": "",
       "monto_clp": 0,
       "path": "05_Vistas_Analiticas/Similitud_Estructural_de_Nodos.md",
+      "in_degree": 0,
+      "out_degree": 0,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0,
+      "estado_verificacion": "",
+      "monto_origen": "",
+      "situacion_procesal": "",
+      "fuentes": []
+    },
+    {
+      "id": "Agrupamientos_de_la_Red",
+      "tipo_nodo": "vista_analitica",
+      "rut": "",
+      "monto_clp": 0,
+      "path": "05_Vistas_Analiticas/Agrupamientos_de_la_Red.md",
       "in_degree": 0,
       "out_degree": 0,
       "flujo_emitido_clp": 0,
@@ -10207,24 +10207,6 @@
       "weight": 1
     },
     {
-      "source": "Requerimiento-FNE-Cartel-Pollos-2011",
-      "target": "Fiscalia Nacional Economica",
-      "relation": "organismo_emisor",
-      "weight": 1
-    },
-    {
-      "source": "Requerimiento-FNE-Cartel-Pollos-2011",
-      "target": "Caso Colusion de los Pollos",
-      "relation": "causa_vinculada",
-      "weight": 1
-    },
-    {
-      "source": "Requerimiento-FNE-Cartel-Pollos-2011",
-      "target": "TRX-2008-01-15-Colusion-Cuotas-Produccion-Pollos-01",
-      "relation": "nexo_respaldado",
-      "weight": 1
-    },
-    {
       "source": "Sentencia-3TOP-Santiago-Corpesca-2021",
       "target": "Corte Suprema de Chile",
       "relation": "organismo_emisor",
@@ -10449,6 +10431,24 @@
     {
       "source": "Veredicto-TOP-Santiago-Pacogate-2026",
       "target": "TRX-2016-11-10-Fondos-Direccion-Finanzas-Carabineros-01",
+      "relation": "nexo_respaldado",
+      "weight": 1
+    },
+    {
+      "source": "Requerimiento-FNE-Colusion-Pollos-2011",
+      "target": "Fiscalia Nacional Economica",
+      "relation": "organismo_emisor",
+      "weight": 1
+    },
+    {
+      "source": "Requerimiento-FNE-Colusion-Pollos-2011",
+      "target": "Caso Colusion de los Pollos",
+      "relation": "causa_vinculada",
+      "weight": 1
+    },
+    {
+      "source": "Requerimiento-FNE-Colusion-Pollos-2011",
+      "target": "TRX-2008-01-15-Colusion-Cuotas-Produccion-Pollos-01",
       "relation": "nexo_respaldado",
       "weight": 1
     }

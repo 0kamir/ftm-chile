@@ -3,7 +3,7 @@
 Analizador de Redes y Exportador GraphML / JSON (Compatible con Gephi y Cytoscape).
 Construye el grafo bipartito/reificado completo desde el vault de Obsidian, calcula métricas de
 centralidad (Grado, Flujo Financiero de Entrada/Salida, Intermediación) y exporta:
-  - 05_Vistas_Analiticas/Exportaciones/red_corrupcion_chile.graphml
+  - 05_Vistas_Analiticas/Exportaciones/red_ftm_chile.graphml
   - 05_Vistas_Analiticas/Exportaciones/metricas_red.json
 """
 
@@ -177,7 +177,7 @@ def main() -> int:
         d_w = ET.SubElement(e_el, "data", key="d6")
         d_w.text = str(edge["weight"])
 
-    graphml_path = os.path.join(EXPORT_DIR, "red_corrupcion_chile.graphml")
+    graphml_path = os.path.join(EXPORT_DIR, "red_ftm_chile.graphml")
     tree = ET.ElementTree(graphml)
     ET.indent(tree, space="  ")
     tree.write(graphml_path, encoding="utf-8", xml_declaration=True)

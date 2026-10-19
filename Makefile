@@ -18,10 +18,10 @@ screen:
 	python3 00_Meta/Scripts/screen_defamation.py
 
 audit:
-	python3 00_Meta/Scripts/forensic_audit.py
+	python3 00_Meta/Scripts/indicators_report.py
 
 benford:
-	python3 00_Meta/Scripts/benford_forensic.py
+	python3 00_Meta/Scripts/benford_analysis.py
 
 export:
 	python3 00_Meta/Scripts/export_graph.py
@@ -54,7 +54,7 @@ resistance: export
 	python3 00_Meta/Scripts/effective_resistance.py
 
 kinship: export
-	python3 00_Meta/Scripts/kinship_and_clans.py
+	python3 00_Meta/Scripts/kinship_networks.py
 
 dot: export
 	python3 00_Meta/Scripts/export_graphviz_dot.py

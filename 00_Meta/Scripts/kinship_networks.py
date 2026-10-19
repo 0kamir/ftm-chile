@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-kinship_and_clans.py
+kinship_networks.py
 ====================
 Motor Analítico de Redes de Parentesco, Grupos familiares y Puentes Familiares
 (Capa Multiplex `vinculos_familiares` sobre el Grafo de Aristas Reificadas).

@@ -4,7 +4,7 @@ Exportador a Grafo de Conocimiento Semántico W3C JSON-LD (`export_jsonld.py`).
 Mapea las notas del vault a un documento `@graph` JSON-LD interoperable con `schema.org` y SPARQL/RDF.
 
 Salida:
-  05_Vistas_Analiticas/Exportaciones/red_corrupcion_chile.jsonld
+  05_Vistas_Analiticas/Exportaciones/red_ftm_chile.jsonld
 """
 
 import json
@@ -15,7 +15,7 @@ import yaml
 
 ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 OUT_JSONLD = os.path.join(
-    ROOT_DIR, "05_Vistas_Analiticas", "Exportaciones", "red_corrupcion_chile.jsonld"
+    ROOT_DIR, "05_Vistas_Analiticas", "Exportaciones", "red_ftm_chile.jsonld"
 )
 
 

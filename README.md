@@ -216,7 +216,7 @@ La suite en Python (`00_Meta/Scripts/`) calcula métricas de análisis de redes 
 2. **Partición espectral y vector de Fiedler** (`spectral_analysis.py`): descompone el laplaciano del grafo para identificar subgrafos poco conectados entre sí.
 3. **Núcleos k-core y agujeros estructurales de Burt** (`kcore_and_assortativity.py`): mide qué nodos ocupan posiciones de intermediación en el grafo.
 4. **Agrupamientos de Louvain** (`community_detection.py`): agrupa nodos densamente conectados, casi siempre por pertenecer a la misma causa.
-5. **Distribución de montos según la ley de Benford** (`benford_forensic.py`): compara el primer dígito de los montos registrados con la distribución de Benford; una desviación no prueba manipulación.
+5. **Distribución de montos según la ley de Benford** (`benford_analysis.py`): compara el primer dígito de los montos registrados con la distribución de Benford; una desviación no prueba manipulación.
 6. **Robustez de la red** (`percolation_analysis.py`): simula la eliminación de nodos para medir cómo se fragmenta el grafo.
 7. **Corte mínimo y flujo máximo** (`financial_flow_cut.py`): calcula el cuello de botella de la red de montos registrados (Edmonds-Karp).
 8. **Similitud estructural** (`link_prediction.py`): índices de Adamic-Adar y Resource Allocation que señalan pares de nodos con vecinos en común; **no son vínculos documentados** y sirven solo para orientar la búsqueda de fuentes.
@@ -243,12 +243,12 @@ make web         # Genera el visor HTML5 autónomo
 
 El directorio [`05_Vistas_Analiticas/Exportaciones/`](05_Vistas_Analiticas/Exportaciones/) contiene sincronizaciones continuas listas para importar en herramientas:
 
-- **Gephi / Cytoscape**: `red_corrupcion_chile.graphml`
+- **Gephi / Cytoscape**: `red_ftm_chile.graphml`
 - **Neo4j / Memgraph (ICIJ Standard)**: `icij_neo4j_import.cypher`
 - **OCCRP Aleph**: `aleph_entities.ftm.jsonl` (formato FollowTheMoney)
-- **Web Semántica**: `red_corrupcion_chile.jsonld`
-- **Graphviz**: `red_corrupcion_chile.dot`
-- **Planillas Tabulares**: `peritaje_entidades.csv`, `peritaje_imputados.csv`, `peritaje_transacciones.csv`
+- **Web Semántica**: `red_ftm_chile.jsonld`
+- **Graphviz**: `red_ftm_chile.dot`
+- **Planillas Tabulares**: `entidades.csv`, `personas.csv`, `hechos.csv`
 - **Dossier Ejecutivo**: `Dossier_Ejecutivo_Completo.md`
 - **Visor Web Autónomo**: `visor_red.html` (abrible directamente en cualquier navegador)
 

@@ -279,7 +279,7 @@ MERGE (n:NodoVault:EvidenciaDocumental {id: "Peritaje-Cibercrimen-PDI-SoftwareAn
 MERGE (n:NodoVault:EvidenciaDocumental {id: "Procesamientos-Ministra-Rutherford-Milicogate"}) SET n.tipo_nodo = "evidencia_documental", n.rut = "", n.monto_clp = 0, n.fecha = "2018-02-11";
 MERGE (n:NodoVault:EvidenciaDocumental {id: "Querella-SII-Boletas-SQM-2015"}) SET n.tipo_nodo = "evidencia_documental", n.rut = "", n.monto_clp = 0, n.fecha = "2015-03-24";
 MERGE (n:NodoVault:EvidenciaDocumental {id: "Querella-SII-Megafraude-Tributario-2023"}) SET n.tipo_nodo = "evidencia_documental", n.rut = "", n.monto_clp = 0, n.fecha = "2023-12-14";
-MERGE (n:NodoVault:EvidenciaDocumental {id: "Requerimiento-FNE-Cartel-Pollos-2011"}) SET n.tipo_nodo = "evidencia_documental", n.rut = "", n.monto_clp = 0, n.fecha = "2011-11-30";
+MERGE (n:NodoVault:EvidenciaDocumental {id: "Requerimiento-FNE-Colusion-Pollos-2011"}) SET n.tipo_nodo = "evidencia_documental", n.rut = "", n.monto_clp = 0, n.fecha = "2011-11-30";
 MERGE (n:NodoVault:EvidenciaDocumental {id: "Resolucion-Exenta-MINVU-Antofagasta-2022"}) SET n.tipo_nodo = "evidencia_documental", n.rut = "", n.monto_clp = 0, n.fecha = "2022-10-03";
 MERGE (n:NodoVault:EvidenciaDocumental {id: "Resolucion-GORE-Biobio-EnTi-2022"}) SET n.tipo_nodo = "evidencia_documental", n.rut = "", n.monto_clp = 0, n.fecha = "2022-12-20";
 MERGE (n:NodoVault:EvidenciaDocumental {id: "Resolucion-SVS-306-InformacionPrivilegiada-LAN-2007"}) SET n.tipo_nodo = "evidencia_documental", n.rut = "", n.monto_clp = 0, n.fecha = "2007-07-06";
@@ -909,9 +909,9 @@ MATCH (a:NodoVault {id: "Querella-SII-Boletas-SQM-2015"}), (b:NodoVault {id: "TR
 MATCH (a:NodoVault {id: "Querella-SII-Megafraude-Tributario-2023"}), (b:NodoVault {id: "Servicio Impuestos Internos"}) MERGE (a)-[:EMITIDO_POR {propiedad_yaml: "organismo_emisor"}]->(b);
 MATCH (a:NodoVault {id: "Querella-SII-Megafraude-Tributario-2023"}), (b:NodoVault {id: "Caso Megafraude Tributario Operacion Tributos"}) MERGE (a)-[:INVESTIGADO_EN {propiedad_yaml: "causa_vinculada"}]->(b);
 MATCH (a:NodoVault {id: "Querella-SII-Megafraude-Tributario-2023"}), (b:NodoVault {id: "TRX-2023-12-14-Perjuicio-Fiscal-Operacion-Tributos-01"}) MERGE (a)-[:ACREDITA_NEXO {propiedad_yaml: "nexo_respaldado"}]->(b);
-MATCH (a:NodoVault {id: "Requerimiento-FNE-Cartel-Pollos-2011"}), (b:NodoVault {id: "Fiscalia Nacional Economica"}) MERGE (a)-[:EMITIDO_POR {propiedad_yaml: "organismo_emisor"}]->(b);
-MATCH (a:NodoVault {id: "Requerimiento-FNE-Cartel-Pollos-2011"}), (b:NodoVault {id: "Caso Colusion de los Pollos"}) MERGE (a)-[:INVESTIGADO_EN {propiedad_yaml: "causa_vinculada"}]->(b);
-MATCH (a:NodoVault {id: "Requerimiento-FNE-Cartel-Pollos-2011"}), (b:NodoVault {id: "TRX-2008-01-15-Colusion-Cuotas-Produccion-Pollos-01"}) MERGE (a)-[:ACREDITA_NEXO {propiedad_yaml: "nexo_respaldado"}]->(b);
+MATCH (a:NodoVault {id: "Requerimiento-FNE-Colusion-Pollos-2011"}), (b:NodoVault {id: "Fiscalia Nacional Economica"}) MERGE (a)-[:EMITIDO_POR {propiedad_yaml: "organismo_emisor"}]->(b);
+MATCH (a:NodoVault {id: "Requerimiento-FNE-Colusion-Pollos-2011"}), (b:NodoVault {id: "Caso Colusion de los Pollos"}) MERGE (a)-[:INVESTIGADO_EN {propiedad_yaml: "causa_vinculada"}]->(b);
+MATCH (a:NodoVault {id: "Requerimiento-FNE-Colusion-Pollos-2011"}), (b:NodoVault {id: "TRX-2008-01-15-Colusion-Cuotas-Produccion-Pollos-01"}) MERGE (a)-[:ACREDITA_NEXO {propiedad_yaml: "nexo_respaldado"}]->(b);
 MATCH (a:NodoVault {id: "Resolucion-Exenta-MINVU-Antofagasta-2022"}), (b:NodoVault {id: "Seremi MINVU Antofagasta"}) MERGE (a)-[:EMITIDO_POR {propiedad_yaml: "organismo_emisor"}]->(b);
 MATCH (a:NodoVault {id: "Resolucion-Exenta-MINVU-Antofagasta-2022"}), (b:NodoVault {id: "Caso Convenios"}) MERGE (a)-[:INVESTIGADO_EN {propiedad_yaml: "causa_vinculada"}]->(b);
 MATCH (a:NodoVault {id: "Resolucion-Exenta-MINVU-Antofagasta-2022"}), (b:NodoVault {id: "TRX-2022-10-03-Convenio-DV-01"}) MERGE (a)-[:ACREDITA_NEXO {propiedad_yaml: "nexo_respaldado"}]->(b);
