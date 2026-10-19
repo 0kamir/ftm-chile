@@ -8,15 +8,15 @@
   <key id="d5" for="edge" attr.name="relation" attr.type="string" />
   <key id="d6" for="edge" attr.name="weight" attr.type="long" />
   <graph id="G" edgedefault="directed">
-    <node id="Flujo_Incorporacion_Informacion">
-      <data key="d0">meta_flujo</data>
+    <node id="Taxonomia_y_Esquema_Reificado">
+      <data key="d0">meta_taxonomia</data>
       <data key="d1" />
       <data key="d2">0</data>
       <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
-    <node id="Taxonomia_y_Esquema_Reificado">
-      <data key="d0">meta_taxonomia</data>
+    <node id="Flujo_Incorporacion_Informacion">
+      <data key="d0">meta_flujo</data>
       <data key="d1" />
       <data key="d2">0</data>
       <data key="d3">0</data>
@@ -140,13 +140,6 @@
       <data key="d2">0</data>
       <data key="d3">0</data>
       <data key="d4">190000000</data>
-    </node>
-    <node id="Andronico Luksic Craig">
-      <data key="d0">persona</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">0</data>
-      <data key="d4">0</data>
     </node>
     <node id="Angela Vivanco Martinez">
       <data key="d0">persona</data>
@@ -685,6 +678,13 @@
       <data key="d1" />
       <data key="d2">0</data>
       <data key="d3">12950000000</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="Andronico Luksic Craig">
+      <data key="d0">persona</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
     <node id="Seremi MINVU Antofagasta">
@@ -2087,13 +2087,6 @@
       <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
-    <node id="Dashboard_General">
-      <data key="d0">vista_analitica</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">0</data>
-      <data key="d4">0</data>
-    </node>
     <node id="Alertas_Forenses">
       <data key="d0">vista_analitica</data>
       <data key="d1" />
@@ -2122,13 +2115,6 @@
       <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
-    <node id="Analisis_Espectral_y_Fiedler">
-      <data key="d0">vista_analitica</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">0</data>
-      <data key="d4">0</data>
-    </node>
     <node id="Analisis_Flujo_Financiero_y_Corte_Minimo">
       <data key="d0">vista_analitica</data>
       <data key="d1" />
@@ -2143,6 +2129,27 @@
       <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
+    <node id="Redes_Parentesco_y_Clanes_Familiares">
+      <data key="d0">vista_analitica</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="Revision_Riesgo_Difamacion">
+      <data key="d0">vista_analitica</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="Analisis_Espectral_y_Fiedler">
+      <data key="d0">vista_analitica</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+    </node>
     <node id="Censo_Triadico_y_Motivos_Superiores">
       <data key="d0">vista_analitica</data>
       <data key="d1" />
@@ -2151,6 +2158,20 @@
       <data key="d4">0</data>
     </node>
     <node id="Cobertura_de_Fuentes">
+      <data key="d0">vista_analitica</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="Dashboard_General">
+      <data key="d0">vista_analitica</data>
+      <data key="d1" />
+      <data key="d2">0</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="Deteccion_Comunidades_Operativas">
       <data key="d0">vista_analitica</data>
       <data key="d1" />
       <data key="d2">0</data>
@@ -2178,13 +2199,6 @@
       <data key="d3">0</data>
       <data key="d4">0</data>
     </node>
-    <node id="Redes_Parentesco_y_Clanes_Familiares">
-      <data key="d0">vista_analitica</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">0</data>
-      <data key="d4">0</data>
-    </node>
     <node id="Reporte_Auditoria_Automatizada">
       <data key="d0">vista_analitica</data>
       <data key="d1" />
@@ -2200,20 +2214,6 @@
       <data key="d4">0</data>
     </node>
     <node id="Simulacion_Desarticulacion_Red">
-      <data key="d0">vista_analitica</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">0</data>
-      <data key="d4">0</data>
-    </node>
-    <node id="Deteccion_Comunidades_Operativas">
-      <data key="d0">vista_analitica</data>
-      <data key="d1" />
-      <data key="d2">0</data>
-      <data key="d3">0</data>
-      <data key="d4">0</data>
-    </node>
-    <node id="Revision_Riesgo_Difamacion">
       <data key="d0">vista_analitica</data>
       <data key="d1" />
       <data key="d2">0</data>

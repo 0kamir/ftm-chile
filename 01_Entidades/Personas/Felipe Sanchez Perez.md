@@ -5,8 +5,8 @@ aliases:
   - "Felipe Sánchez"
 rol_principal: "Representante Legal y Controlador de Inmobiliaria San Valentino SpA"
 afiliacion_politica: "Independiente"
-situacion_procesal: ninguna
-medida_cautelar: "Sin cargos: la Fiscalía decidió no perseverar en la investigación (26-05-2025); nunca fue formalizado/a"
+situacion_procesal: sobreseido
+medida_cautelar: "Causa con sobreseimiento definitivo (mayo de 2025, confirmado por la Corte Suprema); nunca fue formalizado"
 estado_verificacion: verificado
 fuentes:
   - url: "https://www.24horas.cl/actualidad/nacional/hassler-sin-cargos-cooper-cierra-investigacion-por-compra-de-sierra-bella"
@@ -14,6 +14,11 @@ fuentes:
     medio: "24 Horas"
     tipo: secundaria
     fecha: 2025-05-26
+    consultado: 2026-10-19
+  - url: "https://www.latercera.com/nacional/noticia/sierra-bella-ningun-querellante-pidio-reapertura-y-se-cierra-el-telon-del-caso-para-iraci-hassler/"
+    titulo: "Sierra Bella: ningún querellante pidió reapertura y se cierra el telón del caso para Irací Hassler"
+    medio: "La Tercera"
+    tipo: secundaria
     consultado: 2026-10-19
 tags:
   - entidad/persona

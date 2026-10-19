@@ -3075,22 +3075,22 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Flujo_Incorporacion_Informacion",
-      "tipo_nodo": "meta_flujo",
+      "id": "Taxonomia_y_Esquema_Reificado",
+      "tipo_nodo": "meta_taxonomia",
       "rut": "",
       "monto_clp": 0,
-      "path": "00_Meta/Flujo_Incorporacion_Informacion.md",
+      "path": "00_Meta/Taxonomia_y_Esquema_Reificado.md",
       "in_degree": 0,
       "out_degree": 0,
       "flujo_emitido_clp": 0,
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Taxonomia_y_Esquema_Reificado",
-      "tipo_nodo": "meta_taxonomia",
+      "id": "Flujo_Incorporacion_Informacion",
+      "tipo_nodo": "meta_flujo",
       "rut": "",
       "monto_clp": 0,
-      "path": "00_Meta/Taxonomia_y_Esquema_Reificado.md",
+      "path": "00_Meta/Flujo_Incorporacion_Informacion.md",
       "in_degree": 0,
       "out_degree": 0,
       "flujo_emitido_clp": 0,
@@ -3113,17 +3113,6 @@
       "rut": "",
       "monto_clp": 0,
       "path": "00_Meta/Delitos/Asociacion Ilicita.md",
-      "in_degree": 0,
-      "out_degree": 0,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
-      "id": "Andronico Luksic Craig",
-      "tipo_nodo": "persona",
-      "rut": "",
-      "monto_clp": 0,
-      "path": "01_Entidades/Personas/Andronico Luksic Craig.md",
       "in_degree": 0,
       "out_degree": 0,
       "flujo_emitido_clp": 0,
@@ -3207,6 +3196,17 @@
       "flujo_recibido_clp": 0
     },
     {
+      "id": "Andronico Luksic Craig",
+      "tipo_nodo": "persona",
+      "rut": "",
+      "monto_clp": 0,
+      "path": "01_Entidades/Personas/Andronico Luksic Craig.md",
+      "in_degree": 0,
+      "out_degree": 0,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
       "id": "Direccion ChileCompra",
       "tipo_nodo": "entidad_publica",
       "rut": "61.970.200-K",
@@ -3273,17 +3273,6 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Dashboard_General",
-      "tipo_nodo": "vista_analitica",
-      "rut": "",
-      "monto_clp": 0,
-      "path": "05_Vistas_Analiticas/Dashboard_General.md",
-      "in_degree": 0,
-      "out_degree": 0,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
       "id": "Alertas_Forenses",
       "tipo_nodo": "vista_analitica",
       "rut": "",
@@ -3328,17 +3317,6 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Analisis_Espectral_y_Fiedler",
-      "tipo_nodo": "vista_analitica",
-      "rut": "",
-      "monto_clp": 0,
-      "path": "05_Vistas_Analiticas/Analisis_Espectral_y_Fiedler.md",
-      "in_degree": 0,
-      "out_degree": 0,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
       "id": "Analisis_Flujo_Financiero_y_Corte_Minimo",
       "tipo_nodo": "vista_analitica",
       "rut": "",
@@ -3361,6 +3339,39 @@
       "flujo_recibido_clp": 0
     },
     {
+      "id": "Redes_Parentesco_y_Clanes_Familiares",
+      "tipo_nodo": "vista_analitica",
+      "rut": "",
+      "monto_clp": 0,
+      "path": "05_Vistas_Analiticas/Redes_Parentesco_y_Clanes_Familiares.md",
+      "in_degree": 0,
+      "out_degree": 0,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "Revision_Riesgo_Difamacion",
+      "tipo_nodo": "vista_analitica",
+      "rut": "",
+      "monto_clp": 0,
+      "path": "05_Vistas_Analiticas/Revision_Riesgo_Difamacion.md",
+      "in_degree": 0,
+      "out_degree": 0,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "Analisis_Espectral_y_Fiedler",
+      "tipo_nodo": "vista_analitica",
+      "rut": "",
+      "monto_clp": 0,
+      "path": "05_Vistas_Analiticas/Analisis_Espectral_y_Fiedler.md",
+      "in_degree": 0,
+      "out_degree": 0,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
       "id": "Censo_Triadico_y_Motivos_Superiores",
       "tipo_nodo": "vista_analitica",
       "rut": "",
@@ -3377,6 +3388,28 @@
       "rut": "",
       "monto_clp": 0,
       "path": "05_Vistas_Analiticas/Cobertura_de_Fuentes.md",
+      "in_degree": 0,
+      "out_degree": 0,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "Dashboard_General",
+      "tipo_nodo": "vista_analitica",
+      "rut": "",
+      "monto_clp": 0,
+      "path": "05_Vistas_Analiticas/Dashboard_General.md",
+      "in_degree": 0,
+      "out_degree": 0,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "Deteccion_Comunidades_Operativas",
+      "tipo_nodo": "vista_analitica",
+      "rut": "",
+      "monto_clp": 0,
+      "path": "05_Vistas_Analiticas/Deteccion_Comunidades_Operativas.md",
       "in_degree": 0,
       "out_degree": 0,
       "flujo_emitido_clp": 0,
@@ -3416,17 +3449,6 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Redes_Parentesco_y_Clanes_Familiares",
-      "tipo_nodo": "vista_analitica",
-      "rut": "",
-      "monto_clp": 0,
-      "path": "05_Vistas_Analiticas/Redes_Parentesco_y_Clanes_Familiares.md",
-      "in_degree": 0,
-      "out_degree": 0,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
       "id": "Reporte_Auditoria_Automatizada",
       "tipo_nodo": "vista_analitica",
       "rut": "",
@@ -3454,28 +3476,6 @@
       "rut": "",
       "monto_clp": 0,
       "path": "05_Vistas_Analiticas/Simulacion_Desarticulacion_Red.md",
-      "in_degree": 0,
-      "out_degree": 0,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
-      "id": "Deteccion_Comunidades_Operativas",
-      "tipo_nodo": "vista_analitica",
-      "rut": "",
-      "monto_clp": 0,
-      "path": "05_Vistas_Analiticas/Deteccion_Comunidades_Operativas.md",
-      "in_degree": 0,
-      "out_degree": 0,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
-      "id": "Revision_Riesgo_Difamacion",
-      "tipo_nodo": "vista_analitica",
-      "rut": "",
-      "monto_clp": 0,
-      "path": "05_Vistas_Analiticas/Revision_Riesgo_Difamacion.md",
       "in_degree": 0,
       "out_degree": 0,
       "flujo_emitido_clp": 0,
