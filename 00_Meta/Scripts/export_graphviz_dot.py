@@ -47,7 +47,7 @@ def main() -> int:
     valid_nodes = set()
     for n in data["nodos"]:
         tipo = n["tipo_nodo"]
-        if tipo in ("vista_analitica", "meta_taxonomia", "dossier_pericial"):
+        if tipo in ("vista_analitica", "meta_taxonomia", "dossier"):
             continue
         valid_nodes.add(n["id"])
         style = STYLE_MAP.get(

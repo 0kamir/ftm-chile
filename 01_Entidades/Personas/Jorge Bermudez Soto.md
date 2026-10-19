@@ -22,5 +22,5 @@ tags:
 - **Situación Procesal**: `= this.situacion_procesal`
 - **Estado**: `= this.medida_cautelar`
 
-## Síntesis Forense
+## Síntesis
 Abogado administrativista y Contralor General de la República entre 2015 y diciembre de 2023. Al mando de la [[Contraloria General de la Republica]], emitió el [[Dictamen-CGR-SierraBella-2023]] que objetó la legalidad y frenó el pago de **$8.200.000.000 CLP** de la [[Municipalidad de Santiago]] ([[Iraci Hassler Jacob]]) a [[Inmobiliaria San Valentino SpA]] ([[Felipe Sanchez Perez]]) en el [[Caso Sierra Bella]] ([[TRX-2023-01-20-Compraventa-Clinica-SierraBella-01]]), además de ordenar las auditorías nacionales sobre transferencias a fundaciones privadas tras el estallido del [[Caso Convenios]] en la [[Seremi MINVU Antofagasta]] ([[Carlos Contreras Gutierrez]] / [[Fundacion Democracia Viva]]).

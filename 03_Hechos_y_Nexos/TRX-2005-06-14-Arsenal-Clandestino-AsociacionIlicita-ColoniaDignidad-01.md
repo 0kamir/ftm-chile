@@ -30,11 +30,11 @@ tags:
 
 # TRX-2005-06-14-Arsenal-Clandestino-AsociacionIlicita-ColoniaDignidad-01
 
-## Ficha de Arista Reificada (Transacción / Hecho Auditado)
+## Ficha de Arista Reificada (Transacción / Hecho Registrado)
 - **ID Transacción**: `= this.id_transaccion`
 - **Fecha**: `= this.fecha`
 - **Tipo de Nexo**: `= this.tipo_nexo`
-- **Monto Auditado (CLP)**: `$1.850.000.000 CLP` (`= this.monto_clp`)
+- **Monto Registrado (CLP)**: `$1.850.000.000 CLP` (`= this.monto_clp`)
 - **Método de Adjudicación**: `= this.metodo_adjudicacion`
 - **Entidad de Origen**: `= this.entidad_origen`
 - **Entidad de Destino / Comiso Judicial**: `= this.entidad_destino`
@@ -44,8 +44,8 @@ tags:
 - **Causa Judicial**: `= this.causa_vinculada`
 - **Evidencia de Soporte**: `= this.evidencia_soporte`
 
-## Descripción Forense del Hecho
-Hallazgo e incautación judicial el 14 de junio de 2005 —bajo la dirección del Ministro en Visita [[Jorge Zepeda Arancibia]] designado por la [[Corte Suprema de Chile]]— de los dos mayores arsenales clandestinos de armamento de guerra en manos de particulares en la historia de Chile, ocultos en contenedores enterrados en el fundo de [[Sociedad Benefactora y Educacional Dignidad]] en Parral por orden de [[Paul Schafer Schneider]]. El inventario pericial incluyó cerca de un centenar de fusiles de asalto, subametralladoras, ametralladoras pesadas, lanzacohetes antitanque RPG, morteros, minas antipersonales, miles de granadas, municiones y talleres de fabricación armamentística y química financiados con recursos desviados del giro exento de la corporación y valuados junto a las indemnizaciones judiciales asociadas en **$1.850.000.000 CLP** en el [[Caso Colonia Dignidad]] ([[Sentencia-Corte-Suprema-ColoniaDignidad-2013]]).
+## Descripción del Hecho
+Hallazgo e incautación judicial el 14 de junio de 2005 —bajo la dirección del Ministro en Visita [[Jorge Zepeda Arancibia]] designado por la [[Corte Suprema de Chile]]— de los dos mayores arsenales clandestinos de armamento de guerra en manos de particulares en la historia de Chile, ocultos en contenedores enterrados en el fundo de [[Sociedad Benefactora y Educacional Dignidad]] en Parral por orden de [[Paul Schafer Schneider]]. El inventario incluyó cerca de un centenar de fusiles de asalto, subametralladoras, ametralladoras pesadas, lanzacohetes antitanque RPG, morteros, minas antipersonales, miles de granadas, municiones y talleres de fabricación armamentística y química financiados con recursos desviados del giro exento de la corporación y valuados junto a las indemnizaciones judiciales asociadas en **$1.850.000.000 CLP** en el [[Caso Colonia Dignidad]] ([[Sentencia-Corte-Suprema-ColoniaDignidad-2013]]).
 
 ## Fuentes Verificables
 ```dataview

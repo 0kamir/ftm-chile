@@ -33,5 +33,5 @@ tags:
 - **Infracción Acreditada**: `= this.delito_imputado`
 - **Evidencia Soporte**: `= this.evidencia_soporte`
 
-## Descripción Forense del Hecho
+## Descripción del Hecho
 A mediados del año 2000, los máximos ejecutivos de [[Empresas CMPC SA]] (CMPC Tissue) y el fundador y controlador de PISA ([[SCA Chile SA]]), [[Gabriel Ruiz-Tagle Serrano]], acordaron poner fin a una guerra comercial de precios y dividirse artificialmente el mercado del papel higiénico y servilletas en Chile, congelando cuotas del 76% para CMPC y 24% para PISA. Para operar el cartel crearon cuentas de correo electrónico secretas con nombres falsos y teléfonos de prepago desechables, práctica que se extendió de manera ininterrumpida hasta fines de 2013, siendo sancionada por el TDLC ([[Sentencia-TDLC-160-Colusion-Tissue-2017]]) y la Corte Suprema ([[Sentencia-Corte-Suprema-Colusion-PapelTissue-2020]]).

@@ -32,7 +32,7 @@ tags:
 - **Delito Imputado**: `= this.delito_imputado`
 - **Evidencia Documental**: `= this.evidencia_soporte`
 
-## Descripción Forense de la Operación
+## Descripción de la Operación
 **Tercer convenio de transferencia directa** ($56.000.000 CLP, equivalente a ~920 UTM de noviembre de 2022) para redes húmedas y prevención de incendios en campamentos de Antofagasta, suscrito entre [[Seremi MINVU Antofagasta]] ([[Carlos Contreras Gutierrez]]) y [[Fundacion Democracia Viva]] ([[Daniel Andrade Schwarze]]).
 
 Completa el total exacto de **$426.000.000 CLP** junto a [[TRX-2022-10-03-Convenio-DV-01]] y [[TRX-2022-10-19-Convenio-DV-02]], respaldado en [[Resolucion-Exenta-MINVU-Antofagasta-2022]] e imputado como [[Fraude al Fisco]] reiterado en [[Caso Convenios]].

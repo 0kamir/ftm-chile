@@ -21,11 +21,11 @@ tags:
 
 # TRX-2013-09-20-Boletas-Falsas-Penta-Novoa-01
 
-## Ficha de Arista Reificada (Transacción / Hecho Auditado)
+## Ficha de Arista Reificada (Transacción / Hecho Registrado)
 - **ID Transacción**: `= this.id_transaccion`
 - **Fecha**: `= this.fecha`
 - **Tipo de Nexo**: `= this.tipo_nexo`
-- **Monto Auditado (CLP)**: `$156.000.000 CLP` (`= this.monto_clp`)
+- **Monto Registrado (CLP)**: `$156.000.000 CLP` (`= this.monto_clp`)
 - **Método de Adjudicación**: `= this.metodo_adjudicacion`
 - **Entidad de Origen**: `= this.entidad_origen` (y remesas complementarias desde [[SQM SA]])
 - **Entidad de Destino**: `= this.entidad_destino`
@@ -35,5 +35,5 @@ tags:
 - **Causa Judicial**: `= this.causa_vinculada`
 - **Evidencia de Soporte**: `= this.evidencia_soporte`
 
-## Descripción Forense del Hecho
+## Descripción del Hecho
 Facilitación y emisión reiterada de facturas exentas y boletas de honorarios ideológicamente falsas gestionadas por el exsenador y expresidente de la [[Union Democrata Independiente]], [[Jovino Novoa Vasquez]] (a través de la sociedad *Inversiones y Mandatos S.A.* y terceros), contra [[Empresas Penta SA]] —con la autorización de [[Carlos Alberto Delano Abbott]] y [[Carlos Eugenio Lavin Garcia-Huidobro]]— y [[SQM SA]], con el objeto de recaudar fondos ilícitos para campañas parlamentarias de la UDI rebajando fraudulentamente la base imponible declarada ante el [[Servicio Impuestos Internos]]. Por estos hechos, [[Jovino Novoa Vasquez]] se convirtió el 2 de diciembre de 2015 en el primer político condenado penalmente en el [[Caso Penta]] mediante procedimiento abreviado ante el 8° Juzgado de Garantía de Santiago ([[Sentencia-8Juzgado-Garantia-Penta-2018]]).

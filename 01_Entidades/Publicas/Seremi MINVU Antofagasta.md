@@ -18,7 +18,7 @@ tags:
 - **Región**: `= this.region`
 - **Superior Jerárquico**: `= this.superior_jerarquico`
 
-## Contexto en Investigaciones Forenses
+## Contexto en Investigaciones
 Secretaría Regional Ministerial de Vivienda y Urbanismo de la Región de Antofagasta. Durante el período 2022–2023 estuvo dirigida por [[Carlos Contreras Gutierrez]], militante de [[Revolucion Democratica]], quien suscribió convenios de transferencia directa de recursos públicos del Programa de Asentamientos Precarios con entidades privadas sin experiencia previa acreditada en urbanismo o habitabilidad, entre ellas [[Fundacion Democracia Viva]].
 
 Dichas asignaciones son investigadas en la causa [[Caso Convenios]] y respaldadas por actos administrativos como la [[Resolucion-Exenta-MINVU-Antofagasta-2022]].

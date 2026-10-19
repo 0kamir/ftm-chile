@@ -1,25 +1,26 @@
 #!/usr/bin/env python3
 """
-Simulador de Robustez Topológica y Desarticulación de Redes Criminales (`percolation_analysis.py`).
+Simulador de Robustez Topológica y Fragmentación de Redes (`percolation_analysis.py`).
 Implementa el protocolo de Borgatti (Key Player Problem / Targeted Percolation):
-1. Construye la red operativa de entidades, personas, partidos y transacciones reificadas.
+1. Construye la red de entidades, personas, partidos y transacciones reificadas.
 2. Calcula iterativamente la Centralidad de Intermediación (Brandes) para elegir el nodo más crítico.
 3. Simula la remoción secuencial de los Top-6 Nodos Puente y mide:
    - Número de Componentes Conexas (Islas desconectadas)
    - Tamaño de la Mayor Componente Conexa (LCC %)
-4. Genera `05_Vistas_Analiticas/Simulacion_Desarticulacion_Red.md` con gráfico `xychart-beta` de Mermaid.
+4. Genera `05_Vistas_Analiticas/Robustez_de_la_Red.md` con gráfico `xychart-beta` de Mermaid.
 """
 
 from collections import defaultdict, deque
 import json
 import os
+from descargo import descargo  # noqa: E402
 
 ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 JSON_PATH = os.path.join(
     ROOT_DIR, "05_Vistas_Analiticas", "Exportaciones", "metricas_red.json"
 )
 OUT_MD = os.path.join(
-    ROOT_DIR, "05_Vistas_Analiticas", "Simulacion_Desarticulacion_Red.md"
+    ROOT_DIR, "05_Vistas_Analiticas", "Robustez_de_la_Red.md"
 )
 
 OPERATIONAL_TYPES = {
@@ -157,17 +158,19 @@ def main() -> int:
     lines = [
         "---",
         "tipo_nodo: vista_analitica",
-        'titulo: "Simulación de Percolación y Desarticulación de Nodos Clave (Key Player Problem)"',
+        'titulo: "Simulación de Percolación y Fragmentación de Nodos Clave (Key Player Problem)"',
         "actualizacion_automatica: true",
         "tags:",
         "  - dashboard",
         "  - percolacion",
-        "  - desarticulacion-red",
+        "  - robustez-red",
         "---",
         "",
-        "# Simulación Forense de Desarticulación de Red (*Key Player Problem*)",
+        "# Robustez de la Red ante la Eliminación de Nodos (*Key Player Problem*)",
         "",
-        "Modelamiento topológico basado en el protocolo de **percolación dirigida adaptativa** (Borgatti, 2006): evalúa cómo se fragmenta la Componente Gigante (`LCC`) de la red de corrupción al neutralizar secuencialmente los actores con mayor centralidad de intermediación recalculada en cada paso.",
+        *descargo("robustez"),
+        "",
+        "Modelamiento topológico basado en el protocolo de **percolación dirigida adaptativa** (Borgatti, 2006): evalúa cómo se fragmenta la Componente Gigante (`LCC`) de la red al eliminar secuencialmente los actores con mayor centralidad de intermediación recalculada en cada paso.",
         "",
         "---",
         "",
@@ -184,9 +187,9 @@ def main() -> int:
         "",
         "---",
         "",
-        "## 2. Secuencia Óptima de Neutralización de Nodos Puente",
+        "## 2. Secuencia de Eliminación de Nodos Puente",
         "",
-        "| Paso ($k$) | Nodo Neutralizado / Removido | Tipo de Actor | Islas Resultantes (Componentes) | Nodos en Mayor Componente (`LCC`) | Cohesión Residual (`LCC %`) |",
+        "| Paso ($k$) | Nodo Eliminado | Tipo de Actor | Islas Resultantes (Componentes) | Nodos en Mayor Componente (`LCC`) | Cohesión Residual (`LCC %`) |",
         "| :---: | :--- | :--- | :---: | :---: | ---: |",
     ]
 

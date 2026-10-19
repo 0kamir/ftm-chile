@@ -23,7 +23,7 @@ tags:
 
 # Sentencia-Corte-Suprema-ColoniaDignidad-2013
 
-## Metadatos de Fuente Primaria (Cadena de Custodia OSINT)
+## Metadatos de la Fuente
 - **ID Evidencia**: `= this.id_evidencia`
 - **Tipo de Documento**: `= this.tipo_documento`
 - **Fecha de Emisión**: `= this.fecha_emision`
@@ -35,7 +35,7 @@ tags:
 
 ## Extracto y Relevancia Probatoria
 Sentencias definitivas dictadas por la Segunda Sala Penal de la [[Corte Suprema de Chile]] en el [[Caso Colonia Dignidad]] (confirmando los fallos de primera instancia del Ministro en Visita [[Jorge Zepeda Arancibia]]), que establecieron judicialmente:
-1. **Existencia de Asociación Ilícita Jerarquizada y Arsenal de Guerra**: Confirmó que la cúpula de [[Sociedad Benefactora y Educacional Dignidad]] liderada por [[Paul Schafer Schneider]] operó como una organización criminal estructurada para cometer delitos contra las personas, abusos sexuales reiterados de menores e infracción masiva a la Ley de Control de Armas tras el hallazgo de los arsenales subterráneos en Parral ([[TRX-2005-06-14-Arsenal-Clandestino-AsociacionIlicita-ColoniaDignidad-01]]).
+1. **Existencia de Asociación Ilícita Jerarquizada y Arsenal de Guerra**: Confirmó que la cúpula de [[Sociedad Benefactora y Educacional Dignidad]] liderada por [[Paul Schafer Schneider]] operó como una organización estructurada para cometer delitos contra las personas, abusos sexuales reiterados de menores e infracción masiva a la Ley de Control de Armas tras el hallazgo de los arsenales subterráneos en Parral ([[TRX-2005-06-14-Arsenal-Clandestino-AsociacionIlicita-ColoniaDignidad-01]]).
 2. **Condenas Efectivas y Fuga de Hartmut Hopp**: Ratificó la pena de **5 años y un día de presidio efectivo** contra el subdirector y vocero [[Hartmut Hopp Miottel]] (prófugo en Alemania desde 2011) y condenas contra el resto del directorio del enclave.
 3. **Embargos Patrimoniales e Indemnizaciones Civiles**: Mantuvo los embargos sobre los bienes transferidos al holding *Villa Baviera / Cerro Florido S.A.* tras la cancelación de la personalidad jurídica en 1991 y las fiscalizaciones del [[Servicio Impuestos Internos]] ([[TRX-1991-01-31-Vaciamiento-Patrimonial-Evasion-ColoniaDignidad-01]]), condenando solidariamente al pago de indemnizaciones multimillonarias a las víctimas.
 

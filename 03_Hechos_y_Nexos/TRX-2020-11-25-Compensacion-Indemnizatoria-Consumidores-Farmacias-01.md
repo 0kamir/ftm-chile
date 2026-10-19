@@ -32,5 +32,5 @@ tags:
 - **Delito / Infracción Subyacente**: `= this.delito_imputado`
 - **Evidencia Soporte**: `= this.evidencia_soporte`
 
-## Descripción Forense de la Operación
+## Descripción de la Operación
 En el marco de la demanda colectiva interpuesta por el [[Servicio Nacional del Consumidor]] (SERNAC) y las asociaciones de consumidores contra las cadenas coludidas, el 10° Juzgado Civil de Santiago y la Corte de Apelaciones ordenaron a [[Farmacias Salcobrand SA]] y [[Farmacias Cruz Verde SA]] pagar una indemnización compensatoria superior a **`$2.180.000.000 CLP`** destinada a resarcir a los miles de pacientes afectados por el sobreprecio ilícito en los 222 medicamentos del cartel farmacéutico.

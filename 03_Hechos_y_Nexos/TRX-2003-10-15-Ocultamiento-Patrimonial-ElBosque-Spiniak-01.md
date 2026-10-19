@@ -21,19 +21,19 @@ tags:
 
 # TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01
 
-## Ficha de Arista Reificada (Transacción / Hecho Auditado)
+## Ficha de Arista Reificada (Transacción / Hecho Registrado)
 - **ID Transacción**: `= this.id_transaccion`
 - **Fecha**: `= this.fecha`
 - **Tipo de Nexo**: `= this.tipo_nexo`
-- **Monto Auditado (CLP)**: `$480.000.000 CLP` (`= this.monto_clp`)
+- **Monto Registrado (CLP)**: `$480.000.000 CLP` (`= this.monto_clp`)
 - **Método de Adjudicación**: `= this.metodo_adjudicacion`
 - **Entidad de Origen**: `= this.entidad_origen`
 - **Entidad de Destino / Fiscalizador**: `= this.entidad_destino`
 - **Firmante / Controlador de Origen**: `= this.firmante_origen`
-- **Magistrado Instructor / Receptor Pericial**: `= this.firmante_destino`
+- **Magistrado Instructor / Receptor**: `= this.firmante_destino`
 - **Delito Imputado**: `= this.delito_imputado` (en concurso con [[Lavado de Activos]] y asociación ilícita)
 - **Causa Judicial**: `= this.causa_vinculada`
 - **Evidencia de Soporte**: `= this.evidencia_soporte`
 
-## Descripción Forense del Hecho
+## Descripción del Hecho
 Auditoría patrimonial y tributaria practicada por el [[Servicio Impuestos Internos]] a requerimiento de la instrucción judicial encabezada por el Ministro en Visita de la [[Corte Suprema de Chile]], [[Sergio Munoz Gajardo]], sobre la contabilidad de [[Inversiones El Bosque Ltda]] (operadora del gimnasio *Go Fitness* en calle El Bosque Norte) controlada por [[Claudio Spiniak Vilensky]]. Los peritajes acreditaron el desvío sistemático de ingresos no declarados, gastos rechazados y ocultamiento patrimonial por aproximadamente **$480.000.000 CLP** destinados a sostener el arrendamiento de inmuebles, logística de transporte, pagos en efectivo a proxenetas y equipamiento audiovisual de la red ilícita desarticulada en el [[Caso Spiniak]].

@@ -37,7 +37,7 @@ tags:
 - **Estado Judicial**: `= this.estado_judicial`
 - **Infracción / Delito Principal**: `= this.delito_principal` (operaciones bursátiles ficticias y perjuicio patrimonial a accionistas minoritarios y fondos de pensiones)
 
-## Síntesis Forense de la Causa
+## Síntesis de la Causa
 Investigación sancionatoria y penal encabezada por la [[Comision para el Mercado Financiero]] (ex Superintendencia de Valores y Seguros, dirigida por [[Carlos Pavez Tolosa]]) y ratificada por la [[Corte Suprema de Chile]] ([[Resolucion-SVS-CasoCascadas-2014]]), que acreditó un esquema sistemático de compraventas bursátiles concertadas entre 2009 y 2011 ejecutado por [[Julio Ponce Lerou]] a través de las sociedades cascada como [[Sociedad de Inversiones Pampa Calichera SA]], controladoras de [[SQM SA]] (donde ejercía como gerente general [[Patricio Contesse Gonzalez]]). Las operaciones permitieron extraer utilidades y mantener el control político-económico de la minera no metálica que paralelamente financiaba campañas en el [[Caso SQM]] ([[TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01]]).
 
 ## Transacciones y Nexos Reificados Vinculados

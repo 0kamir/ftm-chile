@@ -24,12 +24,12 @@ tags:
 - **Situación Procesal**: `= this.situacion_procesal`
 - **Hito Regulatorio**: `= this.medida_cautelar`
 
-## Síntesis Forense
+## Síntesis
 Químico farmacéutico y empresario que transformó un modesto local en la cadena Farmacias Ahumada (FASA), expandiéndola a nivel nacional e internacional (Brasil, México y Perú). 
 
 En el [[Caso Colusion de las Farmacias]], su administración participó en el cartel de alza de precios de 222 medicamentos entre diciembre de 2007 y marzo de 2008 junto a [[Farmacias Cruz Verde SA]] y [[Farmacias Salcobrand SA]] ([[TRX-2007-11-01-Coordinacion-Cartel-Precios-Medicamentos-Farmacias-01]]). Ante la contundencia de las pruebas reunidas por la [[Fiscalia Nacional Economica]], en marzo de 2009 Codner y el directorio de FASA rompieron la defensa común del sector y firmaron un inédito acuerdo conciliatorio con la FNE ([[Acuerdo-Conciliatorio-FNE-FASA-2009]]), reconociendo la concertación de precios y pagando US$ 1 millón, lo que detonó una fuerte pugna interna entre los accionistas (incluido el grupo Falabella) y derivó en la venta de la cadena al consorcio mexicano Casa Saba en 2010.
 
-## Auditoría Contable: Registros Reificados
+## Registros Reificados
 ```dataviewjs
 const pages = dv.pages('"03_Hechos_y_Nexos"')
   .where(p => (p.firmante_origen && String(p.firmante_origen).includes(dv.current().file.name)) ||

@@ -6,7 +6,7 @@ Analiza todos los montos monetarios (`monto_clp > 0`) en `03_Hechos_y_Nexos/`:
      P(d) = log10(1 + 1/d)
 2. Detecta operaciones con "Sesgo de Monto Redondo Discrecional" (múltiplos exactos de $10.000.000 CLP),
    indicador clásico de asignaciones fijadas sin cubicación o presupuesto técnico real.
-3. Genera la vista `05_Vistas_Analiticas/Auditoria_Benford_y_Montos.md` con gráfico `xychart-beta` de Mermaid.
+3. Genera la vista `05_Vistas_Analiticas/Distribucion_de_Montos_Benford.md` con gráfico `xychart-beta` de Mermaid.
 """
 
 from collections import Counter
@@ -14,10 +14,11 @@ import math
 import os
 import re
 import yaml
+from descargo import descargo  # noqa: E402
 
 ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 OUT_MD = os.path.join(
-    ROOT_DIR, "05_Vistas_Analiticas", "Auditoria_Benford_y_Montos.md"
+    ROOT_DIR, "05_Vistas_Analiticas", "Distribucion_de_Montos_Benford.md"
 )
 
 BENFORD_EXPECTED = {d: round(math.log10(1.0 + 1.0 / d) * 100.0, 1) for d in range(1, 10)}
@@ -87,10 +88,12 @@ def main() -> int:
         "tags:",
         "  - dashboard",
         "  - ley-de-benford",
-        "  - contabilidad-forense",
+        "  - analisis-de-montos",
         "---",
         "",
-        "# Auditoría Estadística Forense: Ley de Benford y Sesgo de Redondeo",
+        "# Distribución de Montos: Ley de Benford y Montos Redondos",
+        "",
+        *descargo("montos"),
         "",
         f"- **Operaciones Monetarias Analizadas (`monto_clp > 0`)**: **{total_n}**",
         f"- **Operaciones con Monto Redondo Discrecional (Múltiplos de `$10.000.000 CLP`)**: **{len(redondos)} de {total_n} ({pct_redondos}%)**",
@@ -126,7 +129,7 @@ def main() -> int:
             "",
             "## 2. Detección de Sesgo de Redondeo Artificial (Múltiplos Exactos de `$10.000.000 CLP`)",
             "",
-            "En contabilidad forense, los presupuestos basados en cubicaciones reales de obra o nóminas efectivas rara vez terminan en múltiplos exactos de diez millones de pesos (ej. [[TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01]] por `$28.348.928.198` o [[TRX-2022-12-20-Convenio-EnTi-01]] por `$250.635.000`). Por el contrario, las asignaciones discrecionales o cajas negras suelen fijarse en cifras cerradas:",
+            "En contabilidad, los presupuestos basados en cubicaciones reales de obra o nóminas efectivas rara vez terminan en múltiplos exactos de diez millones de pesos (ej. [[TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01]] por `$28.348.928.198` o [[TRX-2022-12-20-Convenio-EnTi-01]] por `$250.635.000`). Las cifras cerradas pueden reflejar montos estimados, redondeados por la fuente o fijados por acuerdo, y no indican por sí solas una irregularidad:",
             "",
             "| Nexo (`TRX`) | Fecha | Tipo | Origen | Destino | Monto Redondo (CLP) | Causa |",
             "| :--- | :---: | :---: | :--- | :--- | ---: | :--- |",
@@ -142,7 +145,7 @@ def main() -> int:
         f.write("\n".join(lines) + "\n")
 
     print(
-        f"[OK] Auditoría Benford y Redondeo generada: {os.path.relpath(OUT_MD, ROOT_DIR)} "
+        f"[OK] Distribución de montos (Benford) generada: {os.path.relpath(OUT_MD, ROOT_DIR)} "
         f"({len(redondos)}/{total_n} montos redondos detectados)"
     )
     return 0

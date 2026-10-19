@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Exportador de Planillas Contables CSV para Anexos Periciales Judiciales.
+Exportador de Planillas Contables CSV para Anexos Judiciales.
 Genera en `05_Vistas_Analiticas/Exportaciones/`:
   - peritaje_transacciones.csv
   - peritaje_imputados.csv

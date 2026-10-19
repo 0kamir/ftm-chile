@@ -21,10 +21,10 @@ tags:
 - **Representante Legal**: `= this.representante_legal`
 - **Controlador Histórico**: Familia Ariztía, encabezada por [[Manuel Ariztia Ruiz]]
 
-## Contexto en Investigaciones Forenses
+## Contexto en Investigaciones
 Segunda mayor productora avícola de Chile. En el [[Caso Colusion de los Pollos]], el TDLC y la [[Corte Suprema de Chile]] determinaron que coordinó con [[Agrosuper SA]] y [[Agricola Don Pollo Limitada]] el reparto estricto de cuotas de mercado y volumen de aves producidas, sancionándola con la multa máxima de 30.000 UTA (alrededor de US$ 23 millones / $16.000 millones de pesos).
 
-## Auditoría Contable: Registros Reificados
+## Registros Reificados
 ```dataview
 TABLE WITHOUT ID
   file.link AS "Nexo / Operación",

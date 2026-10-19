@@ -25,7 +25,7 @@ tags:
   - entidad/persona
   - megafraude-sii
   - operacion-tributos
-  - clan-pavez
+  - grupo-megafraude
 ---
 
 # Jose Antonio Pavez Canessa
@@ -37,10 +37,10 @@ tags:
 - **Situación Procesal**: `= this.situacion_procesal`
 - **Medida Cautelar / Sanciones**: `= this.medida_cautelar`
 
-## Síntesis Forense
+## Síntesis
 Figura en el listado de 55 imputados formalizados en diciembre de 2023 en el [[Caso Megafraude Tributario Operacion Tributos]]. Según el expediente del [[Servicio Impuestos Internos]] reportado por La Tercera, la Fiscalía lo sindica como líder del denominado 'Clan Canessa', que habría creado 16 sociedades de papel que vendían facturas falsas a cambio de comisión. Su hermano, Felipe Andrés Pavez Canessa, también figura entre los imputados. No debe confundirse con José Antonio Pavez Campaña, otro imputado distinto de la misma causa. Rige la presunción de inocencia: la causa no tiene sentencia.
 
-## Auditoría Contable: Registros Reificados
+## Registros Reificados
 ```dataviewjs
 const pages = dv.pages('"03_Hechos_y_Nexos"')
   .where(p => (p.firmante_origen && String(p.firmante_origen).includes(dv.current().file.name)) ||

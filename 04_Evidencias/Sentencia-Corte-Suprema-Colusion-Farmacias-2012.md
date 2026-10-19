@@ -30,7 +30,7 @@ tags:
 
 # Sentencia-Corte-Suprema-Colusion-Farmacias-2012
 
-## Metadatos de Fuente Primaria (Cadena de Custodia Legal)
+## Metadatos de la Fuente
 - **ID Evidencia**: `= this.id_evidencia`
 - **Tipo de Documento**: `= this.tipo_documento`
 - **Fecha de Sentencia Definitiva**: `= this.fecha_emision`

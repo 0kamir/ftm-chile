@@ -20,7 +20,7 @@ tags:
 - **Objeto Social**: `= this.objeto_social`
 - **Representante Legal**: `= this.representante_legal`
 
-## Contexto Forense y Societario
+## Contexto y Societario
 Organización comunitaria funcional que recibía cuantiosas subvenciones anuales de la [[Municipalidad de Vitacura]]. En el [[Caso Vitacura]], su expresidente y representante legal [[Domingo Prieto Urrejola]] reveló mediante [[Declaracion-Judicial-Prieto-Vitacura-2021]] el mecanismo de extracción en efectivo de fondos provenientes de subvenciones municipales ([[TRX-2021-04-15-Subvencion-VitaDeportes-01]]) entregados a [[Raul Torrealba del Pedregal]].
 
 ## Historial de Recepción de Fondos y Nexos

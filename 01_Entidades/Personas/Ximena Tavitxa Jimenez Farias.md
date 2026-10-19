@@ -25,7 +25,7 @@ tags:
   - entidad/persona
   - megafraude-sii
   - operacion-tributos
-  - clan-pavez
+  - grupo-megafraude
 ---
 
 # Ximena Tavitxa Jimenez Farias
@@ -37,10 +37,10 @@ tags:
 - **Situación Procesal**: `= this.situacion_procesal`
 - **Medida Cautelar / Sanciones**: `= this.medida_cautelar`
 
-## Síntesis Forense
+## Síntesis
 Figura en el listado de 55 imputados formalizados en diciembre de 2023 en el [[Caso Megafraude Tributario Operacion Tributos]]. Según La Tercera, la Fiscalía la señala como testaferra del denominado 'Clan Galaz' ([[Juan Victor Galaz Rojas]]); fue candidata a consejera regional por el Partido Republicano en 2021. Rige la presunción de inocencia: la causa no tiene sentencia.
 
-## Auditoría Contable: Registros Reificados
+## Registros Reificados
 ```dataviewjs
 const pages = dv.pages('"03_Hechos_y_Nexos"')
   .where(p => (p.firmante_origen && String(p.firmante_origen).includes(dv.current().file.name)) ||

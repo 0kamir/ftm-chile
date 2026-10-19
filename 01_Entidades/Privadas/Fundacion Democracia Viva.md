@@ -14,13 +14,13 @@ tags:
 # Fundacion Democracia Viva
 
 ## Ficha Societaria / Registro de Personas Jurídicas
-- **RUT**: `= this.rut` (RUT de referencia forense)
+- **RUT**: `= this.rut` (RUT de referencia)
 - **Razón Social**: `= this.razon_social`
 - **Fecha de Constitución**: `= this.fecha_constitucion`
 - **Objeto Social**: `= this.objeto_social`
 - **Representante Legal**: `= this.representante_legal`
 
-## Contexto Forense y Societario
+## Contexto y Societario
 Organización sin fines de lucro constituida en el año 2022 ante la Municipalidad de Ñuñoa e inscrita en el Registro de Personas Jurídicas Receptoras de Fondos Públicos pocos meses antes de adjudicarse trato directo con la [[Seremi MINVU Antofagasta]].
 
 Su representante legal, [[Daniel Andrade Schwarze]] (militante de [[Revolucion Democratica]]), suscribió con el entonces Seremi [[Carlos Contreras Gutierrez]] el convenio [[TRX-2022-10-03-Convenio-DV-01]] por un total acumulado de **$426.000.000 CLP**, documentado en la [[Resolucion-Exenta-MINVU-Antofagasta-2022]] e investigado penalmente en el [[Caso Convenios]].

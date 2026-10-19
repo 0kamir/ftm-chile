@@ -29,7 +29,7 @@ tags:
 - **Representante Legal**: `= this.representante_legal`
 - **Grupo Controlador**: Grupo Matte (liderado históricamente por [[Eliodoro Matte Larrain]])
 
-## Contexto en Investigaciones Forenses
+## Contexto en Investigaciones
 Matriz forestal y papelera del Grupo Matte. En el [[Caso Colusion del Papel Tissue]], su filial CMPC Tissue protagonizó junto a [[SCA Chile SA]] un cartel que operó entre 2000 y 2015 para fijar precios de venta y repartirse cuotas en el mercado del papel higiénico, servilletas y toallas de papel ([[TRX-2000-05-15-Pacto-Colusion-Precios-Cuotas-CMPC-PISA-01]]). Tras acogerse a la delación compensada ante la [[Fiscalia Nacional Economica]], pactó con el [[Servicio Nacional del Consumidor]] el desembolso de un fondo reparatorio histórico de **$97.500.000.000 CLP** ([[TRX-2017-03-03-Compensacion-Historica-Consumidores-CMPC-SERNAC-01]]), siendo posteriormente sancionada por la [[Corte Suprema de Chile]] con una multa de 20.000 UTA al determinarse que había coaccionado a su competidora para sostener el acuerdo.
 
 ## Historial de Recepción de Fondos y Nexos

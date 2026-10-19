@@ -24,7 +24,7 @@ tags:
 
 # Contrato-Offshore-BVI-PandoraPapers-Dominga-2010
 
-## Metadatos de Fuente Primaria (Cadena de Custodia OSINT)
+## Metadatos de la Fuente
 - **ID Evidencia**: `= this.id_evidencia`
 - **Tipo de Documento**: `= this.tipo_documento`
 - **Fecha de Emisión / Revelación Pública**: `= this.fecha_emision` (contrato suscrito el 10 de diciembre de 2010 en las Islas Vírgenes Británicas)

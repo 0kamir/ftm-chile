@@ -20,11 +20,11 @@ tags:
 
 # TRX-2015-01-29-Facturas-Falsas-Caval-SII-01
 
-## Ficha de Arista Reificada (Transacción / Hecho Auditado)
+## Ficha de Arista Reificada (Transacción / Hecho Registrado)
 - **ID Transacción**: `= this.id_transaccion`
 - **Fecha**: `= this.fecha`
 - **Tipo de Nexo**: `= this.tipo_nexo`
-- **Monto Auditado (CLP)**: `$2.500.000.000 CLP` (`= this.monto_clp`)
+- **Monto Registrado (CLP)**: `$2.500.000.000 CLP` (`= this.monto_clp`)
 - **Método de Adjudicación**: `= this.metodo_adjudicacion`
 - **Entidad de Origen**: `= this.entidad_origen`
 - **Entidad Fiscalizadora Defraudada**: `= this.entidad_destino`
@@ -34,5 +34,5 @@ tags:
 - **Causa Judicial**: `= this.causa_vinculada`
 - **Evidencia de Soporte**: `= this.evidencia_soporte`
 
-## Descripción Forense del Hecho
+## Descripción del Hecho
 Operación de compraventa especulativa de los predios de Machalí que generó una utilidad bruta de `$2.500.000.000 CLP` para [[Exportadora y de Gestion Caval Ltda]], respecto de la cual el TOP de Rancagua condenó a [[Natalia Compagnon Soto]] por permitir que la contabilidad social incorporara facturas ideológicamente falsas por asesorías inexistentes en los años tributarios 2013, 2014 y 2015, ante el [[Servicio Impuestos Internos]]. El socio [[Mauricio Valero Illanes]] fue absuelto (julio de 2018).

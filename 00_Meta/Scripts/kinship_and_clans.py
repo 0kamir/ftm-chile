@@ -3,55 +3,36 @@
 """
 kinship_and_clans.py
 ====================
-Motor Analítico de Redes de Parentesco, Clanes Familiares y Puentes Dinásticos
+Motor Analítico de Redes de Parentesco, Grupos familiares y Puentes Familiares
 (Capa Multiplex `vinculos_familiares` sobre el Grafo de Aristas Reificadas).
 
 Modela formalmente cómo los vínculos de consanguinidad y afinidad (`vinculos_familiares`)
 operan como atajos geodésicos (Small-World Shortcuts) que acoplan macro-causas judiciales,
 estudios jurídicos de lobby (ej. Caso Audios: Chadwick–Hermosilla–Piñera), privatizaciones
-(Clan Pinochet–Hiriart–Ponce Lerou) y gobiernos comunales/corporativos (Clan Lavín–Barriga).
+(grupo familiar Pinochet–Hiriart).
 
-Genera: 05_Vistas_Analiticas/Redes_Parentesco_y_Clanes_Familiares.md
+Genera: 05_Vistas_Analiticas/Redes_de_Parentesco.md
 """
 
 import os
 import json
 from collections import defaultdict, deque
+from descargo import descargo  # noqa: E402
 
 VAULT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 METRICAS_JSON = os.path.join(VAULT_ROOT, "05_Vistas_Analiticas", "Exportaciones", "metricas_red.json")
-OUTPUT_MD = os.path.join(VAULT_ROOT, "05_Vistas_Analiticas", "Redes_Parentesco_y_Clanes_Familiares.md")
+OUTPUT_MD = os.path.join(VAULT_ROOT, "05_Vistas_Analiticas", "Redes_de_Parentesco.md")
 
 CLAN_METADATA = {
     frozenset(["Sebastian Pinera Echenique", "Andres Chadwick Pinera"]): {
-        "nombre_clan": "Clan Piñera–Chadwick (Eje Ejecutivo–UDI–Alonso de Córdova / Caso Audios)",
-        "tipo_parentesco": "Consanguinidad colateral en 4° grado (Primos hermanos: hijos de hermanos Piñera Carvallo)",
-        "descripcion": (
-            "Articula el poder presidencial y financiero del Grupo Bancard ([[Sebastian Pinera Echenique]]) "
-            "con la conducción política de la [[Union Democrata Independiente]] y del Ministerio del Interior "
-            "([[Andres Chadwick Pinera]]). A través de la comunidad de oficina en Alonso de Córdova y la defensa "
-            "en la Acusación Constitucional de 2019, conecta directamente al clan con el operador legal y penal "
-            "[[Luis Hermosilla Osorio]], el factoring [[Factop SpA]] y la red de nombramientos en la [[Corte Suprema de Chile]] ([[Angela Vivanco Martinez]])."
-        ),
+        "nombre_clan": "Grupo familiar Piñera–Chadwick",
+        "tipo_parentesco": "Primos hermanos (hijos de hermanos Piñera Carvallo)",
+        "descripcion": "Parentesco de conocimiento público. No implica participación conjunta en los hechos registrados.",
     },
     frozenset(["Augusto Pinochet Ugarte", "Lucia Hiriart Rodriguez", "Augusto Pinochet Hiriart", "Julio Ponce Lerou"]): {
-        "nombre_clan": "Clan Pinochet–Hiriart–Ponce Lerou (Eje Cívico-Militar, CEMA, Riggs y Sociedades Cascada/SQM)",
-        "tipo_parentesco": "Matrimonio (Pinochet–Hiriart), filiación directa (Pinochet Hiriart) y afinidad en 1° grado (ex yerno Julio Ponce Lerou)",
-        "descripcion": (
-            "Conecta la captura patrimonial directa de fondos reservados y bienes fiscales durante la dictadura "
-            "([[Caso Pinocheques]], [[Caso Riggs]] y [[Caso CEMA Chile]]) con el control post-privatización de [[SQM SA]] "
-            "y las [[Sociedad de Inversiones Pampa Calichera SA|Sociedades Cascada]] ([[Caso Cascadas]]), desde donde a su vez "
-            "se financió transversalmente a la élite partidaria entre 2009 y 2015 ([[Caso SQM]])."
-        ),
-    },
-    frozenset(["Carlos Eugenio Lavin Garcia-Huidobro", "Cathy Barriga Guerra"]): {
-        "nombre_clan": "Clan Lavín–Barriga (Eje Holding Penta – Municipalidad de Maipú)",
-        "tipo_parentesco": "Afinidad colateral extendida (vía Joaquín Lavín Infante, primo hermano de Carlos Eugenio Lavín y suegro de Cathy Barriga)",
-        "descripcion": (
-            "Vincula a la cúpula financiera fundadora de [[Empresas Penta SA]] ([[Carlos Eugenio Lavin Garcia-Huidobro]], "
-            "condenado en [[Caso Penta]]) con la administración alcaldicia de la [[Municipalidad de Maipu]] "
-            "([[Cathy Barriga Guerra]], formalizada por [[Fraude al Fisco]] en [[Caso Municipalidad de Maipu]])."
-        ),
+        "nombre_clan": "Grupo familiar Pinochet–Hiriart",
+        "tipo_parentesco": "Cónyuges, hijo y exyerno (Julio Ponce Lerou estuvo casado con Verónica Pinochet Hiriart)",
+        "descripcion": "Parentesco de conocimiento público. No implica participación conjunta en los hechos registrados.",
     },
 }
 
@@ -154,7 +135,7 @@ def main():
     for members in clans:
         fset = frozenset(members)
         meta = CLAN_METADATA.get(fset, {
-            "nombre_clan": "Clan " + " / ".join(members),
+            "nombre_clan": "Grupo familiar " + " / ".join(members),
             "tipo_parentesco": "Parentesco / Afinidad Documentada",
             "descripcion": "Subgrafo familiar detectado automáticamente.",
         })
@@ -180,13 +161,9 @@ def main():
 
     # Calculate Geodesic Shortcuts created by Kinship links
     shortcut_pairs = [
-        ("Sebastian Pinera Echenique", "Luis Hermosilla Osorio", "Conexión entre Ex Presidente Piñera y su operador legal/penal vía su primo Andrés Chadwick"),
-        ("Bancard Inversiones Ltda", "Factop SpA", "Acoplamiento entre el family office presidencial y el factoring del Caso Audios vía el Clan Piñera–Chadwick"),
-        ("Caso Minera Dominga Pandora Papers", "Caso Audios", "Puente inter-causas entre los negocios offshore presidenciales y la red de Alonso de Córdova"),
-        ("Augusto Pinochet Ugarte", "SQM SA", "Puente dinástico entre la cúpula militar y el control de la minera no metálica vía Julio Ponce Lerou"),
-        ("Caso Riggs", "Caso Cascadas", "Acoplamiento entre cuentas secretas de la familia Pinochet y las operaciones bursátiles de las Sociedades Cascada"),
-        ("Caso Pinocheques", "Caso CEMA Chile", "Integración patrimonial entre los cheques de FAMAE a Pinochet Hiriart y los inmuebles fiscales de Lucía Hiriart"),
-        ("Caso Penta", "Caso Municipalidad de Maipu", "Atajo familiar entre el holding Penta (Carlos Eugenio Lavín) y el municipio de Maipú (Cathy Barriga)"),
+        ("Sebastian Pinera Echenique", "Luis Hermosilla Osorio", "Distancia entre ambos nodos con y sin la arista de parentesco"),
+        ("Augusto Pinochet Ugarte", "SQM SA", "Distancia entre ambos nodos con y sin la arista de parentesco"),
+        ("Caso Riggs", "Caso Cascadas", "Distancia entre ambas causas con y sin las aristas de parentesco"),
     ]
 
     shortcut_results = []
@@ -210,7 +187,7 @@ def main():
     lines = [
         "---",
         "tipo_nodo: vista_analitica",
-        'titulo: "Redes de Parentesco, Clanes Familiares y Puentes Dinásticos"',
+        'titulo: "Redes de Parentesco, Grupos familiares y Puentes Familiares"',
         "actualizacion_automatica: true",
         "tags:",
         "  - vista-analitica",
@@ -220,48 +197,23 @@ def main():
         "  - grafos-multiplex",
         "---",
         "",
-        "# Redes de Parentesco, Clanes Familiares y Puentes Dinásticos ($G_{\\text{fam}}$)",
+        "# Redes de Parentesco y Puentes Familiares ($G_{\\text{fam}}$)",
         "",
-        "> **Modelamiento Matemático de Parentesco en Grafos Multiplex**: En el estudio de captura del Estado y corrupción sistémica, los lazos de consanguinidad (padres, hijos, primos hermanos) y afinidad (cónyuges, suegros, yernos, cuñados) conforman una capa estructural independiente ($E_{\\text{fam}}$) que se superpone a la red de transacciones financieras ($E_{\\text{trx}}$) y militancias políticas ($E_{\\text{pol}}$). Mediante el atributo YAML `vinculos_familiares` en el esquema `persona`, el motor de grafos cuantifica cómo los clanes familiares reducen la distancia geodésica ($\\Delta d$) entre macro-causas judiciales y concentran flujos patrimoniales.",
+        *descargo("parentesco"),
+        "",
+        "> **Modelamiento Matemático de Parentesco en Grafos Multiplex**: En el análisis de redes, los lazos de consanguinidad (padres, hijos, primos hermanos) y afinidad (cónyuges, suegros, yernos, cuñados) conforman una capa estructural independiente ($E_{\\text{fam}}$) que se superpone a la red de transacciones financieras ($E_{\\text{trx}}$) y militancias políticas ($E_{\\text{pol}}$). Mediante el atributo YAML `vinculos_familiares` en el esquema `persona`, el motor de grafos cuantifica cómo los grupos familiares reducen la distancia geodésica ($\\Delta d$) entre macro-causas judiciales y concentran flujos patrimoniales.",
         "",
         "## 1. Resumen Ejecutivo de la Capa de Parentesco (`vinculos_familiares`)",
-        f"- **Clanes Familiares / Dinásticos Modelados**: **{len(clan_records)}** componentes conexas familiares.",
+        f"- **Grupos familiares / Familiares Modelados**: **{len(clan_records)}** componentes conexas familiares.",
         f"- **Sujetos Integrados en Redes de Parentesco Explícito**: **{len(adj_fam)}** nodos de tipo `persona`.",
         f"- **Aristas de Parentesco Bidireccionales (`vinculos_familiares`)**: **{len(fam_edges)} pares familiares** ({len(fam_edges)*2} aristas dirigidas en el grafo).",
-        f"- **Patrimonio Total Asociado a Clanes Familiares en Aristas Reificadas**: **`{fmt_clp(total_clan_clp)} CLP`** a través de **{len(all_clan_trxs)} transacciones reificadas**.",
+        f"- **Montos Registrados en Hechos con Integrantes de Grupos Familiares**: **`{fmt_clp(total_clan_clp)} CLP`** a través de **{len(all_clan_trxs)} transacciones reificadas**.",
         "",
         "---",
         "",
-        "## 2. El Triángulo Piñera – Chadwick – Hermosilla (Arista Caso Audios y Acusación Constitucional)",
+        "## 2. Grupos Familiares Registrados",
         "",
-        "Uno de los casos paradigmáticos de acoplamiento entre **parentesco político-familiar** y **operadores extraprocesales** en la bóveda es la tríada conformada por [[Sebastian Pinera Echenique]], su primo hermano [[Andres Chadwick Pinera]] y el abogado penalista [[Luis Hermosilla Osorio]]:",
-        "",
-        "1. **Consanguinidad y Poder Ejecutivo (`Clan Piñera–Chadwick`)**: [[Sebastian Pinera Echenique]] y [[Andres Chadwick Pinera]] son **primos hermanos** (la madre de Chadwick, Paulette Piñera Carvallo, era hermana de José Piñera Carvallo, padre del expresidente). Durante ambos gobiernos de Piñera (2010–2014 y 2018–2022), Chadwick ocupó el corazón político de La Moneda como Ministro Secretario General de Gobierno y Ministro del Interior y Seguridad Pública, mientras [[Luis Hermosilla Osorio]] actuó como asesor penal externo de Interior y abogado de confianza del oficialismo.",
-        "2. **Defensa en la Acusación Constitucional (`Diciembre de 2019`) financiada por [[Factop SpA]]**: Cuando [[Andres Chadwick Pinera]] enfrentó la Acusación Constitucional ante el [[Senado de la Republica de Chile]] (aprobada el 11 de diciembre de 2019 con inhabilitación por 5 años), su abogado defensor principal fue [[Luis Hermosilla Osorio]]. Los peritajes del [[Caso Audios]] demostraron que el informe en derecho del jurista alemán Kai Ambos utilizado en esa defensa parlamentaria fue pagado directamente con fondos del *factoring* [[Factop SpA]] de los hermanos Sauer.",
-        "3. **Comunidad de Oficina en Alonso de Córdova y Transferencias por `$190.000.000 CLP` (`2020–2023`)**: Tras salir del gobierno, [[Andres Chadwick Pinera]] compartió oficina privada con [[Luis Hermosilla Osorio]] en Alonso de Córdova 3788 (Vitacura) —el mismo lugar donde se grabó [[Audio-Reunion-Edificio-Alonso-2023]]—. Entre 2020 y 2023, Hermosilla transfirió más de **`$190.000.000 CLP`** a Chadwick con cargo a fondos provenientes de [[Factop SpA]] ([[TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01]]), período en que se investigan gestiones de [[Trafico de Influencias]] para destrabar el proyecto *Parque Capital* (Grupo Patio) y coordinaciones en nombramientos judiciales en la [[Corte Suprema de Chile]] junto a la exministra [[Angela Vivanco Martinez]] ([[TRX-2023-02-09-Gestion-Judicial-Hermosilla-Vivanco-01]]).",
-        "",
-        "```mermaid",
-        "flowchart TD",
-        '    subgraph CLAN_PC["Clan Familiar Piñera-Chadwick"]',
-        '        SP["Sebastian Pinera Echenique<br/>(Ex Presidente RN / Grupo Bancard)"] <-->|"Primos Hermanos<br/>(vinculos_familiares)"| AC["Andres Chadwick Pinera<br/>(Ex Ministro del Interior / UDI)"]',
-        "    end",
-        '    subgraph RED_AUDIOS["Red Alonso de Córdova / Caso Audios"]',
-        '        LH["Luis Hermosilla Osorio<br/>(Abogado Defensor AC y Socio de Oficina)"]',
-        '        FAC["Factop SpA<br/>(Factoring Hnos. Sauer)"]',
-        '        AV["Angela Vivanco Martinez<br/>(Ex Ministra Corte Suprema)"]',
-        "    end",
-        '    FAC -->|"Caja Negra y Financiamiento<br/>Informe Kai Ambos + Remesas"| LH',
-        '    LH -->|"TRX-2019-12-11 ($190.000.000 CLP)<br/>Defensa AC Senado y Pagos 2020-2023"| AC',
-        '    LH <-->|"TRX-2023-02-09<br/>Nombramientos y Gestiones CS"| AV',
-        '    AC -.->|"Lobby Nombramientos Judiciales<br/>y Arista Parque Capital"| AV',
-        '    SP -->|"Bancard / US$152M Dominga"| DOM["Caso Minera Dominga / LAN / Exalmar / SQM"]',
-        "```",
-        "",
-        "---",
-        "",
-        "## 3. Catálogo Forense de Clanes Familiares y Concentración Patrimonial",
-        "",
-        "| Clan Familiar / Dinástico | Tipo de Parentesco | Miembros (`persona`) | Macro-Causas Conectadas | N° TRX | Volumen Patrimonial Asociado (CLP) |",
+        "| Grupo familiar / Familiar | Tipo de Parentesco | Miembros (`persona`) | Macro-Causas Conectadas | N° TRX | Volumen Patrimonial Asociado (CLP) |",
         "| :--- | :--- | :--- | :--- | :---: | ---: |",
     ]
 
@@ -274,7 +226,7 @@ def main():
 
     lines.extend([
         "",
-        "### Detalle Estructural por Clan",
+        "### Detalle por Grupo Familiar",
         "",
     ])
 
@@ -291,7 +243,7 @@ def main():
     lines.extend([
         "---",
         "",
-        "## 4. Reducción de Distancia Geodésica ($\\Delta d$) por Atajos de Parentesco",
+        "## 3. Reducción de Distancia Geodésica ($\\Delta d$) por Atajos de Parentesco",
         "",
         "Para medir el impacto topológico de los vínculos familiares, comparamos la distancia geodésica más corta $d_{G}(u, v)$ en el grafo completo versus $d_{G \\setminus E_{\\text{fam}}}(u, v)$ cuando se remueven las aristas `vinculos_familiares`:",
         "",
@@ -312,7 +264,7 @@ def main():
         "",
         "---",
         "",
-        "## 5. Otros Nexos de Parentesco e Influencia Familiar Documentados en Causas",
+        "## 4. Otros Nexos de Parentesco e Influencia Familiar Documentados en Causas",
         "",
         "Además de los clanes que conectan múltiples nodos `persona` entre distintas causas, la bóveda registra aristas donde el parentesco opera al interior de una misma causa o sociedad vehículo:",
         "- **[[Caso Caval]] ([[Natalia Compagnon Soto]])**: Socia del 50% de [[Exportadora y de Gestion Caval Ltda]], cónyuge de Sebastián Dávalos Bachelet y nuera de la entonces Presidenta de la República Michelle Bachelet Jeria, vínculo familiar decisivo en la reunión privada con la vicepresidencia de [[Banco de Chile]] para obtener el crédito de `$6.500.000.000 CLP` ([[TRX-2013-11-06-Reunion-Luksic-Compagnon-01]] y [[TRX-2014-02-07-Credito-BancoDeChile-Caval-01]]).",
@@ -324,7 +276,7 @@ def main():
         f.write("\n".join(lines))
 
     print(f"[OK] Vista analítica de parentesco generada en: {OUTPUT_MD}")
-    print(f"     Clanes detectados: {len(clan_records)} | Pares familiares: {len(fam_edges)} | Monto clanes: {fmt_clp(total_clan_clp)}")
+    print(f"     Grupos familiares detectados: {len(clan_records)} | Pares familiares: {len(fam_edges)} | Monto clanes: {fmt_clp(total_clan_clp)}")
 
 
 if __name__ == "__main__":

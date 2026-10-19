@@ -4,11 +4,11 @@ Suite de Pruebas Automatizadas (Unit & Integration Tests) para el Vault OSINT de
 Verifica:
 1. Validación Módulo 11 de RUTs chilenos.
 2. Integridad de esquemas YAML y enlaces internos (validate_vault.py).
-3. Generación de reporte forense UTM, HHI, PageRank y detección de fraccionamiento (forensic_audit.py).
+3. Generación de reporte UTM, HHI, PageRank y detección de fraccionamiento (forensic_audit.py).
 4. Auditoría Estadística de Ley de Benford y Sesgo de Montos Redondos (benford_forensic.py).
 5. Exportación GraphML y JSON (export_graph.py).
-6. Simulación de Percolación y Desarticulación de Nodos Clave (percolation_analysis.py).
-7. Predicción de Vínculos Ocultos mediante Adamic-Adar y Jaccard (link_prediction.py).
+6. Simulación de Percolación y Fragmentación de Nodos Clave (percolation_analysis.py).
+7. Predicción de Similitud estructural mediante Adamic-Adar y Jaccard (link_prediction.py).
 8. Exportación a formato Graphviz DOT (export_graphviz_dot.py).
 9. Exportación al estándar OCCRP Aleph FollowTheMoney (export_ftm_aleph.py).
 10. Exportación al estándar ICIJ Neo4j Cypher (export_neo4j_cypher.py).
@@ -17,7 +17,7 @@ Verifica:
 13. Generación de Dossier Ejecutivo estático para PDF (generate_dossier.py).
 14. Generación del Visor Web HTML5 autónomo (generate_web_viewer.py).
 15. Buscador de caminos más cortos en el grafo (query_network.py).
-16. Validez de referencias en Mapa_Forense_Redes.canvas.
+16. Validez de referencias en Mapa_de_Redes.canvas.
 17. Esquema de fuentes verificables y reporte de cobertura (add_source.py / check_sources.py).
 """
 
@@ -92,7 +92,7 @@ class TestForensicVault(unittest.TestCase):
         )
         self.assertIn("Fraccionamientos CGR detectados: 1", res.stdout)
         report_path = os.path.join(
-            ROOT_DIR, "05_Vistas_Analiticas/Reporte_Auditoria_Automatizada.md"
+            ROOT_DIR, "05_Vistas_Analiticas/Reporte_Automatico_de_Indicadores.md"
         )
         self.assertTrue(os.path.isfile(report_path))
 
@@ -104,9 +104,9 @@ class TestForensicVault(unittest.TestCase):
             text=True,
             check=True,
         )
-        self.assertIn("Auditoría Benford y Redondeo generada", res.stdout)
+        self.assertIn("Distribución de montos (Benford) generada", res.stdout)
         benford_md = os.path.join(
-            ROOT_DIR, "05_Vistas_Analiticas/Auditoria_Benford_y_Montos.md"
+            ROOT_DIR, "05_Vistas_Analiticas/Distribucion_de_Montos_Benford.md"
         )
         self.assertTrue(os.path.isfile(benford_md))
 
@@ -136,7 +136,7 @@ class TestForensicVault(unittest.TestCase):
         )
         self.assertIn("Simulación de Percolación generada", res.stdout)
         perc_md = os.path.join(
-            ROOT_DIR, "05_Vistas_Analiticas/Simulacion_Desarticulacion_Red.md"
+            ROOT_DIR, "05_Vistas_Analiticas/Robustez_de_la_Red.md"
         )
         self.assertTrue(os.path.isfile(perc_md))
 
@@ -148,9 +148,9 @@ class TestForensicVault(unittest.TestCase):
             text=True,
             check=True,
         )
-        self.assertIn("Predicción de Vínculos Ocultos generada", res.stdout)
+        self.assertIn("Similitud estructural generada", res.stdout)
         lp_md = os.path.join(
-            ROOT_DIR, "05_Vistas_Analiticas/Prediccion_Vinculos_Ocultos.md"
+            ROOT_DIR, "05_Vistas_Analiticas/Similitud_Estructural_de_Nodos.md"
         )
         self.assertTrue(os.path.isfile(lp_md))
 
@@ -162,9 +162,9 @@ class TestForensicVault(unittest.TestCase):
             text=True,
             check=True,
         )
-        self.assertIn("Reporte de Comunidades Operativas generado", res.stdout)
+        self.assertIn("Reporte de Agrupamientos de la red generado", res.stdout)
         comm_md = os.path.join(
-            ROOT_DIR, "05_Vistas_Analiticas/Deteccion_Comunidades_Operativas.md"
+            ROOT_DIR, "05_Vistas_Analiticas/Agrupamientos_de_la_Red.md"
         )
         self.assertTrue(os.path.isfile(comm_md))
 
@@ -347,7 +347,7 @@ class TestForensicVault(unittest.TestCase):
             text=True,
             check=True,
         )
-        self.assertIn("CAMINO FORENSE MÁS CORTO", res.stdout)
+        self.assertIn("CAMINO MÁS CORTO", res.stdout)
         self.assertIn("Union Democrata Independiente", res.stdout)
 
     def test_web_viewer_generation(self):
@@ -359,13 +359,13 @@ class TestForensicVault(unittest.TestCase):
             check=True,
         )
         html_path = os.path.join(
-            ROOT_DIR, "05_Vistas_Analiticas/Exportaciones/visor_forense.html"
+            ROOT_DIR, "05_Vistas_Analiticas/Exportaciones/visor_red.html"
         )
         self.assertTrue(os.path.isfile(html_path))
 
     def test_canvas_files_exist(self):
         canvas_path = os.path.join(
-            ROOT_DIR, "05_Vistas_Analiticas/Mapa_Forense_Redes.canvas"
+            ROOT_DIR, "05_Vistas_Analiticas/Mapa_de_Redes.canvas"
         )
         with open(canvas_path, "r", encoding="utf-8") as f:
             canvas = json.load(f)
@@ -387,7 +387,7 @@ class TestForensicVault(unittest.TestCase):
         )
         self.assertIn("Vista analítica de parentesco generada", res.stdout)
         kin_md = os.path.join(
-            ROOT_DIR, "05_Vistas_Analiticas/Redes_Parentesco_y_Clanes_Familiares.md"
+            ROOT_DIR, "05_Vistas_Analiticas/Redes_de_Parentesco.md"
         )
         self.assertTrue(os.path.isfile(kin_md))
 

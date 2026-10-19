@@ -29,7 +29,7 @@ tags:
 - **Representante Legal**: `= this.representante_legal`
 - **Grupo Controlador**: Quiñenco S.A. / Citigroup (LQ Inversiones Financieras S.A., vinculado a [[Andronico Luksic Craig]])
 
-## Contexto en Investigaciones Forenses
+## Contexto en Investigaciones
 Institución financiera chilena de relevancia sistémica. En el [[Caso Caval]], el banco concedió en febrero de 2014 un crédito por **$6.500.000.000 CLP** a [[Exportadora y de Gestion Caval Ltda]] para la compra de tres predios en Machalí, previa reunión sostenida en noviembre de 2013 entre el vicepresidente de la entidad [[Andronico Luksic Craig]], [[Natalia Compagnon Soto]] y Sebastián Dávalos Bachelet.
 
 ## Historial de Recepción de Fondos y Nexos

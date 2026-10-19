@@ -32,5 +32,5 @@ tags:
 - **Delito Imputado**: `= this.delito_imputado`
 - **Evidencia Documental**: `= this.evidencia_soporte`
 
-## Descripción Forense de la Operación
+## Descripción de la Operación
 Transferencia directa del [[GORE Biobio]] hacia la [[Fundacion En Ti]] por **$250.635.000 CLP** para un programa de mejoramiento barrial en el sector norte de Concepción. La investigación penal de la Fiscalía Regional del Biobío en el [[Caso Convenios]] sostiene que hubo desvío de fondos hacia sociedades instrumentales, gastos personales improcedentes y rendiciones con facturas ideológicamente falsas, en operaciones vinculadas a [[Camila Polizzi Fonceca]] y autorizadas bajo la administración de [[Rodrigo Diaz Worner]] mediante la [[Resolucion-GORE-Biobio-EnTi-2022]].

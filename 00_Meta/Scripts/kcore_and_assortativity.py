@@ -2,7 +2,7 @@
 """
 Motor de Descomposición k-Core (Batagelj-Zaversnik), Asortatividad de Newman y Agujeros Estructurales de Burt
 =============================================================================================================
-Analiza la jerarquía núcleo-periferia y las propiedades de mezcla topológica de la red operativa:
+Analiza la jerarquía núcleo-periferia y las propiedades de mezcla topológica de la red:
 1. Descomposición k-Core y Capas de Cebolla (Onion Layers) de Batagelj & Zaversnik O(V + E).
 2. Coeficiente de Asortatividad de Grado de Newman r in [-1, 1] (prueba de disasortatividad Hub-and-Spoke).
 3. Restricción de Agujeros Estructurales de Ronald Burt (Constraint C_i: menor C_i = mayor arbitraje de información).
@@ -13,6 +13,7 @@ from collections import defaultdict
 import json
 import math
 from pathlib import Path
+from descargo import descargo  # noqa: E402
 
 VAULT_ROOT = Path(__file__).resolve().parents[2]
 JSON_PATH = VAULT_ROOT / "05_Vistas_Analiticas" / "Exportaciones" / "metricas_red.json"
@@ -164,7 +165,7 @@ def generate_report():
     )
 
     regimen = (
-        "Disasortativo (Arquitectura Hub-and-Spoke / Estrella: los grandes nodos articuladores operan a través de entidades instrumentales o testaferros periféricos)"
+        "Disasortativo (Arquitectura Hub-and-Spoke / Estrella: los nodos de mayor grado se conectan sobre todo con nodos periféricos)"
         if r_assort < 0
         else "Asortativo (Núcleo oligárquico densamente interconectado entre pares de alto grado)"
     )
@@ -178,15 +179,17 @@ def generate_report():
         "  - k-core",
         "  - asortatividad-newman",
         "  - agujeros-estructurales-burt",
-        "  - analisis-forense",
+        "  - analisis-de-redes",
         "---",
         "",
-        "# 🧅 Núcleos $k$-Core, Asortatividad de Newman ($r$) y Agujeros Estructurales de Burt",
+        "# Núcleos $k$-Core, Asortatividad de Newman ($r$) y Agujeros Estructurales de Burt",
+        "",
+        *descargo(),
         "",
         "> [!NOTE] Topología Núcleo-Periferia y Arbitraje de Agujeros Estructurales",
-        "> Esta vista implementa tres teoremas clásicos de la ciencia de redes criminales:",
+        "> Esta vista implementa tres teoremas clásicos del análisis de redes:",
         "> 1. **Descomposición $k$-Core y *Onion Layers* (Batagelj & Zaversnik)**: Pela iterativamente la periferia del grafo hasta aislar el **Núcleo Profundo ($k_{\\max}$)**.",
-        "> 2. **Coeficiente de Asortatividad de Grado de Newman ($r \\in [-1, 1]$)**: Determina matemáticamente si la red es **disasortativa ($r < 0$)** —típico de células que compartimentan el riesgo mediante fundaciones u operadores satélite—.",
+        "> 2. **Coeficiente de Asortatividad de Grado de Newman ($r \\in [-1, 1]$)**: Determina matemáticamente si la red es **disasortativa ($r < 0$)** —los nodos de alto grado se conectan con nodos de bajo grado—. Describe la forma del grafo, no una estrategia de los actores.",
         "> 3. **Restricción Estructural de Ronald Burt ($C_i$)**: Identifica los actores que explotan **Agujeros Estructurales** (menor restricción $C_i$ implica mayor poder de corretaje e intermediación exclusiva entre grupos desconectados).",
         "",
         "## 1. Indicadores Estructurales Globales",

@@ -21,11 +21,11 @@ tags:
 
 # TRX-1989-01-10-Emision-Pinocheques-Ejercito-Valmoval-01
 
-## Ficha de Arista Reificada (Transacción / Hecho Auditado)
+## Ficha de Arista Reificada (Transacción / Hecho Registrado)
 - **ID Transacción**: `= this.id_transaccion`
 - **Fecha**: `= this.fecha`
 - **Tipo de Nexo**: `= this.tipo_nexo`
-- **Monto Auditado (CLP)**: `$2.950.000.000 CLP` (`= this.monto_clp`)
+- **Monto Registrado (CLP)**: `$2.950.000.000 CLP` (`= this.monto_clp`)
 - **Método de Adjudicación**: `= this.metodo_adjudicacion` (sin decreto supremo ni toma de razón de la [[Contraloria General de la Republica]])
 - **Entidad de Origen**: `= this.entidad_origen` (a través de FAMAE / Comando de Industria Militar e Ingeniería del Ejército)
 - **Entidad de Destino**: `= this.entidad_destino`
@@ -35,5 +35,5 @@ tags:
 - **Causa Judicial**: `= this.causa_vinculada`
 - **Evidencia de Soporte**: `= this.evidencia_soporte`
 
-## Descripción Forense del Hecho
+## Descripción del Hecho
 Giro directo de tres cheques en enero de 1989 por parte de las Fábricas y Maestranzas del Ejército (FAMAE, bajo la estructura logística vinculada al [[Comando de Apoyo a la Fuerza del Ejercito]] y subordinada al Comandante en Jefe [[Augusto Pinochet Ugarte]]) a nombre personal de su hijo mayor [[Augusto Pinochet Hiriart]] por `$971.982.585 CLP` nominales de 1989 (equivalentes a cerca de **US$ 3 millones**, actualizados a **$2.950.000.000 CLP**) para adquirir los activos de la empresa armera quebrada [[Valmoval Ltda]], sin contar con decreto supremo ni toma de razón de la [[Contraloria General de la Republica]]. La investigación parlamentaria y judicial del [[Caso Pinocheques]] desencadenó el *"Ejercicio de Enlace"* (1990) y el *"Boinazo"* (1993), antes de su archivo por "razón de Estado" en 1995. Posteriormente, la instrucción del [[Caso Riggs]] a cargo del ministro [[Sergio Munoz Gajardo]] investigó si estos fondos llegaron a cuentas de [[Augusto Pinochet Ugarte]] en [[Riggs Bank y Sociedades Offshore Ashburton]]: en mayo de 2010 el ministro Manuel Valderrama sobreseyó la arista al determinar que los recursos no llegaron a las cuentas del exdictador, dejando abierta su reapertura ante nuevos antecedentes (ver también [[Sentencia-Corte-Suprema-CasoRiggs-2018]]).

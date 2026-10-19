@@ -22,10 +22,10 @@ tags:
 - **Situación Procesal**: `= this.situacion_procesal`
 - **Medida Cautelar Vigente**: `= this.medida_cautelar`
 
-## Síntesis Forense
+## Síntesis
 Empresario propietario del centro de eventos y gimnasio *Go Fitness* en avenida El Bosque Norte (Las Condes), operado mediante [[Inversiones El Bosque Ltda]]. Detenido el 30 de septiembre de 2003 como cabecilla de la red investigada en el [[Caso Spiniak]], el [[Servicio Impuestos Internos]] y los peritajes contables ordenados por el ministro [[Sergio Munoz Gajardo]] auditaron el desvío de recursos societarios, gastos rechazados y ocultamiento patrimonial destinados a financiar la red ilícita ([[TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01]]). En 2008, la [[Corte Suprema de Chile]] elevó su condena definitiva a 12 años de presidio efectivo ([[Sentencia-Corte-Suprema-CasoSpiniak-2008]]).
 
-## Auditoría Contable: Montos Imputados como Autorizador de Origen
+## Montos Imputados como Autorizador de Origen
 ```dataviewjs
 const pages = dv.pages('"03_Hechos_y_Nexos"')
   .where(p => p.firmante_origen && (

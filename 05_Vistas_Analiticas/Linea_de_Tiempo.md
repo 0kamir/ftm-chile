@@ -1,6 +1,6 @@
 ---
 tipo_nodo: vista_analitica
-titulo: "Línea de Tiempo Forense de Hechos, Transferencias y Evidencias"
+titulo: "Línea de Tiempo de Hechos, Transferencias y Evidencias"
 actualizacion_automatica: true
 tags:
   - dashboard
@@ -8,7 +8,7 @@ tags:
   - osint
 ---
 
-# Línea de Tiempo Forense (Reconstrucción Cronológica de Hechos)
+# Línea de Tiempo (Reconstrucción Cronológica de Hechos)
 
 Vista secuencial de todos los actos societarios, resoluciones administrativas, convenios de transferencia y reuniones periciadas en el vault.
 
@@ -58,5 +58,5 @@ dv.table(
 
 ## 2. Índice Maestro de Vistas Analíticas (MOC)
 - [[Dashboard_General]] — Cuantificación global en CLP, matriz general de nexos y control de medidas cautelares.
-- [[Alertas_Forenses]] — Detector heurístico de fraccionamiento bajo 5.000 UTM, endogamia partidaria, constitución reciente y nodos puente.
-- [[Reporte_Auditoria_Automatizada]] — Informe técnico generado por `forensic_audit.py` con conversión a UTM históricas, ranking de centralidad de intermediación (*Brandes*) y diagrama Mermaid.
+- [[Senales_para_Revision]] — Detector heurístico de fraccionamiento bajo 5.000 UTM, endogamia partidaria, constitución reciente y nodos puente.
+- [[Reporte_Automatico_de_Indicadores]] — Informe técnico generado por `forensic_audit.py` con conversión a UTM históricas, ranking de centralidad de intermediación (*Brandes*) y diagrama Mermaid.

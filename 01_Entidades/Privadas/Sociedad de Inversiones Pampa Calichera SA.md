@@ -20,7 +20,7 @@ tags:
 - **Objeto Social**: `= this.objeto_social`
 - **Presidente y Controlador**: `= this.representante_legal`
 
-## Contexto Forense y Societario
+## Contexto y Societario
 Sociedad de inversión que forma el eslabón principal de las llamadas "Sociedades Cascada" a través de las cuales [[Julio Ponce Lerou]] ejerció el control de [[SQM SA]] (gerenciada operativamente por [[Patricio Contesse Gonzalez]]). En el [[Caso Cascadas]] ([[Resolucion-SVS-CasoCascadas-2014]]), la [[Comision para el Mercado Financiero]] (entonces SVS) acreditó que [[Sociedad de Inversiones Pampa Calichera SA]] vendió paquetes accionarios a precios subvalorados a sociedades relacionadas con su propio controlador para luego recomprarlos a sobreprecio, irrogando un perjuicio multimillonario a los accionistas minoritarios y AFPs ([[TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01]]).
 
 ## Historial de Operaciones y Nexos Reificados

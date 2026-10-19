@@ -7,13 +7,11 @@ rol_principal: "Cofundador y Controlador de Empresas Penta S.A."
 afiliacion_politica: "[[Union Democrata Independiente]]"
 situacion_procesal: condenado
 medida_cautelar: "Condena cumplida en libertad vigilada, multa fiscal y clases de ética empresarial"
-vinculos_familiares:
-  - "[[Cathy Barriga Guerra]]"
+vinculos_familiares: []
 tags:
   - entidad/persona
   - caso-penta
   - condenado
-  - clan-lavin-barriga
 ---
 
 # Carlos Eugenio Lavin Garcia-Huidobro
@@ -22,14 +20,14 @@ tags:
 - **RUT**: `= this.rut`
 - **Rol Principal**: `= this.rol_principal` ([[Empresas Penta SA]])
 - **Afiliación Política**: `= this.afiliacion_politica`
-- **Vínculos Familiares (Grafo de Parentesco)**: `= this.vinculos_familiares` *(Tío político por afinidad extendida de [[Cathy Barriga Guerra]], a través de su primo hermano Joaquín Lavín Infante y su sobrino Joaquín Lavín León)*
+- **Vínculos Familiares (Grafo de Parentesco)**: `= this.vinculos_familiares`
 - **Situación Procesal**: `= this.situacion_procesal`
 - **Medida Cautelar / Condena Vigente**: `= this.medida_cautelar`
 
-## Síntesis Forense
+## Síntesis
 Cofundador y controlador de [[Empresas Penta SA]] junto a [[Carlos Alberto Delano Abbott]]. Condenado en el [[Caso Penta]] ([[Sentencia-8Juzgado-Garantia-Penta-2018]]) por delitos tributarios reiterados tras articular pagos irregulares a campañas de la [[Union Democrata Independiente]] ([[TRX-2013-07-15-Boletas-Falsas-Penta-UDI-01]]) y pagos periódicos al entonces Subsecretario de Minería [[Pablo Wagner San Martin]] ([[TRX-2011-03-10-Pagos-Penta-Wagner-01]]). La Fiscalía retiró la imputación de soborno en el procedimiento abreviado de 2018.
 
-## Auditoría Contable: Montos Autorizados como Firmante de Origen
+## Montos Autorizados como Firmante de Origen
 ```dataviewjs
 const pages = dv.pages('"03_Hechos_y_Nexos"')
   .where(p => p.firmante_origen && (

@@ -25,7 +25,7 @@ tags:
   - entidad/persona
   - megafraude-sii
   - operacion-tributos
-  - clan-barraza
+  - grupo-megafraude
 ---
 
 # Olga Paz Barraza Quezada
@@ -37,10 +37,10 @@ tags:
 - **Situación Procesal**: `= this.situacion_procesal`
 - **Medida Cautelar / Sanciones**: `= this.medida_cautelar`
 
-## Síntesis Forense
+## Síntesis
 Figura en el listado de 55 imputados formalizados en diciembre de 2023. Según el expediente del [[Servicio Impuestos Internos]] reportado por La Tercera, la Fiscalía la sindica como líder del denominado 'Clan Barraza', que habría obtenido devoluciones del impuesto específico al diésel por $2.489 millones a través de una supuesta empresa de transporte y siete proveedores de facturas falsas en el [[Caso Megafraude Tributario Operacion Tributos]]. Rige la presunción de inocencia: la causa no tiene sentencia.
 
-## Auditoría Contable: Registros Reificados
+## Registros Reificados
 ```dataviewjs
 const pages = dv.pages('"03_Hechos_y_Nexos"')
   .where(p => (p.firmante_origen && String(p.firmante_origen).includes(dv.current().file.name)) ||

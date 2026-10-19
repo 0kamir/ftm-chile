@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Auditor y Linter Forense para el Vault OSINT de Corrupción en Chile.
+Auditor y Linter para el Vault OSINT de Corrupción en Chile.
 Verifica:
 1. Sintaxis estricta de Frontmatter YAML en todas las notas.
 2. Cumplimiento de campos obligatorios según `tipo_nodo`.
@@ -251,7 +251,7 @@ def main(estricto: bool = False) -> int:
                         )
 
     print("=" * 72)
-    print(" AUDITORÍA FORENSE Y VALIDACIÓN DE ESQUEMA DEL VAULT OSINT (CHILE)")
+    print(" VALIDACIÓN DE ESQUEMA Y FUENTES DEL VAULT OSINT (CHILE)")
     print("=" * 72)
     print(f" Notas Markdown indexadas : {len(note_index)}")
     print(f" Notas con YAML validadas : {len(parsed_notes)}")

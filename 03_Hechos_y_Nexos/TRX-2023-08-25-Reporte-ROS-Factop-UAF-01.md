@@ -21,11 +21,11 @@ tags:
 
 # TRX-2023-08-25-Reporte-ROS-Factop-UAF-01
 
-## Ficha de Arista Reificada (Transacción / Hecho Auditado)
+## Ficha de Arista Reificada (Transacción / Hecho Registrado)
 - **ID Transacción**: `= this.id_transaccion`
 - **Fecha**: `= this.fecha`
 - **Tipo de Nexo**: `= this.tipo_nexo`
-- **Monto Auditado (CLP)**: `$480.000.000 CLP` (`= this.monto_clp`)
+- **Monto Registrado (CLP)**: `$480.000.000 CLP` (`= this.monto_clp`)
 - **Método de Adjudicación**: `= this.metodo_adjudicacion`
 - **Entidad Emisora (Origen)**: `= this.entidad_origen`
 - **Órgano de Inteligencia Financiera (Destino)**: `= this.entidad_destino`
@@ -35,5 +35,5 @@ tags:
 - **Causa Judicial**: `= this.causa_vinculada`
 - **Evidencia de Soporte**: `= this.evidencia_soporte`
 
-## Descripción Forense del Hecho
+## Descripción del Hecho
 Operaciones de descuento de facturas ideológicamente falsas y triangulación bancaria ejecutadas a través de [[Factop SpA]] en el circuito de [[Luis Hermosilla Osorio]] y [[Leonarda Villalobos Muth]] por `$480.000.000 CLP`, cuyos flujos activaron reportes de inteligencia patrimonial ante la [[Unidad de Analisis Financiero]] y la [[Comision para el Mercado Financiero]] en el [[Caso Audios]].

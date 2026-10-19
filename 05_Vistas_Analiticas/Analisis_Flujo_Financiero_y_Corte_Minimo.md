@@ -9,27 +9,31 @@ tags:
   - gini
 ---
 
-# 💰 Análisis de Flujo Financiero Máximo y Corte Mínimo (Edmonds-Karp)
+# Flujo Máximo y Corte Mínimo en la Red de Montos (Edmonds-Karp)
+
+> [!WARNING] Análisis exploratorio, no prueba de responsabilidad
+> Este reporte aplica métricas de análisis de redes a los datos del vault. Sus resultados describen la estructura del grafo, no hechos: una cercanía, un agrupamiento o un par similar no indica que exista una relación, un acuerdo ni un delito. Los datos tienen calidades distintas (ver `monto_origen` y `estado_verificacion`) y pueden contener errores. Toda persona mencionada se presume inocente mientras no exista sentencia condenatoria firme. No citar estos resultados como prueba ni como acusación.
+
 
 > [!IMPORTANT] Teorema Max-Flow Min-Cut aplicado a Persecución Patrimonial y Comiso
-> Esta vista modela el grafo dirigido de desembolsos como una **Red de Flujo Capacitada** ($S \rightarrow \text{Entidad Origen} \rightarrow \text{Firmante Origen} \rightarrow \text{Firmante Destino} \rightarrow \text{Entidad Destino} \rightarrow T$) y ejecuta el algoritmo de **Edmonds-Karp ($O(VE^2)$)** junto con optimización submodular de **Interdicción Patrimonial** para determinar el número mínimo de operadores cuyas cuentas/patrimonios deben ser objeto de medidas precautorias para interceptar el **100% del flujo financiero investigado**.
+> Esta vista modela el grafo dirigido de desembolsos como una **Red de Flujo Capacitada** ($S \rightarrow \text{Entidad Origen} \rightarrow \text{Firmante Origen} \rightarrow \text{Firmante Destino} \rightarrow \text{Entidad Destino} \rightarrow T$) y ejecuta el algoritmo de **Edmonds-Karp ($O(VE^2)$)** y una selección voraz que determina cuántos firmantes concentran el **100% de los montos registrados** en el grafo. Es una medida de concentración de los datos, no una recomendación de medidas sobre personas.
 
 ## 1. Métricas Globales de Flujo y Desigualdad Financiera
 
-- **Flujo Máximo Auditado ($f^*$ de Edmonds-Karp)**: **`$669.122.093.990 CLP`** *(100% consistente con la suma de aristas `TRX` con flujo monetario)*
+- **Flujo Máximo Registrado ($f^*$ de Edmonds-Karp)**: **`$669.122.093.990 CLP`** *(100% consistente con la suma de aristas `TRX` con flujo monetario)*
 - **Capacidad del Corte Mínimo ($c(S, T)$)**: **`$669.122.093.990 CLP`** across `31` cuellos de botella primarios.
 - **Coeficiente de Gini por Transacción (`TRX`)**: `0.8283`
 - **Coeficiente de Gini por Causa Penal**: `0.7517`
-- **Coeficiente de Gini por Operador / Firmante**: `0.7618`
-- **Operadores requeridos para interceptar el 100% del flujo**: `30` personas (de un total de `61` firmantes con flujo monetario).
+- **Coeficiente de Gini por Firmante**: `0.7618`
+- **Firmantes que concentran el 100% de los montos**: `30` personas (de un total de `61` firmantes con flujo monetario).
 
 ---
 
-## 2. Curva de Interdicción Patrimonial Óptima (Medidas Precautorias / Comiso)
+## 2. Curva de Retiro de nodos Óptima (Medidas Precautorias / Comiso)
 
 Orden óptimo de congelamiento de activos / medidas precautorias reales para maximizar el monto fiscal y corporativo interceptado en cada paso:
 
-| Paso | Operador / Firmante Objetivo | TRX Interceptadas | Monto Marginal Interceptado | Monto Acumulado | % del Flujo Total |
+| Paso | Firmante | TRX Cubiertas | Monto Marginal Cubierto | Monto Acumulado | % del Flujo Total |
 | :---: | :--- | :---: | :---: | :---: | :---: |
 | **1** | [[Sebastian Pinera Echenique]] | `4` | `$107.550.000.000 CLP` | `$107.550.000.000 CLP` | **`16.07%`** |
 | **2** | [[Eliodoro Matte Larrain]] | `1` | `$97.500.000.000 CLP` | `$205.050.000.000 CLP` | **`30.64%`** |

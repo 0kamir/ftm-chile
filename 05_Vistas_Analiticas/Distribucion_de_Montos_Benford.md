@@ -5,10 +5,16 @@ actualizacion_automatica: true
 tags:
   - dashboard
   - ley-de-benford
-  - contabilidad-forense
+  - analisis-de-montos
 ---
 
-# Auditoría Estadística Forense: Ley de Benford y Sesgo de Redondeo
+# Distribución de Montos: Ley de Benford y Montos Redondos
+
+> [!WARNING] Análisis exploratorio, no prueba de responsabilidad
+> Este reporte aplica métricas de análisis de redes a los datos del vault. Sus resultados describen la estructura del grafo, no hechos: una cercanía, un agrupamiento o un par similar no indica que exista una relación, un acuerdo ni un delito. Los datos tienen calidades distintas (ver `monto_origen` y `estado_verificacion`) y pueden contener errores. Toda persona mencionada se presume inocente mientras no exista sentencia condenatoria firme. No citar estos resultados como prueba ni como acusación.
+>
+> Una desviación estadística en la distribución de montos no prueba manipulación ni fraude; puede deberse al tamaño reducido de la muestra o a cómo se registraron las cifras.
+
 
 - **Operaciones Monetarias Analizadas (`monto_clp > 0`)**: **51**
 - **Operaciones con Monto Redondo Discrecional (Múltiplos de `$10.000.000 CLP`)**: **36 de 51 (70.6%)**
@@ -42,7 +48,7 @@ xychart-beta
 
 ## 2. Detección de Sesgo de Redondeo Artificial (Múltiplos Exactos de `$10.000.000 CLP`)
 
-En contabilidad forense, los presupuestos basados en cubicaciones reales de obra o nóminas efectivas rara vez terminan en múltiplos exactos de diez millones de pesos (ej. [[TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01]] por `$28.348.928.198` o [[TRX-2022-12-20-Convenio-EnTi-01]] por `$250.635.000`). Por el contrario, las asignaciones discrecionales o cajas negras suelen fijarse en cifras cerradas:
+En contabilidad, los presupuestos basados en cubicaciones reales de obra o nóminas efectivas rara vez terminan en múltiplos exactos de diez millones de pesos (ej. [[TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01]] por `$28.348.928.198` o [[TRX-2022-12-20-Convenio-EnTi-01]] por `$250.635.000`). Las cifras cerradas pueden reflejar montos estimados, redondeados por la fuente o fijados por acuerdo, y no indican por sí solas una irregularidad:
 
 | Nexo (`TRX`) | Fecha | Tipo | Origen | Destino | Monto Redondo (CLP) | Causa |
 | :--- | :---: | :---: | :--- | :--- | ---: | :--- |

@@ -22,7 +22,7 @@ tags:
 - **Representante Legal**: `= this.representante_legal`
 - **Grupo Controlador**: Empresas SB (familia Yarur Rey)
 
-## Contexto en Investigaciones Forenses
+## Contexto en Investigaciones
 Cadena de farmacias surgida de la fusión de Farmacias Salco y Farmacias Brand. En el [[Caso Colusion de las Farmacias]], su gerente general [[Roberto Belloni Pechini]] articuló junto a ejecutivos de [[Farmacias Cruz Verde SA]] y [[Farmacias Ahumada SA]] el mecanismo de alza coordinada de precios en medicamentos de uso crónico ([[TRX-2007-11-01-Coordinacion-Cartel-Precios-Medicamentos-Farmacias-01]]), utilizando a laboratorios como agentes de control para evitar desviaciones en los valores de venta al público. 
 
 Fue condenada por el TDLC ([[Sentencia-TDLC-119-Colusion-Farmacias-2012]]) a una multa de **20.000 UTA** (confirmada por la [[Corte Suprema de Chile]] en [[Sentencia-Corte-Suprema-Colusion-Farmacias-2012]]) y obligada judicialmente en sede civil por demanda colectiva del [[Servicio Nacional del Consumidor]] a indemnizar a los consumidores con más de mil millones de pesos ([[TRX-2020-11-25-Compensacion-Indemnizatoria-Consumidores-Farmacias-01]]).

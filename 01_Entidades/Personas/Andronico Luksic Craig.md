@@ -24,11 +24,11 @@ tags:
 - **Situación Procesal**: `= this.situacion_procesal`
 - **Medida Cautelar Vigente**: `= this.medida_cautelar`
 
-## Síntesis Forense
+## Síntesis
 Empresario chileno, ex líder del consorcio empresarial Quiñenco S.A. y figura central del sector financiero y minero en Chile. Su registro en esta bóveda corresponde al [[Caso Caval]]:
    - En el ámbito corporativo nacional, en noviembre de 2013 sostuvo en la casa matriz del banco una reunión con [[Natalia Compagnon Soto]] y Sebastián Dávalos Bachelet en el marco de la tramitación de un crédito por `$6.500.000.000 CLP` solicitado por [[Exportadora y de Gestion Caval Ltda]] para la compra de terrenos en Machalí, arista investigada en el [[Caso Caval]] donde prestó declaración en calidad de testigo sin formulación de cargos penales en su contra.
 
-## Auditoría Contable: Registros Reificados
+## Registros Reificados
 ```dataviewjs
 const pages = dv.pages('"03_Hechos_y_Nexos"')
   .where(p => (p.firmante_origen && String(p.firmante_origen).includes(dv.current().file.name)) ||

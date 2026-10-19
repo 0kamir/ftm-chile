@@ -35,9 +35,9 @@ tags:
 - **Tribunal / Fiscalía**: `= this.tribunal_o_fiscalia`
 - **Fiscal a Cargo**: `= this.fiscal_a_cargo`
 - **Estado Judicial**: `= this.estado_judicial`
-- **Delito Principal**: `= this.delito_principal` (en concurso con uso de información reservada del Estado y conflicto de interés regulatorio auditado por la [[Contraloria General de la Republica]])
+- **Delito Principal**: `= this.delito_principal` (en concurso con uso de información reservada del Estado y conflicto de interés regulatorio registrado por la [[Contraloria General de la Republica]])
 
-## Síntesis Forense de la Causa
+## Síntesis de la Causa
 Investigación penal del Ministerio Público y de dos Comisiones Especiales Investigadoras de la Cámara de Diputados sobre las inversiones transfronterizas no incluidas en el fideicomiso ciego voluntario de [[Sebastian Pinera Echenique]] mientras ejercía como Presidente de la República:
 
 1. **Inversión Offshore en *Pesquera Exalmar S.A.* durante el Juicio en La Haya (`2010–2013`)**: Entre noviembre de 2010 y febrero de 2013 —mientras [[Sebastian Pinera Echenique]] conducía como Jefe de Estado la defensa soberana de Chile ante la Corte Internacional de Justicia de La Haya frente a la demanda marítima del Perú—, su *family office* [[Bancard Inversiones Ltda]] (*Bancard International Investment Inc.*, domiciliada en las Islas Vírgenes Británicas y gerenciada por [[Santiago Valdes Gutierrez]]) adquirió el **`9,18%` del capital accionario de la pesquera peruana *Exalmar S.A.*** por aproximadamente **US$ 16,5 millones** (`$8.250.000.000 CLP` en [[TRX-2012-11-20-Inversion-Offshore-Bancard-Exalmar-LaHaya-01]]), empresa que, según los querellantes, se beneficiaría de los derechos de pesca en el triángulo marítimo adjudicado a Perú en el fallo de enero de 2014 ([[Contrato-Offshore-BVI-PandoraPapers-Dominga-2010]]).

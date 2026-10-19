@@ -25,12 +25,12 @@ tags:
 - **Situación Procesal**: `= this.situacion_procesal`
 - **Condena Ejecutoriada / Cautelar**: `= this.medida_cautelar`
 
-## Síntesis Forense
+## Síntesis
 Contratado a honorarios por la [[Direccion de Inteligencia Policial de Carabineros]] bajo el alias de *«El Profesor»*. Fue el ideólogo del supuesto software espía «Antorcha» y «Tubicación», herramientas ficticias que según la plana mayor de Carabineros interceptaban conversaciones de mensajería cifrada. 
 
 En el juicio oral del [[Caso Operacion Huracan]], el Tribunal de Juicio Oral en lo Penal de Temuco ([[Sentencia-TOP-Temuco-OperacionHuracan-2026]]) acreditó que Smith fabricó y proveyó los archivos de texto falsos (`.txt`) que fueron implantados manualmente en los teléfonos incautados a comuneros mapuche ([[TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01]]), cobrando honorarios y gastos reservados ([[TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01]]). Fue sentenciado a la pena más alta del caso: **12 años de presidio efectivo** como autor reiterado de [[Falsificacion de Instrumento Publico]] y [[Obstruccion a la Investigacion]].
 
-## Auditoría Contable: Registros Reificados
+## Registros Reificados
 ```dataviewjs
 const pages = dv.pages('"03_Hechos_y_Nexos"')
   .where(p => (p.firmante_origen && String(p.firmante_origen).includes(dv.current().file.name)) ||

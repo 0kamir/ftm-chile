@@ -21,7 +21,7 @@ tags:
 
 # TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01
 
-## Ficha de Arista Reificada (Transacción / Hecho Auditado)
+## Ficha de Arista Reificada (Transacción / Hecho Registrado)
 - **ID Transacción**: `= this.id_transaccion`
 - **Fecha**: `= this.fecha`
 - **Tipo de Nexo**: `= this.tipo_nexo`
@@ -29,10 +29,10 @@ tags:
 - **Entidad Fiscalizadora (Origen)**: `= this.entidad_origen`
 - **Repartición Intervenida (Destino)**: `= this.entidad_destino`
 - **Contralor General Suscriptor**: `= this.firmante_origen`
-- **Ex Seremi Auditado**: `= this.firmante_destino`
+- **Ex Seremi Registrado**: `= this.firmante_destino`
 - **Delito Detectado**: `= this.delito_imputado`
 - **Causa Judicial**: `= this.causa_vinculada`
 - **Evidencia de Soporte**: `= this.evidencia_soporte`
 
-## Descripción Forense del Hecho
+## Descripción del Hecho
 Auditoría especial y toma de control de legalidad instruida por la [[Contraloria General de la Republica]] bajo la dirección del Contralor [[Jorge Bermudez Soto]] sobre la [[Seremi MINVU Antofagasta]] ([[Carlos Contreras Gutierrez]]), que constató el fraccionamiento de los pagos de los tres convenios transferidos a [[Fundacion Democracia Viva]] ([[Daniel Andrade Schwarze]]) para eludir el umbral de Toma de Razón de `5.000 UTM` en el [[Caso Convenios]].

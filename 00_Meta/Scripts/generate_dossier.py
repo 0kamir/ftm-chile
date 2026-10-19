@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 """
-Generador de Dossier Pericial Consolidado (`generate_dossier.py`).
-Compila un informe forense estático autocontenido (sin dependencia de Dataview para exportación a PDF/impresión)
+Generador de Dossier Consolidado (`generate_dossier.py`).
+Compila un informe estático autocontenido (sin dependencia de Dataview para exportación a PDF/impresión)
 en `05_Vistas_Analiticas/Exportaciones/Dossier_Ejecutivo_Completo.md`.
 """
 
 import os
 import re
 import yaml
+from descargo import descargo  # noqa: E402
 
 ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 OUT_DOSSIER = os.path.join(
@@ -58,16 +59,18 @@ def main() -> int:
 
     lines = [
         "---",
-        "tipo_nodo: dossier_pericial",
-        'titulo: "Dossier Ejecutivo Consolidado de Auditoría Forense en Chile"',
+        "tipo_nodo: dossier",
+        'titulo: "Dossier Ejecutivo Consolidado de Revisión en Chile"',
         "tags:",
         "  - dossier",
-        "  - informe-pericial",
+        "  - informe-consolidado",
         "---",
         "",
-        "# Dossier Ejecutivo Consolidado — Auditoría Forense de Corrupción en Chile",
+        "# Dossier Consolidado del Vault FTM-Chile",
         "",
-        f"- **Causas Penales Auditadas**: **{len(causas)}**",
+        *descargo(),
+        "",
+        f"- **Causas Penales Registradas**: **{len(causas)}**",
         f"- **Sujetos de Interés / Imputados**: **{len(personas)}**",
         f"- **Aristas Reificadas (`TRX`)**: **{len(nexos)}**",
         f"- **Perjuicio / Flujo Global Consolidado**: **{fmt_clp(total_clp)} CLP**",
@@ -124,7 +127,7 @@ def main() -> int:
         f.write("\n".join(lines) + "\n")
 
     print(
-        f"[OK] Dossier Pericial Consolidado generado: {os.path.relpath(OUT_DOSSIER, ROOT_DIR)}"
+        f"[OK] Dossier Consolidado generado: {os.path.relpath(OUT_DOSSIER, ROOT_DIR)}"
     )
     return 0
 

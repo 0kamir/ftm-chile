@@ -22,7 +22,7 @@ tags:
 - **Situación Procesal**: `= this.situacion_procesal`
 - **Medida Cautelar Vigente**: `= this.medida_cautelar`
 
-## Síntesis Forense
+## Síntesis
 Abogado, exsenador por la Circunscripción 11ª (Maule Sur, que incluye Parral), expresidente del [[Senado de la Republica de Chile]] (2004–2005), expresidente de la [[Union Democrata Independiente]] (2006–2008) y ex Ministro de Justicia y Derechos Humanos (2018–2022). En la arista político-institucional del [[Caso Colonia Dignidad]], durante la década de 1990 fue uno de los principales articuladores parlamentarios del denominado *"Grupo de Amigos de Colonia Dignidad"*, suscribiendo el requerimiento ante el Tribunal Constitucional en contra del Decreto Supremo N° 143 que canceló la personalidad jurídica de [[Sociedad Benefactora y Educacional Dignidad]] y cuestionando públicamente los allanamientos policiales ordenados para capturar a [[Paul Schafer Schneider]] en coordinación con la vocería de [[Hartmut Hopp Miottel]] ([[TRX-1996-06-12-Blindaje-Politico-Judicial-ColoniaDignidad-01]]). Tras las condenas definitivas de la [[Corte Suprema de Chile]] ([[Sentencia-Corte-Suprema-ColoniaDignidad-2013]]), pidió perdón públicamente en 2016 por haber defendido al enclave.
 
 ## Nexos y Actuaciones Vinculadas
@@ -32,7 +32,7 @@ TABLE WITHOUT ID
   fecha AS "Fecha",
   entidad_origen AS "Entidad Origen",
   entidad_destino AS "Entidad Destino",
-  "$" + regexreplace(string(monto_clp), "\B(?=(\d{3})+(?!\d))", ".") AS "Monto Auditado (CLP)",
+  "$" + regexreplace(string(monto_clp), "\B(?=(\d{3})+(?!\d))", ".") AS "Monto Registrado (CLP)",
   causa_vinculada AS "Causa"
 FROM "03_Hechos_y_Nexos"
 WHERE contains(string(firmante_origen), this.file.name) OR contains(string(firmante_destino), this.file.name)

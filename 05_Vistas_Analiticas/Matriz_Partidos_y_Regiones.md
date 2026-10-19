@@ -9,7 +9,7 @@ tags:
   - osint
 ---
 
-# Matriz Forense por Partido Político y Distribución Territorial
+# Matriz por Partido Político y Distribución Territorial
 
 Análisis multidimensional en `DataviewJS` que cruza las aristas reificadas (`03_Hechos_y_Nexos/`) con la **militancia partidaria** de los firmantes (`01_Entidades/Partidos/`) y la **jurisdicción regional** de los órganos públicos (`01_Entidades/Publicas/`).
 

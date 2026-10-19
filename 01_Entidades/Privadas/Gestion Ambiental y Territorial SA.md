@@ -30,7 +30,7 @@ tags:
 - **Objeto Social**: `= this.objeto_social`
 - **Representante Legal y Controlador**: `= this.representante_legal`
 
-## Contexto Forense y Societario
+## Contexto y Societario
 Empresa consultora (conocida por su sigla **GATE**) que operó como nodo central de triangulación financiera en el [[Caso MOP-Gate]]. A través de contratos adjudicados por el [[Ministerio de Obras Publicas]] bajo la dirección de [[Carlos Cruz Lorenzen]] ([[TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01]]), reintegraba fondos en efectivo y cheques para financiar sobresueldos ministeriales, según acreditó la [[Corte Suprema de Chile]] en [[Sentencia-Corte-Suprema-MOPGate-2016]].
 
 ## Historial de Contratos y Nexos Reificados

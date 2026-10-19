@@ -18,7 +18,7 @@ tags:
 - **Región**: `= this.region`
 - **Superior Jerárquico**: `= this.superior_jerarquico`
 
-## Contexto en Investigaciones Forenses
+## Contexto en Investigaciones
 Dirección de Compras y Contratación Pública (administradora de la plataforma `mercadopublico.cl`), dependiente del Ministerio de Hacienda. Sus registros de órdenes de compra y tratos directos (API de datos abiertos) son fuente primaria para documentar nexos de contratación pública en el vault.
 
 ## Nexos y Órdenes de Compra Registradas

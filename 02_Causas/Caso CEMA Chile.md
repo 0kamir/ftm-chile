@@ -45,7 +45,7 @@ tags:
 - **Estado Judicial**: `= this.estado_judicial` (Cerrada con disolución de la fundación y restitución forzosa al Fisco de 108 inmuebles y la totalidad de sus activos líquidos en 2019)
 - **Delito Principal**: `= this.delito_principal` (en concurso con [[Fraude al Fisco]] y distracción indebida de activos públicos)
 
-## Síntesis Forense de la Causa
+## Síntesis de la Causa
 Investigación penal y patrimonial sobre el apoderamiento, enajenación comercial y desvío de recursos derivados de más de **135 bienes raíces fiscales, municipales y del SERVIU** que fueron transferidos gratuitamente entre 1973 y 1990 a la [[Fundacion CEMA Chile]], entidad privada presidida a perpetuidad hasta agosto de 2016 por [[Lucia Hiriart Rodriguez]], cónyuge de [[Augusto Pinochet Ugarte]].
 
 El mecanismo descrito por la querella y la investigación (sobreseída temporalmente en su arista penal) habría operado en tres fases:

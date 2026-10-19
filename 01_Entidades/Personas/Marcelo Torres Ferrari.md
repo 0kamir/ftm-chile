@@ -36,10 +36,10 @@ tags:
 - **Situación Procesal**: `= this.situacion_procesal`
 - **Medida Cautelar / Estado Procesal**: `= this.medida_cautelar`
 
-## Síntesis Forense
+## Síntesis
 Ex Concejal de la [[Municipalidad de Maipu]] y ex Administrador Municipal de la [[Municipalidad de Cerro Navia]] (bajo la gestión de [[Luis Plaza Sanchez]]), militante de [[Renovacion Nacional]]. En el [[Caso Basura]] ([[Acusacion-Fiscalia-Occidente-CasoBasura-2017]]) fue sindicado por el Ministerio Público como el principal nodo articulador inter-municipal que recibió pagos ilícitos de [[KDM Empresas SA]] ([[Fernando Leon Steffens]]) para asegurar votos en el Concejo Municipal de Maipú en la licitación de basura por **$18.500.000.000 CLP** ([[TRX-2010-11-15-Soborno-Licitacion-Basura-Maipu-01]]) y operar contrataciones irregulares en Cerro Navia por **$1.120.000.000 CLP** ([[TRX-2012-03-22-Fraude-Residuos-CerroNavia-01]]).
 
-## Auditoría Contable: Montos Operados como Firmante de Destino
+## Montos Operados como Firmante de Destino
 ```dataviewjs
 const pages = dv.pages('"03_Hechos_y_Nexos"')
   .where(p => p.firmante_destino && String(p.firmante_destino).includes(dv.current().file.name));

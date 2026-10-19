@@ -33,6 +33,6 @@ tags:
 - **Delito Imputado**: `= this.delito_imputado`
 - **Evidencia Soporte**: `= this.evidencia_soporte`
 
-## Descripción Forense de la Operación
+## Descripción de la Operación
 Hecho agregado que representa el perjuicio fiscal total estimado por el [[Servicio Impuestos Internos]] (**`$240.000.000.000 CLP`**) atribuido por la Fiscalía Metropolitana Occidente a seis grupos de imputados que habrían emitido más de 100.000 facturas falsas mediante sociedades de papel entre 2014 y 2020. No se atribuye a una persona individual; ver el detalle por grupo en [[Caso Megafraude Tributario Operacion Tributos]]. Hipótesis acusatoria sin sentencia.
 

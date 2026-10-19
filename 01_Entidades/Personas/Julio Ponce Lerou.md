@@ -15,7 +15,7 @@ tags:
   - caso-cascadas
   - caso-sqm
   - condenado
-  - clan-pinochet-hiriart
+  - familia-pinochet-hiriart
 ---
 
 # Julio Ponce Lerou
@@ -28,10 +28,10 @@ tags:
 - **Situación Procesal**: `= this.situacion_procesal`
 - **Sanción Judicial Ejecutoriada**: `= this.medida_cautelar`
 
-## Síntesis Forense
-Ingeniero forestal, ex yerno de [[Augusto Pinochet Ugarte]] y [[Lucia Hiriart Rodriguez]], y controlador histórico de [[SQM SA]] a través de [[Sociedad de Inversiones Pampa Calichera SA]] tras las privatizaciones de fines de los años ochenta. En el [[Caso Cascadas]] fue sancionado por la [[Comision para el Mercado Financiero]] ([[Carlos Pavez Tolosa]]) mediante la [[Resolucion-SVS-CasoCascadas-2014]] —confirmada en última instancia por la [[Corte Suprema de Chile]]— como ideólogo y beneficiario de un esquema de compraventas bursátiles trianguladas con títulos de [[SQM SA]] (gerenciada por su hombre de confianza [[Patricio Contesse Gonzalez]]) que generó perjuicios auditados e infracciones por **$24.500.000.000 CLP** ([[TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01]]).
+## Síntesis
+Ingeniero forestal, ex yerno de [[Augusto Pinochet Ugarte]] y [[Lucia Hiriart Rodriguez]], y controlador histórico de [[SQM SA]] a través de [[Sociedad de Inversiones Pampa Calichera SA]] tras las privatizaciones de fines de los años ochenta. En el [[Caso Cascadas]] fue sancionado por la [[Comision para el Mercado Financiero]] ([[Carlos Pavez Tolosa]]) mediante la [[Resolucion-SVS-CasoCascadas-2014]] —confirmada en última instancia por la [[Corte Suprema de Chile]]— como ideólogo y beneficiario de un esquema de compraventas bursátiles trianguladas con títulos de [[SQM SA]] (gerenciada por su hombre de confianza [[Patricio Contesse Gonzalez]]) que generó perjuicios registrados e infracciones por **$24.500.000.000 CLP** ([[TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01]]).
 
-## Auditoría Contable: Montos Operados como Firmante de Origen
+## Montos Operados como Firmante de Origen
 ```dataviewjs
 const pages = dv.pages('"03_Hechos_y_Nexos"')
   .where(p => p.firmante_origen && String(p.firmante_origen).includes(dv.current().file.name));

@@ -31,10 +31,10 @@ tags:
 - **Representante Legal**: `= this.representante_legal`
 - **Controlador Histórico**: Familia Vial, fundada por [[Gonzalo Vial Vial]]
 
-## Contexto en Investigaciones Forenses
+## Contexto en Investigaciones
 Holding agroindustrial y el mayor productor de alimentos cárnicos de Chile. En el [[Caso Colusion de los Pollos]], fue condenada por el Tribunal de Defensa de la Libre Competencia ([[Sentencia-TDLC-139-Colusion-Pollos-2014]]) y la [[Corte Suprema de Chile]] ([[Sentencia-Corte-Suprema-Colusion-Pollos-2015]]) por liderar un cartel oligopólico junto a [[Empresas Ariztia SA]] y [[Agricola Don Pollo Limitada]], coordinado a través de la [[Asociacion de Productores Avicolas de Chile AG]] para fijar cuotas de producción entre 1994 y 2011. La Corte Suprema le impuso la multa máxima legal de 30.000 UTA (aproximadamente US$ 23 millones / $16.000 millones de pesos).
 
-## Auditoría Contable: Registros Reificados
+## Registros Reificados
 ```dataview
 TABLE WITHOUT ID
   file.link AS "Nexo / Operación",

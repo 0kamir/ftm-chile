@@ -37,7 +37,7 @@ tags:
 - **Delito / Infracción Investigada**: `= this.delito_imputado`
 - **Evidencia Soporte**: `= this.evidencia_soporte`
 
-## Descripción Forense de la Operación
+## Descripción de la Operación
 Registro fotográfico, difundido por The Clinic, de la presencia del consultor político argentino [[Fernando Cerimedo]], titular de [[Numen Publicidad SpA]], en la sede central de [[Renovacion Nacional]] durante la jornada electoral y celebración de los resultados del Plebiscito Constitucional del 4 de septiembre de 2022. 
 
 En dicha instancia, documentada en la [[Fotografia-Cerimedo-Sede-Renovacion-Nacional-2022]] revelada por *The Clinic*, Cerimedo compartió dependencias con el entonces prosecretario del partido Manuel José Errázuriz y operadores de campaña. El hecho motivó requerimientos parlamentarios ante el Servel y la apertura de investigaciones de la Fiscalía Centro Norte respecto de la falta de rendición contable de servicios digitales extranjeros o aportes de campaña no declarados.

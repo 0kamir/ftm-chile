@@ -1,26 +1,27 @@
 #!/usr/bin/env python3
 """
-Detector Forense de Comunidades Operativas y Modularidad (Clauset-Newman-Moore Q)
+Detector de Agrupamientos de la red y Modularidad (Clauset-Newman-Moore Q)
 =================================================================================
-Analiza la topología de la red operativa criminal/política en `metricas_red.json`
+Analiza la topología del grafo del vault en `metricas_red.json`
 mediante maximización aglomerativa de Modularidad de Newman-Girvan / Clauset-Newman-Moore (CNM)
-sobre los nodos operativos (`persona`, `entidad_publica`, `entidad_privada`,
+sobre los nodos (`persona`, `entidad_publica`, `entidad_privada`,
 `partido_politico`, `nexo_transaccion`, `causa_judicial`), excluyendo nodos de
 catálogo penal o vistas para evitar falsos puentes jurídicos.
 Identifica:
-1. Células Operativas autónomas y su flujo financiero auditado.
+1. Agrupamientos autónomas y su flujo financiero registrado.
 2. Nodos Broker Inter-Comunidad (con Coeficiente de Participación P_i de Guimerà & Amaral > 0).
 3. Aristas Puente Estructurales entre Comunidades.
-Genera el reporte en `05_Vistas_Analiticas/Deteccion_Comunidades_Operativas.md`.
+Genera el reporte en `05_Vistas_Analiticas/Agrupamientos_de_la_Red.md`.
 """
 
 import json
 from pathlib import Path
 from collections import defaultdict
+from descargo import descargo  # noqa: E402
 
 VAULT_ROOT = Path(__file__).resolve().parents[2]
 JSON_PATH = VAULT_ROOT / "05_Vistas_Analiticas" / "Exportaciones" / "metricas_red.json"
-REPORT_PATH = VAULT_ROOT / "05_Vistas_Analiticas" / "Deteccion_Comunidades_Operativas.md"
+REPORT_PATH = VAULT_ROOT / "05_Vistas_Analiticas" / "Agrupamientos_de_la_Red.md"
 
 OPERATIONAL_TYPES = {
     "persona",
@@ -48,7 +49,7 @@ def load_graph():
             adj[u][v] += 1.0
             adj[v][u] += 1.0
             edges.append((u, v, e.get("relacion", "vinculo")))
-    # Filtrar solo nodos con grado > 0 en la red operativa
+    # Filtrar solo nodos con grado > 0 en la red
     active_nodes = {u: n for u, n in nodes.items() if len(adj[u]) > 0}
     return active_nodes, adj, edges
 
@@ -160,7 +161,7 @@ def generate_report():
         else:
             entidades = [m for m in members if nodes[m].get("tipo_nodo") in ("entidad_publica", "entidad_privada", "partido_politico")]
             label = sorted(entidades)[0] if entidades else sorted(members)[0]
-        cluster_names[idx] = f"Célula #{idx:02d} ({label})"
+        cluster_names[idx] = f"Agrupamiento #{idx:02d} ({label})"
         for m in members:
             node_to_cluster_idx[m] = idx
 
@@ -183,26 +184,28 @@ def generate_report():
     lines = [
         "---",
         "tipo_nodo: vista_analitica",
-        'titulo: "Detección de Comunidades Operativas y Modularidad (Newman-Girvan Q)"',
+        'titulo: "Detección de Agrupamientos de la red y Modularidad (Newman-Girvan Q)"',
         "actualizacion_automatica: true",
         "tags:",
         "  - comunidades",
         "  - modularidad-newman",
-        "  - analisis-forense",
+        "  - analisis-de-redes",
         "---",
         "",
-        "# 🧬 Detección de Comunidades Operativas y Modularidad ($Q$)",
+        "# Agrupamientos de la Red y Modularidad ($Q$)",
         "",
-        "> [!NOTE] Ciencia de Redes aplicada a Estructuras de Corrupción (Clauset-Newman-Moore & Guimerà-Amaral)",
-        "> Esta vista aplica maximización aglomerativa de **Modularidad de Newman-Girvan ($Q$)** (algoritmo de Clauset-Newman-Moore sobre la red operativa de actores, causas y transacciones, excluyendo artículos penales genéricos) para particionar el grafo en **Células Operativas**, y calcula el **Coeficiente de Participación ($P_i$)** de Guimerà & Amaral (2005) para descubrir los *brokers* que conectan células criminales o políticas distintas.",
+        *descargo("agrupamientos"),
+        "",
+        "> [!NOTE] Análisis de modularidad (Clauset-Newman-Moore & Guimerà-Amaral)",
+        "> Esta vista aplica maximización aglomerativa de **Modularidad de Newman-Girvan ($Q$)** (algoritmo de Clauset-Newman-Moore sobre la red de actores, causas y transacciones, excluyendo artículos penales genéricos) para particionar el grafo en **Agrupamientos**, y calcula el **Coeficiente de Participación ($P_i$)** de Guimerà & Amaral (2005) para descubrir los *brokers* que conectan agrupamientos criminales o políticas distintas.",
         "",
         "## 1. Indicadores Globales de Partición",
         "",
         f"- **Nodos Operativos Analizados**: `{len(nodes)}`",
         f"- **Modularidad Global de Newman-Girvan ($Q$)**: `{q_score:.4f}` *(Valores $Q > 0.70$ indican alta compartimentación celular con puentes específicos de articulación)*",
-        f"- **Total de Células Operativas Detectadas**: `{len(sorted_clusters)}`",
+        f"- **Total de Agrupamientos Detectadas**: `{len(sorted_clusters)}`",
         f"- **Enlaces Puente Inter-Comunidad Detectados**: `{len(inter_edges)}`",
-        f"- **Nodos Articuladores Inter-Célula ($P_i > 0$)**: `{len(brokers)}`",
+        f"- **Nodos Articuladores Inter-Agrupamiento ($P_i > 0$)**: `{len(brokers)}`",
         "",
         "---",
         "",
@@ -214,7 +217,7 @@ def generate_report():
 
     for i, (u, p_val, deg, c_idx) in enumerate(brokers, 1):
         tipo = nodes[u].get("tipo_nodo", "desconocido")
-        rol = "Hub Conector Multi-Célula" if p_val >= 0.30 else "Puente Inter-Clúster"
+        rol = "Hub Conector Multi-Agrupamiento" if p_val >= 0.30 else "Puente Inter-Clúster"
         lines.append(
             f"| **{i}** | [[{u}]] | `{tipo}` | {cluster_names[c_idx]} | `{int(deg)}` | **`{p_val:.4f}`** | {rol} |"
         )
@@ -223,9 +226,9 @@ def generate_report():
         "",
         "---",
         "",
-        "## 3. Puentes Estructurales entre Células Operativas",
+        "## 3. Puentes Estructurales entre Agrupamientos",
         "",
-        "| Nodo A | Célula A | Relación | Nodo B | Célula B |",
+        "| Nodo A | Agrupamiento A | Relación | Nodo B | Agrupamiento B |",
         "| :--- | :--- | :---: | :--- | :--- |",
     ])
 
@@ -236,7 +239,7 @@ def generate_report():
         "",
         "---",
         "",
-        "## 4. Radiografía de Células Operativas Detectadas",
+        "## 4. Radiografía de Agrupamientos Detectadas",
         "",
     ])
 
@@ -248,7 +251,7 @@ def generate_report():
 
         lines.extend([
             f"### {cluster_names[idx]}",
-            f"- **Tamaño del Clúster**: `{len(members)}` nodos | **Flujo Auditado en la Célula**: `${monto_cluster:,.0f} CLP`".replace(",", "."),
+            f"- **Tamaño del Clúster**: `{len(members)}` nodos | **Flujo Registrado en la Agrupamiento**: `${monto_cluster:,.0f} CLP`".replace(",", "."),
             f"- **Personas Involucradas ({len(personas)})**: {', '.join(personas) if personas else '_Ninguna_'}",
             f"- **Entidades Públicas/Privadas ({len(instituciones)})**: {', '.join(instituciones) if instituciones else '_Ninguna_'}",
             f"- **Transacciones Reificadas ({len(trxs)})**: {', '.join(trxs) if trxs else '_Ninguna_'}",
@@ -256,7 +259,7 @@ def generate_report():
         ])
 
     REPORT_PATH.write_text("\n".join(lines), encoding="utf-8")
-    print(f"[OK] Reporte de Comunidades Operativas generado en: {REPORT_PATH.relative_to(VAULT_ROOT)} (Q = {q_score:.4f}, {len(sorted_clusters)} células)")
+    print(f"[OK] Reporte de Agrupamientos de la red generado en: {REPORT_PATH.relative_to(VAULT_ROOT)} (Q = {q_score:.4f}, {len(sorted_clusters)} agrupamientos)")
 
 
 if __name__ == "__main__":

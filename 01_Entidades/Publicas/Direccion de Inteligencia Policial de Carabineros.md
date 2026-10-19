@@ -20,7 +20,7 @@ tags:
 - **Región**: `= this.region`
 - **Superior Jerárquico**: `= this.superior_jerarquico`
 
-## Contexto en Investigaciones Forenses
+## Contexto en Investigaciones
 La Dirección de Inteligencia Policial de Carabineros (DIPOLCAR) y su Unidad de Inteligencia Operativa Especializada (UIOE) con base en Temuco fueron la estructura policial y de mando responsable del montaje de la [[Caso Operacion Huracan]], encabezada por el general [[Gonzalo Blu Rodriguez]], el excoronel [[Marcelo Teuber Munoz]], el exmayor [[Patricio Marin Lazo]], el excapitán [[Leonardo Osses Sandoval]] y el perito civil [[Alex Smith Leay]], bajo la jefatura institucional del general director [[Bruno Villalobos Krumm]]. La unidad fue clausurada tras descubrirse la implantación fraudulenta de supuestos chats de mensajería para incriminar a comuneros mapuche bajo la Ley Antiterrorista.
 
 ## Nexos y Operaciones Registradas

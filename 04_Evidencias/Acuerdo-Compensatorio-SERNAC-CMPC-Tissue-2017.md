@@ -30,7 +30,7 @@ tags:
 
 # Acuerdo-Compensatorio-SERNAC-CMPC-Tissue-2017
 
-## Metadatos de Fuente Primaria (Cadena de Custodia Administrativa)
+## Metadatos de la Fuente
 - **ID Evidencia**: `= this.id_evidencia`
 - **Tipo de Documento**: `= this.tipo_documento`
 - **Fecha de Suscripción**: `= this.fecha_emision`

@@ -20,10 +20,10 @@ tags:
 - **Superior Jerárquico**: `= this.superior_jerarquico`
 - **Funcionario Investigado (DOM)**: `= this.autoridad_vinculada`
 
-## Contexto Forense y Administrativo
+## Contexto y Administrativo
 Corporación edilicia de la Región de O'Higgins cuya Dirección de Obras Municipales (DOM), encabezada por [[Jorge Silva Menares]], intervino técnicamente en los informes favorables para el cambio de uso de suelo de rural a urbano de los 44 hectáreas de predios adquiridos por [[Exportadora y de Gestion Caval Ltda]] ([[Natalia Compagnon Soto]] y [[Mauricio Valero Illanes]]), con pagos por los que su director de obras fue condenado por cohecho en el [[Caso Caval]] (los socios de Caval fueron absueltos del soborno) ([[TRX-2014-02-18-Soborno-Caval-Machali-01]], [[Sentencia-TOP-Rancagua-Caval-2018]]).
 
-## Historial de Nexos y Transacciones Auditadas
+## Historial de Nexos y Transacciones Registradas
 ```dataview
 TABLE WITHOUT ID
   file.link AS "Nexo / Transacción",

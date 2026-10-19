@@ -20,7 +20,7 @@ tags:
 - **Objeto Social**: `= this.objeto_social`
 - **Beneficiario / Controlador Real**: `= this.representante_legal`
 
-## Contexto en Investigaciones Forenses
+## Contexto en Investigaciones
 Empresa metalúrgica y armera declarada en quiebra cuyos activos fueron adquiridos en enero de 1989 por las Fábricas y Maestranzas del Ejército (FAMAE / [[Comando de Apoyo a la Fuerza del Ejercito]]) bajo el mando de [[Augusto Pinochet Ugarte]], girándose tres cheques por cerca de US$ 3 millones (`$2.950.000.000 CLP` actualizados) directamente a nombre de su hijo [[Augusto Pinochet Hiriart]] sin toma de razón de la [[Contraloria General de la Republica]], originando el [[Caso Pinocheques]] ([[TRX-1989-01-10-Emision-Pinocheques-Ejercito-Valmoval-01]]) y posterior triangulación hacia [[Riggs Bank y Sociedades Offshore Ashburton]] en el [[Caso Riggs]].
 
 ## Transacciones y Flujos Vinculados

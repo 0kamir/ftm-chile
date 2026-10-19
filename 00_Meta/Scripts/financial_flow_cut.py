@@ -2,13 +2,13 @@
 """
 Motor de Flujo Financiero Máximo, Corte Mínimo (Edmonds-Karp) y Concentración de Gini
 =====================================================================================
-Modela la red de flujo de capitales ilícitos/investigados desde las Entidades de Origen (S)
+Modela la red de montos registrados desde las Entidades de Origen (S)
 pasando por los Firmantes Autorizadores -> Transacciones Reificadas (TRX) -> Firmantes Receptores
 hacia las Entidades de Destino (T).
 
 Calcula:
 1. Flujo Financiero Máximo y Corte Mínimo (Teorema Max-Flow Min-Cut de Ford-Fulkerson / Edmonds-Karp).
-2. Curva de Interdicción Patrimonial Óptima (Comiso / Medidas Precautorias sobre Firmantes Clave).
+2. Curva de Retiro de nodos Óptima (Comiso / Medidas Precautorias sobre Firmantes Clave).
 3. Coeficiente de Gini y Curva de Lorenz de concentración del perjuicio fiscal.
 Genera `05_Vistas_Analiticas/Analisis_Flujo_Financiero_y_Corte_Minimo.md`.
 """
@@ -17,6 +17,7 @@ from collections import defaultdict, deque
 from pathlib import Path
 import re
 import yaml
+from descargo import descargo  # noqa: E402
 
 VAULT_ROOT = Path(__file__).resolve().parents[2]
 TRX_DIR = VAULT_ROOT / "03_Hechos_y_Nexos"
@@ -178,7 +179,7 @@ def generate_report():
 
     max_flow, min_cut_edges, _ = edmonds_karp(capacity, S, T)
 
-    # Simulación Voraz de Interdicción Patrimonial (Medidas Precautorias por Operador)
+    # Simulación voraz de retiro de firmantes
     remaining_trxs = [t for t in trxs if t["monto_clp"] > 0]
     interdiction_steps = []
     intercepted_cum = 0
@@ -192,7 +193,7 @@ def generate_report():
                     op_gains[p] += t["monto_clp"]
                     op_count[p] += 1
         if not op_gains:
-            # Aristas sin firmante identificado (hechos agregados) no son interceptables por operador.
+            # Aristas sin firmante identificado (hechos agregados) no se asignan a un firmante.
             break
         best_op = sorted(op_gains.keys(), key=lambda p: (-op_gains[p], p))[0]
         gain = op_gains[best_op]
@@ -232,27 +233,29 @@ def generate_report():
         "  - gini",
         "---",
         "",
-        "# 💰 Análisis de Flujo Financiero Máximo y Corte Mínimo (Edmonds-Karp)",
+        "# Flujo Máximo y Corte Mínimo en la Red de Montos (Edmonds-Karp)",
+        "",
+        *descargo(),
         "",
         "> [!IMPORTANT] Teorema Max-Flow Min-Cut aplicado a Persecución Patrimonial y Comiso",
-        "> Esta vista modela el grafo dirigido de desembolsos como una **Red de Flujo Capacitada** ($S \\rightarrow \\text{Entidad Origen} \\rightarrow \\text{Firmante Origen} \\rightarrow \\text{Firmante Destino} \\rightarrow \\text{Entidad Destino} \\rightarrow T$) y ejecuta el algoritmo de **Edmonds-Karp ($O(VE^2)$)** junto con optimización submodular de **Interdicción Patrimonial** para determinar el número mínimo de operadores cuyas cuentas/patrimonios deben ser objeto de medidas precautorias para interceptar el **100% del flujo financiero investigado**.",
+        "> Esta vista modela el grafo dirigido de desembolsos como una **Red de Flujo Capacitada** ($S \\rightarrow \\text{Entidad Origen} \\rightarrow \\text{Firmante Origen} \\rightarrow \\text{Firmante Destino} \\rightarrow \\text{Entidad Destino} \\rightarrow T$) y ejecuta el algoritmo de **Edmonds-Karp ($O(VE^2)$)** y una selección voraz que determina cuántos firmantes concentran el **100% de los montos registrados** en el grafo. Es una medida de concentración de los datos, no una recomendación de medidas sobre personas.",
         "",
         "## 1. Métricas Globales de Flujo y Desigualdad Financiera",
         "",
-        f"- **Flujo Máximo Auditado ($f^*$ de Edmonds-Karp)**: **`{fmt_clp(max_flow)}`** *(100% consistente con la suma de aristas `TRX` con flujo monetario)*",
+        f"- **Flujo Máximo Registrado ($f^*$ de Edmonds-Karp)**: **`{fmt_clp(max_flow)}`** *(100% consistente con la suma de aristas `TRX` con flujo monetario)*",
         f"- **Capacidad del Corte Mínimo ($c(S, T)$)**: **`{fmt_clp(sum(c for _, _, c in min_cut_edges))}`** across `{len(min_cut_edges)}` cuellos de botella primarios.",
         f"- **Coeficiente de Gini por Transacción (`TRX`)**: `{gini_trxs:.4f}`",
         f"- **Coeficiente de Gini por Causa Penal**: `{gini_causas:.4f}`",
-        f"- **Coeficiente de Gini por Operador / Firmante**: `{gini_ops:.4f}`",
-        f"- **Operadores requeridos para interceptar el 100% del flujo**: `{len(interdiction_steps)}` personas (de un total de `{len(operator_exposure)}` firmantes con flujo monetario).",
+        f"- **Coeficiente de Gini por Firmante**: `{gini_ops:.4f}`",
+        f"- **Firmantes que concentran el 100% de los montos**: `{len(interdiction_steps)}` personas (de un total de `{len(operator_exposure)}` firmantes con flujo monetario).",
         "",
         "---",
         "",
-        "## 2. Curva de Interdicción Patrimonial Óptima (Medidas Precautorias / Comiso)",
+        "## 2. Curva de Retiro de nodos Óptima (Medidas Precautorias / Comiso)",
         "",
         "Orden óptimo de congelamiento de activos / medidas precautorias reales para maximizar el monto fiscal y corporativo interceptado en cada paso:",
         "",
-        "| Paso | Operador / Firmante Objetivo | TRX Interceptadas | Monto Marginal Interceptado | Monto Acumulado | % del Flujo Total |",
+        "| Paso | Firmante | TRX Cubiertas | Monto Marginal Cubierto | Monto Acumulado | % del Flujo Total |",
         "| :---: | :--- | :---: | :---: | :---: | :---: |",
     ]
 

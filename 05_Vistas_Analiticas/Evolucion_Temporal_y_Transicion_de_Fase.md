@@ -9,20 +9,24 @@ tags:
   - transicion-de-fase
 ---
 
-# ⏳ Evolución Temporal $G(t)$, Transición de Fase de Molloy-Reed y Ráfagas de Goh-Barabási
+# Evolución Temporal $G(t)$, Transición de Fase de Molloy-Reed y Ráfagas de Goh-Barabási
 
-> [!IMPORTANT] Dinámica No Lineal de Redes Criminales y Coalescencia del Componente Gigante
+> [!WARNING] Análisis exploratorio, no prueba de responsabilidad
+> Este reporte aplica métricas de análisis de redes a los datos del vault. Sus resultados describen la estructura del grafo, no hechos: una cercanía, un agrupamiento o un par similar no indica que exista una relación, un acuerdo ni un delito. Los datos tienen calidades distintas (ver `monto_origen` y `estado_verificacion`) y pueden contener errores. Toda persona mencionada se presume inocente mientras no exista sentencia condenatoria firme. No citar estos resultados como prueba ni como acusación.
+
+
+> [!IMPORTANT] Dinámica No Lineal de Redes y Coalescencia del Componente Gigante
 > Esta vista reconstruye el grafo acumulado $G(t) = (V(t), E(t))$ desde `2001` hasta `2023` a medida que se activan cronológicamente los nexos transaccionales (`TRX`):
 > 1. **Criterio de Percolación de Molloy-Reed ($\kappa(t) = \langle k^2 \rangle / \langle k \rangle > 2$)**: Determina en qué momento la red supera el umbral crítico $\kappa_c = 2.0$ y experimenta una **transición de fase hacia un régimen supercrítico macro-conectado**.
-> 2. **Coeficiente de Ráfaga Temporal de Goh & Barabási ($B \in [-1, 1]$)**: Evalúa si las transacciones ilícitas ocurren de forma independiente o en **ráfagas sincronizadas ($B > 0$)** asociadas a ciclos electorales y presupuestarios.
+> 2. **Coeficiente de Ráfaga Temporal de Goh & Barabási ($B \in [-1, 1]$)**: Evalúa si las transacciones registradas ocurren de forma independiente o en **ráfagas sincronizadas ($B > 0$)** asociadas a ciclos electorales y presupuestarios.
 
 ## 1. Métricas Dinámicas e Inter-Transaccionales (2001–2023)
 
 - **Coeficiente de Ráfaga Temporal de Goh-Barabási ($B$)**: **`+0.2501`**
   - *Diagnóstico Cronológico*: **Dinámica de Ráfagas Sincronizadas (*Burst-Driven Process*, $B > 0$: los desembolsos se concentran en ventanas electorales y cierres presupuestarios)**
 - **Intervalo Medio entre Transacciones ($\mu_\tau$)**: `308.8 días` | **Desviación Estándar ($\sigma_\tau$)**: `514.7 días`
-- **Parámetro de Molloy-Reed Actual ($\kappa(2023) = \langle k^2 \rangle / \langle k \rangle$)**: **`4.3566`** *(Supercrítico: $\kappa > 2.0$)*
-- **Coalescencia del Componente Gigante ($S(2023)$)**: **`91.2%`** (`206` de `226` nodos operativos unidos en un único macro-componente)
+- **Parámetro de Molloy-Reed Actual ($\kappa(2023) = \langle k^2 \rangle / \langle k \rangle$)**: **`4.3548`** *(Supercrítico: $\kappa > 2.0$)*
+- **Coalescencia del Componente Gigante ($S(2023)$)**: **`91.2%`** (`206` de `226` nodos unidos en un único macro-componente)
 
 ---
 
@@ -56,15 +60,15 @@ tags:
 | **2017** | `44` | `159` | `257` | `152` | **`95.6%`** | `4.18` | `$390.639.458.990 CLP` |
 | **2018** | `45` | `161` | `262` | `154` | **`95.7%`** | `4.21` | `$390.639.458.990 CLP` |
 | **2019** | `47` | `172` | `276` | `159` | **`92.4%`** | `4.21` | `$390.866.458.990 CLP` |
-| **2020** | `49` | `177` | `286` | `164` | **`92.7%`** | `4.23` | `$424.018.458.990 CLP` |
-| **2021** | `50` | `183` | `293` | `170` | **`92.9%`** | `4.22` | `$424.777.458.990 CLP` |
-| **2022** | `58` | `207` | `338` | `176` | **`85.0%`** | `4.25` | `$428.507.093.990 CLP` |
-| **2023** | `64` | `223` | `369` | `203` | **`91.0%`** | `4.36` | `$669.087.093.990 CLP` |
-| **2025** | `65` | `226` | `373` | `206` | **`91.2%`** | `4.36` | `$669.122.093.990 CLP` |
+| **2020** | `49` | `177` | `285` | `164` | **`92.7%`** | `4.23` | `$424.018.458.990 CLP` |
+| **2021** | `50` | `183` | `292` | `170` | **`92.9%`** | `4.22` | `$424.777.458.990 CLP` |
+| **2022** | `58` | `207` | `337` | `176` | **`85.0%`** | `4.25` | `$428.507.093.990 CLP` |
+| **2023** | `64` | `223` | `368` | `203` | **`91.0%`** | `4.35` | `$669.087.093.990 CLP` |
+| **2025** | `65` | `226` | `372` | `206` | **`91.2%`** | `4.35` | `$669.122.093.990 CLP` |
 
 ---
 
-## 3. Curva de Crecimiento del Componente Gigante $S(t)$ y Caudal Auditado
+## 3. Curva de Crecimiento del Componente Gigante $S(t)$ y Caudal Registrado
 
 ```mermaid
 xychart-beta

@@ -48,7 +48,7 @@ tags:
 - **Delito Imputado**: `= this.delito_imputado` (en concurso con [[Delito Tributario]])
 - **Evidencia Documental**: `= this.evidencia_soporte`
 
-## Descripción Forense de la Operación
+## Descripción de la Operación
 Según la acusación de la Fiscalía, la gerencia general de [[SQM SA]] ([[Patricio Contesse Gonzalez]]) envió el 19 de agosto de 2010 al entonces senador [[Pablo Longueira Montes]] una minuta para modificar el régimen de invariabilidad tributaria del Royalty Minero, y la empresa habría canalizado pagos por aproximadamente **$730.000.000 CLP** entre 2009 y 2015 a personas de su entorno mediante boletas y facturas ([[Querella-SII-Boletas-SQM-2015]]).
 
 **Resultado judicial:** el 3° TOP de Santiago absolvió a ambos el 22-10-2025 al no dar por acreditados los hechos; hay recursos de nulidad pendientes. Este nexo registra una hipótesis acusatoria no acreditada, no un hecho probado.

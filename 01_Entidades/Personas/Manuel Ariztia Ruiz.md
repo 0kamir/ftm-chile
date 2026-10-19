@@ -24,12 +24,12 @@ tags:
 - **Situación Procesal**: `= this.situacion_procesal`
 - **Medida Cautelar / Sanciones**: `= this.medida_cautelar`
 
-## Síntesis Forense
+## Síntesis
 Empresario chileno del sector agropecuario, fundador y presidente de [[Empresas Ariztia SA]]. Su empresa fue una de las principales integrantes del cartel avícola sancionado en el [[Caso Colusion de los Pollos]].
 
 De acuerdo con el requerimiento de la [[Fiscalia Nacional Economica]] y el fallo del Tribunal de Defensa de la Libre Competencia ([[Sentencia-TDLC-139-Colusion-Pollos-2014]]), Ariztía participó sistemáticamente en los acuerdos para coordinar los volúmenes de faenamiento y limitar la producción con el objetivo de controlar los precios internos, motivo por el cual la [[Corte Suprema de Chile]] le impuso la sanción económica máxima de 30.000 UTA.
 
-## Auditoría Contable: Registros Reificados
+## Registros Reificados
 ```dataviewjs
 const pages = dv.pages('"03_Hechos_y_Nexos"')
   .where(p => (p.firmante_origen && String(p.firmante_origen).includes(dv.current().file.name)) ||

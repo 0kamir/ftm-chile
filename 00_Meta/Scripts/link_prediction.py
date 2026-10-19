@@ -1,26 +1,27 @@
 #!/usr/bin/env python3
 """
-Motor de Predicción de Vínculos Ocultos y Homofilia Estructural (`link_prediction.py`).
+Motor de Predicción de Similitud estructural y Homofilia Estructural (`link_prediction.py`).
 Implementa los estimadores topológicos de Liben-Nowell & Kleinberg:
 1. Índice de Adamic-Adar: AA(u, v) = sum_{w in N(u) n N(v)} 1 / ln(|N(w)|)
 2. Coeficiente de Jaccard: J(u, v) = |N(u) n N(v)| / |N(u) u N(v)|
 
 Evalúa pares de actores (Personas, Órganos Públicos, Entidades Privadas) que NO tienen una arista
 directa pero comparten vecinos operativos (partidos, transacciones intermedias, órganos o contrapartes),
-generando `05_Vistas_Analiticas/Prediccion_Vinculos_Ocultos.md`.
+generando `05_Vistas_Analiticas/Similitud_Estructural_de_Nodos.md`.
 """
 
 from collections import defaultdict
 import json
 import math
 import os
+from descargo import descargo  # noqa: E402
 
 ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 JSON_PATH = os.path.join(
     ROOT_DIR, "05_Vistas_Analiticas", "Exportaciones", "metricas_red.json"
 )
 OUT_MD = os.path.join(
-    ROOT_DIR, "05_Vistas_Analiticas", "Prediccion_Vinculos_Ocultos.md"
+    ROOT_DIR, "05_Vistas_Analiticas", "Similitud_Estructural_de_Nodos.md"
 )
 
 ACTOR_TYPES = {"persona", "entidad_publica", "entidad_privada"}
@@ -103,7 +104,7 @@ def main() -> int:
     lines = [
         "---",
         "tipo_nodo: vista_analitica",
-        'titulo: "Predicción de Vínculos Ocultos (Índices Adamic-Adar y Jaccard)"',
+        'titulo: "Predicción de Similitud estructural (Índices Adamic-Adar y Jaccard)"',
         "actualizacion_automatica: true",
         "tags:",
         "  - dashboard",
@@ -111,9 +112,11 @@ def main() -> int:
         "  - adamic-adar",
         "---",
         "",
-        "# Predicción Forense de Vínculos Ocultos (*Link Prediction*)",
+        "# Similitud Estructural entre Nodos (*Link Prediction*)",
         "",
-        "Aplicación de los algoritmos **Adamic-Adar ($AA$)** y **Coeficiente de Jaccard ($J$)** (Liben-Nowell & Kleinberg) sobre el grafo operativo para identificar pares de actores (`Persona`, `Entidad Pública`, `Entidad Privada`) que no poseen un enlace directo en su ficha, pero comparten intermediarios, partidos políticos o transacciones puente:",
+        *descargo("similitud"),
+        "",
+        "Aplicación de los algoritmos **Adamic-Adar ($AA$)** y **Coeficiente de Jaccard ($J$)** (Liben-Nowell & Kleinberg) sobre el grafo para identificar pares de actores (`Persona`, `Entidad Pública`, `Entidad Privada`) que no poseen un enlace directo en su ficha, pero comparten intermediarios, partidos políticos o transacciones puente:",
         "",
         "$$AA(u, v) = \\sum_{w \\in \\Gamma(u) \\cap \\Gamma(v)} \\frac{1}{\\ln |\\Gamma(w)|}$$",
         "",
@@ -135,7 +138,7 @@ def main() -> int:
         f.write("\n".join(lines) + "\n")
 
     print(
-        f"[OK] Predicción de Vínculos Ocultos generada: {os.path.relpath(OUT_MD, ROOT_DIR)} "
+        f"[OK] Similitud estructural generada: {os.path.relpath(OUT_MD, ROOT_DIR)} "
         f"({len(predictions)} pares candidatos evaluados)"
     )
     return 0

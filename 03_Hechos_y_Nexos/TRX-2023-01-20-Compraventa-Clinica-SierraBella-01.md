@@ -31,7 +31,7 @@ tags:
 
 # TRX-2023-01-20-Compraventa-Clinica-SierraBella-01
 
-## Ficha de Arista Reificada (Transacción / Hecho Auditado)
+## Ficha de Arista Reificada (Transacción / Hecho Registrado)
 - **ID Transacción**: `= this.id_transaccion`
 - **Fecha**: `= this.fecha`
 - **Tipo de Nexo**: `= this.tipo_nexo`
@@ -45,8 +45,8 @@ tags:
 - **Causa Judicial**: `= this.causa_vinculada`
 - **Evidencia de Soporte**: `= this.evidencia_soporte`
 
-## Descripción Forense del Hecho
-Suscripción de escritura pública de compraventa por trato directo entre la [[Municipalidad de Santiago]] —representada por [[Iraci Hassler Jacob]]— e [[Inmobiliaria San Valentino SpA]] —constituida el 5 de abril de 2022 y representada por [[Felipe Sanchez Perez]]— por un monto de `$8.200.000.000 CLP` para adquirir la ex Clínica Sierra Bella. La operación activa la alerta forense de **Constitución Reciente (`< 365 días`, `290 días`)** y fue objetada por la [[Contraloria General de la Republica]] ([[Jorge Bermudez Soto]]) en el [[Dictamen-CGR-SierraBella-2023]].
+## Descripción del Hecho
+Suscripción de escritura pública de compraventa por trato directo entre la [[Municipalidad de Santiago]] —representada por [[Iraci Hassler Jacob]]— e [[Inmobiliaria San Valentino SpA]] —constituida el 5 de abril de 2022 y representada por [[Felipe Sanchez Perez]]— por un monto de `$8.200.000.000 CLP` para adquirir la ex Clínica Sierra Bella. La operación activa la alerta de **Constitución Reciente (`< 365 días`, `290 días`)** y fue objetada por la [[Contraloria General de la Republica]] ([[Jorge Bermudez Soto]]) en el [[Dictamen-CGR-SierraBella-2023]].
 
 ## Fuentes Verificables
 ```dataview

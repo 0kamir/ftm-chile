@@ -8,13 +8,11 @@ rol_principal: "Ex Alcaldesa de la Municipalidad de Maipú (2016-2021)"
 afiliacion_politica: "[[Union Democrata Independiente]]"
 situacion_procesal: formalizado
 medida_cautelar: "Prisión preventiva / Arresto domiciliario total"
-vinculos_familiares:
-  - "[[Carlos Eugenio Lavin Garcia-Huidobro]]"
+vinculos_familiares: []
 tags:
   - entidad/persona
   - caso-maipu
   - alcaldesa
-  - clan-lavin-barriga
 ---
 
 # Cathy Barriga Guerra
@@ -23,14 +21,14 @@ tags:
 - **RUT**: `= this.rut`
 - **Rol Principal**: `= this.rol_principal` ([[Municipalidad de Maipu]])
 - **Afiliación Política**: `= this.afiliacion_politica`
-- **Vínculos Familiares (Grafo de Parentesco)**: `= this.vinculos_familiares` *(Sobrina política por afinidad extendida de [[Carlos Eugenio Lavin Garcia-Huidobro]], en tanto cónyuge del diputado Joaquín Lavín León y nuera de Joaquín Lavín Infante)*
+- **Vínculos Familiares (Grafo de Parentesco)**: `= this.vinculos_familiares`
 - **Situación Procesal**: `= this.situacion_procesal`
 - **Medida Cautelar Vigente**: `= this.medida_cautelar`
 
-## Síntesis Forense
+## Síntesis
 Exalcaldesa de la [[Municipalidad de Maipu]] y ex Consejera Regional, electa en el cupo de [[Union Democrata Independiente]]. Fue formalizada por la Fiscalía Metropolitana Oriente en el [[Caso Municipalidad de Maipu]] por delitos reiterados de [[Fraude al Fisco]] y falsificación de instrumento público por un perjuicio patrimonial de **$30.972.000.000 CLP** ([[TRX-2020-12-15-Deficit-Maipu-Certificados-01]]), según el [[Informe-Contraloria-Municipalidad-Maipu-2021]].
 
-## Auditoría Contable: Montos Imputados como Firmante de Origen
+## Montos Imputados como Firmante de Origen
 ```dataviewjs
 const pages = dv.pages('"03_Hechos_y_Nexos"')
   .where(p => p.firmante_origen && (

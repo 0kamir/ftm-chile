@@ -32,5 +32,5 @@ tags:
 - **Infracción Acreditada**: `= this.delito_imputado`
 - **Evidencia Soporte**: `= this.evidencia_soporte`
 
-## Descripción Forense del Hecho
+## Descripción del Hecho
 Entre diciembre de 2007 y marzo de 2008, las gerencias comerciales de [[Farmacias Salcobrand SA]] (bajo el mando de [[Roberto Belloni Pechini]]), [[Farmacias Cruz Verde SA]] (controlada por [[Guillermo Harding Alvarado]]) y [[Farmacias Ahumada SA]] (controlada por [[Jose Codner Chijner]]) ejecutaron un esquema concertado para elevar de forma artificial y simultánea los precios al consumidor de 222 medicamentos esenciales para tratamientos crónicos. El cartel operó contactando a los laboratorios farmacéuticos para que actuaran como supervisores del cumplimiento de las listas de precios infladas, amenazando con paralizar compras a los laboratorios que vendieran a precios inferiores a alguna de las cadenas.

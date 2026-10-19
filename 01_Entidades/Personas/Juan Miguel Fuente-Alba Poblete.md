@@ -23,10 +23,10 @@ tags:
 - **Situación Procesal**: `= this.situacion_procesal`
 - **Medida Cautelar Vigente**: `= this.medida_cautelar`
 
-## Síntesis Forense
+## Síntesis
 General de Ejército (r) y Comandante en Jefe entre 2010 y 2014. Fue sometido a proceso por la Ministra en Visita Romy Rutherford ([[Procesamientos-Ministra-Rutherford-Milicogate]]) en el [[Caso Milicogate]] por [[Malversacion de Caudales Publicos]] de gastos reservados y juzgado en la justicia ordinaria por [[Lavado de Activos]]. Durante su período de mando ocurrió además el fraude con fondos de la Ley Reservada del Cobre investigado en el Milicogate en el [[Comando de Apoyo a la Fuerza del Ejercito]] ([[TRX-2014-05-20-Facturas-LeyReservadaCobre-01]]).
 
-## Auditoría Contable: Montos Asociados como Mando de Origen
+## Montos Asociados como Mando de Origen
 ```dataviewjs
 const pages = dv.pages('"03_Hechos_y_Nexos"')
   .where(p => p.firmante_origen && (

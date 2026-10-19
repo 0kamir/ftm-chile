@@ -35,10 +35,10 @@ tags:
 - **Situación Procesal**: `= this.situacion_procesal`
 - **Medida Cautelar / Estado Procesal**: `= this.medida_cautelar`
 
-## Síntesis Forense
+## Síntesis
 Ex Alcalde de la [[Municipalidad de Cerro Navia]] y militante de [[Renovacion Nacional]]. En el [[Caso Basura]] ([[Acusacion-Fiscalia-Occidente-CasoBasura-2017]]), fue formalizado y acusado por la Fiscalía Regional Metropolitana Occidente junto a su entonces administrador municipal [[Marcelo Torres Ferrari]] por el delito de [[Fraude al Fisco]] en contrataciones y licitaciones municipales de aseo y servicios conexos a la red de [[KDM Empresas SA]] por **$1.120.000.000 CLP** ([[TRX-2012-03-22-Fraude-Residuos-CerroNavia-01]]).
 
-## Auditoría Contable: Montos Autorizados como Firmante de Origen
+## Montos Autorizados como Firmante de Origen
 ```dataviewjs
 const pages = dv.pages('"03_Hechos_y_Nexos"')
   .where(p => p.firmante_origen && String(p.firmante_origen).includes(dv.current().file.name));

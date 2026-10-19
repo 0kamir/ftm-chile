@@ -23,7 +23,7 @@ tags:
 
 # Acuerdo-Conciliatorio-FNE-FASA-2009
 
-## Metadatos de Fuente Primaria (Cadena de Custodia Administrativa)
+## Metadatos de la Fuente
 - **ID Evidencia**: `= this.id_evidencia`
 - **Tipo de Documento**: `= this.tipo_documento`
 - **Fecha de Suscripción**: `= this.fecha_emision`

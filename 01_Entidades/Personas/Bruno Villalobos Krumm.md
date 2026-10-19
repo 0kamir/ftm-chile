@@ -24,12 +24,12 @@ tags:
 - **Situación Procesal**: `= this.situacion_procesal`
 - **Medida Cautelar Vigente**: `= this.medida_cautelar`
 
-## Síntesis Forense
+## Síntesis
 General director de Carabineros entre agosto de 2015 y marzo de 2018. Su jefatura institucional coincidió con el destape de los dos mayores escándalos de la policía uniformada: el fraude en el [[Caso Pacogate]] y el montaje de inteligencia en la [[Caso Operacion Huracan]]. 
 
 Durante la [[Caso Operacion Huracan]], respaldó la labor de la UIOE encabezada por el general [[Gonzalo Blu Rodriguez]], defendiendo la validez de los antecedentes presentados ante el Ministerio del Interior. En enero de 2018, al revelarse los peritajes de la PDI que desacreditaron el software «Antorcha», viajó al extranjero de vacaciones, lo que desató una fuerte controversia pública y culminó con su renuncia forzada el 12 de marzo de 2018. Paralelamente, fue procesado por la justicia militar y civil por la presunta malversación de más de `$600.000.000 CLP` en gastos reservados institucionales.
 
-## Auditoría Contable: Registros Reificados
+## Registros Reificados
 ```dataviewjs
 const pages = dv.pages('"03_Hechos_y_Nexos"')
   .where(p => (p.firmante_origen && String(p.firmante_origen).includes(dv.current().file.name)) ||

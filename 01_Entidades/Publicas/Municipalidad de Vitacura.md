@@ -18,7 +18,7 @@ tags:
 - **Región**: `= this.region`
 - **Superior Jerárquico**: `= this.superior_jerarquico`
 
-## Contexto en Investigaciones Forenses
+## Contexto en Investigaciones
 Corporación edilicia encabezada entre 1996 y 2021 por el alcalde [[Raul Torrealba del Pedregal]]. En el [[Caso Vitacura]], el Ministerio Público y el Consejo de Defensa del Estado acreditaron el uso de corporaciones privadas sin fines de lucro ("Programas Vita", como [[Vita Deportes]]) para eludir los controles de la Contraloría sobre el presupuesto municipal y sustraer fondos públicos ([[TRX-2021-04-15-Subvencion-VitaDeportes-01]]).
 
 ## Nexos y Transferencias Emitidas / Recibidas

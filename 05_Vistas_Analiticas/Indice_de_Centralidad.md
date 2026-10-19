@@ -1,21 +1,27 @@
 ---
 tipo_nodo: vista_analitica
-titulo: "Índice de Riesgo Forense (Scoring 0–100) y Proyección Bipartita Persona–Persona"
+titulo: "Índice de Centralidad (0–100) y Proyección Bipartita Persona–Persona"
 actualizacion_automatica: true
 tags:
   - dashboard
-  - riesgo-forense
+  - centralidad
   - proyeccion-bipartita
   - osint
 ---
 
-# Índice Compuesto de Riesgo Forense y Red de Co-Operación
+# Índice de Centralidad y Coaparición en Hechos
 
-Vista analítica avanzada en `DataviewJS` que calcula un **Score de Exposición Forense (`0–100 puntos`)** por cada sujeto investigado y proyecta el grafo bipartito `Persona ↔ Nexo TRX ↔ Persona` en una **matriz de vínculos directos entre operadores**.
+> [!WARNING] Análisis exploratorio, no prueba de responsabilidad
+> Este reporte aplica métricas de análisis de redes a los datos del vault. Sus resultados describen la estructura del grafo, no hechos: una cercanía, un agrupamiento o un par similar no indica que exista una relación, un acuerdo ni un delito. Los datos tienen calidades distintas (ver `monto_origen` y `estado_verificacion`) y pueden contener errores. Toda persona mencionada se presume inocente mientras no exista sentencia condenatoria firme. No citar estos resultados como prueba ni como acusación.
+>
+> El puntaje mide cuán conectada está una persona en el grafo del vault (cantidad de hechos y causas en que aparece), no su responsabilidad: una persona absuelta o mencionada como testigo también puede tener un puntaje alto.
+
+
+Vista analítica avanzada en `DataviewJS` que calcula un **puntaje de centralidad (`0–100 puntos`)** por cada persona registrada y proyecta el grafo bipartito `Persona ↔ Nexo TRX ↔ Persona` en una **matriz de vínculos directos entre operadores**.
 
 ---
 
-## 1. Ranking de Exposición y Riesgo Forense por Persona (`Score 0–100`)
+## 1. Centralidad de cada Persona en el Grafo (`Score 0–100`)
 
 El modelo pondera cuatro factores objetivos:
 1. **Gravedad Procesal (hasta 30 pts)**: `formalizado`/`condenado` (+30 pts), `testigo` (+10 pts).
@@ -83,7 +89,7 @@ for (let p of personas) {
 ranking.sort((a, b) => b.score - a.score || b.monto - a.monto);
 
 dv.table(
-  ["Persona", "Score (0–100)", "Nivel de Riesgo", "Situación Procesal", "N° Nexos", "Flujo Vinculado (CLP)", "Partido"],
+  ["Persona", "Score (0–100)", "Nivel de Centralidad", "Situación Procesal", "N° Nexos", "Flujo Vinculado (CLP)", "Partido"],
   ranking.map(r => [
     r.link,
     `**${r.score} / 100**`,
@@ -98,7 +104,7 @@ dv.table(
 
 ---
 
-## 2. Proyección Bipartita Persona ↔ Persona (Pares de Co-Operación Directa)
+## 2. Proyección Bipartita Persona ↔ Persona (Pares de coaparición Directa)
 
 Colapsa los nodos intermedios `03_Hechos_y_Nexos/` para revelar qué pares de personas naturales han actuado como contrapartes directas (`firmante_origen ↔ firmante_destino`), cuántas veces han operado juntas y el monto consolidado entre ambas.
 

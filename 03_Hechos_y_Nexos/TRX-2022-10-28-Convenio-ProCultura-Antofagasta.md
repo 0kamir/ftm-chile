@@ -32,5 +32,5 @@ tags:
 - **Delito Imputado**: `= this.delito_imputado`
 - **Evidencia Documental**: `= this.evidencia_soporte`
 
-## Descripción Forense de la Operación
+## Descripción de la Operación
 Convenios de transferencia directa suscritos en octubre de 2022 entre la [[Seremi MINVU Antofagasta]] ([[Carlos Contreras Gutierrez]]) y [[Fundacion ProCultura]] ([[Alberto Larrain Salas]]) por un total de **$500.000.000 CLP** para habitabilidad primaria en asentamientos precarios y recuperación de fachadas, investigados en el [[Caso Convenios]] por [[Fraude al Fisco]].

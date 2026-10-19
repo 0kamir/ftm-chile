@@ -18,7 +18,7 @@ tags:
 - **Región**: `= this.region`
 - **Superior Jerárquico**: `= this.superior_jerarquico`
 
-## Contexto en Investigaciones Forenses
+## Contexto en Investigaciones
 Servicio estatal encargado de velar por el cumplimiento de la Ley N° 19.496 sobre Protección de los Derechos de los Consumidores. En el [[Caso Colusion del Papel Tissue]], encabezó la mesa de negociación extrajudicial y el Procedimiento Voluntario Colectivo que concluyó en el histórico acuerdo compensatorio de **$97.500.000.000 CLP** pagados por [[Empresas CMPC SA]] a más de 13 millones de chilenos ([[Acuerdo-Compensatorio-SERNAC-CMPC-Tissue-2017]]).
 
 ## Nexos y Operaciones Registradas

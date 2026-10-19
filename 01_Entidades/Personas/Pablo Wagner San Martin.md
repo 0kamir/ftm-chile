@@ -35,10 +35,10 @@ tags:
 - **Situación Procesal**: `= this.situacion_procesal`
 - **Medida Cautelar / Condena Vigente**: `= this.medida_cautelar`
 
-## Síntesis Forense
+## Síntesis
 Ex Subsecretario de Minería y exejecutivo de [[Empresas Penta SA]]. En el [[Caso Penta]] recibió pagos bimensuales de `$3.000.000 CLP` (`$42.000.000 CLP` en total) de [[Empresas Penta SA]] mientras ejercía funciones públicas, documentados con boletas de terceros ([[TRX-2011-03-10-Pagos-Penta-Wagner-01]]). El 8° Juzgado de Garantía de Santiago (julio de 2018, procedimiento abreviado) lo **absolvió de cohecho** y lo condenó por enriquecimiento ilícito y delitos tributarios (pena remitida de dos años e inhabilitación para cargos públicos); la propia Fiscalía reconoció no haber acreditado que los pagos fueran a cambio de favores.
 
-## Auditoría Contable: Montos Recibidos como Firmante de Destino
+## Montos Recibidos como Firmante de Destino
 ```dataviewjs
 const pages = dv.pages('"03_Hechos_y_Nexos"')
   .where(p => p.firmante_destino && (

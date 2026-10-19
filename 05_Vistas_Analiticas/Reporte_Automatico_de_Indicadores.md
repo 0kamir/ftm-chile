@@ -1,6 +1,6 @@
 ---
 tipo_nodo: vista_analitica
-titulo: "Reporte de Auditoría Forense Automatizada (UTM, HHI, PageRank, Brandes y Topología)"
+titulo: "Reporte de Revisión Automatizada (UTM, HHI, PageRank, Brandes y Topología)"
 actualizacion_automatica: true
 tags:
   - dashboard
@@ -8,7 +8,13 @@ tags:
   - topologia
 ---
 
-# Reporte de Auditoría Forense Automatizada (CGR / Ministerio Público)
+# Reporte Automático de Indicadores (montos, umbrales y centralidad)
+
+> [!WARNING] Análisis exploratorio, no prueba de responsabilidad
+> Este reporte aplica métricas de análisis de redes a los datos del vault. Sus resultados describen la estructura del grafo, no hechos: una cercanía, un agrupamiento o un par similar no indica que exista una relación, un acuerdo ni un delito. Los datos tienen calidades distintas (ver `monto_origen` y `estado_verificacion`) y pueden contener errores. Toda persona mencionada se presume inocente mientras no exista sentencia condenatoria firme. No citar estos resultados como prueba ni como acusación.
+>
+> Los umbrales (por ejemplo, el de toma de razón de la Contraloría) se usan como señales para revisar documentos, no como determinación de una irregularidad.
+
 
 - **Monto Global Investigado**: **$669.122.093.990 CLP** (Equivalente a **11.252.779.5 UTM**)
 - **Total de Aristas Reificadas (`TRX`)**: **65**
@@ -300,43 +306,43 @@ flowchart LR
 
 | Entidad Emisora | N° Receptores | Monto Total Emitido (CLP) | Índice HHI (0–10.000) | Diagnóstico de Concentración |
 | :--- | :---: | ---: | ---: | :--- |
-| [[]] | 2 | $240.055.030.792 | **9995** | Alta Concentración / Captura (> 2.500) |
-| [[Empresas CMPC SA]] | 1 | $97.500.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
-| [[Andes Iron SpA]] | 1 | $75.500.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
-| [[Agrosuper SA]] | 1 | $38.400.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
-| [[Mossack Fonseca y Sociedades Offshore Panama]] | 3 | $37.500.000.000 | **4241** | Alta Concentración / Captura (> 2.500) |
-| [[Bancard Inversiones Ltda]] | 3 | $32.050.000.000 | **4268** | Alta Concentración / Captura (> 2.500) |
-| [[Municipalidad de Maipu]] | 1 | $30.972.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
-| [[Direccion de Finanzas de Carabineros]] | 2 | $29.798.928.198 | **9074** | Alta Concentración / Captura (> 2.500) |
-| [[Comando de Apoyo a la Fuerza del Ejercito]] | 4 | $28.350.000.000 | **3830** | Alta Concentración / Captura (> 2.500) |
-| [[Agencia Central de Inteligencia CIA y Escuela de las Americas]] | 3 | $26.400.000.000 | **4501** | Alta Concentración / Captura (> 2.500) |
-| [[Fundacion CEMA Chile]] | 1 | $10.500.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
-| [[Sociedad Benefactora y Educacional Dignidad]] | 1 | $3.450.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
-| [[GORE Biobio]] | 2 | $2.803.635.000 | **8372** | Alta Concentración / Captura (> 2.500) |
-| [[Exportadora y de Gestion Caval Ltda]] | 1 | $2.500.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
-| [[Riggs Bank y Sociedades Offshore Ashburton]] | 1 | $2.450.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
-| [[Farmacias Salcobrand SA]] | 1 | $2.180.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
-| [[Empresas Penta SA]] | 2 | $1.458.000.000 | **9440** | Alta Concentración / Captura (> 2.500) |
-| [[Ministerio de Obras Publicas]] | 1 | $1.253.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
-| [[Municipalidad de Cerro Navia]] | 1 | $1.120.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
-| [[SQM SA]] | 2 | $1.070.000.000 | **5664** | Alta Concentración / Captura (> 2.500) |
-| [[Seremi MINVU Antofagasta]] | 2 | $926.000.000 | **5032** | Alta Concentración / Captura (> 2.500) |
-| [[Factop SpA]] | 3 | $770.000.000 | **4664** | Alta Concentración / Captura (> 2.500) |
-| [[Municipalidad de Vitacura]] | 1 | $759.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
-| [[Inversiones El Bosque Ltda]] | 1 | $480.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
-| [[Union Democrata Independiente]] | 1 | $240.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
-| [[Corpesca SA]] | 1 | $233.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
-| [[KDM Empresas SA]] | 1 | $186.500.000 | **10000** | Alta Concentración / Captura (> 2.500) |
-| [[Renovacion Nacional]] | 1 | $120.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
-| [[Itelecom Holding Chile SpA]] | 1 | $37.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
-| [[Senado de la Republica de Chile]] | 1 | $35.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
-| [[Direccion de Inteligencia Policial de Carabineros]] | 1 | $25.000.000 | **10000** | Alta Concentración / Captura (> 2.500) |
+| [[]] | 2 | $240.055.030.792 | **9995** | Alta Concentración (> 2.500) |
+| [[Empresas CMPC SA]] | 1 | $97.500.000.000 | **10000** | Alta Concentración (> 2.500) |
+| [[Andes Iron SpA]] | 1 | $75.500.000.000 | **10000** | Alta Concentración (> 2.500) |
+| [[Agrosuper SA]] | 1 | $38.400.000.000 | **10000** | Alta Concentración (> 2.500) |
+| [[Mossack Fonseca y Sociedades Offshore Panama]] | 3 | $37.500.000.000 | **4241** | Alta Concentración (> 2.500) |
+| [[Bancard Inversiones Ltda]] | 3 | $32.050.000.000 | **4268** | Alta Concentración (> 2.500) |
+| [[Municipalidad de Maipu]] | 1 | $30.972.000.000 | **10000** | Alta Concentración (> 2.500) |
+| [[Direccion de Finanzas de Carabineros]] | 2 | $29.798.928.198 | **9074** | Alta Concentración (> 2.500) |
+| [[Comando de Apoyo a la Fuerza del Ejercito]] | 4 | $28.350.000.000 | **3830** | Alta Concentración (> 2.500) |
+| [[Agencia Central de Inteligencia CIA y Escuela de las Americas]] | 3 | $26.400.000.000 | **4501** | Alta Concentración (> 2.500) |
+| [[Fundacion CEMA Chile]] | 1 | $10.500.000.000 | **10000** | Alta Concentración (> 2.500) |
+| [[Sociedad Benefactora y Educacional Dignidad]] | 1 | $3.450.000.000 | **10000** | Alta Concentración (> 2.500) |
+| [[GORE Biobio]] | 2 | $2.803.635.000 | **8372** | Alta Concentración (> 2.500) |
+| [[Exportadora y de Gestion Caval Ltda]] | 1 | $2.500.000.000 | **10000** | Alta Concentración (> 2.500) |
+| [[Riggs Bank y Sociedades Offshore Ashburton]] | 1 | $2.450.000.000 | **10000** | Alta Concentración (> 2.500) |
+| [[Farmacias Salcobrand SA]] | 1 | $2.180.000.000 | **10000** | Alta Concentración (> 2.500) |
+| [[Empresas Penta SA]] | 2 | $1.458.000.000 | **9440** | Alta Concentración (> 2.500) |
+| [[Ministerio de Obras Publicas]] | 1 | $1.253.000.000 | **10000** | Alta Concentración (> 2.500) |
+| [[Municipalidad de Cerro Navia]] | 1 | $1.120.000.000 | **10000** | Alta Concentración (> 2.500) |
+| [[SQM SA]] | 2 | $1.070.000.000 | **5664** | Alta Concentración (> 2.500) |
+| [[Seremi MINVU Antofagasta]] | 2 | $926.000.000 | **5032** | Alta Concentración (> 2.500) |
+| [[Factop SpA]] | 3 | $770.000.000 | **4664** | Alta Concentración (> 2.500) |
+| [[Municipalidad de Vitacura]] | 1 | $759.000.000 | **10000** | Alta Concentración (> 2.500) |
+| [[Inversiones El Bosque Ltda]] | 1 | $480.000.000 | **10000** | Alta Concentración (> 2.500) |
+| [[Union Democrata Independiente]] | 1 | $240.000.000 | **10000** | Alta Concentración (> 2.500) |
+| [[Corpesca SA]] | 1 | $233.000.000 | **10000** | Alta Concentración (> 2.500) |
+| [[KDM Empresas SA]] | 1 | $186.500.000 | **10000** | Alta Concentración (> 2.500) |
+| [[Renovacion Nacional]] | 1 | $120.000.000 | **10000** | Alta Concentración (> 2.500) |
+| [[Itelecom Holding Chile SpA]] | 1 | $37.000.000 | **10000** | Alta Concentración (> 2.500) |
+| [[Senado de la Republica de Chile]] | 1 | $35.000.000 | **10000** | Alta Concentración (> 2.500) |
+| [[Direccion de Inteligencia Policial de Carabineros]] | 1 | $25.000.000 | **10000** | Alta Concentración (> 2.500) |
 
 ---
 
-## 4. Ranking de Nodos Puente (*Betweenness Centrality* & *PageRank Forense*)
+## 4. Ranking de Nodos Puente (*Betweenness Centrality* & *PageRank*)
 
-| Posición | Nodo / Entidad | Tipo de Nodo | Intermediación (Brandes) | PageRank Forense | Rol Topológico |
+| Posición | Nodo / Entidad | Tipo de Nodo | Intermediación (Brandes) | PageRank | Rol Topológico |
 | :---: | :--- | :--- | ---: | ---: | :--- |
 | 1 | [[Corte Suprema de Chile]] | `entidad_publica` | `0.4076` | `0.0210` | Conector Interregional / Puente Crítico |
 | 2 | [[Bancard Inversiones Ltda]] | `entidad_privada` | `0.1507` | `0.0085` | Conector Interregional / Puente Crítico |

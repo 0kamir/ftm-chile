@@ -1,22 +1,23 @@
 #!/usr/bin/env python3
 """
-Motor Forense de Detección de Anomalías, Cálculo de UTM, Índice de Concentración HHI,
-Centralidad de Intermediación (Brandes), PageRank Forense y Generador de Reporte Ejecutivo Markdown.
+Motor de Detección de Anomalías, Cálculo de UTM, Índice de Concentración HHI,
+Centralidad de Intermediación (Brandes), PageRank y Generador de Reporte Ejecutivo Markdown.
 
 Ejecución:
   python3 00_Meta/Scripts/forensic_audit.py
 Genera:
-  05_Vistas_Analiticas/Reporte_Auditoria_Automatizada.md
+  05_Vistas_Analiticas/Reporte_Automatico_de_Indicadores.md
 """
 
 from collections import defaultdict, deque
 import os
 import re
 import yaml
+from descargo import descargo  # noqa: E402
 
 ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 OUT_REPORT = os.path.join(
-    ROOT_DIR, "05_Vistas_Analiticas", "Reporte_Auditoria_Automatizada.md"
+    ROOT_DIR, "05_Vistas_Analiticas", "Reporte_Automatico_de_Indicadores.md"
 )
 
 UTM_HISTORICA = {
@@ -82,7 +83,7 @@ def compute_betweenness(adj: dict[str, set[str]]) -> dict[str, float]:
 
 
 def compute_pagerank(adj: dict[str, set[str]], damping: float = 0.85, iterations: int = 40) -> dict[str, float]:
-    """Algoritmo PageRank iterativo sobre la red operativa."""
+    """Algoritmo PageRank iterativo sobre la red."""
     nodes = list(adj.keys())
     n = len(nodes)
     if n == 0:
@@ -118,7 +119,7 @@ def compute_hhi_by_origin(nexos: list[dict]) -> list[dict]:
             continue
         hhi = sum(((monto / total) * 100.0) ** 2 for monto in destinos.values())
         nivel = (
-            "Alta Concentración / Captura (> 2.500)"
+            "Alta Concentración (> 2.500)"
             if hhi >= 2500
             else "Concentración Moderada"
         )
@@ -249,7 +250,7 @@ def main() -> int:
     lines = [
         "---",
         "tipo_nodo: vista_analitica",
-        'titulo: "Reporte de Auditoría Forense Automatizada (UTM, HHI, PageRank, Brandes y Topología)"',
+        'titulo: "Reporte de Revisión Automatizada (UTM, HHI, PageRank, Brandes y Topología)"',
         "actualizacion_automatica: true",
         "tags:",
         "  - dashboard",
@@ -257,7 +258,9 @@ def main() -> int:
         "  - topologia",
         "---",
         "",
-        "# Reporte de Auditoría Forense Automatizada (CGR / Ministerio Público)",
+        "# Reporte Automático de Indicadores (montos, umbrales y centralidad)",
+        "",
+        *descargo("indicadores"),
         "",
         f"- **Monto Global Investigado**: **{fmt_clp(total_global_clp)} CLP** (Equivalente a **{total_global_utm:,.1f} UTM**)".replace(
             ",", "."
@@ -345,9 +348,9 @@ def main() -> int:
             "",
             "---",
             "",
-            "## 4. Ranking de Nodos Puente (*Betweenness Centrality* & *PageRank Forense*)",
+            "## 4. Ranking de Nodos Puente (*Betweenness Centrality* & *PageRank*)",
             "",
-            "| Posición | Nodo / Entidad | Tipo de Nodo | Intermediación (Brandes) | PageRank Forense | Rol Topológico |",
+            "| Posición | Nodo / Entidad | Tipo de Nodo | Intermediación (Brandes) | PageRank | Rol Topológico |",
             "| :---: | :--- | :--- | ---: | ---: | :--- |",
         ]
     )
@@ -387,7 +390,7 @@ def main() -> int:
     with open(OUT_REPORT, "w", encoding="utf-8") as f:
         f.write("\n".join(lines) + "\n")
 
-    print(f"[OK] Reporte forense generado: {os.path.relpath(OUT_REPORT, ROOT_DIR)}")
+    print(f"[OK] Reporte generado: {os.path.relpath(OUT_REPORT, ROOT_DIR)}")
     print(f"     Fraccionamientos CGR detectados: {len(alertas_fraccionamiento)}")
     print(f"     Nodo con mayor intermediación  : {top_puentes[0][0]} (score={top_puentes[0][1]})")
     return 0

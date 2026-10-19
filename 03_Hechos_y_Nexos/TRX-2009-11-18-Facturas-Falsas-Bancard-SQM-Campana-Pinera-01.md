@@ -38,11 +38,11 @@ tags:
 
 # TRX-2009-11-18-Facturas-Falsas-Bancard-SQM-Campana-Pinera-01
 
-## Ficha de Arista Reificada (Transacción / Hecho Auditado)
+## Ficha de Arista Reificada (Transacción / Hecho Registrado)
 - **ID Transacción**: `= this.id_transaccion`
 - **Fecha**: `= this.fecha`
 - **Tipo de Nexo**: `= this.tipo_nexo`
-- **Monto Auditado (CLP)**: `$340.000.000 CLP` (`= this.monto_clp`)
+- **Monto Registrado (CLP)**: `$340.000.000 CLP` (`= this.monto_clp`)
 - **Método de Adjudicación**: `= this.metodo_adjudicacion`
 - **Entidad de Origen (Pagadora)**: `= this.entidad_origen`
 - **Entidad de Destino (Emisora)**: `= this.entidad_destino` (y empresas proveedoras de campaña como *Vox Populi* / *Administradora Bancorp*)
@@ -52,7 +52,7 @@ tags:
 - **Causa Judicial**: `= this.causa_vinculada`
 - **Evidencia de Soporte**: `= this.evidencia_soporte`
 
-## Descripción Forense del Hecho
+## Descripción del Hecho
 Pago de [[SQM SA]] a Bancorp, sociedad del grupo [[Bancard Inversiones Ltda]], por **$340.000.000 CLP** mediante 16 facturas (2009-2010) que la Fiscalía presumió ideológicamente falsas por no existir servicios que las justificaran. En 2015 SQM rectificó esos pagos ante el [[Servicio Impuestos Internos]]. [[Santiago Valdes Gutierrez]] sostuvo que la asesoría sí se prestó. En 2019 la Corte de Apelaciones sobreseyó a [[Santiago Valdes Gutierrez]] por prescripción (habían transcurrido más de cinco años desde los hechos al abrirse la investigación); no existe sentencia que declare falsas las facturas. Rige la presunción de inocencia.
 
 ## Fuentes Verificables

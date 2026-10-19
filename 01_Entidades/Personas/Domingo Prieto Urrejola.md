@@ -22,10 +22,10 @@ tags:
 - **Situación Procesal**: `= this.situacion_procesal`
 - **Medida Cautelar Vigente**: `= this.medida_cautelar`
 
-## Síntesis Forense
+## Síntesis
 Exdirectivo de los programas "Vita" y representante legal de [[Vita Deportes]]. Su testimonio y autodenuncia ante la Fiscalía ([[Declaracion-Judicial-Prieto-Vitacura-2021]]) destapó el mecanismo de desvío de subvenciones desde la [[Municipalidad de Vitacura]] ([[TRX-2021-04-15-Subvencion-VitaDeportes-01]]) hacia el entonces alcalde [[Raul Torrealba del Pedregal]] en el [[Caso Vitacura]].
 
-## Auditoría Contable: Montos Recibidos como Firmante de Destino
+## Montos Recibidos como Firmante de Destino
 ```dataviewjs
 const pages = dv.pages('"03_Hechos_y_Nexos"')
   .where(p => p.firmante_destino && (

@@ -17,16 +17,16 @@ tags:
 # Carlos Contreras Gutierrez
 
 ## Perfil Biográfico e Institucional
-- **RUT**: `= this.rut` (RUT de referencia forense)
+- **RUT**: `= this.rut` (RUT de referencia)
 - **Rol Principal**: `= this.rol_principal` ([[Seremi MINVU Antofagasta]])
 - **Afiliación Política**: `= this.afiliacion_politica`
 - **Situación Procesal**: `= this.situacion_procesal`
 - **Medida Cautelar Vigente**: `= this.medida_cautelar`
 
-## Síntesis Forense
+## Síntesis
 Ex Secretario Regional Ministerial de Vivienda y Urbanismo en la Región de Antofagasta ([[Seremi MINVU Antofagasta]]) y exmilitante de [[Revolucion Democratica]]. Fue formalizado por el Ministerio Público en el marco del [[Caso Convenios]] por delitos reiterados de fraude al fisco tras autorizar convenios de transferencia directa ([[TRX-2022-10-03-Convenio-DV-01]]) a favor de la [[Fundacion Democracia Viva]], representada por [[Daniel Andrade Schwarze]], mediante la [[Resolucion-Exenta-MINVU-Antofagasta-2022]].
 
-## Auditoría Contable: Montos Autorizados como Firmante de Origen
+## Montos Autorizados como Firmante de Origen
 ```dataviewjs
 const pages = dv.pages('"03_Hechos_y_Nexos"')
   .where(p => p.firmante_origen && (

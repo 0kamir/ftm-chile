@@ -42,11 +42,11 @@ tags:
 
 # TRX-2014-02-18-Soborno-Caval-Machali-01
 
-## Ficha de Arista Reificada (Transacción / Hecho Auditado)
+## Ficha de Arista Reificada (Transacción / Hecho Registrado)
 - **ID Transacción**: `= this.id_transaccion`
 - **Fecha**: `= this.fecha`
 - **Tipo de Nexo**: `= this.tipo_nexo`
-- **Monto Auditado (CLP)**: `$140.000.000 CLP` (`= this.monto_clp`)
+- **Monto Registrado (CLP)**: `$140.000.000 CLP` (`= this.monto_clp`)
 - **Método de Adjudicación**: `= this.metodo_adjudicacion`
 - **Entidad de Origen**: `= this.entidad_origen`
 - **Entidad de Destino**: `= this.entidad_destino`
@@ -56,7 +56,7 @@ tags:
 - **Causa Judicial**: `= this.causa_vinculada`
 - **Evidencia de Soporte**: `= this.evidencia_soporte`
 
-## Descripción Forense del Hecho
+## Descripción del Hecho
 Pagos directos o indirectos por **`$55.030.792 CLP`** del operador político y gestor inmobiliario Juan Díaz al entonces Director de Obras Municipales de la [[Municipalidad de Machali]], [[Jorge Silva Menares]], vinculados al cambio de uso de suelo de predios que luego adquirió [[Exportadora y de Gestion Caval Ltda]]. Silva fue condenado en procedimiento abreviado (enero de 2018) a 818 días con remisión condicional por cohecho reiterado. La acusación de soborno contra [[Mauricio Valero Illanes]] y la sociedad Caval **fue rechazada**: ambos fueron absueltos por el TOP de Rancagua en julio de 2018.
 
 ## Fuentes Verificables
