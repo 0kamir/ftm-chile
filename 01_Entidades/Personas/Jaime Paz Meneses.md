@@ -39,7 +39,7 @@ tags:
 - **Medida Cautelar / Condena Vigente**: `= this.medida_cautelar`
 
 ## Síntesis
-Ex Coronel de Intendencia en la [[Direccion de Finanzas de Carabineros]], señalado como figura clave del esquema del [[Caso Pacogate]], que según la acusación habría sustraído **$28.348.928.198 CLP** mediante depósitos ficticios de remuneraciones ([[TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01]]). En abril de 2026 el Tribunal de Juicio Oral en lo Penal de Santiago dictó veredicto condenatorio contra 25 de los 28 acusados que llegaron a juicio por malversación de caudales públicos reiterada y lavado de activos; **descartó la asociación ilícita** y las penas se fijarán en la sentencia (anunciada por la prensa para febrero de 2027). El veredicto no está firme. Ver [[Veredicto-TOP-Santiago-Pacogate-2026]]. Rige la presunción de inocencia hasta sentencia firme.
+Ex Coronel de Intendencia en la [[Direccion de Finanzas de Carabineros]], señalado como figura clave del esquema del [[Caso Pacogate]], que según la acusación habría sustraído **$28.348.928.198 CLP** mediante depósitos ficticios de remuneraciones ([[TRX-2016-11-10-Fondos-Direccion-Finanzas-Carabineros-01]]). En abril de 2026 el Tribunal de Juicio Oral en lo Penal de Santiago dictó veredicto condenatorio contra 25 de los 28 acusados que llegaron a juicio por malversación de caudales públicos reiterada y lavado de activos; **descartó la asociación ilícita** y las penas se fijarán en la sentencia (anunciada por la prensa para febrero de 2027). El veredicto no está firme. Ver [[Veredicto-TOP-Santiago-Pacogate-2026]]. Rige la presunción de inocencia hasta sentencia firme.
 
 ## Montos Operados como Firmante de Destino
 ```dataviewjs

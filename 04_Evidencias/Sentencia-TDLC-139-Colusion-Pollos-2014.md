@@ -6,7 +6,7 @@ fecha_emision: 2014-09-25
 organismo_emisor: "[[Corte Suprema de Chile]]"
 fuente_osint: "Tribunal de Defensa de la Libre Competencia (tdlc.cl) / Fiscalía Nacional Económica"
 causa_vinculada: "[[Caso Colusion de los Pollos]]"
-nexo_respaldado: "[[TRX-2008-01-15-Pacto-Cuotas-Produccion-Cartel-Pollos-01]]"
+nexo_respaldado: "[[TRX-2008-01-15-Colusion-Cuotas-Produccion-Pollos-01]]"
 estado_verificacion: verificado
 fuentes:
   - url: "https://www.fne.gob.cl/wp-content/uploads/2016/03/Sentencia_139-_2014.pdf"

@@ -38,7 +38,7 @@ tags:
 - **Medida Cautelar / Condena Vigente**: `= this.medida_cautelar`
 
 ## Síntesis
-Dueño de la consultora [[Gestion Ambiental y Territorial SA]] (GATE). En el [[Caso MOP-Gate]] fue condenado como autor de [[Fraude al Fisco]] a 61 días de presidio, condena confirmada por la Corte de Apelaciones de Santiago (2014) y por la [[Corte Suprema de Chile]] el 29 de junio de 2016 ([[Sentencia-Corte-Suprema-MOPGate-2016]]), por los contratos con el [[Ministerio de Obras Publicas]] cuyos fondos se usaron para pagar sobresueldos ([[TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01]]).
+Dueño de la consultora [[Gestion Ambiental y Territorial SA]] (GATE). En el [[Caso MOP-Gate]] fue condenado como autor de [[Fraude al Fisco]] a 61 días de presidio, condena confirmada por la Corte de Apelaciones de Santiago (2014) y por la [[Corte Suprema de Chile]] el 29 de junio de 2016 ([[Sentencia-Corte-Suprema-MOPGate-2016]]), por los contratos con el [[Ministerio de Obras Publicas]] cuyos fondos se usaron para pagar sobresueldos ([[TRX-2001-08-20-Contratos-MOP-GATE-01]]).
 
 ## Montos Operados como Firmante
 ```dataviewjs

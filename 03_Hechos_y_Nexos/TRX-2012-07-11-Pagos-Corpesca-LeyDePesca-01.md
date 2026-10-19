@@ -18,7 +18,7 @@ tags:
   - captura-legislativa
 ---
 
-# TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01
+# TRX-2012-07-11-Pagos-Corpesca-LeyDePesca-01
 
 ## Ficha de Arista Reificada (Soborno Parlamentario en Tramitación de Ley de Pesca)
 - **Fecha de Votación / Período Clave**: `= this.fecha`

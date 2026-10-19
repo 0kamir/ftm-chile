@@ -1,6 +1,6 @@
 ---
 tipo_nodo: nexo_transaccion
-id_transaccion: "TRX-2017-03-06-Lavado-Activos-Carabineros-UAF-01"
+id_transaccion: "TRX-2017-03-06-Reportes-UAF-Carabineros-01"
 fecha: 2017-03-06
 tipo_nexo: desviacion_fondos
 monto_clp: 1450000000
@@ -27,7 +27,7 @@ tags:
   - caso-pacogate
 ---
 
-# TRX-2017-03-06-Lavado-Activos-Carabineros-UAF-01
+# TRX-2017-03-06-Reportes-UAF-Carabineros-01
 
 ## Ficha de Arista Reificada (Transacción / Hecho Registrado)
 - **ID Transacción**: `= this.id_transaccion`

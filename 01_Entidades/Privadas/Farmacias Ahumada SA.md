@@ -23,7 +23,7 @@ tags:
 - **Controlador Histórico**: Fundada por [[Jose Codner Chijner]], posteriormente vendida al consorcio mexicano Casa Saba y luego a Walgreens Boots Alliance
 
 ## Contexto en Investigaciones
-Cadena de farmacias que junto a [[Farmacias Cruz Verde SA]] y [[Farmacias Salcobrand SA]] conformaba el oligopolio de más del 90% del mercado farmacéutico chileno. En el [[Caso Colusion de las Farmacias]], participó entre diciembre de 2007 y marzo de 2008 en un mecanismo coordinado de alzas de precios en 222 medicamentos críticos para enfermedades crónicas ([[TRX-2007-11-01-Coordinacion-Cartel-Precios-Medicamentos-Farmacias-01]]). En marzo de 2009, su directorio liderado por [[Jose Codner Chijner]] firmó un acuerdo conciliatorio con la [[Fiscalia Nacional Economica]] admitiendo la colusión e indemnizando con US$ 1 millón ([[Acuerdo-Conciliatorio-FNE-FASA-2009]]), lo que sirvió de prueba decisiva para sancionar a sus competidoras.
+Cadena de farmacias que junto a [[Farmacias Cruz Verde SA]] y [[Farmacias Salcobrand SA]] conformaba el oligopolio de más del 90% del mercado farmacéutico chileno. En el [[Caso Colusion de las Farmacias]], participó entre diciembre de 2007 y marzo de 2008 en un mecanismo coordinado de alzas de precios en 222 medicamentos críticos para enfermedades crónicas ([[TRX-2007-11-01-Colusion-Precios-Medicamentos-Farmacias-01]]). En marzo de 2009, su directorio liderado por [[Jose Codner Chijner]] firmó un acuerdo conciliatorio con la [[Fiscalia Nacional Economica]] admitiendo la colusión e indemnizando con US$ 1 millón ([[Acuerdo-Conciliatorio-FNE-FASA-2009]]), lo que sirvió de prueba decisiva para sancionar a sus competidoras.
 
 ## Historial de Recepción de Fondos y Nexos
 ```dataview

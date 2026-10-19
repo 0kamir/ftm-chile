@@ -1,6 +1,6 @@
 ---
 tipo_nodo: nexo_transaccion
-id_transaccion: "TRX-2012-03-22-Fraude-Residuos-CerroNavia-01"
+id_transaccion: "TRX-2012-03-22-Contratos-Residuos-CerroNavia-01"
 fecha: 2012-03-22
 tipo_nexo: trato_directo
 monto_clp: 1120000000
@@ -18,7 +18,7 @@ tags:
   - caso-basura
 ---
 
-# TRX-2012-03-22-Fraude-Residuos-CerroNavia-01
+# TRX-2012-03-22-Contratos-Residuos-CerroNavia-01
 
 ## Ficha de Arista Reificada (Transacción / Hecho Registrado)
 - **ID Transacción**: `= this.id_transaccion`

@@ -6,7 +6,7 @@ fecha_emision: 2015-10-29
 organismo_emisor: "[[Corte Suprema de Chile]]"
 fuente_osint: "Poder Judicial de Chile (pjud.cl) / Fiscalía Nacional Económica"
 causa_vinculada: "[[Caso Colusion de los Pollos]]"
-nexo_respaldado: "[[TRX-2015-10-29-Pago-Multas-Historicas-Cartel-Pollos-01]]"
+nexo_respaldado: "[[TRX-2015-10-29-Pago-Multas-Colusion-Pollos-01]]"
 estado_verificacion: verificado
 fuentes:
   - url: "https://www.fne.gob.cl/wp-content/uploads/2015/10/secs_27_181-14.pdf"

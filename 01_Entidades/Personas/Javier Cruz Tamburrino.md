@@ -23,7 +23,7 @@ tags:
 - **Estado**: `= this.medida_cautelar`
 
 ## Síntesis
-Abogado y ex Director de la [[Unidad de Analisis Financiero]] (UAF). Durante su gestión al frente de la unidad de inteligencia financiera del Estado se remitieron al Ministerio Público los Reportes de Operaciones Sospechosas (ROS) bancarias, automotrices e inmobiliarias que destaparon y documentaron los esquemas de [[Lavado de Activos]] de [[Juan Miguel Fuente-Alba Poblete]] en el [[Caso Milicogate]] ([[TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01]]) y del clan mafioso de intendencia encabezado por [[Flavio Echeverria Cortez]] en la [[Direccion de Finanzas de Carabineros]] en el [[Caso Pacogate]] ([[TRX-2017-03-06-Lavado-Activos-Carabineros-UAF-01]]), así como las alertas sobre [[Factop SpA]] y [[Luis Hermosilla Osorio]].
+Abogado y ex Director de la [[Unidad de Analisis Financiero]] (UAF). Durante su gestión al frente de la unidad de inteligencia financiera del Estado se remitieron al Ministerio Público los Reportes de Operaciones Sospechosas (ROS) bancarias, automotrices e inmobiliarias que destaparon y documentaron los esquemas de [[Lavado de Activos]] de [[Juan Miguel Fuente-Alba Poblete]] en el [[Caso Milicogate]] ([[TRX-2015-08-14-GastosReservados-Ejercito-UAF-01]]) y del clan mafioso de intendencia encabezado por [[Flavio Echeverria Cortez]] en la [[Direccion de Finanzas de Carabineros]] en el [[Caso Pacogate]] ([[TRX-2017-03-06-Reportes-UAF-Carabineros-01]]), así como las alertas sobre [[Factop SpA]] y [[Luis Hermosilla Osorio]].
 
 ## Flujos Ilícitos Trazabilizados en Nexos UAF
 ```dataviewjs

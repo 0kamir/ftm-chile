@@ -19,7 +19,7 @@ tags:
 - **Superior Jerárquico**: `= this.superior_jerarquico`
 
 ## Contexto en Investigaciones
-Cámara alta del Congreso Nacional. En el [[Caso Corpesca]], el tribunal acreditó mediante la [[Sentencia-3TOP-Santiago-Corpesca-2021]] que el entonces integrante de la Comisión de Intereses Marítimos, Pesca y Acuicultura del Senado, [[Jaime Orpis Bouchon]] ([[Union Democrata Independiente]]), actuó bajo mandato e instrucciones financieras de [[Corpesca SA]] ([[Francisco Mujica Ortuzar]]) a cambio de pagos por **$233.000.000 CLP** ([[TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01]]).
+Cámara alta del Congreso Nacional. En el [[Caso Corpesca]], el tribunal acreditó mediante la [[Sentencia-3TOP-Santiago-Corpesca-2021]] que el entonces integrante de la Comisión de Intereses Marítimos, Pesca y Acuicultura del Senado, [[Jaime Orpis Bouchon]] ([[Union Democrata Independiente]]), actuó bajo mandato e instrucciones financieras de [[Corpesca SA]] ([[Francisco Mujica Ortuzar]]) a cambio de pagos por **$233.000.000 CLP** ([[TRX-2012-07-11-Pagos-Corpesca-LeyDePesca-01]]).
 
 ## Nexos y Operaciones Registradas
 ```dataview

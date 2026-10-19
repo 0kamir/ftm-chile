@@ -1,6 +1,6 @@
 ---
 tipo_nodo: nexo_transaccion
-id_transaccion: "TRX-1971-09-09-Financiamiento-Encubierto-CIA-ElMercurio-Edwards-01"
+id_transaccion: "TRX-1971-09-09-Fondos-CIA-ElMercurio-01"
 fecha: 1971-09-09
 tipo_nexo: desviacion_fondos
 monto_clp: 0
@@ -22,7 +22,7 @@ tags:
   - el-mercurio
 ---
 
-# TRX-1971-09-09-Financiamiento-Encubierto-CIA-ElMercurio-Edwards-01
+# TRX-1971-09-09-Fondos-CIA-ElMercurio-01
 
 ## Ficha de Arista Reificada (Transacción / Hecho Registrado)
 - **ID Transacción**: `= this.id_transaccion`

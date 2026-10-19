@@ -18,7 +18,7 @@ tags:
   - libre-competencia
 ---
 
-# TRX-2007-11-01-Coordinacion-Cartel-Precios-Medicamentos-Farmacias-01
+# TRX-2007-11-01-Colusion-Precios-Medicamentos-Farmacias-01
 
 ## Ficha de Arista Reificada (Concertación Ilícita de Precios en 222 Medicamentos Críticos)
 - **Fecha de Inicio de la Coordinación**: `= this.fecha` *(Noviembre de 2007; ejecución entre diciembre 2007 y marzo 2008)*

@@ -1,6 +1,6 @@
 ---
 tipo_nodo: nexo_transaccion
-id_transaccion: "TRX-2013-07-15-Boletas-Falsas-Penta-UDI-01"
+id_transaccion: "TRX-2013-07-15-Boletas-Penta-UDI-01"
 fecha: 2013-07-15
 tipo_nexo: factura_falsa
 monto_clp: 1260000000
@@ -19,7 +19,7 @@ tags:
   - caso-penta
 ---
 
-# TRX-2013-07-15-Boletas-Falsas-Penta-UDI-01
+# TRX-2013-07-15-Boletas-Penta-UDI-01
 
 ## Ficha de Arista Reificada (Transacción / Hecho Registrado)
 - **ID Transacción**: `= this.id_transaccion`

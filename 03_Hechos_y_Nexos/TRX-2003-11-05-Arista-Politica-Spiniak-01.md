@@ -1,6 +1,6 @@
 ---
 tipo_nodo: nexo_transaccion
-id_transaccion: "TRX-2003-11-05-Operacion-Politico-Judicial-Spiniak-01"
+id_transaccion: "TRX-2003-11-05-Arista-Politica-Spiniak-01"
 fecha: 2003-11-05
 tipo_nexo: gestion_influencia
 monto_clp: 0
@@ -21,7 +21,7 @@ tags:
   - poder-judicial
 ---
 
-# TRX-2003-11-05-Operacion-Politico-Judicial-Spiniak-01
+# TRX-2003-11-05-Arista-Politica-Spiniak-01
 
 ## Ficha de Arista Reificada (Transacción / Hecho Registrado)
 - **ID Transacción**: `= this.id_transaccion`

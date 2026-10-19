@@ -6,7 +6,7 @@ fecha_emision: 2009-03-13
 organismo_emisor: "[[Fiscalia Nacional Economica]]"
 fuente_osint: "Tribunal de Defensa de la Libre Competencia / Fiscalía Nacional Económica (fne.gob.cl)"
 causa_vinculada: "[[Caso Colusion de las Farmacias]]"
-nexo_respaldado: "[[TRX-2007-11-01-Coordinacion-Cartel-Precios-Medicamentos-Farmacias-01]]"
+nexo_respaldado: "[[TRX-2007-11-01-Colusion-Precios-Medicamentos-Farmacias-01]]"
 estado_verificacion: verificado
 fuentes:
   - url: "https://www.df.cl/empresas/suprema-confirma-acuerdo-entre-fne-y-fasa-por-caso-colusion"

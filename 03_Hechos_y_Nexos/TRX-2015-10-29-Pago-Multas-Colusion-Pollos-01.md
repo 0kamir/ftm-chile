@@ -19,7 +19,7 @@ tags:
   - libre-competencia
 ---
 
-# TRX-2015-10-29-Pago-Multas-Historicas-Cartel-Pollos-01
+# TRX-2015-10-29-Pago-Multas-Colusion-Pollos-01
 
 ## Ficha de Arista Reificada (Sanción Pecuniaria Máxima Aplicada al Cartel de los Pollos)
 - **Fecha de Sentencia y Liquidación**: `= this.fecha` *(Octubre de 2015)*

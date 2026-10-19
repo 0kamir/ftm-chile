@@ -6,7 +6,7 @@ fecha_emision: 2021-04-16
 organismo_emisor: "[[Corte Suprema de Chile]]"
 fuente_osint: "Poder Judicial (pjud.cl) / Sentencia RIT 309-2018 3° TOP de Santiago"
 causa_vinculada: "[[Caso Corpesca]]"
-nexo_respaldado: "[[TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01]]"
+nexo_respaldado: "[[TRX-2012-07-11-Pagos-Corpesca-LeyDePesca-01]]"
 estado_verificacion: verificado
 fuentes:
   - url: "https://www.cooperativa.cl/noticias/site/artic/20201202/pags-amp/20201202131131.html"
@@ -33,7 +33,7 @@ tags:
 - **Nexo Respaldado**: `= this.nexo_respaldado`
 
 ## Extracto y Relevancia Probatoria
-Fallo histórico del 3° Tribunal de Juicio Oral en lo Penal de Santiago (confirmado por el Poder Judicial / [[Corte Suprema de Chile]]) en el [[Caso Corpesca]], que dio por acreditado el cohecho parlamentario por **$233.000.000 CLP** ([[TRX-2012-07-11-Soborno-LeyDePesca-Corpesca-01]]) entre [[Corpesca SA]] ([[Francisco Mujica Ortuzar]]) y el exsenador [[Jaime Orpis Bouchon]] en el [[Senado de la Republica de Chile]], marcando la primera condena de cárcel efectiva a un exparlamentario y la primera condena en juicio oral a una persona jurídica bajo la Ley N° 20.393.
+Fallo histórico del 3° Tribunal de Juicio Oral en lo Penal de Santiago (confirmado por el Poder Judicial / [[Corte Suprema de Chile]]) en el [[Caso Corpesca]], que dio por acreditado el cohecho parlamentario por **$233.000.000 CLP** ([[TRX-2012-07-11-Pagos-Corpesca-LeyDePesca-01]]) entre [[Corpesca SA]] ([[Francisco Mujica Ortuzar]]) y el exsenador [[Jaime Orpis Bouchon]] en el [[Senado de la Republica de Chile]], marcando la primera condena de cárcel efectiva a un exparlamentario y la primera condena en juicio oral a una persona jurídica bajo la Ley N° 20.393.
 
 ## Fuentes Verificables
 ```dataview

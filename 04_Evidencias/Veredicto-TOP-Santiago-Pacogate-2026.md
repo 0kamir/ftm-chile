@@ -6,7 +6,7 @@ fecha_emision: 2026-04-15
 organismo_emisor: ""
 fuente_osint: "Poder Judicial (pjud.cl) / Reportes de Operaciones Sospechosas UAF"
 causa_vinculada: "[[Caso Pacogate]]"
-nexo_respaldado: "[[TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01]]"
+nexo_respaldado: "[[TRX-2016-11-10-Fondos-Direccion-Finanzas-Carabineros-01]]"
 estado_verificacion: parcial
 fuentes:
   - url: "https://www.elmostrador.cl/noticias/pais/2026/04/15/caso-pacogate-rechazan-prision-preventiva-para-los-25-condenados-por-megafraude/"

@@ -32,7 +32,7 @@ tags:
   - caso-luminarias-led
 ---
 
-# TRX-2019-05-14-Soborno-Luminarias-Chillan-01
+# TRX-2019-05-14-Licitacion-Luminarias-Chillan-01
 
 ## Ficha de Arista Reificada (Licitación Municipal Manipulada por Soborno)
 - **Fecha del Hecho**: `= this.fecha`

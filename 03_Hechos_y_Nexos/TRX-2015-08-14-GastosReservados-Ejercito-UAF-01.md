@@ -1,6 +1,6 @@
 ---
 tipo_nodo: nexo_transaccion
-id_transaccion: "TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01"
+id_transaccion: "TRX-2015-08-14-GastosReservados-Ejercito-UAF-01"
 fecha: 2015-08-14
 tipo_nexo: desviacion_fondos
 monto_clp: 3500000000
@@ -19,7 +19,7 @@ tags:
   - caso-milicogate
 ---
 
-# TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01
+# TRX-2015-08-14-GastosReservados-Ejercito-UAF-01
 
 ## Ficha de Arista Reificada (Transacción / Hecho Registrado)
 - **ID Transacción**: `= this.id_transaccion`

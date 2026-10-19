@@ -1,6 +1,6 @@
 ---
 tipo_nodo: nexo_transaccion
-id_transaccion: "TRX-2014-02-18-Soborno-Caval-Machali-01"
+id_transaccion: "TRX-2014-02-18-Pagos-DOM-Machali-Caval-01"
 fecha: 2014-02-18
 tipo_nexo: cohecho_soborno
 monto_clp: 55030792
@@ -40,7 +40,7 @@ tags:
   - caso-caval
 ---
 
-# TRX-2014-02-18-Soborno-Caval-Machali-01
+# TRX-2014-02-18-Pagos-DOM-Machali-Caval-01
 
 ## Ficha de Arista Reificada (Transacción / Hecho Registrado)
 - **ID Transacción**: `= this.id_transaccion`

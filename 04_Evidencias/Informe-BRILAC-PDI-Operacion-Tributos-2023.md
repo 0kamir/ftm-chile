@@ -6,7 +6,7 @@ fecha_emision: 2023-12-14
 organismo_emisor: "[[Direccion de Inteligencia Policial de Carabineros]]"
 fuente_osint: "Policía de Investigaciones de Chile (investigaciones.cl) / Fiscalía de Chile"
 causa_vinculada: "[[Caso Megafraude Tributario Operacion Tributos]]"
-nexo_respaldado: "[[TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01]]"
+nexo_respaldado: "[[TRX-2023-12-14-Perjuicio-Fiscal-Operacion-Tributos-01]]"
 estado_verificacion: verificado
 fuentes:
   - url: "https://www.biobiochile.cl/noticias/economia/negocios-y-empresas/2023/12/15/sii-confirma-que-55-empresarios-detenidos-concretaron-el-mayor-fraude-de-la-historia-contra-el-fisco.shtml"

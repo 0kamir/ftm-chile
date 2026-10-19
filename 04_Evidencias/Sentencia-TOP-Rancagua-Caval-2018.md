@@ -6,7 +6,7 @@ fecha_emision: 2018-07-11
 organismo_emisor: "[[Corte Suprema de Chile]]"
 fuente_osint: "Poder Judicial de Chile (pjud.cl) / Querellas Servicio de Impuestos Internos y CDE"
 causa_vinculada: "[[Caso Caval]]"
-nexo_respaldado: "[[TRX-2015-01-29-Facturas-Falsas-Caval-SII-01]]"
+nexo_respaldado: "[[TRX-2015-01-29-Facturas-Caval-SII-01]]"
 estado_verificacion: verificado
 fuentes:
   - url: "https://www.biobiochile.cl/noticias/nacional/chile/2018/07/11/lectura-de-sentencia-caso-caval.shtml"
@@ -35,10 +35,10 @@ tags:
 - **Fuente Pública / OSINT**: `= this.fuente_osint`
 - **Estado de Verificación**: `= this.estado_verificacion`
 - **Causa Vinculada**: `= this.causa_vinculada`
-- **Nexo Respaldado**: `= this.nexo_respaldado` (y [[TRX-2014-02-18-Soborno-Caval-Machali-01]])
+- **Nexo Respaldado**: `= this.nexo_respaldado` (y [[TRX-2014-02-18-Pagos-DOM-Machali-Caval-01]])
 
 ## Extracto y Relevancia Probatoria
-Sentencias dictadas en el marco del [[Caso Caval]] (RUC `1500169916-0`) que condenaron a [[Natalia Compagnon Soto]] por delito tributario ante el [[Servicio Impuestos Internos]] ([[TRX-2015-01-29-Facturas-Falsas-Caval-SII-01]]) y absolvieron a su socio [[Mauricio Valero Illanes]] y a [[Exportadora y de Gestion Caval Ltda]] (TOP de Rancagua, julio de 2018), así como, en sentencia separada de enero de 2018, al ex Director de Obras Municipales de la [[Municipalidad de Machali]], [[Jorge Silva Menares]], por el delito de [[Cohecho]] reiterado en el proceso de cambio del Plan Regulador Intercomunal ([[TRX-2014-02-18-Soborno-Caval-Machali-01]]).
+Sentencias dictadas en el marco del [[Caso Caval]] (RUC `1500169916-0`) que condenaron a [[Natalia Compagnon Soto]] por delito tributario ante el [[Servicio Impuestos Internos]] ([[TRX-2015-01-29-Facturas-Caval-SII-01]]) y absolvieron a su socio [[Mauricio Valero Illanes]] y a [[Exportadora y de Gestion Caval Ltda]] (TOP de Rancagua, julio de 2018), así como, en sentencia separada de enero de 2018, al ex Director de Obras Municipales de la [[Municipalidad de Machali]], [[Jorge Silva Menares]], por el delito de [[Cohecho]] reiterado en el proceso de cambio del Plan Regulador Intercomunal ([[TRX-2014-02-18-Pagos-DOM-Machali-Caval-01]]).
 
 ## Fuentes Verificables
 ```dataview

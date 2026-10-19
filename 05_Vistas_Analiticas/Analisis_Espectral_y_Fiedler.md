@@ -44,7 +44,7 @@ Los nodos cuyas coordenadas en el autovector de Fiedler son más cercanas a cero
 | :---: | :--- | :--- | :---: | :---: | :---: |
 | **1** | [[Bancard Inversiones Ltda]] | `entidad_privada` | **`-0.00020`** | `0.1166` | `6` |
 | **2** | [[Sebastian Pinera Echenique]] | `persona` | **`+0.00203`** | `0.1431` | `7` |
-| **3** | [[TRX-2009-11-18-Facturas-Falsas-Bancard-SQM-Campana-Pinera-01]] | `nexo_transaccion` | **`+0.00470`** | `0.0680` | `5` |
+| **3** | [[TRX-2009-11-18-Facturas-Bancard-SQM-2009-01]] | `nexo_transaccion` | **`+0.00470`** | `0.0680` | `5` |
 | **4** | [[Santiago Valdes Gutierrez]] | `persona` | **`-0.00601`** | `0.0432` | `3` |
 | **5** | [[TRX-2006-07-24-Compra-Acciones-Informacion-Privilegiada-LAN-01]] | `nexo_transaccion` | **`+0.00637`** | `0.0679` | `5` |
 | **6** | [[TRX-2010-12-10-Compraventa-Offshore-Dominga-Bancard-Delano-01]] | `nexo_transaccion` | **`+0.00680`** | `0.1325` | `5` |
@@ -69,8 +69,8 @@ Los nodos cuyas coordenadas en el autovector de Fiedler son más cercanas a cero
 | **3** | [[Sebastian Pinera Echenique]] | `+0.00203` | [[TRX-2012-11-20-Inversion-Offshore-Bancard-Exalmar-LaHaya-01]] | `-0.03140` |
 | **4** | [[TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01]] | `+0.01028` | [[Bancard Inversiones Ltda]] | `-0.00020` |
 | **5** | [[TRX-2006-07-24-Compra-Acciones-Informacion-Privilegiada-LAN-01]] | `+0.00637` | [[Bancard Inversiones Ltda]] | `-0.00020` |
-| **6** | [[TRX-2009-11-18-Facturas-Falsas-Bancard-SQM-Campana-Pinera-01]] | `+0.00470` | [[Bancard Inversiones Ltda]] | `-0.00020` |
-| **7** | [[TRX-2009-11-18-Facturas-Falsas-Bancard-SQM-Campana-Pinera-01]] | `+0.00470` | [[Santiago Valdes Gutierrez]] | `-0.00601` |
+| **6** | [[TRX-2009-11-18-Facturas-Bancard-SQM-2009-01]] | `+0.00470` | [[Bancard Inversiones Ltda]] | `-0.00020` |
+| **7** | [[TRX-2009-11-18-Facturas-Bancard-SQM-2009-01]] | `+0.00470` | [[Santiago Valdes Gutierrez]] | `-0.00601` |
 | **8** | [[TRX-2010-12-10-Compraventa-Offshore-Dominga-Bancard-Delano-01]] | `+0.00680` | [[Bancard Inversiones Ltda]] | `-0.00020` |
 
 ---
@@ -81,12 +81,12 @@ Los nodos cuyas coordenadas en el autovector de Fiedler son más cercanas a cero
 | :---: | :--- | :--- | :---: | :---: | :---: |
 | **1** | [[Union Democrata Independiente]] | `partido_politico` | **`0.4859`** | `+0.01806` | `15` |
 | **2** | [[Carlos Alberto Delano Abbott]] | `persona` | **`0.2832`** | `+0.01437` | `6` |
-| **3** | [[TRX-2013-07-15-Boletas-Falsas-Penta-UDI-01]] | `nexo_transaccion` | **`0.2576`** | `+0.01662` | `5` |
-| **4** | [[TRX-2013-09-20-Boletas-Falsas-Penta-Novoa-01]] | `nexo_transaccion` | **`0.2503`** | `+0.01697` | `5` |
+| **3** | [[TRX-2013-07-15-Boletas-Penta-UDI-01]] | `nexo_transaccion` | **`0.2576`** | `+0.01662` | `5` |
+| **4** | [[TRX-2013-09-20-Boletas-Penta-Novoa-01]] | `nexo_transaccion` | **`0.2503`** | `+0.01697` | `5` |
 | **5** | [[Empresas Penta SA]] | `entidad_privada` | **`0.1871`** | `+0.01679` | `4` |
 | **6** | [[Pablo Longueira Montes]] | `persona` | **`0.1854`** | `+0.01593` | `3` |
 | **7** | [[TRX-2010-08-19-Correo-Royalty-SQM-01]] | `nexo_transaccion` | **`0.1716`** | `+0.01277` | `5` |
-| **8** | [[TRX-1996-06-12-Blindaje-Politico-Judicial-ColoniaDignidad-01]] | `nexo_transaccion` | **`0.1544`** | `+0.02067` | `5` |
+| **8** | [[TRX-1996-06-12-Defensa-Politica-ColoniaDignidad-01]] | `nexo_transaccion` | **`0.1544`** | `+0.02067` | `5` |
 | **9** | [[Jovino Novoa Vasquez]] | `persona` | **`0.1492`** | `+0.01770` | `2` |
 | **10** | [[Andres Chadwick Pinera]] | `persona` | **`0.1478`** | `+0.01354` | `3` |
 | **11** | [[Sebastian Pinera Echenique]] | `persona` | **`0.1431`** | `+0.00203` | `7` |
