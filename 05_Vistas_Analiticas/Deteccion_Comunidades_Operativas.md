@@ -15,8 +15,8 @@ tags:
 
 ## 1. Indicadores Globales de Partición
 
-- **Nodos Operativos Analizados**: `236`
-- **Modularidad Global de Newman-Girvan ($Q$)**: `0.8060` *(Valores $Q > 0.70$ indican alta compartimentación celular con puentes específicos de articulación)*
+- **Nodos Operativos Analizados**: `229`
+- **Modularidad Global de Newman-Girvan ($Q$)**: `0.7998` *(Valores $Q > 0.70$ indican alta compartimentación celular con puentes específicos de articulación)*
 - **Total de Células Operativas Detectadas**: `15`
 - **Enlaces Puente Inter-Comunidad Detectados**: `39`
 - **Nodos Articuladores Inter-Célula ($P_i > 0$)**: `50`
@@ -27,33 +27,33 @@ tags:
 
 | Pos | Nodo Articulador | Tipo | Comunidad Base | Grado ($k_i$) | Coef. Participación ($P_i$) | Rol Topológico |
 | :--- | :--- | :--- | :--- | :---: | :---: | :--- |
-| **1** | [[Servicio Impuestos Internos]] | `entidad_publica` | Célula #09 (Caso Caval / Caso Megafraude Tributario Operacion Tributos) | `8` | **`0.7812`** | Hub Conector Multi-Célula |
-| **2** | [[Sergio Munoz Gajardo]] | `persona` | Célula #06 (Caso CEMA Chile / Caso Cascadas) | `5` | **`0.7200`** | Hub Conector Multi-Célula |
-| **3** | [[Corte Suprema de Chile]] | `entidad_publica` | Célula #07 (Caso Archivos Epstein Menciones Chile / Caso Operacion Huracan) | `16` | **`0.7109`** | Hub Conector Multi-Célula |
+| **1** | [[Corte Suprema de Chile]] | `entidad_publica` | Célula #09 (Caso Operacion Huracan) | `10` | **`0.8600`** | Hub Conector Multi-Célula |
+| **2** | [[Servicio Impuestos Internos]] | `entidad_publica` | Célula #08 (Caso Caval / Caso Megafraude Tributario Operacion Tributos) | `8` | **`0.7812`** | Hub Conector Multi-Célula |
+| **3** | [[Sergio Munoz Gajardo]] | `persona` | Célula #06 (Caso CEMA Chile / Caso Cascadas) | `5` | **`0.7200`** | Hub Conector Multi-Célula |
 | **4** | [[Comando de Apoyo a la Fuerza del Ejercito]] | `entidad_publica` | Célula #06 (Caso CEMA Chile / Caso Cascadas) | `5` | **`0.6400`** | Hub Conector Multi-Célula |
-| **5** | [[TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01]] | `nexo_transaccion` | Célula #08 (Caso Operacion FUBELT Intervencion CIA y DINA / Caso Panama Papers Chile) | `5` | **`0.5600`** | Hub Conector Multi-Célula |
+| **5** | [[TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01]] | `nexo_transaccion` | Célula #07 (Caso Operacion FUBELT Intervencion CIA y DINA / Caso Panama Papers Chile) | `5` | **`0.5600`** | Hub Conector Multi-Célula |
 | **6** | [[TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01]] | `nexo_transaccion` | Célula #01 (Caso Exalmar y Fideicomiso Ciego / Caso LAN Informacion Privilegiada y Banco de Talca) | `5` | **`0.5600`** | Hub Conector Multi-Célula |
-| **7** | [[TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01]] | `nexo_transaccion` | Célula #09 (Caso Caval / Caso Megafraude Tributario Operacion Tributos) | `5` | **`0.5600`** | Hub Conector Multi-Célula |
+| **7** | [[TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01]] | `nexo_transaccion` | Célula #08 (Caso Caval / Caso Megafraude Tributario Operacion Tributos) | `5` | **`0.5600`** | Hub Conector Multi-Célula |
 | **8** | [[TRX-2003-11-05-Operacion-Politico-Judicial-Spiniak-01]] | `nexo_transaccion` | Célula #03 (Caso Basura / Caso Operaciones Digitales e Injerencia Electoral) | `5` | **`0.5600`** | Hub Conector Multi-Célula |
-| **9** | [[TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01]] | `nexo_transaccion` | Célula #08 (Caso Operacion FUBELT Intervencion CIA y DINA / Caso Panama Papers Chile) | `5` | **`0.5600`** | Hub Conector Multi-Célula |
+| **9** | [[TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01]] | `nexo_transaccion` | Célula #07 (Caso Operacion FUBELT Intervencion CIA y DINA / Caso Panama Papers Chile) | `5` | **`0.5600`** | Hub Conector Multi-Célula |
 | **10** | [[TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01]] | `nexo_transaccion` | Célula #02 (Caso Audios / Caso Milicogate) | `5` | **`0.5600`** | Hub Conector Multi-Célula |
 | **11** | [[Caso Spiniak]] | `causa_judicial` | Célula #03 (Caso Basura / Caso Operaciones Digitales e Injerencia Electoral) | `2` | **`0.5000`** | Hub Conector Multi-Célula |
 | **12** | [[Jaime Orpis Bouchon]] | `persona` | Célula #10 (Caso Asignaciones Parlamentarias y Cuota Flores / Caso Corpesca) | `2` | **`0.5000`** | Hub Conector Multi-Célula |
 | **13** | [[Servicio Nacional del Consumidor]] | `entidad_publica` | Célula #04 (Caso Colusion de las Farmacias / Caso Colusion de los Pollos) | `2` | **`0.5000`** | Hub Conector Multi-Célula |
-| **14** | [[TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-CIA-01]] | `nexo_transaccion` | Célula #08 (Caso Operacion FUBELT Intervencion CIA y DINA / Caso Panama Papers Chile) | `5` | **`0.4800`** | Hub Conector Multi-Célula |
+| **14** | [[TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-CIA-01]] | `nexo_transaccion` | Célula #07 (Caso Operacion FUBELT Intervencion CIA y DINA / Caso Panama Papers Chile) | `5` | **`0.4800`** | Hub Conector Multi-Célula |
 | **15** | [[TRX-1996-06-12-Blindaje-Politico-Judicial-ColoniaDignidad-01]] | `nexo_transaccion` | Célula #01 (Caso Exalmar y Fideicomiso Ciego / Caso LAN Informacion Privilegiada y Banco de Talca) | `5` | **`0.4800`** | Hub Conector Multi-Célula |
 | **16** | [[TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01]] | `nexo_transaccion` | Célula #06 (Caso CEMA Chile / Caso Cascadas) | `5` | **`0.4800`** | Hub Conector Multi-Célula |
 | **17** | [[Camila Flores Oporto]] | `persona` | Célula #10 (Caso Asignaciones Parlamentarias y Cuota Flores / Caso Corpesca) | `3` | **`0.4444`** | Hub Conector Multi-Célula |
 | **18** | [[Carlos Pavez Tolosa]] | `persona` | Célula #01 (Caso Exalmar y Fideicomiso Ciego / Caso LAN Informacion Privilegiada y Banco de Talca) | `3` | **`0.4444`** | Hub Conector Multi-Célula |
 | **19** | [[Caso Colonia Dignidad]] | `causa_judicial` | Célula #14 (Caso Colonia Dignidad) | `3` | **`0.4444`** | Hub Conector Multi-Célula |
-| **20** | [[Caso Panama Papers Chile]] | `causa_judicial` | Célula #08 (Caso Operacion FUBELT Intervencion CIA y DINA / Caso Panama Papers Chile) | `3` | **`0.4444`** | Hub Conector Multi-Célula |
+| **20** | [[Caso Panama Papers Chile]] | `causa_judicial` | Célula #07 (Caso Operacion FUBELT Intervencion CIA y DINA / Caso Panama Papers Chile) | `3` | **`0.4444`** | Hub Conector Multi-Célula |
 | **21** | [[Contraloria General de la Republica]] | `entidad_publica` | Célula #05 (Caso Convenios) | `3` | **`0.4444`** | Hub Conector Multi-Célula |
 | **22** | [[Gabriel Ruiz-Tagle Serrano]] | `persona` | Célula #12 (Caso Colusion del Papel Tissue) | `3` | **`0.4444`** | Hub Conector Multi-Célula |
 | **23** | [[Municipalidad de Maipu]] | `entidad_publica` | Célula #01 (Caso Exalmar y Fideicomiso Ciego / Caso LAN Informacion Privilegiada y Banco de Talca) | `3` | **`0.4444`** | Hub Conector Multi-Célula |
 | **24** | [[Santiago Valdes Gutierrez]] | `persona` | Célula #01 (Caso Exalmar y Fideicomiso Ciego / Caso LAN Informacion Privilegiada y Banco de Talca) | `3` | **`0.4444`** | Hub Conector Multi-Célula |
 | **25** | [[Renovacion Nacional]] | `partido_politico` | Célula #03 (Caso Basura / Caso Operaciones Digitales e Injerencia Electoral) | `11` | **`0.4298`** | Hub Conector Multi-Célula |
 | **26** | [[Andres Chadwick Pinera]] | `persona` | Célula #01 (Caso Exalmar y Fideicomiso Ciego / Caso LAN Informacion Privilegiada y Banco de Talca) | `4` | **`0.3750`** | Hub Conector Multi-Célula |
-| **27** | [[Mossack Fonseca y Sociedades Offshore Panama]] | `entidad_privada` | Célula #08 (Caso Operacion FUBELT Intervencion CIA y DINA / Caso Panama Papers Chile) | `4` | **`0.3750`** | Hub Conector Multi-Célula |
+| **27** | [[Mossack Fonseca y Sociedades Offshore Panama]] | `entidad_privada` | Célula #07 (Caso Operacion FUBELT Intervencion CIA y DINA / Caso Panama Papers Chile) | `4` | **`0.3750`** | Hub Conector Multi-Célula |
 | **28** | [[SQM SA]] | `entidad_privada` | Célula #01 (Caso Exalmar y Fideicomiso Ciego / Caso LAN Informacion Privilegiada y Banco de Talca) | `4` | **`0.3750`** | Hub Conector Multi-Célula |
 | **29** | [[Senado de la Republica de Chile]] | `entidad_publica` | Célula #10 (Caso Asignaciones Parlamentarias y Cuota Flores / Caso Corpesca) | `4` | **`0.3750`** | Hub Conector Multi-Célula |
 | **30** | [[Sociedad Benefactora y Educacional Dignidad]] | `entidad_privada` | Célula #14 (Caso Colonia Dignidad) | `4` | **`0.3750`** | Hub Conector Multi-Célula |
@@ -67,7 +67,7 @@ tags:
 | **38** | [[TRX-2014-05-20-Facturas-LeyReservadaCobre-01]] | `nexo_transaccion` | Célula #02 (Caso Audios / Caso Milicogate) | `5` | **`0.3200`** | Hub Conector Multi-Célula |
 | **39** | [[TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01]] | `nexo_transaccion` | Célula #02 (Caso Audios / Caso Milicogate) | `5` | **`0.3200`** | Hub Conector Multi-Célula |
 | **40** | [[TRX-2015-10-29-Pago-Multas-Historicas-Cartel-Pollos-01]] | `nexo_transaccion` | Célula #04 (Caso Colusion de las Farmacias / Caso Colusion de los Pollos) | `5` | **`0.3200`** | Hub Conector Multi-Célula |
-| **41** | [[TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01]] | `nexo_transaccion` | Célula #08 (Caso Operacion FUBELT Intervencion CIA y DINA / Caso Panama Papers Chile) | `5` | **`0.3200`** | Hub Conector Multi-Célula |
+| **41** | [[TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01]] | `nexo_transaccion` | Célula #07 (Caso Operacion FUBELT Intervencion CIA y DINA / Caso Panama Papers Chile) | `5` | **`0.3200`** | Hub Conector Multi-Célula |
 | **42** | [[TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01]] | `nexo_transaccion` | Célula #06 (Caso CEMA Chile / Caso Cascadas) | `5` | **`0.3200`** | Hub Conector Multi-Célula |
 | **43** | [[TRX-2017-03-03-Compensacion-Historica-Consumidores-CMPC-SERNAC-01]] | `nexo_transaccion` | Célula #12 (Caso Colusion del Papel Tissue) | `5` | **`0.3200`** | Hub Conector Multi-Célula |
 | **44** | [[TRX-2022-11-15-Gestion-Nombramientos-Hermosilla-Zaliasnik-01]] | `nexo_transaccion` | Célula #02 (Caso Audios / Caso Milicogate) | `5` | **`0.3200`** | Hub Conector Multi-Célula |
@@ -89,40 +89,40 @@ tags:
 | [[Jaime Orpis Bouchon]] | Célula #10 (Caso Asignaciones Parlamentarias y Cuota Flores / Caso Corpesca) | `vinculo` | [[Union Democrata Independiente]] | Célula #01 (Caso Exalmar y Fideicomiso Ciego / Caso LAN Informacion Privilegiada y Banco de Talca) |
 | [[Santiago Valdes Gutierrez]] | Célula #01 (Caso Exalmar y Fideicomiso Ciego / Caso LAN Informacion Privilegiada y Banco de Talca) | `vinculo` | [[Renovacion Nacional]] | Célula #03 (Caso Basura / Caso Operaciones Digitales e Injerencia Electoral) |
 | [[Sebastian Pinera Echenique]] | Célula #01 (Caso Exalmar y Fideicomiso Ciego / Caso LAN Informacion Privilegiada y Banco de Talca) | `vinculo` | [[Renovacion Nacional]] | Célula #03 (Caso Basura / Caso Operaciones Digitales e Injerencia Electoral) |
-| [[TRX-2023-02-09-Gestion-Judicial-Hermosilla-Vivanco-01]] | Célula #02 (Caso Audios / Caso Milicogate) | `vinculo` | [[Corte Suprema de Chile]] | Célula #07 (Caso Archivos Epstein Menciones Chile / Caso Operacion Huracan) |
-| [[TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01]] | Célula #09 (Caso Caval / Caso Megafraude Tributario Operacion Tributos) | `vinculo` | [[Sergio Munoz Gajardo]] | Célula #06 (Caso CEMA Chile / Caso Cascadas) |
-| [[TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01]] | Célula #09 (Caso Caval / Caso Megafraude Tributario Operacion Tributos) | `vinculo` | [[Caso Spiniak]] | Célula #03 (Caso Basura / Caso Operaciones Digitales e Injerencia Electoral) |
-| [[TRX-2003-11-05-Operacion-Politico-Judicial-Spiniak-01]] | Célula #03 (Caso Basura / Caso Operaciones Digitales e Injerencia Electoral) | `vinculo` | [[Corte Suprema de Chile]] | Célula #07 (Caso Archivos Epstein Menciones Chile / Caso Operacion Huracan) |
+| [[TRX-2023-02-09-Gestion-Judicial-Hermosilla-Vivanco-01]] | Célula #02 (Caso Audios / Caso Milicogate) | `vinculo` | [[Corte Suprema de Chile]] | Célula #09 (Caso Operacion Huracan) |
+| [[TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01]] | Célula #08 (Caso Caval / Caso Megafraude Tributario Operacion Tributos) | `vinculo` | [[Sergio Munoz Gajardo]] | Célula #06 (Caso CEMA Chile / Caso Cascadas) |
+| [[TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01]] | Célula #08 (Caso Caval / Caso Megafraude Tributario Operacion Tributos) | `vinculo` | [[Caso Spiniak]] | Célula #03 (Caso Basura / Caso Operaciones Digitales e Injerencia Electoral) |
+| [[TRX-2003-11-05-Operacion-Politico-Judicial-Spiniak-01]] | Célula #03 (Caso Basura / Caso Operaciones Digitales e Injerencia Electoral) | `vinculo` | [[Corte Suprema de Chile]] | Célula #09 (Caso Operacion Huracan) |
 | [[TRX-2003-11-05-Operacion-Politico-Judicial-Spiniak-01]] | Célula #03 (Caso Basura / Caso Operaciones Digitales e Injerencia Electoral) | `vinculo` | [[Sergio Munoz Gajardo]] | Célula #06 (Caso CEMA Chile / Caso Cascadas) |
-| [[TRX-1991-01-31-Vaciamiento-Patrimonial-Evasion-ColoniaDignidad-01]] | Célula #14 (Caso Colonia Dignidad) | `vinculo` | [[Servicio Impuestos Internos]] | Célula #09 (Caso Caval / Caso Megafraude Tributario Operacion Tributos) |
+| [[TRX-1991-01-31-Vaciamiento-Patrimonial-Evasion-ColoniaDignidad-01]] | Célula #14 (Caso Colonia Dignidad) | `vinculo` | [[Servicio Impuestos Internos]] | Célula #08 (Caso Caval / Caso Megafraude Tributario Operacion Tributos) |
 | [[TRX-1996-06-12-Blindaje-Politico-Judicial-ColoniaDignidad-01]] | Célula #01 (Caso Exalmar y Fideicomiso Ciego / Caso LAN Informacion Privilegiada y Banco de Talca) | `vinculo` | [[Sociedad Benefactora y Educacional Dignidad]] | Célula #14 (Caso Colonia Dignidad) |
 | [[TRX-1996-06-12-Blindaje-Politico-Judicial-ColoniaDignidad-01]] | Célula #01 (Caso Exalmar y Fideicomiso Ciego / Caso LAN Informacion Privilegiada y Banco de Talca) | `vinculo` | [[Caso Colonia Dignidad]] | Célula #14 (Caso Colonia Dignidad) |
-| [[TRX-2005-08-10-Evasion-Tributaria-Cuentas-Riggs-SII-01]] | Célula #06 (Caso CEMA Chile / Caso Cascadas) | `vinculo` | [[Servicio Impuestos Internos]] | Célula #09 (Caso Caval / Caso Megafraude Tributario Operacion Tributos) |
+| [[TRX-2005-08-10-Evasion-Tributaria-Cuentas-Riggs-SII-01]] | Célula #06 (Caso CEMA Chile / Caso Cascadas) | `vinculo` | [[Servicio Impuestos Internos]] | Célula #08 (Caso Caval / Caso Megafraude Tributario Operacion Tributos) |
 | [[TRX-2012-11-20-Inversion-Offshore-Bancard-Exalmar-LaHaya-01]] | Célula #01 (Caso Exalmar y Fideicomiso Ciego / Caso LAN Informacion Privilegiada y Banco de Talca) | `vinculo` | [[Contraloria General de la Republica]] | Célula #05 (Caso Convenios) |
-| [[TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-CIA-01]] | Célula #08 (Caso Operacion FUBELT Intervencion CIA y DINA / Caso Panama Papers Chile) | `vinculo` | [[Comando de Apoyo a la Fuerza del Ejercito]] | Célula #06 (Caso CEMA Chile / Caso Cascadas) |
-| [[TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-CIA-01]] | Célula #08 (Caso Operacion FUBELT Intervencion CIA y DINA / Caso Panama Papers Chile) | `vinculo` | [[Augusto Pinochet Ugarte]] | Célula #06 (Caso CEMA Chile / Caso Cascadas) |
-| [[TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01]] | Célula #08 (Caso Operacion FUBELT Intervencion CIA y DINA / Caso Panama Papers Chile) | `vinculo` | [[Corte Suprema de Chile]] | Célula #07 (Caso Archivos Epstein Menciones Chile / Caso Operacion Huracan) |
-| [[TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01]] | Célula #08 (Caso Operacion FUBELT Intervencion CIA y DINA / Caso Panama Papers Chile) | `vinculo` | [[Augusto Pinochet Ugarte]] | Célula #06 (Caso CEMA Chile / Caso Cascadas) |
-| [[TRX-2022-11-15-Gestion-Nombramientos-Hermosilla-Zaliasnik-01]] | Célula #02 (Caso Audios / Caso Milicogate) | `vinculo` | [[Corte Suprema de Chile]] | Célula #07 (Caso Archivos Epstein Menciones Chile / Caso Operacion Huracan) |
+| [[TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-CIA-01]] | Célula #07 (Caso Operacion FUBELT Intervencion CIA y DINA / Caso Panama Papers Chile) | `vinculo` | [[Comando de Apoyo a la Fuerza del Ejercito]] | Célula #06 (Caso CEMA Chile / Caso Cascadas) |
+| [[TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-CIA-01]] | Célula #07 (Caso Operacion FUBELT Intervencion CIA y DINA / Caso Panama Papers Chile) | `vinculo` | [[Augusto Pinochet Ugarte]] | Célula #06 (Caso CEMA Chile / Caso Cascadas) |
+| [[TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01]] | Célula #07 (Caso Operacion FUBELT Intervencion CIA y DINA / Caso Panama Papers Chile) | `vinculo` | [[Corte Suprema de Chile]] | Célula #09 (Caso Operacion Huracan) |
+| [[TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01]] | Célula #07 (Caso Operacion FUBELT Intervencion CIA y DINA / Caso Panama Papers Chile) | `vinculo` | [[Augusto Pinochet Ugarte]] | Célula #06 (Caso CEMA Chile / Caso Cascadas) |
+| [[TRX-2022-11-15-Gestion-Nombramientos-Hermosilla-Zaliasnik-01]] | Célula #02 (Caso Audios / Caso Milicogate) | `vinculo` | [[Corte Suprema de Chile]] | Célula #09 (Caso Operacion Huracan) |
 | [[TRX-2017-03-03-Compensacion-Historica-Consumidores-CMPC-SERNAC-01]] | Célula #12 (Caso Colusion del Papel Tissue) | `vinculo` | [[Servicio Nacional del Consumidor]] | Célula #04 (Caso Colusion de las Farmacias / Caso Colusion de los Pollos) |
-| [[TRX-2015-10-29-Pago-Multas-Historicas-Cartel-Pollos-01]] | Célula #04 (Caso Colusion de las Farmacias / Caso Colusion de los Pollos) | `vinculo` | [[Corte Suprema de Chile]] | Célula #07 (Caso Archivos Epstein Menciones Chile / Caso Operacion Huracan) |
-| [[TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01]] | Célula #01 (Caso Exalmar y Fideicomiso Ciego / Caso LAN Informacion Privilegiada y Banco de Talca) | `vinculo` | [[Corte Suprema de Chile]] | Célula #07 (Caso Archivos Epstein Menciones Chile / Caso Operacion Huracan) |
+| [[TRX-2015-10-29-Pago-Multas-Historicas-Cartel-Pollos-01]] | Célula #04 (Caso Colusion de las Farmacias / Caso Colusion de los Pollos) | `vinculo` | [[Corte Suprema de Chile]] | Célula #09 (Caso Operacion Huracan) |
+| [[TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01]] | Célula #01 (Caso Exalmar y Fideicomiso Ciego / Caso LAN Informacion Privilegiada y Banco de Talca) | `vinculo` | [[Corte Suprema de Chile]] | Célula #09 (Caso Operacion Huracan) |
 | [[TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01]] | Célula #01 (Caso Exalmar y Fideicomiso Ciego / Caso LAN Informacion Privilegiada y Banco de Talca) | `vinculo` | [[Sergio Munoz Gajardo]] | Célula #06 (Caso CEMA Chile / Caso Cascadas) |
-| [[TRX-2005-06-14-Arsenal-Clandestino-AsociacionIlicita-ColoniaDignidad-01]] | Célula #14 (Caso Colonia Dignidad) | `vinculo` | [[Corte Suprema de Chile]] | Célula #07 (Caso Archivos Epstein Menciones Chile / Caso Operacion Huracan) |
+| [[TRX-2005-06-14-Arsenal-Clandestino-AsociacionIlicita-ColoniaDignidad-01]] | Célula #14 (Caso Colonia Dignidad) | `vinculo` | [[Corte Suprema de Chile]] | Célula #09 (Caso Operacion Huracan) |
 | [[TRX-2010-11-15-Soborno-Licitacion-Basura-Maipu-01]] | Célula #03 (Caso Basura / Caso Operaciones Digitales e Injerencia Electoral) | `vinculo` | [[Municipalidad de Maipu]] | Célula #01 (Caso Exalmar y Fideicomiso Ciego / Caso LAN Informacion Privilegiada y Banco de Talca) |
-| [[TRX-2011-03-10-Pagos-Penta-Wagner-01]] | Célula #01 (Caso Exalmar y Fideicomiso Ciego / Caso LAN Informacion Privilegiada y Banco de Talca) | `vinculo` | [[Servicio Impuestos Internos]] | Célula #09 (Caso Caval / Caso Megafraude Tributario Operacion Tributos) |
+| [[TRX-2011-03-10-Pagos-Penta-Wagner-01]] | Célula #01 (Caso Exalmar y Fideicomiso Ciego / Caso LAN Informacion Privilegiada y Banco de Talca) | `vinculo` | [[Servicio Impuestos Internos]] | Célula #08 (Caso Caval / Caso Megafraude Tributario Operacion Tributos) |
 | [[TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01]] | Célula #06 (Caso CEMA Chile / Caso Cascadas) | `vinculo` | [[SQM SA]] | Célula #01 (Caso Exalmar y Fideicomiso Ciego / Caso LAN Informacion Privilegiada y Banco de Talca) |
-| [[TRX-2014-05-20-Facturas-LeyReservadaCobre-01]] | Célula #02 (Caso Audios / Caso Milicogate) | `vinculo` | [[Comando de Apoyo a la Fuerza del Ejercito]] | Célula #06 (Caso CEMA Chile / Caso Cascadas) |
 | [[TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01]] | Célula #02 (Caso Audios / Caso Milicogate) | `vinculo` | [[Comando de Apoyo a la Fuerza del Ejercito]] | Célula #06 (Caso CEMA Chile / Caso Cascadas) |
-| [[TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01]] | Célula #08 (Caso Operacion FUBELT Intervencion CIA y DINA / Caso Panama Papers Chile) | `vinculo` | [[Servicio Impuestos Internos]] | Célula #09 (Caso Caval / Caso Megafraude Tributario Operacion Tributos) |
-| [[TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01]] | Célula #08 (Caso Operacion FUBELT Intervencion CIA y DINA / Caso Panama Papers Chile) | `vinculo` | [[Carlos Pavez Tolosa]] | Célula #01 (Caso Exalmar y Fideicomiso Ciego / Caso LAN Informacion Privilegiada y Banco de Talca) |
-| [[TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01]] | Célula #08 (Caso Operacion FUBELT Intervencion CIA y DINA / Caso Panama Papers Chile) | `vinculo` | [[Unidad de Analisis Financiero]] | Célula #02 (Caso Audios / Caso Milicogate) |
-| [[TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01]] | Célula #06 (Caso CEMA Chile / Caso Cascadas) | `vinculo` | [[Mossack Fonseca y Sociedades Offshore Panama]] | Célula #08 (Caso Operacion FUBELT Intervencion CIA y DINA / Caso Panama Papers Chile) |
-| [[TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01]] | Célula #06 (Caso CEMA Chile / Caso Cascadas) | `vinculo` | [[Caso Panama Papers Chile]] | Célula #08 (Caso Operacion FUBELT Intervencion CIA y DINA / Caso Panama Papers Chile) |
-| [[TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01]] | Célula #06 (Caso CEMA Chile / Caso Cascadas) | `vinculo` | [[Corte Suprema de Chile]] | Célula #07 (Caso Archivos Epstein Menciones Chile / Caso Operacion Huracan) |
+| [[TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01]] | Célula #07 (Caso Operacion FUBELT Intervencion CIA y DINA / Caso Panama Papers Chile) | `vinculo` | [[Servicio Impuestos Internos]] | Célula #08 (Caso Caval / Caso Megafraude Tributario Operacion Tributos) |
+| [[TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01]] | Célula #07 (Caso Operacion FUBELT Intervencion CIA y DINA / Caso Panama Papers Chile) | `vinculo` | [[Carlos Pavez Tolosa]] | Célula #01 (Caso Exalmar y Fideicomiso Ciego / Caso LAN Informacion Privilegiada y Banco de Talca) |
+| [[TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01]] | Célula #07 (Caso Operacion FUBELT Intervencion CIA y DINA / Caso Panama Papers Chile) | `vinculo` | [[Unidad de Analisis Financiero]] | Célula #02 (Caso Audios / Caso Milicogate) |
+| [[TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01]] | Célula #06 (Caso CEMA Chile / Caso Cascadas) | `vinculo` | [[Mossack Fonseca y Sociedades Offshore Panama]] | Célula #07 (Caso Operacion FUBELT Intervencion CIA y DINA / Caso Panama Papers Chile) |
+| [[TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01]] | Célula #06 (Caso CEMA Chile / Caso Cascadas) | `vinculo` | [[Caso Panama Papers Chile]] | Célula #07 (Caso Operacion FUBELT Intervencion CIA y DINA / Caso Panama Papers Chile) |
+| [[TRX-2023-06-22-Reunion-Audios-01]] | Célula #02 (Caso Audios / Caso Milicogate) | `vinculo` | [[Servicio Impuestos Internos]] | Célula #08 (Caso Caval / Caso Megafraude Tributario Operacion Tributos) |
+| [[TRX-2014-05-20-Facturas-LeyReservadaCobre-01]] | Célula #02 (Caso Audios / Caso Milicogate) | `vinculo` | [[Comando de Apoyo a la Fuerza del Ejercito]] | Célula #06 (Caso CEMA Chile / Caso Cascadas) |
+| [[TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01]] | Célula #06 (Caso CEMA Chile / Caso Cascadas) | `vinculo` | [[Corte Suprema de Chile]] | Célula #09 (Caso Operacion Huracan) |
 | [[TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01]] | Célula #02 (Caso Audios / Caso Milicogate) | `vinculo` | [[Senado de la Republica de Chile]] | Célula #10 (Caso Asignaciones Parlamentarias y Cuota Flores / Caso Corpesca) |
 | [[TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01]] | Célula #02 (Caso Audios / Caso Milicogate) | `vinculo` | [[Andres Chadwick Pinera]] | Célula #01 (Caso Exalmar y Fideicomiso Ciego / Caso LAN Informacion Privilegiada y Banco de Talca) |
-| [[TRX-2023-06-22-Reunion-Audios-01]] | Célula #02 (Caso Audios / Caso Milicogate) | `vinculo` | [[Servicio Impuestos Internos]] | Célula #09 (Caso Caval / Caso Megafraude Tributario Operacion Tributos) |
 
 ---
 
@@ -164,23 +164,23 @@ tags:
 - **Entidades Públicas/Privadas (5)**: [[Comando de Apoyo a la Fuerza del Ejercito]], [[Fundacion CEMA Chile]], [[Riggs Bank y Sociedades Offshore Ashburton]], [[Sociedad de Inversiones Pampa Calichera SA]], [[Valmoval Ltda]]
 - **Transacciones Reificadas (6)**: [[TRX-1989-01-10-Emision-Pinocheques-Ejercito-Valmoval-01]], [[TRX-2004-07-14-Desvio-Gastos-Reservados-Riggs-Pinochet-01]], [[TRX-2005-08-10-Evasion-Tributaria-Cuentas-Riggs-SII-01]], [[TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01]], [[TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01]], [[TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01]]
 
-### Célula #07 (Caso Archivos Epstein Menciones Chile / Caso Operacion Huracan)
-- **Tamaño del Clúster**: `17` nodos | **Flujo Auditado en la Célula**: `$25.000.000 CLP`
-- **Personas Involucradas (7)**: [[Alex Smith Leay]], [[Andres Velasco Branes]], [[Andronico Luksic Craig]], [[Eduardo Guendelman Israel]], [[Gonzalo Blu Rodriguez]], [[Leonardo Osses Sandoval]], [[Patricio Marin Lazo]]
-- **Entidades Públicas/Privadas (2)**: [[Corte Suprema de Chile]], [[Direccion de Inteligencia Policial de Carabineros]]
-- **Transacciones Reificadas (6)**: [[TRX-2013-05-20-Mencion-Referencial-Epstein-Dannatt-Velasco-01]], [[TRX-2015-08-10-Contacto-Academico-Patrocinio-Guendelman-Epstein-01]], [[TRX-2015-11-14-Mencion-Indirecta-Epstein-BinSulayem-Luksic-01]], [[TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01]], [[TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01]], [[TRX-2018-01-25-Peritaje-Cibercrimen-Descarte-Antorcha-01]]
-
-### Célula #08 (Caso Operacion FUBELT Intervencion CIA y DINA / Caso Panama Papers Chile)
+### Célula #07 (Caso Operacion FUBELT Intervencion CIA y DINA / Caso Panama Papers Chile)
 - **Tamaño del Clúster**: `14` nodos | **Flujo Auditado en la Célula**: `$60.100.000.000 CLP`
 - **Personas Involucradas (4)**: [[Agustin Edwards Eastman]], [[Alfredo Ovalle Rodriguez]], [[Gonzalo Delaveau Swett]], [[Manuel Contreras Sepulveda]]
 - **Entidades Públicas/Privadas (3)**: [[Agencia Central de Inteligencia CIA y Escuela de las Americas]], [[Empresa El Mercurio SAP]], [[Mossack Fonseca y Sociedades Offshore Panama]]
 - **Transacciones Reificadas (5)**: [[TRX-1971-09-09-Financiamiento-Encubierto-CIA-ElMercurio-Edwards-01]], [[TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-CIA-01]], [[TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01]], [[TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01]], [[TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01]]
 
-### Célula #09 (Caso Caval / Caso Megafraude Tributario Operacion Tributos)
+### Célula #08 (Caso Caval / Caso Megafraude Tributario Operacion Tributos)
 - **Tamaño del Clúster**: `14` nodos | **Flujo Auditado en la Célula**: `$243.035.030.792 CLP`
 - **Personas Involucradas (4)**: [[Claudio Spiniak Vilensky]], [[Jorge Silva Menares]], [[Mauricio Valero Illanes]], [[Natalia Compagnon Soto]]
 - **Entidades Públicas/Privadas (4)**: [[Exportadora y de Gestion Caval Ltda]], [[Inversiones El Bosque Ltda]], [[Municipalidad de Machali]], [[Servicio Impuestos Internos]]
 - **Transacciones Reificadas (4)**: [[TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01]], [[TRX-2014-02-18-Soborno-Caval-Machali-01]], [[TRX-2015-01-29-Facturas-Falsas-Caval-SII-01]], [[TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01]]
+
+### Célula #09 (Caso Operacion Huracan)
+- **Tamaño del Clúster**: `10` nodos | **Flujo Auditado en la Célula**: `$25.000.000 CLP`
+- **Personas Involucradas (4)**: [[Alex Smith Leay]], [[Gonzalo Blu Rodriguez]], [[Leonardo Osses Sandoval]], [[Patricio Marin Lazo]]
+- **Entidades Públicas/Privadas (2)**: [[Corte Suprema de Chile]], [[Direccion de Inteligencia Policial de Carabineros]]
+- **Transacciones Reificadas (3)**: [[TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01]], [[TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01]], [[TRX-2018-01-25-Peritaje-Cibercrimen-Descarte-Antorcha-01]]
 
 ### Célula #10 (Caso Asignaciones Parlamentarias y Cuota Flores / Caso Corpesca)
 - **Tamaño del Clúster**: `9` nodos | **Flujo Auditado en la Célula**: `$268.000.000 CLP`

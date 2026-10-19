@@ -137,7 +137,8 @@ def compute_hhi_by_origin(nexos: list[dict]) -> list[dict]:
 def main() -> int:
     notes = {}
     for dirpath, dirnames, filenames in os.walk(ROOT_DIR):
-        dirnames[:] = [d for d in dirnames if not d.startswith(".")]
+        # 06_Anexos queda fuera del grafo y de los análisis (menciones documentales sin imputación).
+        dirnames[:] = [d for d in dirnames if not d.startswith(".") and d != "06_Anexos"]
         for fname in filenames:
             if not fname.endswith(".md"):
                 continue

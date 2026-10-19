@@ -95,11 +95,6 @@
       "schema:name": "Andres Chadwick Pinera"
     },
     {
-      "@id": "urn:cl-osint:node:Andres_Velasco_Branes",
-      "@type": "osint:persona",
-      "schema:name": "Andres Velasco Branes"
-    },
-    {
       "@id": "urn:cl-osint:node:Andronico_Luksic_Craig",
       "@type": "osint:persona",
       "schema:name": "Andronico Luksic Craig"
@@ -178,11 +173,6 @@
       "@id": "urn:cl-osint:node:Domingo_Prieto_Urrejola",
       "@type": "osint:persona",
       "schema:name": "Domingo Prieto Urrejola"
-    },
-    {
-      "@id": "urn:cl-osint:node:Eduardo_Guendelman_Israel",
-      "@type": "osint:persona",
-      "schema:name": "Eduardo Guendelman Israel"
     },
     {
       "@id": "urn:cl-osint:node:Eliodoro_Matte_Larrain",
@@ -875,12 +865,6 @@
       "@type": "osint:partido_politico",
       "schema:name": "Union Democrata Independiente",
       "schema:identifier": "65.008.910-3"
-    },
-    {
-      "@id": "urn:cl-osint:node:Caso_Archivos_Epstein_Menciones_Chile",
-      "@type": "osint:causa_judicial",
-      "schema:name": "Caso Archivos Epstein Menciones Chile",
-      "schema:identifier": "15-CV-07433-LAP-SDNY"
     },
     {
       "@id": "urn:cl-osint:node:Caso_Asignaciones_Parlamentarias_y_Cuota_Flores",
@@ -1771,31 +1755,6 @@
       }
     },
     {
-      "@id": "urn:cl-osint:node:TRX-2013-05-20-Mencion-Referencial-Epstein-Dannatt-Velasco-01",
-      "@type": "osint:nexo_transaccion",
-      "schema:name": "TRX-2013-05-20-Mencion-Referencial-Epstein-Dannatt-Velasco-01",
-      "schema:amount": {
-        "@type": "schema:MonetaryAmount",
-        "schema:currency": "CLP",
-        "schema:value": 0
-      },
-      "osint:entidadOrigen": {
-        "@id": "urn:cl-osint:node:Corte_Suprema_de_Chile"
-      },
-      "osint:entidadDestino": {
-        "@id": "urn:cl-osint:node:Corte_Suprema_de_Chile"
-      },
-      "osint:firmanteOrigen": {
-        "@id": "urn:cl-osint:node:Andres_Velasco_Branes"
-      },
-      "osint:firmanteDestino": {
-        "@id": "urn:cl-osint:node:Andres_Velasco_Branes"
-      },
-      "osint:causaVinculada": {
-        "@id": "urn:cl-osint:node:Caso_Archivos_Epstein_Menciones_Chile"
-      }
-    },
-    {
       "@id": "urn:cl-osint:node:TRX-2013-07-15-Boletas-Falsas-Penta-UDI-01",
       "@type": "osint:nexo_transaccion",
       "schema:name": "TRX-2013-07-15-Boletas-Falsas-Penta-UDI-01",
@@ -1921,31 +1880,6 @@
       }
     },
     {
-      "@id": "urn:cl-osint:node:TRX-2015-08-10-Contacto-Academico-Patrocinio-Guendelman-Epstein-01",
-      "@type": "osint:nexo_transaccion",
-      "schema:name": "TRX-2015-08-10-Contacto-Academico-Patrocinio-Guendelman-Epstein-01",
-      "schema:amount": {
-        "@type": "schema:MonetaryAmount",
-        "schema:currency": "CLP",
-        "schema:value": 0
-      },
-      "osint:entidadOrigen": {
-        "@id": "urn:cl-osint:node:Corte_Suprema_de_Chile"
-      },
-      "osint:entidadDestino": {
-        "@id": "urn:cl-osint:node:Corte_Suprema_de_Chile"
-      },
-      "osint:firmanteOrigen": {
-        "@id": "urn:cl-osint:node:Eduardo_Guendelman_Israel"
-      },
-      "osint:firmanteDestino": {
-        "@id": "urn:cl-osint:node:Eduardo_Guendelman_Israel"
-      },
-      "osint:causaVinculada": {
-        "@id": "urn:cl-osint:node:Caso_Archivos_Epstein_Menciones_Chile"
-      }
-    },
-    {
       "@id": "urn:cl-osint:node:TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01",
       "@type": "osint:nexo_transaccion",
       "schema:name": "TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01",
@@ -1993,31 +1927,6 @@
       },
       "osint:causaVinculada": {
         "@id": "urn:cl-osint:node:Caso_Colusion_de_los_Pollos"
-      }
-    },
-    {
-      "@id": "urn:cl-osint:node:TRX-2015-11-14-Mencion-Indirecta-Epstein-BinSulayem-Luksic-01",
-      "@type": "osint:nexo_transaccion",
-      "schema:name": "TRX-2015-11-14-Mencion-Indirecta-Epstein-BinSulayem-Luksic-01",
-      "schema:amount": {
-        "@type": "schema:MonetaryAmount",
-        "schema:currency": "CLP",
-        "schema:value": 0
-      },
-      "osint:entidadOrigen": {
-        "@id": "urn:cl-osint:node:Corte_Suprema_de_Chile"
-      },
-      "osint:entidadDestino": {
-        "@id": "urn:cl-osint:node:Corte_Suprema_de_Chile"
-      },
-      "osint:firmanteOrigen": {
-        "@id": "urn:cl-osint:node:Andronico_Luksic_Craig"
-      },
-      "osint:firmanteDestino": {
-        "@id": "urn:cl-osint:node:Andronico_Luksic_Craig"
-      },
-      "osint:causaVinculada": {
-        "@id": "urn:cl-osint:node:Caso_Archivos_Epstein_Menciones_Chile"
       }
     },
     {
@@ -2854,11 +2763,6 @@
       "@id": "urn:cl-osint:node:Procesamientos-Ministra-Rutherford-Milicogate",
       "@type": "osint:evidencia_documental",
       "schema:name": "Procesamientos-Ministra-Rutherford-Milicogate"
-    },
-    {
-      "@id": "urn:cl-osint:node:Publicacion-Archivos-DOJ-CasoEpstein-2026",
-      "@type": "osint:evidencia_documental",
-      "schema:name": "Publicacion-Archivos-DOJ-CasoEpstein-2026"
     },
     {
       "@id": "urn:cl-osint:node:Querella-SII-Boletas-SQM-2015",

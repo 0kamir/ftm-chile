@@ -19,8 +19,8 @@ tags:
 
 ## 1. Indicadores Estructurales Globales
 
-- **Nodos Operativos Activos ($|V|$)**: `236` | **Aristas No Dirigidas ($|E|$)**: `385`
-- **Coeficiente de Asortatividad de Grado de Newman ($r$)**: **`-0.0801`**
+- **Nodos Operativos Activos ($|V|$)**: `229` | **Aristas No Dirigidas ($|E|$)**: `376`
+- **Coeficiente de Asortatividad de Grado de Newman ($r$)**: **`-0.0943`**
   - *Diagnóstico Topológico*: **Disasortativo (Arquitectura Hub-and-Spoke / Estrella: los grandes nodos articuladores operan a través de entidades instrumentales o testaferros periféricos)**
 - **Degeneración / Coreness Máximo ($k_{\max}$)**: `3-Core`
 - **Profundidad Máxima de Pelado (*Onion Layers*)**: `14 capas`
@@ -33,7 +33,7 @@ Actores institucionales, societarios y personales con grado $k_i \ge 2$ ordenado
 
 | Pos | Actor / Entidad | Tipo | Grado ($k_i$) | Restricción de Burt ($C_i$) | $k$-Core | Capa Cebolla |
 | :---: | :--- | :--- | :---: | :---: | :---: | :---: |
-| **1** | [[Corte Suprema de Chile]] | `entidad_publica` | `13` | **`0.0769`** | `3` | `Capa #12` |
+| **1** | [[Corte Suprema de Chile]] | `entidad_publica` | `10` | **`0.1000`** | `3` | `Capa #12` |
 | **2** | [[Union Democrata Independiente]] | `partido_politico` | `15` | **`0.1085`** | `3` | `Capa #12` |
 | **3** | [[Renovacion Nacional]] | `partido_politico` | `10` | **`0.1169`** | `3` | `Capa #10` |
 | **4** | [[Servicio Impuestos Internos]] | `entidad_publica` | `8` | **`0.1250`** | `3` | `Capa #11` |
@@ -71,7 +71,7 @@ Actores institucionales, societarios y personales con grado $k_i \ge 2$ ordenado
 | **9** | [[TRX-2022-11-29-Convenio-DV-03]] | `nexo_transaccion` | **`3`** | **`Capa #13`** | `5` | `0.2401` |
 | **10** | [[TRX-2023-02-09-Gestion-Judicial-Hermosilla-Vivanco-01]] | `nexo_transaccion` | **`3`** | **`Capa #13`** | `5` | `0.2289` |
 | **11** | [[Union Democrata Independiente]] | `partido_politico` | **`3`** | **`Capa #12`** | `15` | `0.1085` |
-| **12** | [[Corte Suprema de Chile]] | `entidad_publica` | **`3`** | **`Capa #12`** | `13` | `0.0769` |
+| **12** | [[Corte Suprema de Chile]] | `entidad_publica` | **`3`** | **`Capa #12`** | `10` | `0.1000` |
 | **13** | [[Augusto Pinochet Ugarte]] | `persona` | **`3`** | **`Capa #12`** | `8` | `0.1725` |
 | **14** | [[Caso Convenios]] | `causa_judicial` | **`3`** | **`Capa #12`** | `7` | `0.1429` |
 | **15** | [[Carlos Alberto Delano Abbott]] | `persona` | **`3`** | **`Capa #12`** | `6` | `0.3077` |

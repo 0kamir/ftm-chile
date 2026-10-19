@@ -145,9 +145,9 @@ Cada transacción o reunión constituye una nota independiente con metadatos con
 
 | Métrica Pericial | Valor Auditado | Verificación |
 | :--- | :---: | :--- |
-| **Notas Indexadas en Markdown** | **334** | Esquema estricto con metadatos YAML |
+| **Notas Indexadas en Markdown** | **327** | Esquema estricto con metadatos YAML |
 | **RUTs Chilenos Validados** | **62** | RUT de empresas y organismos (Módulo 11); no se publican RUT de personas |
-| **Aristas Reificadas (`TRX`)** | **68** | Flujos transaccionales y nexos documentados |
+| **Aristas Reificadas (`TRX`)** | **65** | Flujos transaccionales y nexos documentados |
 | **Macro-Causas Judiciales y Carteles** | **32** | Causas activas y ejecutoriadas |
 | **Monto Financiero Consolidado** | **$669.122.093.990 CLP** | Auditoría contable automatizada |
 | **Batería de Pruebas Unitarias** | **24 / 24 OK** | `pytest` / `unittest` en entorno continuo |

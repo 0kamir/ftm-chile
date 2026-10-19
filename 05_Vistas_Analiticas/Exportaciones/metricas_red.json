@@ -1,7 +1,7 @@
 {
   "resumen": {
-    "total_nodos": 327,
-    "total_aristas": 687,
+    "total_nodos": 319,
+    "total_aristas": 666,
     "monto_total_clp": 669122093990
   },
   "nodos": [
@@ -11,7 +11,7 @@
       "rut": "60.301.000-0",
       "monto_clp": 0,
       "path": "01_Entidades/Publicas/Corte Suprema de Chile.md",
-      "in_degree": 40,
+      "in_degree": 33,
       "out_degree": 0,
       "flujo_emitido_clp": 0,
       "flujo_recibido_clp": 69620000000
@@ -369,17 +369,6 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "TRX-2014-05-20-Facturas-LeyReservadaCobre-01",
-      "tipo_nodo": "nexo_transaccion",
-      "rut": "",
-      "monto_clp": 6100000000,
-      "path": "03_Hechos_y_Nexos/TRX-2014-05-20-Facturas-LeyReservadaCobre-01.md",
-      "in_degree": 1,
-      "out_degree": 7,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
       "id": "TRX-2015-01-29-Facturas-Falsas-Caval-SII-01",
       "tipo_nodo": "nexo_transaccion",
       "rut": "",
@@ -396,17 +385,6 @@
       "rut": "",
       "monto_clp": 14200000000,
       "path": "03_Hechos_y_Nexos/TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01.md",
-      "in_degree": 1,
-      "out_degree": 7,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
-      "id": "TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01",
-      "tipo_nodo": "nexo_transaccion",
-      "rut": "",
-      "monto_clp": 10500000000,
-      "path": "03_Hechos_y_Nexos/TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01.md",
       "in_degree": 1,
       "out_degree": 7,
       "flujo_emitido_clp": 0,
@@ -484,6 +462,28 @@
       "rut": "",
       "monto_clp": 100000000,
       "path": "03_Hechos_y_Nexos/TRX-2023-06-22-Reunion-Audios-01.md",
+      "in_degree": 1,
+      "out_degree": 7,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "TRX-2014-05-20-Facturas-LeyReservadaCobre-01",
+      "tipo_nodo": "nexo_transaccion",
+      "rut": "",
+      "monto_clp": 6100000000,
+      "path": "03_Hechos_y_Nexos/TRX-2014-05-20-Facturas-LeyReservadaCobre-01.md",
+      "in_degree": 1,
+      "out_degree": 7,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01",
+      "tipo_nodo": "nexo_transaccion",
+      "rut": "",
+      "monto_clp": 10500000000,
+      "path": "03_Hechos_y_Nexos/TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01.md",
       "in_degree": 1,
       "out_degree": 7,
       "flujo_emitido_clp": 0,
@@ -831,17 +831,6 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "TRX-2015-11-14-Mencion-Indirecta-Epstein-BinSulayem-Luksic-01",
-      "tipo_nodo": "nexo_transaccion",
-      "rut": "",
-      "monto_clp": 0,
-      "path": "03_Hechos_y_Nexos/TRX-2015-11-14-Mencion-Indirecta-Epstein-BinSulayem-Luksic-01.md",
-      "in_degree": 1,
-      "out_degree": 6,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
       "id": "TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01",
       "tipo_nodo": "nexo_transaccion",
       "rut": "",
@@ -886,17 +875,6 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01",
-      "tipo_nodo": "nexo_transaccion",
-      "rut": "",
-      "monto_clp": 190000000,
-      "path": "03_Hechos_y_Nexos/TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01.md",
-      "in_degree": 0,
-      "out_degree": 7,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
       "id": "TRX-2022-09-04-Presencia-Cerimedo-Sede-Renovacion-Nacional-01",
       "tipo_nodo": "nexo_transaccion",
       "rut": "",
@@ -926,6 +904,17 @@
       "path": "03_Hechos_y_Nexos/TRX-2023-12-14-Emision-Facturas-Falsas-Fraude-SII-Operacion-Tributos-01.md",
       "in_degree": 3,
       "out_degree": 4,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01",
+      "tipo_nodo": "nexo_transaccion",
+      "rut": "",
+      "monto_clp": 190000000,
+      "path": "03_Hechos_y_Nexos/TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01.md",
+      "in_degree": 0,
+      "out_degree": 7,
       "flujo_emitido_clp": 0,
       "flujo_recibido_clp": 0
     },
@@ -1051,28 +1040,6 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "TRX-2013-05-20-Mencion-Referencial-Epstein-Dannatt-Velasco-01",
-      "tipo_nodo": "nexo_transaccion",
-      "rut": "",
-      "monto_clp": 0,
-      "path": "03_Hechos_y_Nexos/TRX-2013-05-20-Mencion-Referencial-Epstein-Dannatt-Velasco-01.md",
-      "in_degree": 0,
-      "out_degree": 6,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
-      "id": "TRX-2015-08-10-Contacto-Academico-Patrocinio-Guendelman-Epstein-01",
-      "tipo_nodo": "nexo_transaccion",
-      "rut": "",
-      "monto_clp": 0,
-      "path": "03_Hechos_y_Nexos/TRX-2015-08-10-Contacto-Academico-Patrocinio-Guendelman-Epstein-01.md",
-      "in_degree": 0,
-      "out_degree": 6,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
       "id": "TRX-2019-05-14-Soborno-Luminarias-Chillan-01",
       "tipo_nodo": "nexo_transaccion",
       "rut": "",
@@ -1100,17 +1067,6 @@
       "rut": "",
       "monto_clp": 0,
       "path": "04_Evidencias/Informe-Comision-Church-1975-y-Hinchey-CIA-2000.md",
-      "in_degree": 3,
-      "out_degree": 3,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
-      "id": "Publicacion-Archivos-DOJ-CasoEpstein-2026",
-      "tipo_nodo": "evidencia_documental",
-      "rut": "",
-      "monto_clp": 0,
-      "path": "04_Evidencias/Publicacion-Archivos-DOJ-CasoEpstein-2026.md",
       "in_degree": 3,
       "out_degree": 3,
       "flujo_emitido_clp": 0,
@@ -1601,17 +1557,6 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Caso Milicogate",
-      "tipo_nodo": "causa_judicial",
-      "rut": "1500948120-7",
-      "monto_clp": 0,
-      "path": "02_Causas/Caso Milicogate.md",
-      "in_degree": 3,
-      "out_degree": 1,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
       "id": "Caso Pacogate",
       "tipo_nodo": "causa_judicial",
       "rut": "1601012894-2",
@@ -1656,13 +1601,13 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Caso Archivos Epstein Menciones Chile",
+      "id": "Caso Milicogate",
       "tipo_nodo": "causa_judicial",
-      "rut": "15-CV-07433-LAP-SDNY",
+      "rut": "1500948120-7",
       "monto_clp": 0,
-      "path": "02_Causas/Caso Archivos Epstein Menciones Chile.md",
-      "in_degree": 4,
-      "out_degree": 0,
+      "path": "02_Causas/Caso Milicogate.md",
+      "in_degree": 3,
+      "out_degree": 1,
       "flujo_emitido_clp": 0,
       "flujo_recibido_clp": 0
     },
@@ -2206,17 +2151,6 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Caso Operaciones Digitales e Injerencia Electoral",
-      "tipo_nodo": "causa_judicial",
-      "rut": "",
-      "monto_clp": 0,
-      "path": "02_Causas/Caso Operaciones Digitales e Injerencia Electoral.md",
-      "in_degree": 2,
-      "out_degree": 1,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
       "id": "Caso Sierra Bella",
       "tipo_nodo": "causa_judicial",
       "rut": "2300094812-3",
@@ -2233,6 +2167,17 @@
       "rut": "2100783412-9",
       "monto_clp": 0,
       "path": "02_Causas/Caso Vitacura.md",
+      "in_degree": 2,
+      "out_degree": 1,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "Caso Operaciones Digitales e Injerencia Electoral",
+      "tipo_nodo": "causa_judicial",
+      "rut": "",
+      "monto_clp": 0,
+      "path": "02_Causas/Caso Operaciones Digitales e Injerencia Electoral.md",
       "in_degree": 2,
       "out_degree": 1,
       "flujo_emitido_clp": 0,
@@ -2756,39 +2701,6 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Andres Velasco Branes",
-      "tipo_nodo": "persona",
-      "rut": "",
-      "monto_clp": 0,
-      "path": "01_Entidades/Personas/Andres Velasco Branes.md",
-      "in_degree": 2,
-      "out_degree": 0,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
-      "id": "Andronico Luksic Craig",
-      "tipo_nodo": "persona",
-      "rut": "",
-      "monto_clp": 0,
-      "path": "01_Entidades/Personas/Andronico Luksic Craig.md",
-      "in_degree": 2,
-      "out_degree": 0,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
-      "id": "Eduardo Guendelman Israel",
-      "tipo_nodo": "persona",
-      "rut": "",
-      "monto_clp": 0,
-      "path": "01_Entidades/Personas/Eduardo Guendelman Israel.md",
-      "in_degree": 2,
-      "out_degree": 0,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
       "id": "Felipe Sanchez Perez",
       "tipo_nodo": "persona",
       "rut": "",
@@ -2800,22 +2712,22 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Fernando Cerimedo",
+      "id": "Jorge Bermudez Soto",
       "tipo_nodo": "persona",
       "rut": "",
       "monto_clp": 0,
-      "path": "01_Entidades/Personas/Fernando Cerimedo.md",
+      "path": "01_Entidades/Personas/Jorge Bermudez Soto.md",
       "in_degree": 2,
       "out_degree": 0,
       "flujo_emitido_clp": 0,
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Jorge Bermudez Soto",
+      "id": "Fernando Cerimedo",
       "tipo_nodo": "persona",
       "rut": "",
       "monto_clp": 0,
-      "path": "01_Entidades/Personas/Jorge Bermudez Soto.md",
+      "path": "01_Entidades/Personas/Fernando Cerimedo.md",
       "in_degree": 2,
       "out_degree": 0,
       "flujo_emitido_clp": 0,
@@ -3207,6 +3119,17 @@
       "flujo_recibido_clp": 0
     },
     {
+      "id": "Andronico Luksic Craig",
+      "tipo_nodo": "persona",
+      "rut": "",
+      "monto_clp": 0,
+      "path": "01_Entidades/Personas/Andronico Luksic Craig.md",
+      "in_degree": 0,
+      "out_degree": 0,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
       "id": "Bruno Villalobos Krumm",
       "tipo_nodo": "persona",
       "rut": "",
@@ -3405,17 +3328,6 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Auditoria_Desclasificaciones_Internacionales_Epstein",
-      "tipo_nodo": "vista_analitica",
-      "rut": "",
-      "monto_clp": 0,
-      "path": "05_Vistas_Analiticas/Auditoria_Desclasificaciones_Internacionales_Epstein.md",
-      "in_degree": 0,
-      "out_degree": 0,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
       "id": "Analisis_Espectral_y_Fiedler",
       "tipo_nodo": "vista_analitica",
       "rut": "",
@@ -3465,17 +3377,6 @@
       "rut": "",
       "monto_clp": 0,
       "path": "05_Vistas_Analiticas/Cobertura_de_Fuentes.md",
-      "in_degree": 0,
-      "out_degree": 0,
-      "flujo_emitido_clp": 0,
-      "flujo_recibido_clp": 0
-    },
-    {
-      "id": "Deteccion_Comunidades_Operativas",
-      "tipo_nodo": "vista_analitica",
-      "rut": "",
-      "monto_clp": 0,
-      "path": "05_Vistas_Analiticas/Deteccion_Comunidades_Operativas.md",
       "in_degree": 0,
       "out_degree": 0,
       "flujo_emitido_clp": 0,
@@ -3548,22 +3449,33 @@
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Revision_Riesgo_Difamacion",
+      "id": "Simulacion_Desarticulacion_Red",
       "tipo_nodo": "vista_analitica",
       "rut": "",
       "monto_clp": 0,
-      "path": "05_Vistas_Analiticas/Revision_Riesgo_Difamacion.md",
+      "path": "05_Vistas_Analiticas/Simulacion_Desarticulacion_Red.md",
       "in_degree": 0,
       "out_degree": 0,
       "flujo_emitido_clp": 0,
       "flujo_recibido_clp": 0
     },
     {
-      "id": "Simulacion_Desarticulacion_Red",
+      "id": "Deteccion_Comunidades_Operativas",
       "tipo_nodo": "vista_analitica",
       "rut": "",
       "monto_clp": 0,
-      "path": "05_Vistas_Analiticas/Simulacion_Desarticulacion_Red.md",
+      "path": "05_Vistas_Analiticas/Deteccion_Comunidades_Operativas.md",
+      "in_degree": 0,
+      "out_degree": 0,
+      "flujo_emitido_clp": 0,
+      "flujo_recibido_clp": 0
+    },
+    {
+      "id": "Revision_Riesgo_Difamacion",
+      "tipo_nodo": "vista_analitica",
+      "rut": "",
+      "monto_clp": 0,
+      "path": "05_Vistas_Analiticas/Revision_Riesgo_Difamacion.md",
       "in_degree": 0,
       "out_degree": 0,
       "flujo_emitido_clp": 0,
@@ -3749,24 +3661,6 @@
       "weight": 1
     },
     {
-      "source": "Lucia Hiriart Rodriguez",
-      "target": "Augusto Pinochet Ugarte",
-      "relation": "vinculos_familiares",
-      "weight": 1
-    },
-    {
-      "source": "Lucia Hiriart Rodriguez",
-      "target": "Augusto Pinochet Hiriart",
-      "relation": "vinculos_familiares",
-      "weight": 1
-    },
-    {
-      "source": "Lucia Hiriart Rodriguez",
-      "target": "Julio Ponce Lerou",
-      "relation": "vinculos_familiares",
-      "weight": 1
-    },
-    {
       "source": "Luis Plaza Sanchez",
       "target": "Renovacion Nacional",
       "relation": "afiliacion_politica",
@@ -3823,6 +3717,24 @@
     {
       "source": "Sebastian Pinera Echenique",
       "target": "Andres Chadwick Pinera",
+      "relation": "vinculos_familiares",
+      "weight": 1
+    },
+    {
+      "source": "Lucia Hiriart Rodriguez",
+      "target": "Augusto Pinochet Ugarte",
+      "relation": "vinculos_familiares",
+      "weight": 1
+    },
+    {
+      "source": "Lucia Hiriart Rodriguez",
+      "target": "Augusto Pinochet Hiriart",
+      "relation": "vinculos_familiares",
+      "weight": 1
+    },
+    {
+      "source": "Lucia Hiriart Rodriguez",
+      "target": "Julio Ponce Lerou",
       "relation": "vinculos_familiares",
       "weight": 1
     },
@@ -3889,12 +3801,6 @@
     {
       "source": "Vita Deportes",
       "target": "Domingo Prieto Urrejola",
-      "relation": "representante_legal",
-      "weight": 1
-    },
-    {
-      "source": "KDM Empresas SA",
-      "target": "Fernando Leon Steffens",
       "relation": "representante_legal",
       "weight": 1
     },
@@ -3977,12 +3883,6 @@
       "weight": 1
     },
     {
-      "source": "Bancard Inversiones Ltda",
-      "target": "Sebastian Pinera Echenique",
-      "relation": "representante_legal",
-      "weight": 1
-    },
-    {
       "source": "Corpesca SA",
       "target": "Francisco Mujica Ortuzar",
       "relation": "representante_legal",
@@ -4013,12 +3913,6 @@
       "weight": 1
     },
     {
-      "source": "Fundacion CEMA Chile",
-      "target": "Lucia Hiriart Rodriguez",
-      "relation": "representante_legal",
-      "weight": 1
-    },
-    {
       "source": "Gestion Ambiental y Territorial SA",
       "target": "Hector Pena Veliz",
       "relation": "representante_legal",
@@ -4033,6 +3927,24 @@
     {
       "source": "SQM SA",
       "target": "Patricio Contesse Gonzalez",
+      "relation": "representante_legal",
+      "weight": 1
+    },
+    {
+      "source": "Bancard Inversiones Ltda",
+      "target": "Sebastian Pinera Echenique",
+      "relation": "representante_legal",
+      "weight": 1
+    },
+    {
+      "source": "Fundacion CEMA Chile",
+      "target": "Lucia Hiriart Rodriguez",
+      "relation": "representante_legal",
+      "weight": 1
+    },
+    {
+      "source": "KDM Empresas SA",
+      "target": "Fernando Leon Steffens",
       "relation": "representante_legal",
       "weight": 1
     },
@@ -4139,12 +4051,6 @@
       "weight": 1
     },
     {
-      "source": "Caso Milicogate",
-      "target": "Malversacion de Caudales Publicos",
-      "relation": "delito_principal",
-      "weight": 1
-    },
-    {
       "source": "Caso Minera Dominga Pandora Papers",
       "target": "Cohecho",
       "relation": "delito_principal",
@@ -4165,12 +4071,6 @@
     {
       "source": "Caso Operacion Huracan",
       "target": "Falsificacion de Instrumento Publico",
-      "relation": "delito_principal",
-      "weight": 1
-    },
-    {
-      "source": "Caso Operaciones Digitales e Injerencia Electoral",
-      "target": "Fraude al Fisco",
       "relation": "delito_principal",
       "weight": 1
     },
@@ -4225,6 +4125,18 @@
     {
       "source": "Caso Vitacura",
       "target": "Malversacion de Caudales Publicos",
+      "relation": "delito_principal",
+      "weight": 1
+    },
+    {
+      "source": "Caso Milicogate",
+      "target": "Malversacion de Caudales Publicos",
+      "relation": "delito_principal",
+      "weight": 1
+    },
+    {
+      "source": "Caso Operaciones Digitales e Injerencia Electoral",
+      "target": "Fraude al Fisco",
       "relation": "delito_principal",
       "weight": 1
     },
@@ -6023,42 +5935,6 @@
       "weight": 233000000
     },
     {
-      "source": "TRX-2013-05-20-Mencion-Referencial-Epstein-Dannatt-Velasco-01",
-      "target": "Corte Suprema de Chile",
-      "relation": "entidad_origen",
-      "weight": 0
-    },
-    {
-      "source": "TRX-2013-05-20-Mencion-Referencial-Epstein-Dannatt-Velasco-01",
-      "target": "Corte Suprema de Chile",
-      "relation": "entidad_destino",
-      "weight": 0
-    },
-    {
-      "source": "TRX-2013-05-20-Mencion-Referencial-Epstein-Dannatt-Velasco-01",
-      "target": "Andres Velasco Branes",
-      "relation": "firmante_origen",
-      "weight": 0
-    },
-    {
-      "source": "TRX-2013-05-20-Mencion-Referencial-Epstein-Dannatt-Velasco-01",
-      "target": "Andres Velasco Branes",
-      "relation": "firmante_destino",
-      "weight": 0
-    },
-    {
-      "source": "TRX-2013-05-20-Mencion-Referencial-Epstein-Dannatt-Velasco-01",
-      "target": "Caso Archivos Epstein Menciones Chile",
-      "relation": "causa_vinculada",
-      "weight": 0
-    },
-    {
-      "source": "TRX-2013-05-20-Mencion-Referencial-Epstein-Dannatt-Velasco-01",
-      "target": "Publicacion-Archivos-DOJ-CasoEpstein-2026",
-      "relation": "evidencia_soporte",
-      "weight": 0
-    },
-    {
       "source": "TRX-2014-02-18-Soborno-Caval-Machali-01",
       "target": "Municipalidad de Machali",
       "relation": "entidad_destino",
@@ -6087,48 +5963,6 @@
       "target": "Sentencia-TOP-Rancagua-Caval-2018",
       "relation": "evidencia_soporte",
       "weight": 55030792
-    },
-    {
-      "source": "TRX-2014-05-20-Facturas-LeyReservadaCobre-01",
-      "target": "Comando de Apoyo a la Fuerza del Ejercito",
-      "relation": "entidad_origen",
-      "weight": 6100000000
-    },
-    {
-      "source": "TRX-2014-05-20-Facturas-LeyReservadaCobre-01",
-      "target": "Frasim Ltda",
-      "relation": "entidad_destino",
-      "weight": 6100000000
-    },
-    {
-      "source": "TRX-2014-05-20-Facturas-LeyReservadaCobre-01",
-      "target": "Juan Miguel Fuente-Alba Poblete",
-      "relation": "firmante_origen",
-      "weight": 6100000000
-    },
-    {
-      "source": "TRX-2014-05-20-Facturas-LeyReservadaCobre-01",
-      "target": "Jozo Santic Palomino",
-      "relation": "firmante_destino",
-      "weight": 6100000000
-    },
-    {
-      "source": "TRX-2014-05-20-Facturas-LeyReservadaCobre-01",
-      "target": "Caso Milicogate",
-      "relation": "causa_vinculada",
-      "weight": 6100000000
-    },
-    {
-      "source": "TRX-2014-05-20-Facturas-LeyReservadaCobre-01",
-      "target": "Malversacion de Caudales Publicos",
-      "relation": "delito_imputado",
-      "weight": 6100000000
-    },
-    {
-      "source": "TRX-2014-05-20-Facturas-LeyReservadaCobre-01",
-      "target": "Procesamientos-Ministra-Rutherford-Milicogate",
-      "relation": "evidencia_soporte",
-      "weight": 6100000000
     },
     {
       "source": "TRX-2015-01-29-Facturas-Falsas-Caval-SII-01",
@@ -6173,42 +6007,6 @@
       "weight": 2500000000
     },
     {
-      "source": "TRX-2015-08-10-Contacto-Academico-Patrocinio-Guendelman-Epstein-01",
-      "target": "Corte Suprema de Chile",
-      "relation": "entidad_origen",
-      "weight": 0
-    },
-    {
-      "source": "TRX-2015-08-10-Contacto-Academico-Patrocinio-Guendelman-Epstein-01",
-      "target": "Corte Suprema de Chile",
-      "relation": "entidad_destino",
-      "weight": 0
-    },
-    {
-      "source": "TRX-2015-08-10-Contacto-Academico-Patrocinio-Guendelman-Epstein-01",
-      "target": "Eduardo Guendelman Israel",
-      "relation": "firmante_origen",
-      "weight": 0
-    },
-    {
-      "source": "TRX-2015-08-10-Contacto-Academico-Patrocinio-Guendelman-Epstein-01",
-      "target": "Eduardo Guendelman Israel",
-      "relation": "firmante_destino",
-      "weight": 0
-    },
-    {
-      "source": "TRX-2015-08-10-Contacto-Academico-Patrocinio-Guendelman-Epstein-01",
-      "target": "Caso Archivos Epstein Menciones Chile",
-      "relation": "causa_vinculada",
-      "weight": 0
-    },
-    {
-      "source": "TRX-2015-08-10-Contacto-Academico-Patrocinio-Guendelman-Epstein-01",
-      "target": "Publicacion-Archivos-DOJ-CasoEpstein-2026",
-      "relation": "evidencia_soporte",
-      "weight": 0
-    },
-    {
       "source": "TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01",
       "target": "Comando de Apoyo a la Fuerza del Ejercito",
       "relation": "entidad_origen",
@@ -6249,42 +6047,6 @@
       "target": "Procesamientos-Ministra-Rutherford-Milicogate",
       "relation": "evidencia_soporte",
       "weight": 3500000000
-    },
-    {
-      "source": "TRX-2015-11-14-Mencion-Indirecta-Epstein-BinSulayem-Luksic-01",
-      "target": "Corte Suprema de Chile",
-      "relation": "entidad_origen",
-      "weight": 0
-    },
-    {
-      "source": "TRX-2015-11-14-Mencion-Indirecta-Epstein-BinSulayem-Luksic-01",
-      "target": "Corte Suprema de Chile",
-      "relation": "entidad_destino",
-      "weight": 0
-    },
-    {
-      "source": "TRX-2015-11-14-Mencion-Indirecta-Epstein-BinSulayem-Luksic-01",
-      "target": "Andronico Luksic Craig",
-      "relation": "firmante_origen",
-      "weight": 0
-    },
-    {
-      "source": "TRX-2015-11-14-Mencion-Indirecta-Epstein-BinSulayem-Luksic-01",
-      "target": "Andronico Luksic Craig",
-      "relation": "firmante_destino",
-      "weight": 0
-    },
-    {
-      "source": "TRX-2015-11-14-Mencion-Indirecta-Epstein-BinSulayem-Luksic-01",
-      "target": "Caso Archivos Epstein Menciones Chile",
-      "relation": "causa_vinculada",
-      "weight": 0
-    },
-    {
-      "source": "TRX-2015-11-14-Mencion-Indirecta-Epstein-BinSulayem-Luksic-01",
-      "target": "Publicacion-Archivos-DOJ-CasoEpstein-2026",
-      "relation": "evidencia_soporte",
-      "weight": 0
     },
     {
       "source": "TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01",
@@ -6411,48 +6173,6 @@
       "target": "Filtracion-ICIJ-PanamaPapers-Chile-2016",
       "relation": "evidencia_soporte",
       "weight": 3800000000
-    },
-    {
-      "source": "TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01",
-      "target": "Fundacion CEMA Chile",
-      "relation": "entidad_origen",
-      "weight": 10500000000
-    },
-    {
-      "source": "TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01",
-      "target": "Corte Suprema de Chile",
-      "relation": "entidad_destino",
-      "weight": 10500000000
-    },
-    {
-      "source": "TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01",
-      "target": "Lucia Hiriart Rodriguez",
-      "relation": "firmante_origen",
-      "weight": 10500000000
-    },
-    {
-      "source": "TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01",
-      "target": "Sergio Munoz Gajardo",
-      "relation": "firmante_destino",
-      "weight": 10500000000
-    },
-    {
-      "source": "TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01",
-      "target": "Malversacion de Caudales Publicos",
-      "relation": "delito_imputado",
-      "weight": 10500000000
-    },
-    {
-      "source": "TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01",
-      "target": "Caso CEMA Chile",
-      "relation": "causa_vinculada",
-      "weight": 10500000000
-    },
-    {
-      "source": "TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01",
-      "target": "Disolucion-CDE-Fundacion-CEMAChile-2021",
-      "relation": "evidencia_soporte",
-      "weight": 10500000000
     },
     {
       "source": "TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01",
@@ -6657,48 +6377,6 @@
       "target": "Cohecho",
       "relation": "delito_imputado",
       "weight": 37000000
-    },
-    {
-      "source": "TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01",
-      "target": "Factop SpA",
-      "relation": "entidad_origen",
-      "weight": 190000000
-    },
-    {
-      "source": "TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01",
-      "target": "Senado de la Republica de Chile",
-      "relation": "entidad_destino",
-      "weight": 190000000
-    },
-    {
-      "source": "TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01",
-      "target": "Luis Hermosilla Osorio",
-      "relation": "firmante_origen",
-      "weight": 190000000
-    },
-    {
-      "source": "TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01",
-      "target": "Andres Chadwick Pinera",
-      "relation": "firmante_destino",
-      "weight": 190000000
-    },
-    {
-      "source": "TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01",
-      "target": "Caso Audios",
-      "relation": "causa_vinculada",
-      "weight": 190000000
-    },
-    {
-      "source": "TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01",
-      "target": "Trafico de Influencias",
-      "relation": "delito_imputado",
-      "weight": 190000000
-    },
-    {
-      "source": "TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01",
-      "target": "Audio-Reunion-Edificio-Alonso-2023",
-      "relation": "evidencia_soporte",
-      "weight": 190000000
     },
     {
       "source": "TRX-2020-12-15-Deficit-Maipu-Certificados-01",
@@ -7013,6 +6691,132 @@
       "weight": 240000000000
     },
     {
+      "source": "TRX-2014-05-20-Facturas-LeyReservadaCobre-01",
+      "target": "Comando de Apoyo a la Fuerza del Ejercito",
+      "relation": "entidad_origen",
+      "weight": 6100000000
+    },
+    {
+      "source": "TRX-2014-05-20-Facturas-LeyReservadaCobre-01",
+      "target": "Frasim Ltda",
+      "relation": "entidad_destino",
+      "weight": 6100000000
+    },
+    {
+      "source": "TRX-2014-05-20-Facturas-LeyReservadaCobre-01",
+      "target": "Juan Miguel Fuente-Alba Poblete",
+      "relation": "firmante_origen",
+      "weight": 6100000000
+    },
+    {
+      "source": "TRX-2014-05-20-Facturas-LeyReservadaCobre-01",
+      "target": "Jozo Santic Palomino",
+      "relation": "firmante_destino",
+      "weight": 6100000000
+    },
+    {
+      "source": "TRX-2014-05-20-Facturas-LeyReservadaCobre-01",
+      "target": "Caso Milicogate",
+      "relation": "causa_vinculada",
+      "weight": 6100000000
+    },
+    {
+      "source": "TRX-2014-05-20-Facturas-LeyReservadaCobre-01",
+      "target": "Malversacion de Caudales Publicos",
+      "relation": "delito_imputado",
+      "weight": 6100000000
+    },
+    {
+      "source": "TRX-2014-05-20-Facturas-LeyReservadaCobre-01",
+      "target": "Procesamientos-Ministra-Rutherford-Milicogate",
+      "relation": "evidencia_soporte",
+      "weight": 6100000000
+    },
+    {
+      "source": "TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01",
+      "target": "Fundacion CEMA Chile",
+      "relation": "entidad_origen",
+      "weight": 10500000000
+    },
+    {
+      "source": "TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01",
+      "target": "Corte Suprema de Chile",
+      "relation": "entidad_destino",
+      "weight": 10500000000
+    },
+    {
+      "source": "TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01",
+      "target": "Lucia Hiriart Rodriguez",
+      "relation": "firmante_origen",
+      "weight": 10500000000
+    },
+    {
+      "source": "TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01",
+      "target": "Sergio Munoz Gajardo",
+      "relation": "firmante_destino",
+      "weight": 10500000000
+    },
+    {
+      "source": "TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01",
+      "target": "Malversacion de Caudales Publicos",
+      "relation": "delito_imputado",
+      "weight": 10500000000
+    },
+    {
+      "source": "TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01",
+      "target": "Caso CEMA Chile",
+      "relation": "causa_vinculada",
+      "weight": 10500000000
+    },
+    {
+      "source": "TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01",
+      "target": "Disolucion-CDE-Fundacion-CEMAChile-2021",
+      "relation": "evidencia_soporte",
+      "weight": 10500000000
+    },
+    {
+      "source": "TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01",
+      "target": "Factop SpA",
+      "relation": "entidad_origen",
+      "weight": 190000000
+    },
+    {
+      "source": "TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01",
+      "target": "Senado de la Republica de Chile",
+      "relation": "entidad_destino",
+      "weight": 190000000
+    },
+    {
+      "source": "TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01",
+      "target": "Luis Hermosilla Osorio",
+      "relation": "firmante_origen",
+      "weight": 190000000
+    },
+    {
+      "source": "TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01",
+      "target": "Andres Chadwick Pinera",
+      "relation": "firmante_destino",
+      "weight": 190000000
+    },
+    {
+      "source": "TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01",
+      "target": "Caso Audios",
+      "relation": "causa_vinculada",
+      "weight": 190000000
+    },
+    {
+      "source": "TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01",
+      "target": "Trafico de Influencias",
+      "relation": "delito_imputado",
+      "weight": 190000000
+    },
+    {
+      "source": "TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01",
+      "target": "Audio-Reunion-Edificio-Alonso-2023",
+      "relation": "evidencia_soporte",
+      "weight": 190000000
+    },
+    {
       "source": "Acuerdo-Compensatorio-SERNAC-CMPC-Tissue-2017",
       "target": "Servicio Nacional del Consumidor",
       "relation": "organismo_emisor",
@@ -7315,24 +7119,6 @@
     {
       "source": "Procesamientos-Ministra-Rutherford-Milicogate",
       "target": "TRX-2014-05-20-Facturas-LeyReservadaCobre-01",
-      "relation": "nexo_respaldado",
-      "weight": 1
-    },
-    {
-      "source": "Publicacion-Archivos-DOJ-CasoEpstein-2026",
-      "target": "Corte Suprema de Chile",
-      "relation": "organismo_emisor",
-      "weight": 1
-    },
-    {
-      "source": "Publicacion-Archivos-DOJ-CasoEpstein-2026",
-      "target": "Caso Archivos Epstein Menciones Chile",
-      "relation": "causa_vinculada",
-      "weight": 1
-    },
-    {
-      "source": "Publicacion-Archivos-DOJ-CasoEpstein-2026",
-      "target": "TRX-2015-11-14-Mencion-Indirecta-Epstein-BinSulayem-Luksic-01",
       "relation": "nexo_respaldado",
       "weight": 1
     },

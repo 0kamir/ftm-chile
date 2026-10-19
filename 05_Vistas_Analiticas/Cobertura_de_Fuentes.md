@@ -12,15 +12,15 @@ tags:
 ## Cobertura por Carpeta
 | Carpeta | Notas | Con fuente | Cobertura |
 | :--- | ---: | ---: | ---: |
-| `02_Causas` | 33 | 33 | 100% |
-| `04_Evidencias` | 40 | 40 | 100% |
-| `03_Hechos_y_Nexos` | 68 | 68 | 100% |
+| `02_Causas` | 32 | 32 | 100% |
+| `04_Evidencias` | 39 | 39 | 100% |
+| `03_Hechos_y_Nexos` | 65 | 65 | 100% |
 
 ## Estado de Verificación (Causas y Evidencias)
 | Estado | Notas |
 | :--- | ---: |
-| `desactualizado` | 3 |
-| `parcial` | 11 |
+| `desactualizado` | 2 |
+| `parcial` | 10 |
 | `verificado` | 59 |
 
 ## Alertas de Verificación Pendientes (1)
