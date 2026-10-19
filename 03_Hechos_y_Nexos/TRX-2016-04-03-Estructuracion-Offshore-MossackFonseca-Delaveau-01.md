@@ -11,7 +11,7 @@ firmante_origen: "[[Gonzalo Delaveau Swett]]"
 firmante_destino: "[[Carlos Pavez Tolosa]]"
 delito_imputado: "[[Delito Tributario]]"
 causa_vinculada: "[[Caso Panama Papers Chile]]"
-evidencia_soporte: "[[Informe-ICIJ-SII-PanamaPapers-Chile-2016]]"
+evidencia_soporte: "[[Filtracion-ICIJ-PanamaPapers-Chile-2016]]"
 tags:
   - nexo/gestion-influencia
   - panama-papers
@@ -36,4 +36,4 @@ tags:
 - **Evidencia de Soporte**: `= this.evidencia_soporte`
 
 ## Descripción Forense del Hecho
-Constitución, secretaría corporativa y administración fiduciaria de al menos **cinco sociedades *offshore* domiciliadas en Bahamas** (*Turnbrook Corporation*, *DKL Holdings*, *Westquarter Limited*, *Mining Press Holdings* y *Turnbrook Mining Ltd.*) por parte del abogado [[Gonzalo Delaveau Swett]] en su doble calidad de intermediario en Chile del bufete [[Mossack Fonseca y Sociedades Offshore Panama]] y **Presidente de *Chile Transparente*** (capítulo nacional de Transparencia Internacional). Dichos vehículos *offshore* canalizaron inversiones mineras en el proyecto *Andes Copper* por cerca de **$14.200.000.000 CLP** fuera de la tributación ordinaria chilena, provocando la renuncia inmediata de Delaveau el 4 de abril de 2016 y la apertura del plan especial de fiscalización del [[Servicio Impuestos Internos]] en el [[Caso Panama Papers Chile]] ([[Informe-ICIJ-SII-PanamaPapers-Chile-2016]]).
+Constitución, secretaría corporativa y administración fiduciaria de al menos **cinco sociedades *offshore* domiciliadas en Bahamas** (*Turnbrook Corporation*, *DKL Holdings*, *Westquarter Limited*, *Mining Press Holdings* y *Turnbrook Mining Ltd.*) por parte del abogado [[Gonzalo Delaveau Swett]] en su doble calidad de intermediario en Chile del bufete [[Mossack Fonseca y Sociedades Offshore Panama]] y **Presidente de *Chile Transparente*** (capítulo nacional de Transparencia Internacional). Dichos vehículos *offshore* canalizaron inversiones mineras en el proyecto *Andes Copper* por cerca de **$14.200.000.000 CLP** fuera de la tributación ordinaria chilena, provocando la renuncia inmediata de Delaveau el 4 de abril de 2016 y la apertura del plan especial de fiscalización del [[Servicio Impuestos Internos]] en el [[Caso Panama Papers Chile]] ([[Filtracion-ICIJ-PanamaPapers-Chile-2016]]).

@@ -20,8 +20,6 @@ fuentes:
     tipo: secundaria
     fecha: 2026-05-04
     consultado: 2026-10-19
-alertas_verificacion:
-  - "Veredicto 09-01-2026 y sentencia 02-04-2026, con recursos de nulidad pendientes (mayo 2026): la sentencia no está firme. La evidencia se titula '...-2024'."
 tags:
   - causa
   - operacion-huracan

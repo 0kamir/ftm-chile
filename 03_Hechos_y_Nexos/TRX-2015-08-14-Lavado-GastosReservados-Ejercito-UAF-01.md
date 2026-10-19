@@ -11,7 +11,7 @@ firmante_origen: "[[Juan Miguel Fuente-Alba Poblete]]"
 firmante_destino: "[[Javier Cruz Tamburrino]]"
 delito_imputado: "[[Lavado de Activos]]"
 causa_vinculada: "[[Caso Milicogate]]"
-evidencia_soporte: "[[Auto-Procesamiento-Ministra-Rutherford-2019]]"
+evidencia_soporte: "[[Procesamientos-Ministra-Rutherford-Milicogate]]"
 tags:
   - nexo/lavado-activos
   - ros-uaf

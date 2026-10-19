@@ -25,6 +25,12 @@ fuentes:
     medio: "CNN Chile"
     tipo: secundaria
     consultado: 2026-10-19
+  - url: "https://www.ciperchile.cl/2023/11/14/aqui-estamos-haciendo-una-hueva-que-es-delito-el-audio-en-el-que-luis-hermosilla-menciona-pagos-a-funcionarios-del-sii-y-la-cmf/"
+    titulo: "“Aquí estamos haciendo una huevá que es delito”: el audio en el que Luis Hermosilla menciona pagos a funcionarios del SII y la CMF"
+    medio: "CIPER Chile"
+    tipo: secundaria
+    fecha: 2023-11-14
+    consultado: 2026-10-19
 tags:
   - causa
   - caso-audios

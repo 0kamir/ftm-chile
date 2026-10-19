@@ -2,7 +2,7 @@
 tipo_nodo: evidencia_documental
 id_evidencia: "EVD-CDE-CEMA-2019-001"
 tipo_documento: "Transacción Judicial, Disolución Corporativa y Restitución de 108 Inmuebles Fiscales al Estado (Rol 34.125-2016)"
-fecha_emision: 2019-07-15
+fecha_emision: 2021-09-01
 organismo_emisor: "[[Corte Suprema de Chile]]"
 fuente_osint: "Poder Judicial de Chile / Consejo de Defensa del Estado (cde.cl) / Ministerio de Bienes Nacionales"
 causa_vinculada: "[[Caso CEMA Chile]]"
@@ -15,15 +15,19 @@ fuentes:
     tipo: secundaria
     fecha: 2021-12-16
     consultado: 2026-10-19
-alertas_verificacion:
-  - "No se encontró un 'acuerdo judicial de restitución' de 2019; la prensa describe el traspaso de bienes y la disolución vía CDE en 2021."
+  - url: "https://www.theclinic.cl/2016/08/23/caso-cema-chile-fraude-al-fisco/"
+    titulo: "Caso CEMA Chile: querella por fraude al fisco"
+    medio: "The Clinic"
+    tipo: secundaria
+    fecha: 2016-08-23
+    consultado: 2026-10-19
 tags:
   - evidencia/sentencia
   - caso-cema-chile
   - bienes-fiscales
 ---
 
-# Acuerdo-Judicial-Restitucion-CEMAChile-2019
+# Disolucion-CDE-Fundacion-CEMAChile-2021
 
 ## Metadatos de Fuente Primaria (Cadena de Custodia OSINT)
 - **ID Evidencia**: `= this.id_evidencia`
@@ -36,7 +40,7 @@ tags:
 - **Nexo Respaldado**: `= this.nexo_respaldado`
 
 ## Extracto y Relevancia Probatoria
-Conjunto de resoluciones de embargo del Ministro en Visita Guillermo de la Barra Dünner (Causa Rol N° `34.125-2016`) y acuerdo judicial definitivo suscrito con el Consejo de Defensa del Estado y aprobado por los tribunales superiores en el [[Caso CEMA Chile]], mediante el cual se puso término a la administración vitalicia que [[Lucia Hiriart Rodriguez]] ejerció sobre la [[Fundacion CEMA Chile]], acreditando la venta comercial de bienes públicos por más de `$8.900.000.000 CLP` y ejecutando la disolución de la fundación junto con el traspaso gratuito de **108 inmuebles fiscales y municipales** y de la totalidad de sus fondos líquidos remanentes al Fisco de Chile (**`$10.500.000.000 CLP`** en activos recuperados en [[TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01]]).
+Proceso de disolución de la [[Fundacion CEMA Chile]] iniciado por el Consejo de Defensa del Estado en septiembre de 2021, tras el traspaso de sus bienes al Fisco y a fundaciones de beneficencia; según Emol, el Estado recuperó más de $18.000 millones. Antes, en 2016, el ministro en visita Guillermo de la Barra decretó el embargo preventivo de propiedades de la fundación tras una querella contra [[Lucia Hiriart Rodriguez]], quien negó haberse beneficiado. La arista penal no terminó en condena.
 
 ## Fuentes Verificables
 ```dataview

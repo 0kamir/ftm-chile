@@ -30,10 +30,10 @@ tags:
 - **Fuente Pública / OSINT**: `= this.fuente_osint`
 - **Estado de Verificación**: `= this.estado_verificacion`
 - **Causa Vinculada**: `= this.causa_vinculada`
-- **Nexo Respaldado**: `= this.nexo_respaldado` (y [[TRX-2002-04-12-Facturas-Triangulacion-GATE-SII-01]])
+- **Nexo Respaldado**: `= this.nexo_respaldado`
 
 ## Extracto y Relevancia Probatoria
-Fallo definitivo de la Segunda Sala Penal de la [[Corte Suprema de Chile]] que confirmó las condenas dictadas por la Ministra en Visita Extraordinaria Gloria Ana Chevesich Ruiz en el [[Caso MOP-Gate]], dando por acreditado el perjuicio fiscal superior a `$1.253.000.000 CLP` ocasionado al [[Ministerio de Obras Publicas]] mediante la triangulación de contratos con [[Gestion Ambiental y Territorial SA]] (GATE, [[Hector Pena Veliz]]) bajo la dirección del ex Ministro [[Carlos Cruz Lorenzen]] ([[TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01]]) y el uso de documentación tributaria falsa ante el [[Servicio Impuestos Internos]] ([[TRX-2002-04-12-Facturas-Triangulacion-GATE-SII-01]]).
+Fallo definitivo de la Segunda Sala Penal de la [[Corte Suprema de Chile]] que confirmó las condenas dictadas por la Ministra en Visita Extraordinaria Gloria Ana Chevesich Ruiz en el [[Caso MOP-Gate]], dando por acreditado el perjuicio fiscal superior a `$1.253.000.000 CLP` ocasionado al [[Ministerio de Obras Publicas]] mediante la triangulación de contratos con [[Gestion Ambiental y Territorial SA]] (GATE, [[Hector Pena Veliz]]) bajo la dirección del ex Ministro [[Carlos Cruz Lorenzen]] ([[TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01]]).
 
 ## Fuentes Verificables
 ```dataview

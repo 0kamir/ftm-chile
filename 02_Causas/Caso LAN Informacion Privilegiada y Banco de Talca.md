@@ -20,8 +20,20 @@ fuentes:
     tipo: secundaria
     fecha: 2012-11-28
     consultado: 2026-10-19
-alertas_verificacion:
-  - "Resolución Exenta SVS N° 306 (06-07-2007) sancionó infracción al deber de abstención (art. 165 Ley 18.045), multa 19.740 UF; Piñera no apeló. Arista Banco de Talca (1982) sin fuente específica todavía."
+  - url: "https://www.emol.com/noticias/nacional/2009/07/27/368966/pinera-y-caso-banco-de-talca-fui-victima-de-un-acto-injusto-ilegal-y-arbitrario.html"
+    titulo: "Piñera y caso Banco de Talca: 'Fui víctima de un acto injusto, ilegal y arbitrario'"
+    medio: "Emol"
+    tipo: secundaria
+    fecha: 2009-07-27
+    consultado: 2026-10-19
+  - url: "https://eldesconcierto.cl/2017/02/27/del-banco-talca-exalmar-5-momentos-pinera-se-vio-complicado-la-justicia"
+    titulo: "Del Banco de Talca a Exalmar: 5 momentos en que Piñera se vio complicado con la justicia"
+    medio: "El Desconcierto"
+    tipo: secundaria
+    fecha: 2017-02-27
+    consultado: 2026-10-19
+historial_correcciones:
+  - "Resolución Exenta SVS N° 306 (06-07-2007): multa de 19.470 UF por infracción al deber de abstención (art. 165 Ley 18.045). Banco de Talca (1982): orden de detención anulada por la Corte Suprema tras un amparo; Piñera no fue condenado."
 tags:
   - causa
   - caso-lan

@@ -2,7 +2,7 @@
 tipo_nodo: evidencia_documental
 id_evidencia: "EVD-3TOP-COR-2020-001"
 tipo_documento: "Sentencia Definitiva Condenatoria 3° Tribunal de Juicio Oral en lo Penal de Santiago"
-fecha_emision: 2020-12-02
+fecha_emision: 2021-04-16
 organismo_emisor: "[[Corte Suprema de Chile]]"
 fuente_osint: "Poder Judicial (pjud.cl) / Sentencia RIT 309-2018 3° TOP de Santiago"
 causa_vinculada: "[[Caso Corpesca]]"
@@ -20,7 +20,7 @@ tags:
   - caso-corpesca
 ---
 
-# Sentencia-3TOP-Santiago-Corpesca-2020
+# Sentencia-3TOP-Santiago-Corpesca-2021
 
 ## Metadatos de Fuente Primaria (Cadena de Custodia OSINT)
 - **ID Evidencia**: `= this.id_evidencia`

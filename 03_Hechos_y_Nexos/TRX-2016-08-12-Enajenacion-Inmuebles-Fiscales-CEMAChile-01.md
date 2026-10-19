@@ -11,7 +11,7 @@ firmante_origen: "[[Lucia Hiriart Rodriguez]]"
 firmante_destino: "[[Sergio Munoz Gajardo]]"
 delito_imputado: "[[Malversacion de Caudales Publicos]]"
 causa_vinculada: "[[Caso CEMA Chile]]"
-evidencia_soporte: "[[Acuerdo-Judicial-Restitucion-CEMAChile-2019]]"
+evidencia_soporte: "[[Disolucion-CDE-Fundacion-CEMAChile-2021]]"
 tags:
   - nexo/desviacion-fondos
   - caso-cema-chile
@@ -35,4 +35,4 @@ tags:
 - **Evidencia de Soporte**: `= this.evidencia_soporte`
 
 ## Descripción Forense del Hecho
-Apropiación estatutaria, venta comercial a terceros y posterior embargo y restitución forzosa al Fisco de Chile del patrimonio inmobiliario transferido gratuitamente por el Estado entre 1973 y 1990 a la [[Fundacion CEMA Chile]], presidida vitaliciamente por [[Lucia Hiriart Rodriguez]]. Tras las primeras pesquisas de desvíos de fondos de CEMA hacia la familia Pinochet detectadas por el ministro [[Sergio Munoz Gajardo]] en el [[Caso Riggs]], la reapertura judicial de 2016 en el [[Caso CEMA Chile]] investigó ventas inmobiliarias por más de `$8.900.000.000 CLP` y forzó la disolución de la fundación y la devolución al Fisco de **108 inmuebles fiscales y municipales más sus activos bancarios líquidos**, avaluados en más de **$10.500.000.000 CLP** ([[Acuerdo-Judicial-Restitucion-CEMAChile-2019]]).
+Apropiación estatutaria, venta comercial a terceros y posterior embargo y restitución forzosa al Fisco de Chile del patrimonio inmobiliario transferido gratuitamente por el Estado entre 1973 y 1990 a la [[Fundacion CEMA Chile]], presidida vitaliciamente por [[Lucia Hiriart Rodriguez]]. Tras las primeras pesquisas de desvíos de fondos de CEMA hacia la familia Pinochet detectadas por el ministro [[Sergio Munoz Gajardo]] en el [[Caso Riggs]], la reapertura judicial de 2016 en el [[Caso CEMA Chile]] investigó ventas inmobiliarias por más de `$8.900.000.000 CLP` y forzó la disolución de la fundación y la devolución al Fisco de **108 inmuebles fiscales y municipales más sus activos bancarios líquidos**, avaluados en más de **$10.500.000.000 CLP** ([[Disolucion-CDE-Fundacion-CEMAChile-2021]]).

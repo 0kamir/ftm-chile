@@ -19,7 +19,7 @@ fuentes:
     tipo: primaria
     fecha: 2026-01-30
     consultado: 2026-10-19
-alertas_verificacion:
+historial_correcciones:
   - "ALTO RIESGO REPUTACIONAL: las fuentes indican menciones referenciales, sin imputación ni contacto directo acreditado con Velasco o Luksic. La publicación masiva del DOJ es de diciembre 2025 a enero 2026, no 2024 como dice la evidencia. Considerar retirar las aristas TRX de 'mención'."
 tags:
   - causa
@@ -40,7 +40,7 @@ tags:
 - **Ámbito / Tipología Analizada**: `= this.delito_principal` *(Evaluación de redes de influencia internacional y donaciones)*
 
 ## Resumen Ejecutivo y Marco de Prevención contra Injurias
-Investigación y auditoría documental originada por la desclasificación masiva de millones de páginas de expedientes judiciales, agendas y correos electrónicos ordenada por la jueza Loretta Preska del Tribunal Federal de Manhattan (SDNY) y el Departamento de Justicia de los Estados Unidos (DOJ) en el caso contra Jeffrey Epstein y Ghislaine Maxwell ([[Desclasificacion-Documentos-DOJ-CasoEpstein-2024]]).
+Investigación y auditoría documental originada por la desclasificación masiva de millones de páginas de expedientes judiciales, agendas y correos electrónicos ordenada por la jueza Loretta Preska del Tribunal Federal de Manhattan (SDNY) y el Departamento de Justicia de los Estados Unidos (DOJ) en el caso contra Jeffrey Epstein y Ghislaine Maxwell ([[Publicacion-Archivos-DOJ-CasoEpstein-2026]]).
 
 En el marco de la metodología de inteligencia de fuentes abiertas (OSINT) y el estándar internacional contra la difamación (ICIJ, OCCRP y Sociedad Interamericana de Prensa), es imperativo distinguir entre **participación en una red delictual** versus **mención incidental o referencial en correspondencia de terceros**. 
 

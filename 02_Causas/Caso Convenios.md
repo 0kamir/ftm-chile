@@ -38,8 +38,6 @@ fuentes:
     tipo: secundaria
     fecha: 2026-08-05
     consultado: 2026-10-19
-alertas_verificacion:
-  - "ProCultura: formalización arista RM (fraude al fisco, feb-2026, 7° JG Santiago) y arista Biobío (apropiación indebida, 05-08-2026). Actualizar estado de Larraín."
 tags:
   - causa
   - caso-convenios

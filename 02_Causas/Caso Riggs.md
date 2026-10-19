@@ -20,7 +20,7 @@ fuentes:
     tipo: secundaria
     fecha: 2018-08-25
     consultado: 2026-10-19
-alertas_verificacion:
+historial_correcciones:
   - "La CS condenó a tres exmilitares (Vergara, Mac Lean, Castillo) por malversación de US$ 6,47 millones y ordenó comiso de US$ 1,62 millones. Pinochet murió (2006) sin condena."
 tags:
   - causa

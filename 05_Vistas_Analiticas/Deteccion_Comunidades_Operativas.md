@@ -15,11 +15,11 @@ tags:
 
 ## 1. Indicadores Globales de Partición
 
-- **Nodos Operativos Analizados**: `239`
-- **Modularidad Global de Newman-Girvan ($Q$)**: `0.8010` *(Valores $Q > 0.70$ indican alta compartimentación celular con puentes específicos de articulación)*
+- **Nodos Operativos Analizados**: `238`
+- **Modularidad Global de Newman-Girvan ($Q$)**: `0.8005` *(Valores $Q > 0.70$ indican alta compartimentación celular con puentes específicos de articulación)*
 - **Total de Células Operativas Detectadas**: `16`
-- **Enlaces Puente Inter-Comunidad Detectados**: `44`
-- **Nodos Articuladores Inter-Célula ($P_i > 0$)**: `56`
+- **Enlaces Puente Inter-Comunidad Detectados**: `43`
+- **Nodos Articuladores Inter-Célula ($P_i > 0$)**: `55`
 
 ---
 
@@ -27,7 +27,7 @@ tags:
 
 | Pos | Nodo Articulador | Tipo | Comunidad Base | Grado ($k_i$) | Coef. Participación ($P_i$) | Rol Topológico |
 | :--- | :--- | :--- | :--- | :---: | :---: | :--- |
-| **1** | [[Servicio Impuestos Internos]] | `entidad_publica` | Célula #08 (Caso Megafraude Tributario Operacion Tributos / Caso Panama Papers Chile) | `10` | **`0.8400`** | Hub Conector Multi-Célula |
+| **1** | [[Servicio Impuestos Internos]] | `entidad_publica` | Célula #08 (Caso Megafraude Tributario Operacion Tributos / Caso Panama Papers Chile) | `9` | **`0.8148`** | Hub Conector Multi-Célula |
 | **2** | [[Sergio Munoz Gajardo]] | `persona` | Célula #06 (Caso CEMA Chile / Caso Cascadas) | `5` | **`0.7200`** | Hub Conector Multi-Célula |
 | **3** | [[Corte Suprema de Chile]] | `entidad_publica` | Célula #07 (Caso Archivos Epstein Menciones Chile / Caso Operacion Huracan) | `16` | **`0.7109`** | Hub Conector Multi-Célula |
 | **4** | [[Comando de Apoyo a la Fuerza del Ejercito]] | `entidad_publica` | Célula #06 (Caso CEMA Chile / Caso Cascadas) | `5` | **`0.6400`** | Hub Conector Multi-Célula |
@@ -63,26 +63,25 @@ tags:
 | **34** | [[Senado de la Republica de Chile]] | `entidad_publica` | Célula #09 (Caso Asignaciones Parlamentarias y Cuota Flores / Caso Corpesca) | `4` | **`0.3750`** | Hub Conector Multi-Célula |
 | **35** | [[Sociedad Benefactora y Educacional Dignidad]] | `entidad_privada` | Célula #15 (Caso Colonia Dignidad) | `4` | **`0.3750`** | Hub Conector Multi-Célula |
 | **36** | [[TRX-1991-01-31-Vaciamiento-Patrimonial-Evasion-ColoniaDignidad-01]] | `nexo_transaccion` | Célula #15 (Caso Colonia Dignidad) | `5` | **`0.3200`** | Hub Conector Multi-Célula |
-| **37** | [[TRX-2002-04-12-Facturas-Triangulacion-GATE-SII-01]] | `nexo_transaccion` | Célula #11 (Caso MOP-Gate) | `5` | **`0.3200`** | Hub Conector Multi-Célula |
-| **38** | [[TRX-2005-06-14-Arsenal-Clandestino-AsociacionIlicita-ColoniaDignidad-01]] | `nexo_transaccion` | Célula #15 (Caso Colonia Dignidad) | `5` | **`0.3200`** | Hub Conector Multi-Célula |
-| **39** | [[TRX-2005-08-10-Evasion-Tributaria-Cuentas-Riggs-SII-01]] | `nexo_transaccion` | Célula #06 (Caso CEMA Chile / Caso Cascadas) | `5` | **`0.3200`** | Hub Conector Multi-Célula |
-| **40** | [[TRX-2010-11-15-Soborno-Licitacion-Basura-Maipu-01]] | `nexo_transaccion` | Célula #04 (Caso Basura / Caso Operaciones Digitales e Injerencia Electoral) | `5` | **`0.3200`** | Hub Conector Multi-Célula |
-| **41** | [[TRX-2011-03-10-Pagos-Penta-Wagner-01]] | `nexo_transaccion` | Célula #01 (Caso Exalmar y Fideicomiso Ciego / Caso LAN Informacion Privilegiada y Banco de Talca) | `5` | **`0.3200`** | Hub Conector Multi-Célula |
-| **42** | [[TRX-2012-11-20-Inversion-Offshore-Bancard-Exalmar-LaHaya-01]] | `nexo_transaccion` | Célula #01 (Caso Exalmar y Fideicomiso Ciego / Caso LAN Informacion Privilegiada y Banco de Talca) | `5` | **`0.3200`** | Hub Conector Multi-Célula |
-| **43** | [[TRX-2014-05-20-Facturas-LeyReservadaCobre-01]] | `nexo_transaccion` | Célula #03 (Caso Audios / Caso Milicogate) | `5` | **`0.3200`** | Hub Conector Multi-Célula |
-| **44** | [[TRX-2015-01-29-Facturas-Falsas-Caval-SII-01]] | `nexo_transaccion` | Célula #12 (Caso Caval) | `5` | **`0.3200`** | Hub Conector Multi-Célula |
-| **45** | [[TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01]] | `nexo_transaccion` | Célula #03 (Caso Audios / Caso Milicogate) | `5` | **`0.3200`** | Hub Conector Multi-Célula |
-| **46** | [[TRX-2015-10-29-Pago-Multas-Historicas-Cartel-Pollos-01]] | `nexo_transaccion` | Célula #05 (Caso Colusion de las Farmacias / Caso Colusion de los Pollos) | `5` | **`0.3200`** | Hub Conector Multi-Célula |
-| **47** | [[TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01]] | `nexo_transaccion` | Célula #08 (Caso Megafraude Tributario Operacion Tributos / Caso Panama Papers Chile) | `5` | **`0.3200`** | Hub Conector Multi-Célula |
-| **48** | [[TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01]] | `nexo_transaccion` | Célula #06 (Caso CEMA Chile / Caso Cascadas) | `5` | **`0.3200`** | Hub Conector Multi-Célula |
-| **49** | [[TRX-2017-03-03-Compensacion-Historica-Consumidores-CMPC-SERNAC-01]] | `nexo_transaccion` | Célula #13 (Caso Colusion del Papel Tissue) | `5` | **`0.3200`** | Hub Conector Multi-Célula |
-| **50** | [[TRX-2022-11-15-Gestion-Nombramientos-Hermosilla-Zaliasnik-01]] | `nexo_transaccion` | Célula #03 (Caso Audios / Caso Milicogate) | `5` | **`0.3200`** | Hub Conector Multi-Célula |
-| **51** | [[TRX-2023-02-09-Gestion-Judicial-Hermosilla-Vivanco-01]] | `nexo_transaccion` | Célula #03 (Caso Audios / Caso Milicogate) | `5` | **`0.3200`** | Hub Conector Multi-Célula |
-| **52** | [[TRX-2023-05-10-Liquidacion-Tributaria-ProCultura-SII-01]] | `nexo_transaccion` | Célula #02 (Caso Convenios) | `5` | **`0.3200`** | Hub Conector Multi-Célula |
-| **53** | [[Unidad de Analisis Financiero]] | `entidad_publica` | Célula #03 (Caso Audios / Caso Milicogate) | `5` | **`0.3200`** | Hub Conector Multi-Célula |
-| **54** | [[Augusto Pinochet Ugarte]] | `persona` | Célula #06 (Caso CEMA Chile / Caso Cascadas) | `11` | **`0.2975`** | Puente Inter-Clúster |
-| **55** | [[Union Democrata Independiente]] | `partido_politico` | Célula #01 (Caso Exalmar y Fideicomiso Ciego / Caso LAN Informacion Privilegiada y Banco de Talca) | `15` | **`0.2400`** | Puente Inter-Clúster |
-| **56** | [[Sebastian Pinera Echenique]] | `persona` | Célula #01 (Caso Exalmar y Fideicomiso Ciego / Caso LAN Informacion Privilegiada y Banco de Talca) | `8` | **`0.2188`** | Puente Inter-Clúster |
+| **37** | [[TRX-2005-06-14-Arsenal-Clandestino-AsociacionIlicita-ColoniaDignidad-01]] | `nexo_transaccion` | Célula #15 (Caso Colonia Dignidad) | `5` | **`0.3200`** | Hub Conector Multi-Célula |
+| **38** | [[TRX-2005-08-10-Evasion-Tributaria-Cuentas-Riggs-SII-01]] | `nexo_transaccion` | Célula #06 (Caso CEMA Chile / Caso Cascadas) | `5` | **`0.3200`** | Hub Conector Multi-Célula |
+| **39** | [[TRX-2010-11-15-Soborno-Licitacion-Basura-Maipu-01]] | `nexo_transaccion` | Célula #04 (Caso Basura / Caso Operaciones Digitales e Injerencia Electoral) | `5` | **`0.3200`** | Hub Conector Multi-Célula |
+| **40** | [[TRX-2011-03-10-Pagos-Penta-Wagner-01]] | `nexo_transaccion` | Célula #01 (Caso Exalmar y Fideicomiso Ciego / Caso LAN Informacion Privilegiada y Banco de Talca) | `5` | **`0.3200`** | Hub Conector Multi-Célula |
+| **41** | [[TRX-2012-11-20-Inversion-Offshore-Bancard-Exalmar-LaHaya-01]] | `nexo_transaccion` | Célula #01 (Caso Exalmar y Fideicomiso Ciego / Caso LAN Informacion Privilegiada y Banco de Talca) | `5` | **`0.3200`** | Hub Conector Multi-Célula |
+| **42** | [[TRX-2014-05-20-Facturas-LeyReservadaCobre-01]] | `nexo_transaccion` | Célula #03 (Caso Audios / Caso Milicogate) | `5` | **`0.3200`** | Hub Conector Multi-Célula |
+| **43** | [[TRX-2015-01-29-Facturas-Falsas-Caval-SII-01]] | `nexo_transaccion` | Célula #11 (Caso Caval) | `5` | **`0.3200`** | Hub Conector Multi-Célula |
+| **44** | [[TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01]] | `nexo_transaccion` | Célula #03 (Caso Audios / Caso Milicogate) | `5` | **`0.3200`** | Hub Conector Multi-Célula |
+| **45** | [[TRX-2015-10-29-Pago-Multas-Historicas-Cartel-Pollos-01]] | `nexo_transaccion` | Célula #05 (Caso Colusion de las Farmacias / Caso Colusion de los Pollos) | `5` | **`0.3200`** | Hub Conector Multi-Célula |
+| **46** | [[TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01]] | `nexo_transaccion` | Célula #08 (Caso Megafraude Tributario Operacion Tributos / Caso Panama Papers Chile) | `5` | **`0.3200`** | Hub Conector Multi-Célula |
+| **47** | [[TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01]] | `nexo_transaccion` | Célula #06 (Caso CEMA Chile / Caso Cascadas) | `5` | **`0.3200`** | Hub Conector Multi-Célula |
+| **48** | [[TRX-2017-03-03-Compensacion-Historica-Consumidores-CMPC-SERNAC-01]] | `nexo_transaccion` | Célula #13 (Caso Colusion del Papel Tissue) | `5` | **`0.3200`** | Hub Conector Multi-Célula |
+| **49** | [[TRX-2022-11-15-Gestion-Nombramientos-Hermosilla-Zaliasnik-01]] | `nexo_transaccion` | Célula #03 (Caso Audios / Caso Milicogate) | `5` | **`0.3200`** | Hub Conector Multi-Célula |
+| **50** | [[TRX-2023-02-09-Gestion-Judicial-Hermosilla-Vivanco-01]] | `nexo_transaccion` | Célula #03 (Caso Audios / Caso Milicogate) | `5` | **`0.3200`** | Hub Conector Multi-Célula |
+| **51** | [[TRX-2023-05-10-Liquidacion-Tributaria-ProCultura-SII-01]] | `nexo_transaccion` | Célula #02 (Caso Convenios) | `5` | **`0.3200`** | Hub Conector Multi-Célula |
+| **52** | [[Unidad de Analisis Financiero]] | `entidad_publica` | Célula #03 (Caso Audios / Caso Milicogate) | `5` | **`0.3200`** | Hub Conector Multi-Célula |
+| **53** | [[Augusto Pinochet Ugarte]] | `persona` | Célula #06 (Caso CEMA Chile / Caso Cascadas) | `11` | **`0.2975`** | Puente Inter-Clúster |
+| **54** | [[Union Democrata Independiente]] | `partido_politico` | Célula #01 (Caso Exalmar y Fideicomiso Ciego / Caso LAN Informacion Privilegiada y Banco de Talca) | `15` | **`0.2400`** | Puente Inter-Clúster |
+| **55** | [[Sebastian Pinera Echenique]] | `persona` | Célula #01 (Caso Exalmar y Fideicomiso Ciego / Caso LAN Informacion Privilegiada y Banco de Talca) | `8` | **`0.2188`** | Puente Inter-Clúster |
 
 ---
 
@@ -99,7 +98,7 @@ tags:
 | [[TRX-2023-06-22-Reunion-Audios-01]] | Célula #03 (Caso Audios / Caso Milicogate) | `vinculo` | [[Leonarda Villalobos Muth]] | Célula #02 (Caso Convenios) |
 | [[TRX-2023-02-09-Gestion-Judicial-Hermosilla-Vivanco-01]] | Célula #03 (Caso Audios / Caso Milicogate) | `vinculo` | [[Corte Suprema de Chile]] | Célula #07 (Caso Archivos Epstein Menciones Chile / Caso Operacion Huracan) |
 | [[TRX-2014-05-20-Facturas-LeyReservadaCobre-01]] | Célula #03 (Caso Audios / Caso Milicogate) | `vinculo` | [[Comando de Apoyo a la Fuerza del Ejercito]] | Célula #06 (Caso CEMA Chile / Caso Cascadas) |
-| [[TRX-2015-01-29-Facturas-Falsas-Caval-SII-01]] | Célula #12 (Caso Caval) | `vinculo` | [[Servicio Impuestos Internos]] | Célula #08 (Caso Megafraude Tributario Operacion Tributos / Caso Panama Papers Chile) |
+| [[TRX-2015-01-29-Facturas-Falsas-Caval-SII-01]] | Célula #11 (Caso Caval) | `vinculo` | [[Servicio Impuestos Internos]] | Célula #08 (Caso Megafraude Tributario Operacion Tributos / Caso Panama Papers Chile) |
 | [[TRX-2010-11-15-Soborno-Licitacion-Basura-Maipu-01]] | Célula #04 (Caso Basura / Caso Operaciones Digitales e Injerencia Electoral) | `vinculo` | [[Municipalidad de Maipu]] | Célula #01 (Caso Exalmar y Fideicomiso Ciego / Caso LAN Informacion Privilegiada y Banco de Talca) |
 | [[TRX-2023-05-10-Liquidacion-Tributaria-ProCultura-SII-01]] | Célula #02 (Caso Convenios) | `vinculo` | [[Servicio Impuestos Internos]] | Célula #08 (Caso Megafraude Tributario Operacion Tributos / Caso Panama Papers Chile) |
 | [[TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01]] | Célula #03 (Caso Audios / Caso Milicogate) | `vinculo` | [[Comando de Apoyo a la Fuerza del Ejercito]] | Célula #06 (Caso CEMA Chile / Caso Cascadas) |
@@ -133,7 +132,6 @@ tags:
 | [[TRX-2017-03-03-Compensacion-Historica-Consumidores-CMPC-SERNAC-01]] | Célula #13 (Caso Colusion del Papel Tissue) | `vinculo` | [[Servicio Nacional del Consumidor]] | Célula #05 (Caso Colusion de las Farmacias / Caso Colusion de los Pollos) |
 | [[TRX-2015-10-29-Pago-Multas-Historicas-Cartel-Pollos-01]] | Célula #05 (Caso Colusion de las Farmacias / Caso Colusion de los Pollos) | `vinculo` | [[Corte Suprema de Chile]] | Célula #07 (Caso Archivos Epstein Menciones Chile / Caso Operacion Huracan) |
 | [[TRX-2011-03-10-Pagos-Penta-Wagner-01]] | Célula #01 (Caso Exalmar y Fideicomiso Ciego / Caso LAN Informacion Privilegiada y Banco de Talca) | `vinculo` | [[Servicio Impuestos Internos]] | Célula #08 (Caso Megafraude Tributario Operacion Tributos / Caso Panama Papers Chile) |
-| [[TRX-2002-04-12-Facturas-Triangulacion-GATE-SII-01]] | Célula #11 (Caso MOP-Gate) | `vinculo` | [[Servicio Impuestos Internos]] | Célula #08 (Caso Megafraude Tributario Operacion Tributos / Caso Panama Papers Chile) |
 
 ---
 
@@ -158,7 +156,7 @@ tags:
 - **Transacciones Reificadas (9)**: [[TRX-2014-05-20-Facturas-LeyReservadaCobre-01]], [[TRX-2015-08-14-Lavado-GastosReservados-Ejercito-UAF-01]], [[TRX-2016-11-10-Desfalco-Intendencia-Carabineros-01]], [[TRX-2017-03-06-Lavado-Activos-Carabineros-UAF-01]], [[TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01]], [[TRX-2022-11-15-Gestion-Nombramientos-Hermosilla-Zaliasnik-01]], [[TRX-2023-02-09-Gestion-Judicial-Hermosilla-Vivanco-01]], [[TRX-2023-06-22-Reunion-Audios-01]], [[TRX-2023-08-25-Reporte-ROS-Factop-UAF-01]]
 
 ### Célula #04 (Caso Basura / Caso Operaciones Digitales e Injerencia Electoral)
-- **Tamaño del Clúster**: `23` nodos | **Flujo Auditado en la Célula**: `$20.499.000.000 CLP`
+- **Tamaño del Clúster**: `23` nodos | **Flujo Auditado en la Célula**: `$2.185.500.000 CLP`
 - **Personas Involucradas (8)**: [[Domingo Prieto Urrejola]], [[Fernando Cerimedo]], [[Fernando Leon Steffens]], [[Luis Plaza Sanchez]], [[Marcelo Torres Ferrari]], [[Percy Marin Vera]], [[Pia Guzman Mena]], [[Raul Torrealba del Pedregal]]
 - **Entidades Públicas/Privadas (6)**: [[KDM Empresas SA]], [[Municipalidad de Cerro Navia]], [[Municipalidad de Vitacura]], [[Numen Publicidad SpA]], [[Renovacion Nacional]], [[Vita Deportes]]
 - **Transacciones Reificadas (5)**: [[TRX-2003-11-05-Operacion-Politico-Judicial-Spiniak-01]], [[TRX-2010-11-15-Soborno-Licitacion-Basura-Maipu-01]], [[TRX-2012-03-22-Fraude-Residuos-CerroNavia-01]], [[TRX-2021-04-15-Subvencion-VitaDeportes-01]], [[TRX-2022-09-04-Presencia-Cerimedo-Sede-Renovacion-Nacional-01]]
@@ -199,17 +197,17 @@ tags:
 - **Entidades Públicas/Privadas (2)**: [[Agencia Central de Inteligencia CIA y Escuela de las Americas]], [[Empresa El Mercurio SAP]]
 - **Transacciones Reificadas (3)**: [[TRX-1971-09-09-Financiamiento-Encubierto-CIA-ElMercurio-Edwards-01]], [[TRX-1972-10-12-Fondos-Desestabilizacion-Gremios-ParoCamioneros-CIA-01]], [[TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01]]
 
-### Célula #11 (Caso MOP-Gate)
-- **Tamaño del Clúster**: `8` nodos | **Flujo Auditado en la Célula**: `$1.703.000.000 CLP`
-- **Personas Involucradas (2)**: [[Carlos Cruz Lorenzen]], [[Hector Pena Veliz]]
-- **Entidades Públicas/Privadas (3)**: [[Gestion Ambiental y Territorial SA]], [[Ministerio de Obras Publicas]], [[Partido Socialista de Chile]]
-- **Transacciones Reificadas (2)**: [[TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01]], [[TRX-2002-04-12-Facturas-Triangulacion-GATE-SII-01]]
-
-### Célula #12 (Caso Caval)
+### Célula #11 (Caso Caval)
 - **Tamaño del Clúster**: `8` nodos | **Flujo Auditado en la Célula**: `$2.640.000.000 CLP`
 - **Personas Involucradas (3)**: [[Jorge Silva Menares]], [[Mauricio Valero Illanes]], [[Natalia Compagnon Soto]]
 - **Entidades Públicas/Privadas (2)**: [[Exportadora y de Gestion Caval Ltda]], [[Municipalidad de Machali]]
 - **Transacciones Reificadas (2)**: [[TRX-2014-02-18-Soborno-Caval-Machali-01]], [[TRX-2015-01-29-Facturas-Falsas-Caval-SII-01]]
+
+### Célula #12 (Caso MOP-Gate)
+- **Tamaño del Clúster**: `7` nodos | **Flujo Auditado en la Célula**: `$1.253.000.000 CLP`
+- **Personas Involucradas (2)**: [[Carlos Cruz Lorenzen]], [[Hector Pena Veliz]]
+- **Entidades Públicas/Privadas (3)**: [[Gestion Ambiental y Territorial SA]], [[Ministerio de Obras Publicas]], [[Partido Socialista de Chile]]
+- **Transacciones Reificadas (1)**: [[TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01]]
 
 ### Célula #13 (Caso Colusion del Papel Tissue)
 - **Tamaño del Clúster**: `7` nodos | **Flujo Auditado en la Célula**: `$97.500.000.000 CLP`
@@ -218,19 +216,19 @@ tags:
 - **Transacciones Reificadas (2)**: [[TRX-2000-05-15-Pacto-Colusion-Precios-Cuotas-CMPC-PISA-01]], [[TRX-2017-03-03-Compensacion-Historica-Consumidores-CMPC-SERNAC-01]]
 
 ### Célula #14 (Caso Sierra Bella)
-- **Tamaño del Clúster**: `7` nodos | **Flujo Auditado en la Célula**: `$8.200.000.000 CLP`
+- **Tamaño del Clúster**: `7` nodos | **Flujo Auditado en la Célula**: `$0 CLP`
 - **Personas Involucradas (2)**: [[Felipe Sanchez Perez]], [[Iraci Hassler Jacob]]
 - **Entidades Públicas/Privadas (3)**: [[Inmobiliaria San Valentino SpA]], [[Municipalidad de Santiago]], [[Partido Comunista de Chile]]
 - **Transacciones Reificadas (1)**: [[TRX-2023-01-20-Compraventa-Clinica-SierraBella-01]]
 
 ### Célula #15 (Caso Colonia Dignidad)
-- **Tamaño del Clúster**: `6` nodos | **Flujo Auditado en la Célula**: `$5.300.000.000 CLP`
+- **Tamaño del Clúster**: `6` nodos | **Flujo Auditado en la Célula**: `$3.450.000.000 CLP`
 - **Personas Involucradas (2)**: [[Jorge Zepeda Arancibia]], [[Paul Schafer Schneider]]
 - **Entidades Públicas/Privadas (1)**: [[Sociedad Benefactora y Educacional Dignidad]]
 - **Transacciones Reificadas (2)**: [[TRX-1991-01-31-Vaciamiento-Patrimonial-Evasion-ColoniaDignidad-01]], [[TRX-2005-06-14-Arsenal-Clandestino-AsociacionIlicita-ColoniaDignidad-01]]
 
 ### Célula #16 (Caso Luminarias LED)
-- **Tamaño del Clúster**: `6` nodos | **Flujo Auditado en la Célula**: `$3.200.000.000 CLP`
+- **Tamaño del Clúster**: `6` nodos | **Flujo Auditado en la Célula**: `$37.000.000 CLP`
 - **Personas Involucradas (2)**: [[Leon Marcelo Lefort Hernandez]], [[Marcelo Campos Henriquez]]
 - **Entidades Públicas/Privadas (2)**: [[Itelecom Holding Chile SpA]], [[Municipalidad de Chillan]]
 - **Transacciones Reificadas (1)**: [[TRX-2019-05-14-Soborno-Luminarias-Chillan-01]]

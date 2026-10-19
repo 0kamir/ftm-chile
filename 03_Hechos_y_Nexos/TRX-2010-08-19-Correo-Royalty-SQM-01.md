@@ -24,7 +24,7 @@ fuentes:
     tipo: secundaria
     fecha: 2026-10-06
     consultado: 2026-10-19
-alertas_verificacion:
+historial_correcciones:
   - "Absolución en primera instancia (22-10-2025); monto de $730 millones corresponde a la acusación."
 tags:
   - nexo/transaccion

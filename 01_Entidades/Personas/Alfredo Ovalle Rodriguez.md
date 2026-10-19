@@ -24,7 +24,7 @@ tags:
 - **Estado / Fiscalización**: `= this.medida_cautelar`
 
 ## Síntesis Forense
-Abogado, empresario minero, expresidente de la Sociedad Nacional de Minería (SONAMI) y expresidente de la Confederación de la Producción y del Comercio (CPC, 2006–2008). En el [[Caso Panama Papers Chile]], los archivos de [[Mossack Fonseca y Sociedades Offshore Panama]] revelaron su vinculación con la sociedad *offshore* panameña *Sierra Leona S.A.* y con *Railton Foundation*, estructuradas en coordinación con su asesor jurídico Humberto Julio Reyes (exintegrante de aparatos de inteligencia militar), operaciones que fueron incorporadas en el catastro de fiscalización del [[Servicio Impuestos Internos]] y la [[Unidad de Analisis Financiero]] ([[TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01]] y [[Informe-ICIJ-SII-PanamaPapers-Chile-2016]]).
+Abogado, empresario minero, expresidente de la Sociedad Nacional de Minería (SONAMI) y expresidente de la Confederación de la Producción y del Comercio (CPC, 2006–2008). En el [[Caso Panama Papers Chile]], los archivos de [[Mossack Fonseca y Sociedades Offshore Panama]] revelaron su vinculación con la sociedad *offshore* panameña *Sierra Leona S.A.* y con *Railton Foundation*, estructuradas en coordinación con su asesor jurídico Humberto Julio Reyes (exintegrante de aparatos de inteligencia militar), operaciones que fueron incorporadas en el catastro de fiscalización del [[Servicio Impuestos Internos]] y la [[Unidad de Analisis Financiero]] ([[TRX-2016-04-05-Fundaciones-Offshore-MossackFonseca-Edwards-Ovalle-01]] y [[Filtracion-ICIJ-PanamaPapers-Chile-2016]]).
 
 ## Nexos y Operaciones Vinculadas
 ```dataview

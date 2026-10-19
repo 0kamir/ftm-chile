@@ -20,8 +20,12 @@ fuentes:
     tipo: secundaria
     fecha: 2023-11-28
     consultado: 2026-10-19
-alertas_verificacion:
-  - "La formalización es de enero de 2024 ante el 9° JG de Santiago; el vault indica Fiscalía Oriente: verificar fiscalía a cargo."
+  - url: "https://www.meganoticias.cl/nacional/456234-cathy-barriga-reformalizacion-maipu-fiscalia-mega-investiga-19-08-2024.html"
+    titulo: "Caso Maipú: Fiscalía Oriente reformalizará a Cathy Barriga"
+    medio: "Meganoticias"
+    tipo: secundaria
+    fecha: 2024-08-19
+    consultado: 2026-10-19
 tags:
   - causa
   - caso-maipu

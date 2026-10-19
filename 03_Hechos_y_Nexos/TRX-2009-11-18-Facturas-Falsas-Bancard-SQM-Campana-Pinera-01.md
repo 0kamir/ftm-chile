@@ -26,7 +26,7 @@ fuentes:
     tipo: secundaria
     fecha: 2017-09-26
     consultado: 2026-10-19
-alertas_verificacion:
+historial_correcciones:
   - "Hecho no adjudicado: investigación cerrada por prescripción (2019)."
 tags:
   - nexo/factura-falsa

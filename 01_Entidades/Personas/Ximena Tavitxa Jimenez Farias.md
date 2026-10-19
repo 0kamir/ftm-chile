@@ -19,7 +19,7 @@ fuentes:
     tipo: secundaria
     fecha: 2023-12-15
     consultado: 2026-10-19
-alertas_verificacion: 
+historial_correcciones:
   - "Nombre y rol corregidos el 2026-10-19 según el listado publicado por la prensa; RUT eliminado por no constar en fuente pública."
 tags:
   - entidad/persona

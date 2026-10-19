@@ -1,6 +1,6 @@
 ---
 tipo_nodo: causa_judicial
-ruc: "9000148200-1"
+ruc: ""
 año_inicio: 1990
 tribunal_o_fiscalia: "5° Juzgado del Crimen de Santiago / Corte de Apelaciones de Santiago / Comisión Investigadora Cámara de Diputados"
 fiscal_a_cargo: "Ministro en Visita Alejandro Solís Muñoz / Consejo de Defensa del Estado"

@@ -20,8 +20,12 @@ fuentes:
     tipo: secundaria
     fecha: 2021-10-05
     consultado: 2026-10-19
-alertas_verificacion:
-  - "Fiscalía pidió sobreseimiento definitivo en enero de 2024; no se confirmó la resolución del tribunal."
+  - url: "https://www.eldinamo.cl/pais/2024/05/09/caso-minera-dominga-tribunal-sobresee-definitivamente-causa-que-involucraba-a-sebastian-pinera/"
+    titulo: "Caso Minera Dominga: tribunal sobresee definitivamente causa que involucraba a Sebastián Piñera"
+    medio: "El Dínamo"
+    tipo: secundaria
+    fecha: 2024-05-09
+    consultado: 2026-10-19
 tags:
   - causa
   - caso-dominga

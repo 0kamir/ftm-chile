@@ -1,7 +1,7 @@
 ---
 tipo_nodo: evidencia_documental
-id_evidencia: "EVD-CS-27175-2014"
-tipo_documento: "Sentencia de la Corte Suprema en Recurso de Reclamación Rol N° 27.175-2014"
+id_evidencia: "EVD-CS-27181-2014"
+tipo_documento: "Sentencia de la Corte Suprema en Recurso de Reclamación Rol N° 27.181-2014"
 fecha_emision: 2015-10-29
 organismo_emisor: "[[Corte Suprema de Chile]]"
 fuente_osint: "Poder Judicial de Chile (pjud.cl) / Fiscalía Nacional Económica"
@@ -20,8 +20,6 @@ fuentes:
     medio: "TDLC"
     tipo: primaria
     consultado: 2026-10-19
-alertas_verificacion:
-  - "El rol del fallo publicado por la FNE es 27.181-2014; la nota usa 27.175-2014 en id_evidencia."
 tags:
   - evidencia/sentencia
   - corte-suprema

@@ -12,7 +12,7 @@ delito_imputado: ""
 evidencia_soporte: "[[Fotografia-Cerimedo-Sede-Renovacion-Nacional-2022]]"
 estado_verificacion: sin_fuente
 fuentes: []
-alertas_verificacion:
+historial_correcciones:
   - "Se eliminó delito_imputado (2026-10-19): la presencia en una sede partidaria no es un delito imputado. RN afirma que Cerimedo nunca fue contratado."
 tags:
   - nexo/transaccion

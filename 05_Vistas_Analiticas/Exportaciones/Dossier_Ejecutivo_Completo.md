@@ -10,8 +10,8 @@ tags:
 
 - **Causas Penales Auditadas**: **33**
 - **Sujetos de Interés / Imputados**: **85**
-- **Aristas Reificadas (`TRX`)**: **71**
-- **Perjuicio / Flujo Global Consolidado**: **$725.998.563.198 CLP**
+- **Aristas Reificadas (`TRX`)**: **70**
+- **Perjuicio / Flujo Global Consolidado**: **$694.022.063.198 CLP**
 
 ---
 
@@ -19,9 +19,9 @@ tags:
 
 | Causa Judicial | RUC | Año Inicio | Estado Judicial | Delito Principal | Fiscalía / Tribunal |
 | :--- | :--- | :---: | :---: | :--- | :--- |
-| [[Caso Operacion FUBELT Intervencion CIA y DINA]] | `7000150970-K` | 1970 | `cerrada_con_condena` | [[Lavado de Activos]] | Comité Selecto del Senado de EE.UU. (Comisión Church 1975) / Congreso de EE.UU. (Informe Hinchey 2000) / Corte Suprema de Chile |
-| [[Caso Pinocheques]] | `9000148200-1` | 1990 | `sobreseida` | [[Fraude al Fisco]] | 5° Juzgado del Crimen de Santiago / Corte de Apelaciones de Santiago / Comisión Investigadora Cámara de Diputados |
-| [[Caso Colonia Dignidad]] | `9600218200-5` | 1996 | `cerrada_con_condena` | [[Lavado de Activos]] | Corte de Apelaciones de Santiago / Corte Suprema de Chile (Ministro en Visita Extraordinario — Rol 2.182-1998 y acumulados) |
+| [[Caso Operacion FUBELT Intervencion CIA y DINA]] | `` | 1970 | `cerrada_con_condena` | [[Lavado de Activos]] | Comité Selecto del Senado de EE.UU. (Comisión Church 1975) / Congreso de EE.UU. (Informe Hinchey 2000) / Corte Suprema de Chile |
+| [[Caso Pinocheques]] | `` | 1990 | `sobreseida` | [[Fraude al Fisco]] | 5° Juzgado del Crimen de Santiago / Corte de Apelaciones de Santiago / Comisión Investigadora Cámara de Diputados |
+| [[Caso Colonia Dignidad]] | `` | 1996 | `cerrada_con_condena` | [[Lavado de Activos]] | Corte de Apelaciones de Santiago / Corte Suprema de Chile (Ministro en Visita Extraordinario — Rol 2.182-1998 y acumulados) |
 | [[Caso MOP-Gate]] | `0300148920-1` | 2003 | `cerrada_con_condena` | [[Fraude al Fisco]] | 3° Juzgado del Crimen de Santiago / Ministra en Visita Gloria Ana Chevesich / Corte Suprema |
 | [[Caso Spiniak]] | `0300932700-3` | 2003 | `cerrada_con_condena` | [[Lavado de Activos]] | 33° Juzgado del Crimen de Santiago / Corte de Apelaciones de Santiago / Corte Suprema de Chile (Causa Rol 9.327-2003) |
 | [[Caso Riggs]] | `0400164900-4` | 2004 | `cerrada_con_condena` | [[Malversacion de Caudales Publicos]] | Corte de Apelaciones de Santiago / Corte Suprema de Chile (Causa Rol 1.649-2004 y Casación Rol 16.865-2017) |
@@ -48,10 +48,10 @@ tags:
 | [[Caso Audios]] | `2301248910-5` | 2023 | `formalizada` | [[Cohecho]] | Fiscalía Regional Metropolitana Oriente / 4° Juzgado de Garantía de Santiago |
 | [[Caso Convenios]] | `2300674512-K` | 2023 | `formalizada` | [[Fraude al Fisco]] | Fiscalía Regional de Antofagasta / Juzgado de Garantía de Antofagasta |
 | [[Caso Megafraude Tributario Operacion Tributos]] | `RIT-13745-2023-1JG` | 2023 | `formalizada_con_prisiones_preventivas` | [[Delito Tributario]] | 1° Juzgado de Garantía de Santiago / Fiscalía Regional Metropolitana Occidente |
-| [[Caso Sierra Bella]] | `2300094812-3` | 2023 | `en_investigacion` | [[Fraude al Fisco]] | Fiscalía Regional de Coquimbo / 7° Juzgado de Garantía de Santiago / Contraloría General de la República |
+| [[Caso Sierra Bella]] | `2300094812-3` | 2023 | `cerrada_sin_formalizacion` | [[Fraude al Fisco]] | Fiscalía Metropolitana Centro Norte (fiscal Patricio Cooper, luego fiscal regional de Coquimbo) / Contraloría General de la República |
 | [[Caso Archivos Epstein Menciones Chile]] | `15-CV-07433-LAP-SDNY` | 2024 | `descarte_procesal_sin_imputacion` | [[Trafico de Influencias]] | Corte de Distrito de EE.UU. para el Distrito Sur de Nueva York (SDNY) / Departamento de Justicia (DOJ) |
-| [[Caso Operaciones Digitales e Injerencia Electoral]] | `RUC-2400198421-9` | 2024 | `investigacion_desformalizada` | [[Fraude al Fisco]] | Fiscalía Regional Metropolitana Centro Norte / 7° Juzgado de Garantía de Santiago |
 | [[Caso Asignaciones Parlamentarias y Cuota Flores]] | `RUC-2500819421-2` | 2025 | `investigacion_desformalizada_con_allanamientos` | [[Fraude al Fisco]] | Juzgado de Garantía de Valparaíso / Unidad Regional Anticorrupción (URAC) Fiscalía de Valparaíso |
+| [[Caso Operaciones Digitales e Injerencia Electoral]] | `` | 2026 | `investigacion_desformalizada` | [[Fraude al Fisco]] | Fiscalía Regional Metropolitana Centro Norte / 7° Juzgado de Garantía de Santiago |
 
 ---
 
@@ -60,7 +60,7 @@ tags:
 | Persona | RUT | Rol / Cargo | Partido | Situación Procesal | Medida Cautelar / Condena |
 | :--- | :--- | :--- | :--- | :---: | :--- |
 | [[Agustin Edwards Eastman]] | `` | Empresario y Ex Propietario de Empresa El Mercurio S.A.P. | Independiente (Derecha Conservadora) | **`testigo_clave`** | Fallecido en abril de 2017 (Auditado por el SII en el marco de las fundaciones panameñas Ashton Foundation y Kintyre Foundation) |
-| [[Alberto Larrain Salas]] | `` | Cofundador y Director Ejecutivo de Fundación ProCultura | Independiente (Ex DC / Cercano Frente Amplio) | **`formalizado`** | Arraigo nacional y firma mensual |
+| [[Alberto Larrain Salas]] | `` | Cofundador y Director Ejecutivo de Fundación ProCultura | Independiente (Ex DC / Cercano Frente Amplio) | **`formalizado`** | Formalizado en arista RM (fraude al fisco, feb-2026) y arista Biobío (apropiación indebida, 05-08-2026, con arraigo nacional) |
 | [[Alex Smith Leay]] | `` | Creador Civil del Software Antorcha y Asesor de Inteligencia de la UIOE / DIPOLCAR | Independiente | **`condenado`** | Condenado a 12 años de presidio efectivo por el TOP de Temuco (Falsificación de instrumento público y obstrucción a la investigación) — sentencia no firme: recursos de nulidad pendientes (2026) |
 | [[Alfredo Ovalle Rodriguez]] | `` | Empresario Minero, Ex Presidente de la CPC y Ex Presidente de la SONAMI | Independiente (Dirigente Gremial Empresarial) | **`testigo_clave`** | Fallecido en julio de 2021 (Incluido en las auditorías del SII por sociedades offshore en Panamá e Islas Vírgenes Británicas) |
 | [[Andres Chadwick Pinera]] | `` | Ex Ministro del Interior y Seguridad Pública (2012–2014 y 2018–2019), Ex Senador UDI y Socio de Comunidad de Oficina con Luis Hermosilla | [[Union Democrata Independiente]] | **`en_investigacion`** | Inhabilitado por 5 años para ejercer cargos públicos por el Senado (Acusación Constitucional 2019); imputado en aristas Parque Capital y nombramientos judiciales del Caso Audios |
@@ -78,12 +78,12 @@ tags:
 | [[Carlos Eugenio Lavin Garcia-Huidobro]] | `` | Cofundador y Controlador de Empresas Penta S.A. | [[Union Democrata Independiente]] | **`condenado`** | Condena cumplida en libertad vigilada, multa fiscal y clases de ética empresarial |
 | [[Carlos Pavez Tolosa]] | `` | Ex Superintendente de Valores y Seguros (SVS / CMF, 2014-2018) | Independiente | **`testigo_experto`** | Sin medidas cautelares (Autoridad Reguladora Sancionadora en Caso Cascadas) |
 | [[Cathy Barriga Guerra]] | `` | Ex Alcaldesa de la Municipalidad de Maipú (2016-2021) | [[Union Democrata Independiente]] | **`formalizado`** | Prisión preventiva / Arresto domiciliario total |
-| [[Claudio Spiniak Vilensky]] | `` | Empresario y Controlador de Inversiones El Bosque Ltda. (Gimnasio Go Fitness) | Independiente | **`condenado`** | Condena cumplida (12 años de presidio mayor en su grado medio ratificados por la Corte Suprema) |
+| [[Claudio Spiniak Vilensky]] | `` | Empresario y Controlador de Inversiones El Bosque Ltda. (Gimnasio Go Fitness) | Independiente | **`condenado`** | Fallecido en marzo de 2026; había cumplido su condena (12 años, ratificada por la Corte Suprema en 2008) |
 | [[Daniel Andrade Schwarze]] | `` | Presidente y Representante Legal de Fundación Democracia Viva | [[Revolucion Democratica]] | **`formalizado`** | Arresto domiciliario total y arraigo nacional (previa prisión preventiva) |
 | [[Domingo Prieto Urrejola]] | `` | Ex Presidente y Representante Legal de Vita Deportes | Independiente | **`formalizado`** | Firma mensual y arraigo nacional (colaboración sustancial) |
 | [[Eduardo Guendelman Israel]] | `` | Doctor en Física Teórica y Profesor Emérito del Departamento de Física de la Universidad Ben-Gurión del Néguev | Independiente | **`ninguna`** | Sin medidas cautelares ni investigaciones penales vigentes (Correspondencia estrictamente académica para patrocinio científico no materializado) |
 | [[Eliodoro Matte Larrain]] | `` | Ex Presidente del Directorio de Empresas CMPC S.A. y Patriarca del Grupo Matte | Independiente (Vinculado a centros de pensamiento de centroderecha / CEP) | **`descarte_procesal_sin_imputacion`** | Renuncia obligada a la presidencia de CMPC en abril de 2016 tras estallar el Cartel del Confort |
-| [[Felipe Sanchez Perez]] | `` | Representante Legal y Controlador de Inmobiliaria San Valentino SpA | Independiente | **`imputado`** | Investigación penal por intento de fraude al fisco en venta de Clínica Sierra Bella |
+| [[Felipe Sanchez Perez]] | `` | Representante Legal y Controlador de Inmobiliaria San Valentino SpA | Independiente | **`ninguna`** | Sin cargos: la Fiscalía decidió no perseverar en la investigación (26-05-2025); nunca fue formalizado/a |
 | [[Fernando Cerimedo]] | `` | Consultor de Comunicación Digital, Fundador de Numen y La Derecha Diario | Independiente / Estratega Digital de Derecha Radical | **`investigado`** | Imputado en Brasil por el STF por desinformación electoral; investigado penalmente en Chile por Fiscalía Centro Norte |
 | [[Fernando Leon Steffens]] | `` | Ex Gerente General de KDM Empresas S.A. / Demarco S.A. | Independiente | **`ninguna`** | Salida alternativa en el Caso Basura (según la prensa); sin condena |
 | [[Flavio Echeverria Cortez]] | `` | Ex General y Jefe de la Dirección de Finanzas de Carabineros | Independiente | **`acusado`** | Acusado en juicio oral; veredicto de abril de 2026 condenó a 25 de 28 acusados (resultado individual no verificado); penas pendientes |
@@ -97,7 +97,7 @@ tags:
 | [[Hartmut Hopp Miottel]] | `` | Director Médico, Vocero y Subdirector Administrativo de Colonia Dignidad (Villa Baviera) | Independiente (Operador de relaciones políticas del enclave) | **`condenado`** | Prófugo de la justicia chilena en Alemania desde 2011 (Condenado a 5 años y 1 día de presidio efectivo por la Corte Suprema de Chile) |
 | [[Hector Pena Veliz]] | `` | Dueño de la consultora Gestión Ambiental y Territorial S.A. (GATE) | Partido Socialista (según la prensa) | **`condenado`** | Condenado a 61 días de presidio por fraude al fisco; confirmado por la Corte Suprema (29-06-2016) |
 | [[Hernan Larrain Fernandez]] | `` | Ex Senador por el Maule Sur, Ex Presidente del Senado, Ex Presidente de la UDI y Ex Ministro de Justicia | [[Union Democrata Independiente]] | **`testigo_clave`** | Sin medidas cautelares penales (Reconoció públicamente en 2016 haber actuado en defensa política de Colonia Dignidad en los años 90) |
-| [[Iraci Hassler Jacob]] | `` | Ex Alcaldesa de la Municipalidad de Santiago (2021-2024) | [[Partido Comunista de Chile]] | **`imputado`** | Investigación penal desformalizada y sumario de Contraloría por compraventa de Clínica Sierra Bella |
+| [[Iraci Hassler Jacob]] | `` | Ex Alcaldesa de la Municipalidad de Santiago (2021-2024) | [[Partido Comunista de Chile]] | **`ninguna`** | Sin cargos: la Fiscalía decidió no perseverar en la investigación (26-05-2025); nunca fue formalizado/a |
 | [[Jaime Orpis Bouchon]] | `` | Ex Senador de la República (Circunscripción I, Tarapacá y Arica) | [[Union Democrata Independiente]] | **`condenado`** | Condena cumplida (5 años y 1 día de presidio efectivo por cohecho y fraude al fisco) |
 | [[Jaime Paz Meneses]] | `` | Ex Coronel de Intendencia de Carabineros | Independiente | **`acusado`** | Acusado en juicio oral; veredicto de abril de 2026 condenó a 25 de 28 acusados (resultado individual no verificado); penas pendientes |
 | [[Javier Cruz Tamburrino]] | `` | Ex Director de la Unidad de Análisis Financiero (UAF) | Independiente | **`testigo_experto`** | Sin medidas cautelares (Autoridad emisora de Reportes de Operaciones Sospechosas ROS) |
@@ -108,7 +108,7 @@ tags:
 | [[Jose Antonio Pavez Canessa]] | `` | Imputado señalado por la Fiscalía como líder del 'Clan Canessa' (Operación Tributos) | Independiente | **`formalizado`** | Prisión preventiva (Anexo Capitán Yáber), según La Tercera |
 | [[Jose Codner Chijner]] | `` | Fundador y Ex Controlador de Farmacias Ahumada S.A. (FASA) | Independiente | **`descarte_procesal_sin_imputacion`** | Sin medidas cautelares vigentes; firmante del acuerdo conciliatorio de delación ante la FNE en marzo de 2009 |
 | [[Jovino Novoa Vasquez]] | `` | Ex Senador de la República, Ex Presidente del Senado y Ex Presidente de la UDI | [[Union Democrata Independiente]] | **`condenado`** | Fallecido en 2021 (Condenado en 2015 a 3 años de pena remitida en Caso Penta; sobreseído en Caso Spiniak en 2004) |
-| [[Jozo Santic Palomino]] | `` | Ex Coronel Jefe de Finanzas del Comando de Apoyo a la Fuerza (CAF) | Independiente | **`condenado`** | Condena ejecutoriada por fraude al fisco y falsificación |
+| [[Jozo Santic Palomino]] | `` | Ex Coronel Jefe de Finanzas del Comando de Apoyo a la Fuerza (CAF) | Independiente | **`condenado`** | Condenado en primera instancia a 13 años por la ministra Romy Rutherford; la Corte Marcial revocó la condena por fraude al fisco en la arista Tecnodata II |
 | [[Juan Miguel Fuente-Alba Poblete]] | `` | Ex Comandante en Jefe del Ejército de Chile (2010-2014) | Independiente | **`formalizado`** | Procesado por malversación de gastos reservados (Justicia Militar / Ordinaria) |
 | [[Juan Miguel Ovalle Garces]] | `` | Presidente Histórico de la Asociación de Productores Avícolas de Chile (APA) | Independiente | **`sancionado_administrativamente`** | Condena civil y económica; disolución forzada de la entidad gremial que presidía |
 | [[Juan Victor Galaz Rojas]] | `` | Imputado señalado por la Fiscalía como líder del 'Clan Galaz' (Operación Tributos) | Independiente | **`formalizado`** | — |
@@ -160,11 +160,10 @@ tags:
 | [[TRX-1996-06-12-Blindaje-Politico-Judicial-ColoniaDignidad-01]] | 1996-06-12 | `gestion_influencia` | [[Union Democrata Independiente]] | [[Sociedad Benefactora y Educacional Dignidad]] | [[Hernan Larrain Fernandez]] | [[Hartmut Hopp Miottel]] | **$240.000.000** | [[Caso Colonia Dignidad]] |
 | [[TRX-2000-05-15-Pacto-Colusion-Precios-Cuotas-CMPC-PISA-01]] | 2000-05-15 | `acuerdo_colusorio` | [[Empresas CMPC SA]] | [[SCA Chile SA]] | [[Eliodoro Matte Larrain]] | [[Gabriel Ruiz-Tagle Serrano]] | **$0** | [[Caso Colusion del Papel Tissue]] |
 | [[TRX-2001-08-20-Contratos-Simulados-MOP-GATE-01]] | 2001-08-20 | `trato_directo` | [[Ministerio de Obras Publicas]] | [[Gestion Ambiental y Territorial SA]] | [[Carlos Cruz Lorenzen]] | [[Hector Pena Veliz]] | **$1.253.000.000** | [[Caso MOP-Gate]] |
-| [[TRX-2002-04-12-Facturas-Triangulacion-GATE-SII-01]] | 2002-04-12 | `factura_falsa` | [[Gestion Ambiental y Territorial SA]] | [[Servicio Impuestos Internos]] | [[Hector Pena Veliz]] | [[Carlos Cruz Lorenzen]] | **$450.000.000** | [[Caso MOP-Gate]] |
 | [[TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01]] | 2003-10-15 | `desviacion_fondos` | [[Inversiones El Bosque Ltda]] | [[Servicio Impuestos Internos]] | [[Claudio Spiniak Vilensky]] | [[Sergio Munoz Gajardo]] | **$480.000.000** | [[Caso Spiniak]] |
 | [[TRX-2003-11-05-Operacion-Politico-Judicial-Spiniak-01]] | 2003-11-05 | `gestion_influencia` | [[Renovacion Nacional]] | [[Corte Suprema de Chile]] | [[Pia Guzman Mena]] | [[Sergio Munoz Gajardo]] | **$120.000.000** | [[Caso Spiniak]] |
 | [[TRX-2004-07-14-Desvio-Gastos-Reservados-Riggs-Pinochet-01]] | 2004-07-14 | `desviacion_fondos` | [[Comando de Apoyo a la Fuerza del Ejercito]] | [[Riggs Bank y Sociedades Offshore Ashburton]] | [[Augusto Pinochet Ugarte]] | [[Oscar Aitken Lavanchy]] | **$15.800.000.000** | [[Caso Riggs]] |
-| [[TRX-2005-06-14-Arsenal-Clandestino-AsociacionIlicita-ColoniaDignidad-01]] | 2005-06-14 | `desviacion_fondos` | [[Sociedad Benefactora y Educacional Dignidad]] | [[Corte Suprema de Chile]] | [[Paul Schafer Schneider]] | [[Jorge Zepeda Arancibia]] | **$1.850.000.000** | [[Caso Colonia Dignidad]] |
+| [[TRX-2005-06-14-Arsenal-Clandestino-AsociacionIlicita-ColoniaDignidad-01]] | 2005-06-14 | `desviacion_fondos` | [[Sociedad Benefactora y Educacional Dignidad]] | [[Corte Suprema de Chile]] | [[Paul Schafer Schneider]] | [[Jorge Zepeda Arancibia]] | **$0** | [[Caso Colonia Dignidad]] |
 | [[TRX-2005-08-10-Evasion-Tributaria-Cuentas-Riggs-SII-01]] | 2005-08-10 | `desviacion_fondos` | [[Riggs Bank y Sociedades Offshore Ashburton]] | [[Servicio Impuestos Internos]] | [[Lucia Hiriart Rodriguez]] | [[Sergio Munoz Gajardo]] | **$2.450.000.000** | [[Caso Riggs]] |
 | [[TRX-2006-07-24-Compra-Acciones-Informacion-Privilegiada-LAN-01]] | 2006-07-24 | `gestion_influencia` | [[Bancard Inversiones Ltda]] | [[Comision para el Mercado Financiero]] | [[Sebastian Pinera Echenique]] | [[Carlos Pavez Tolosa]] | **$5.300.000.000** | [[Caso LAN Informacion Privilegiada y Banco de Talca]] |
 | [[TRX-2007-04-10-Modelo-Proyeccion-Demanda-APA-Pollos-01]] | 2007-04-10 | `consulta_terceros` | [[Quiroz y Asociados Consultores SpA]] | [[Asociacion de Productores Avicolas de Chile AG]] | [[Jorge Quiroz Castro]] | [[Juan Miguel Ovalle Garces]] | **$0** | [[Caso Colusion de los Pollos]] |
@@ -173,7 +172,7 @@ tags:
 | [[TRX-2009-11-18-Facturas-Falsas-Bancard-SQM-Campana-Pinera-01]] | 2009-11-18 | `factura_falsa` | [[SQM SA]] | [[Bancard Inversiones Ltda]] | [[Patricio Contesse Gonzalez]] | [[Santiago Valdes Gutierrez]] | **$340.000.000** | [[Caso SQM]] |
 | [[TRX-2010-06-15-Informe-Economico-Peritaje-Defensa-Salcobrand-01]] | 2010-06-15 | `peritaje_forense` | [[Quiroz y Asociados Consultores SpA]] | [[Farmacias Salcobrand SA]] | [[Jorge Quiroz Castro]] | [[Roberto Belloni Pechini]] | **$0** | [[Caso Colusion de las Farmacias]] |
 | [[TRX-2010-08-19-Correo-Royalty-SQM-01]] | 2010-08-19 | `cohecho` | [[SQM SA]] | [[Union Democrata Independiente]] | [[Patricio Contesse Gonzalez]] | [[Pablo Longueira Montes]] | **$730.000.000** | [[Caso SQM]] |
-| [[TRX-2010-11-15-Soborno-Licitacion-Basura-Maipu-01]] | 2010-11-15 | `cohecho_soborno` | [[KDM Empresas SA]] | [[Municipalidad de Maipu]] | [[Fernando Leon Steffens]] | [[Marcelo Torres Ferrari]] | **$18.500.000.000** | [[Caso Basura]] |
+| [[TRX-2010-11-15-Soborno-Licitacion-Basura-Maipu-01]] | 2010-11-15 | `cohecho_soborno` | [[KDM Empresas SA]] | [[Municipalidad de Maipu]] | [[Fernando Leon Steffens]] | [[Marcelo Torres Ferrari]] | **$186.500.000** | [[Caso Basura]] |
 | [[TRX-2010-12-10-Compraventa-Offshore-Dominga-Bancard-Delano-01]] | 2010-12-10 | `trato_directo` | [[Andes Iron SpA]] | [[Bancard Inversiones Ltda]] | [[Carlos Alberto Delano Abbott]] | [[Sebastian Pinera Echenique]] | **$75.500.000.000** | [[Caso Minera Dominga Pandora Papers]] |
 | [[TRX-2011-03-10-Pagos-Penta-Wagner-01]] | 2011-03-10 | `transferencia` | [[Empresas Penta SA]] | [[Servicio Impuestos Internos]] | [[Carlos Eugenio Lavin Garcia-Huidobro]] | [[Pablo Wagner San Martin]] | **$42.000.000** | [[Caso Penta]] |
 | [[TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01]] | 2011-12-19 | `desviacion_fondos` | [[Sociedad de Inversiones Pampa Calichera SA]] | [[SQM SA]] | [[Julio Ponce Lerou]] | [[Patricio Contesse Gonzalez]] | **$24.500.000.000** | [[Caso Cascadas]] |
@@ -200,7 +199,7 @@ tags:
 | [[TRX-2017-09-23-Detencion-Montaje-OperacionHuracan-01]] | 2017-09-23 | `montaje_policial` | [[Direccion de Inteligencia Policial de Carabineros]] | [[Corte Suprema de Chile]] | [[Gonzalo Blu Rodriguez]] | [[Alex Smith Leay]] | **$0** | [[Caso Operacion Huracan]] |
 | [[TRX-2017-10-15-Remuneracion-Fondos-Reservados-Smith-Antorcha-01]] | 2017-10-15 | `desvio_fondos_reservados` | [[Direccion de Inteligencia Policial de Carabineros]] | [[Direccion de Inteligencia Policial de Carabineros]] | [[Patricio Marin Lazo]] | [[Alex Smith Leay]] | **$25.000.000** | [[Caso Operacion Huracan]] |
 | [[TRX-2018-01-25-Peritaje-Cibercrimen-Descarte-Antorcha-01]] | 2018-01-25 | `peritaje_forense` | [[Corte Suprema de Chile]] | [[Direccion de Inteligencia Policial de Carabineros]] | [[Leonardo Osses Sandoval]] | [[Alex Smith Leay]] | **$0** | [[Caso Operacion Huracan]] |
-| [[TRX-2019-05-14-Soborno-Luminarias-Chillan-01]] | 2019-05-14 | `cohecho` | [[Itelecom Holding Chile SpA]] | [[Municipalidad de Chillan]] | [[Leon Marcelo Lefort Hernandez]] | [[Marcelo Campos Henriquez]] | **$3.200.000.000** | [[Caso Luminarias LED]] |
+| [[TRX-2019-05-14-Soborno-Luminarias-Chillan-01]] | 2019-05-14 | `cohecho` | [[Itelecom Holding Chile SpA]] | [[Municipalidad de Chillan]] | [[Leon Marcelo Lefort Hernandez]] | [[Marcelo Campos Henriquez]] | **$37.000.000** | [[Caso Luminarias LED]] |
 | [[TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01]] | 2019-12-11 | `transferencia` | [[Factop SpA]] | [[Senado de la Republica de Chile]] | [[Luis Hermosilla Osorio]] | [[Andres Chadwick Pinera]] | **$190.000.000** | [[Caso Audios]] |
 | [[TRX-2020-11-25-Compensacion-Indemnizatoria-Consumidores-Farmacias-01]] | 2020-11-25 | `compensacion_reparatoria` | [[Farmacias Salcobrand SA]] | [[Servicio Nacional del Consumidor]] | [[Roberto Belloni Pechini]] | [[Jose Codner Chijner]] | **$2.180.000.000** | [[Caso Colusion de las Farmacias]] |
 | [[TRX-2020-12-15-Deficit-Maipu-Certificados-01]] | 2020-12-15 | `transferencia` | [[Municipalidad de Maipu]] | [[Municipalidad de Maipu]] | [[Cathy Barriga Guerra]] | [[Cathy Barriga Guerra]] | **$30.972.000.000** | [[Caso Municipalidad de Maipu]] |
@@ -214,7 +213,7 @@ tags:
 | [[TRX-2022-11-18-Convenio-ProCultura-Biobio]] | 2022-11-18 | `convenio_directo` | [[GORE Biobio]] | [[Fundacion ProCultura]] | [[Rodrigo Diaz Worner]] | [[Alberto Larrain Salas]] | **$2.553.000.000** | [[Caso Convenios]] |
 | [[TRX-2022-11-29-Convenio-DV-03]] | 2022-11-29 | `convenio_directo` | [[Seremi MINVU Antofagasta]] | [[Fundacion Democracia Viva]] | [[Carlos Contreras Gutierrez]] | [[Daniel Andrade Schwarze]] | **$56.000.000** | [[Caso Convenios]] |
 | [[TRX-2022-12-20-Convenio-EnTi-01]] | 2022-12-20 | `convenio_directo` | [[GORE Biobio]] | [[Fundacion En Ti]] | [[Rodrigo Diaz Worner]] | [[Camila Polizzi Fonceca]] | **$250.635.000** | [[Caso Convenios]] |
-| [[TRX-2023-01-20-Compraventa-Clinica-SierraBella-01]] | 2023-01-20 | `trato_directo` | [[Municipalidad de Santiago]] | [[Inmobiliaria San Valentino SpA]] | [[Iraci Hassler Jacob]] | [[Felipe Sanchez Perez]] | **$8.200.000.000** | [[Caso Sierra Bella]] |
+| [[TRX-2023-01-20-Compraventa-Clinica-SierraBella-01]] | 2023-01-20 | `trato_directo` | [[Municipalidad de Santiago]] | [[Inmobiliaria San Valentino SpA]] | [[Iraci Hassler Jacob]] | [[Felipe Sanchez Perez]] | **$0** | [[Caso Sierra Bella]] |
 | [[TRX-2023-02-09-Gestion-Judicial-Hermosilla-Vivanco-01]] | 2023-02-09 | `llamada` | [[Factop SpA]] | [[Corte Suprema de Chile]] | [[Luis Hermosilla Osorio]] | [[Angela Vivanco Martinez]] | **$0** | [[Caso Audios]] |
 | [[TRX-2023-05-10-Liquidacion-Tributaria-ProCultura-SII-01]] | 2023-05-10 | `factura_falsa` | [[Fundacion ProCultura]] | [[Servicio Impuestos Internos]] | [[Alberto Larrain Salas]] | [[Leonarda Villalobos Muth]] | **$315.000.000** | [[Caso Convenios]] |
 | [[TRX-2023-06-22-Reunion-Audios-01]] | 2023-06-22 | `cohecho` | [[Factop SpA]] | [[Servicio Impuestos Internos]] | [[Luis Hermosilla Osorio]] | [[Leonarda Villalobos Muth]] | **$100.000.000** | [[Caso Audios]] |

@@ -21,8 +21,6 @@ fuentes:
     tipo: primaria
     fecha: 2025-06-03
     consultado: 2026-10-19
-alertas_verificacion:
-  - "Prensa: el 5° TOP dio por acreditados pagos de KDM por $186.500.000 al exconcejal; verificar montos de los TRX vinculados."
 tags:
   - entidad/persona
   - caso-basura

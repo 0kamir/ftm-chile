@@ -25,7 +25,7 @@ fuentes:
     tipo: secundaria
     fecha: 2023-12-18
     consultado: 2026-10-19
-alertas_verificacion:
+historial_correcciones:
   - "Personas renombradas el 2026-10-19 según el listado publicado por La Tercera (Pavez Canessa, Galaz Rojas, Sacco Croxatto, Jiménez Farías). Se retiraron dos sociedades y un TRX de lavado sin fuente."
 tags:
   - causa

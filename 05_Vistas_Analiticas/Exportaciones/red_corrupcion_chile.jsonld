@@ -921,8 +921,7 @@
     {
       "@id": "urn:cl-osint:node:Caso_Colonia_Dignidad",
       "@type": "osint:causa_judicial",
-      "schema:name": "Caso Colonia Dignidad",
-      "schema:identifier": "9600218200-5"
+      "schema:name": "Caso Colonia Dignidad"
     },
     {
       "@id": "urn:cl-osint:node:Caso_Colusion_de_las_Farmacias",
@@ -1005,8 +1004,7 @@
     {
       "@id": "urn:cl-osint:node:Caso_Operacion_FUBELT_Intervencion_CIA_y_DINA",
       "@type": "osint:causa_judicial",
-      "schema:name": "Caso Operacion FUBELT Intervencion CIA y DINA",
-      "schema:identifier": "7000150970-K"
+      "schema:name": "Caso Operacion FUBELT Intervencion CIA y DINA"
     },
     {
       "@id": "urn:cl-osint:node:Caso_Operacion_Huracan",
@@ -1017,8 +1015,7 @@
     {
       "@id": "urn:cl-osint:node:Caso_Operaciones_Digitales_e_Injerencia_Electoral",
       "@type": "osint:causa_judicial",
-      "schema:name": "Caso Operaciones Digitales e Injerencia Electoral",
-      "schema:identifier": "RUC-2400198421-9"
+      "schema:name": "Caso Operaciones Digitales e Injerencia Electoral"
     },
     {
       "@id": "urn:cl-osint:node:Caso_Pacogate",
@@ -1041,8 +1038,7 @@
     {
       "@id": "urn:cl-osint:node:Caso_Pinocheques",
       "@type": "osint:causa_judicial",
-      "schema:name": "Caso Pinocheques",
-      "schema:identifier": "9000148200-1"
+      "schema:name": "Caso Pinocheques"
     },
     {
       "@id": "urn:cl-osint:node:Caso_Riggs",
@@ -1300,31 +1296,6 @@
       }
     },
     {
-      "@id": "urn:cl-osint:node:TRX-2002-04-12-Facturas-Triangulacion-GATE-SII-01",
-      "@type": "osint:nexo_transaccion",
-      "schema:name": "TRX-2002-04-12-Facturas-Triangulacion-GATE-SII-01",
-      "schema:amount": {
-        "@type": "schema:MonetaryAmount",
-        "schema:currency": "CLP",
-        "schema:value": 450000000
-      },
-      "osint:entidadOrigen": {
-        "@id": "urn:cl-osint:node:Gestion_Ambiental_y_Territorial_SA"
-      },
-      "osint:entidadDestino": {
-        "@id": "urn:cl-osint:node:Servicio_Impuestos_Internos"
-      },
-      "osint:firmanteOrigen": {
-        "@id": "urn:cl-osint:node:Hector_Pena_Veliz"
-      },
-      "osint:firmanteDestino": {
-        "@id": "urn:cl-osint:node:Carlos_Cruz_Lorenzen"
-      },
-      "osint:causaVinculada": {
-        "@id": "urn:cl-osint:node:Caso_MOP-Gate"
-      }
-    },
-    {
       "@id": "urn:cl-osint:node:TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01",
       "@type": "osint:nexo_transaccion",
       "schema:name": "TRX-2003-10-15-Ocultamiento-Patrimonial-ElBosque-Spiniak-01",
@@ -1406,7 +1377,7 @@
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
-        "schema:value": 1850000000
+        "schema:value": 0
       },
       "osint:entidadOrigen": {
         "@id": "urn:cl-osint:node:Sociedad_Benefactora_y_Educacional_Dignidad"
@@ -1631,7 +1602,7 @@
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
-        "schema:value": 18500000000
+        "schema:value": 186500000
       },
       "osint:entidadOrigen": {
         "@id": "urn:cl-osint:node:KDM_Empresas_SA"
@@ -2306,7 +2277,7 @@
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
-        "schema:value": 3200000000
+        "schema:value": 37000000
       },
       "osint:entidadOrigen": {
         "@id": "urn:cl-osint:node:Itelecom_Holding_Chile_SpA"
@@ -2656,7 +2627,7 @@
       "schema:amount": {
         "@type": "schema:MonetaryAmount",
         "schema:currency": "CLP",
-        "schema:value": 8200000000
+        "schema:value": 0
       },
       "osint:entidadOrigen": {
         "@id": "urn:cl-osint:node:Municipalidad_de_Santiago"
@@ -2860,11 +2831,6 @@
       "schema:name": "Acuerdo-Conciliatorio-FNE-FASA-2009"
     },
     {
-      "@id": "urn:cl-osint:node:Acuerdo-Judicial-Restitucion-CEMAChile-2019",
-      "@type": "osint:evidencia_documental",
-      "schema:name": "Acuerdo-Judicial-Restitucion-CEMAChile-2019"
-    },
-    {
       "@id": "urn:cl-osint:node:Acusacion-Fiscalia-Occidente-CasoBasura-2017",
       "@type": "osint:evidencia_documental",
       "schema:name": "Acusacion-Fiscalia-Occidente-CasoBasura-2017"
@@ -2873,11 +2839,6 @@
       "@id": "urn:cl-osint:node:Audio-Reunion-Edificio-Alonso-2023",
       "@type": "osint:evidencia_documental",
       "schema:name": "Audio-Reunion-Edificio-Alonso-2023"
-    },
-    {
-      "@id": "urn:cl-osint:node:Auto-Procesamiento-Ministra-Rutherford-2019",
-      "@type": "osint:evidencia_documental",
-      "schema:name": "Auto-Procesamiento-Ministra-Rutherford-2019"
     },
     {
       "@id": "urn:cl-osint:node:Contrato-Offshore-BVI-PandoraPapers-Dominga-2010",
@@ -2890,14 +2851,19 @@
       "schema:name": "Declaracion-Judicial-Prieto-Vitacura-2021"
     },
     {
-      "@id": "urn:cl-osint:node:Desclasificacion-Documentos-DOJ-CasoEpstein-2024",
-      "@type": "osint:evidencia_documental",
-      "schema:name": "Desclasificacion-Documentos-DOJ-CasoEpstein-2024"
-    },
-    {
       "@id": "urn:cl-osint:node:Dictamen-CGR-SierraBella-2023",
       "@type": "osint:evidencia_documental",
       "schema:name": "Dictamen-CGR-SierraBella-2023"
+    },
+    {
+      "@id": "urn:cl-osint:node:Disolucion-CDE-Fundacion-CEMAChile-2021",
+      "@type": "osint:evidencia_documental",
+      "schema:name": "Disolucion-CDE-Fundacion-CEMAChile-2021"
+    },
+    {
+      "@id": "urn:cl-osint:node:Filtracion-ICIJ-PanamaPapers-Chile-2016",
+      "@type": "osint:evidencia_documental",
+      "schema:name": "Filtracion-ICIJ-PanamaPapers-Chile-2016"
     },
     {
       "@id": "urn:cl-osint:node:Formalizacion-Megafraude-Operacion-Tributos-2023",
@@ -2925,11 +2891,6 @@
       "schema:name": "Informe-Contraloria-Municipalidad-Maipu-2021"
     },
     {
-      "@id": "urn:cl-osint:node:Informe-ICIJ-SII-PanamaPapers-Chile-2016",
-      "@type": "osint:evidencia_documental",
-      "schema:name": "Informe-ICIJ-SII-PanamaPapers-Chile-2016"
-    },
-    {
       "@id": "urn:cl-osint:node:Orden-Entrada-Registro-Congreso-Caso-Flores-2026",
       "@type": "osint:evidencia_documental",
       "schema:name": "Orden-Entrada-Registro-Congreso-Caso-Flores-2026"
@@ -2938,6 +2899,16 @@
       "@id": "urn:cl-osint:node:Peritaje-Cibercrimen-PDI-SoftwareAntorcha-2018",
       "@type": "osint:evidencia_documental",
       "schema:name": "Peritaje-Cibercrimen-PDI-SoftwareAntorcha-2018"
+    },
+    {
+      "@id": "urn:cl-osint:node:Procesamientos-Ministra-Rutherford-Milicogate",
+      "@type": "osint:evidencia_documental",
+      "schema:name": "Procesamientos-Ministra-Rutherford-Milicogate"
+    },
+    {
+      "@id": "urn:cl-osint:node:Publicacion-Archivos-DOJ-CasoEpstein-2026",
+      "@type": "osint:evidencia_documental",
+      "schema:name": "Publicacion-Archivos-DOJ-CasoEpstein-2026"
     },
     {
       "@id": "urn:cl-osint:node:Querella-SII-Boletas-SQM-2015",
@@ -2980,9 +2951,9 @@
       "schema:name": "Resolucion-SVS-CasoCascadas-2014"
     },
     {
-      "@id": "urn:cl-osint:node:Sentencia-3TOP-Santiago-Corpesca-2020",
+      "@id": "urn:cl-osint:node:Sentencia-3TOP-Santiago-Corpesca-2021",
       "@type": "osint:evidencia_documental",
-      "schema:name": "Sentencia-3TOP-Santiago-Corpesca-2020"
+      "schema:name": "Sentencia-3TOP-Santiago-Corpesca-2021"
     },
     {
       "@id": "urn:cl-osint:node:Sentencia-8Juzgado-Garantia-Penta-2018",

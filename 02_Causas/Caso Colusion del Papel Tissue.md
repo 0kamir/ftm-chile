@@ -26,8 +26,6 @@ fuentes:
     tipo: secundaria
     fecha: 2020-01-06
     consultado: 2026-10-19
-alertas_verificacion:
-  - "La Corte Suprema (06-01-2020) revocó el beneficio de delación compensada de CMPC y le impuso 20.000 UTA, igual que a SCA. Verificar que las notas de CMPC lo reflejen."
 tags:
   - causa
   - libre-competencia

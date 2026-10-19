@@ -20,7 +20,7 @@ fuentes:
     tipo: secundaria
     fecha: 2014-08-12
     consultado: 2026-10-19
-alertas_verificacion:
+historial_correcciones:
   - "Reemplaza a 'Roberto Lewin Valdivieso', persona sin respaldo en fuentes (2026-10-19)."
 tags:
   - entidad/persona

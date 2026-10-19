@@ -20,8 +20,6 @@ fuentes:
     tipo: secundaria
     fecha: 2023-06-15
     consultado: 2026-10-19
-alertas_verificacion:
-  - "La formalización es de junio de 2023 (4° JG Santiago); el vault indica año_inicio 2021. Prensa: 29 delitos de fraude al fisco por ~$766,9 millones."
 tags:
   - causa
   - caso-vitacura

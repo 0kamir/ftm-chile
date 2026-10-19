@@ -20,8 +20,6 @@ fuentes:
     tipo: secundaria
     fecha: 2022-07-28
     consultado: 2026-10-19
-alertas_verificacion:
-  - "Arista Maipú: condenado el exconcejal Marcelo Torres; el exalcalde Christian Vittori fue absuelto. Arista Cerro Navia: condena a Luis Plaza (dic-2024). Verificar situacion_procesal de cada persona."
 tags:
   - causa
   - corrupcion-municipal

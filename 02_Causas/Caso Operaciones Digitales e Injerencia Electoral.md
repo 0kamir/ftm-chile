@@ -1,7 +1,7 @@
 ---
 tipo_nodo: causa_judicial
-ruc: "RUC-2400198421-9"
-año_inicio: 2024
+ruc: ""
+año_inicio: 2026
 tribunal_o_fiscalia: "Fiscalía Regional Metropolitana Centro Norte / 7° Juzgado de Garantía de Santiago"
 fiscal_a_cargo: "Fiscalía Metropolitana Centro Norte / Comisión Investigadora Cámara de Diputados"
 estado_judicial: investigacion_desformalizada
@@ -26,8 +26,6 @@ fuentes:
     tipo: secundaria
     fecha: 2026-08-28
     consultado: 2026-10-19
-alertas_verificacion:
-  - "La investigación se abrió en septiembre de 2026 (el vault indica año_inicio 2024 y un RUC de 2024). Según The Clinic, RN afirma que Cerimedo nunca fue contratado por el partido."
 tags:
   - causa
   - desinformacion

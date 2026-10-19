@@ -26,7 +26,7 @@ fuentes:
     tipo: secundaria
     fecha: 2026-05-09
     consultado: 2026-10-19
-alertas_verificacion:
+historial_correcciones:
   - "Investigación desformalizada: no hay imputación formal. La arista de registros íntimos se retiró el 2026-10-19 por tratarse de la vida privada de una víctima, ajena al eje de corrupción."
 tags:
   - causa

@@ -9,10 +9,10 @@ firmante_origen: "[[Andronico Luksic Craig]]"
 firmante_destino: "[[Andronico Luksic Craig]]"
 causa_vinculada: "[[Caso Archivos Epstein Menciones Chile]]"
 delito_imputado: ""
-evidencia_soporte: "[[Desclasificacion-Documentos-DOJ-CasoEpstein-2024]]"
+evidencia_soporte: "[[Publicacion-Archivos-DOJ-CasoEpstein-2026]]"
 estado_verificacion: sin_fuente
 fuentes: []
-alertas_verificacion:
+historial_correcciones:
   - "Mención documental sin imputación: se eliminó delito_imputado (2026-10-19). Aparecer en los archivos Epstein no constituye delito."
 tags:
   - nexo/desclasificacion

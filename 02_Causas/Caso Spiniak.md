@@ -25,8 +25,6 @@ fuentes:
     medio: "Pauta"
     tipo: secundaria
     consultado: 2026-10-19
-alertas_verificacion:
-  - "Spiniak falleció en marzo de 2026: actualizar ficha de persona."
 tags:
   - causa
   - poder-judicial

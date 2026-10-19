@@ -2,7 +2,7 @@
 tipo_nodo: evidencia_documental
 id_evidencia: "EVD-DOJ-EPSTEIN-2024-001"
 tipo_documento: "Archivos Judiciales y Registros Electrónicos Desclasificados por la Corte Federal SDNY y el DOJ en Caso Giuffre v. Maxwell (Civil Action No. 15-cv-07433-LAP)"
-fecha_emision: 2024-01-03
+fecha_emision: 2026-01-30
 organismo_emisor: "[[Corte Suprema de Chile]]"
 fuente_osint: "U.S. District Court for the Southern District of New York / Department of Justice (DOJ) / Unidad de Investigación BioBioChile / CIPER / El Mostrador"
 causa_vinculada: "[[Caso Archivos Epstein Menciones Chile]]"
@@ -21,8 +21,6 @@ fuentes:
     tipo: secundaria
     fecha: 2025-12-23
     consultado: 2026-10-19
-alertas_verificacion:
-  - "La publicación del DOJ es de dic-2025 a ene-2026 (Epstein Files Transparency Act, nov-2025), no 2024."
 tags:
   - evidencia/informe
   - epstein-files
@@ -30,7 +28,7 @@ tags:
   - auditoria-osint
 ---
 
-# Desclasificacion-Documentos-DOJ-CasoEpstein-2024
+# Publicacion-Archivos-DOJ-CasoEpstein-2026
 
 ## Metadatos de Fuente Primaria (Cadena de Custodia OSINT)
 - **ID Evidencia**: `= this.id_evidencia`

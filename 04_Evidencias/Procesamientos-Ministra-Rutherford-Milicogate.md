@@ -2,7 +2,7 @@
 tipo_nodo: evidencia_documental
 id_evidencia: "EVD-CM-MIL-2019-001"
 tipo_documento: "Auto de Procesamiento y Sentencias Ministra en Visita Corte Marcial"
-fecha_emision: 2019-02-14
+fecha_emision: 2018-02-11
 organismo_emisor: "[[Corte Suprema de Chile]]"
 fuente_osint: "Poder Judicial (pjud.cl) / Comisión Investigadora Cámara de Diputados"
 causa_vinculada: "[[Caso Milicogate]]"
@@ -15,14 +15,17 @@ fuentes:
     tipo: secundaria
     fecha: 2018-02-11
     consultado: 2026-10-19
-alertas_verificacion:
-  - "La fuente encontrada es un procesamiento de feb-2018 (general (r) Héctor Ureta); no se ubicó el auto de 2019 citado."
+  - url: "https://vlex.cl/vid/corte-marcial-revoca-condena-844999287"
+    titulo: "Corte Marcial revoca condena por fraude a general (r) Santic"
+    medio: "vLex Chile"
+    tipo: secundaria
+    consultado: 2026-10-19
 tags:
   - evidencia/auto-procesamiento
   - caso-milicogate
 ---
 
-# Auto-Procesamiento-Ministra-Rutherford-2019
+# Procesamientos-Ministra-Rutherford-Milicogate
 
 ## Metadatos de Fuente Primaria (Cadena de Custodia OSINT)
 - **ID Evidencia**: `= this.id_evidencia`
@@ -35,7 +38,7 @@ tags:
 - **Nexo Respaldado**: `= this.nexo_respaldado`
 
 ## Extracto y Relevancia Probatoria
-Resoluciones y sentencias dictadas por la Ministra en Visita Extraordinaria de la Corte Marcial (designada por la [[Corte Suprema de Chile]]), Romy Rutherford Parentti, que acreditaron los mecanismos de defraudación de la Ley Reservada del Cobre en el [[Comando de Apoyo a la Fuerza del Ejercito]] a través de proveedores como [[Frasim Ltda]] ([[Jozo Santic Palomino]]) y la malversación de gastos reservados por parte de [[Juan Miguel Fuente-Alba Poblete]] ([[TRX-2014-05-20-Facturas-LeyReservadaCobre-01]]) en el [[Caso Milicogate]].
+Autos de procesamiento y sentencias de primera instancia dictados por la Ministra en Visita de la Corte Marcial, Romy Rutherford Parentti, en el [[Caso Milicogate]] sobre facturas por bienes y servicios inexistentes pagadas con fondos de la Ley Reservada del Cobre a proveedores como [[Frasim Ltda]] ([[TRX-2014-05-20-Facturas-LeyReservadaCobre-01]]). Entre ellos, el procesamiento del general (r) Héctor Ureta (feb-2018) y la condena de primera instancia a 13 años del general (r) [[Jozo Santic Palomino]], que la Corte Marcial revocó en la arista Tecnodata II. Un auto de procesamiento no es una condena. La investigación sobre gastos reservados de [[Juan Miguel Fuente-Alba Poblete]] es una arista distinta.
 
 ## Fuentes Verificables
 ```dataview

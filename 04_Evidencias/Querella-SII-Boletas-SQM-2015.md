@@ -15,7 +15,7 @@ fuentes:
     tipo: secundaria
     fecha: 2023-02-13
     consultado: 2026-10-19
-alertas_verificacion:
+historial_correcciones:
   - "Los acusados del juicio oral fueron absueltos (oct-2025); el tribunal no dio por acreditada la falsedad ideológica de boletas y facturas."
 tags:
   - evidencia/querella-sii

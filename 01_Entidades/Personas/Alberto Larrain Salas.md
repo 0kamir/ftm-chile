@@ -7,7 +7,15 @@ aliases:
 rol_principal: "Cofundador y Director Ejecutivo de Fundación ProCultura"
 afiliacion_politica: "Independiente (Ex DC / Cercano Frente Amplio)"
 situacion_procesal: formalizado
-medida_cautelar: "Arraigo nacional y firma mensual"
+medida_cautelar: "Formalizado en arista RM (fraude al fisco, feb-2026) y arista Biobío (apropiación indebida, 05-08-2026, con arraigo nacional)"
+estado_verificacion: verificado
+fuentes:
+  - url: "https://www.cooperativa.cl/noticias/pais/judicial/casos-emblematicos/alberto-larrain-fue-formalizado-por-la-arista-biobio-del-caso-procultura/2026-08-05/232613.html"
+    titulo: "Alberto Larraín fue formalizado por la arista Biobío del caso ProCultura"
+    medio: "Cooperativa"
+    tipo: secundaria
+    fecha: 2026-08-05
+    consultado: 2026-10-19
 tags:
   - entidad/persona
   - caso-convenios
@@ -58,4 +66,16 @@ dv.table(
     p.causa_vinculada
   ])
 );
+```
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
 ```

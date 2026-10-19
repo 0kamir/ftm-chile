@@ -19,8 +19,8 @@ tags:
 
 ## 1. Indicadores Estructurales Globales
 
-- **Nodos Operativos Activos ($|V|$)**: `239` | **Aristas No Dirigidas ($|E|$)**: `402`
-- **Coeficiente de Asortatividad de Grado de Newman ($r$)**: **`-0.0784`**
+- **Nodos Operativos Activos ($|V|$)**: `238` | **Aristas No Dirigidas ($|E|$)**: `397`
+- **Coeficiente de Asortatividad de Grado de Newman ($r$)**: **`-0.0768`**
   - *Diagnóstico Topológico*: **Disasortativo (Arquitectura Hub-and-Spoke / Estrella: los grandes nodos articuladores operan a través de entidades instrumentales o testaferros periféricos)**
 - **Degeneración / Coreness Máximo ($k_{\max}$)**: `3-Core`
 - **Profundidad Máxima de Pelado (*Onion Layers*)**: `16 capas`
@@ -34,8 +34,8 @@ Actores institucionales, societarios y personales con grado $k_i \ge 2$ ordenado
 | Pos | Actor / Entidad | Tipo | Grado ($k_i$) | Restricción de Burt ($C_i$) | $k$-Core | Capa Cebolla |
 | :---: | :--- | :--- | :---: | :---: | :---: | :---: |
 | **1** | [[Corte Suprema de Chile]] | `entidad_publica` | `13` | **`0.0769`** | `3` | `Capa #12` |
-| **2** | [[Servicio Impuestos Internos]] | `entidad_publica` | `10` | **`0.1000`** | `3` | `Capa #12` |
-| **3** | [[Union Democrata Independiente]] | `partido_politico` | `15` | **`0.1085`** | `3` | `Capa #12` |
+| **2** | [[Union Democrata Independiente]] | `partido_politico` | `15` | **`0.1085`** | `3` | `Capa #12` |
+| **3** | [[Servicio Impuestos Internos]] | `entidad_publica` | `9` | **`0.1111`** | `3` | `Capa #12` |
 | **4** | [[Renovacion Nacional]] | `partido_politico` | `10` | **`0.1169`** | `3` | `Capa #10` |
 | **5** | [[Carlos Contreras Gutierrez]] | `persona` | `6` | **`0.1667`** | `3` | `Capa #14` |
 | **6** | [[Augusto Pinochet Ugarte]] | `persona` | `8` | **`0.1725`** | `3` | `Capa #12` |
@@ -78,7 +78,7 @@ Actores institucionales, societarios y personales con grado $k_i \ge 2$ ordenado
 | **16** | [[TRX-2023-06-22-Reunion-Audios-01]] | `nexo_transaccion` | **`3`** | **`Capa #13`** | `5` | `0.2289` |
 | **17** | [[Union Democrata Independiente]] | `partido_politico` | **`3`** | **`Capa #12`** | `15` | `0.1085` |
 | **18** | [[Corte Suprema de Chile]] | `entidad_publica` | **`3`** | **`Capa #12`** | `13` | `0.0769` |
-| **19** | [[Servicio Impuestos Internos]] | `entidad_publica` | **`3`** | **`Capa #12`** | `10` | `0.1000` |
+| **19** | [[Servicio Impuestos Internos]] | `entidad_publica` | **`3`** | **`Capa #12`** | `9` | `0.1111` |
 | **20** | [[Augusto Pinochet Ugarte]] | `persona` | **`3`** | **`Capa #12`** | `8` | `0.1725` |
 | **21** | [[Carlos Alberto Delano Abbott]] | `persona` | **`3`** | **`Capa #12`** | `6` | `0.3077` |
 | **22** | [[Alberto Larrain Salas]] | `persona` | **`3`** | **`Capa #12`** | `5` | `0.3600` |

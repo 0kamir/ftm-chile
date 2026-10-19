@@ -12,6 +12,20 @@ firmante_destino: "[[Sergio Munoz Gajardo]]"
 delito_imputado: "[[Negociacion Incompatible]]"
 causa_vinculada: "[[Caso LAN Informacion Privilegiada y Banco de Talca]]"
 evidencia_soporte: "[[Resolucion-SVS-306-InformacionPrivilegiada-LAN-2007]]"
+estado_verificacion: parcial
+fuentes:
+  - url: "https://www.emol.com/noticias/nacional/2009/07/27/368966/pinera-y-caso-banco-de-talca-fui-victima-de-un-acto-injusto-ilegal-y-arbitrario.html"
+    titulo: "Piñera y caso Banco de Talca: 'Fui víctima de un acto injusto, ilegal y arbitrario'"
+    medio: "Emol"
+    tipo: secundaria
+    fecha: 2009-07-27
+    consultado: 2026-10-19
+  - url: "https://eldesconcierto.cl/2017/02/27/del-banco-talca-exalmar-5-momentos-pinera-se-vio-complicado-la-justicia"
+    titulo: "Del Banco de Talca a Exalmar: 5 momentos en que Piñera se vio complicado con la justicia"
+    medio: "El Desconcierto"
+    tipo: secundaria
+    fecha: 2017-02-27
+    consultado: 2026-10-19
 tags:
   - nexo/desviacion-fondos
   - banco-de-talca
@@ -36,3 +50,15 @@ tags:
 
 ## Descripción Forense del Hecho
 Otorgamiento sistemático de préstamos y créditos cruzados a sociedades de papel relacionadas con los propios directores y ejecutivos del *Banco de Talca* (donde [[Sebastian Pinera Echenique]] se desempeñaba como gerente general) por más de **US$ 38 millones** (`~85%` de las colocaciones totales del banco, valorizados en **$18.500.000.000 CLP**) sin respaldos ni garantías reales, lo que provocó la insolvencia e intervención estatal de la institución financiera. El 28 de agosto de 1982 el juez Luis Correa Bulo dictó encargatoria de reo y orden de detención contra [[Sebastian Pinera Echenique]], quien permaneció **24 días prófugo** hasta que la [[Corte Suprema de Chile]] acogió un recurso de amparo que anuló la orden de aprehensión ([[Resolucion-SVS-306-InformacionPrivilegiada-LAN-2007]]).
+
+## Fuentes Verificables
+```dataview
+TABLE WITHOUT ID
+  f.titulo AS "Título",
+  f.medio AS "Medio / Organismo",
+  f.tipo AS "Tipo",
+  f.fecha AS "Fecha",
+  f.url AS "URL"
+FLATTEN fuentes AS f
+WHERE file.path = this.file.path
+```

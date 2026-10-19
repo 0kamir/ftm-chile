@@ -16,12 +16,12 @@ tags:
 
 ## 1. Métricas Globales de Flujo y Desigualdad Financiera
 
-- **Flujo Máximo Auditado ($f^*$ de Edmonds-Karp)**: **`$725.998.563.198 CLP`** *(100% consistente con la suma de aristas `TRX` con flujo monetario)*
-- **Capacidad del Corte Mínimo ($c(S, T)$)**: **`$725.998.563.198 CLP`** across `35` cuellos de botella primarios.
-- **Coeficiente de Gini por Transacción (`TRX`)**: `0.8073`
-- **Coeficiente de Gini por Causa Penal**: `0.7137`
-- **Coeficiente de Gini por Operador / Firmante**: `0.7111`
-- **Operadores requeridos para interceptar el 100% del flujo**: `30` personas (de un total de `64` firmantes con flujo monetario).
+- **Flujo Máximo Auditado ($f^*$ de Edmonds-Karp)**: **`$694.022.063.198 CLP`** *(100% consistente con la suma de aristas `TRX` con flujo monetario)*
+- **Capacidad del Corte Mínimo ($c(S, T)$)**: **`$694.022.063.198 CLP`** across `33` cuellos de botella primarios.
+- **Coeficiente de Gini por Transacción (`TRX`)**: `0.8225`
+- **Coeficiente de Gini por Causa Penal**: `0.7391`
+- **Coeficiente de Gini por Operador / Firmante**: `0.7436`
+- **Operadores requeridos para interceptar el 100% del flujo**: `29` personas (de un total de `62` firmantes con flujo monetario).
 
 ---
 
@@ -31,36 +31,35 @@ Orden óptimo de congelamiento de activos / medidas precautorias reales para max
 
 | Paso | Operador / Firmante Objetivo | TRX Interceptadas | Monto Marginal Interceptado | Monto Acumulado | % del Flujo Total |
 | :---: | :--- | :---: | :---: | :---: | :---: |
-| **1** | [[Sebastian Pinera Echenique]] | `4` | `$107.550.000.000 CLP` | `$107.550.000.000 CLP` | **`14.81%`** |
-| **2** | [[Eliodoro Matte Larrain]] | `1` | `$97.500.000.000 CLP` | `$205.050.000.000 CLP` | **`28.24%`** |
-| **3** | [[Agustin Edwards Eastman]] | `3` | `$43.800.000.000 CLP` | `$248.850.000.000 CLP` | **`34.28%`** |
-| **4** | [[Gonzalo Vial Vial]] | `1` | `$38.400.000.000 CLP` | `$287.250.000.000 CLP` | **`39.57%`** |
-| **5** | [[Cathy Barriga Guerra]] | `1` | `$30.972.000.000 CLP` | `$318.222.000.000 CLP` | **`43.83%`** |
-| **6** | [[Flavio Echeverria Cortez]] | `2` | `$29.798.928.198 CLP` | `$348.020.928.198 CLP` | **`47.94%`** |
-| **7** | [[Patricio Contesse Gonzalez]] | `3` | `$25.570.000.000 CLP` | `$373.590.928.198 CLP` | **`51.46%`** |
-| **8** | [[Augusto Pinochet Ugarte]] | `4` | `$24.650.000.000 CLP` | `$398.240.928.198 CLP` | **`54.85%`** |
-| **9** | [[Marcelo Torres Ferrari]] | `2` | `$19.620.000.000 CLP` | `$417.860.928.198 CLP` | **`57.56%`** |
-| **10** | [[Carlos Pavez Tolosa]] | `1` | `$14.200.000.000 CLP` | `$432.060.928.198 CLP` | **`59.51%`** |
-| **11** | [[Sergio Munoz Gajardo]] | `4` | `$13.550.000.000 CLP` | `$445.610.928.198 CLP` | **`61.38%`** |
-| **12** | [[Juan Miguel Fuente-Alba Poblete]] | `2` | `$9.600.000.000 CLP` | `$455.210.928.198 CLP` | **`62.70%`** |
-| **13** | [[Felipe Sanchez Perez]] | `1` | `$8.200.000.000 CLP` | `$463.410.928.198 CLP` | **`63.83%`** |
-| **14** | [[Jorge Zepeda Arancibia]] | `2` | `$5.300.000.000 CLP` | `$468.710.928.198 CLP` | **`64.56%`** |
-| **15** | [[Alberto Larrain Salas]] | `3` | `$3.368.000.000 CLP` | `$472.078.928.198 CLP` | **`65.02%`** |
-| **16** | [[Leon Marcelo Lefort Hernandez]] | `1` | `$3.200.000.000 CLP` | `$475.278.928.198 CLP` | **`65.47%`** |
-| **17** | [[Natalia Compagnon Soto]] | `1` | `$2.500.000.000 CLP` | `$477.778.928.198 CLP` | **`65.81%`** |
-| **18** | [[Jose Codner Chijner]] | `1` | `$2.180.000.000 CLP` | `$479.958.928.198 CLP` | **`66.11%`** |
-| **19** | [[Carlos Cruz Lorenzen]] | `2` | `$1.703.000.000 CLP` | `$481.661.928.198 CLP` | **`66.34%`** |
-| **20** | [[Carlos Alberto Delano Abbott]] | `2` | `$1.416.000.000 CLP` | `$483.077.928.198 CLP` | **`66.54%`** |
-| **21** | [[Luis Hermosilla Osorio]] | `3` | `$770.000.000 CLP` | `$483.847.928.198 CLP` | **`66.65%`** |
-| **22** | [[Domingo Prieto Urrejola]] | `1` | `$759.000.000 CLP` | `$484.606.928.198 CLP` | **`66.75%`** |
-| **23** | [[Carlos Contreras Gutierrez]] | `3` | `$426.000.000 CLP` | `$485.032.928.198 CLP` | **`66.81%`** |
-| **24** | [[Camila Polizzi Fonceca]] | `1` | `$250.635.000 CLP` | `$485.283.563.198 CLP` | **`66.84%`** |
-| **25** | [[Hartmut Hopp Miottel]] | `1` | `$240.000.000 CLP` | `$485.523.563.198 CLP` | **`66.88%`** |
-| **26** | [[Francisco Mujica Ortuzar]] | `1` | `$233.000.000 CLP` | `$485.756.563.198 CLP` | **`66.91%`** |
-| **27** | [[Jorge Silva Menares]] | `1` | `$140.000.000 CLP` | `$485.896.563.198 CLP` | **`66.93%`** |
-| **28** | [[Carlos Eugenio Lavin Garcia-Huidobro]] | `1` | `$42.000.000 CLP` | `$485.938.563.198 CLP` | **`66.93%`** |
-| **29** | [[Camila Flores Oporto]] | `1` | `$35.000.000 CLP` | `$485.973.563.198 CLP` | **`66.94%`** |
-| **30** | [[Alex Smith Leay]] | `1` | `$25.000.000 CLP` | `$485.998.563.198 CLP` | **`66.94%`** |
+| **1** | [[Sebastian Pinera Echenique]] | `4` | `$107.550.000.000 CLP` | `$107.550.000.000 CLP` | **`15.50%`** |
+| **2** | [[Eliodoro Matte Larrain]] | `1` | `$97.500.000.000 CLP` | `$205.050.000.000 CLP` | **`29.55%`** |
+| **3** | [[Agustin Edwards Eastman]] | `3` | `$43.800.000.000 CLP` | `$248.850.000.000 CLP` | **`35.86%`** |
+| **4** | [[Gonzalo Vial Vial]] | `1` | `$38.400.000.000 CLP` | `$287.250.000.000 CLP` | **`41.39%`** |
+| **5** | [[Cathy Barriga Guerra]] | `1` | `$30.972.000.000 CLP` | `$318.222.000.000 CLP` | **`45.85%`** |
+| **6** | [[Flavio Echeverria Cortez]] | `2` | `$29.798.928.198 CLP` | `$348.020.928.198 CLP` | **`50.15%`** |
+| **7** | [[Patricio Contesse Gonzalez]] | `3` | `$25.570.000.000 CLP` | `$373.590.928.198 CLP` | **`53.83%`** |
+| **8** | [[Augusto Pinochet Ugarte]] | `4` | `$24.650.000.000 CLP` | `$398.240.928.198 CLP` | **`57.38%`** |
+| **9** | [[Carlos Pavez Tolosa]] | `1` | `$14.200.000.000 CLP` | `$412.440.928.198 CLP` | **`59.43%`** |
+| **10** | [[Sergio Munoz Gajardo]] | `4` | `$13.550.000.000 CLP` | `$425.990.928.198 CLP` | **`61.38%`** |
+| **11** | [[Juan Miguel Fuente-Alba Poblete]] | `2` | `$9.600.000.000 CLP` | `$435.590.928.198 CLP` | **`62.76%`** |
+| **12** | [[Jorge Zepeda Arancibia]] | `1` | `$3.450.000.000 CLP` | `$439.040.928.198 CLP` | **`63.26%`** |
+| **13** | [[Alberto Larrain Salas]] | `3` | `$3.368.000.000 CLP` | `$442.408.928.198 CLP` | **`63.75%`** |
+| **14** | [[Natalia Compagnon Soto]] | `1` | `$2.500.000.000 CLP` | `$444.908.928.198 CLP` | **`64.11%`** |
+| **15** | [[Jose Codner Chijner]] | `1` | `$2.180.000.000 CLP` | `$447.088.928.198 CLP` | **`64.42%`** |
+| **16** | [[Carlos Alberto Delano Abbott]] | `2` | `$1.416.000.000 CLP` | `$448.504.928.198 CLP` | **`64.62%`** |
+| **17** | [[Marcelo Torres Ferrari]] | `2` | `$1.306.500.000 CLP` | `$449.811.428.198 CLP` | **`64.81%`** |
+| **18** | [[Carlos Cruz Lorenzen]] | `1` | `$1.253.000.000 CLP` | `$451.064.428.198 CLP` | **`64.99%`** |
+| **19** | [[Luis Hermosilla Osorio]] | `3` | `$770.000.000 CLP` | `$451.834.428.198 CLP` | **`65.10%`** |
+| **20** | [[Domingo Prieto Urrejola]] | `1` | `$759.000.000 CLP` | `$452.593.428.198 CLP` | **`65.21%`** |
+| **21** | [[Carlos Contreras Gutierrez]] | `3` | `$426.000.000 CLP` | `$453.019.428.198 CLP` | **`65.27%`** |
+| **22** | [[Camila Polizzi Fonceca]] | `1` | `$250.635.000 CLP` | `$453.270.063.198 CLP` | **`65.31%`** |
+| **23** | [[Hartmut Hopp Miottel]] | `1` | `$240.000.000 CLP` | `$453.510.063.198 CLP` | **`65.35%`** |
+| **24** | [[Francisco Mujica Ortuzar]] | `1` | `$233.000.000 CLP` | `$453.743.063.198 CLP` | **`65.38%`** |
+| **25** | [[Jorge Silva Menares]] | `1` | `$140.000.000 CLP` | `$453.883.063.198 CLP` | **`65.40%`** |
+| **26** | [[Carlos Eugenio Lavin Garcia-Huidobro]] | `1` | `$42.000.000 CLP` | `$453.925.063.198 CLP` | **`65.40%`** |
+| **27** | [[Leon Marcelo Lefort Hernandez]] | `1` | `$37.000.000 CLP` | `$453.962.063.198 CLP` | **`65.41%`** |
+| **28** | [[Camila Flores Oporto]] | `1` | `$35.000.000 CLP` | `$453.997.063.198 CLP` | **`65.42%`** |
+| **29** | [[Alex Smith Leay]] | `1` | `$25.000.000 CLP` | `$454.022.063.198 CLP` | **`65.42%`** |
 
 ---
 
@@ -76,52 +75,49 @@ Orden óptimo de congelamiento de activos / medidas precautorias reales para max
 | **6** | [[Flavio Echeverria Cortez]] | [[Direccion de Finanzas de Carabineros]] | [[Jaime Paz Meneses]] | [[Direccion de Finanzas de Carabineros]] | `1` | **`$28.348.928.198 CLP`** | [[Caso Pacogate]] |
 | **7** | [[Julio Ponce Lerou]] | [[Sociedad de Inversiones Pampa Calichera SA]] | [[Patricio Contesse Gonzalez]] | [[SQM SA]] | `1` | **`$24.500.000.000 CLP`** | [[Caso Cascadas]] |
 | **8** | [[Agustin Edwards Eastman]] | [[Mossack Fonseca y Sociedades Offshore Panama]] | [[Alfredo Ovalle Rodriguez]] | [[Unidad de Analisis Financiero]] | `1` | **`$19.500.000.000 CLP`** | [[Caso Panama Papers Chile]] |
-| **9** | [[Fernando Leon Steffens]] | [[KDM Empresas SA]] | [[Marcelo Torres Ferrari]] | [[Municipalidad de Maipu]] | `1` | **`$18.500.000.000 CLP`** | [[Caso Basura]] |
-| **10** | [[Sebastian Pinera Echenique]] | [[Bancard Inversiones Ltda]] | [[Sergio Munoz Gajardo]] | [[Corte Suprema de Chile]] | `1` | **`$18.500.000.000 CLP`** | [[Caso LAN Informacion Privilegiada y Banco de Talca]] |
-| **11** | [[Augusto Pinochet Ugarte]] | [[Comando de Apoyo a la Fuerza del Ejercito]] | [[Oscar Aitken Lavanchy]] | [[Riggs Bank y Sociedades Offshore Ashburton]] | `1` | **`$15.800.000.000 CLP`** | [[Caso Riggs]] |
-| **12** | [[Agustin Edwards Eastman]] | [[Agencia Central de Inteligencia CIA y Escuela de las Americas]] | [[Augusto Pinochet Ugarte]] | [[Comando de Apoyo a la Fuerza del Ejercito]] | `1` | **`$14.800.000.000 CLP`** | [[Caso Operacion FUBELT Intervencion CIA y DINA]] |
-| **13** | [[Gonzalo Delaveau Swett]] | [[Mossack Fonseca y Sociedades Offshore Panama]] | [[Carlos Pavez Tolosa]] | [[Servicio Impuestos Internos]] | `1` | **`$14.200.000.000 CLP`** | [[Caso Panama Papers Chile]] |
-| **14** | [[Lucia Hiriart Rodriguez]] | [[Fundacion CEMA Chile]] | [[Sergio Munoz Gajardo]] | [[Corte Suprema de Chile]] | `1` | **`$10.500.000.000 CLP`** | [[Caso CEMA Chile]] |
-| **15** | [[Manuel Contreras Sepulveda]] | [[Agencia Central de Inteligencia CIA y Escuela de las Americas]] | [[Agustin Edwards Eastman]] | [[Empresa El Mercurio SAP]] | `1` | **`$9.500.000.000 CLP`** | [[Caso Operacion FUBELT Intervencion CIA y DINA]] |
-| **16** | [[Sebastian Pinera Echenique]] | [[Bancard Inversiones Ltda]] | [[Santiago Valdes Gutierrez]] | [[Contraloria General de la Republica]] | `1` | **`$8.250.000.000 CLP`** | [[Caso Exalmar y Fideicomiso Ciego]] |
-| **17** | [[Iraci Hassler Jacob]] | [[Municipalidad de Santiago]] | [[Felipe Sanchez Perez]] | [[Inmobiliaria San Valentino SpA]] | `1` | **`$8.200.000.000 CLP`** | [[Caso Sierra Bella]] |
-| **18** | [[Juan Miguel Fuente-Alba Poblete]] | [[Comando de Apoyo a la Fuerza del Ejercito]] | [[Jozo Santic Palomino]] | [[Frasim Ltda]] | `1` | **`$6.100.000.000 CLP`** | [[Caso Milicogate]] |
-| **19** | [[Sebastian Pinera Echenique]] | [[Bancard Inversiones Ltda]] | [[Carlos Pavez Tolosa]] | [[Comision para el Mercado Financiero]] | `1` | **`$5.300.000.000 CLP`** | [[Caso LAN Informacion Privilegiada y Banco de Talca]] |
-| **20** | [[Oscar Aitken Lavanchy]] | [[Mossack Fonseca y Sociedades Offshore Panama]] | [[Augusto Pinochet Ugarte]] | [[Riggs Bank y Sociedades Offshore Ashburton]] | `1` | **`$3.800.000.000 CLP`** | [[Caso Panama Papers Chile]] |
-| **21** | [[Juan Miguel Fuente-Alba Poblete]] | [[Comando de Apoyo a la Fuerza del Ejercito]] | [[Javier Cruz Tamburrino]] | [[Unidad de Analisis Financiero]] | `1` | **`$3.500.000.000 CLP`** | [[Caso Milicogate]] |
-| **22** | [[Paul Schafer Schneider]] | [[Sociedad Benefactora y Educacional Dignidad]] | [[Jorge Zepeda Arancibia]] | [[Servicio Impuestos Internos]] | `1` | **`$3.450.000.000 CLP`** | [[Caso Colonia Dignidad]] |
-| **23** | [[Leon Marcelo Lefort Hernandez]] | [[Itelecom Holding Chile SpA]] | [[Marcelo Campos Henriquez]] | [[Municipalidad de Chillan]] | `1` | **`$3.200.000.000 CLP`** | [[Caso Luminarias LED]] |
-| **24** | [[Augusto Pinochet Ugarte]] | [[Comando de Apoyo a la Fuerza del Ejercito]] | [[Augusto Pinochet Hiriart]] | [[Valmoval Ltda]] | `1` | **`$2.950.000.000 CLP`** | [[Caso Pinocheques]] |
-| **25** | [[Rodrigo Diaz Worner]] | [[GORE Biobio]] | [[Alberto Larrain Salas]] | [[Fundacion ProCultura]] | `1` | **`$2.553.000.000 CLP`** | [[Caso Convenios]] |
-| **26** | [[Natalia Compagnon Soto]] | [[Exportadora y de Gestion Caval Ltda]] | [[Natalia Compagnon Soto]] | [[Servicio Impuestos Internos]] | `1` | **`$2.500.000.000 CLP`** | [[Caso Caval]] |
-| **27** | [[Lucia Hiriart Rodriguez]] | [[Riggs Bank y Sociedades Offshore Ashburton]] | [[Sergio Munoz Gajardo]] | [[Servicio Impuestos Internos]] | `1` | **`$2.450.000.000 CLP`** | [[Caso Riggs]] |
-| **28** | [[Roberto Belloni Pechini]] | [[Farmacias Salcobrand SA]] | [[Jose Codner Chijner]] | [[Servicio Nacional del Consumidor]] | `1` | **`$2.180.000.000 CLP`** | [[Caso Colusion de las Farmacias]] |
-| **29** | [[Manuel Contreras Sepulveda]] | [[Agencia Central de Inteligencia CIA y Escuela de las Americas]] | [[Augusto Pinochet Ugarte]] | [[Corte Suprema de Chile]] | `1` | **`$2.100.000.000 CLP`** | [[Caso Operacion FUBELT Intervencion CIA y DINA]] |
-| **30** | [[Paul Schafer Schneider]] | [[Sociedad Benefactora y Educacional Dignidad]] | [[Jorge Zepeda Arancibia]] | [[Corte Suprema de Chile]] | `1` | **`$1.850.000.000 CLP`** | [[Caso Colonia Dignidad]] |
-| **31** | [[Flavio Echeverria Cortez]] | [[Direccion de Finanzas de Carabineros]] | [[Javier Cruz Tamburrino]] | [[Unidad de Analisis Financiero]] | `1` | **`$1.450.000.000 CLP`** | [[Caso Pacogate]] |
-| **32** | [[Carlos Alberto Delano Abbott]] | [[Empresas Penta SA]] | [[Pablo Longueira Montes]] | [[Union Democrata Independiente]] | `1` | **`$1.260.000.000 CLP`** | [[Caso Penta]] |
-| **33** | [[Carlos Cruz Lorenzen]] | [[Ministerio de Obras Publicas]] | [[Hector Pena Veliz]] | [[Gestion Ambiental y Territorial SA]] | `1` | **`$1.253.000.000 CLP`** | [[Caso MOP-Gate]] |
-| **34** | [[Luis Plaza Sanchez]] | [[Municipalidad de Cerro Navia]] | [[Marcelo Torres Ferrari]] | [[KDM Empresas SA]] | `1` | **`$1.120.000.000 CLP`** | [[Caso Basura]] |
-| **35** | [[Raul Torrealba del Pedregal]] | [[Municipalidad de Vitacura]] | [[Domingo Prieto Urrejola]] | [[Vita Deportes]] | `1` | **`$759.000.000 CLP`** | [[Caso Vitacura]] |
-| **36** | [[Patricio Contesse Gonzalez]] | [[SQM SA]] | [[Pablo Longueira Montes]] | [[Union Democrata Independiente]] | `1` | **`$730.000.000 CLP`** | [[Caso SQM]] |
-| **37** | [[Carlos Contreras Gutierrez]] | [[Seremi MINVU Antofagasta]] | [[Alberto Larrain Salas]] | [[Fundacion ProCultura]] | `1` | **`$500.000.000 CLP`** | [[Caso Convenios]] |
-| **38** | [[Claudio Spiniak Vilensky]] | [[Inversiones El Bosque Ltda]] | [[Sergio Munoz Gajardo]] | [[Servicio Impuestos Internos]] | `1` | **`$480.000.000 CLP`** | [[Caso Spiniak]] |
-| **39** | [[Luis Hermosilla Osorio]] | [[Factop SpA]] | [[Javier Cruz Tamburrino]] | [[Unidad de Analisis Financiero]] | `1` | **`$480.000.000 CLP`** | [[Caso Audios]] |
-| **40** | [[Hector Pena Veliz]] | [[Gestion Ambiental y Territorial SA]] | [[Carlos Cruz Lorenzen]] | [[Servicio Impuestos Internos]] | `1` | **`$450.000.000 CLP`** | [[Caso MOP-Gate]] |
-| **41** | [[Carlos Contreras Gutierrez]] | [[Seremi MINVU Antofagasta]] | [[Daniel Andrade Schwarze]] | [[Fundacion Democracia Viva]] | `3` | **`$426.000.000 CLP`** | [[Caso Convenios]] |
-| **42** | [[Patricio Contesse Gonzalez]] | [[SQM SA]] | [[Santiago Valdes Gutierrez]] | [[Bancard Inversiones Ltda]] | `1` | **`$340.000.000 CLP`** | [[Caso SQM]] |
-| **43** | [[Alberto Larrain Salas]] | [[Fundacion ProCultura]] | [[Leonarda Villalobos Muth]] | [[Servicio Impuestos Internos]] | `1` | **`$315.000.000 CLP`** | [[Caso Convenios]] |
-| **44** | [[Rodrigo Diaz Worner]] | [[GORE Biobio]] | [[Camila Polizzi Fonceca]] | [[Fundacion En Ti]] | `1` | **`$250.635.000 CLP`** | [[Caso Convenios]] |
-| **45** | [[Hernan Larrain Fernandez]] | [[Union Democrata Independiente]] | [[Hartmut Hopp Miottel]] | [[Sociedad Benefactora y Educacional Dignidad]] | `1` | **`$240.000.000 CLP`** | [[Caso Colonia Dignidad]] |
-| **46** | [[Francisco Mujica Ortuzar]] | [[Corpesca SA]] | [[Jaime Orpis Bouchon]] | [[Senado de la Republica de Chile]] | `1` | **`$233.000.000 CLP`** | [[Caso Corpesca]] |
-| **47** | [[Luis Hermosilla Osorio]] | [[Factop SpA]] | [[Andres Chadwick Pinera]] | [[Senado de la Republica de Chile]] | `1` | **`$190.000.000 CLP`** | [[Caso Audios]] |
-| **48** | [[Carlos Alberto Delano Abbott]] | [[Empresas Penta SA]] | [[Jovino Novoa Vasquez]] | [[Union Democrata Independiente]] | `1` | **`$156.000.000 CLP`** | [[Caso Penta]] |
-| **49** | [[]] | [[Exportadora y de Gestion Caval Ltda]] | [[Jorge Silva Menares]] | [[Municipalidad de Machali]] | `1` | **`$140.000.000 CLP`** | [[Caso Caval]] |
-| **50** | [[Pia Guzman Mena]] | [[Renovacion Nacional]] | [[Sergio Munoz Gajardo]] | [[Corte Suprema de Chile]] | `1` | **`$120.000.000 CLP`** | [[Caso Spiniak]] |
-| **51** | [[Luis Hermosilla Osorio]] | [[Factop SpA]] | [[Leonarda Villalobos Muth]] | [[Servicio Impuestos Internos]] | `1` | **`$100.000.000 CLP`** | [[Caso Audios]] |
-| **52** | [[Carlos Eugenio Lavin Garcia-Huidobro]] | [[Empresas Penta SA]] | [[Pablo Wagner San Martin]] | [[Servicio Impuestos Internos]] | `1` | **`$42.000.000 CLP`** | [[Caso Penta]] |
-| **53** | [[Senado de la Republica de Chile]] | [[Senado de la Republica de Chile]] | [[Camila Flores Oporto]] | [[Camila Flores Oporto]] | `1` | **`$35.000.000 CLP`** | [[Caso Asignaciones Parlamentarias y Cuota Flores]] |
-| **54** | [[Patricio Marin Lazo]] | [[Direccion de Inteligencia Policial de Carabineros]] | [[Alex Smith Leay]] | [[Direccion de Inteligencia Policial de Carabineros]] | `1` | **`$25.000.000 CLP`** | [[Caso Operacion Huracan]] |
+| **9** | [[Sebastian Pinera Echenique]] | [[Bancard Inversiones Ltda]] | [[Sergio Munoz Gajardo]] | [[Corte Suprema de Chile]] | `1` | **`$18.500.000.000 CLP`** | [[Caso LAN Informacion Privilegiada y Banco de Talca]] |
+| **10** | [[Augusto Pinochet Ugarte]] | [[Comando de Apoyo a la Fuerza del Ejercito]] | [[Oscar Aitken Lavanchy]] | [[Riggs Bank y Sociedades Offshore Ashburton]] | `1` | **`$15.800.000.000 CLP`** | [[Caso Riggs]] |
+| **11** | [[Agustin Edwards Eastman]] | [[Agencia Central de Inteligencia CIA y Escuela de las Americas]] | [[Augusto Pinochet Ugarte]] | [[Comando de Apoyo a la Fuerza del Ejercito]] | `1` | **`$14.800.000.000 CLP`** | [[Caso Operacion FUBELT Intervencion CIA y DINA]] |
+| **12** | [[Gonzalo Delaveau Swett]] | [[Mossack Fonseca y Sociedades Offshore Panama]] | [[Carlos Pavez Tolosa]] | [[Servicio Impuestos Internos]] | `1` | **`$14.200.000.000 CLP`** | [[Caso Panama Papers Chile]] |
+| **13** | [[Lucia Hiriart Rodriguez]] | [[Fundacion CEMA Chile]] | [[Sergio Munoz Gajardo]] | [[Corte Suprema de Chile]] | `1` | **`$10.500.000.000 CLP`** | [[Caso CEMA Chile]] |
+| **14** | [[Manuel Contreras Sepulveda]] | [[Agencia Central de Inteligencia CIA y Escuela de las Americas]] | [[Agustin Edwards Eastman]] | [[Empresa El Mercurio SAP]] | `1` | **`$9.500.000.000 CLP`** | [[Caso Operacion FUBELT Intervencion CIA y DINA]] |
+| **15** | [[Sebastian Pinera Echenique]] | [[Bancard Inversiones Ltda]] | [[Santiago Valdes Gutierrez]] | [[Contraloria General de la Republica]] | `1` | **`$8.250.000.000 CLP`** | [[Caso Exalmar y Fideicomiso Ciego]] |
+| **16** | [[Juan Miguel Fuente-Alba Poblete]] | [[Comando de Apoyo a la Fuerza del Ejercito]] | [[Jozo Santic Palomino]] | [[Frasim Ltda]] | `1` | **`$6.100.000.000 CLP`** | [[Caso Milicogate]] |
+| **17** | [[Sebastian Pinera Echenique]] | [[Bancard Inversiones Ltda]] | [[Carlos Pavez Tolosa]] | [[Comision para el Mercado Financiero]] | `1` | **`$5.300.000.000 CLP`** | [[Caso LAN Informacion Privilegiada y Banco de Talca]] |
+| **18** | [[Oscar Aitken Lavanchy]] | [[Mossack Fonseca y Sociedades Offshore Panama]] | [[Augusto Pinochet Ugarte]] | [[Riggs Bank y Sociedades Offshore Ashburton]] | `1` | **`$3.800.000.000 CLP`** | [[Caso Panama Papers Chile]] |
+| **19** | [[Juan Miguel Fuente-Alba Poblete]] | [[Comando de Apoyo a la Fuerza del Ejercito]] | [[Javier Cruz Tamburrino]] | [[Unidad de Analisis Financiero]] | `1` | **`$3.500.000.000 CLP`** | [[Caso Milicogate]] |
+| **20** | [[Paul Schafer Schneider]] | [[Sociedad Benefactora y Educacional Dignidad]] | [[Jorge Zepeda Arancibia]] | [[Servicio Impuestos Internos]] | `1` | **`$3.450.000.000 CLP`** | [[Caso Colonia Dignidad]] |
+| **21** | [[Augusto Pinochet Ugarte]] | [[Comando de Apoyo a la Fuerza del Ejercito]] | [[Augusto Pinochet Hiriart]] | [[Valmoval Ltda]] | `1` | **`$2.950.000.000 CLP`** | [[Caso Pinocheques]] |
+| **22** | [[Rodrigo Diaz Worner]] | [[GORE Biobio]] | [[Alberto Larrain Salas]] | [[Fundacion ProCultura]] | `1` | **`$2.553.000.000 CLP`** | [[Caso Convenios]] |
+| **23** | [[Natalia Compagnon Soto]] | [[Exportadora y de Gestion Caval Ltda]] | [[Natalia Compagnon Soto]] | [[Servicio Impuestos Internos]] | `1` | **`$2.500.000.000 CLP`** | [[Caso Caval]] |
+| **24** | [[Lucia Hiriart Rodriguez]] | [[Riggs Bank y Sociedades Offshore Ashburton]] | [[Sergio Munoz Gajardo]] | [[Servicio Impuestos Internos]] | `1` | **`$2.450.000.000 CLP`** | [[Caso Riggs]] |
+| **25** | [[Roberto Belloni Pechini]] | [[Farmacias Salcobrand SA]] | [[Jose Codner Chijner]] | [[Servicio Nacional del Consumidor]] | `1` | **`$2.180.000.000 CLP`** | [[Caso Colusion de las Farmacias]] |
+| **26** | [[Manuel Contreras Sepulveda]] | [[Agencia Central de Inteligencia CIA y Escuela de las Americas]] | [[Augusto Pinochet Ugarte]] | [[Corte Suprema de Chile]] | `1` | **`$2.100.000.000 CLP`** | [[Caso Operacion FUBELT Intervencion CIA y DINA]] |
+| **27** | [[Flavio Echeverria Cortez]] | [[Direccion de Finanzas de Carabineros]] | [[Javier Cruz Tamburrino]] | [[Unidad de Analisis Financiero]] | `1` | **`$1.450.000.000 CLP`** | [[Caso Pacogate]] |
+| **28** | [[Carlos Alberto Delano Abbott]] | [[Empresas Penta SA]] | [[Pablo Longueira Montes]] | [[Union Democrata Independiente]] | `1` | **`$1.260.000.000 CLP`** | [[Caso Penta]] |
+| **29** | [[Carlos Cruz Lorenzen]] | [[Ministerio de Obras Publicas]] | [[Hector Pena Veliz]] | [[Gestion Ambiental y Territorial SA]] | `1` | **`$1.253.000.000 CLP`** | [[Caso MOP-Gate]] |
+| **30** | [[Luis Plaza Sanchez]] | [[Municipalidad de Cerro Navia]] | [[Marcelo Torres Ferrari]] | [[KDM Empresas SA]] | `1` | **`$1.120.000.000 CLP`** | [[Caso Basura]] |
+| **31** | [[Raul Torrealba del Pedregal]] | [[Municipalidad de Vitacura]] | [[Domingo Prieto Urrejola]] | [[Vita Deportes]] | `1` | **`$759.000.000 CLP`** | [[Caso Vitacura]] |
+| **32** | [[Patricio Contesse Gonzalez]] | [[SQM SA]] | [[Pablo Longueira Montes]] | [[Union Democrata Independiente]] | `1` | **`$730.000.000 CLP`** | [[Caso SQM]] |
+| **33** | [[Carlos Contreras Gutierrez]] | [[Seremi MINVU Antofagasta]] | [[Alberto Larrain Salas]] | [[Fundacion ProCultura]] | `1` | **`$500.000.000 CLP`** | [[Caso Convenios]] |
+| **34** | [[Claudio Spiniak Vilensky]] | [[Inversiones El Bosque Ltda]] | [[Sergio Munoz Gajardo]] | [[Servicio Impuestos Internos]] | `1` | **`$480.000.000 CLP`** | [[Caso Spiniak]] |
+| **35** | [[Luis Hermosilla Osorio]] | [[Factop SpA]] | [[Javier Cruz Tamburrino]] | [[Unidad de Analisis Financiero]] | `1` | **`$480.000.000 CLP`** | [[Caso Audios]] |
+| **36** | [[Carlos Contreras Gutierrez]] | [[Seremi MINVU Antofagasta]] | [[Daniel Andrade Schwarze]] | [[Fundacion Democracia Viva]] | `3` | **`$426.000.000 CLP`** | [[Caso Convenios]] |
+| **37** | [[Patricio Contesse Gonzalez]] | [[SQM SA]] | [[Santiago Valdes Gutierrez]] | [[Bancard Inversiones Ltda]] | `1` | **`$340.000.000 CLP`** | [[Caso SQM]] |
+| **38** | [[Alberto Larrain Salas]] | [[Fundacion ProCultura]] | [[Leonarda Villalobos Muth]] | [[Servicio Impuestos Internos]] | `1` | **`$315.000.000 CLP`** | [[Caso Convenios]] |
+| **39** | [[Rodrigo Diaz Worner]] | [[GORE Biobio]] | [[Camila Polizzi Fonceca]] | [[Fundacion En Ti]] | `1` | **`$250.635.000 CLP`** | [[Caso Convenios]] |
+| **40** | [[Hernan Larrain Fernandez]] | [[Union Democrata Independiente]] | [[Hartmut Hopp Miottel]] | [[Sociedad Benefactora y Educacional Dignidad]] | `1` | **`$240.000.000 CLP`** | [[Caso Colonia Dignidad]] |
+| **41** | [[Francisco Mujica Ortuzar]] | [[Corpesca SA]] | [[Jaime Orpis Bouchon]] | [[Senado de la Republica de Chile]] | `1` | **`$233.000.000 CLP`** | [[Caso Corpesca]] |
+| **42** | [[Luis Hermosilla Osorio]] | [[Factop SpA]] | [[Andres Chadwick Pinera]] | [[Senado de la Republica de Chile]] | `1` | **`$190.000.000 CLP`** | [[Caso Audios]] |
+| **43** | [[Fernando Leon Steffens]] | [[KDM Empresas SA]] | [[Marcelo Torres Ferrari]] | [[Municipalidad de Maipu]] | `1` | **`$186.500.000 CLP`** | [[Caso Basura]] |
+| **44** | [[Carlos Alberto Delano Abbott]] | [[Empresas Penta SA]] | [[Jovino Novoa Vasquez]] | [[Union Democrata Independiente]] | `1` | **`$156.000.000 CLP`** | [[Caso Penta]] |
+| **45** | [[]] | [[Exportadora y de Gestion Caval Ltda]] | [[Jorge Silva Menares]] | [[Municipalidad de Machali]] | `1` | **`$140.000.000 CLP`** | [[Caso Caval]] |
+| **46** | [[Pia Guzman Mena]] | [[Renovacion Nacional]] | [[Sergio Munoz Gajardo]] | [[Corte Suprema de Chile]] | `1` | **`$120.000.000 CLP`** | [[Caso Spiniak]] |
+| **47** | [[Luis Hermosilla Osorio]] | [[Factop SpA]] | [[Leonarda Villalobos Muth]] | [[Servicio Impuestos Internos]] | `1` | **`$100.000.000 CLP`** | [[Caso Audios]] |
+| **48** | [[Carlos Eugenio Lavin Garcia-Huidobro]] | [[Empresas Penta SA]] | [[Pablo Wagner San Martin]] | [[Servicio Impuestos Internos]] | `1` | **`$42.000.000 CLP`** | [[Caso Penta]] |
+| **49** | [[Leon Marcelo Lefort Hernandez]] | [[Itelecom Holding Chile SpA]] | [[Marcelo Campos Henriquez]] | [[Municipalidad de Chillan]] | `1` | **`$37.000.000 CLP`** | [[Caso Luminarias LED]] |
+| **50** | [[Senado de la Republica de Chile]] | [[Senado de la Republica de Chile]] | [[Camila Flores Oporto]] | [[Camila Flores Oporto]] | `1` | **`$35.000.000 CLP`** | [[Caso Asignaciones Parlamentarias y Cuota Flores]] |
+| **51** | [[Patricio Marin Lazo]] | [[Direccion de Inteligencia Policial de Carabineros]] | [[Alex Smith Leay]] | [[Direccion de Inteligencia Policial de Carabineros]] | `1` | **`$25.000.000 CLP`** | [[Caso Operacion Huracan]] |
 
 ---
 

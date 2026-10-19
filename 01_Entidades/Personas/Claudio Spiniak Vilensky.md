@@ -6,7 +6,7 @@ aliases:
 rol_principal: "Empresario y Controlador de Inversiones El Bosque Ltda. (Gimnasio Go Fitness)"
 afiliacion_politica: "Independiente"
 situacion_procesal: condenado
-medida_cautelar: "Condena cumplida (12 años de presidio mayor en su grado medio ratificados por la Corte Suprema)"
+medida_cautelar: "Fallecido en marzo de 2026; había cumplido su condena (12 años, ratificada por la Corte Suprema en 2008)"
 tags:
   - entidad/persona
   - caso-spiniak

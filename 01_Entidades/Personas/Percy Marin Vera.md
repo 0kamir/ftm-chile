@@ -22,7 +22,7 @@ fuentes:
     tipo: secundaria
     fecha: 2020-06-16
     consultado: 2026-10-19
-alertas_verificacion:
+historial_correcciones:
   - "Se retiró la arista de registros íntimos (2026-10-19): asunto de vida privada sin formalización. RUT eliminado por no constar en fuente pública."
 tags:
   - entidad/persona

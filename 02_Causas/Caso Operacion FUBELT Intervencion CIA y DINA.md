@@ -1,6 +1,6 @@
 ---
 tipo_nodo: causa_judicial
-ruc: "7000150970-K"
+ruc: ""
 año_inicio: 1970
 tribunal_o_fiscalia: "Comité Selecto del Senado de EE.UU. (Comisión Church 1975) / Congreso de EE.UU. (Informe Hinchey 2000) / Corte Suprema de Chile"
 fiscal_a_cargo: "Senador Frank Church (US Senate Select Committee) / Ministros en Visita Alejandro Solís, Jorge Zepeda y Leopoldo Llanos"
@@ -24,8 +24,6 @@ fuentes:
     medio: "The World (PRI)"
     tipo: secundaria
     consultado: 2026-10-19
-alertas_verificacion:
-  - "El RUC '7000150970-K' no puede existir (el sistema RUC nace con la reforma procesal penal de 2000). Revisar identificadores de causas anteriores a 2000."
 tags:
   - causa
   - proyecto-fubelt

@@ -19,7 +19,7 @@ tags:
 - **Superior Jerárquico**: `= this.superior_jerarquico`
 
 ## Contexto en Investigaciones Forenses
-Unidad logística del Ejército de Chile encargada de la gestión de adquisiciones y mantenimiento con cargo a los fondos de la Ley Reservada del Cobre. En el [[Caso Milicogate]], se acreditó la operación de un mecanismo de pago de facturas ideológicamente falsas a empresas proveedoras como [[Frasim Ltda]] ([[TRX-2014-05-20-Facturas-LeyReservadaCobre-01]]) por **$6.100.000.000 CLP**, con participación del coronel (r) [[Jozo Santic Palomino]] y bajo el período de mando institucional de [[Juan Miguel Fuente-Alba Poblete]] ([[Auto-Procesamiento-Ministra-Rutherford-2019]]).
+Unidad logística del Ejército de Chile encargada de la gestión de adquisiciones y mantenimiento con cargo a los fondos de la Ley Reservada del Cobre. En el [[Caso Milicogate]], se acreditó la operación de un mecanismo de pago de facturas ideológicamente falsas a empresas proveedoras como [[Frasim Ltda]] ([[TRX-2014-05-20-Facturas-LeyReservadaCobre-01]]) por **$6.100.000.000 CLP**, con participación del coronel (r) [[Jozo Santic Palomino]] y bajo el período de mando institucional de [[Juan Miguel Fuente-Alba Poblete]] ([[Procesamientos-Ministra-Rutherford-Milicogate]]).
 
 ## Nexos y Operaciones Registradas
 ```dataview

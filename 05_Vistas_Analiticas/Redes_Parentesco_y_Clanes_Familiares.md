@@ -97,7 +97,7 @@ Para medir el impacto topológico de los vínculos familiares, comparamos la dis
 | [[Augusto Pinochet Ugarte]] | [[SQM SA]] | `5` | **`3`** | **-2 saltos** | [[Augusto Pinochet Ugarte]] → [[Julio Ponce Lerou]] → [[TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01]] → [[SQM SA]] |
 | [[Caso Riggs]] | [[Caso Cascadas]] | `5` | **`5`** | **0 saltos** | [[Caso Riggs]] → [[Sentencia-Corte-Suprema-CasoRiggs-2018]] → [[Corte Suprema de Chile]] → [[TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01]] → [[Negociacion Incompatible]] → [[Caso Cascadas]] |
 | [[Caso Pinocheques]] | [[Caso CEMA Chile]] | `5` | **`5`** | **0 saltos** | [[Caso Pinocheques]] → [[TRX-1989-01-10-Emision-Pinocheques-Ejercito-Valmoval-01]] → [[Augusto Pinochet Hiriart]] → [[Lucia Hiriart Rodriguez]] → [[TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01]] → [[Caso CEMA Chile]] |
-| [[Caso Penta]] | [[Caso Municipalidad de Maipu]] | `5` | **`5`** | **0 saltos** | [[Caso Penta]] → [[Delito Tributario]] → [[TRX-2002-04-12-Facturas-Triangulacion-GATE-SII-01]] → [[Caso MOP-Gate]] → [[Fraude al Fisco]] → [[Caso Municipalidad de Maipu]] |
+| [[Caso Penta]] | [[Caso Municipalidad de Maipu]] | `5` | **`5`** | **0 saltos** | [[Caso Penta]] → [[Delito Tributario]] → [[TRX-2023-05-10-Liquidacion-Tributaria-ProCultura-SII-01]] → [[Caso Convenios]] → [[Fraude al Fisco]] → [[Caso Municipalidad de Maipu]] |
 
 ---
 

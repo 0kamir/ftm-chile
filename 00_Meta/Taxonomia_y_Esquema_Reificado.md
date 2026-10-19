@@ -74,6 +74,8 @@ fuentes:
     consultado: 2026-10-19                   # fecha de consulta
 alertas_verificacion:                        # discrepancias detectadas entre el vault y las fuentes
   - "Texto de la alerta"
+historial_correcciones:                      # correcciones ya aplicadas (trazabilidad), no pendientes
+  - "Qué se corrigió, cuándo y por qué"
 ```
 
 - **Primaria**: sentencia, resolución, requerimiento, informe de CGR/FNE/CMF/SII, comunicado oficial de Fiscalía o registro de transparencia.

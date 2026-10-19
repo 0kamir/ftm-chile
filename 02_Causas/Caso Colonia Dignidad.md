@@ -1,6 +1,6 @@
 ---
 tipo_nodo: causa_judicial
-ruc: "9600218200-5"
+ruc: ""
 año_inicio: 1996
 tribunal_o_fiscalia: "Corte de Apelaciones de Santiago / Corte Suprema de Chile (Ministro en Visita Extraordinario — Rol 2.182-1998 y acumulados)"
 fiscal_a_cargo: "Ministro en Visita Jorge Zepeda Arancibia (y Ministro Hernán González García en etapa inicial)"
@@ -20,8 +20,6 @@ fuentes:
     tipo: secundaria
     fecha: 2013-01-28
     consultado: 2026-10-19
-alertas_verificacion:
-  - "El fallo CS de enero 2013 condenó por complicidad en abusos sexuales a menores; la condena de Schäfer por armas es de 2006. Revisar TRX-2005-06-14-Arsenal y la evidencia 'Sentencia-Corte-Suprema-ColoniaDignidad-2013'."
 tags:
   - causa
   - caso-colonia-dignidad

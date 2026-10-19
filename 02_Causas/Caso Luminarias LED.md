@@ -19,8 +19,6 @@ fuentes:
     tipo: secundaria
     fecha: 2021-06-30
     consultado: 2026-10-19
-alertas_verificacion:
-  - "Sentencia-TOP-Chillan-Luminarias-2023 y TRX-2020-07-08 (Itelecom-Hermosilla) retirados el 2026-10-19 por falta de fuente. Verificar el monto de $3.200 millones del TRX-2019-05-14."
 tags:
   - causa
   - caso-luminarias-led

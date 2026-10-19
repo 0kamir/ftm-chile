@@ -2,9 +2,9 @@
 tipo_nodo: causa_judicial
 ruc: "2300094812-3"
 año_inicio: 2023
-tribunal_o_fiscalia: "Fiscalía Regional de Coquimbo / 7° Juzgado de Garantía de Santiago / Contraloría General de la República"
+tribunal_o_fiscalia: "Fiscalía Metropolitana Centro Norte (fiscal Patricio Cooper, luego fiscal regional de Coquimbo) / Contraloría General de la República"
 fiscal_a_cargo: "Patricio Cooper Monti"
-estado_judicial: en_investigacion
+estado_judicial: cerrada_sin_formalizacion
 delito_principal: "[[Fraude al Fisco]]"
 estado_verificacion: verificado
 fuentes:
@@ -26,8 +26,12 @@ fuentes:
     tipo: secundaria
     fecha: 2023-04-14
     consultado: 2026-10-19
-alertas_verificacion:
-  - "La municipalidad no perseveró en la compra tras el informe de Contraloría. Verificar si TRX-2023-01-20-Compraventa-Clinica-SierraBella-01 registra un pago que no ocurrió, y la fiscalía a cargo (el vault dice Coquimbo)."
+  - url: "https://www.24horas.cl/actualidad/nacional/hassler-sin-cargos-cooper-cierra-investigacion-por-compra-de-sierra-bella"
+    titulo: "Hassler sin cargos: Cooper cierra investigación por compra de Sierra Bella"
+    medio: "24 Horas"
+    tipo: secundaria
+    fecha: 2025-05-26
+    consultado: 2026-10-19
 tags:
   - causa
   - sobreprecio-inmobiliario

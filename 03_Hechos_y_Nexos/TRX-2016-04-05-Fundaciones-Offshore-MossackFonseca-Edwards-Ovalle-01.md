@@ -11,7 +11,7 @@ firmante_origen: "[[Agustin Edwards Eastman]]"
 firmante_destino: "[[Alfredo Ovalle Rodriguez]]"
 delito_imputado: "[[Delito Tributario]]"
 causa_vinculada: "[[Caso Panama Papers Chile]]"
-evidencia_soporte: "[[Informe-ICIJ-SII-PanamaPapers-Chile-2016]]"
+evidencia_soporte: "[[Filtracion-ICIJ-PanamaPapers-Chile-2016]]"
 tags:
   - nexo/desviacion-fondos
   - panama-papers
@@ -35,4 +35,4 @@ tags:
 - **Evidencia de Soporte**: `= this.evidencia_soporte`
 
 ## Descripción Forense del Hecho
-Estructuración de fundaciones de interés privado y sociedades al portador en Panamá e Islas Vírgenes Británicas a través de [[Mossack Fonseca y Sociedades Offshore Panama]] para radicar activos empresariales y familiares fuera del control impositivo chileno, incluyendo las fundaciones *Ashton Foundation* y *Kintyre Foundation* vinculadas a [[Agustin Edwards Eastman]] y las sociedades *Sierra Leona S.A.* y *Railton Foundation* vinculadas al expresidente de la CPC y de la SONAMI [[Alfredo Ovalle Rodriguez]]. En el [[Caso Panama Papers Chile]], estos vehículos —junto al resto de las casi 200 sociedades chilenas reveladas en [[Informe-ICIJ-SII-PanamaPapers-Chile-2016]]— fueron incorporados en las auditorías cruzadas de la [[Unidad de Analisis Financiero]] y del [[Servicio Impuestos Internos]] por un volumen patrimonial estimado en **$19.500.000.000 CLP**.
+Estructuración de fundaciones de interés privado y sociedades al portador en Panamá e Islas Vírgenes Británicas a través de [[Mossack Fonseca y Sociedades Offshore Panama]] para radicar activos empresariales y familiares fuera del control impositivo chileno, incluyendo las fundaciones *Ashton Foundation* y *Kintyre Foundation* vinculadas a [[Agustin Edwards Eastman]] y las sociedades *Sierra Leona S.A.* y *Railton Foundation* vinculadas al expresidente de la CPC y de la SONAMI [[Alfredo Ovalle Rodriguez]]. En el [[Caso Panama Papers Chile]], estos vehículos —junto al resto de las casi 200 sociedades chilenas reveladas en [[Filtracion-ICIJ-PanamaPapers-Chile-2016]]— fueron incorporados en las auditorías cruzadas de la [[Unidad de Analisis Financiero]] y del [[Servicio Impuestos Internos]] por un volumen patrimonial estimado en **$19.500.000.000 CLP**.
