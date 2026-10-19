@@ -38,7 +38,7 @@ En 2020 constituyó la filial de su agencia en Chile junto a socios locales. De 
 ### 2. Vínculo y Presencia en la Sede de Renovación Nacional
 El 4 de septiembre de 2022, en la noche del triunfo electoral del Rechazo, Cerimedo estuvo físicamente presente en la sede nacional del partido [[Renovacion Nacional]] (ubicada en Antonio Varas 454, Providencia). 
 
-Dicha presencia quedó acreditada mediante registros fotográficos exclusivos revelados por el medio *The Clinic* ([[Fotografia-Cerimedo-Sede-Renovacion-Nacional-2022]]), en los cuales aparece en dependencias de la sede partidaria junto al entonces prosecretario de RN, Manuel José Errázuriz, su socio en Numen Enrique García Arancibia, y colaboradoras ligadas a centros de estudios del sector como Teresa Zañartu ([[TRX-2022-09-04-Presencia-Cerimedo-Sede-Renovacion-Nacional-01]]).
+Dicha presencia consta en registros fotográficos revelados por el medio *The Clinic* (RN sostiene que nunca lo contrató) ([[Fotografia-Cerimedo-Sede-Renovacion-Nacional-2022]]), en los cuales aparece en dependencias de la sede partidaria junto al entonces prosecretario de RN, Manuel José Errázuriz, su socio en Numen Enrique García Arancibia, y colaboradoras ligadas a centros de estudios del sector como Teresa Zañartu ([[TRX-2022-09-04-Presencia-Cerimedo-Sede-Renovacion-Nacional-01]]).
 
 ### 3. Indagatorias Judiciales y Parlamentarias
 - **Fiscalía Centro Norte**: Abrió causa penal para determinar eventuales infracciones a la Ley 19.884 sobre Control del Gasto Electoral y la Ley de Delitos Informáticos, ante la falta de reportes financieros en las rendiciones del Servel.
