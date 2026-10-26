@@ -9,17 +9,8 @@ causa_vinculada: "[[Caso Operacion FUBELT Intervencion CIA y DINA]]"
 nexo_respaldado: "[[TRX-1971-09-09-Fondos-CIA-ElMercurio-01]]"
 estado_verificacion: verificado
 fuentes:
-  - url: "https://irp.fas.org/cia/product/chile/index.html"
-    titulo: "CIA Activities in Chile (Informe Hinchey)"
-    medio: "CIA / FAS"
-    tipo: primaria
-    fecha: 2000-09-18
-    consultado: 2026-10-19
-  - url: "https://www.tni.org/en/article/hinchey-report-on-cia-activities-in-chile"
-    titulo: "Hinchey Report on CIA Activities in Chile"
-    medio: "Transnational Institute"
-    tipo: secundaria
-    consultado: 2026-10-19
+  - "https://irp.fas.org/cia/product/chile/index.html"
+  - "https://www.tni.org/en/article/hinchey-report-on-cia-activities-in-chile"
 tags:
   - evidencia/informe
   - proyecto-fubelt
@@ -47,13 +38,8 @@ Tríada de informes oficiales desclasificados por el Senado, el Departamento de 
 3. **Informe Hinchey (*CIA Activities in Chile*, 19 de septiembre de 2000)**: Admitió ante el Congreso estadounidense que el jefe de la DINA, [[Manuel Contreras Sepulveda]], estuvo en la nómina de activos pagados por la CIA entre 1974 y 1977 bajo el régimen de [[Augusto Pinochet Ugarte]] ([[TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01]]).
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [CIA Activities in Chile (Informe Hinchey)](https://irp.fas.org/cia/product/chile/index.html) | CIA / FAS | `primaria` | 2000-09-18 | [Wayback ↺](https://web.archive.org/web/*/https://irp.fas.org/cia/product/chile/index.html) |
+| [Hinchey Report on CIA Activities in Chile](https://www.tni.org/en/article/hinchey-report-on-cia-activities-in-chile) | Transnational Institute | `secundaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://www.tni.org/en/article/hinchey-report-on-cia-activities-in-chile) |

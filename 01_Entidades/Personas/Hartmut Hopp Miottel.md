@@ -7,6 +7,10 @@ rol_principal: "Director Médico, Vocero y Subdirector Administrativo de Colonia
 afiliacion_politica: "Independiente (Operador de relaciones políticas del enclave)"
 situacion_procesal: condenado
 medida_cautelar: "Prófugo de la justicia chilena en Alemania desde 2011 (Condenado a 5 años y 1 día de presidio efectivo por la Corte Suprema de Chile)"
+estado_verificacion: verificado
+fuentes:
+  - "https://www.elmostrador.cl/noticias/pais/2013/01/28/corte-suprema-decreta-prision-para-seis-ex-lideres-de-colonia-dignidad/"
+  - "https://www.cooperativa.cl/noticias/site/artic/20130128/pags-amp/20130128100305.html"
 tags:
   - entidad/persona
   - caso-colonia-dignidad
@@ -38,3 +42,10 @@ FROM "03_Hechos_y_Nexos"
 WHERE contains(string(firmante_origen), this.file.name) OR contains(string(firmante_destino), this.file.name)
 SORT fecha ASC
 ```
+
+## Fuentes Verificables
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Corte Suprema decreta prisión para seis ex líderes de Colonia Dignidad](https://www.elmostrador.cl/noticias/pais/2013/01/28/corte-suprema-decreta-prision-para-seis-ex-lideres-de-colonia-dignidad/) | El Mostrador | `secundaria` | 2013-01-28 | [Wayback ↺](https://web.archive.org/web/*/https://www.elmostrador.cl/noticias/pais/2013/01/28/corte-suprema-decreta-prision-para-seis-ex-lideres-de-colonia-dignidad/) |
+| [Seis ex jerarcas de Colonia Dignidad fueron condenados a prisión por la Corte Suprema](https://www.cooperativa.cl/noticias/site/artic/20130128/pags-amp/20130128100305.html) | Cooperativa | `secundaria` | 2013-01-28 | [Wayback ↺](https://web.archive.org/web/*/https://www.cooperativa.cl/noticias/site/artic/20130128/pags-amp/20130128100305.html) |

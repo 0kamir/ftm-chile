@@ -6,22 +6,12 @@ tribunal_o_fiscalia: "3° Juzgado del Crimen de Santiago / Ministra en Visita Gl
 fiscal_a_cargo: "Gloria Ana Chevesich Ruiz (Ministra en Visita Extraordinaria)"
 estado_judicial: cerrada_con_condena
 delito_principal: "[[Fraude al Fisco]]"
-estado_verificacion: verificado
-fuentes:
-  - url: "https://www.emol.com/noticias/Nacional/2016/06/29/810116/Corte-Suprema-dicta-sentencia-definitiva-en-el-caso-Mop-Gate-y-confirma-condenas.html"
-    titulo: "Corte Suprema dicta sentencia definitiva en el caso MOP-Gate y confirma condenas"
-    medio: "Emol"
-    tipo: secundaria
-    fecha: 2016-06-29
-    consultado: 2026-10-19
-  - url: "https://www.emol.com/noticias/nacional/2010/07/01/422053/caso-mop-gate-ex-ministro-carlos-cruz-condenado-a-tres-anos-de-pena-remitida.html"
-    titulo: "Caso MOP-Gate: ex ministro Carlos Cruz condenado a tres años de pena remitida"
-    medio: "Emol"
-    tipo: secundaria
-    fecha: 2010-07-01
-    consultado: 2026-10-19
 historial_correcciones:
   - "Corregido el 2026-10-19: la empresa es GATE y su dueño condenado es Héctor Peña Véliz; se retiró 'Roberto Lewin Valdivieso' por falta de fuente."
+estado_verificacion: verificado
+fuentes:
+  - "https://www.emol.com/noticias/Nacional/2016/06/29/810116/Corte-Suprema-dicta-sentencia-definitiva-en-el-caso-Mop-Gate-y-confirma-condenas.html"
+  - "https://www.emol.com/noticias/nacional/2010/07/01/422053/caso-mop-gate-ex-ministro-carlos-cruz-condenado-a-tres-anos-de-pena-remitida.html"
 tags:
   - causa
   - sobresueldos
@@ -57,13 +47,8 @@ SORT fecha ASC
 ```
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Corte Suprema dicta sentencia definitiva en el caso MOP-Gate y confirma condenas](https://www.emol.com/noticias/Nacional/2016/06/29/810116/Corte-Suprema-dicta-sentencia-definitiva-en-el-caso-Mop-Gate-y-confirma-condenas.html) | Emol | `secundaria` | 2016-06-29 | [Wayback ↺](https://web.archive.org/web/*/https://www.emol.com/noticias/Nacional/2016/06/29/810116/Corte-Suprema-dicta-sentencia-definitiva-en-el-caso-Mop-Gate-y-confirma-condenas.html) |
+| [Caso MOP-Gate: ex ministro Carlos Cruz condenado a tres años de pena remitida](https://www.emol.com/noticias/nacional/2010/07/01/422053/caso-mop-gate-ex-ministro-carlos-cruz-condenado-a-tres-anos-de-pena-remitida.html) | Emol | `secundaria` | 2010-07-01 | [Wayback ↺](https://web.archive.org/web/*/https://www.emol.com/noticias/nacional/2010/07/01/422053/caso-mop-gate-ex-ministro-carlos-cruz-condenado-a-tres-anos-de-pena-remitida.html) |

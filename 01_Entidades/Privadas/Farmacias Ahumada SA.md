@@ -5,6 +5,11 @@ razon_social: "Farmacias Ahumada S.A. (FASA)"
 fecha_constitucion: 1968-11-20
 objeto_social: "Comercialización, distribución y venta minorista de productos farmacéuticos, medicinales y artículos de tocador"
 representante_legal: "Juan Pablo Corvalán Kramer"
+estado_verificacion: verificado
+fuentes:
+  - "https://centrocompetencia.com/wp-content/uploads/2022/03/Sentencia_119_Corte_Suprema.pdf"
+  - "https://www.df.cl/empresas/suprema-confirma-acuerdo-entre-fne-y-fasa-por-caso-colusion"
+  - "https://www.cooperativa.cl/noticias/site/artic/20191220/pags-amp/20191220104347.html"
 tags:
   - entidad/privada
   - farmacias
@@ -39,3 +44,11 @@ FROM "03_Hechos_y_Nexos"
 WHERE contains(string(entidad_origen), this.file.name) OR contains(string(entidad_destino), this.file.name)
 SORT fecha ASC
 ```
+
+## Fuentes Verificables
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Sentencia TDLC N° 119/2012 y fallo Corte Suprema Rol 2578-2012](https://centrocompetencia.com/wp-content/uploads/2022/03/Sentencia_119_Corte_Suprema.pdf) | CentroCompetencia (copia del fallo) | `primaria` | 2012-09-07 | [Wayback ↺](https://web.archive.org/web/*/https://centrocompetencia.com/wp-content/uploads/2022/03/Sentencia_119_Corte_Suprema.pdf) |
+| [Suprema confirma acuerdo entre FNE y FASA por caso colusión](https://www.df.cl/empresas/suprema-confirma-acuerdo-entre-fne-y-fasa-por-caso-colusion) | Diario Financiero | `secundaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://www.df.cl/empresas/suprema-confirma-acuerdo-entre-fne-y-fasa-por-caso-colusion) |
+| [Grandes cadenas de farmacias deberán pagar compensaciones a clientes tras colusión](https://www.cooperativa.cl/noticias/site/artic/20191220/pags-amp/20191220104347.html) | Cooperativa | `secundaria` | 2019-12-20 | [Wayback ↺](https://web.archive.org/web/*/https://www.cooperativa.cl/noticias/site/artic/20191220/pags-amp/20191220104347.html) |

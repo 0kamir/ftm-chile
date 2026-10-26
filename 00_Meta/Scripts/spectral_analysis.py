@@ -75,10 +75,23 @@ def load_lcc_graph():
 
 def jacobi_eigen_symmetric(mat, max_sweeps=80, tol=1e-11):
     """
-    Algoritmo clásico de rotaciones de Jacobi para matriz real simétrica N x N.
+    Algoritmo clásico de rotaciones de Jacobi para matriz real simétrica N x N
+    (con aceleración LAPACK vía numpy.linalg.eigh si está disponible).
     Retorna (eigenvalues_sorted, eigenvectors_columns_sorted).
     """
     n = len(mat)
+    try:
+        import numpy as np
+
+        arr = np.asarray(mat, dtype=float)
+        vals, vecs = np.linalg.eigh(arr)
+        order = np.argsort(vals)
+        sorted_vals = [float(vals[i]) for i in order]
+        sorted_vecs = [[float(vecs[row, i]) for row in range(n)] for i in order]
+        return sorted_vals, sorted_vecs
+    except ImportError:
+        pass
+
     a = [[float(mat[i][j]) for j in range(n)] for i in range(n)]
     v = [[1.0 if i == j else 0.0 for j in range(n)] for i in range(n)]
 

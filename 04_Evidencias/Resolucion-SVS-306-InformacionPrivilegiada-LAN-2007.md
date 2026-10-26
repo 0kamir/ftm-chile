@@ -11,18 +11,8 @@ historial_correcciones:
   - "Revisado el 2026-10-19: no se halló copia en línea de la Resolución Exenta 306 en cmfchile.cl; respaldada por CIPER (2009), Cooperativa (2007) y la presentación de LATAM ante la SEC."
 estado_verificacion: verificado
 fuentes:
-  - url: "https://www.ciperchile.cl/2009/09/29/el-directorio-de-lan-que-se-transformo-en-la-peor-pesadilla-de-pinera/"
-    titulo: "El directorio de Lan que se transformó en la peor pesadilla de Piñera"
-    medio: "CIPER Chile"
-    tipo: secundaria
-    fecha: 2009-09-29
-    consultado: 2026-10-19
-  - url: "https://www.cooperativa.cl/noticias/site/artic/20070706/pags-amp/20070706181357.html"
-    titulo: "Piñera acusó motivos políticos en sanción de la SVS, aunque pagará la multa"
-    medio: "Cooperativa"
-    tipo: secundaria
-    fecha: 2007-07-06
-    consultado: 2026-10-19
+  - "https://www.ciperchile.cl/2009/09/29/el-directorio-de-lan-que-se-transformo-en-la-peor-pesadilla-de-pinera/"
+  - "https://www.cooperativa.cl/noticias/site/artic/20070706/pags-amp/20070706181357.html"
 tags:
   - evidencia/resolucion
   - caso-lan
@@ -46,13 +36,8 @@ tags:
 Resolución administrativa sancionatoria dictada el 6 de julio de 2007 por la Superintendencia de Valores y Seguros (hoy [[Comision para el Mercado Financiero]]) en el [[Caso LAN Informacion Privilegiada y Banco de Talca]], que acreditó que el 24 de julio de 2006 [[Sebastian Pinera Echenique]] —estando en posesión de información privilegiada sobre los estados financieros de *LAN Airlines S.A.* conocida en sesión de directorio— no se abstuvo de operar e instruyó a [[Bancard Inversiones Ltda]] (*Inversiones Santa Cecilia S.A.*) adquirir **3.000.000 de acciones de LAN** por **`$5.300.000.000 CLP`** ([[TRX-2006-07-24-Compra-Acciones-Informacion-Privilegiada-LAN-01]]), imponiéndole una **multa de 11.470 UF (~US$ 363.000)** por infracción al artículo 165 de la Ley N° 18.045 de Mercado de Valores. El expediente complementa además los antecedentes judiciales del colapso del *Banco de Talca* de agosto de 1982 ([[TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01]]).
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [El directorio de Lan que se transformó en la peor pesadilla de Piñera](https://www.ciperchile.cl/2009/09/29/el-directorio-de-lan-que-se-transformo-en-la-peor-pesadilla-de-pinera/) | CIPER Chile | `secundaria` | 2009-09-29 | [Wayback ↺](https://web.archive.org/web/*/https://www.ciperchile.cl/2009/09/29/el-directorio-de-lan-que-se-transformo-en-la-peor-pesadilla-de-pinera/) |
+| [Piñera acusó motivos políticos en sanción de la SVS, aunque pagará la multa](https://www.cooperativa.cl/noticias/site/artic/20070706/pags-amp/20070706181357.html) | Cooperativa | `secundaria` | 2007-07-06 | [Wayback ↺](https://web.archive.org/web/*/https://www.cooperativa.cl/noticias/site/artic/20070706/pags-amp/20070706181357.html) |

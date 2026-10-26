@@ -12,6 +12,13 @@ vinculos_familiares:
   - "[[Augusto Pinochet Ugarte]]"
   - "[[Augusto Pinochet Hiriart]]"
   - "[[Julio Ponce Lerou]]"
+estado_verificacion: verificado
+fuentes:
+  - "https://www.cnnchile.com/pais/caso-riggs-fue-cerrado-por-la-corte-suprema-tras-14-anos/"
+  - "https://www.theclinic.cl/2018/08/25/ordenan-decomiso-de-bienes-de-pinochet-por-mas-de-us-16-millones/"
+  - "https://www.emol.com/noticias/Nacional/2021/12/16/1041401/fallecio-lucia-hiriart.html"
+  - "https://www.theclinic.cl/2016/08/23/caso-cema-chile-fraude-al-fisco/"
+  - "https://www.theclinic.cl/2016/12/29/lo-que-declaro-lucia-hiriart-por-el-caso-cema-chile-por-mi-no-pasaba-ni-un-centavo/"
 tags:
   - entidad/persona
   - caso-cema-chile
@@ -64,3 +71,13 @@ dv.table(
   ])
 );
 ```
+
+## Fuentes Verificables
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Caso Riggs fue cerrado por la Corte Suprema tras 14 años](https://www.cnnchile.com/pais/caso-riggs-fue-cerrado-por-la-corte-suprema-tras-14-anos/) | CNN Chile | `secundaria` | 2018-08-24 | [Wayback ↺](https://web.archive.org/web/*/https://www.cnnchile.com/pais/caso-riggs-fue-cerrado-por-la-corte-suprema-tras-14-anos/) |
+| [Ordenan decomiso de bienes de Pinochet](https://www.theclinic.cl/2018/08/25/ordenan-decomiso-de-bienes-de-pinochet-por-mas-de-us-16-millones/) | The Clinic | `secundaria` | 2018-08-25 | [Wayback ↺](https://web.archive.org/web/*/https://www.theclinic.cl/2018/08/25/ordenan-decomiso-de-bienes-de-pinochet-por-mas-de-us-16-millones/) |
+| [Falleció Lucía Hiriart (menciona recuperación de bienes vía CDE)](https://www.emol.com/noticias/Nacional/2021/12/16/1041401/fallecio-lucia-hiriart.html) | Emol | `secundaria` | 2021-12-16 | [Wayback ↺](https://web.archive.org/web/*/https://www.emol.com/noticias/Nacional/2021/12/16/1041401/fallecio-lucia-hiriart.html) |
+| [Caso CEMA Chile: querella por fraude al fisco](https://www.theclinic.cl/2016/08/23/caso-cema-chile-fraude-al-fisco/) | The Clinic | `secundaria` | 2016-08-23 | [Wayback ↺](https://web.archive.org/web/*/https://www.theclinic.cl/2016/08/23/caso-cema-chile-fraude-al-fisco/) |
+| [Lo que declaró Lucía Hiriart por el caso CEMA Chile](https://www.theclinic.cl/2016/12/29/lo-que-declaro-lucia-hiriart-por-el-caso-cema-chile-por-mi-no-pasaba-ni-un-centavo/) | The Clinic | `secundaria` | 2016-12-29 | [Wayback ↺](https://web.archive.org/web/*/https://www.theclinic.cl/2016/12/29/lo-que-declaro-lucia-hiriart-por-el-caso-cema-chile-por-mi-no-pasaba-ni-un-centavo/) |

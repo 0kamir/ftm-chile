@@ -5,15 +5,16 @@ razon_social: "Agrosuper S.A."
 fecha_constitucion: 1955-08-10
 objeto_social: "Producción, procesamiento, faenamiento, distribución y exportación de productos cárnicos (pollo, cerdo, pavo y salmón)"
 representante_legal: "José Guzmán Vial"
-estado_verificacion: parcial
-fuentes:
-  - url: "https://www.agrosuper.com/inversionistas/wp-content/uploads/2023/02/Reporte-Integrado-Agrosuper-2024-v29_17_06.pdf"
-    titulo: "Reporte Integrado Agrosuper 2024 (identificación de la sociedad)"
-    medio: "Agrosuper S.A."
-    tipo: primaria
-    consultado: 2026-10-19
 historial_correcciones:
   - "RUT corregido el 2026-10-19: el vault registraba 96.522.000-3, que no corresponde a la empresa; el RUT verificado es 76.129.263-3."
+estado_verificacion: parcial
+fuentes:
+  - "https://www.agrosuper.com/inversionistas/wp-content/uploads/2023/02/Reporte-Integrado-Agrosuper-2024-v29_17_06.pdf"
+  - "https://www.fne.gob.cl/wp-content/uploads/2016/03/Sentencia_139-_2014.pdf"
+  - "https://www.fne.gob.cl/tdlc-condeno-a-agrosuper-ariztia-y-don-pollo-por-colusion-y-ordeno-disolver-el-gremio-que-las-reune/"
+  - "https://www.fne.gob.cl/fiscalia-nacional-economica-presenta-requerimiento-por-colusion-en-la-produccion-y-comercializacion-de-carne-de-pollo-en-el-pais/"
+  - "https://www.fne.gob.cl/corte-suprema-confirma-multas-por-colusion-contra-agrosuper-ariztia-y-don-pollo-y-endurece-sancion-contra-el-gremio-que-las-reune/"
+  - "https://www.fne.gob.cl/wp-content/uploads/2015/10/secs_27_181-14.pdf"
 tags:
   - entidad/privada
   - agrosuper
@@ -50,13 +51,12 @@ SORT fecha ASC
 ```
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Reporte Integrado Agrosuper 2024 (identificación de la sociedad)](https://www.agrosuper.com/inversionistas/wp-content/uploads/2023/02/Reporte-Integrado-Agrosuper-2024-v29_17_06.pdf) | Agrosuper S.A. | `primaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://www.agrosuper.com/inversionistas/wp-content/uploads/2023/02/Reporte-Integrado-Agrosuper-2024-v29_17_06.pdf) |
+| [Sentencia TDLC N° 139/2014](https://www.fne.gob.cl/wp-content/uploads/2016/03/Sentencia_139-_2014.pdf) | TDLC / FNE | `primaria` | 2014-09-25 | [Wayback ↺](https://web.archive.org/web/*/https://www.fne.gob.cl/wp-content/uploads/2016/03/Sentencia_139-_2014.pdf) |
+| [TDLC condenó a Agrosuper, Ariztía y Don Pollo por colusión](https://www.fne.gob.cl/tdlc-condeno-a-agrosuper-ariztia-y-don-pollo-por-colusion-y-ordeno-disolver-el-gremio-que-las-reune/) | Fiscalía Nacional Económica | `primaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://www.fne.gob.cl/tdlc-condeno-a-agrosuper-ariztia-y-don-pollo-por-colusion-y-ordeno-disolver-el-gremio-que-las-reune/) |
+| [FNE presenta requerimiento por colusión en la producción y comercialización de carne de pollo](https://www.fne.gob.cl/fiscalia-nacional-economica-presenta-requerimiento-por-colusion-en-la-produccion-y-comercializacion-de-carne-de-pollo-en-el-pais/) | Fiscalía Nacional Económica | `primaria` | 2011-12-01 | [Wayback ↺](https://web.archive.org/web/*/https://www.fne.gob.cl/fiscalia-nacional-economica-presenta-requerimiento-por-colusion-en-la-produccion-y-comercializacion-de-carne-de-pollo-en-el-pais/) |
+| [Corte Suprema confirma multas por colusión contra Agrosuper, Ariztía y Don Pollo](https://www.fne.gob.cl/corte-suprema-confirma-multas-por-colusion-contra-agrosuper-ariztia-y-don-pollo-y-endurece-sancion-contra-el-gremio-que-las-reune/) | Fiscalía Nacional Económica | `primaria` | 2015-10-29 | [Wayback ↺](https://web.archive.org/web/*/https://www.fne.gob.cl/corte-suprema-confirma-multas-por-colusion-contra-agrosuper-ariztia-y-don-pollo-y-endurece-sancion-contra-el-gremio-que-las-reune/) |
+| [Sentencia Corte Suprema Rol 27.181-2014](https://www.fne.gob.cl/wp-content/uploads/2015/10/secs_27_181-14.pdf) | Corte Suprema (vía FNE) | `primaria` | 2015-10-29 | [Wayback ↺](https://web.archive.org/web/*/https://www.fne.gob.cl/wp-content/uploads/2015/10/secs_27_181-14.pdf) |

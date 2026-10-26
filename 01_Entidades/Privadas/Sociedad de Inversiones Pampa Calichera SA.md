@@ -5,6 +5,11 @@ razon_social: "Sociedad de Inversiones Pampa Calichera S.A."
 fecha_constitucion: "1988-06-21"
 objeto_social: "Sociedad de inversiones y holding controlador de acciones serie A y B de SQM S.A."
 representante_legal: "[[Julio Ponce Lerou]]"
+estado_verificacion: verificado
+fuentes:
+  - "https://www.mch.cl/15-preguntas-para-entender-el-caso-cascada-las-sanciones-y-que-arriesgan-los-involucrados/"
+  - "https://www.cooperativa.cl/noticias/site/artic/20140902/pags-amp/20140902135102.html"
+  - "https://www.mch.cl/c-suprema-ratifica-esquema-en-caso-cascadas-y-confirma-multa-rebajada-a-ponce/"
 tags:
   - entidad/privada
   - sociedad-cascada
@@ -36,3 +41,11 @@ FROM "03_Hechos_y_Nexos"
 WHERE contains(string(entidad_origen), this.file.name) OR contains(string(entidad_destino), this.file.name)
 SORT fecha DESC
 ```
+
+## Fuentes Verificables
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [15 preguntas para entender el Caso Cascadas, las sanciones y qué arriesgan los involucrados](https://www.mch.cl/15-preguntas-para-entender-el-caso-cascada-las-sanciones-y-que-arriesgan-los-involucrados/) | Minería Chilena | `secundaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://www.mch.cl/15-preguntas-para-entender-el-caso-cascada-las-sanciones-y-que-arriesgan-los-involucrados/) |
+| [Caso Cascadas: SVS aplicó multas por 164 millones de dólares](https://www.cooperativa.cl/noticias/site/artic/20140902/pags-amp/20140902135102.html) | Cooperativa | `secundaria` | 2014-09-02 | [Wayback ↺](https://web.archive.org/web/*/https://www.cooperativa.cl/noticias/site/artic/20140902/pags-amp/20140902135102.html) |
+| [C. Suprema ratifica 'esquema' en caso Cascadas y confirma multa rebajada a Ponce](https://www.mch.cl/c-suprema-ratifica-esquema-en-caso-cascadas-y-confirma-multa-rebajada-a-ponce/) | Minería Chilena | `secundaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://www.mch.cl/c-suprema-ratifica-esquema-en-caso-cascadas-y-confirma-multa-rebajada-a-ponce/) |

@@ -9,12 +9,7 @@ causa_vinculada: "[[Caso Basura]]"
 nexo_respaldado: "[[TRX-2010-11-15-Pagos-KDM-Licitacion-Basura-Maipu-01]]"
 estado_verificacion: parcial
 fuentes:
-  - url: "https://media-front.elmostrador.cl/2025/06/20250603-COMUNICADO-CASO-BASURA.pdf"
-    titulo: "Comunicado Fiscalía Occidente Caso Basura"
-    medio: "Fiscalía Regional Metropolitana Occidente (vía El Mostrador)"
-    tipo: primaria
-    fecha: 2025-06-03
-    consultado: 2026-10-19
+  - "https://media-front.elmostrador.cl/2025/06/20250603-COMUNICADO-CASO-BASURA.pdf"
 tags:
   - evidencia/acusacion-fiscal
   - caso-basura
@@ -36,13 +31,7 @@ tags:
 Acusación presentada por la Fiscalía Regional Metropolitana Occidente y el Consejo de Defensa del Estado (CDE) en el [[Caso Basura]] (RUC `1100849201-5`), que documentó mediante interceptaciones telefónicas, peritajes contables de la PDI y alzamientos de secreto bancario la red de pagos desde [[KDM Empresas SA]] ([[Fernando Leon Steffens]]) hacia [[Marcelo Torres Ferrari]] en la [[Municipalidad de Maipu]] ([[TRX-2010-11-15-Pagos-KDM-Licitacion-Basura-Maipu-01]]) y los contratos irregulares ejecutados junto al exalcalde [[Luis Plaza Sanchez]] en la [[Municipalidad de Cerro Navia]] ([[TRX-2012-03-22-Contratos-Residuos-CerroNavia-01]]).
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Comunicado Fiscalía Occidente Caso Basura](https://media-front.elmostrador.cl/2025/06/20250603-COMUNICADO-CASO-BASURA.pdf) | Fiscalía Regional Metropolitana Occidente (vía El Mostrador) | `primaria` | 2025-06-03 | [Wayback ↺](https://web.archive.org/web/*/https://media-front.elmostrador.cl/2025/06/20250603-COMUNICADO-CASO-BASURA.pdf) |

@@ -99,7 +99,17 @@ def extract_wikilinks(value) -> list[str]:
 
 
 # Tipos de nodo cuya afirmación debe estar respaldada por al menos una fuente con URL.
-TIPOS_CON_FUENTE = ("causa_judicial", "evidencia_documental")
+TIPOS_CON_FUENTE = (
+    "persona",
+    "entidad_publica",
+    "entidad_privada",
+    "partido_politico",
+    "causa_judicial",
+    "nexo_transaccion",
+    "evidencia_documental",
+    "tipo_penal",
+    "anexo_documental",
+)
 
 
 def validar_fuentes(rel_path: str, meta: dict, estricto: bool, errors: list, warnings: list) -> None:
@@ -121,8 +131,13 @@ def validar_fuentes(rel_path: str, meta: dict, estricto: bool, errors: list, war
         return
 
     for i, fuente in enumerate(fuentes):
+        if isinstance(fuente, str):
+            url = fuente.strip()
+            if not re.match(r"^https?://\S+$", url):
+                errors.append(f"[{rel_path}] fuentes[{i}] sin URL http(s) válida: {url!r}.")
+            continue
         if not isinstance(fuente, dict):
-            errors.append(f"[{rel_path}] fuentes[{i}] debe ser un diccionario.")
+            errors.append(f"[{rel_path}] fuentes[{i}] debe ser una URL o diccionario.")
             continue
         url = str(fuente.get("url", ""))
         if not re.match(r"^https?://\S+$", url):
@@ -241,6 +256,10 @@ def main(estricto: bool = False) -> int:
                         total_por_origen[origen] = total_por_origen.get(origen, 0) + int(monto)
 
             validar_fuentes(rel_path, meta, estricto, errors, warnings)
+            if meta.get("fuentes") and not re.search(r"\[.+?\]\(https?://\S+\)", info["body"]):
+                warnings.append(
+                    f"[{rel_path}] Tiene 'fuentes:' en YAML pero sin enlaces Markdown clickeables [Título](https://...) en el cuerpo."
+                )
 
             # Verificar integridad referencial de todos los wikilinks en el YAML
             for k, v in meta.items():

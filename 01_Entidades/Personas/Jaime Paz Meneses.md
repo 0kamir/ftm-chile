@@ -10,17 +10,10 @@ situacion_procesal: acusado
 medida_cautelar: "Acusado en juicio oral; veredicto de abril de 2026 condenó a 25 de 28 acusados (resultado individual no verificado); penas pendientes"
 estado_verificacion: parcial
 fuentes:
-  - url: "https://www.elmostrador.cl/noticias/pais/2026/04/15/caso-pacogate-rechazan-prision-preventiva-para-los-25-condenados-por-megafraude/"
-    titulo: "Caso Pacogate: rechazan prisión preventiva para los 25 condenados por megafraude"
-    medio: "El Mostrador"
-    tipo: secundaria
-    fecha: 2026-04-15
-    consultado: 2026-10-19
-  - url: "https://en.wikipedia.org/wiki/Pacogate"
-    titulo: "Pacogate"
-    medio: "Wikipedia"
-    tipo: secundaria
-    consultado: 2026-10-19
+  - "https://www.elmostrador.cl/noticias/pais/2026/04/15/caso-pacogate-rechazan-prision-preventiva-para-los-25-condenados-por-megafraude/"
+  - "https://en.wikipedia.org/wiki/Pacogate"
+  - "https://www.biobiochile.cl/noticias/nacional/chile/2021/05/10/pacogate-postergan-juicio-oral-de-31-imputados-por-fraude-en-carabineros-hasta-el-20-de-septiembre.shtml"
+  - "https://www.theclinic.cl/2017/04/04/pacogate-las-claves-la-investigacion-millonario-fraude-carabineros/"
 alertas_verificacion:
   - "Verificar en la sentencia (feb-2027) si figura entre los condenados y su pena."
 tags:
@@ -75,13 +68,10 @@ dv.table(
 ```
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Caso Pacogate: rechazan prisión preventiva para los 25 condenados por megafraude](https://www.elmostrador.cl/noticias/pais/2026/04/15/caso-pacogate-rechazan-prision-preventiva-para-los-25-condenados-por-megafraude/) | El Mostrador | `secundaria` | 2026-04-15 | [Wayback ↺](https://web.archive.org/web/*/https://www.elmostrador.cl/noticias/pais/2026/04/15/caso-pacogate-rechazan-prision-preventiva-para-los-25-condenados-por-megafraude/) |
+| [Pacogate](https://en.wikipedia.org/wiki/Pacogate) | Wikipedia | `secundaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://en.wikipedia.org/wiki/Pacogate) |
+| [Pacogate: postergan juicio oral de 31 imputados](https://www.biobiochile.cl/noticias/nacional/chile/2021/05/10/pacogate-postergan-juicio-oral-de-31-imputados-por-fraude-en-carabineros-hasta-el-20-de-septiembre.shtml) | BioBioChile | `secundaria` | 2021-05-10 | [Wayback ↺](https://web.archive.org/web/*/https://www.biobiochile.cl/noticias/nacional/chile/2021/05/10/pacogate-postergan-juicio-oral-de-31-imputados-por-fraude-en-carabineros-hasta-el-20-de-septiembre.shtml) |
+| [Pacogate: las claves de la investigación](https://www.theclinic.cl/2017/04/04/pacogate-las-claves-la-investigacion-millonario-fraude-carabineros/) | The Clinic | `secundaria` | 2017-04-04 | [Wayback ↺](https://web.archive.org/web/*/https://www.theclinic.cl/2017/04/04/pacogate-las-claves-la-investigacion-millonario-fraude-carabineros/) |

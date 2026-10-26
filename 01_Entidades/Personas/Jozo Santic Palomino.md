@@ -8,20 +8,14 @@ rol_principal: "Ex Coronel Jefe de Finanzas del Comando de Apoyo a la Fuerza (CA
 afiliacion_politica: "Independiente"
 situacion_procesal: condenado
 medida_cautelar: "Condenado por la Corte Marcial (arista Tecnodata II) a 5 años y un día de presidio efectivo por falsedad en materia de administración militar; en primera instancia (nov-2019) la ministra Rutherford le había impuesto 10 años y un día y 3 años y un día"
-estado_verificacion: verificado
-fuentes:
-  - url: "https://vlex.cl/vid/corte-marcial-revoca-condena-844999287"
-    titulo: "Corte Marcial revoca condena por fraude a general (r) Santic"
-    medio: "vLex Chile"
-    tipo: secundaria
-    consultado: 2026-10-19
-  - url: "https://www.elciudadano.com/?p=683869"
-    titulo: "Fraude en el Ejército: Corte Marcial disminuye condenas a cuatro uniformados"
-    medio: "El Ciudadano"
-    tipo: secundaria
-    consultado: 2026-10-19
 historial_correcciones:
   - "Corregido el 2026-10-19: la Corte Marcial no revocó su condena, la redujo a 5 años y un día (falsedad); se descartó la condena por fraude al fisco."
+estado_verificacion: verificado
+fuentes:
+  - "https://vlex.cl/vid/corte-marcial-revoca-condena-844999287"
+  - "https://www.elciudadano.com/?p=683869"
+  - "https://www.cooperativa.cl/noticias/site/artic/20180211/pags-amp/20180211185247.html"
+  - "https://www.theclinic.cl/2015/08/18/los-documentos-secretos-del-milicogate/"
 tags:
   - entidad/persona
   - caso-milicogate
@@ -74,13 +68,10 @@ dv.table(
 ```
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Corte Marcial revoca condena por fraude a general (r) Santic](https://vlex.cl/vid/corte-marcial-revoca-condena-844999287) | vLex Chile | `secundaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://vlex.cl/vid/corte-marcial-revoca-condena-844999287) |
+| [Fraude en el Ejército: Corte Marcial disminuye condenas a cuatro uniformados](https://www.elciudadano.com/?p=683869) | El Ciudadano | `secundaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://www.elciudadano.com/?p=683869) |
+| [Procesan a general (r) por defraudar al fisco con cerca de 1.800 millones](https://www.cooperativa.cl/noticias/site/artic/20180211/pags-amp/20180211185247.html) | Cooperativa | `secundaria` | 2018-02-11 | [Wayback ↺](https://web.archive.org/web/*/https://www.cooperativa.cl/noticias/site/artic/20180211/pags-amp/20180211185247.html) |
+| [Los documentos secretos del Milicogate](https://www.theclinic.cl/2015/08/18/los-documentos-secretos-del-milicogate/) | The Clinic | `secundaria` | 2015-08-18 | [Wayback ↺](https://web.archive.org/web/*/https://www.theclinic.cl/2015/08/18/los-documentos-secretos-del-milicogate/) |

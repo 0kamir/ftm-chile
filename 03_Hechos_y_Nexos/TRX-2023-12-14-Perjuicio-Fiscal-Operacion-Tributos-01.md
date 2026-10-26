@@ -11,6 +11,11 @@ firmante_destino: ""
 causa_vinculada: "[[Caso Megafraude Tributario Operacion Tributos]]"
 delito_imputado: "[[Delito Tributario]]"
 evidencia_soporte: "[[Querella-SII-Megafraude-Tributario-2023]]"
+estado_verificacion: verificado
+fuentes:
+  - "https://www.biobiochile.cl/noticias/economia/negocios-y-empresas/2023/12/15/sii-confirma-que-55-empresarios-detenidos-concretaron-el-mayor-fraude-de-la-historia-contra-el-fisco.shtml"
+  - "https://www.latercera.com/nacional/noticia/megafraude-tributario-clan-de-pavez-canessa-vendia-facturas-falsas-y-contaba-con-un-notario-suplente-en-la-organizacion/552EKQIRDRFKBNGSSO2I3L2N3I/"
+  - "https://cooperativa.cl/noticias/pais/judicial/denuncias-de-corrupcion/caso-tributos-fiscalia-pide-prision-preventiva-para-26-empresarios/2023-12-18/164214.html"
 tags:
   - nexo/transaccion
   - megafraude-sii
@@ -36,3 +41,10 @@ tags:
 ## Descripción de la Operación
 Hecho agregado que representa el perjuicio fiscal total estimado por el [[Servicio Impuestos Internos]] (**`$240.000.000.000 CLP`**) atribuido por la Fiscalía Metropolitana Occidente a seis grupos de imputados que habrían emitido más de 100.000 facturas falsas mediante sociedades de papel entre 2014 y 2020. No se atribuye a una persona individual; ver el detalle por grupo en [[Caso Megafraude Tributario Operacion Tributos]]. Hipótesis acusatoria sin sentencia.
 
+## Fuentes Verificables
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [SII confirma que 55 empresarios detenidos concretaron el mayor fraude](https://www.biobiochile.cl/noticias/economia/negocios-y-empresas/2023/12/15/sii-confirma-que-55-empresarios-detenidos-concretaron-el-mayor-fraude-de-la-historia-contra-el-fisco.shtml) | BioBioChile | `secundaria` | 2023-12-15 | [Wayback ↺](https://web.archive.org/web/*/https://www.biobiochile.cl/noticias/economia/negocios-y-empresas/2023/12/15/sii-confirma-que-55-empresarios-detenidos-concretaron-el-mayor-fraude-de-la-historia-contra-el-fisco.shtml) |
+| [Megafraude tributario: clan Pavez Canessa vendía facturas falsas](https://www.latercera.com/nacional/noticia/megafraude-tributario-clan-de-pavez-canessa-vendia-facturas-falsas-y-contaba-con-un-notario-suplente-en-la-organizacion/552EKQIRDRFKBNGSSO2I3L2N3I/) | La Tercera | `secundaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://www.latercera.com/nacional/noticia/megafraude-tributario-clan-de-pavez-canessa-vendia-facturas-falsas-y-contaba-con-un-notario-suplente-en-la-organizacion/552EKQIRDRFKBNGSSO2I3L2N3I/) |
+| [Caso Tributos: Fiscalía pide prisión preventiva para 26 empresarios](https://cooperativa.cl/noticias/pais/judicial/denuncias-de-corrupcion/caso-tributos-fiscalia-pide-prision-preventiva-para-26-empresarios/2023-12-18/164214.html) | Cooperativa | `secundaria` | 2023-12-18 | [Wayback ↺](https://web.archive.org/web/*/https://cooperativa.cl/noticias/pais/judicial/denuncias-de-corrupcion/caso-tributos-fiscalia-pide-prision-preventiva-para-26-empresarios/2023-12-18/164214.html) |

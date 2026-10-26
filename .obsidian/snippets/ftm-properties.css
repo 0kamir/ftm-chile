@@ -1,0 +1,26 @@
+/* Estilizado de enlaces URL en el panel de Propiedades (Metadata) de Obsidian */
+.metadata-property[data-property-key="fuentes"] .multi-select-pill {
+  background-color: rgba(56, 189, 248, 0.14);
+  border: 1px solid rgba(56, 189, 248, 0.35);
+  border-radius: 6px;
+  padding: 2px 8px;
+  max-width: 100%;
+}
+
+.metadata-property[data-property-key="fuentes"] .multi-select-pill-content,
+.metadata-property[data-property-key="fuentes"] .external-link {
+  color: #38bdf8 !important;
+  font-weight: 500;
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 420px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.metadata-property[data-property-key="fuentes"] .multi-select-pill:hover {
+  background-color: rgba(56, 189, 248, 0.25);
+  border-color: #38bdf8;
+}

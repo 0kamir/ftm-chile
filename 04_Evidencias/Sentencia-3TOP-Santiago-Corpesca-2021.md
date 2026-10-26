@@ -9,12 +9,7 @@ causa_vinculada: "[[Caso Corpesca]]"
 nexo_respaldado: "[[TRX-2012-07-11-Pagos-Corpesca-LeyDePesca-01]]"
 estado_verificacion: verificado
 fuentes:
-  - url: "https://www.cooperativa.cl/noticias/site/artic/20201202/pags-amp/20201202131131.html"
-    titulo: "Caso Corpesca: Jaime Orpis fue condenado por fraude al Fisco y cohecho"
-    medio: "Cooperativa"
-    tipo: secundaria
-    fecha: 2020-12-02
-    consultado: 2026-10-19
+  - "https://www.cooperativa.cl/noticias/site/artic/20201202/pags-amp/20201202131131.html"
 tags:
   - evidencia/sentencia-judicial
   - caso-corpesca
@@ -36,13 +31,7 @@ tags:
 Fallo histórico del 3° Tribunal de Juicio Oral en lo Penal de Santiago (confirmado por el Poder Judicial / [[Corte Suprema de Chile]]) en el [[Caso Corpesca]], que dio por acreditado el cohecho parlamentario por **$233.000.000 CLP** ([[TRX-2012-07-11-Pagos-Corpesca-LeyDePesca-01]]) entre [[Corpesca SA]] ([[Francisco Mujica Ortuzar]]) y el exsenador [[Jaime Orpis Bouchon]] en el [[Senado de la Republica de Chile]], marcando la primera condena de cárcel efectiva a un exparlamentario y la primera condena en juicio oral a una persona jurídica bajo la Ley N° 20.393.
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Caso Corpesca: Jaime Orpis fue condenado por fraude al Fisco y cohecho](https://www.cooperativa.cl/noticias/site/artic/20201202/pags-amp/20201202131131.html) | Cooperativa | `secundaria` | 2020-12-02 | [Wayback ↺](https://web.archive.org/web/*/https://www.cooperativa.cl/noticias/site/artic/20201202/pags-amp/20201202131131.html) |

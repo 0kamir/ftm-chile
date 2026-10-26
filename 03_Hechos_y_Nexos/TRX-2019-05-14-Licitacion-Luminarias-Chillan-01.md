@@ -11,21 +11,12 @@ firmante_destino: "[[Marcelo Campos Henriquez]]"
 causa_vinculada: "[[Caso Luminarias LED]]"
 delito_imputado: "[[Cohecho]]"
 evidencia_soporte: ""
-estado_verificacion: parcial
-fuentes:
-  - url: "https://www.ex-ante.cl/politica/caso-luminarias-25-claves-para-entender-la-investigacion-por-sobornos-en-municipios/"
-    titulo: "Caso Luminarias: claves de la investigación por sobornos en municipios"
-    medio: "Ex-Ante"
-    tipo: secundaria
-    consultado: 2026-10-19
-  - url: "https://www.eldinamo.cl/pais/2021/06/30/caso-luminarias-led-confirman-prision-preventiva-de-dueno-de-itelecom-acusado-de-soborno/"
-    titulo: "Caso Luminarias LED: confirman prisión preventiva de dueño de Itelecom"
-    medio: "El Dínamo"
-    tipo: secundaria
-    fecha: 2021-06-30
-    consultado: 2026-10-19
 historial_correcciones:
   - "Monto ajustado a $37 millones (pago en efectivo reportado por la prensa) el 2026-10-19; el valor del contrato no consta en fuentes."
+estado_verificacion: parcial
+fuentes:
+  - "https://www.ex-ante.cl/politica/caso-luminarias-25-claves-para-entender-la-investigacion-por-sobornos-en-municipios/"
+  - "https://www.eldinamo.cl/pais/2021/06/30/caso-luminarias-led-confirman-prision-preventiva-de-dueno-de-itelecom-acusado-de-soborno/"
 tags:
   - nexo/transaccion
   - cohecho
@@ -50,13 +41,8 @@ tags:
 Presunta adjudicación irregular de la licitación pública de recambio de luminarias a tecnología LED en la [[Municipalidad de Chillan]] a favor de [[Itelecom Holding Chile SpA]] ([[Leon Marcelo Lefort Hernandez]]), que, según la Fiscalía, se habría obtenido mediante el pago de sobornos a [[Marcelo Campos Henriquez]] (integrante de la comisión evaluadora y administrador municipal), según la hipótesis de la Fiscalía en el [[Caso Luminarias LED]] (sin sentencia conocida al 2026-10-19).
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Caso Luminarias: claves de la investigación por sobornos en municipios](https://www.ex-ante.cl/politica/caso-luminarias-25-claves-para-entender-la-investigacion-por-sobornos-en-municipios/) | Ex-Ante | `secundaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://www.ex-ante.cl/politica/caso-luminarias-25-claves-para-entender-la-investigacion-por-sobornos-en-municipios/) |
+| [Caso Luminarias LED: confirman prisión preventiva de dueño de Itelecom](https://www.eldinamo.cl/pais/2021/06/30/caso-luminarias-led-confirman-prision-preventiva-de-dueno-de-itelecom-acusado-de-soborno/) | El Dínamo | `secundaria` | 2021-06-30 | [Wayback ↺](https://web.archive.org/web/*/https://www.eldinamo.cl/pais/2021/06/30/caso-luminarias-led-confirman-prision-preventiva-de-dueno-de-itelecom-acusado-de-soborno/) |

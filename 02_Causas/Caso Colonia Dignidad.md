@@ -8,18 +8,8 @@ estado_judicial: cerrada_con_condena
 delito_principal: "[[Lavado de Activos]]"
 estado_verificacion: verificado
 fuentes:
-  - url: "https://www.elmostrador.cl/noticias/pais/2013/01/28/corte-suprema-decreta-prision-para-seis-ex-lideres-de-colonia-dignidad/"
-    titulo: "Corte Suprema decreta prisión para seis ex líderes de Colonia Dignidad"
-    medio: "El Mostrador"
-    tipo: secundaria
-    fecha: 2013-01-28
-    consultado: 2026-10-19
-  - url: "https://www.cooperativa.cl/noticias/site/artic/20130128/pags-amp/20130128100305.html"
-    titulo: "Seis ex jerarcas de Colonia Dignidad fueron condenados a prisión por la Corte Suprema"
-    medio: "Cooperativa"
-    tipo: secundaria
-    fecha: 2013-01-28
-    consultado: 2026-10-19
+  - "https://www.elmostrador.cl/noticias/pais/2013/01/28/corte-suprema-decreta-prision-para-seis-ex-lideres-de-colonia-dignidad/"
+  - "https://www.cooperativa.cl/noticias/site/artic/20130128/pags-amp/20130128100305.html"
 tags:
   - causa
   - caso-colonia-dignidad
@@ -60,13 +50,8 @@ SORT fecha ASC
 ```
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Corte Suprema decreta prisión para seis ex líderes de Colonia Dignidad](https://www.elmostrador.cl/noticias/pais/2013/01/28/corte-suprema-decreta-prision-para-seis-ex-lideres-de-colonia-dignidad/) | El Mostrador | `secundaria` | 2013-01-28 | [Wayback ↺](https://web.archive.org/web/*/https://www.elmostrador.cl/noticias/pais/2013/01/28/corte-suprema-decreta-prision-para-seis-ex-lideres-de-colonia-dignidad/) |
+| [Seis ex jerarcas de Colonia Dignidad fueron condenados a prisión por la Corte Suprema](https://www.cooperativa.cl/noticias/site/artic/20130128/pags-amp/20130128100305.html) | Cooperativa | `secundaria` | 2013-01-28 | [Wayback ↺](https://web.archive.org/web/*/https://www.cooperativa.cl/noticias/site/artic/20130128/pags-amp/20130128100305.html) |

@@ -9,12 +9,7 @@ causa_vinculada: "[[Caso Colusion del Papel Tissue]]"
 nexo_respaldado: "[[TRX-2000-05-15-Pacto-Colusion-Precios-Cuotas-CMPC-PISA-01]]"
 estado_verificacion: verificado
 fuentes:
-  - url: "https://www.emol.com/noticias/Economia/2017/12/29/889225/TDLC-dicta-sentencia-en-caso-Tissue-Multa-a-SCA-con-US18-millones-y-exime-a-CMPC.html"
-    titulo: "TDLC dicta sentencia en caso Tissue"
-    medio: "Emol"
-    tipo: secundaria
-    fecha: 2017-12-29
-    consultado: 2026-10-19
+  - "https://www.emol.com/noticias/Economia/2017/12/29/889225/TDLC-dicta-sentencia-en-caso-Tissue-Multa-a-SCA-con-US18-millones-y-exime-a-CMPC.html"
 tags:
   - evidencia/sentencia
   - tdlc
@@ -38,13 +33,7 @@ tags:
 Fallo sancionatorio del TDLC que acogió el requerimiento de la [[Fiscalia Nacional Economica]] en el [[Caso Colusion del Papel Tissue]], acreditando que entre mediados de 2000 y diciembre de 2013 [[Empresas CMPC SA]] y [[SCA Chile SA]] crearon y mantuvieron operativo un cartel destinado a asignarse cuotas de participación de mercado y fijar precios de venta de sus productos de papel tissue. El tribunal tuvo a la vista las declaraciones de los ejecutivos, los cruces de correos electrónicos y teléfonos de prepago creados expresamente para la coordinación clandestina.
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [TDLC dicta sentencia en caso Tissue](https://www.emol.com/noticias/Economia/2017/12/29/889225/TDLC-dicta-sentencia-en-caso-Tissue-Multa-a-SCA-con-US18-millones-y-exime-a-CMPC.html) | Emol | `secundaria` | 2017-12-29 | [Wayback ↺](https://web.archive.org/web/*/https://www.emol.com/noticias/Economia/2017/12/29/889225/TDLC-dicta-sentencia-en-caso-Tissue-Multa-a-SCA-con-US18-millones-y-exime-a-CMPC.html) |

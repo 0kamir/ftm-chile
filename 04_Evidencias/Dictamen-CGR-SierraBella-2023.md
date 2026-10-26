@@ -9,12 +9,7 @@ causa_vinculada: "[[Caso Sierra Bella]]"
 nexo_respaldado: "[[TRX-2023-01-20-Compraventa-Clinica-SierraBella-01]]"
 estado_verificacion: verificado
 fuentes:
-  - url: "https://www.biobiochile.cl/especial/bbcl-investiga/noticias/de-pasillo/2023/04/13/amp/golpe-a-hassler-contraloria-objeta-polemica-compra-de-clinica-sierra-bella-y-deja-operacion-en-vilo.shtml"
-    titulo: "Contraloría objeta compra de clínica Sierra Bella"
-    medio: "BioBioChile"
-    tipo: secundaria
-    fecha: 2023-04-13
-    consultado: 2026-10-19
+  - "https://www.biobiochile.cl/especial/bbcl-investiga/noticias/de-pasillo/2023/04/13/amp/golpe-a-hassler-contraloria-objeta-polemica-compra-de-clinica-sierra-bella-y-deja-operacion-en-vilo.shtml"
 tags:
   - evidencia/dictamen-cgr
   - caso-sierra-bella
@@ -36,13 +31,7 @@ tags:
 Pronunciamiento oficial de la [[Contraloria General de la Republica]] encabezado por el Contralor General [[Jorge Bermudez Soto]] que concluyó que no se encontraba justificado el precio de **$8.200.000.000 CLP** pactado por la [[Municipalidad de Santiago]] ([[Iraci Hassler Jacob]]) con [[Inmobiliaria San Valentino SpA]] ([[Felipe Sanchez Perez]]) en el [[Caso Sierra Bella]] ([[TRX-2023-01-20-Compraventa-Clinica-SierraBella-01]]), advirtiendo vulneraciones al principio de probidad y al resguardo del patrimonio municipal debido a la enorme disparidad respecto del precio de adquisición previa y el avalúo fiscal.
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Contraloría objeta compra de clínica Sierra Bella](https://www.biobiochile.cl/especial/bbcl-investiga/noticias/de-pasillo/2023/04/13/amp/golpe-a-hassler-contraloria-objeta-polemica-compra-de-clinica-sierra-bella-y-deja-operacion-en-vilo.shtml) | BioBioChile | `secundaria` | 2023-04-13 | [Wayback ↺](https://web.archive.org/web/*/https://www.biobiochile.cl/especial/bbcl-investiga/noticias/de-pasillo/2023/04/13/amp/golpe-a-hassler-contraloria-objeta-polemica-compra-de-clinica-sierra-bella-y-deja-operacion-en-vilo.shtml) |

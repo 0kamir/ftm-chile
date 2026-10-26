@@ -65,6 +65,13 @@ def main() -> int:
             }
             if meta.get("rut") or meta.get("ruc"):
                 item["schema:identifier"] = str(meta.get("rut") or meta.get("ruc"))
+            fuentes_urls = [
+                str(fu.get("url") if isinstance(fu, dict) else fu)
+                for fu in (meta.get("fuentes") or [])
+                if str(fu.get("url") if isinstance(fu, dict) else fu).startswith(("http://", "https://"))
+            ]
+            if fuentes_urls:
+                item["schema:citation"] = fuentes_urls
             if tipo == "nexo_transaccion":
                 item["schema:amount"] = {
                     "@type": "schema:MonetaryAmount",

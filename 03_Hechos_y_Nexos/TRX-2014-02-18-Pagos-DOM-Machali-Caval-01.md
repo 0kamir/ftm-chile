@@ -13,28 +13,17 @@ firmante_destino: "[[Jorge Silva Menares]]"
 delito_imputado: "[[Cohecho]]"
 causa_vinculada: "[[Caso Caval]]"
 evidencia_soporte: "[[Sentencia-TOP-Rancagua-Caval-2018]]"
-estado_verificacion: verificado
-fuentes:
-  - url: "https://www.ciperchile.cl/2015/07/08/caso-caval-el-sospechoso-historial-del-destituido-director-de-obras-de-machali/"
-    titulo: "Caso Caval: el sospechoso historial del destituido director de obras de Machalí"
-    medio: "CIPER Chile"
-    tipo: secundaria
-    fecha: 2015-07-08
-    consultado: 2026-10-19
-  - url: "https://radio.uchile.cl/?p=478347"
-    titulo: "Caso Caval: Tribunal condena a Natalia Compagnon por delito tributario"
-    medio: "Radio Universidad de Chile"
-    tipo: secundaria
-    fecha: 2018-07-11
-    consultado: 2026-10-19
-  - url: "https://www.radioagricultura.cl/noticias/nacional/caso-caval-818-dias-remitidos-y-multa-de-55-millones-para-segundo-condenado_20180128/"
-    titulo: "Caso Caval: 818 días remitidos y multa de 55 millones para segundo condenado"
-    medio: "Radio Agricultura"
-    tipo: secundaria
-    fecha: 2018-01-28
-    consultado: 2026-10-19
 historial_correcciones:
   - "Corregido el 2026-10-19: el pago acreditado ($55.030.792) lo hizo Juan Díaz, no Caval; monto previo de $140 millones sin respaldo."
+estado_verificacion: verificado
+fuentes:
+  - "https://www.ciperchile.cl/2015/07/08/caso-caval-el-sospechoso-historial-del-destituido-director-de-obras-de-machali/"
+  - "https://radio.uchile.cl/?p=478347"
+  - "https://www.radioagricultura.cl/noticias/nacional/caso-caval-818-dias-remitidos-y-multa-de-55-millones-para-segundo-condenado_20180128/"
+  - "https://www.biobiochile.cl/noticias/nacional/chile/2018/07/11/lectura-de-sentencia-caso-caval.shtml"
+  - "https://www.cnnchile.com/pais/natalia-compagnon-fue-condenada-por-delito-tributario/"
+  - "https://www.cnnchile.com/pais/rechazan-recurso-de-nulidad-presentado-por-natalia-compagnon_20181018/"
+  - "https://www.elciudadano.com/?p=524007"
 tags:
   - nexo/cohecho
   - caso-caval
@@ -60,13 +49,13 @@ tags:
 Pagos directos o indirectos por **`$55.030.792 CLP`** del operador político y gestor inmobiliario Juan Díaz al entonces Director de Obras Municipales de la [[Municipalidad de Machali]], [[Jorge Silva Menares]], vinculados al cambio de uso de suelo de predios que luego adquirió [[Exportadora y de Gestion Caval Ltda]]. Silva fue condenado en procedimiento abreviado (enero de 2018) a 818 días con remisión condicional por cohecho reiterado. La acusación de soborno contra [[Mauricio Valero Illanes]] y la sociedad Caval **fue rechazada**: ambos fueron absueltos por el TOP de Rancagua en julio de 2018.
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Caso Caval: el sospechoso historial del destituido director de obras de Machalí](https://www.ciperchile.cl/2015/07/08/caso-caval-el-sospechoso-historial-del-destituido-director-de-obras-de-machali/) | CIPER Chile | `secundaria` | 2015-07-08 | [Wayback ↺](https://web.archive.org/web/*/https://www.ciperchile.cl/2015/07/08/caso-caval-el-sospechoso-historial-del-destituido-director-de-obras-de-machali/) |
+| [Caso Caval: Tribunal condena a Natalia Compagnon por delito tributario](https://radio.uchile.cl/?p=478347) | Radio Universidad de Chile | `secundaria` | 2018-07-11 | [Wayback ↺](https://web.archive.org/web/*/https://radio.uchile.cl/?p=478347) |
+| [Caso Caval: 818 días remitidos y multa de 55 millones para segundo condenado](https://www.radioagricultura.cl/noticias/nacional/caso-caval-818-dias-remitidos-y-multa-de-55-millones-para-segundo-condenado_20180128/) | Radio Agricultura | `secundaria` | 2018-01-28 | [Wayback ↺](https://web.archive.org/web/*/https://www.radioagricultura.cl/noticias/nacional/caso-caval-818-dias-remitidos-y-multa-de-55-millones-para-segundo-condenado_20180128/) |
+| [Lectura de sentencia Caso Caval](https://www.biobiochile.cl/noticias/nacional/chile/2018/07/11/lectura-de-sentencia-caso-caval.shtml) | BioBioChile | `secundaria` | 2018-07-11 | [Wayback ↺](https://web.archive.org/web/*/https://www.biobiochile.cl/noticias/nacional/chile/2018/07/11/lectura-de-sentencia-caso-caval.shtml) |
+| [Natalia Compagnon fue condenada por delito tributario](https://www.cnnchile.com/pais/natalia-compagnon-fue-condenada-por-delito-tributario/) | CNN Chile | `secundaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://www.cnnchile.com/pais/natalia-compagnon-fue-condenada-por-delito-tributario/) |
+| [Rechazan recurso de nulidad presentado por Natalia Compagnon](https://www.cnnchile.com/pais/rechazan-recurso-de-nulidad-presentado-por-natalia-compagnon_20181018/) | CNN Chile | `secundaria` | 2018-10-18 | [Wayback ↺](https://web.archive.org/web/*/https://www.cnnchile.com/pais/rechazan-recurso-de-nulidad-presentado-por-natalia-compagnon_20181018/) |
+| [Mauricio Valero fue absuelto](https://www.elciudadano.com/?p=524007) | El Ciudadano | `secundaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://www.elciudadano.com/?p=524007) |

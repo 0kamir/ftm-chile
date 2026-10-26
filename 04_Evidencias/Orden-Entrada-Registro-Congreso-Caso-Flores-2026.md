@@ -9,12 +9,7 @@ causa_vinculada: "[[Caso Asignaciones Parlamentarias y Cuota Flores]]"
 nexo_respaldado: "[[TRX-2025-10-15-Denuncia-Retencion-Sueldos-Asesores-Flores-01]]"
 estado_verificacion: verificado
 fuentes:
-  - url: "https://www.ciperchile.cl/2026/05/06/fiscalia-ingresa-al-senado-por-investigacion-contra-camila-flores-por-posible-fraude-al-fisco/"
-    titulo: "Fiscalía ingresa al Senado por investigación contra Camila Flores"
-    medio: "CIPER Chile"
-    tipo: secundaria
-    fecha: 2026-05-06
-    consultado: 2026-10-19
+  - "https://www.ciperchile.cl/2026/05/06/fiscalia-ingresa-al-senado-por-investigacion-contra-camila-flores-por-posible-fraude-al-fisco/"
 tags:
   - evidencia/resolucion-judicial
   - allanamiento-congreso
@@ -40,13 +35,7 @@ tags:
 Resolución judicial que autorizó el allanamiento simultáneo e incautación de evidencia documental, computadores y dispositivos móviles en las oficinas legislativas de la senadora [[Camila Flores Oporto]] en el Congreso Nacional de Valparaíso y en su domicilio particular. La diligencia tuvo por objeto periciar la trazabilidad de los pagos de asignaciones a su personal de apoyo e indagar la exigencia de porcentajes de remuneración en efectivo.
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Fiscalía ingresa al Senado por investigación contra Camila Flores](https://www.ciperchile.cl/2026/05/06/fiscalia-ingresa-al-senado-por-investigacion-contra-camila-flores-por-posible-fraude-al-fisco/) | CIPER Chile | `secundaria` | 2026-05-06 | [Wayback ↺](https://web.archive.org/web/*/https://www.ciperchile.cl/2026/05/06/fiscalia-ingresa-al-senado-por-investigacion-contra-camila-flores-por-posible-fraude-al-fisco/) |

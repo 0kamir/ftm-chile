@@ -8,18 +8,8 @@ estado_judicial: cerrada
 delito_principal: "[[Malversacion de Caudales Publicos]]"
 estado_verificacion: verificado
 fuentes:
-  - url: "https://www.theclinic.cl/2015/08/18/los-documentos-secretos-del-milicogate/"
-    titulo: "Los documentos secretos del Milicogate"
-    medio: "The Clinic"
-    tipo: secundaria
-    fecha: 2015-08-18
-    consultado: 2026-10-19
-  - url: "https://www.cooperativa.cl/noticias/site/artic/20180211/pags-amp/20180211185247.html"
-    titulo: "Procesan a general (r) por defraudar al fisco con cerca de 1.800 millones de pesos"
-    medio: "Cooperativa"
-    tipo: secundaria
-    fecha: 2018-02-11
-    consultado: 2026-10-19
+  - "https://www.theclinic.cl/2015/08/18/los-documentos-secretos-del-milicogate/"
+  - "https://www.cooperativa.cl/noticias/site/artic/20180211/pags-amp/20180211185247.html"
 tags:
   - causa
   - caso-milicogate
@@ -58,13 +48,8 @@ SORT fecha ASC
 ```
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Los documentos secretos del Milicogate](https://www.theclinic.cl/2015/08/18/los-documentos-secretos-del-milicogate/) | The Clinic | `secundaria` | 2015-08-18 | [Wayback ↺](https://web.archive.org/web/*/https://www.theclinic.cl/2015/08/18/los-documentos-secretos-del-milicogate/) |
+| [Procesan a general (r) por defraudar al fisco con cerca de 1.800 millones de pesos](https://www.cooperativa.cl/noticias/site/artic/20180211/pags-amp/20180211185247.html) | Cooperativa | `secundaria` | 2018-02-11 | [Wayback ↺](https://web.archive.org/web/*/https://www.cooperativa.cl/noticias/site/artic/20180211/pags-amp/20180211185247.html) |

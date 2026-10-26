@@ -9,12 +9,7 @@ causa_vinculada: "[[Caso Colusion de los Pollos]]"
 nexo_respaldado: "[[TRX-2008-01-15-Colusion-Cuotas-Produccion-Pollos-01]]"
 estado_verificacion: verificado
 fuentes:
-  - url: "https://www.fne.gob.cl/fiscalia-nacional-economica-presenta-requerimiento-por-colusion-en-la-produccion-y-comercializacion-de-carne-de-pollo-en-el-pais/"
-    titulo: "FNE presenta requerimiento por colusión en carne de pollo"
-    medio: "Fiscalía Nacional Económica"
-    tipo: primaria
-    fecha: 2011-12-01
-    consultado: 2026-10-19
+  - "https://www.fne.gob.cl/fiscalia-nacional-economica-presenta-requerimiento-por-colusion-en-la-produccion-y-comercializacion-de-carne-de-pollo-en-el-pais/"
 tags:
   - evidencia/requerimiento
   - fne
@@ -38,13 +33,7 @@ tags:
 Escrito de requerimiento presentado por el Fiscal Nacional Económico ante el TDLC imputando a [[Agrosuper SA]], [[Empresas Ariztia SA]], [[Agricola Don Pollo Limitada]] y a la [[Asociacion de Productores Avicolas de Chile AG]] la celebración y ejecución de un acuerdo colusorio continuado consistente en limitar la producción de carne de pollo en el mercado nacional y asignarse cuotas de producción entre 1994 y 2011. El documento aportó evidencia documental incautada en las oficinas gremiales, incluyendo correos electrónicos y actas de distribución de volumen.
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [FNE presenta requerimiento por colusión en carne de pollo](https://www.fne.gob.cl/fiscalia-nacional-economica-presenta-requerimiento-por-colusion-en-la-produccion-y-comercializacion-de-carne-de-pollo-en-el-pais/) | Fiscalía Nacional Económica | `primaria` | 2011-12-01 | [Wayback ↺](https://web.archive.org/web/*/https://www.fne.gob.cl/fiscalia-nacional-economica-presenta-requerimiento-por-colusion-en-la-produccion-y-comercializacion-de-carne-de-pollo-en-el-pais/) |

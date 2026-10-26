@@ -9,12 +9,7 @@ causa_vinculada: "[[Caso Colusion del Papel Tissue]]"
 nexo_respaldado: "[[TRX-2000-05-15-Pacto-Colusion-Precios-Cuotas-CMPC-PISA-01]]"
 estado_verificacion: verificado
 fuentes:
-  - url: "https://www.emol.com/noticias/Economia/2020/01/06/972511/Suprema-condena-CMPC-SCA-colusion.html"
-    titulo: "Suprema condena a CMPC y SCA por colusión"
-    medio: "Emol"
-    tipo: secundaria
-    fecha: 2020-01-06
-    consultado: 2026-10-19
+  - "https://www.emol.com/noticias/Economia/2020/01/06/972511/Suprema-condena-CMPC-SCA-colusion.html"
 tags:
   - evidencia/sentencia
   - corte-suprema
@@ -37,13 +32,7 @@ tags:
 Fallo definitivo e inapelable de la Corte Suprema que revocó el beneficio de exención de multa que la FNE y el TDLC habían concedido a [[Empresas CMPC SA]] bajo la delación compensada. La Tercera Sala acreditó que CMPC no solo ideó el cartel, sino que **ejerció coacción económica sobre [[SCA Chile SA]]** para forzarla a permanecer en el acuerdo colusorio bajo amenaza de expulsarla del mercado minorista, imponiéndole a CMPC una multa a beneficio fiscal de **20.000 UTA** (aproximadamente US$ 15 millones) y confirmando igual sanción económica contra SCA Chile.
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Suprema condena a CMPC y SCA por colusión](https://www.emol.com/noticias/Economia/2020/01/06/972511/Suprema-condena-CMPC-SCA-colusion.html) | Emol | `secundaria` | 2020-01-06 | [Wayback ↺](https://web.archive.org/web/*/https://www.emol.com/noticias/Economia/2020/01/06/972511/Suprema-condena-CMPC-SCA-colusion.html) |

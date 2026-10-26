@@ -15,25 +15,32 @@ Uso:
 
 import concurrent.futures
 import datetime
+import json
 import os
 import re
 import sys
 import urllib.error
+import urllib.parse
 import urllib.request
 
 import yaml
 
+import add_source
+
 ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 REPORT_PATH = os.path.join(ROOT_DIR, "05_Vistas_Analiticas", "Cobertura_de_Fuentes.md")
 CARPETAS = {
+    "entidad": "01_Entidades",
     "causa_judicial": "02_Causas",
-    "evidencia_documental": "04_Evidencias",
     "nexo_transaccion": "03_Hechos_y_Nexos",
+    "evidencia_documental": "04_Evidencias",
+    "tipo_penal": "00_Meta/Delitos",
+    "anexo_documental": "06_Anexos",
 }
 
 
-# Carpetas sin exigencia de cobertura cuyas fuentes y alertas igualmente se revisan.
-CARPETAS_SIN_COBERTURA = ["01_Entidades", "06_Anexos"]
+# Carpetas adicionales sin exigencia separada (integradas arriba).
+CARPETAS_SIN_COBERTURA: list[str] = []
 
 
 def load_notes() -> dict[str, dict]:
@@ -46,8 +53,12 @@ def load_notes() -> dict[str, dict]:
                 if not fname.endswith(".md"):
                     continue
                 with open(os.path.join(dirpath, fname), "r", encoding="utf-8") as f:
-                    m = re.match(r"^---\n(.*?)\n---\n", f.read(), re.DOTALL)
+                    txt = f.read()
+                m = re.match(r"^---\n(.*?)\n---\n(.*)$", txt, re.DOTALL)
                 meta = (yaml.safe_load(m.group(1)) if m else {}) or {}
+                body = m.group(2) if m else ""
+                if meta.get("fuentes"):
+                    meta["fuentes"] = add_source.parse_fuentes_from_note(meta, body)
                 notes[fname[:-3]] = {
                     "carpeta": os.path.relpath(dirpath, ROOT_DIR),
                     "tipo": tipo or str(meta.get("tipo_nodo", "")),
@@ -72,8 +83,61 @@ def check_url(url: str) -> tuple[str, str]:
         return url, f"error: {type(exc).__name__}"
 
 
+def resolve_wayback_snapshot(url: str) -> str | None:
+    """Consulta la API pública de Wayback Machine para obtener la captura archivada más cercana."""
+    api = "https://archive.org/wayback/available?url=" + urllib.parse.quote(url, safe="")
+    req = urllib.request.Request(api, method="GET", headers={"User-Agent": "Mozilla/5.0 ftm-chile"})
+    try:
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+        closest = (data.get("archived_snapshots") or {}).get("closest") or {}
+        if closest.get("available") and str(closest.get("url", "")).startswith(("http://", "https://")):
+            return str(closest["url"]).replace("http://web.archive.org/", "https://web.archive.org/")
+    except Exception:  # noqa: BLE001
+        return None
+    return None
+
+
+def auto_archive_missing(notes: dict[str, dict], limit: int = 25) -> int:
+    """Resuelve y persiste URLs de Wayback Machine para fuentes sin campo `archivo:`."""
+    candidatas = sorted(
+        {
+            str(f.get("url"))
+            for v in notes.values()
+            for f in v["meta"].get("fuentes") or []
+            if isinstance(f, dict)
+            and str(f.get("url", "")).startswith(("http://", "https://"))
+            and not f.get("archivo")
+        }
+    )[:limit]
+    if not candidatas:
+        return 0
+    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
+        resueltas = dict(zip(candidatas, pool.map(resolve_wayback_snapshot, candidatas)))
+    halladas = {u: snap for u, snap in resueltas.items() if snap}
+    if not halladas:
+        return 0
+    actualizadas = 0
+    for nombre, info in notes.items():
+        fuentes = info["meta"].get("fuentes") or []
+        cambio = False
+        for f in fuentes:
+            if isinstance(f, dict) and not f.get("archivo") and f.get("url") in halladas:
+                f["archivo"] = halladas[f["url"]]
+                cambio = True
+        if cambio:
+            path = add_source.find_note(nombre)
+            add_source.actualizar_nota(path, fuentes, info["meta"].get("estado_verificacion"), None)
+            actualizadas += 1
+    return actualizadas
+
+
 def main() -> int:
     notes = load_notes()
+    if "--auto-archive" in sys.argv:
+        n_arch = auto_archive_missing(notes)
+        print(f"  [Wayback] Notas enriquecidas con snapshot archivado: {n_arch}")
+        notes = load_notes()
 
     def tiene_fuentes(nombre: str | None) -> bool:
         return bool(nombre in notes and notes[nombre]["meta"].get("fuentes"))

@@ -9,18 +9,8 @@ causa_vinculada: "[[Caso CEMA Chile]]"
 nexo_respaldado: "[[TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01]]"
 estado_verificacion: parcial
 fuentes:
-  - url: "https://www.emol.com/noticias/Nacional/2021/12/16/1041401/fallecio-lucia-hiriart.html"
-    titulo: "Falleció Lucía Hiriart (menciona recuperación de bienes vía CDE)"
-    medio: "Emol"
-    tipo: secundaria
-    fecha: 2021-12-16
-    consultado: 2026-10-19
-  - url: "https://www.theclinic.cl/2016/08/23/caso-cema-chile-fraude-al-fisco/"
-    titulo: "Caso CEMA Chile: querella por fraude al fisco"
-    medio: "The Clinic"
-    tipo: secundaria
-    fecha: 2016-08-23
-    consultado: 2026-10-19
+  - "https://www.emol.com/noticias/Nacional/2021/12/16/1041401/fallecio-lucia-hiriart.html"
+  - "https://www.theclinic.cl/2016/08/23/caso-cema-chile-fraude-al-fisco/"
 tags:
   - evidencia/sentencia
   - caso-cema-chile
@@ -43,13 +33,8 @@ tags:
 Proceso de disolución de la [[Fundacion CEMA Chile]] iniciado por el Consejo de Defensa del Estado en septiembre de 2021, tras el traspaso de sus bienes al Fisco y a fundaciones de beneficencia; según Emol, el Estado recuperó más de $18.000 millones. Antes, en 2016, el ministro en visita Guillermo de la Barra decretó el embargo preventivo de propiedades de la fundación tras una querella contra [[Lucia Hiriart Rodriguez]], quien negó haberse beneficiado. La arista penal no terminó en condena.
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Falleció Lucía Hiriart (menciona recuperación de bienes vía CDE)](https://www.emol.com/noticias/Nacional/2021/12/16/1041401/fallecio-lucia-hiriart.html) | Emol | `secundaria` | 2021-12-16 | [Wayback ↺](https://web.archive.org/web/*/https://www.emol.com/noticias/Nacional/2021/12/16/1041401/fallecio-lucia-hiriart.html) |
+| [Caso CEMA Chile: querella por fraude al fisco](https://www.theclinic.cl/2016/08/23/caso-cema-chile-fraude-al-fisco/) | The Clinic | `secundaria` | 2016-08-23 | [Wayback ↺](https://web.archive.org/web/*/https://www.theclinic.cl/2016/08/23/caso-cema-chile-fraude-al-fisco/) |

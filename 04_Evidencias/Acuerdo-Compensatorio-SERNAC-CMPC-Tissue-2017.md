@@ -9,18 +9,8 @@ causa_vinculada: "[[Caso Colusion del Papel Tissue]]"
 nexo_respaldado: "[[TRX-2017-03-03-Compensacion-Historica-Consumidores-CMPC-SERNAC-01]]"
 estado_verificacion: verificado
 fuentes:
-  - url: "https://www.emol.com/noticias/Economia/2017/01/27/842148/Acuerdo-por-colusion-tissue-CMPC-pagara-US150-millones-para-compensar-a-consumidores.html"
-    titulo: "Acuerdo por colusión tissue: CMPC pagará US$150 millones para compensar a consumidores"
-    medio: "Emol"
-    tipo: secundaria
-    fecha: 2017-01-27
-    consultado: 2026-10-19
-  - url: "https://www.cooperativa.cl/noticias/site/artic/20170127/pags-amp/20170127103630.html"
-    titulo: "CMPC pagará compensación de 150 millones de dólares: por consumidor serán 7.000 pesos"
-    medio: "Cooperativa"
-    tipo: secundaria
-    fecha: 2017-01-27
-    consultado: 2026-10-19
+  - "https://www.emol.com/noticias/Economia/2017/01/27/842148/Acuerdo-por-colusion-tissue-CMPC-pagara-US150-millones-para-compensar-a-consumidores.html"
+  - "https://www.cooperativa.cl/noticias/site/artic/20170127/pags-amp/20170127103630.html"
 tags:
   - evidencia/acuerdo
   - sernac
@@ -43,13 +33,8 @@ tags:
 Acuerdo de mediación colectiva inédito en la historia económica de Chile mediante el cual [[Empresas CMPC SA]] reconoció el perjuicio patrimonial causado a la población por la colusión del papel tissue y transfirió a un fondo fiduciario en BancoEstado la suma de **`$97.500.000.000 CLP`** (aproximadamente US$ 150 millones). Dicho fondo fue distribuido a razón de **$7.000 CLP** a cada persona mayor de 18 años con cédula de identidad chilena a contar del 1 de agosto de 2018.
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Acuerdo por colusión tissue: CMPC pagará US$150 millones para compensar a consumidores](https://www.emol.com/noticias/Economia/2017/01/27/842148/Acuerdo-por-colusion-tissue-CMPC-pagara-US150-millones-para-compensar-a-consumidores.html) | Emol | `secundaria` | 2017-01-27 | [Wayback ↺](https://web.archive.org/web/*/https://www.emol.com/noticias/Economia/2017/01/27/842148/Acuerdo-por-colusion-tissue-CMPC-pagara-US150-millones-para-compensar-a-consumidores.html) |
+| [CMPC pagará compensación de 150 millones de dólares: por consumidor serán 7.000 pesos](https://www.cooperativa.cl/noticias/site/artic/20170127/pags-amp/20170127103630.html) | Cooperativa | `secundaria` | 2017-01-27 | [Wayback ↺](https://web.archive.org/web/*/https://www.cooperativa.cl/noticias/site/artic/20170127/pags-amp/20170127103630.html) |

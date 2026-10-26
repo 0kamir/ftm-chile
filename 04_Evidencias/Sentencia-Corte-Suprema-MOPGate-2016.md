@@ -9,12 +9,7 @@ causa_vinculada: "[[Caso MOP-Gate]]"
 nexo_respaldado: "[[TRX-2001-08-20-Contratos-MOP-GATE-01]]"
 estado_verificacion: verificado
 fuentes:
-  - url: "https://www.emol.com/noticias/Nacional/2016/06/29/810116/Corte-Suprema-dicta-sentencia-definitiva-en-el-caso-Mop-Gate-y-confirma-condenas.html"
-    titulo: "Corte Suprema dicta sentencia definitiva en el caso MOP-Gate"
-    medio: "Emol"
-    tipo: secundaria
-    fecha: 2016-06-29
-    consultado: 2026-10-19
+  - "https://www.emol.com/noticias/Nacional/2016/06/29/810116/Corte-Suprema-dicta-sentencia-definitiva-en-el-caso-Mop-Gate-y-confirma-condenas.html"
 tags:
   - evidencia/sentencia
   - caso-mop-gate
@@ -36,13 +31,7 @@ tags:
 Fallo definitivo de la Segunda Sala Penal de la [[Corte Suprema de Chile]] que confirmó las condenas dictadas por la Ministra en Visita Extraordinaria Gloria Ana Chevesich Ruiz en el [[Caso MOP-Gate]], dando por acreditado el perjuicio fiscal superior a `$1.253.000.000 CLP` ocasionado al [[Ministerio de Obras Publicas]] mediante la triangulación de contratos con [[Gestion Ambiental y Territorial SA]] (GATE, [[Hector Pena Veliz]]) bajo la dirección del ex Ministro [[Carlos Cruz Lorenzen]] ([[TRX-2001-08-20-Contratos-MOP-GATE-01]]).
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Corte Suprema dicta sentencia definitiva en el caso MOP-Gate](https://www.emol.com/noticias/Nacional/2016/06/29/810116/Corte-Suprema-dicta-sentencia-definitiva-en-el-caso-Mop-Gate-y-confirma-condenas.html) | Emol | `secundaria` | 2016-06-29 | [Wayback ↺](https://web.archive.org/web/*/https://www.emol.com/noticias/Nacional/2016/06/29/810116/Corte-Suprema-dicta-sentencia-definitiva-en-el-caso-Mop-Gate-y-confirma-condenas.html) |

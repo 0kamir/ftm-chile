@@ -8,6 +8,11 @@ rol_principal: "Ex Ministro de la Corte de Apelaciones de Santiago y Ministro en
 afiliacion_politica: "Independiente"
 situacion_procesal: testigo_clave
 medida_cautelar: "Sin medidas cautelares (Magistrado instructor designado por la Corte Suprema)"
+estado_verificacion: verificado
+fuentes:
+  - "https://www.elmostrador.cl/noticias/pais/2013/01/28/corte-suprema-decreta-prision-para-seis-ex-lideres-de-colonia-dignidad/"
+  - "https://www.cooperativa.cl/noticias/site/artic/20130128/pags-amp/20130128100305.html"
+  - "https://www.nbcnews.com/id/wbna23817827"
 tags:
   - entidad/persona
   - poder-judicial
@@ -39,3 +44,11 @@ FROM "03_Hechos_y_Nexos"
 WHERE contains(string(firmante_destino), this.file.name) OR contains(string(firmante_origen), this.file.name)
 SORT fecha ASC
 ```
+
+## Fuentes Verificables
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Corte Suprema decreta prisión para seis ex líderes de Colonia Dignidad](https://www.elmostrador.cl/noticias/pais/2013/01/28/corte-suprema-decreta-prision-para-seis-ex-lideres-de-colonia-dignidad/) | El Mostrador | `secundaria` | 2013-01-28 | [Wayback ↺](https://web.archive.org/web/*/https://www.elmostrador.cl/noticias/pais/2013/01/28/corte-suprema-decreta-prision-para-seis-ex-lideres-de-colonia-dignidad/) |
+| [Seis ex jerarcas de Colonia Dignidad fueron condenados a prisión por la Corte Suprema](https://www.cooperativa.cl/noticias/site/artic/20130128/pags-amp/20130128100305.html) | Cooperativa | `secundaria` | 2013-01-28 | [Wayback ↺](https://web.archive.org/web/*/https://www.cooperativa.cl/noticias/site/artic/20130128/pags-amp/20130128100305.html) |
+| [Ex-Nazi soldier gets more prison time in Chile](https://www.nbcnews.com/id/wbna23817827) | NBC News / AP | `secundaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://www.nbcnews.com/id/wbna23817827) |

@@ -9,17 +9,8 @@ causa_vinculada: "[[Caso Colusion de los Pollos]]"
 nexo_respaldado: "[[TRX-2008-01-15-Colusion-Cuotas-Produccion-Pollos-01]]"
 estado_verificacion: verificado
 fuentes:
-  - url: "https://www.fne.gob.cl/wp-content/uploads/2016/03/Sentencia_139-_2014.pdf"
-    titulo: "Sentencia TDLC N° 139/2014"
-    medio: "TDLC / FNE"
-    tipo: primaria
-    fecha: 2014-09-25
-    consultado: 2026-10-19
-  - url: "https://www.fne.gob.cl/tdlc-condeno-a-agrosuper-ariztia-y-don-pollo-por-colusion-y-ordeno-disolver-el-gremio-que-las-reune/"
-    titulo: "TDLC condenó a Agrosuper, Ariztía y Don Pollo por colusión"
-    medio: "Fiscalía Nacional Económica"
-    tipo: primaria
-    consultado: 2026-10-19
+  - "https://www.fne.gob.cl/wp-content/uploads/2016/03/Sentencia_139-_2014.pdf"
+  - "https://www.fne.gob.cl/tdlc-condeno-a-agrosuper-ariztia-y-don-pollo-por-colusion-y-ordeno-disolver-el-gremio-que-las-reune/"
 tags:
   - evidencia/sentencia
   - tdlc
@@ -46,13 +37,8 @@ Sentencia histórica del TDLC que acogió el requerimiento de la [[Fiscalia Naci
 El fallo ordenó multas millonarias a beneficio fiscal y decretó la **disolución judicial forzosa de la Asociación de Productores Avícolas de Chile A.G.** ([[Asociacion de Productores Avicolas de Chile AG]]), al determinar que actuó como el instrumento coordinador del cartel.
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Sentencia TDLC N° 139/2014](https://www.fne.gob.cl/wp-content/uploads/2016/03/Sentencia_139-_2014.pdf) | TDLC / FNE | `primaria` | 2014-09-25 | [Wayback ↺](https://web.archive.org/web/*/https://www.fne.gob.cl/wp-content/uploads/2016/03/Sentencia_139-_2014.pdf) |
+| [TDLC condenó a Agrosuper, Ariztía y Don Pollo por colusión](https://www.fne.gob.cl/tdlc-condeno-a-agrosuper-ariztia-y-don-pollo-por-colusion-y-ordeno-disolver-el-gremio-que-las-reune/) | Fiscalía Nacional Económica | `primaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://www.fne.gob.cl/tdlc-condeno-a-agrosuper-ariztia-y-don-pollo-por-colusion-y-ordeno-disolver-el-gremio-que-las-reune/) |

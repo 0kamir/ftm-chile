@@ -13,8 +13,48 @@ import re
 import xml.etree.ElementTree as ET
 import yaml
 
+import add_source
+
 ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 EXPORT_DIR = os.path.join(ROOT_DIR, "05_Vistas_Analiticas", "Exportaciones")
+
+# Valor promedio anual de la UF en CLP (Banco Central / SII) para normalizar montos históricos
+UF_HISTORICA_CLP = {
+    1989: 5032,
+    1998: 14350,
+    2000: 15450,
+    2002: 16450,
+    2006: 18150,
+    2007: 18950,
+    2008: 20500,
+    2009: 20980,
+    2010: 21180,
+    2011: 21900,
+    2012: 22580,
+    2013: 23050,
+    2014: 24050,
+    2015: 25100,
+    2016: 26080,
+    2017: 26650,
+    2018: 27200,
+    2019: 27900,
+    2020: 28750,
+    2021: 29900,
+    2022: 33150,
+    2023: 36050,
+    2024: 37500,
+    2025: 38600,
+    2026: 39500,
+}
+
+
+def clp_to_uf(monto_clp: int, year_str: str) -> float:
+    if monto_clp <= 0:
+        return 0.0
+    m = re.search(r"\b(19\d\d|20\d\d)\b", str(year_str or ""))
+    yr = int(m.group(1)) if m else 2024
+    uf_val = UF_HISTORICA_CLP.get(yr, 37500 if yr >= 2024 else 15000)
+    return round(monto_clp / uf_val, 1)
 
 
 def extract_wikilinks(value) -> list[str]:
@@ -51,27 +91,49 @@ def main() -> int:
             if not m:
                 continue
             meta = yaml.safe_load(m.group(1)) or {}
+            fuentes_rich = add_source.parse_fuentes_from_note(meta, m.group(2))
             tipo_nodo = str(meta.get("tipo_nodo", "desconocido"))
+            monto_clp = int(meta.get("monto_clp", 0) or 0)
+            fecha_raw = str(meta.get("fecha") or meta.get("fecha_emision") or meta.get("año_inicio") or "")
+            yr_match = re.search(r"\b(19\d\d|20\d\d)\b", fecha_raw)
+            anio = int(yr_match.group(1)) if yr_match else 0
+            causas_directas = extract_wikilinks(meta.get("causa_vinculada"))
+            if tipo_nodo == "causa_judicial":
+                causas_directas = [node_id]
 
             nodes[node_id] = {
                 "id": node_id,
                 "tipo_nodo": tipo_nodo,
                 "rut": str(meta.get("rut", meta.get("ruc", ""))),
-                "monto_clp": int(meta.get("monto_clp", 0) or 0),
+                "monto_clp": monto_clp,
+                "monto_uf": clp_to_uf(monto_clp, fecha_raw) if tipo_nodo == "nexo_transaccion" else 0.0,
+                "fecha": fecha_raw,
+                "año": anio,
+                "causas": sorted(set(causas_directas)),
                 "path": rel_path,
                 "in_degree": 0,
                 "out_degree": 0,
                 "flujo_emitido_clp": 0,
                 "flujo_recibido_clp": 0,
+                "flujo_emitido_uf": 0.0,
+                "flujo_recibido_uf": 0.0,
                 "estado_verificacion": str(meta.get("estado_verificacion") or ""),
                 "monto_origen": str(meta.get("monto_origen") or ""),
                 "situacion_procesal": str(meta.get("situacion_procesal") or ""),
-                # Fuentes con URL http(s), para que el visor web las muestre como enlaces.
+                # Fuentes con URL http(s), para que el visor web y GraphML las muestren como enlaces.
                 "fuentes": [
-                    {k: str(fu.get(k) or "") for k in ("url", "titulo", "medio", "tipo", "fecha")}
-                    for fu in (meta.get("fuentes") or [])
+                    {k: str(fu.get(k) or "") for k in ("url", "titulo", "medio", "tipo", "fecha", "archivo")}
+                    for fu in fuentes_rich
                     if isinstance(fu, dict) and str(fu.get("url", "")).startswith(("http://", "https://"))
                 ],
+                "fuente_principal_url": next(
+                    (
+                        str(fu.get("url"))
+                        for fu in fuentes_rich
+                        if isinstance(fu, dict) and str(fu.get("url", "")).startswith(("http://", "https://"))
+                    ),
+                    "",
+                ),
             }
 
             for prop, val in meta.items():
@@ -96,13 +158,18 @@ def main() -> int:
         if dst in nodes:
             nodes[dst]["in_degree"] += 1
 
-        # Si el nodo origen es una arista reificada TRX, atribuir montos a entidades y firmantes
+        # Si el nodo origen es una arista reificada TRX, atribuir montos y causas a entidades y firmantes
         if src in nodes and nodes[src]["tipo_nodo"] == "nexo_transaccion":
             monto = nodes[src]["monto_clp"]
+            monto_uf = nodes[src]["monto_uf"]
+            if dst in nodes and nodes[src]["causas"]:
+                nodes[dst]["causas"] = sorted(set(nodes[dst]["causas"]) | set(nodes[src]["causas"]))
             if e["relation"] in ("entidad_origen", "firmante_origen") and dst in nodes:
                 nodes[dst]["flujo_emitido_clp"] += monto
+                nodes[dst]["flujo_emitido_uf"] = round(nodes[dst]["flujo_emitido_uf"] + monto_uf, 1)
             elif e["relation"] in ("entidad_destino", "firmante_destino") and dst in nodes:
                 nodes[dst]["flujo_recibido_clp"] += monto
+                nodes[dst]["flujo_recibido_uf"] = round(nodes[dst]["flujo_recibido_uf"] + monto_uf, 1)
 
     # Exportar JSON de métricas
     ranking = sorted(
@@ -120,6 +187,10 @@ def main() -> int:
                     "monto_total_clp": sum(
                         n["monto_clp"] for n in nodes.values() if n["tipo_nodo"] == "nexo_transaccion"
                     ),
+                    "monto_total_uf": round(
+                        sum(n["monto_uf"] for n in nodes.values() if n["tipo_nodo"] == "nexo_transaccion"), 1
+                    ),
+                    "total_fuentes_url": sum(len(n["fuentes"]) for n in nodes.values()),
                 },
                 "nodos": ranking,
                 "aristas": edges,
@@ -140,6 +211,7 @@ def main() -> int:
         ("d2", "node", "monto_clp", "long"),
         ("d3", "node", "flujo_emitido_clp", "long"),
         ("d4", "node", "flujo_recibido_clp", "long"),
+        ("d7", "node", "fuente_principal_url", "string"),
         ("d5", "edge", "relation", "string"),
         ("d6", "edge", "weight", "long"),
     ]
@@ -160,6 +232,7 @@ def main() -> int:
             ("d2", "monto_clp"),
             ("d3", "flujo_emitido_clp"),
             ("d4", "flujo_recibido_clp"),
+            ("d7", "fuente_principal_url"),
         ]:
             d_el = ET.SubElement(n_el, "data", key=kid)
             d_el.text = str(ninfo[key_name])

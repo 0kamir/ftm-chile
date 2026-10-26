@@ -4,6 +4,9 @@ articulo_cp: "Artículos 292, 293 y 294 del Código Penal de Chile"
 bien_juridico: "Seguridad y orden público"
 pena_referencial: "Presidio mayor en cualquiera de sus grados para jefes/organizadores; presidio menor para partícipes"
 prescripcion_anos: 10
+estado_verificacion: verificado
+fuentes:
+  - "https://www.bcn.cl/leychile/navegar?idNorma=1984"
 tags:
   - delito/asociacion-ilicita
 ---
@@ -30,3 +33,9 @@ FROM "03_Hechos_y_Nexos"
 WHERE contains(string(delito_imputado), this.file.name)
 SORT fecha ASC
 ```
+
+## Fuentes Verificables
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Código Penal de Chile — Artículos 292, 293 y 294 (Asociación Ilícita)](https://www.bcn.cl/leychile/navegar?idNorma=1984) | Biblioteca del Congreso Nacional (BCN LeyChile) | `primaria` | 1874-11-12 | [Wayback ↺](https://web.archive.org/web/*/https://www.bcn.cl/leychile/navegar?idNorma=1984) |

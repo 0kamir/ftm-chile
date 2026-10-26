@@ -9,12 +9,7 @@ causa_vinculada: "[[Caso Operaciones Digitales e Injerencia Electoral]]"
 nexo_respaldado: "[[TRX-2022-09-04-Presencia-Cerimedo-Sede-Renovacion-Nacional-01]]"
 estado_verificacion: verificado
 fuentes:
-  - url: "https://www.theclinic.cl/2026/08/28/el-dia-que-el-rey-de-los-trolls-llego-a-la-sede-de-rn-la-viralizada-foto-con-cerimedo-que-reunio-a-figuras-ligadas-a-la-udi-parisi-y-el-actual-segundo-piso/"
-    titulo: "El día que el 'rey de los trolls' llegó a la sede de RN"
-    medio: "The Clinic"
-    tipo: secundaria
-    fecha: 2026-08-28
-    consultado: 2026-10-19
+  - "https://www.theclinic.cl/2026/08/28/el-dia-que-el-rey-de-los-trolls-llego-a-la-sede-de-rn-la-viralizada-foto-con-cerimedo-que-reunio-a-figuras-ligadas-a-la-udi-parisi-y-el-actual-segundo-piso/"
 tags:
   - evidencia/fotografia
   - the-clinic
@@ -41,13 +36,7 @@ Fotografía periodística revelada por el medio *The Clinic* que documenta la pr
 En el registro, Cerimedo se encuentra sentado junto al entonces prosecretario de Renovación Nacional, Manuel José Errázuriz, su socio chileno en [[Numen Publicidad SpA]] Enrique García Arancibia, y colaboradoras vinculadas a centros de estudios del sector como Teresa Zañartu y Carolina Marzuca, evidenciando su inserción en el cuartel general de campaña de la centroderecha durante dicha jornada.
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [El día que el 'rey de los trolls' llegó a la sede de RN](https://www.theclinic.cl/2026/08/28/el-dia-que-el-rey-de-los-trolls-llego-a-la-sede-de-rn-la-viralizada-foto-con-cerimedo-que-reunio-a-figuras-ligadas-a-la-udi-parisi-y-el-actual-segundo-piso/) | The Clinic | `secundaria` | 2026-08-28 | [Wayback ↺](https://web.archive.org/web/*/https://www.theclinic.cl/2026/08/28/el-dia-que-el-rey-de-los-trolls-llego-a-la-sede-de-rn-la-viralizada-foto-con-cerimedo-que-reunio-a-figuras-ligadas-a-la-udi-parisi-y-el-actual-segundo-piso/) |

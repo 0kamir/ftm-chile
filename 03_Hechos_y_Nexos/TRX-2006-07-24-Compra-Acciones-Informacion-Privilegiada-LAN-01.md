@@ -13,6 +13,13 @@ firmante_destino: "[[Carlos Pavez Tolosa]]"
 delito_imputado: "[[Negociacion Incompatible]]"
 causa_vinculada: "[[Caso LAN Informacion Privilegiada y Banco de Talca]]"
 evidencia_soporte: "[[Resolucion-SVS-306-InformacionPrivilegiada-LAN-2007]]"
+estado_verificacion: verificado
+fuentes:
+  - "https://www.ciperchile.cl/2009/09/29/el-directorio-de-lan-que-se-transformo-en-la-peor-pesadilla-de-pinera/"
+  - "https://www.cooperativa.cl/noticias/site/artic/20070706/pags-amp/20070706181357.html"
+  - "https://www.cooperativa.cl/noticias/site/artic/20121128/pags-amp/20121128154834.html"
+  - "https://www.emol.com/noticias/nacional/2009/07/27/368966/pinera-y-caso-banco-de-talca-fui-victima-de-un-acto-injusto-ilegal-y-arbitrario.html"
+  - "https://eldesconcierto.cl/2017/02/27/del-banco-talca-exalmar-5-momentos-pinera-se-vio-complicado-la-justicia"
 tags:
   - nexo/gestion-influencia
   - caso-lan
@@ -37,3 +44,13 @@ tags:
 
 ## Descripción del Hecho
 Adquisición bursátil de **3.000.000 de acciones de *LAN Airlines S.A.*** por un monto de **$5.300.000.000 CLP** (~US$ 9,8 millones) ejecutada el 24 de julio de 2006 por [[Bancard Inversiones Ltda]] (*Inversiones Santa Cecilia S.A.*) por orden de [[Sebastian Pinera Echenique]], apenas horas después de haber asistido como director de *LAN Airlines* a la sesión reservada en que se presentaron los estados financieros del segundo trimestre de 2006 antes de su comunicación al mercado. El 6 de julio de 2007, la Superintendencia de Valores y Seguros (hoy [[Comision para el Mercado Financiero]]) sancionó a [[Sebastian Pinera Echenique]] con una **multa de 11.470 UF (~US$ 363.000)** mediante la [[Resolucion-SVS-306-InformacionPrivilegiada-LAN-2007]].
+
+## Fuentes Verificables
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [El directorio de Lan que se transformó en la peor pesadilla de Piñera](https://www.ciperchile.cl/2009/09/29/el-directorio-de-lan-que-se-transformo-en-la-peor-pesadilla-de-pinera/) | CIPER Chile | `secundaria` | 2009-09-29 | [Wayback ↺](https://web.archive.org/web/*/https://www.ciperchile.cl/2009/09/29/el-directorio-de-lan-que-se-transformo-en-la-peor-pesadilla-de-pinera/) |
+| [Piñera acusó motivos políticos en sanción de la SVS, aunque pagará la multa](https://www.cooperativa.cl/noticias/site/artic/20070706/pags-amp/20070706181357.html) | Cooperativa | `secundaria` | 2007-07-06 | [Wayback ↺](https://web.archive.org/web/*/https://www.cooperativa.cl/noticias/site/artic/20070706/pags-amp/20070706181357.html) |
+| [Suprema ratificó multa contra dueños de LAN por comprar acciones con información privilegiada](https://www.cooperativa.cl/noticias/site/artic/20121128/pags-amp/20121128154834.html) | Cooperativa | `secundaria` | 2012-11-28 | [Wayback ↺](https://web.archive.org/web/*/https://www.cooperativa.cl/noticias/site/artic/20121128/pags-amp/20121128154834.html) |
+| [Piñera y caso Banco de Talca: 'Fui víctima de un acto injusto, ilegal y arbitrario'](https://www.emol.com/noticias/nacional/2009/07/27/368966/pinera-y-caso-banco-de-talca-fui-victima-de-un-acto-injusto-ilegal-y-arbitrario.html) | Emol | `secundaria` | 2009-07-27 | [Wayback ↺](https://web.archive.org/web/*/https://www.emol.com/noticias/nacional/2009/07/27/368966/pinera-y-caso-banco-de-talca-fui-victima-de-un-acto-injusto-ilegal-y-arbitrario.html) |
+| [Del Banco de Talca a Exalmar: 5 momentos en que Piñera se vio complicado con la justicia](https://eldesconcierto.cl/2017/02/27/del-banco-talca-exalmar-5-momentos-pinera-se-vio-complicado-la-justicia) | El Desconcierto | `secundaria` | 2017-02-27 | [Wayback ↺](https://web.archive.org/web/*/https://eldesconcierto.cl/2017/02/27/del-banco-talca-exalmar-5-momentos-pinera-se-vio-complicado-la-justicia) |

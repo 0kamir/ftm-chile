@@ -13,6 +13,10 @@ firmante_destino: "[[Sergio Munoz Gajardo]]"
 delito_imputado: "[[Delito Tributario]]"
 causa_vinculada: "[[Caso Riggs]]"
 evidencia_soporte: "[[Sentencia-Corte-Suprema-CasoRiggs-2018]]"
+estado_verificacion: verificado
+fuentes:
+  - "https://www.cnnchile.com/pais/caso-riggs-fue-cerrado-por-la-corte-suprema-tras-14-anos/"
+  - "https://www.theclinic.cl/2018/08/25/ordenan-decomiso-de-bienes-de-pinochet-por-mas-de-us-16-millones/"
 tags:
   - nexo/desviacion-fondos
   - caso-riggs
@@ -37,3 +41,10 @@ tags:
 
 ## Descripción del Hecho
 Auditoría tributaria y querellas criminales deducidas por el [[Servicio Impuestos Internos]] en el marco del [[Caso Riggs]] tras comprobarse la omisión maliciosa de rentas, intereses financieros e incrementos de patrimonio no declarados en las cuentas secretas y sociedades *offshore* de [[Riggs Bank y Sociedades Offshore Ashburton]] por un perjuicio fiscal tributario estimado en **$2.450.000.000 CLP**. A partir de estas querellas, el 10 de agosto de 2005 el Ministro en Visita [[Sergio Munoz Gajardo]] sometió a proceso y ordenó la detención de [[Lucia Hiriart Rodriguez]] y su hijo Marco Antonio Pinochet como cómplices de fraude tributario, sumándose a los procesamientos contra [[Augusto Pinochet Ugarte]], [[Augusto Pinochet Hiriart]] y [[Oscar Aitken Lavanchy]] ([[Sentencia-Corte-Suprema-CasoRiggs-2018]]).
+
+## Fuentes Verificables
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Caso Riggs fue cerrado por la Corte Suprema tras 14 años](https://www.cnnchile.com/pais/caso-riggs-fue-cerrado-por-la-corte-suprema-tras-14-anos/) | CNN Chile | `secundaria` | 2018-08-24 | [Wayback ↺](https://web.archive.org/web/*/https://www.cnnchile.com/pais/caso-riggs-fue-cerrado-por-la-corte-suprema-tras-14-anos/) |
+| [Ordenan decomiso de bienes de Pinochet](https://www.theclinic.cl/2018/08/25/ordenan-decomiso-de-bienes-de-pinochet-por-mas-de-us-16-millones/) | The Clinic | `secundaria` | 2018-08-25 | [Wayback ↺](https://web.archive.org/web/*/https://www.theclinic.cl/2018/08/25/ordenan-decomiso-de-bienes-de-pinochet-por-mas-de-us-16-millones/) |

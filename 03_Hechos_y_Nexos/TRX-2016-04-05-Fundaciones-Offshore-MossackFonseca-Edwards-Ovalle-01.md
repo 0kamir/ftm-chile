@@ -15,6 +15,10 @@ causa_vinculada: "[[Caso Panama Papers Chile]]"
 evidencia_soporte: "[[Filtracion-ICIJ-PanamaPapers-Chile-2016]]"
 historial_correcciones:
   - "2026-10-19: monto_clp $19.500.000.000 llevado a 0; la cifra no aparece en ninguna fuente verificable."
+estado_verificacion: verificado
+fuentes:
+  - "https://ciperchile.cl/2016/04/04/the-panama-papers-los-secretos-de-chilenos-en-paraisos-fiscales-salen-a-la-luz/"
+  - "https://offshoreleaks.icij.org/"
 tags:
   - nexo/desviacion-fondos
   - panama-papers
@@ -43,3 +47,10 @@ tags:
 > Las cifras en pesos mencionadas en esta nota no aparecen en ninguna fuente verificable y no se contabilizan en los totales del vault (antes: $19.500.000.000 CLP).
 
 Estructuración de fundaciones de interés privado y sociedades al portador en Panamá e Islas Vírgenes Británicas a través de [[Mossack Fonseca y Sociedades Offshore Panama]] para radicar activos empresariales y familiares fuera del control impositivo chileno, incluyendo las fundaciones *Ashton Foundation* y *Kintyre Foundation* vinculadas a [[Agustin Edwards Eastman]] y las sociedades *Sierra Leona S.A.* y *Railton Foundation* vinculadas al expresidente de la CPC y de la SONAMI [[Alfredo Ovalle Rodriguez]]. En el [[Caso Panama Papers Chile]], estos vehículos —junto al resto de las casi 200 sociedades chilenas reveladas en [[Filtracion-ICIJ-PanamaPapers-Chile-2016]]— fueron incorporados en las auditorías cruzadas de la [[Unidad de Analisis Financiero]] y del [[Servicio Impuestos Internos]] por un volumen patrimonial estimado en **$19.500.000.000 CLP**.
+
+## Fuentes Verificables
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [The Panama Papers: los secretos de chilenos en paraísos fiscales](https://ciperchile.cl/2016/04/04/the-panama-papers-los-secretos-de-chilenos-en-paraisos-fiscales-salen-a-la-luz/) | CIPER Chile | `secundaria` | 2016-04-04 | [Wayback ↺](https://web.archive.org/web/*/https://ciperchile.cl/2016/04/04/the-panama-papers-los-secretos-de-chilenos-en-paraisos-fiscales-salen-a-la-luz/) |
+| [ICIJ Offshore Leaks Database](https://offshoreleaks.icij.org/) | ICIJ | `primaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://offshoreleaks.icij.org/) |

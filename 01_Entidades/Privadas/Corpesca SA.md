@@ -7,11 +7,10 @@ objeto_social: "Pesca industrial extractiva, producción de harina y aceite de p
 representante_legal: "[[Francisco Mujica Ortuzar]]"
 estado_verificacion: parcial
 fuentes:
-  - url: "https://snifa.sma.gob.cl/General/Descargar/1104217912"
-    titulo: "Expediente de fiscalización con RUT de Corpesca S.A."
-    medio: "Superintendencia del Medio Ambiente"
-    tipo: primaria
-    consultado: 2026-10-19
+  - "https://snifa.sma.gob.cl/General/Descargar/1104217912"
+  - "https://www.cooperativa.cl/noticias/site/artic/20201202/pags-amp/20201202131131.html"
+  - "https://www.cooperativa.cl/noticias/site/artic/20210416/pags-amp/20210416121129.html"
+  - "https://www.cooperativa.cl/noticias/site/artic/20220106/pags-amp/20220106164027.html"
 tags:
   - entidad/privada
   - pesquera
@@ -47,13 +46,10 @@ SORT fecha DESC
 ```
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Expediente de fiscalización con RUT de Corpesca S.A.](https://snifa.sma.gob.cl/General/Descargar/1104217912) | Superintendencia del Medio Ambiente | `primaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://snifa.sma.gob.cl/General/Descargar/1104217912) |
+| [Caso Corpesca: Jaime Orpis fue condenado por fraude al Fisco y cohecho](https://www.cooperativa.cl/noticias/site/artic/20201202/pags-amp/20201202131131.html) | Cooperativa | `secundaria` | 2020-12-02 | [Wayback ↺](https://web.archive.org/web/*/https://www.cooperativa.cl/noticias/site/artic/20201202/pags-amp/20201202131131.html) |
+| [Ex senador Jaime Orpis irá a la cárcel por fraude al Fisco y cohecho](https://www.cooperativa.cl/noticias/site/artic/20210416/pags-amp/20210416121129.html) | Cooperativa | `secundaria` | 2021-04-16 | [Wayback ↺](https://web.archive.org/web/*/https://www.cooperativa.cl/noticias/site/artic/20210416/pags-amp/20210416121129.html) |
+| [Corte confirmó la pena de cárcel para el ex senador Jaime Orpis](https://www.cooperativa.cl/noticias/site/artic/20220106/pags-amp/20220106164027.html) | Cooperativa | `secundaria` | 2022-01-06 | [Wayback ↺](https://web.archive.org/web/*/https://www.cooperativa.cl/noticias/site/artic/20220106/pags-amp/20220106164027.html) |

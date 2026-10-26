@@ -8,18 +8,8 @@ estado_judicial: sobreseida
 delito_principal: "[[Fraude al Fisco]]"
 estado_verificacion: verificado
 fuentes:
-  - url: "https://www.cooperativa.cl/noticias/site/artic/20100507/pags-amp/20100507182039.html"
-    titulo: "Juez Valderrama sobreseyó arista de los 'Pinocheques' en caso Riggs"
-    medio: "Cooperativa"
-    tipo: secundaria
-    fecha: 2010-05-07
-    consultado: 2026-10-19
-  - url: "https://cooperativa.cl/noticias/pais/augusto-pinochet/frei-descarto-presiones-militares-para-cerrar-el-caso-de-los/2004-12-07/082825.html"
-    titulo: "Frei descartó presiones militares para cerrar el caso de los 'pinocheques'"
-    medio: "Cooperativa"
-    tipo: secundaria
-    fecha: 2004-12-07
-    consultado: 2026-10-19
+  - "https://www.cooperativa.cl/noticias/site/artic/20100507/pags-amp/20100507182039.html"
+  - "https://cooperativa.cl/noticias/pais/augusto-pinochet/frei-descarto-presiones-militares-para-cerrar-el-caso-de-los/2004-12-07/082825.html"
 tags:
   - causa
   - caso-pinocheques
@@ -62,13 +52,8 @@ SORT fecha ASC
 ```
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Juez Valderrama sobreseyó arista de los 'Pinocheques' en caso Riggs](https://www.cooperativa.cl/noticias/site/artic/20100507/pags-amp/20100507182039.html) | Cooperativa | `secundaria` | 2010-05-07 | [Wayback ↺](https://web.archive.org/web/*/https://www.cooperativa.cl/noticias/site/artic/20100507/pags-amp/20100507182039.html) |
+| [Frei descartó presiones militares para cerrar el caso de los 'pinocheques'](https://cooperativa.cl/noticias/pais/augusto-pinochet/frei-descarto-presiones-militares-para-cerrar-el-caso-de-los/2004-12-07/082825.html) | Cooperativa | `secundaria` | 2004-12-07 | [Wayback ↺](https://web.archive.org/web/*/https://cooperativa.cl/noticias/pais/augusto-pinochet/frei-descarto-presiones-militares-para-cerrar-el-caso-de-los/2004-12-07/082825.html) |

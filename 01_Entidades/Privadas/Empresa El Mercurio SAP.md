@@ -7,11 +7,12 @@ objeto_social: "Edición, impresión y distribución de periódicos, medios de c
 representante_legal: "[[Agustin Edwards Eastman]]"
 estado_verificacion: parcial
 fuentes:
-  - url: "https://www.genealog.cl/Geneanexus/empresa/CHILE/TOTAxTwOTMwMDAtNw-jTw/nombre-y-rut/EL-MERCURIO-90193000-7"
-    titulo: "Registro de RUT: Empresa El Mercurio S.A.P."
-    medio: "Genealog (datos SII)"
-    tipo: secundaria
-    consultado: 2026-10-19
+  - "https://www.genealog.cl/Geneanexus/empresa/CHILE/TOTAxTwOTMwMDAtNw-jTw/nombre-y-rut/EL-MERCURIO-90193000-7"
+  - "https://irp.fas.org/cia/product/chile/index.html"
+  - "https://www.tni.org/en/article/hinchey-report-on-cia-activities-in-chile"
+  - "https://nsarchive.gwu.edu/node/3113"
+  - "https://theworld.org/stories/2016/07/30/chiles-journalists-union-kicked-out-powerful-media-mogul-over-cia-propaganda-cash"
+  - "https://ciperchile.cl/2016/04/04/the-panama-papers-los-secretos-de-chilenos-en-paraisos-fiscales-salen-a-la-luz/"
 tags:
   - entidad/privada
   - proyecto-fubelt
@@ -46,13 +47,12 @@ SORT fecha ASC
 ```
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Registro de RUT: Empresa El Mercurio S.A.P.](https://www.genealog.cl/Geneanexus/empresa/CHILE/TOTAxTwOTMwMDAtNw-jTw/nombre-y-rut/EL-MERCURIO-90193000-7) | Genealog (datos SII) | `secundaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://www.genealog.cl/Geneanexus/empresa/CHILE/TOTAxTwOTMwMDAtNw-jTw/nombre-y-rut/EL-MERCURIO-90193000-7) |
+| [CIA Activities in Chile (Informe Hinchey)](https://irp.fas.org/cia/product/chile/index.html) | CIA / FAS | `primaria` | 2000-09-18 | [Wayback ↺](https://web.archive.org/web/*/https://irp.fas.org/cia/product/chile/index.html) |
+| [Hinchey Report on CIA Activities in Chile](https://www.tni.org/en/article/hinchey-report-on-cia-activities-in-chile) | Transnational Institute | `secundaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://www.tni.org/en/article/hinchey-report-on-cia-activities-in-chile) |
+| [Documentos desclasificados sobre Chile](https://nsarchive.gwu.edu/node/3113) | National Security Archive | `primaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://nsarchive.gwu.edu/node/3113) |
+| [Chile's journalists' union kicked out powerful media mogul over CIA propaganda cash](https://theworld.org/stories/2016/07/30/chiles-journalists-union-kicked-out-powerful-media-mogul-over-cia-propaganda-cash) | The World (PRI) | `secundaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://theworld.org/stories/2016/07/30/chiles-journalists-union-kicked-out-powerful-media-mogul-over-cia-propaganda-cash) |
+| [The Panama Papers: los secretos de chilenos en paraísos fiscales salen a la luz](https://ciperchile.cl/2016/04/04/the-panama-papers-los-secretos-de-chilenos-en-paraisos-fiscales-salen-a-la-luz/) | CIPER Chile | `secundaria` | 2016-04-04 | [Wayback ↺](https://web.archive.org/web/*/https://ciperchile.cl/2016/04/04/the-panama-papers-los-secretos-de-chilenos-en-paraisos-fiscales-salen-a-la-luz/) |

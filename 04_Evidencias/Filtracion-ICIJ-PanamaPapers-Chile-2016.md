@@ -9,17 +9,8 @@ causa_vinculada: "[[Caso Panama Papers Chile]]"
 nexo_respaldado: "[[TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01]]"
 estado_verificacion: parcial
 fuentes:
-  - url: "https://ciperchile.cl/2016/04/04/the-panama-papers-los-secretos-de-chilenos-en-paraisos-fiscales-salen-a-la-luz/"
-    titulo: "The Panama Papers: los secretos de chilenos en paraísos fiscales"
-    medio: "CIPER Chile"
-    tipo: secundaria
-    fecha: 2016-04-04
-    consultado: 2026-10-19
-  - url: "https://offshoreleaks.icij.org/"
-    titulo: "ICIJ Offshore Leaks Database"
-    medio: "ICIJ"
-    tipo: primaria
-    consultado: 2026-10-19
+  - "https://ciperchile.cl/2016/04/04/the-panama-papers-los-secretos-de-chilenos-en-paraisos-fiscales-salen-a-la-luz/"
+  - "https://offshoreleaks.icij.org/"
 tags:
   - evidencia/informe
   - panama-papers
@@ -45,13 +36,8 @@ Acervo documental proveniente de los 11,5 millones de registros internos del buf
 2. **Conexión Fiduciaria con el Caso Riggs**: Documentó los servicios registrales prestados por Mossack Fonseca a sociedades en Islas Vírgenes Británicas vinculadas a [[Riggs Bank y Sociedades Offshore Ashburton]], [[Oscar Aitken Lavanchy]] y [[Augusto Pinochet Ugarte]] ([[TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01]]).
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [The Panama Papers: los secretos de chilenos en paraísos fiscales](https://ciperchile.cl/2016/04/04/the-panama-papers-los-secretos-de-chilenos-en-paraisos-fiscales-salen-a-la-luz/) | CIPER Chile | `secundaria` | 2016-04-04 | [Wayback ↺](https://web.archive.org/web/*/https://ciperchile.cl/2016/04/04/the-panama-papers-los-secretos-de-chilenos-en-paraisos-fiscales-salen-a-la-luz/) |
+| [ICIJ Offshore Leaks Database](https://offshoreleaks.icij.org/) | ICIJ | `primaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://offshoreleaks.icij.org/) |

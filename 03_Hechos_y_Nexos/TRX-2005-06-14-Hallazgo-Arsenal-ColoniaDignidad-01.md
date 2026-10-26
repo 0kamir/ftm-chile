@@ -13,15 +13,13 @@ firmante_destino: "[[Jorge Zepeda Arancibia]]"
 delito_imputado: "[[Lavado de Activos]]"
 causa_vinculada: "[[Caso Colonia Dignidad]]"
 evidencia_soporte: ""
-estado_verificacion: parcial
-fuentes:
-  - url: "https://www.nbcnews.com/id/wbna23817827"
-    titulo: "Ex-Nazi soldier gets more prison time in Chile"
-    medio: "NBC News / AP"
-    tipo: secundaria
-    consultado: 2026-10-19
 historial_correcciones:
   - "El fallo CS 2013 es por abusos sexuales; la condena de Schäfer por armas es de 2006. Monto sin fuente ajustado a 0 y evidencia desvinculada (2026-10-19)."
+estado_verificacion: parcial
+fuentes:
+  - "https://www.nbcnews.com/id/wbna23817827"
+  - "https://www.elmostrador.cl/noticias/pais/2013/01/28/corte-suprema-decreta-prision-para-seis-ex-lideres-de-colonia-dignidad/"
+  - "https://www.cooperativa.cl/noticias/site/artic/20130128/pags-amp/20130128100305.html"
 tags:
   - nexo/desviacion-fondos
   - caso-colonia-dignidad
@@ -48,13 +46,9 @@ tags:
 Hallazgo e incautación judicial el 14 de junio de 2005 —bajo la dirección del Ministro en Visita [[Jorge Zepeda Arancibia]] designado por la [[Corte Suprema de Chile]]— de los dos mayores arsenales clandestinos de armamento de guerra en manos de particulares en la historia de Chile, ocultos en contenedores enterrados en el fundo de [[Sociedad Benefactora y Educacional Dignidad]] en Parral por orden de [[Paul Schafer Schneider]]. El inventario incluyó cerca de un centenar de fusiles de asalto, subametralladoras, ametralladoras pesadas, lanzacohetes antitanque RPG, morteros, minas antipersonales, miles de granadas, municiones y talleres de fabricación armamentística y química financiados con recursos desviados del giro exento de la corporación y valuados junto a las indemnizaciones judiciales asociadas en **$1.850.000.000 CLP** en el [[Caso Colonia Dignidad]] ([[Sentencia-Corte-Suprema-ColoniaDignidad-2013]]).
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Ex-Nazi soldier gets more prison time in Chile](https://www.nbcnews.com/id/wbna23817827) | NBC News / AP | `secundaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://www.nbcnews.com/id/wbna23817827) |
+| [Corte Suprema decreta prisión para seis ex líderes de Colonia Dignidad](https://www.elmostrador.cl/noticias/pais/2013/01/28/corte-suprema-decreta-prision-para-seis-ex-lideres-de-colonia-dignidad/) | El Mostrador | `secundaria` | 2013-01-28 | [Wayback ↺](https://web.archive.org/web/*/https://www.elmostrador.cl/noticias/pais/2013/01/28/corte-suprema-decreta-prision-para-seis-ex-lideres-de-colonia-dignidad/) |
+| [Seis ex jerarcas de Colonia Dignidad fueron condenados a prisión por la Corte Suprema](https://www.cooperativa.cl/noticias/site/artic/20130128/pags-amp/20130128100305.html) | Cooperativa | `secundaria` | 2013-01-28 | [Wayback ↺](https://web.archive.org/web/*/https://www.cooperativa.cl/noticias/site/artic/20130128/pags-amp/20130128100305.html) |

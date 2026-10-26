@@ -9,12 +9,7 @@ causa_vinculada: "[[Caso Riggs]]"
 nexo_respaldado: "[[TRX-2004-07-14-Gastos-Reservados-Riggs-01]]"
 estado_verificacion: verificado
 fuentes:
-  - url: "https://www.cnnchile.com/pais/caso-riggs-fue-cerrado-por-la-corte-suprema-tras-14-anos/"
-    titulo: "Caso Riggs fue cerrado por la Corte Suprema tras 14 años"
-    medio: "CNN Chile"
-    tipo: secundaria
-    fecha: 2018-08-24
-    consultado: 2026-10-19
+  - "https://www.cnnchile.com/pais/caso-riggs-fue-cerrado-por-la-corte-suprema-tras-14-anos/"
 tags:
   - evidencia/sentencia
   - caso-riggs
@@ -40,13 +35,7 @@ Sentencia definitiva dictada el 24 de agosto de 2018 por la Segunda Sala Penal d
 2. **Condenas Penales y Comiso Patrimonial a Favor del Fisco**: Condenó a tres oficiales de Ejército encargados de las cuentas secretas como autores de [[Malversacion de Caudales Publicos]] y ordenó el **comiso definitivo a favor del Fisco de Chile de US$ 1.649.142 en instrumentos financieros, 24 bienes inmuebles y una flota de vehículos** pertenecientes al patrimonio de [[Augusto Pinochet Ugarte]], [[Lucia Hiriart Rodriguez]] y sus sociedades pantalla estructuradas por [[Oscar Aitken Lavanchy]].
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Caso Riggs fue cerrado por la Corte Suprema tras 14 años](https://www.cnnchile.com/pais/caso-riggs-fue-cerrado-por-la-corte-suprema-tras-14-anos/) | CNN Chile | `secundaria` | 2018-08-24 | [Wayback ↺](https://web.archive.org/web/*/https://www.cnnchile.com/pais/caso-riggs-fue-cerrado-por-la-corte-suprema-tras-14-anos/) |

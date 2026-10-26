@@ -9,12 +9,7 @@ causa_vinculada: "[[Caso Spiniak]]"
 nexo_respaldado: "[[TRX-2003-10-15-Patrimonio-ElBosque-Spiniak-01]]"
 estado_verificacion: verificado
 fuentes:
-  - url: "https://www.cooperativa.cl/noticias/site/artic/20260313/pags-amp/20260313185017.html"
-    titulo: "Falleció Claudio Spiniak, empresario condenado por liderar una red de pedofilia"
-    medio: "Cooperativa"
-    tipo: secundaria
-    fecha: 2026-03-13
-    consultado: 2026-10-19
+  - "https://www.cooperativa.cl/noticias/site/artic/20260313/pags-amp/20260313185017.html"
 tags:
   - evidencia/sentencia
   - caso-spiniak
@@ -39,13 +34,7 @@ Conjunto de resoluciones y sentencias definitivas dictadas en la Causa Rol N° `
 2. **Resolución de la Arista Político-Judicial y Falso Testimonio**: Acreditó pericialmente la falsedad de los testimonios de Gema Bueno y del sacerdote José Luis Artiagoitía surgidos tras las denuncias públicas de la diputada [[Pia Guzman Mena]] ([[TRX-2003-11-05-Arista-Politica-Spiniak-01]]), condenando a los primeros por falso testimonio en causa criminal y sobreseyendo definitivamente en esta causa al senador de la [[Union Democrata Independiente]], [[Jovino Novoa Vasquez]].
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Falleció Claudio Spiniak, empresario condenado por liderar una red de pedofilia](https://www.cooperativa.cl/noticias/site/artic/20260313/pags-amp/20260313185017.html) | Cooperativa | `secundaria` | 2026-03-13 | [Wayback ↺](https://web.archive.org/web/*/https://www.cooperativa.cl/noticias/site/artic/20260313/pags-amp/20260313185017.html) |

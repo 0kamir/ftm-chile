@@ -23,8 +23,8 @@ tags:
 
 ## 1. Indicadores Estructurales Globales
 
-- **Nodos Operativos Activos ($|V|$)**: `229` | **Aristas No Dirigidas ($|E|$)**: `375`
-- **Coeficiente de Asortatividad de Grado de Newman ($r$)**: **`-0.1046`**
+- **Nodos Operativos Activos ($|V|$)**: `308` | **Aristas No Dirigidas ($|E|$)**: `468`
+- **Coeficiente de Asortatividad de Grado de Newman ($r$)**: **`-0.0850`**
   - *Diagnóstico Topológico*: **Disasortativo (Arquitectura Hub-and-Spoke / Estrella: los nodos de mayor grado se conectan sobre todo con nodos periféricos)**
 - **Degeneración / Coreness Máximo ($k_{\max}$)**: `3-Core`
 - **Profundidad Máxima de Pelado (*Onion Layers*)**: `14 capas`
@@ -37,26 +37,26 @@ Actores institucionales, societarios y personales con grado $k_i \ge 2$ ordenado
 
 | Pos | Actor / Entidad | Tipo | Grado ($k_i$) | Restricción de Burt ($C_i$) | $k$-Core | Capa Cebolla |
 | :---: | :--- | :--- | :---: | :---: | :---: | :---: |
-| **1** | [[Corte Suprema de Chile]] | `entidad_publica` | `10` | **`0.1000`** | `3` | `Capa #12` |
-| **2** | [[Union Democrata Independiente]] | `partido_politico` | `15` | **`0.1016`** | `3` | `Capa #12` |
-| **3** | [[Renovacion Nacional]] | `partido_politico` | `10` | **`0.1169`** | `3` | `Capa #10` |
-| **4** | [[Servicio Impuestos Internos]] | `entidad_publica` | `8` | **`0.1250`** | `3` | `Capa #11` |
+| **1** | [[Union Democrata Independiente]] | `partido_politico` | `17` | **`0.0860`** | `3` | `Capa #12` |
+| **2** | [[Corte Suprema de Chile]] | `entidad_publica` | `10` | **`0.1000`** | `3` | `Capa #12` |
+| **3** | [[Servicio Impuestos Internos]] | `entidad_publica` | `9` | **`0.1111`** | `3` | `Capa #11` |
+| **4** | [[Renovacion Nacional]] | `partido_politico` | `10` | **`0.1169`** | `3` | `Capa #10` |
 | **5** | [[Carlos Contreras Gutierrez]] | `persona` | `6` | **`0.1667`** | `3` | `Capa #12` |
 | **6** | [[Augusto Pinochet Ugarte]] | `persona` | `8` | **`0.1725`** | `3` | `Capa #12` |
-| **7** | [[Seremi MINVU Antofagasta]] | `entidad_publica` | `5` | **`0.2000`** | `3` | `Capa #12` |
-| **8** | [[Comando de Apoyo a la Fuerza del Ejercito]] | `entidad_publica` | `5` | **`0.2000`** | `3` | `Capa #11` |
-| **9** | [[Sergio Munoz Gajardo]] | `persona` | `5` | **`0.2000`** | `3` | `Capa #11` |
-| **10** | [[Sebastian Pinera Echenique]] | `persona` | `7` | **`0.2180`** | `3` | `Capa #11` |
-| **11** | [[Bancard Inversiones Ltda]] | `entidad_privada` | `6` | **`0.2629`** | `3` | `Capa #11` |
-| **12** | [[Lucia Hiriart Rodriguez]] | `persona` | `6` | **`0.2631`** | `3` | `Capa #11` |
-| **13** | [[Factop SpA]] | `entidad_privada` | `6` | **`0.3002`** | `3` | `Capa #13` |
-| **14** | [[Luis Hermosilla Osorio]] | `persona` | `6` | **`0.3002`** | `3` | `Capa #13` |
-| **15** | [[Carlos Alberto Delano Abbott]] | `persona` | `6` | **`0.3077`** | `3` | `Capa #12` |
-| **16** | [[Daniel Andrade Schwarze]] | `persona` | `5` | **`0.3299`** | `3` | `Capa #14` |
-| **17** | [[Unidad de Analisis Financiero]] | `entidad_publica` | `5` | **`0.3299`** | `3` | `Capa #11` |
-| **18** | [[Alex Smith Leay]] | `persona` | `3` | **`0.3333`** | `3` | `Capa #10` |
-| **19** | [[Andres Chadwick Pinera]] | `persona` | `3` | **`0.3333`** | `3` | `Capa #10` |
-| **20** | [[Direccion de Inteligencia Policial de Carabineros]] | `entidad_publica` | `3` | **`0.3333`** | `3` | `Capa #10` |
+| **7** | [[Unidad de Analisis Financiero]] | `entidad_publica` | `8` | **`0.1757`** | `3` | `Capa #11` |
+| **8** | [[Seremi MINVU Antofagasta]] | `entidad_publica` | `5` | **`0.2000`** | `3` | `Capa #12` |
+| **9** | [[Comando de Apoyo a la Fuerza del Ejercito]] | `entidad_publica` | `5` | **`0.2000`** | `3` | `Capa #11` |
+| **10** | [[Sergio Munoz Gajardo]] | `persona` | `5` | **`0.2000`** | `3` | `Capa #11` |
+| **11** | [[Sebastian Pinera Echenique]] | `persona` | `7` | **`0.2180`** | `3` | `Capa #11` |
+| **12** | [[Bancard Inversiones Ltda]] | `entidad_privada` | `6` | **`0.2629`** | `3` | `Capa #11` |
+| **13** | [[Lucia Hiriart Rodriguez]] | `persona` | `6` | **`0.2631`** | `3` | `Capa #11` |
+| **14** | [[Factop SpA]] | `entidad_privada` | `6` | **`0.3002`** | `3` | `Capa #13` |
+| **15** | [[Luis Hermosilla Osorio]] | `persona` | `6` | **`0.3002`** | `3` | `Capa #13` |
+| **16** | [[Riggs Bank y Sociedades Offshore Ashburton]] | `entidad_privada` | `5` | **`0.3006`** | `3` | `Capa #11` |
+| **17** | [[SQM SA]] | `entidad_privada` | `5` | **`0.3006`** | `3` | `Capa #10` |
+| **18** | [[Carlos Alberto Delano Abbott]] | `persona` | `6` | **`0.3066`** | `3` | `Capa #12` |
+| **19** | [[Daniel Andrade Schwarze]] | `persona` | `5` | **`0.3299`** | `3` | `Capa #14` |
+| **20** | [[Alex Smith Leay]] | `persona` | `3` | **`0.3333`** | `3` | `Capa #10` |
 
 ---
 
@@ -74,18 +74,18 @@ Actores institucionales, societarios y personales con grado $k_i \ge 2$ ordenado
 | **8** | [[TRX-2022-11-15-Gestion-Nombramientos-Hermosilla-Zaliasnik-01]] | `nexo_transaccion` | **`3`** | **`Capa #13`** | `5` | `0.2289` |
 | **9** | [[TRX-2022-11-29-Convenio-DV-03]] | `nexo_transaccion` | **`3`** | **`Capa #13`** | `5` | `0.2401` |
 | **10** | [[TRX-2023-02-09-Gestion-Judicial-Hermosilla-Vivanco-01]] | `nexo_transaccion` | **`3`** | **`Capa #13`** | `5` | `0.2289` |
-| **11** | [[Union Democrata Independiente]] | `partido_politico` | **`3`** | **`Capa #12`** | `15` | `0.1016` |
+| **11** | [[Union Democrata Independiente]] | `partido_politico` | **`3`** | **`Capa #12`** | `17` | `0.0860` |
 | **12** | [[Corte Suprema de Chile]] | `entidad_publica` | **`3`** | **`Capa #12`** | `10` | `0.1000` |
 | **13** | [[Augusto Pinochet Ugarte]] | `persona` | **`3`** | **`Capa #12`** | `8` | `0.1725` |
 | **14** | [[Caso Convenios]] | `causa_judicial` | **`3`** | **`Capa #12`** | `7` | `0.1429` |
-| **15** | [[Carlos Alberto Delano Abbott]] | `persona` | **`3`** | **`Capa #12`** | `6` | `0.3077` |
+| **15** | [[Carlos Alberto Delano Abbott]] | `persona` | **`3`** | **`Capa #12`** | `6` | `0.3066` |
 | **16** | [[Carlos Contreras Gutierrez]] | `persona` | **`3`** | **`Capa #12`** | `6` | `0.1667` |
 | **17** | [[Seremi MINVU Antofagasta]] | `entidad_publica` | **`3`** | **`Capa #12`** | `5` | `0.2000` |
 | **18** | [[TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01]] | `nexo_transaccion` | **`3`** | **`Capa #12`** | `5` | `0.2267` |
 | **19** | [[TRX-2005-08-10-Querella-SII-Cuentas-Riggs-01]] | `nexo_transaccion` | **`3`** | **`Capa #12`** | `5` | `0.2000` |
 | **20** | [[TRX-2023-06-22-Reunion-Audios-01]] | `nexo_transaccion` | **`3`** | **`Capa #12`** | `5` | `0.2289` |
-| **21** | [[TRX-2023-08-25-Reporte-ROS-Factop-UAF-01]] | `nexo_transaccion` | **`3`** | **`Capa #12`** | `5` | `0.2690` |
-| **22** | [[Servicio Impuestos Internos]] | `entidad_publica` | **`3`** | **`Capa #11`** | `8` | `0.1250` |
-| **23** | [[Sebastian Pinera Echenique]] | `persona` | **`3`** | **`Capa #11`** | `7` | `0.2180` |
-| **24** | [[Bancard Inversiones Ltda]] | `entidad_privada` | **`3`** | **`Capa #11`** | `6` | `0.2629` |
-| **25** | [[Lucia Hiriart Rodriguez]] | `persona` | **`3`** | **`Capa #11`** | `6` | `0.2631` |
+| **21** | [[TRX-2023-08-25-Reporte-ROS-Factop-UAF-01]] | `nexo_transaccion` | **`3`** | **`Capa #12`** | `5` | `0.2620` |
+| **22** | [[Servicio Impuestos Internos]] | `entidad_publica` | **`3`** | **`Capa #11`** | `9` | `0.1111` |
+| **23** | [[Unidad de Analisis Financiero]] | `entidad_publica` | **`3`** | **`Capa #11`** | `8` | `0.1757` |
+| **24** | [[Sebastian Pinera Echenique]] | `persona` | **`3`** | **`Capa #11`** | `7` | `0.2180` |
+| **25** | [[Bancard Inversiones Ltda]] | `entidad_privada` | **`3`** | **`Capa #11`** | `6` | `0.2629` |

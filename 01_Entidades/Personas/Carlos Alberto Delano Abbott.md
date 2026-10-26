@@ -8,6 +8,14 @@ rol_principal: "Cofundador y Controlador de Empresas Penta S.A."
 afiliacion_politica: "[[Union Democrata Independiente]]"
 situacion_procesal: condenado
 medida_cautelar: "Condena cumplida en libertad vigilada, multa fiscal y clases de ética empresarial"
+estado_verificacion: verificado
+fuentes:
+  - "https://www.radioagricultura.cl/noticias/nacional/pandora-papers-investigacion-asegura-que-pinera-vendio-minera-dominga-a-delano-en-islas-virgenes-britanicas_20211003/"
+  - "https://www.latercera.com/nacional/noticia/fiscalia-cierra-investigacion-por-el-caso-dominga-y-solicita-sobreseimiento-definitivo/ETCJHQKLVNFKVBX3M7Y7SJGK6I/"
+  - "https://www.meganoticias.cl/nacional/354151-sebastian-pinera-presidente-pandora-papers-proyecto-minera-dominga-venta-paraiso-fiscal-islas-virgenes-05-10-2021.html"
+  - "https://www.eldinamo.cl/pais/2024/05/09/caso-minera-dominga-tribunal-sobresee-definitivamente-causa-que-involucraba-a-sebastian-pinera/"
+  - "https://www.cnnchile.com/pais/delano-lavin-terminaron-clases-etica/"
+  - "https://www.24horas.cl/politica/lavin-y-delano-comenzaron-las-clases-de-etica-tras-condena-del-caso-penta-3218640"
 tags:
   - entidad/persona
   - caso-penta
@@ -58,3 +66,14 @@ dv.table(
   ])
 );
 ```
+
+## Fuentes Verificables
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Pandora Papers: Piñera vendió Minera Dominga a Délano en Islas Vírgenes Británicas](https://www.radioagricultura.cl/noticias/nacional/pandora-papers-investigacion-asegura-que-pinera-vendio-minera-dominga-a-delano-en-islas-virgenes-britanicas_20211003/) | Radio Agricultura | `secundaria` | 2021-10-03 | [Wayback ↺](https://web.archive.org/web/*/https://www.radioagricultura.cl/noticias/nacional/pandora-papers-investigacion-asegura-que-pinera-vendio-minera-dominga-a-delano-en-islas-virgenes-britanicas_20211003/) |
+| [Fiscalía cierra investigación por el caso Dominga y solicita sobreseimiento definitivo](https://www.latercera.com/nacional/noticia/fiscalia-cierra-investigacion-por-el-caso-dominga-y-solicita-sobreseimiento-definitivo/ETCJHQKLVNFKVBX3M7Y7SJGK6I/) | La Tercera | `secundaria` | 2024-01-05 | [Wayback ↺](https://web.archive.org/web/*/https://www.latercera.com/nacional/noticia/fiscalia-cierra-investigacion-por-el-caso-dominga-y-solicita-sobreseimiento-definitivo/ETCJHQKLVNFKVBX3M7Y7SJGK6I/) |
+| [Pandora Papers: venta de Minera Dominga en Islas Vírgenes](https://www.meganoticias.cl/nacional/354151-sebastian-pinera-presidente-pandora-papers-proyecto-minera-dominga-venta-paraiso-fiscal-islas-virgenes-05-10-2021.html) | Meganoticias | `secundaria` | 2021-10-05 | [Wayback ↺](https://web.archive.org/web/*/https://www.meganoticias.cl/nacional/354151-sebastian-pinera-presidente-pandora-papers-proyecto-minera-dominga-venta-paraiso-fiscal-islas-virgenes-05-10-2021.html) |
+| [Caso Minera Dominga: tribunal sobresee definitivamente causa que involucraba a Sebastián Piñera](https://www.eldinamo.cl/pais/2024/05/09/caso-minera-dominga-tribunal-sobresee-definitivamente-causa-que-involucraba-a-sebastian-pinera/) | El Dínamo | `secundaria` | 2024-05-09 | [Wayback ↺](https://web.archive.org/web/*/https://www.eldinamo.cl/pais/2024/05/09/caso-minera-dominga-tribunal-sobresee-definitivamente-causa-que-involucraba-a-sebastian-pinera/) |
+| [Délano y Lavín terminaron clases de ética](https://www.cnnchile.com/pais/delano-lavin-terminaron-clases-etica/) | CNN Chile | `secundaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://www.cnnchile.com/pais/delano-lavin-terminaron-clases-etica/) |
+| [Lavín y Délano comenzaron las clases de ética tras condena del caso Penta](https://www.24horas.cl/politica/lavin-y-delano-comenzaron-las-clases-de-etica-tras-condena-del-caso-penta-3218640) | 24 Horas | `secundaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://www.24horas.cl/politica/lavin-y-delano-comenzaron-las-clases-de-etica-tras-condena-del-caso-penta-3218640) |

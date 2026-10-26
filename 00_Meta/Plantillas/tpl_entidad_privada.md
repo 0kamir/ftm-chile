@@ -5,6 +5,9 @@ razon_social: ""
 fecha_constitucion: ""
 objeto_social: ""
 representante_legal: ""
+estado_verificacion: pendiente # verificado | parcial | desactualizado | sin_fuente | pendiente
+fuentes:
+  - "https://"
 tags:
   - entidad/privada
 ---
@@ -35,3 +38,9 @@ SORT fecha DESC
 
 ## Antecedentes y Societarios
 - 
+
+## Fuentes Verificables
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Título del documento o nota](https://) | Medio | `primaria` | YYYY-MM-DD | [copia](https://web.archive.org/) |

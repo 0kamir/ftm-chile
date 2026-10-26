@@ -7,6 +7,10 @@ rol_principal: "Abogado Societario, Agente de Mossack Fonseca en Chile y Ex Pres
 afiliacion_politica: "Independiente"
 situacion_procesal: sancionado_administrativamente
 medida_cautelar: "Renuncia forzada a la presidencia de Chile Transparente (4 de abril de 2016) y fiscalización tributaria del SII"
+estado_verificacion: verificado
+fuentes:
+  - "https://ciperchile.cl/2016/04/04/the-panama-papers-los-secretos-de-chilenos-en-paraisos-fiscales-salen-a-la-luz/"
+  - "https://offshoreleaks.icij.org/"
 tags:
   - entidad/persona
   - panama-papers
@@ -56,3 +60,10 @@ dv.table(
   ])
 );
 ```
+
+## Fuentes Verificables
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [The Panama Papers: los secretos de chilenos en paraísos fiscales](https://ciperchile.cl/2016/04/04/the-panama-papers-los-secretos-de-chilenos-en-paraisos-fiscales-salen-a-la-luz/) | CIPER Chile | `secundaria` | 2016-04-04 | [Wayback ↺](https://web.archive.org/web/*/https://ciperchile.cl/2016/04/04/the-panama-papers-los-secretos-de-chilenos-en-paraisos-fiscales-salen-a-la-luz/) |
+| [ICIJ Offshore Leaks Database](https://offshoreleaks.icij.org/) | ICIJ | `primaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://offshoreleaks.icij.org/) |

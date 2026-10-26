@@ -9,12 +9,7 @@ causa_vinculada: "[[Caso Vitacura]]"
 nexo_respaldado: "[[TRX-2021-04-15-Subvencion-VitaDeportes-01]]"
 estado_verificacion: verificado
 fuentes:
-  - url: "https://www.ex-ante.cl/?p=152080"
-    titulo: "Audiencia de formalización de Raúl Torrealba"
-    medio: "Ex-Ante"
-    tipo: secundaria
-    fecha: 2023-06-15
-    consultado: 2026-10-19
+  - "https://www.ex-ante.cl/?p=152080"
 tags:
   - evidencia/declaracion-judicial
   - caso-vitacura
@@ -36,13 +31,7 @@ tags:
 Declaración judicial prestada por [[Domingo Prieto Urrejola]] y respaldada por cartolas bancarias periciadas por la Brigada Investigadora Anticorrupción (BRIAC) de la PDI, que acredita las entregas mensuales de sobres con efectivo extraídos de las subvenciones de [[Vita Deportes]] ([[TRX-2021-04-15-Subvencion-VitaDeportes-01]]) a favor de [[Raul Torrealba del Pedregal]] en el [[Caso Vitacura]].
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Audiencia de formalización de Raúl Torrealba](https://www.ex-ante.cl/?p=152080) | Ex-Ante | `secundaria` | 2023-06-15 | [Wayback ↺](https://web.archive.org/web/*/https://www.ex-ante.cl/?p=152080) |

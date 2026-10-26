@@ -13,6 +13,12 @@ firmante_destino: "[[Natalia Compagnon Soto]]"
 delito_imputado: "[[Delito Tributario]]"
 causa_vinculada: "[[Caso Caval]]"
 evidencia_soporte: "[[Sentencia-TOP-Rancagua-Caval-2018]]"
+estado_verificacion: verificado
+fuentes:
+  - "https://www.biobiochile.cl/noticias/nacional/chile/2018/07/11/lectura-de-sentencia-caso-caval.shtml"
+  - "https://www.cnnchile.com/pais/natalia-compagnon-fue-condenada-por-delito-tributario/"
+  - "https://www.cnnchile.com/pais/rechazan-recurso-de-nulidad-presentado-por-natalia-compagnon_20181018/"
+  - "https://www.elciudadano.com/?p=524007"
 tags:
   - nexo/factura-falsa
   - caso-caval
@@ -36,3 +42,12 @@ tags:
 
 ## Descripción del Hecho
 Operación de compraventa especulativa de los predios de Machalí que generó una utilidad bruta de `$2.500.000.000 CLP` para [[Exportadora y de Gestion Caval Ltda]], respecto de la cual el TOP de Rancagua condenó a [[Natalia Compagnon Soto]] por permitir que la contabilidad social incorporara facturas ideológicamente falsas por asesorías inexistentes en los años tributarios 2013, 2014 y 2015, ante el [[Servicio Impuestos Internos]]. El socio [[Mauricio Valero Illanes]] fue absuelto (julio de 2018).
+
+## Fuentes Verificables
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Lectura de sentencia Caso Caval](https://www.biobiochile.cl/noticias/nacional/chile/2018/07/11/lectura-de-sentencia-caso-caval.shtml) | BioBioChile | `secundaria` | 2018-07-11 | [Wayback ↺](https://web.archive.org/web/*/https://www.biobiochile.cl/noticias/nacional/chile/2018/07/11/lectura-de-sentencia-caso-caval.shtml) |
+| [Natalia Compagnon fue condenada por delito tributario](https://www.cnnchile.com/pais/natalia-compagnon-fue-condenada-por-delito-tributario/) | CNN Chile | `secundaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://www.cnnchile.com/pais/natalia-compagnon-fue-condenada-por-delito-tributario/) |
+| [Rechazan recurso de nulidad presentado por Natalia Compagnon](https://www.cnnchile.com/pais/rechazan-recurso-de-nulidad-presentado-por-natalia-compagnon_20181018/) | CNN Chile | `secundaria` | 2018-10-18 | [Wayback ↺](https://web.archive.org/web/*/https://www.cnnchile.com/pais/rechazan-recurso-de-nulidad-presentado-por-natalia-compagnon_20181018/) |
+| [Mauricio Valero fue absuelto](https://www.elciudadano.com/?p=524007) | El Ciudadano | `secundaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://www.elciudadano.com/?p=524007) |

@@ -8,6 +8,11 @@ rol_principal: "Ex Gerente General de Corpesca S.A. (1999-2013)"
 afiliacion_politica: "Independiente"
 situacion_procesal: condenado
 medida_cautelar: "Condena ejecutoriada en procedimiento abreviado por soborno y delitos tributarios"
+estado_verificacion: verificado
+fuentes:
+  - "https://www.cooperativa.cl/noticias/site/artic/20201202/pags-amp/20201202131131.html"
+  - "https://www.cooperativa.cl/noticias/site/artic/20210416/pags-amp/20210416121129.html"
+  - "https://www.cooperativa.cl/noticias/site/artic/20220106/pags-amp/20220106164027.html"
 tags:
   - entidad/persona
   - caso-corpesca
@@ -59,3 +64,11 @@ dv.table(
   ])
 );
 ```
+
+## Fuentes Verificables
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Caso Corpesca: Jaime Orpis fue condenado por fraude al Fisco y cohecho](https://www.cooperativa.cl/noticias/site/artic/20201202/pags-amp/20201202131131.html) | Cooperativa | `secundaria` | 2020-12-02 | [Wayback ↺](https://web.archive.org/web/*/https://www.cooperativa.cl/noticias/site/artic/20201202/pags-amp/20201202131131.html) |
+| [Ex senador Jaime Orpis irá a la cárcel por fraude al Fisco y cohecho](https://www.cooperativa.cl/noticias/site/artic/20210416/pags-amp/20210416121129.html) | Cooperativa | `secundaria` | 2021-04-16 | [Wayback ↺](https://web.archive.org/web/*/https://www.cooperativa.cl/noticias/site/artic/20210416/pags-amp/20210416121129.html) |
+| [Corte confirmó la pena de cárcel para el ex senador Jaime Orpis](https://www.cooperativa.cl/noticias/site/artic/20220106/pags-amp/20220106164027.html) | Cooperativa | `secundaria` | 2022-01-06 | [Wayback ↺](https://web.archive.org/web/*/https://www.cooperativa.cl/noticias/site/artic/20220106/pags-amp/20220106164027.html) |

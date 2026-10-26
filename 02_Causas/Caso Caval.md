@@ -8,23 +8,9 @@ estado_judicial: cerrada_con_condena
 delito_principal: "[[Delito Tributario]]"
 estado_verificacion: verificado
 fuentes:
-  - url: "https://www.biobiochile.cl/noticias/nacional/chile/2018/07/11/lectura-de-sentencia-caso-caval.shtml"
-    titulo: "Lectura de sentencia Caso Caval"
-    medio: "BioBioChile"
-    tipo: secundaria
-    fecha: 2018-07-11
-    consultado: 2026-10-19
-  - url: "https://www.cnnchile.com/pais/rechazan-recurso-de-nulidad-presentado-por-natalia-compagnon_20181018/"
-    titulo: "Rechazan recurso de nulidad presentado por Natalia Compagnon"
-    medio: "CNN Chile"
-    tipo: secundaria
-    fecha: 2018-10-18
-    consultado: 2026-10-19
-  - url: "https://www.elciudadano.com/?p=524007"
-    titulo: "Mauricio Valero fue absuelto"
-    medio: "El Ciudadano"
-    tipo: secundaria
-    consultado: 2026-10-19
+  - "https://www.biobiochile.cl/noticias/nacional/chile/2018/07/11/lectura-de-sentencia-caso-caval.shtml"
+  - "https://www.cnnchile.com/pais/rechazan-recurso-de-nulidad-presentado-por-natalia-compagnon_20181018/"
+  - "https://www.elciudadano.com/?p=524007"
 tags:
   - causa
   - especulacion-inmobiliaria
@@ -64,13 +50,9 @@ SORT fecha ASC
 ```
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Lectura de sentencia Caso Caval](https://www.biobiochile.cl/noticias/nacional/chile/2018/07/11/lectura-de-sentencia-caso-caval.shtml) | BioBioChile | `secundaria` | 2018-07-11 | [Wayback ↺](https://web.archive.org/web/*/https://www.biobiochile.cl/noticias/nacional/chile/2018/07/11/lectura-de-sentencia-caso-caval.shtml) |
+| [Rechazan recurso de nulidad presentado por Natalia Compagnon](https://www.cnnchile.com/pais/rechazan-recurso-de-nulidad-presentado-por-natalia-compagnon_20181018/) | CNN Chile | `secundaria` | 2018-10-18 | [Wayback ↺](https://web.archive.org/web/*/https://www.cnnchile.com/pais/rechazan-recurso-de-nulidad-presentado-por-natalia-compagnon_20181018/) |
+| [Mauricio Valero fue absuelto](https://www.elciudadano.com/?p=524007) | El Ciudadano | `secundaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://www.elciudadano.com/?p=524007) |

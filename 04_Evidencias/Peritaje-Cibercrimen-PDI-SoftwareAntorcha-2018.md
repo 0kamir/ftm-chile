@@ -9,12 +9,7 @@ causa_vinculada: "[[Caso Operacion Huracan]]"
 nexo_respaldado: "[[TRX-2018-01-25-Peritaje-Cibercrimen-Descarte-Antorcha-01]]"
 estado_verificacion: parcial
 fuentes:
-  - url: "https://www.biobiochile.cl/noticias/nacional/region-de-los-rios/2018/02/19/amp/huracan-2-realizan-formalizacion-del-creador-de-antorcha-y-funcionario-del-labocar.shtml"
-    titulo: "Huracán 2: formalización del creador de Antorcha y funcionario del Labocar"
-    medio: "BioBioChile"
-    tipo: secundaria
-    fecha: 2018-02-19
-    consultado: 2026-10-19
+  - "https://www.biobiochile.cl/noticias/nacional/region-de-los-rios/2018/02/19/amp/huracan-2-realizan-formalizacion-del-creador-de-antorcha-y-funcionario-del-labocar.shtml"
 tags:
   - evidencia/peritaje
   - cibercrimen-pdi
@@ -41,13 +36,7 @@ Informe técnico clave que desarticuló la farsa de la [[Caso Operacion Huracan]
 3. **Fundamento del Sobreseimiento**: Este informe motivó la solicitud de sobreseimiento definitivo de todos los comuneros imputados y el inicio de la persecución penal contra el Alto Mando de Carabineros.
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Huracán 2: formalización del creador de Antorcha y funcionario del Labocar](https://www.biobiochile.cl/noticias/nacional/region-de-los-rios/2018/02/19/amp/huracan-2-realizan-formalizacion-del-creador-de-antorcha-y-funcionario-del-labocar.shtml) | BioBioChile | `secundaria` | 2018-02-19 | [Wayback ↺](https://web.archive.org/web/*/https://www.biobiochile.cl/noticias/nacional/region-de-los-rios/2018/02/19/amp/huracan-2-realizan-formalizacion-del-creador-de-antorcha-y-funcionario-del-labocar.shtml) |
