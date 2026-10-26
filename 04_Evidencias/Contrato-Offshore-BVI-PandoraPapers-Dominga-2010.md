@@ -9,12 +9,7 @@ causa_vinculada: "[[Caso Minera Dominga Pandora Papers]]"
 nexo_respaldado: "[[TRX-2010-12-10-Compraventa-Offshore-Dominga-Bancard-Delano-01]]"
 estado_verificacion: verificado
 fuentes:
-  - url: "https://www.radioagricultura.cl/noticias/nacional/pandora-papers-investigacion-asegura-que-pinera-vendio-minera-dominga-a-delano-en-islas-virgenes-britanicas_20211003/"
-    titulo: "Pandora Papers: Piñera vendió Minera Dominga a Délano en Islas Vírgenes Británicas"
-    medio: "Radio Agricultura"
-    tipo: secundaria
-    fecha: 2021-10-03
-    consultado: 2026-10-19
+  - "https://www.radioagricultura.cl/noticias/nacional/pandora-papers-investigacion-asegura-que-pinera-vendio-minera-dominga-a-delano-en-islas-virgenes-britanicas_20211003/"
 tags:
   - evidencia/contrato
   - caso-dominga
@@ -41,13 +36,7 @@ Instrumento contractual firmado en las Islas Vírgenes Británicas el 10 de dici
 3. **Inversiones Paralelas en Islas Vírgenes Británicas (Caso Exalmar)**: Documentó la utilización de la misma estructura *offshore* (*Bancard International Investment Inc.* administrada por [[Santiago Valdes Gutierrez]]) para adquirir el `9,18%` de la pesquera peruana *Exalmar S.A.* durante el juicio marítimo en La Haya ([[TRX-2012-11-20-Inversion-Offshore-Bancard-Exalmar-LaHaya-01]]).
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Pandora Papers: Piñera vendió Minera Dominga a Délano en Islas Vírgenes Británicas](https://www.radioagricultura.cl/noticias/nacional/pandora-papers-investigacion-asegura-que-pinera-vendio-minera-dominga-a-delano-en-islas-virgenes-britanicas_20211003/) | Radio Agricultura | `secundaria` | 2021-10-03 | [Wayback ↺](https://web.archive.org/web/*/https://www.radioagricultura.cl/noticias/nacional/pandora-papers-investigacion-asegura-que-pinera-vendio-minera-dominga-a-delano-en-islas-virgenes-britanicas_20211003/) |

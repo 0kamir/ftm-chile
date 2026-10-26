@@ -8,24 +8,9 @@ estado_judicial: investigacion_desformalizada
 delito_principal: "[[Fraude al Fisco]]"
 estado_verificacion: verificado
 fuentes:
-  - url: "https://www.cnnchile.com/pais/fiscalia-centro-norte-abre-investigacion-por-presuntos-delitos-informaticos-vinculados-a-fernando-cerimedo/"
-    titulo: "Fiscalía Centro Norte abre investigación por presuntos delitos informáticos vinculados a Fernando Cerimedo"
-    medio: "CNN Chile"
-    tipo: secundaria
-    fecha: 2026-09-03
-    consultado: 2026-10-19
-  - url: "https://www.pauta.cl/actualidad/2026/09/04/fiscalia-centro-norte-abre-investigacion-por-eventual-intervencion-de-fernando-cerimedo-en-procesos-electorales-en-chile.html"
-    titulo: "Fiscalía Centro Norte abre investigación por eventual intervención de Cerimedo en procesos electorales"
-    medio: "Pauta"
-    tipo: secundaria
-    fecha: 2026-09-04
-    consultado: 2026-10-19
-  - url: "https://www.theclinic.cl/2026/08/28/el-dia-que-el-rey-de-los-trolls-llego-a-la-sede-de-rn-la-viralizada-foto-con-cerimedo-que-reunio-a-figuras-ligadas-a-la-udi-parisi-y-el-actual-segundo-piso/"
-    titulo: "El día que el 'rey de los trolls' llegó a la sede de RN"
-    medio: "The Clinic"
-    tipo: secundaria
-    fecha: 2026-08-28
-    consultado: 2026-10-19
+  - "https://www.cnnchile.com/pais/fiscalia-centro-norte-abre-investigacion-por-presuntos-delitos-informaticos-vinculados-a-fernando-cerimedo/"
+  - "https://www.pauta.cl/actualidad/2026/09/04/fiscalia-centro-norte-abre-investigacion-por-eventual-intervencion-de-fernando-cerimedo-en-procesos-electorales-en-chile.html"
+  - "https://www.theclinic.cl/2026/08/28/el-dia-que-el-rey-de-los-trolls-llego-a-la-sede-de-rn-la-viralizada-foto-con-cerimedo-que-reunio-a-figuras-ligadas-a-la-udi-parisi-y-el-actual-segundo-piso/"
 tags:
   - causa
   - desinformacion
@@ -72,13 +57,9 @@ SORT fecha ASC
 ```
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Fiscalía Centro Norte abre investigación por presuntos delitos informáticos vinculados a Fernando Cerimedo](https://www.cnnchile.com/pais/fiscalia-centro-norte-abre-investigacion-por-presuntos-delitos-informaticos-vinculados-a-fernando-cerimedo/) | CNN Chile | `secundaria` | 2026-09-03 | [Wayback ↺](https://web.archive.org/web/*/https://www.cnnchile.com/pais/fiscalia-centro-norte-abre-investigacion-por-presuntos-delitos-informaticos-vinculados-a-fernando-cerimedo/) |
+| [Fiscalía Centro Norte abre investigación por eventual intervención de Cerimedo en procesos electorales](https://www.pauta.cl/actualidad/2026/09/04/fiscalia-centro-norte-abre-investigacion-por-eventual-intervencion-de-fernando-cerimedo-en-procesos-electorales-en-chile.html) | Pauta | `secundaria` | 2026-09-04 | [Wayback ↺](https://web.archive.org/web/*/https://www.pauta.cl/actualidad/2026/09/04/fiscalia-centro-norte-abre-investigacion-por-eventual-intervencion-de-fernando-cerimedo-en-procesos-electorales-en-chile.html) |
+| [El día que el 'rey de los trolls' llegó a la sede de RN](https://www.theclinic.cl/2026/08/28/el-dia-que-el-rey-de-los-trolls-llego-a-la-sede-de-rn-la-viralizada-foto-con-cerimedo-que-reunio-a-figuras-ligadas-a-la-udi-parisi-y-el-actual-segundo-piso/) | The Clinic | `secundaria` | 2026-08-28 | [Wayback ↺](https://web.archive.org/web/*/https://www.theclinic.cl/2026/08/28/el-dia-que-el-rey-de-los-trolls-llego-a-la-sede-de-rn-la-viralizada-foto-con-cerimedo-que-reunio-a-figuras-ligadas-a-la-udi-parisi-y-el-actual-segundo-piso/) |

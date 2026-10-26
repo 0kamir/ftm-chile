@@ -9,17 +9,8 @@ causa_vinculada: "[[Caso Pacogate]]"
 nexo_respaldado: "[[TRX-2016-11-10-Fondos-Direccion-Finanzas-Carabineros-01]]"
 estado_verificacion: parcial
 fuentes:
-  - url: "https://www.elmostrador.cl/noticias/pais/2026/04/15/caso-pacogate-rechazan-prision-preventiva-para-los-25-condenados-por-megafraude/"
-    titulo: "Caso Pacogate: rechazan prisión preventiva para los 25 condenados"
-    medio: "El Mostrador"
-    tipo: secundaria
-    fecha: 2026-04-15
-    consultado: 2026-10-19
-  - url: "https://en.wikipedia.org/wiki/Pacogate"
-    titulo: "Pacogate"
-    medio: "Wikipedia"
-    tipo: secundaria
-    consultado: 2026-10-19
+  - "https://www.elmostrador.cl/noticias/pais/2026/04/15/caso-pacogate-rechazan-prision-preventiva-para-los-25-condenados-por-megafraude/"
+  - "https://en.wikipedia.org/wiki/Pacogate"
 tags:
   - evidencia/sentencia-judicial
   - caso-pacogate
@@ -41,13 +32,8 @@ tags:
 En abril de 2026 el Tribunal de Juicio Oral en lo Penal de Santiago dictó veredicto condenatorio contra 25 de los 28 acusados que llegaron a juicio por malversación de caudales públicos reiterada y lavado de activos; **descartó la asociación ilícita** y las penas se fijarán en la sentencia (anunciada por la prensa para febrero de 2027). El veredicto no está firme. La prensa informa que el tribunal rechazó la prisión preventiva solicitada por la Fiscalía y mantuvo las cautelares vigentes. Los nombres individuales de los condenados no se verificaron en esta revisión.
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Caso Pacogate: rechazan prisión preventiva para los 25 condenados](https://www.elmostrador.cl/noticias/pais/2026/04/15/caso-pacogate-rechazan-prision-preventiva-para-los-25-condenados-por-megafraude/) | El Mostrador | `secundaria` | 2026-04-15 | [Wayback ↺](https://web.archive.org/web/*/https://www.elmostrador.cl/noticias/pais/2026/04/15/caso-pacogate-rechazan-prision-preventiva-para-los-25-condenados-por-megafraude/) |
+| [Pacogate](https://en.wikipedia.org/wiki/Pacogate) | Wikipedia | `secundaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://en.wikipedia.org/wiki/Pacogate) |

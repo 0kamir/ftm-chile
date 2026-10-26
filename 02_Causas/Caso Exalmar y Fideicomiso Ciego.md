@@ -8,18 +8,8 @@ estado_judicial: sobreseida
 delito_principal: "[[Negociacion Incompatible]]"
 estado_verificacion: verificado
 fuentes:
-  - url: "https://www.df.cl/economia-y-politica/actualidad/sebastian-pinera-declaro-por-mas-de-dos-horas-en-fiscalia-por-caso-exalmar"
-    titulo: "Sebastián Piñera declaró por más de dos horas en Fiscalía por caso Exalmar"
-    medio: "Diario Financiero"
-    tipo: secundaria
-    fecha: 2017-05-12
-    consultado: 2026-10-19
-  - url: "https://www.cnnchile.com/pais/camara-de-diputados-aprobo-el-informe-de-la-comision-investigadora-del-caso_20171130/"
-    titulo: "Cámara de Diputados aprobó el informe de la comisión investigadora del caso"
-    medio: "CNN Chile"
-    tipo: secundaria
-    fecha: 2017-11-30
-    consultado: 2026-10-19
+  - "https://www.df.cl/economia-y-politica/actualidad/sebastian-pinera-declaro-por-mas-de-dos-horas-en-fiscalia-por-caso-exalmar"
+  - "https://www.cnnchile.com/pais/camara-de-diputados-aprobo-el-informe-de-la-comision-investigadora-del-caso_20171130/"
 tags:
   - causa
   - caso-exalmar
@@ -59,13 +49,8 @@ SORT fecha ASC
 ```
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Sebastián Piñera declaró por más de dos horas en Fiscalía por caso Exalmar](https://www.df.cl/economia-y-politica/actualidad/sebastian-pinera-declaro-por-mas-de-dos-horas-en-fiscalia-por-caso-exalmar) | Diario Financiero | `secundaria` | 2017-05-12 | [Wayback ↺](https://web.archive.org/web/*/https://www.df.cl/economia-y-politica/actualidad/sebastian-pinera-declaro-por-mas-de-dos-horas-en-fiscalia-por-caso-exalmar) |
+| [Cámara de Diputados aprobó el informe de la comisión investigadora del caso](https://www.cnnchile.com/pais/camara-de-diputados-aprobo-el-informe-de-la-comision-investigadora-del-caso_20171130/) | CNN Chile | `secundaria` | 2017-11-30 | [Wayback ↺](https://web.archive.org/web/*/https://www.cnnchile.com/pais/camara-de-diputados-aprobo-el-informe-de-la-comision-investigadora-del-caso_20171130/) |

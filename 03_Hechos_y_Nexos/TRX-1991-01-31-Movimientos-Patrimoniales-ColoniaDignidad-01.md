@@ -15,6 +15,10 @@ causa_vinculada: "[[Caso Colonia Dignidad]]"
 evidencia_soporte: "[[Sentencia-Corte-Suprema-ColoniaDignidad-2013]]"
 historial_correcciones:
   - "2026-10-19: monto_clp $3.450.000.000 llevado a 0; la cifra no aparece en ninguna fuente verificable."
+estado_verificacion: verificado
+fuentes:
+  - "https://www.elmostrador.cl/noticias/pais/2013/01/28/corte-suprema-decreta-prision-para-seis-ex-lideres-de-colonia-dignidad/"
+  - "https://www.cooperativa.cl/noticias/site/artic/20130128/pags-amp/20130128100305.html"
 tags:
   - nexo/desviacion-fondos
   - caso-colonia-dignidad
@@ -43,3 +47,10 @@ tags:
 > Las cifras en pesos mencionadas en esta nota no aparecen en ninguna fuente verificable y no se contabilizan en los totales del vault (antes: $3.450.000.000 CLP).
 
 Operación de vaciamiento patrimonial, simulación contractual y evasión tributaria ejecutada por la jerarquía de [[Sociedad Benefactora y Educacional Dignidad]] bajo las órdenes de [[Paul Schafer Schneider]] y [[Hartmut Hopp Miottel]] en torno a la dictación del Decreto Supremo N° 143 de 1991 que canceló su personalidad jurídica como corporación sin fines de lucro. Para impedir que los bienes pasaran al Estado conforme a sus estatutos y eludir las liquidaciones del [[Servicio Impuestos Internos]], el directorio transfirió más de 17.000 hectáreas en Parral y Bulnes, plantas de chancado de áridos, activos clínicos y capital de trabajo hacia una red de más de 15 sociedades anónimas comerciales cerradas (*Inmobiliaria e Inversiones Cerro Florido S.A.*, *Agrícola y Forestal Las Acacias S.A.*, holding *Villa Baviera*), generando querellas y embargos judiciales por evasión tributaria y responsabilidad civil instruidos por el Ministro en Visita [[Jorge Zepeda Arancibia]] en el [[Caso Colonia Dignidad]] por más de **$3.450.000.000 CLP**.
+
+## Fuentes Verificables
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Corte Suprema decreta prisión para seis ex líderes de Colonia Dignidad](https://www.elmostrador.cl/noticias/pais/2013/01/28/corte-suprema-decreta-prision-para-seis-ex-lideres-de-colonia-dignidad/) | El Mostrador | `secundaria` | 2013-01-28 | [Wayback ↺](https://web.archive.org/web/*/https://www.elmostrador.cl/noticias/pais/2013/01/28/corte-suprema-decreta-prision-para-seis-ex-lideres-de-colonia-dignidad/) |
+| [Seis ex jerarcas de Colonia Dignidad fueron condenados a prisión por la Corte Suprema](https://www.cooperativa.cl/noticias/site/artic/20130128/pags-amp/20130128100305.html) | Cooperativa | `secundaria` | 2013-01-28 | [Wayback ↺](https://web.archive.org/web/*/https://www.cooperativa.cl/noticias/site/artic/20130128/pags-amp/20130128100305.html) |

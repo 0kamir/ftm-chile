@@ -9,12 +9,7 @@ causa_vinculada: "[[Caso Colonia Dignidad]]"
 nexo_respaldado: "[[TRX-1991-01-31-Movimientos-Patrimoniales-ColoniaDignidad-01]]"
 estado_verificacion: verificado
 fuentes:
-  - url: "https://www.elmostrador.cl/noticias/pais/2013/01/28/corte-suprema-decreta-prision-para-seis-ex-lideres-de-colonia-dignidad/"
-    titulo: "Corte Suprema decreta prisión para seis ex líderes de Colonia Dignidad"
-    medio: "El Mostrador"
-    tipo: secundaria
-    fecha: 2013-01-28
-    consultado: 2026-10-19
+  - "https://www.elmostrador.cl/noticias/pais/2013/01/28/corte-suprema-decreta-prision-para-seis-ex-lideres-de-colonia-dignidad/"
 tags:
   - evidencia/sentencia
   - caso-colonia-dignidad
@@ -40,13 +35,7 @@ Sentencias definitivas dictadas por la Segunda Sala Penal de la [[Corte Suprema 
 3. **Embargos Patrimoniales e Indemnizaciones Civiles**: Mantuvo los embargos sobre los bienes transferidos al holding *Villa Baviera / Cerro Florido S.A.* tras la cancelación de la personalidad jurídica en 1991 y las fiscalizaciones del [[Servicio Impuestos Internos]] ([[TRX-1991-01-31-Movimientos-Patrimoniales-ColoniaDignidad-01]]), condenando solidariamente al pago de indemnizaciones multimillonarias a las víctimas.
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Corte Suprema decreta prisión para seis ex líderes de Colonia Dignidad](https://www.elmostrador.cl/noticias/pais/2013/01/28/corte-suprema-decreta-prision-para-seis-ex-lideres-de-colonia-dignidad/) | El Mostrador | `secundaria` | 2013-01-28 | [Wayback ↺](https://web.archive.org/web/*/https://www.elmostrador.cl/noticias/pais/2013/01/28/corte-suprema-decreta-prision-para-seis-ex-lideres-de-colonia-dignidad/) |

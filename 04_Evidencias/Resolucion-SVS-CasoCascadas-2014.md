@@ -9,12 +9,7 @@ causa_vinculada: "[[Caso Cascadas]]"
 nexo_respaldado: "[[TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01]]"
 estado_verificacion: verificado
 fuentes:
-  - url: "https://www.cooperativa.cl/noticias/site/artic/20140902/pags-amp/20140902135102.html"
-    titulo: "Caso Cascadas: SVS aplicó multas por 164 millones de dólares"
-    medio: "Cooperativa"
-    tipo: secundaria
-    fecha: 2014-09-02
-    consultado: 2026-10-19
+  - "https://www.cooperativa.cl/noticias/site/artic/20140902/pags-amp/20140902135102.html"
 tags:
   - evidencia/resolucion-svs
   - caso-cascadas
@@ -36,13 +31,7 @@ tags:
 Resolución sancionatoria dictada por la Superintendencia de Valores y Seguros (actual [[Comision para el Mercado Financiero]]) bajo la firma de [[Carlos Pavez Tolosa]], que dio por acreditado el esquema de transacciones bursátiles ficticias y concertadas ejecutado por [[Julio Ponce Lerou]] a través de [[Sociedad de Inversiones Pampa Calichera SA]] sobre acciones vinculadas a [[SQM SA]] ([[Patricio Contesse Gonzalez]]) en el [[Caso Cascadas]] ([[TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01]]).
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Caso Cascadas: SVS aplicó multas por 164 millones de dólares](https://www.cooperativa.cl/noticias/site/artic/20140902/pags-amp/20140902135102.html) | Cooperativa | `secundaria` | 2014-09-02 | [Wayback ↺](https://web.archive.org/web/*/https://www.cooperativa.cl/noticias/site/artic/20140902/pags-amp/20140902135102.html) |

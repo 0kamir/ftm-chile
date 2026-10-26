@@ -15,6 +15,12 @@ causa_vinculada: "[[Caso Operacion FUBELT Intervencion CIA y DINA]]"
 evidencia_soporte: "[[Informe-Comision-Church-1975-y-Hinchey-CIA-2000]]"
 historial_correcciones:
   - "2026-10-19: monto_clp $2.100.000.000 llevado a 0; la cifra no aparece en ninguna fuente verificable."
+estado_verificacion: verificado
+fuentes:
+  - "https://irp.fas.org/cia/product/chile/index.html"
+  - "https://www.tni.org/en/article/hinchey-report-on-cia-activities-in-chile"
+  - "https://nsarchive.gwu.edu/node/3113"
+  - "https://theworld.org/stories/2016/07/30/chiles-journalists-union-kicked-out-powerful-media-mogul-over-cia-propaganda-cash"
 tags:
   - nexo/desviacion-fondos
   - escuela-de-las-americas
@@ -46,3 +52,12 @@ tags:
 Operación de asistencia técnica, adiestramiento contrainsurgente y financiamiento de inteligencia documentada oficialmente en dos fuentes gubernamentales de los Estados Unidos ([[Informe-Comision-Church-1975-y-Hinchey-CIA-2000]]):
 1. **Instrucción en Tortura en la Escuela de las Américas (SOA)**: El Departamento de Defensa de EE.UU. desclasificó en septiembre de 1996 siete manuales de entrenamiento en español (*Proyecto X*) empleados en la *U.S. Army School of the Americas* (Panamá) donde se formaron centenares de oficiales chilenos de la DINA y del Ejército, los cuales enseñaban técnicas de interrogatorio coercitivo, apremios físicos, chantaje a familiares y ejecuciones sumarias.
 2. **[[Manuel Contreras Sepulveda]] como Activo Pagado por la CIA (1974–1977)**: El **Informe Hinchey al Congreso de EE.UU. (19 de septiembre de 2000)** admitió que la [[Agencia Central de Inteligencia CIA y Escuela de las Americas]] mantuvo a [[Manuel Contreras Sepulveda]] —director de la DINA subordinado a [[Augusto Pinochet Ugarte]]— como un contacto e informante remunerado entre 1974 y 1977, entregándole pagos en dinero incluso después de tener conocimiento de su responsabilidad en crímenes transnacionales. En Chile, la [[Corte Suprema de Chile]] condenó posteriormente a Contreras a más de **529 años de presidio efectivo**.
+
+## Fuentes Verificables
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [CIA Activities in Chile (Informe Hinchey)](https://irp.fas.org/cia/product/chile/index.html) | CIA / FAS | `primaria` | 2000-09-18 | [Wayback ↺](https://web.archive.org/web/*/https://irp.fas.org/cia/product/chile/index.html) |
+| [Hinchey Report on CIA Activities in Chile](https://www.tni.org/en/article/hinchey-report-on-cia-activities-in-chile) | Transnational Institute | `secundaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://www.tni.org/en/article/hinchey-report-on-cia-activities-in-chile) |
+| [Documentos desclasificados sobre Chile](https://nsarchive.gwu.edu/node/3113) | National Security Archive | `primaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://nsarchive.gwu.edu/node/3113) |
+| [Chile's journalists' union kicked out powerful media mogul over CIA propaganda cash](https://theworld.org/stories/2016/07/30/chiles-journalists-union-kicked-out-powerful-media-mogul-over-cia-propaganda-cash) | The World (PRI) | `secundaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://theworld.org/stories/2016/07/30/chiles-journalists-union-kicked-out-powerful-media-mogul-over-cia-propaganda-cash) |

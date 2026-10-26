@@ -123,8 +123,10 @@ class TestForensicVault(unittest.TestCase):
         )
         with open(json_path, "r", encoding="utf-8") as f:
             data = json.load(f)
-        # 751.189.363.198 + 35.000.000 (Cuota Flores) = 751.224.363.198
-        self.assertEqual(data["resumen"]["monto_total_clp"], 571452093990)
+        # 667.104.734.718 + 174.095.000.000 (Codelco, Chiledeportes, CNA, Navieras, Buses, AC Inversions) = 841.199.734.718
+        self.assertEqual(data["resumen"]["monto_total_clp"], 841204734718)
+        self.assertGreater(data["resumen"]["monto_total_uf"], 15000000)
+        self.assertGreater(data["resumen"]["total_fuentes_url"], 600)
 
     def test_percolation_simulation(self):
         res = subprocess.run(
@@ -362,6 +364,11 @@ class TestForensicVault(unittest.TestCase):
             ROOT_DIR, "05_Vistas_Analiticas/Exportaciones/visor_red.html"
         )
         self.assertTrue(os.path.isfile(html_path))
+        with open(html_path, "r", encoding="utf-8") as f:
+            html_txt = f.read()
+        self.assertIn("findShortestPath", html_txt)
+        self.assertIn("case-filter", html_txt)
+        self.assertIn("web.archive.org/web/*/", html_txt)
 
     def test_canvas_files_exist(self):
         canvas_path = os.path.join(
@@ -390,6 +397,42 @@ class TestForensicVault(unittest.TestCase):
             ROOT_DIR, "05_Vistas_Analiticas/Redes_de_Parentesco.md"
         )
         self.assertTrue(os.path.isfile(kin_md))
+
+    def test_all_domain_nodes_have_clickable_markdown_urls(self):
+        import re
+        import yaml
+
+        domain_folders = (
+            "00_Meta/Delitos",
+            "01_Entidades",
+            "02_Causas",
+            "03_Hechos_y_Nexos",
+            "04_Evidencias",
+            "06_Anexos",
+        )
+        checked = 0
+        for folder in domain_folders:
+            base = os.path.join(ROOT_DIR, folder)
+            for dp, _, fns in os.walk(base):
+                for fn in fns:
+                    if not fn.endswith(".md"):
+                        continue
+                    checked += 1
+                    full = os.path.join(dp, fn)
+                    with open(full, "r", encoding="utf-8") as f:
+                        txt = f.read()
+                    m = re.match(r"^---\n(.*?)\n---\n(.*)$", txt, re.DOTALL)
+                    self.assertIsNotNone(m, f"Sin frontmatter en {full}")
+                    meta = yaml.safe_load(m.group(1)) or {}
+                    body = m.group(2)
+                    self.assertTrue(meta.get("fuentes"), f"Nodo sin fuentes YAML: {full}")
+                    self.assertIn("## Fuentes Verificables", body, f"Sin sección Fuentes Verificables: {full}")
+                    self.assertRegex(
+                        body,
+                        r"\[.+?\]\(https?://\S+\)",
+                        f"Sin links URL clickeables en cuerpo Markdown: {full}",
+                    )
+        self.assertEqual(checked, 389)
 
 
 if __name__ == "__main__":

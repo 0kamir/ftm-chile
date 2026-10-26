@@ -8,22 +8,9 @@ estado_judicial: cerrada_con_condena
 delito_principal: "[[Lavado de Activos]]"
 estado_verificacion: verificado
 fuentes:
-  - url: "https://irp.fas.org/cia/product/chile/index.html"
-    titulo: "CIA Activities in Chile (Informe Hinchey, 18-09-2000)"
-    medio: "CIA / Federation of American Scientists"
-    tipo: primaria
-    fecha: 2000-09-18
-    consultado: 2026-10-19
-  - url: "https://nsarchive.gwu.edu/node/3113"
-    titulo: "Documentos desclasificados sobre Chile"
-    medio: "National Security Archive"
-    tipo: primaria
-    consultado: 2026-10-19
-  - url: "https://www.pri.org/stories/chiles-journalists-union-kicked-out-powerful-media-mogul-over-cia-propaganda-cash"
-    titulo: "Chile's journalists' union kicked out powerful media mogul over CIA propaganda cash"
-    medio: "The World (PRI)"
-    tipo: secundaria
-    consultado: 2026-10-19
+  - "https://irp.fas.org/cia/product/chile/index.html"
+  - "https://nsarchive.gwu.edu/node/3113"
+  - "https://theworld.org/stories/2016/07/30/chiles-journalists-union-kicked-out-powerful-media-mogul-over-cia-propaganda-cash"
 tags:
   - causa
   - proyecto-fubelt
@@ -73,13 +60,9 @@ SORT fecha ASC
 ```
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [CIA Activities in Chile (Informe Hinchey, 18-09-2000)](https://irp.fas.org/cia/product/chile/index.html) | CIA / Federation of American Scientists | `primaria` | 2000-09-18 | [Wayback ↺](https://web.archive.org/web/*/https://irp.fas.org/cia/product/chile/index.html) |
+| [Documentos desclasificados sobre Chile](https://nsarchive.gwu.edu/node/3113) | National Security Archive | `primaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://nsarchive.gwu.edu/node/3113) |
+| [Chile's journalists' union kicked out powerful media mogul over CIA propaganda cash](https://theworld.org/stories/2016/07/30/chiles-journalists-union-kicked-out-powerful-media-mogul-over-cia-propaganda-cash) | The World (PRI) | `secundaria` | 2016-07-30 | [Wayback ↺](https://web.archive.org/web/*/https://theworld.org/stories/2016/07/30/chiles-journalists-union-kicked-out-powerful-media-mogul-over-cia-propaganda-cash) |

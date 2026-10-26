@@ -1,0 +1,51 @@
+name: Publicar Visor Web en GitHub Pages
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+      - name: Sincronizar fuentes y compilar visor web + exportaciones
+        run: |
+          python3 00_Meta/Scripts/add_source.py --sync
+          python3 00_Meta/Scripts/export_graph.py
+          python3 00_Meta/Scripts/generate_web_viewer.py
+          python3 00_Meta/Scripts/export_csv_tables.py
+          python3 00_Meta/Scripts/generate_dossier.py
+          python3 00_Meta/Scripts/export_jsonld.py
+          mkdir -p _site
+          cp 05_Vistas_Analiticas/Exportaciones/visor_red.html _site/index.html
+          cp 05_Vistas_Analiticas/Exportaciones/metricas_red.json _site/
+          cp 05_Vistas_Analiticas/Exportaciones/red_ftm_chile.graphml _site/
+          cp 05_Vistas_Analiticas/Exportaciones/red_ftm_chile.jsonld _site/
+          cp 05_Vistas_Analiticas/Exportaciones/hechos.csv _site/
+          cp 05_Vistas_Analiticas/Exportaciones/personas.csv _site/
+          cp 05_Vistas_Analiticas/Exportaciones/entidades.csv _site/
+          cp 05_Vistas_Analiticas/Exportaciones/Dossier_Ejecutivo_Completo.md _site/
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: "_site"
+      - id: deployment
+        uses: actions/deploy-pages@v4

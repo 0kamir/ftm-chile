@@ -1,4 +1,4 @@
-.PHONY: all validate validate-strict sources links screen audit benford export percolation linkpred communities flowcut kcore spectral temporal motifs resistance kinship dot ftm cypher jsonld csv dossier web test
+.PHONY: all validate validate-strict sources archive links screen audit benford export percolation linkpred communities flowcut kcore spectral temporal motifs resistance kinship dot ftm cypher jsonld csv dossier web test
 
 all: validate sources audit benford export percolation linkpred communities flowcut kcore spectral temporal motifs resistance kinship dot ftm cypher jsonld csv dossier web test
 
@@ -9,7 +9,11 @@ validate-strict:
 	python3 00_Meta/Scripts/validate_vault.py --estricto
 
 sources:
+	python3 00_Meta/Scripts/add_source.py --sync
 	python3 00_Meta/Scripts/check_sources.py
+
+archive:
+	python3 00_Meta/Scripts/check_sources.py --auto-archive
 
 links:
 	python3 00_Meta/Scripts/check_sources.py --links

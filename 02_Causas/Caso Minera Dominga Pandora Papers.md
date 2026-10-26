@@ -8,24 +8,9 @@ estado_judicial: sobreseida
 delito_principal: "[[Cohecho]]"
 estado_verificacion: verificado
 fuentes:
-  - url: "https://www.latercera.com/nacional/noticia/fiscalia-cierra-investigacion-por-el-caso-dominga-y-solicita-sobreseimiento-definitivo/ETCJHQKLVNFKVBX3M7Y7SJGK6I/"
-    titulo: "Fiscalía cierra investigación por el caso Dominga y solicita sobreseimiento definitivo"
-    medio: "La Tercera"
-    tipo: secundaria
-    fecha: 2024-01-05
-    consultado: 2026-10-19
-  - url: "https://www.meganoticias.cl/nacional/354151-sebastian-pinera-presidente-pandora-papers-proyecto-minera-dominga-venta-paraiso-fiscal-islas-virgenes-05-10-2021.html"
-    titulo: "Pandora Papers: venta de Minera Dominga en Islas Vírgenes"
-    medio: "Meganoticias"
-    tipo: secundaria
-    fecha: 2021-10-05
-    consultado: 2026-10-19
-  - url: "https://www.eldinamo.cl/pais/2024/05/09/caso-minera-dominga-tribunal-sobresee-definitivamente-causa-que-involucraba-a-sebastian-pinera/"
-    titulo: "Caso Minera Dominga: tribunal sobresee definitivamente causa que involucraba a Sebastián Piñera"
-    medio: "El Dínamo"
-    tipo: secundaria
-    fecha: 2024-05-09
-    consultado: 2026-10-19
+  - "https://www.latercera.com/nacional/noticia/fiscalia-cierra-investigacion-por-el-caso-dominga-y-solicita-sobreseimiento-definitivo/ETCJHQKLVNFKVBX3M7Y7SJGK6I/"
+  - "https://www.meganoticias.cl/nacional/354151-sebastian-pinera-presidente-pandora-papers-proyecto-minera-dominga-venta-paraiso-fiscal-islas-virgenes-05-10-2021.html"
+  - "https://www.eldinamo.cl/pais/2024/05/09/caso-minera-dominga-tribunal-sobresee-definitivamente-causa-que-involucraba-a-sebastian-pinera/"
 tags:
   - causa
   - caso-dominga
@@ -68,13 +53,9 @@ SORT fecha ASC
 ```
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Fiscalía cierra investigación por el caso Dominga y solicita sobreseimiento definitivo](https://www.latercera.com/nacional/noticia/fiscalia-cierra-investigacion-por-el-caso-dominga-y-solicita-sobreseimiento-definitivo/ETCJHQKLVNFKVBX3M7Y7SJGK6I/) | La Tercera | `secundaria` | 2024-01-05 | [Wayback ↺](https://web.archive.org/web/*/https://www.latercera.com/nacional/noticia/fiscalia-cierra-investigacion-por-el-caso-dominga-y-solicita-sobreseimiento-definitivo/ETCJHQKLVNFKVBX3M7Y7SJGK6I/) |
+| [Pandora Papers: venta de Minera Dominga en Islas Vírgenes](https://www.meganoticias.cl/nacional/354151-sebastian-pinera-presidente-pandora-papers-proyecto-minera-dominga-venta-paraiso-fiscal-islas-virgenes-05-10-2021.html) | Meganoticias | `secundaria` | 2021-10-05 | [Wayback ↺](https://web.archive.org/web/*/https://www.meganoticias.cl/nacional/354151-sebastian-pinera-presidente-pandora-papers-proyecto-minera-dominga-venta-paraiso-fiscal-islas-virgenes-05-10-2021.html) |
+| [Caso Minera Dominga: tribunal sobresee definitivamente causa que involucraba a Sebastián Piñera](https://www.eldinamo.cl/pais/2024/05/09/caso-minera-dominga-tribunal-sobresee-definitivamente-causa-que-involucraba-a-sebastian-pinera/) | El Dínamo | `secundaria` | 2024-05-09 | [Wayback ↺](https://web.archive.org/web/*/https://www.eldinamo.cl/pais/2024/05/09/caso-minera-dominga-tribunal-sobresee-definitivamente-causa-que-involucraba-a-sebastian-pinera/) |

@@ -8,6 +8,7 @@ en `05_Vistas_Analiticas/Exportaciones/Dossier_Ejecutivo_Completo.md`.
 import os
 import re
 import yaml
+import add_source
 from descargo import descargo  # noqa: E402
 
 ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
@@ -27,6 +28,15 @@ def fmt_clp(amount: int) -> str:
     return "$" + f"{int(amount):,}".replace(",", ".")
 
 
+def fmt_fuentes(meta: dict) -> str:
+    links = []
+    for fu in (meta.get("fuentes") or [])[:2]:
+        if isinstance(fu, dict) and str(fu.get("url", "")).startswith(("http://", "https://")):
+            medio = str(fu.get("medio") or "Fuente").replace("|", "/")
+            links.append(f"[{medio}]({fu['url']})")
+    return " · ".join(links) if links else "—"
+
+
 def main() -> int:
     os.makedirs(os.path.dirname(OUT_DOSSIER), exist_ok=True)
     causas, personas, nexos = [], [], []
@@ -43,10 +53,11 @@ def main() -> int:
             name = os.path.splitext(fname)[0]
             with open(os.path.join(dirpath, fname), "r", encoding="utf-8") as f:
                 txt = f.read()
-            m = re.match(r"^---\n(.*?)\n---\n", txt, re.DOTALL)
+            m = re.match(r"^---\n(.*?)\n---\n(.*)$", txt, re.DOTALL)
             if not m:
                 continue
             meta = yaml.safe_load(m.group(1)) or {}
+            meta["fuentes"] = add_source.parse_fuentes_from_note(meta, m.group(2))
             tipo = meta.get("tipo_nodo")
             if tipo == "causa_judicial":
                 causas.append((name, meta))
@@ -79,13 +90,13 @@ def main() -> int:
         "",
         "## 1. Resumen de Macrocausas Penales",
         "",
-        "| Causa Judicial | RUC | Año Inicio | Estado Judicial | Delito Principal | Fiscalía / Tribunal |",
-        "| :--- | :--- | :---: | :---: | :--- | :--- |",
+        "| Causa Judicial | RUC | Año Inicio | Estado Judicial | Delito Principal | Fiscalía / Tribunal | Fuentes (URL) |",
+        "| :--- | :--- | :---: | :---: | :--- | :--- | :--- |",
     ]
 
     for cname, cmeta in sorted(causas, key=lambda x: int(x[1].get("año_inicio", 0))):
         lines.append(
-            f"| [[{cname}]] | `{cmeta.get('ruc')}` | {cmeta.get('año_inicio')} | `{cmeta.get('estado_judicial')}` | {cmeta.get('delito_principal')} | {cmeta.get('tribunal_o_fiscalia')} |"
+            f"| [[{cname}]] | `{cmeta.get('ruc')}` | {cmeta.get('año_inicio')} | `{cmeta.get('estado_judicial')}` | {cmeta.get('delito_principal')} | {cmeta.get('tribunal_o_fiscalia')} | {fmt_fuentes(cmeta)} |"
         )
 
     lines.extend(
@@ -95,14 +106,14 @@ def main() -> int:
             "",
             "## 2. Nómina de Condenados, Formalizados y Testigos",
             "",
-            "| Persona | RUT | Rol / Cargo | Partido | Situación Procesal | Medida Cautelar / Condena |",
-            "| :--- | :--- | :--- | :--- | :---: | :--- |",
+            "| Persona | RUT | Rol / Cargo | Partido | Situación Procesal | Medida Cautelar / Condena | Fuentes (URL) |",
+            "| :--- | :--- | :--- | :--- | :---: | :--- | :--- |",
         ]
     )
 
     for pname, pmeta in sorted(personas, key=lambda x: x[0]):
         lines.append(
-            f"| [[{pname}]] | `{pmeta.get('rut')}` | {pmeta.get('rol_principal')} | {pmeta.get('afiliacion_politica')} | **`{pmeta.get('situacion_procesal')}`** | {pmeta.get('medida_cautelar') or '—'} |"
+            f"| [[{pname}]] | `{pmeta.get('rut')}` | {pmeta.get('rol_principal')} | {pmeta.get('afiliacion_politica')} | **`{pmeta.get('situacion_procesal')}`** | {pmeta.get('medida_cautelar') or '—'} | {fmt_fuentes(pmeta)} |"
         )
 
     lines.extend(
@@ -112,15 +123,15 @@ def main() -> int:
             "",
             "## 3. Registro Maestro de Aristas Reificadas (`03_Hechos_y_Nexos/`)",
             "",
-            "| ID Nexo | Fecha | Tipo | Origen | Destino | Firmante Origen | Firmante Destino | Monto (CLP) | Causa |",
-            "| :--- | :---: | :---: | :--- | :--- | :--- | :--- | ---: | :--- |",
+            "| ID Nexo | Fecha | Tipo | Origen | Destino | Firmante Origen | Firmante Destino | Monto (CLP) | Causa | Fuentes (URL) |",
+            "| :--- | :---: | :---: | :--- | :--- | :--- | :--- | ---: | :--- | :--- |",
         ]
     )
 
     for nname, nmeta in sorted(nexos, key=lambda x: str(x[1].get("fecha", ""))):
         monto = int(nmeta.get("monto_clp", 0) or 0)
         lines.append(
-            f"| [[{nname}]] | {nmeta.get('fecha')} | `{nmeta.get('tipo_nexo')}` | {nmeta.get('entidad_origen')} | {nmeta.get('entidad_destino')} | {nmeta.get('firmante_origen')} | {nmeta.get('firmante_destino')} | **{fmt_clp(monto)}** | {nmeta.get('causa_vinculada')} |"
+            f"| [[{nname}]] | {nmeta.get('fecha')} | `{nmeta.get('tipo_nexo')}` | {nmeta.get('entidad_origen')} | {nmeta.get('entidad_destino')} | {nmeta.get('firmante_origen')} | {nmeta.get('firmante_destino')} | **{fmt_clp(monto)}** | {nmeta.get('causa_vinculada')} | {fmt_fuentes(nmeta)} |"
         )
 
     with open(OUT_DOSSIER, "w", encoding="utf-8") as f:

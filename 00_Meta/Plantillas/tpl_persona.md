@@ -7,6 +7,9 @@ afiliacion_politica: ""
 situacion_procesal: ninguna # formalizado | testigo | condenado | ninguna
 medida_cautelar: ""
 vinculos_familiares: [] # Lista de wikilinks a parientes/afines: ["[[Nombre Apellido]]"]
+estado_verificacion: pendiente # verificado | parcial | desactualizado | sin_fuente | pendiente
+fuentes:
+  - "https://"
 tags:
   - entidad/persona
 ---
@@ -81,3 +84,9 @@ if (pages.length > 0) {
 
 ## Notas e Hitos Procesales
 - 
+
+## Fuentes Verificables
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Título del documento o nota](https://) | Medio | `primaria` | YYYY-MM-DD | [copia](https://web.archive.org/) |

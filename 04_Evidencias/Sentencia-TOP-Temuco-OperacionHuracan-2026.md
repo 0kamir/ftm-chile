@@ -9,12 +9,7 @@ causa_vinculada: "[[Caso Operacion Huracan]]"
 nexo_respaldado: "[[TRX-2017-09-23-Detenciones-OperacionHuracan-01]]"
 estado_verificacion: desactualizado
 fuentes:
-  - url: "https://www.eldinamo.cl/pais/2026/04/02/el-profesor-smith-condenado-a-12-anos-de-carcel-por-montaje-en-operacion-huracan/"
-    titulo: "El 'profesor' Smith condenado a 12 años de cárcel"
-    medio: "El Dínamo"
-    tipo: secundaria
-    fecha: 2026-04-02
-    consultado: 2026-10-19
+  - "https://www.eldinamo.cl/pais/2026/04/02/el-profesor-smith-condenado-a-12-anos-de-carcel-por-montaje-en-operacion-huracan/"
 tags:
   - evidencia/sentencia
   - operacion-huracan
@@ -41,13 +36,7 @@ Fallo condenatorio unánime dictado por el Tribunal de Juicio Oral en lo Penal d
 3. **Acreditación del Montaje**: El tribunal concluyó que los oficios policiales e informes de inteligencia entregados al Ministerio Público contenían falsedades sustanciales, habiéndose adulterado e insertado manualmente los supuestos mensajes de WhatsApp en los dispositivos de los comuneros sobreseídos.
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [El 'profesor' Smith condenado a 12 años de cárcel](https://www.eldinamo.cl/pais/2026/04/02/el-profesor-smith-condenado-a-12-anos-de-carcel-por-montaje-en-operacion-huracan/) | El Dínamo | `secundaria` | 2026-04-02 | [Wayback ↺](https://web.archive.org/web/*/https://www.eldinamo.cl/pais/2026/04/02/el-profesor-smith-condenado-a-12-anos-de-carcel-por-montaje-en-operacion-huracan/) |

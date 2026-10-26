@@ -11,10 +11,13 @@ firmante_destino: "[[Renovacion Nacional]]"
 causa_vinculada: "[[Caso Operaciones Digitales e Injerencia Electoral]]"
 delito_imputado: ""
 evidencia_soporte: "[[Fotografia-Cerimedo-Sede-Renovacion-Nacional-2022]]"
-estado_verificacion: sin_fuente
-fuentes: []
 historial_correcciones:
   - "Se eliminó delito_imputado (2026-10-19): la presencia en una sede partidaria no es un delito imputado. RN afirma que Cerimedo nunca fue contratado."
+estado_verificacion: sin_fuente
+fuentes:
+  - "https://www.theclinic.cl/2026/08/28/el-dia-que-el-rey-de-los-trolls-llego-a-la-sede-de-rn-la-viralizada-foto-con-cerimedo-que-reunio-a-figuras-ligadas-a-la-udi-parisi-y-el-actual-segundo-piso/"
+  - "https://www.cnnchile.com/pais/fiscalia-centro-norte-abre-investigacion-por-presuntos-delitos-informaticos-vinculados-a-fernando-cerimedo/"
+  - "https://www.pauta.cl/actualidad/2026/09/04/fiscalia-centro-norte-abre-investigacion-por-eventual-intervencion-de-fernando-cerimedo-en-procesos-electorales-en-chile.html"
 tags:
   - nexo/transaccion
   - cerimedo
@@ -43,13 +46,9 @@ Registro fotográfico, difundido por The Clinic, de la presencia del consultor p
 En dicha instancia, documentada en la [[Fotografia-Cerimedo-Sede-Renovacion-Nacional-2022]] revelada por *The Clinic*, Cerimedo compartió dependencias con el entonces prosecretario del partido Manuel José Errázuriz y operadores de campaña. El hecho motivó requerimientos parlamentarios ante el Servel y la apertura de investigaciones de la Fiscalía Centro Norte respecto de la falta de rendición contable de servicios digitales extranjeros o aportes de campaña no declarados.
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [El día que el 'rey de los trolls' llegó a la sede de RN](https://www.theclinic.cl/2026/08/28/el-dia-que-el-rey-de-los-trolls-llego-a-la-sede-de-rn-la-viralizada-foto-con-cerimedo-que-reunio-a-figuras-ligadas-a-la-udi-parisi-y-el-actual-segundo-piso/) | The Clinic | `secundaria` | 2026-08-28 | [Wayback ↺](https://web.archive.org/web/*/https://www.theclinic.cl/2026/08/28/el-dia-que-el-rey-de-los-trolls-llego-a-la-sede-de-rn-la-viralizada-foto-con-cerimedo-que-reunio-a-figuras-ligadas-a-la-udi-parisi-y-el-actual-segundo-piso/) |
+| [Fiscalía Centro Norte abre investigación por presuntos delitos informáticos vinculados a Fernando Cerimedo](https://www.cnnchile.com/pais/fiscalia-centro-norte-abre-investigacion-por-presuntos-delitos-informaticos-vinculados-a-fernando-cerimedo/) | CNN Chile | `secundaria` | 2026-09-03 | [Wayback ↺](https://web.archive.org/web/*/https://www.cnnchile.com/pais/fiscalia-centro-norte-abre-investigacion-por-presuntos-delitos-informaticos-vinculados-a-fernando-cerimedo/) |
+| [Fiscalía Centro Norte abre investigación por eventual intervención de Cerimedo en procesos electorales](https://www.pauta.cl/actualidad/2026/09/04/fiscalia-centro-norte-abre-investigacion-por-eventual-intervencion-de-fernando-cerimedo-en-procesos-electorales-en-chile.html) | Pauta | `secundaria` | 2026-09-04 | [Wayback ↺](https://web.archive.org/web/*/https://www.pauta.cl/actualidad/2026/09/04/fiscalia-centro-norte-abre-investigacion-por-eventual-intervencion-de-fernando-cerimedo-en-procesos-electorales-en-chile.html) |

@@ -18,6 +18,8 @@ import os
 import re
 import sys
 
+import add_source
+
 ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 NEXOS_DIR = os.path.join(ROOT_DIR, "03_Hechos_y_Nexos")
 
@@ -63,8 +65,10 @@ def render_nexo_markdown(row: dict) -> tuple[str, str]:
             f"  {'-' if i == 0 else ' '} {k}: {json.dumps(v, ensure_ascii=False)}\n"
             for i, (k, v) in enumerate(fuente.items())
         )
+        seccion_md_fuentes = add_source.render_seccion_fuentes([fuente])
     else:
         bloque_fuentes = "estado_verificacion: sin_fuente\nfuentes: []\n"
+        seccion_md_fuentes = ""
 
     content = f"""---
 tipo_nodo: nexo_transaccion
@@ -100,7 +104,7 @@ evidencia_soporte: "[[{evidencia_soporte}]]"
 
 ## Descripción de la Operación
 {descripcion}
-"""
+{seccion_md_fuentes}"""
     return filename, content
 
 

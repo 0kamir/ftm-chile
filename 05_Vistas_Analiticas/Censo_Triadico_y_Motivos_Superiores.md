@@ -22,13 +22,13 @@ tags:
 
 ## 1. Métricas Globales del Censo de Motivos
 
-- **Nodos Operativos Activos ($|V|$)**: `229`
-- **2-Caminos Abiertos (*Wedges* $\wedge$)**: `1272`
-- **Triángulos Cerrados ($|\Delta|$)**: **`63`**
-- **Índice de Transitividad Global ($T = 3|\Delta| / |\wedge|$)**: **`0.1486`**
-- **Coeficiente de Clustering Local Promedio ($\bar{C}$)**: **`0.2492`**
-- **Aristas Simmelianas (con incrustación $|N(u) \cap N(v)| \ge 1$)**: `161`
-- **Pares de Actores en Cuadrángulos Multi-Canal ($C_4$)**: **`54`**
+- **Nodos Operativos Activos ($|V|$)**: `308`
+- **2-Caminos Abiertos (*Wedges* $\wedge$)**: `1522`
+- **Triángulos Cerrados ($|\Delta|$)**: **`74`**
+- **Índice de Transitividad Global ($T = 3|\Delta| / |\wedge|$)**: **`0.1459`**
+- **Coeficiente de Clustering Local Promedio ($\bar{C}$)**: **`0.2356`**
+- **Aristas Simmelianas (con incrustación $|N(u) \cap N(v)| \ge 1$)**: `193`
+- **Pares de Actores en Cuadrángulos Multi-Canal ($C_4$)**: **`55`**
 
 ---
 
@@ -80,18 +80,19 @@ Pares de actores (`Persona`, `Entidad Pública/Privada`, `Partido`) que comparte
 | **40** | [[Eliodoro Matte Larrain]] | [[Gabriel Ruiz-Tagle Serrano]] | **`2`** | `1` | `No` | [[TRX-2000-05-15-Pacto-Colusion-Precios-Cuotas-CMPC-PISA-01]], [[TRX-2017-03-03-Compensacion-Historica-Consumidores-CMPC-SERNAC-01]] |
 | **41** | [[Empresas CMPC SA]] | [[Gabriel Ruiz-Tagle Serrano]] | **`2`** | `1` | `No` | [[TRX-2000-05-15-Pacto-Colusion-Precios-Cuotas-CMPC-PISA-01]], [[TRX-2017-03-03-Compensacion-Historica-Consumidores-CMPC-SERNAC-01]] |
 | **42** | [[GORE Biobio]] | [[Rodrigo Diaz Worner]] | **`2`** | `1` | `No` | [[TRX-2022-11-18-Convenio-ProCultura-Biobio]], [[TRX-2022-12-20-Convenio-EnTi-01]] |
-| **43** | [[Jorge Quiroz Castro]] | [[Quiroz y Asociados Consultores SpA]] | **`2`** | `1` | `Sí` | [[TRX-2007-04-10-Modelo-Proyeccion-Demanda-APA-Pollos-01]], [[TRX-2010-06-15-Informe-Economico-Peritaje-Defensa-Salcobrand-01]] |
-| **44** | [[Jorge Zepeda Arancibia]] | [[Paul Schafer Schneider]] | **`2`** | `1` | `No` | [[TRX-1991-01-31-Movimientos-Patrimoniales-ColoniaDignidad-01]], [[TRX-2005-06-14-Hallazgo-Arsenal-ColoniaDignidad-01]] |
-| **45** | [[Jorge Zepeda Arancibia]] | [[Sociedad Benefactora y Educacional Dignidad]] | **`2`** | `1` | `No` | [[TRX-1991-01-31-Movimientos-Patrimoniales-ColoniaDignidad-01]], [[TRX-2005-06-14-Hallazgo-Arsenal-ColoniaDignidad-01]] |
-| **46** | [[KDM Empresas SA]] | [[Marcelo Torres Ferrari]] | **`2`** | `1` | `No` | [[TRX-2010-11-15-Pagos-KDM-Licitacion-Basura-Maipu-01]], [[TRX-2012-03-22-Contratos-Residuos-CerroNavia-01]] |
-| **47** | [[Lucia Hiriart Rodriguez]] | [[Sergio Munoz Gajardo]] | **`2`** | `1` | `No` | [[TRX-2005-08-10-Querella-SII-Cuentas-Riggs-01]], [[TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01]] |
-| **48** | [[Luis Plaza Sanchez]] | [[Marcelo Torres Ferrari]] | **`2`** | `1` | `No` | [[Renovacion Nacional]], [[TRX-2012-03-22-Contratos-Residuos-CerroNavia-01]] |
-| **49** | [[Oscar Aitken Lavanchy]] | [[Riggs Bank y Sociedades Offshore Ashburton]] | **`2`** | `1` | `Sí` | [[TRX-2004-07-14-Gastos-Reservados-Riggs-01]], [[TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01]] |
-| **50** | [[Pablo Longueira Montes]] | [[Union Democrata Independiente]] | **`2`** | `1` | `Sí` | [[TRX-2010-08-19-Correo-Royalty-SQM-01]], [[TRX-2013-07-15-Boletas-Penta-UDI-01]] |
-| **51** | [[Patricio Contesse Gonzalez]] | [[SQM SA]] | **`2`** | `1` | `Sí` | [[TRX-2009-11-18-Facturas-Bancard-SQM-2009-01]], [[TRX-2010-08-19-Correo-Royalty-SQM-01]] |
-| **52** | [[Paul Schafer Schneider]] | [[Sociedad Benefactora y Educacional Dignidad]] | **`2`** | `1` | `Sí` | [[TRX-1991-01-31-Movimientos-Patrimoniales-ColoniaDignidad-01]], [[TRX-2005-06-14-Hallazgo-Arsenal-ColoniaDignidad-01]] |
-| **53** | [[Santiago Valdes Gutierrez]] | [[Sebastian Pinera Echenique]] | **`2`** | `1` | `No` | [[Renovacion Nacional]], [[TRX-2012-11-20-Inversion-Offshore-Bancard-Exalmar-LaHaya-01]] |
-| **54** | [[Sergio Munoz Gajardo]] | [[Servicio Impuestos Internos]] | **`2`** | `1` | `No` | [[TRX-2003-10-15-Patrimonio-ElBosque-Spiniak-01]], [[TRX-2005-08-10-Querella-SII-Cuentas-Riggs-01]] |
+| **43** | [[Itelecom Holding Chile SpA]] | [[Leon Marcelo Lefort Hernandez]] | **`2`** | `1` | `Sí` | [[TRX-2018-09-12-Sobornos-Itelecom-Licitacion-Iquique-01]], [[TRX-2019-05-14-Licitacion-Luminarias-Chillan-01]] |
+| **44** | [[Jorge Quiroz Castro]] | [[Quiroz y Asociados Consultores SpA]] | **`2`** | `1` | `Sí` | [[TRX-2007-04-10-Modelo-Proyeccion-Demanda-APA-Pollos-01]], [[TRX-2010-06-15-Informe-Economico-Peritaje-Defensa-Salcobrand-01]] |
+| **45** | [[Jorge Zepeda Arancibia]] | [[Paul Schafer Schneider]] | **`2`** | `1` | `No` | [[TRX-1991-01-31-Movimientos-Patrimoniales-ColoniaDignidad-01]], [[TRX-2005-06-14-Hallazgo-Arsenal-ColoniaDignidad-01]] |
+| **46** | [[Jorge Zepeda Arancibia]] | [[Sociedad Benefactora y Educacional Dignidad]] | **`2`** | `1` | `No` | [[TRX-1991-01-31-Movimientos-Patrimoniales-ColoniaDignidad-01]], [[TRX-2005-06-14-Hallazgo-Arsenal-ColoniaDignidad-01]] |
+| **47** | [[KDM Empresas SA]] | [[Marcelo Torres Ferrari]] | **`2`** | `1` | `No` | [[TRX-2010-11-15-Pagos-KDM-Licitacion-Basura-Maipu-01]], [[TRX-2012-03-22-Contratos-Residuos-CerroNavia-01]] |
+| **48** | [[Lucia Hiriart Rodriguez]] | [[Sergio Munoz Gajardo]] | **`2`** | `1` | `No` | [[TRX-2005-08-10-Querella-SII-Cuentas-Riggs-01]], [[TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01]] |
+| **49** | [[Luis Plaza Sanchez]] | [[Marcelo Torres Ferrari]] | **`2`** | `1` | `No` | [[Renovacion Nacional]], [[TRX-2012-03-22-Contratos-Residuos-CerroNavia-01]] |
+| **50** | [[Oscar Aitken Lavanchy]] | [[Riggs Bank y Sociedades Offshore Ashburton]] | **`2`** | `1` | `Sí` | [[TRX-2004-07-14-Gastos-Reservados-Riggs-01]], [[TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01]] |
+| **51** | [[Pablo Longueira Montes]] | [[Union Democrata Independiente]] | **`2`** | `1` | `Sí` | [[TRX-2010-08-19-Correo-Royalty-SQM-01]], [[TRX-2013-07-15-Boletas-Penta-UDI-01]] |
+| **52** | [[Patricio Contesse Gonzalez]] | [[SQM SA]] | **`2`** | `1` | `Sí` | [[TRX-2009-11-18-Facturas-Bancard-SQM-2009-01]], [[TRX-2010-08-19-Correo-Royalty-SQM-01]] |
+| **53** | [[Paul Schafer Schneider]] | [[Sociedad Benefactora y Educacional Dignidad]] | **`2`** | `1` | `Sí` | [[TRX-1991-01-31-Movimientos-Patrimoniales-ColoniaDignidad-01]], [[TRX-2005-06-14-Hallazgo-Arsenal-ColoniaDignidad-01]] |
+| **54** | [[Santiago Valdes Gutierrez]] | [[Sebastian Pinera Echenique]] | **`2`** | `1` | `No` | [[Renovacion Nacional]], [[TRX-2012-11-20-Inversion-Offshore-Bancard-Exalmar-LaHaya-01]] |
+| **55** | [[Sergio Munoz Gajardo]] | [[Servicio Impuestos Internos]] | **`2`** | `1` | `No` | [[TRX-2003-10-15-Patrimonio-ElBosque-Spiniak-01]], [[TRX-2005-08-10-Querella-SII-Cuentas-Riggs-01]] |
 
 ---
 
@@ -113,12 +114,12 @@ Pares de actores (`Persona`, `Entidad Pública/Privada`, `Partido`) que comparte
 | **12** | [[Carlos Alberto Delano Abbott]] | [[TRX-2013-07-15-Boletas-Penta-UDI-01]] | **`2`** | [[Empresas Penta SA]], [[Union Democrata Independiente]] |
 | **13** | [[Carlos Alberto Delano Abbott]] | [[TRX-2013-09-20-Boletas-Penta-Novoa-01]] | **`2`** | [[Empresas Penta SA]], [[Union Democrata Independiente]] |
 | **14** | [[Carlos Alberto Delano Abbott]] | [[Union Democrata Independiente]] | **`2`** | [[TRX-2013-07-15-Boletas-Penta-UDI-01]], [[TRX-2013-09-20-Boletas-Penta-Novoa-01]] |
-| **15** | [[Jorge Quiroz Castro]] | [[Quiroz y Asociados Consultores SpA]] | **`2`** | [[TRX-2007-04-10-Modelo-Proyeccion-Demanda-APA-Pollos-01]], [[TRX-2010-06-15-Informe-Economico-Peritaje-Defensa-Salcobrand-01]] |
-| **16** | [[Oscar Aitken Lavanchy]] | [[Riggs Bank y Sociedades Offshore Ashburton]] | **`2`** | [[TRX-2004-07-14-Gastos-Reservados-Riggs-01]], [[TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01]] |
-| **17** | [[Pablo Longueira Montes]] | [[Union Democrata Independiente]] | **`2`** | [[TRX-2010-08-19-Correo-Royalty-SQM-01]], [[TRX-2013-07-15-Boletas-Penta-UDI-01]] |
-| **18** | [[Patricio Contesse Gonzalez]] | [[SQM SA]] | **`2`** | [[TRX-2009-11-18-Facturas-Bancard-SQM-2009-01]], [[TRX-2010-08-19-Correo-Royalty-SQM-01]] |
-| **19** | [[Paul Schafer Schneider]] | [[Sociedad Benefactora y Educacional Dignidad]] | **`2`** | [[TRX-1991-01-31-Movimientos-Patrimoniales-ColoniaDignidad-01]], [[TRX-2005-06-14-Hallazgo-Arsenal-ColoniaDignidad-01]] |
-| **20** | [[TRX-2013-07-15-Boletas-Penta-UDI-01]] | [[Union Democrata Independiente]] | **`2`** | [[Carlos Alberto Delano Abbott]], [[Pablo Longueira Montes]] |
+| **15** | [[Itelecom Holding Chile SpA]] | [[Leon Marcelo Lefort Hernandez]] | **`2`** | [[TRX-2018-09-12-Sobornos-Itelecom-Licitacion-Iquique-01]], [[TRX-2019-05-14-Licitacion-Luminarias-Chillan-01]] |
+| **16** | [[Jorge Quiroz Castro]] | [[Quiroz y Asociados Consultores SpA]] | **`2`** | [[TRX-2007-04-10-Modelo-Proyeccion-Demanda-APA-Pollos-01]], [[TRX-2010-06-15-Informe-Economico-Peritaje-Defensa-Salcobrand-01]] |
+| **17** | [[Oscar Aitken Lavanchy]] | [[Riggs Bank y Sociedades Offshore Ashburton]] | **`2`** | [[TRX-2004-07-14-Gastos-Reservados-Riggs-01]], [[TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01]] |
+| **18** | [[Pablo Longueira Montes]] | [[Union Democrata Independiente]] | **`2`** | [[TRX-2010-08-19-Correo-Royalty-SQM-01]], [[TRX-2013-07-15-Boletas-Penta-UDI-01]] |
+| **19** | [[Patricio Contesse Gonzalez]] | [[SQM SA]] | **`2`** | [[TRX-2009-11-18-Facturas-Bancard-SQM-2009-01]], [[TRX-2010-08-19-Correo-Royalty-SQM-01]] |
+| **20** | [[Paul Schafer Schneider]] | [[Sociedad Benefactora y Educacional Dignidad]] | **`2`** | [[TRX-1991-01-31-Movimientos-Patrimoniales-ColoniaDignidad-01]], [[TRX-2005-06-14-Hallazgo-Arsenal-ColoniaDignidad-01]] |
 
 ---
 
@@ -126,66 +127,77 @@ Pares de actores (`Persona`, `Entidad Pública/Privada`, `Partido`) que comparte
 
 | # | Vértice 1 | Vértice 2 | Vértice 3 | Arquetipo Estructural del Motivo |
 | :---: | :--- | :--- | :--- | :--- |
-| **1** | [[Agencia Central de Inteligencia CIA y Escuela de las Americas]] | [[Manuel Contreras Sepulveda]] | [[TRX-1971-09-09-Fondos-CIA-ElMercurio-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **2** | [[Agencia Central de Inteligencia CIA y Escuela de las Americas]] | [[Manuel Contreras Sepulveda]] | [[TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **3** | [[Agustin Edwards Eastman]] | [[Empresa El Mercurio SAP]] | [[TRX-1971-09-09-Fondos-CIA-ElMercurio-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **4** | [[Alberto Larrain Salas]] | [[Fundacion ProCultura]] | [[TRX-2022-10-28-Convenio-ProCultura-Antofagasta]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **5** | [[Alberto Larrain Salas]] | [[Fundacion ProCultura]] | [[TRX-2022-11-18-Convenio-ProCultura-Biobio]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **6** | [[Andes Iron SpA]] | [[Carlos Alberto Delano Abbott]] | [[TRX-2010-12-10-Compraventa-Offshore-Dominga-Bancard-Delano-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **7** | [[Asociacion de Productores Avicolas de Chile AG]] | [[Juan Miguel Ovalle Garces]] | [[TRX-2007-04-10-Modelo-Proyeccion-Demanda-APA-Pollos-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **8** | [[Asociacion de Productores Avicolas de Chile AG]] | [[Juan Miguel Ovalle Garces]] | [[TRX-2008-01-15-Colusion-Cuotas-Produccion-Pollos-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **9** | [[Augusto Pinochet Hiriart]] | [[Augusto Pinochet Ugarte]] | [[Lucia Hiriart Rodriguez]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **10** | [[Augusto Pinochet Hiriart]] | [[Augusto Pinochet Ugarte]] | [[TRX-1989-01-10-Emision-Pinocheques-Ejercito-Valmoval-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **11** | [[Augusto Pinochet Hiriart]] | [[TRX-1989-01-10-Emision-Pinocheques-Ejercito-Valmoval-01]] | [[Valmoval Ltda]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **12** | [[Augusto Pinochet Ugarte]] | [[Julio Ponce Lerou]] | [[Lucia Hiriart Rodriguez]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **13** | [[Bancard Inversiones Ltda]] | [[Sebastian Pinera Echenique]] | [[TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **14** | [[Bancard Inversiones Ltda]] | [[Sebastian Pinera Echenique]] | [[TRX-2006-07-24-Compra-Acciones-Informacion-Privilegiada-LAN-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **15** | [[Bancard Inversiones Ltda]] | [[Sebastian Pinera Echenique]] | [[TRX-2010-12-10-Compraventa-Offshore-Dominga-Bancard-Delano-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **16** | [[Bancard Inversiones Ltda]] | [[Sebastian Pinera Echenique]] | [[TRX-2012-11-20-Inversion-Offshore-Bancard-Exalmar-LaHaya-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **17** | [[Camila Polizzi Fonceca]] | [[Fundacion En Ti]] | [[TRX-2022-12-20-Convenio-EnTi-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **18** | [[Carlos Alberto Delano Abbott]] | [[Empresas Penta SA]] | [[TRX-2013-07-15-Boletas-Penta-UDI-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **19** | [[Carlos Alberto Delano Abbott]] | [[Empresas Penta SA]] | [[TRX-2013-09-20-Boletas-Penta-Novoa-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **20** | [[Carlos Alberto Delano Abbott]] | [[TRX-2013-07-15-Boletas-Penta-UDI-01]] | [[Union Democrata Independiente]] | Triángulo de Endogamia Partidaria (`Partido ↔ Actor ↔ TRX/Entidad`) |
-| **21** | [[Carlos Alberto Delano Abbott]] | [[TRX-2013-09-20-Boletas-Penta-Novoa-01]] | [[Union Democrata Independiente]] | Triángulo de Endogamia Partidaria (`Partido ↔ Actor ↔ TRX/Entidad`) |
-| **22** | [[Carlos Cruz Lorenzen]] | [[Ministerio de Obras Publicas]] | [[TRX-2001-08-20-Contratos-MOP-GATE-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **23** | [[Carlos Pavez Tolosa]] | [[Comision para el Mercado Financiero]] | [[TRX-2006-07-24-Compra-Acciones-Informacion-Privilegiada-LAN-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **24** | [[Claudio Spiniak Vilensky]] | [[Inversiones El Bosque Ltda]] | [[TRX-2003-10-15-Patrimonio-ElBosque-Spiniak-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **25** | [[Contraloria General de la Republica]] | [[Jorge Bermudez Soto]] | [[TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **26** | [[Corpesca SA]] | [[Francisco Mujica Ortuzar]] | [[TRX-2012-07-11-Pagos-Corpesca-LeyDePesca-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **27** | [[Daniel Andrade Schwarze]] | [[Fundacion Democracia Viva]] | [[TRX-2022-10-03-Convenio-DV-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **28** | [[Daniel Andrade Schwarze]] | [[Fundacion Democracia Viva]] | [[TRX-2022-10-19-Convenio-DV-02]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **29** | [[Daniel Andrade Schwarze]] | [[Fundacion Democracia Viva]] | [[TRX-2022-11-29-Convenio-DV-03]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **30** | [[Domingo Prieto Urrejola]] | [[TRX-2021-04-15-Subvencion-VitaDeportes-01]] | [[Vita Deportes]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **31** | [[Factop SpA]] | [[Luis Hermosilla Osorio]] | [[TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **32** | [[Factop SpA]] | [[Luis Hermosilla Osorio]] | [[TRX-2022-11-15-Gestion-Nombramientos-Hermosilla-Zaliasnik-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **33** | [[Factop SpA]] | [[Luis Hermosilla Osorio]] | [[TRX-2023-02-09-Gestion-Judicial-Hermosilla-Vivanco-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **34** | [[Factop SpA]] | [[Luis Hermosilla Osorio]] | [[TRX-2023-06-22-Reunion-Audios-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **35** | [[Factop SpA]] | [[Luis Hermosilla Osorio]] | [[TRX-2023-08-25-Reporte-ROS-Factop-UAF-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **36** | [[Felipe Sanchez Perez]] | [[Inmobiliaria San Valentino SpA]] | [[TRX-2023-01-20-Compraventa-Clinica-SierraBella-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **37** | [[Fernando Cerimedo]] | [[Numen Publicidad SpA]] | [[TRX-2022-09-04-Presencia-Cerimedo-Sede-Renovacion-Nacional-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **38** | [[Fernando Leon Steffens]] | [[KDM Empresas SA]] | [[TRX-2010-11-15-Pagos-KDM-Licitacion-Basura-Maipu-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **39** | [[Frasim Ltda]] | [[Jozo Santic Palomino]] | [[TRX-2014-05-20-Facturas-LeyReservadaCobre-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **40** | [[Fundacion CEMA Chile]] | [[Lucia Hiriart Rodriguez]] | [[TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **41** | [[Gestion Ambiental y Territorial SA]] | [[Hector Pena Veliz]] | [[TRX-2001-08-20-Contratos-MOP-GATE-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **42** | [[Gonzalo Delaveau Swett]] | [[Mossack Fonseca y Sociedades Offshore Panama]] | [[TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **43** | [[Hernan Larrain Fernandez]] | [[TRX-1996-06-12-Defensa-Politica-ColoniaDignidad-01]] | [[Union Democrata Independiente]] | Triángulo de Endogamia Partidaria (`Partido ↔ Actor ↔ TRX/Entidad`) |
-| **44** | [[Iraci Hassler Jacob]] | [[Municipalidad de Santiago]] | [[TRX-2023-01-20-Compraventa-Clinica-SierraBella-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **45** | [[Itelecom Holding Chile SpA]] | [[Leon Marcelo Lefort Hernandez]] | [[TRX-2019-05-14-Licitacion-Luminarias-Chillan-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **46** | [[Javier Cruz Tamburrino]] | [[TRX-2015-08-14-GastosReservados-Ejercito-UAF-01]] | [[Unidad de Analisis Financiero]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **47** | [[Javier Cruz Tamburrino]] | [[TRX-2017-03-06-Reportes-UAF-Carabineros-01]] | [[Unidad de Analisis Financiero]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **48** | [[Javier Cruz Tamburrino]] | [[TRX-2023-08-25-Reporte-ROS-Factop-UAF-01]] | [[Unidad de Analisis Financiero]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **49** | [[Jorge Quiroz Castro]] | [[Quiroz y Asociados Consultores SpA]] | [[TRX-2007-04-10-Modelo-Proyeccion-Demanda-APA-Pollos-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **50** | [[Jorge Quiroz Castro]] | [[Quiroz y Asociados Consultores SpA]] | [[TRX-2010-06-15-Informe-Economico-Peritaje-Defensa-Salcobrand-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **51** | [[Jorge Silva Menares]] | [[Municipalidad de Machali]] | [[TRX-2014-02-18-Pagos-DOM-Machali-Caval-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **52** | [[Jovino Novoa Vasquez]] | [[TRX-2013-09-20-Boletas-Penta-Novoa-01]] | [[Union Democrata Independiente]] | Triángulo de Endogamia Partidaria (`Partido ↔ Actor ↔ TRX/Entidad`) |
-| **53** | [[Julio Ponce Lerou]] | [[Sociedad de Inversiones Pampa Calichera SA]] | [[TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **54** | [[Luis Plaza Sanchez]] | [[Municipalidad de Cerro Navia]] | [[TRX-2012-03-22-Contratos-Residuos-CerroNavia-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **55** | [[Oscar Aitken Lavanchy]] | [[Riggs Bank y Sociedades Offshore Ashburton]] | [[TRX-2004-07-14-Gastos-Reservados-Riggs-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **56** | [[Oscar Aitken Lavanchy]] | [[Riggs Bank y Sociedades Offshore Ashburton]] | [[TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **57** | [[Pablo Longueira Montes]] | [[TRX-2010-08-19-Correo-Royalty-SQM-01]] | [[Union Democrata Independiente]] | Triángulo de Endogamia Partidaria (`Partido ↔ Actor ↔ TRX/Entidad`) |
-| **58** | [[Pablo Longueira Montes]] | [[TRX-2013-07-15-Boletas-Penta-UDI-01]] | [[Union Democrata Independiente]] | Triángulo de Endogamia Partidaria (`Partido ↔ Actor ↔ TRX/Entidad`) |
-| **59** | [[Patricio Contesse Gonzalez]] | [[SQM SA]] | [[TRX-2009-11-18-Facturas-Bancard-SQM-2009-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **60** | [[Patricio Contesse Gonzalez]] | [[SQM SA]] | [[TRX-2010-08-19-Correo-Royalty-SQM-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **61** | [[Paul Schafer Schneider]] | [[Sociedad Benefactora y Educacional Dignidad]] | [[TRX-1991-01-31-Movimientos-Patrimoniales-ColoniaDignidad-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **62** | [[Paul Schafer Schneider]] | [[Sociedad Benefactora y Educacional Dignidad]] | [[TRX-2005-06-14-Hallazgo-Arsenal-ColoniaDignidad-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
-| **63** | [[Pia Guzman Mena]] | [[Renovacion Nacional]] | [[TRX-2003-11-05-Arista-Politica-Spiniak-01]] | Triángulo de Endogamia Partidaria (`Partido ↔ Actor ↔ TRX/Entidad`) |
+| **1** | [[AC Inversions SpA]] | [[Patricio Santos Hernandez]] | [[TRX-2016-03-01-Estafa-Piramidal-Lavado-ACInversions-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **2** | [[Agencia Central de Inteligencia CIA y Escuela de las Americas]] | [[Manuel Contreras Sepulveda]] | [[TRX-1971-09-09-Fondos-CIA-ElMercurio-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **3** | [[Agencia Central de Inteligencia CIA y Escuela de las Americas]] | [[Manuel Contreras Sepulveda]] | [[TRX-1975-08-15-Pagos-CIA-Entrenamiento-SOA-DINA-Contreras-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **4** | [[Agustin Edwards Eastman]] | [[Empresa El Mercurio SAP]] | [[TRX-1971-09-09-Fondos-CIA-ElMercurio-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **5** | [[Alberto Larrain Salas]] | [[Fundacion ProCultura]] | [[TRX-2022-10-28-Convenio-ProCultura-Antofagasta]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **6** | [[Alberto Larrain Salas]] | [[Fundacion ProCultura]] | [[TRX-2022-11-18-Convenio-ProCultura-Biobio]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **7** | [[Andes Iron SpA]] | [[Carlos Alberto Delano Abbott]] | [[TRX-2010-12-10-Compraventa-Offshore-Dominga-Bancard-Delano-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **8** | [[Asociacion de Productores Avicolas de Chile AG]] | [[Juan Miguel Ovalle Garces]] | [[TRX-2007-04-10-Modelo-Proyeccion-Demanda-APA-Pollos-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **9** | [[Asociacion de Productores Avicolas de Chile AG]] | [[Juan Miguel Ovalle Garces]] | [[TRX-2008-01-15-Colusion-Cuotas-Produccion-Pollos-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **10** | [[Augusto Pinochet Hiriart]] | [[Augusto Pinochet Ugarte]] | [[Lucia Hiriart Rodriguez]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **11** | [[Augusto Pinochet Hiriart]] | [[Augusto Pinochet Ugarte]] | [[TRX-1989-01-10-Emision-Pinocheques-Ejercito-Valmoval-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **12** | [[Augusto Pinochet Hiriart]] | [[TRX-1989-01-10-Emision-Pinocheques-Ejercito-Valmoval-01]] | [[Valmoval Ltda]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **13** | [[Augusto Pinochet Ugarte]] | [[Julio Ponce Lerou]] | [[Lucia Hiriart Rodriguez]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **14** | [[Bancard Inversiones Ltda]] | [[Sebastian Pinera Echenique]] | [[TRX-1982-08-28-Creditos-Relacionados-BancoDeTalca-Pinera-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **15** | [[Bancard Inversiones Ltda]] | [[Sebastian Pinera Echenique]] | [[TRX-2006-07-24-Compra-Acciones-Informacion-Privilegiada-LAN-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **16** | [[Bancard Inversiones Ltda]] | [[Sebastian Pinera Echenique]] | [[TRX-2010-12-10-Compraventa-Offshore-Dominga-Bancard-Delano-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **17** | [[Bancard Inversiones Ltda]] | [[Sebastian Pinera Echenique]] | [[TRX-2012-11-20-Inversion-Offshore-Bancard-Exalmar-LaHaya-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **18** | [[Beltran Urenda Salamanca]] | [[Compania Maritima de Chile SA]] | [[TRX-2020-08-14-Multas-Colusion-Navieras-CarCarriers-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **19** | [[Camila Polizzi Fonceca]] | [[Fundacion En Ti]] | [[TRX-2022-12-20-Convenio-EnTi-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **20** | [[Carlos Alberto Delano Abbott]] | [[Empresas Penta SA]] | [[TRX-2013-07-15-Boletas-Penta-UDI-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **21** | [[Carlos Alberto Delano Abbott]] | [[Empresas Penta SA]] | [[TRX-2013-09-20-Boletas-Penta-Novoa-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **22** | [[Carlos Alberto Delano Abbott]] | [[TRX-2013-07-15-Boletas-Penta-UDI-01]] | [[Union Democrata Independiente]] | Triángulo de Endogamia Partidaria (`Partido ↔ Actor ↔ TRX/Entidad`) |
+| **23** | [[Carlos Alberto Delano Abbott]] | [[TRX-2013-09-20-Boletas-Penta-Novoa-01]] | [[Union Democrata Independiente]] | Triángulo de Endogamia Partidaria (`Partido ↔ Actor ↔ TRX/Entidad`) |
+| **24** | [[Carlos Cruz Lorenzen]] | [[Ministerio de Obras Publicas]] | [[TRX-2001-08-20-Contratos-MOP-GATE-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **25** | [[Carlos Pavez Tolosa]] | [[Comision para el Mercado Financiero]] | [[TRX-2006-07-24-Compra-Acciones-Informacion-Privilegiada-LAN-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **26** | [[Cencosud SA]] | [[Horst Paulmann Kemna]] | [[TRX-2020-04-08-Multas-Colusion-Supermercados-Pollo-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **27** | [[Claudio Spiniak Vilensky]] | [[Inversiones El Bosque Ltda]] | [[TRX-2003-10-15-Patrimonio-ElBosque-Spiniak-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **28** | [[Contraloria General de la Republica]] | [[Jorge Bermudez Soto]] | [[TRX-2023-06-29-Auditoria-CGR-DemocraciaViva-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **29** | [[Corpesca SA]] | [[Francisco Mujica Ortuzar]] | [[TRX-2012-07-11-Pagos-Corpesca-LeyDePesca-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **30** | [[Cristian Pareto Vergara]] | [[Partido Democrata Cristiano]] | [[TRX-2002-10-15-Sobornos-Plantas-Revision-Tecnica-Coimas-01]] | Triángulo de Endogamia Partidaria (`Partido ↔ Actor ↔ TRX/Entidad`) |
+| **31** | [[Daniel Andrade Schwarze]] | [[Fundacion Democracia Viva]] | [[TRX-2022-10-03-Convenio-DV-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **32** | [[Daniel Andrade Schwarze]] | [[Fundacion Democracia Viva]] | [[TRX-2022-10-19-Convenio-DV-02]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **33** | [[Daniel Andrade Schwarze]] | [[Fundacion Democracia Viva]] | [[TRX-2022-11-29-Convenio-DV-03]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **34** | [[Domingo Prieto Urrejola]] | [[TRX-2021-04-15-Subvencion-VitaDeportes-01]] | [[Vita Deportes]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **35** | [[Empresas La Polar SA]] | [[Pablo Alcalde Saavedra]] | [[TRX-2011-06-09-Repactaciones-Unilaterales-LaPolar-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **36** | [[Empresas Pullman Bus SA]] | [[Pedro Farias Soto]] | [[TRX-2015-04-20-Multas-Colusion-Buses-Interurbanos-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **37** | [[Factop SpA]] | [[Luis Hermosilla Osorio]] | [[TRX-2019-12-11-Defensa-AC-Transferencias-Factop-Hermosilla-Chadwick-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **38** | [[Factop SpA]] | [[Luis Hermosilla Osorio]] | [[TRX-2022-11-15-Gestion-Nombramientos-Hermosilla-Zaliasnik-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **39** | [[Factop SpA]] | [[Luis Hermosilla Osorio]] | [[TRX-2023-02-09-Gestion-Judicial-Hermosilla-Vivanco-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **40** | [[Factop SpA]] | [[Luis Hermosilla Osorio]] | [[TRX-2023-06-22-Reunion-Audios-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **41** | [[Factop SpA]] | [[Luis Hermosilla Osorio]] | [[TRX-2023-08-25-Reporte-ROS-Factop-UAF-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **42** | [[Felipe Sanchez Perez]] | [[Inmobiliaria San Valentino SpA]] | [[TRX-2023-01-20-Compraventa-Clinica-SierraBella-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **43** | [[Fernando Cerimedo]] | [[Numen Publicidad SpA]] | [[TRX-2022-09-04-Presencia-Cerimedo-Sede-Renovacion-Nacional-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **44** | [[Fernando Leon Steffens]] | [[KDM Empresas SA]] | [[TRX-2010-11-15-Pagos-KDM-Licitacion-Basura-Maipu-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **45** | [[Frasim Ltda]] | [[Jozo Santic Palomino]] | [[TRX-2014-05-20-Facturas-LeyReservadaCobre-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **46** | [[Fundacion CEMA Chile]] | [[Lucia Hiriart Rodriguez]] | [[TRX-2016-08-12-Enajenacion-Inmuebles-Fiscales-CEMAChile-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **47** | [[Gestion Ambiental y Territorial SA]] | [[Hector Pena Veliz]] | [[TRX-2001-08-20-Contratos-MOP-GATE-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **48** | [[Gonzalo Delaveau Swett]] | [[Mossack Fonseca y Sociedades Offshore Panama]] | [[TRX-2016-04-03-Estructuracion-Offshore-MossackFonseca-Delaveau-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **49** | [[Hector Zuniga Rogers]] | [[TRX-2011-04-15-Sobornos-Acreditacion-UniversidadDelMar-CNA-01]] | [[Universidad del Mar]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **50** | [[Hernan Larrain Fernandez]] | [[TRX-1996-06-12-Defensa-Politica-ColoniaDignidad-01]] | [[Union Democrata Independiente]] | Triángulo de Endogamia Partidaria (`Partido ↔ Actor ↔ TRX/Entidad`) |
+| **51** | [[Iraci Hassler Jacob]] | [[Municipalidad de Santiago]] | [[TRX-2023-01-20-Compraventa-Clinica-SierraBella-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **52** | [[Itelecom Holding Chile SpA]] | [[Leon Marcelo Lefort Hernandez]] | [[TRX-2018-09-12-Sobornos-Itelecom-Licitacion-Iquique-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **53** | [[Itelecom Holding Chile SpA]] | [[Leon Marcelo Lefort Hernandez]] | [[TRX-2019-05-14-Licitacion-Luminarias-Chillan-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **54** | [[Javier Cruz Tamburrino]] | [[TRX-2015-08-14-GastosReservados-Ejercito-UAF-01]] | [[Unidad de Analisis Financiero]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **55** | [[Javier Cruz Tamburrino]] | [[TRX-2017-03-06-Reportes-UAF-Carabineros-01]] | [[Unidad de Analisis Financiero]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **56** | [[Javier Cruz Tamburrino]] | [[TRX-2023-08-25-Reporte-ROS-Factop-UAF-01]] | [[Unidad de Analisis Financiero]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **57** | [[Jorge Quiroz Castro]] | [[Quiroz y Asociados Consultores SpA]] | [[TRX-2007-04-10-Modelo-Proyeccion-Demanda-APA-Pollos-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **58** | [[Jorge Quiroz Castro]] | [[Quiroz y Asociados Consultores SpA]] | [[TRX-2010-06-15-Informe-Economico-Peritaje-Defensa-Salcobrand-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **59** | [[Jorge Silva Menares]] | [[Municipalidad de Machali]] | [[TRX-2014-02-18-Pagos-DOM-Machali-Caval-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **60** | [[Jose Miguel Izquierdo Sanchez]] | [[Main Comunicacion Estrategica]] | [[TRX-2015-10-01-Asesoria-Main-CMDS-Antofagasta-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **61** | [[Jovino Novoa Vasquez]] | [[TRX-2013-09-20-Boletas-Penta-Novoa-01]] | [[Union Democrata Independiente]] | Triángulo de Endogamia Partidaria (`Partido ↔ Actor ↔ TRX/Entidad`) |
+| **62** | [[Julio Ponce Lerou]] | [[Sociedad de Inversiones Pampa Calichera SA]] | [[TRX-2011-12-19-Operaciones-Bursatiles-Cascadas-SQM-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **63** | [[Luis Plaza Sanchez]] | [[Municipalidad de Cerro Navia]] | [[TRX-2012-03-22-Contratos-Residuos-CerroNavia-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **64** | [[Manuel Arancibia Morales]] | [[Publicam Limitada]] | [[TRX-2005-11-10-Desvio-Fondos-Chiledeportes-Publicam-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **65** | [[Oscar Aitken Lavanchy]] | [[Riggs Bank y Sociedades Offshore Ashburton]] | [[TRX-2004-07-14-Gastos-Reservados-Riggs-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **66** | [[Oscar Aitken Lavanchy]] | [[Riggs Bank y Sociedades Offshore Ashburton]] | [[TRX-2016-04-15-Cruce-Offshore-MossackFonseca-Riggs-Pinochet-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **67** | [[Pablo Longueira Montes]] | [[TRX-2010-08-19-Correo-Royalty-SQM-01]] | [[Union Democrata Independiente]] | Triángulo de Endogamia Partidaria (`Partido ↔ Actor ↔ TRX/Entidad`) |
+| **68** | [[Pablo Longueira Montes]] | [[TRX-2013-07-15-Boletas-Penta-UDI-01]] | [[Union Democrata Independiente]] | Triángulo de Endogamia Partidaria (`Partido ↔ Actor ↔ TRX/Entidad`) |
+| **69** | [[Partido por la Democracia]] | [[Patricio Rodrigo Salinas]] | [[TRX-2011-10-05-Facturas-SQM-ChileAmbiente-PPD-01]] | Triángulo de Endogamia Partidaria (`Partido ↔ Actor ↔ TRX/Entidad`) |
+| **70** | [[Patricio Contesse Gonzalez]] | [[SQM SA]] | [[TRX-2009-11-18-Facturas-Bancard-SQM-2009-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **71** | [[Patricio Contesse Gonzalez]] | [[SQM SA]] | [[TRX-2010-08-19-Correo-Royalty-SQM-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **72** | [[Paul Schafer Schneider]] | [[Sociedad Benefactora y Educacional Dignidad]] | [[TRX-1991-01-31-Movimientos-Patrimoniales-ColoniaDignidad-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **73** | [[Paul Schafer Schneider]] | [[Sociedad Benefactora y Educacional Dignidad]] | [[TRX-2005-06-14-Hallazgo-Arsenal-ColoniaDignidad-01]] | Triángulo Directo (`Entidad ↔ Persona ↔ TRX`) |
+| **74** | [[Pia Guzman Mena]] | [[Renovacion Nacional]] | [[TRX-2003-11-05-Arista-Politica-Spiniak-01]] | Triángulo de Endogamia Partidaria (`Partido ↔ Actor ↔ TRX/Entidad`) |

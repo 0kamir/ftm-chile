@@ -8,22 +8,12 @@ rol_principal: "Ex Consejero Regional (CORE) de Valparaíso por Renovación Naci
 afiliacion_politica: "[[Renovacion Nacional]]"
 situacion_procesal: ninguna
 medida_cautelar: "Juicio de cuentas iniciado por la Contraloría (2020) por viáticos objetados; sin imputación penal conocida"
-estado_verificacion: parcial
-fuentes:
-  - url: "https://www.biobiochile.cl/noticias/nacional/region-de-valparaiso/2020/01/17/contraloria-iniciara-juicio-de-cuentas-contra-percy-marin-cifra-indagada-de-mas-de-9-millones.shtml"
-    titulo: "Contraloría iniciará juicio de cuentas contra Percy Marín: cifra indagada de más de 9 millones"
-    medio: "BioBioChile"
-    tipo: secundaria
-    fecha: 2020-01-17
-    consultado: 2026-10-19
-  - url: "https://www.biobiochile.cl/noticias/nacional/region-de-valparaiso/2020/06/16/rn-solicita-sanciones-expulsion-al-consejero-regional-percy-marin.shtml"
-    titulo: "RN solicita sanciones y expulsión al consejero regional Percy Marín"
-    medio: "BioBioChile"
-    tipo: secundaria
-    fecha: 2020-06-16
-    consultado: 2026-10-19
 historial_correcciones:
   - "Se retiró la arista de registros íntimos (2026-10-19): asunto de vida privada sin formalización. RUT eliminado por no constar en fuente pública."
+estado_verificacion: parcial
+fuentes:
+  - "https://www.biobiochile.cl/noticias/nacional/region-de-valparaiso/2020/01/17/contraloria-iniciara-juicio-de-cuentas-contra-percy-marin-cifra-indagada-de-mas-de-9-millones.shtml"
+  - "https://www.biobiochile.cl/noticias/nacional/region-de-valparaiso/2020/06/16/rn-solicita-sanciones-expulsion-al-consejero-regional-percy-marin.shtml"
 tags:
   - entidad/persona
   - ex-core
@@ -68,13 +58,8 @@ dv.table(
 ```
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Contraloría iniciará juicio de cuentas contra Percy Marín: cifra indagada de más de 9 millones](https://www.biobiochile.cl/noticias/nacional/region-de-valparaiso/2020/01/17/contraloria-iniciara-juicio-de-cuentas-contra-percy-marin-cifra-indagada-de-mas-de-9-millones.shtml) | BioBioChile | `secundaria` | 2020-01-17 | [Wayback ↺](https://web.archive.org/web/*/https://www.biobiochile.cl/noticias/nacional/region-de-valparaiso/2020/01/17/contraloria-iniciara-juicio-de-cuentas-contra-percy-marin-cifra-indagada-de-mas-de-9-millones.shtml) |
+| [RN solicita sanciones y expulsión al consejero regional Percy Marín](https://www.biobiochile.cl/noticias/nacional/region-de-valparaiso/2020/06/16/rn-solicita-sanciones-expulsion-al-consejero-regional-percy-marin.shtml) | BioBioChile | `secundaria` | 2020-06-16 | [Wayback ↺](https://web.archive.org/web/*/https://www.biobiochile.cl/noticias/nacional/region-de-valparaiso/2020/06/16/rn-solicita-sanciones-expulsion-al-consejero-regional-percy-marin.shtml) |

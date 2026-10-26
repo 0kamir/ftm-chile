@@ -9,18 +9,8 @@ causa_vinculada: "[[Caso Colusion de las Farmacias]]"
 nexo_respaldado: "[[TRX-2007-11-01-Colusion-Precios-Medicamentos-Farmacias-01]]"
 estado_verificacion: verificado
 fuentes:
-  - url: "https://centrocompetencia.com/wp-content/uploads/2022/03/Sentencia_119_Corte_Suprema.pdf"
-    titulo: "Fallo Corte Suprema Rol 2578-2012 (caso Farmacias)"
-    medio: "CentroCompetencia (copia del fallo)"
-    tipo: primaria
-    fecha: 2012-09-07
-    consultado: 2026-10-19
-  - url: "https://www.theclinic.cl/2012/09/07/suprema-le-hace-una-tapa-de-100-metros-a-farmacias-por-reclamo-sobre-multas-en-caso-colusion/"
-    titulo: "Suprema rechaza reclamo de farmacias sobre multas"
-    medio: "The Clinic"
-    tipo: secundaria
-    fecha: 2012-09-07
-    consultado: 2026-10-19
+  - "https://centrocompetencia.com/wp-content/uploads/2022/03/Sentencia_119_Corte_Suprema.pdf"
+  - "https://www.theclinic.cl/2012/09/07/suprema-le-hace-una-tapa-de-100-metros-a-farmacias-por-reclamo-sobre-multas-en-caso-colusion/"
 tags:
   - evidencia/sentencia
   - corte-suprema
@@ -43,13 +33,8 @@ tags:
 Fallo definitivo e inapelable de la Corte Suprema que rechazó en todas sus partes los recursos de reclamación interpuestos por [[Farmacias Cruz Verde SA]] y [[Farmacias Salcobrand SA]], confirmando la existencia del cartel y la aplicación de la multa de **20.000 UTA** a cada una. La Corte dio por plenamente demostrado que ambas cadenas utilizaron a los laboratorios proveedores farmacéuticos para verificar el cumplimiento del acuerdo ilícito sobre los 222 medicamentos críticos.
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Fallo Corte Suprema Rol 2578-2012 (caso Farmacias)](https://centrocompetencia.com/wp-content/uploads/2022/03/Sentencia_119_Corte_Suprema.pdf) | CentroCompetencia (copia del fallo) | `primaria` | 2012-09-07 | [Wayback ↺](https://web.archive.org/web/*/https://centrocompetencia.com/wp-content/uploads/2022/03/Sentencia_119_Corte_Suprema.pdf) |
+| [Suprema rechaza reclamo de farmacias sobre multas](https://www.theclinic.cl/2012/09/07/suprema-le-hace-una-tapa-de-100-metros-a-farmacias-por-reclamo-sobre-multas-en-caso-colusion/) | The Clinic | `secundaria` | 2012-09-07 | [Wayback ↺](https://web.archive.org/web/*/https://www.theclinic.cl/2012/09/07/suprema-le-hace-una-tapa-de-100-metros-a-farmacias-por-reclamo-sobre-multas-en-caso-colusion/) |

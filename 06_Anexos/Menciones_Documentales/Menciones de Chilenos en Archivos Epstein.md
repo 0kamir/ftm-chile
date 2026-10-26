@@ -1,31 +1,13 @@
 ---
 tipo_nodo: anexo_documental
-estado_verificacion: verificado
-fuentes:
-  - url: "https://www.justice.gov/epstein"
-    titulo: "Epstein Library (archivos publicados por el DOJ)"
-    medio: "U.S. Department of Justice"
-    tipo: primaria
-    fecha: 2026-01-30
-    consultado: 2026-10-19
-  - url: "https://cnnespanol.cnn.com/2025/12/23/eeuu/conclusiones-lote-archivos-epstein-trax"
-    titulo: "Conclusiones del lote de archivos Epstein"
-    medio: "CNN en Español"
-    tipo: secundaria
-    fecha: 2025-12-23
-    consultado: 2026-10-19
-  - url: "https://www.cnnchile.com/pais/cientifico-chileno-correos-jeffrey-epstein-eduardo-guendelman/"
-    titulo: "Científico chileno en correos de Jeffrey Epstein (Eduardo Guendelman)"
-    medio: "CNN Chile"
-    tipo: secundaria
-    consultado: 2026-10-19
-  - url: "https://www.elciudadano.com/?p=1143444"
-    titulo: "Epstein Case Shakes Chile: Andrónico Luksic and Andrés Velasco Named as «Persons of Interest»"
-    medio: "El Ciudadano (resumen de reportaje de BioBioChile)"
-    tipo: secundaria
-    consultado: 2026-10-19
 historial_correcciones:
   - "2026-10-19: la causa 'Caso Archivos Epstein Menciones Chile', sus 3 TRX y la evidencia del DOJ se retiraron del grafo y se consolidaron en este anexo. Ninguna persona chilena mencionada está imputada ni investigada; incluirlas como nodos de una red de corrupción sugería culpa por asociación."
+estado_verificacion: verificado
+fuentes:
+  - "https://www.justice.gov/epstein"
+  - "https://cnnespanol.cnn.com/2025/12/23/eeuu/conclusiones-lote-archivos-epstein-trax"
+  - "https://www.cnnchile.com/pais/cientifico-chileno-correos-jeffrey-epstein-eduardo-guendelman/"
+  - "https://www.elciudadano.com/?p=1143444"
 tags:
   - anexo/menciones-documentales
   - fuera-del-grafo
@@ -51,13 +33,10 @@ Radio BioBío describió a Luksic y Velasco como "personas de interés" en su re
 Este anexo existe para documentar qué se publicó y aclarar su alcance, no para vincular a nadie con delitos. Si en el futuro surge una investigación o imputación en Chile relacionada con estos documentos, se incorporará al grafo por el [[Flujo_Incorporacion_Informacion]] con su fuente.
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Epstein Library (archivos publicados por el DOJ)](https://www.justice.gov/epstein) | U.S. Department of Justice | `primaria` | 2026-01-30 | [Wayback ↺](https://web.archive.org/web/*/https://www.justice.gov/epstein) |
+| [Conclusiones del lote de archivos Epstein](https://cnnespanol.cnn.com/2025/12/23/eeuu/conclusiones-lote-archivos-epstein-trax) | CNN en Español | `secundaria` | 2025-12-23 | [Wayback ↺](https://web.archive.org/web/*/https://cnnespanol.cnn.com/2025/12/23/eeuu/conclusiones-lote-archivos-epstein-trax) |
+| [Científico chileno en correos de Jeffrey Epstein (Eduardo Guendelman)](https://www.cnnchile.com/pais/cientifico-chileno-correos-jeffrey-epstein-eduardo-guendelman/) | CNN Chile | `secundaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://www.cnnchile.com/pais/cientifico-chileno-correos-jeffrey-epstein-eduardo-guendelman/) |
+| [Epstein Case Shakes Chile: Andrónico Luksic and Andrés Velasco Named as «Persons of Interest»](https://www.elciudadano.com/?p=1143444) | El Ciudadano (resumen de reportaje de BioBioChile) | `secundaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://www.elciudadano.com/?p=1143444) |

@@ -8,17 +8,8 @@ estado_judicial: formalizada
 delito_principal: "[[Cohecho]]"
 estado_verificacion: parcial
 fuentes:
-  - url: "https://www.ex-ante.cl/politica/caso-luminarias-25-claves-para-entender-la-investigacion-por-sobornos-en-municipios/"
-    titulo: "Caso Luminarias: claves de la investigación por sobornos en municipios"
-    medio: "Ex-Ante"
-    tipo: secundaria
-    consultado: 2026-10-19
-  - url: "https://www.eldinamo.cl/pais/2021/06/30/caso-luminarias-led-confirman-prision-preventiva-de-dueno-de-itelecom-acusado-de-soborno/"
-    titulo: "Caso Luminarias LED: confirman prisión preventiva de dueño de Itelecom"
-    medio: "El Dínamo"
-    tipo: secundaria
-    fecha: 2021-06-30
-    consultado: 2026-10-19
+  - "https://www.ex-ante.cl/politica/caso-luminarias-25-claves-para-entender-la-investigacion-por-sobornos-en-municipios/"
+  - "https://www.eldinamo.cl/pais/2021/06/30/caso-luminarias-led-confirman-prision-preventiva-de-dueno-de-itelecom-acusado-de-soborno/"
 tags:
   - causa
   - caso-luminarias-led
@@ -37,7 +28,7 @@ tags:
 - **Delito Principal**: `= this.delito_principal` (en concurso con [[Lavado de Activos]] y [[Violacion de Secreto]] / delitos tributarios)
 
 ## Resumen Ejecutivo
-Investigación por presunta corrupción en licitaciones públicas de recambio de alumbrado municipal a tecnología LED en más de una decena de comunas de Chile. La empresa [[Itelecom Holding Chile SpA]], controlada por su gerente general [[Leon Marcelo Lefort Hernandez]], habría pagado sobornos, según la Fiscalía, a directivos y asesores municipales —como el administrador municipal de la [[Municipalidad de Chillan]], [[Marcelo Campos Henriquez]]— para manipular las bases técnicas y adjudicarse contratos ([[TRX-2019-05-14-Licitacion-Luminarias-Chillan-01]]), según la hipótesis de la Fiscalía. Según la Fiscalía de Ñuble, [[Leon Marcelo Lefort Hernandez]] fue detenido el 05-05-2020 tras entregar presuntamente $37 millones en efectivo a [[Marcelo Campos Henriquez]], quien habría anticipado las bases técnicas de la licitación a [[Itelecom Holding Chile SpA]]. A la fecha de la última verificación (2026-10-19) no se encontró sentencia: la causa registra formalizaciones, prisión preventiva luego sustituida por arresto domiciliario y una acusación contra 15 imputados. Rige la presunción de inocencia.
+Investigación por corrupción en licitaciones públicas de recambio de alumbrado municipal a tecnología LED en más de una decena de comunas de Chile. En la **arista de la [[Municipalidad de Iquique]]**, los tribunales dictaron **varias sentencias condenatorias** ([[Sentencia-Condenatoria-Luminarias-Iquique-2023]]), algunas en juicios abreviados, contra exconcejales —como [[Guillermo Cejas Valenzuela]]— y un exfuncionario municipal por recibir sobornos vinculados a [[Itelecom Holding Chile SpA]] ([[TRX-2018-09-12-Sobornos-Itelecom-Licitacion-Iquique-01]]). Paralelamente, en la arista Ñuble, la empresa [[Itelecom Holding Chile SpA]], controlada por su gerente general [[Leon Marcelo Lefort Hernandez]], habría pagado sobornos, según la Fiscalía, a directivos y asesores municipales —como el administrador municipal de la [[Municipalidad de Chillan]], [[Marcelo Campos Henriquez]]— para manipular las bases técnicas y adjudicarse contratos ([[TRX-2019-05-14-Licitacion-Luminarias-Chillan-01]]), según la hipótesis de la Fiscalía. Según la Fiscalía de Ñuble, [[Leon Marcelo Lefort Hernandez]] fue detenido el 05-05-2020 tras entregar presuntamente $37 millones en efectivo a [[Marcelo Campos Henriquez]], quien habría anticipado las bases técnicas de la licitación a [[Itelecom Holding Chile SpA]]. En la arista Chillán rige la presunción de inocencia respecto de los imputados sin sentencia firme.
 
 ## Hechos y Nexos Vinculados a la Causa
 ```dataview
@@ -57,13 +48,8 @@ SORT fecha ASC
 ```
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Caso Luminarias: claves de la investigación por sobornos en municipios](https://www.ex-ante.cl/politica/caso-luminarias-25-claves-para-entender-la-investigacion-por-sobornos-en-municipios/) | Ex-Ante | `secundaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://www.ex-ante.cl/politica/caso-luminarias-25-claves-para-entender-la-investigacion-por-sobornos-en-municipios/) |
+| [Caso Luminarias LED: confirman prisión preventiva de dueño de Itelecom](https://www.eldinamo.cl/pais/2021/06/30/caso-luminarias-led-confirman-prision-preventiva-de-dueno-de-itelecom-acusado-de-soborno/) | El Dínamo | `secundaria` | 2021-06-30 | [Wayback ↺](https://web.archive.org/web/*/https://www.eldinamo.cl/pais/2021/06/30/caso-luminarias-led-confirman-prision-preventiva-de-dueno-de-itelecom-acusado-de-soborno/) |

@@ -9,17 +9,8 @@ causa_vinculada: "[[Caso Caval]]"
 nexo_respaldado: "[[TRX-2015-01-29-Facturas-Caval-SII-01]]"
 estado_verificacion: verificado
 fuentes:
-  - url: "https://www.biobiochile.cl/noticias/nacional/chile/2018/07/11/lectura-de-sentencia-caso-caval.shtml"
-    titulo: "Lectura de sentencia Caso Caval"
-    medio: "BioBioChile"
-    tipo: secundaria
-    fecha: 2018-07-11
-    consultado: 2026-10-19
-  - url: "https://www.cnnchile.com/pais/natalia-compagnon-fue-condenada-por-delito-tributario/"
-    titulo: "Natalia Compagnon fue condenada por delito tributario"
-    medio: "CNN Chile"
-    tipo: secundaria
-    consultado: 2026-10-19
+  - "https://www.biobiochile.cl/noticias/nacional/chile/2018/07/11/lectura-de-sentencia-caso-caval.shtml"
+  - "https://www.cnnchile.com/pais/natalia-compagnon-fue-condenada-por-delito-tributario/"
 tags:
   - evidencia/sentencia
   - caso-caval
@@ -41,13 +32,8 @@ tags:
 Sentencias dictadas en el marco del [[Caso Caval]] (RUC `1500169916-0`) que condenaron a [[Natalia Compagnon Soto]] por delito tributario ante el [[Servicio Impuestos Internos]] ([[TRX-2015-01-29-Facturas-Caval-SII-01]]) y absolvieron a su socio [[Mauricio Valero Illanes]] y a [[Exportadora y de Gestion Caval Ltda]] (TOP de Rancagua, julio de 2018), así como, en sentencia separada de enero de 2018, al ex Director de Obras Municipales de la [[Municipalidad de Machali]], [[Jorge Silva Menares]], por el delito de [[Cohecho]] reiterado en el proceso de cambio del Plan Regulador Intercomunal ([[TRX-2014-02-18-Pagos-DOM-Machali-Caval-01]]).
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Lectura de sentencia Caso Caval](https://www.biobiochile.cl/noticias/nacional/chile/2018/07/11/lectura-de-sentencia-caso-caval.shtml) | BioBioChile | `secundaria` | 2018-07-11 | [Wayback ↺](https://web.archive.org/web/*/https://www.biobiochile.cl/noticias/nacional/chile/2018/07/11/lectura-de-sentencia-caso-caval.shtml) |
+| [Natalia Compagnon fue condenada por delito tributario](https://www.cnnchile.com/pais/natalia-compagnon-fue-condenada-por-delito-tributario/) | CNN Chile | `secundaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://www.cnnchile.com/pais/natalia-compagnon-fue-condenada-por-delito-tributario/) |

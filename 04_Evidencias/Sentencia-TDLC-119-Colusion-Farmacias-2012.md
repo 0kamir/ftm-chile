@@ -9,12 +9,7 @@ causa_vinculada: "[[Caso Colusion de las Farmacias]]"
 nexo_respaldado: "[[TRX-2007-11-01-Colusion-Precios-Medicamentos-Farmacias-01]]"
 estado_verificacion: verificado
 fuentes:
-  - url: "https://centrocompetencia.com/wp-content/uploads/2022/03/Sentencia_119_Corte_Suprema.pdf"
-    titulo: "Sentencia TDLC N° 119/2012"
-    medio: "CentroCompetencia (copia del fallo)"
-    tipo: primaria
-    fecha: 2012-01-31
-    consultado: 2026-10-19
+  - "https://centrocompetencia.com/wp-content/uploads/2022/03/Sentencia_119_Corte_Suprema.pdf"
 tags:
   - evidencia/sentencia
   - tdlc
@@ -38,13 +33,7 @@ tags:
 Sentencia de término del TDLC que acogió el requerimiento de la [[Fiscalia Nacional Economica]] en el [[Caso Colusion de las Farmacias]], acreditando que [[Farmacias Cruz Verde SA]] y [[Farmacias Salcobrand SA]] incurrieron en una práctica concertada para alzar coordinadamente los precios de venta a público de 222 medicamentos entre diciembre de 2007 y marzo de 2008. El tribunal aplicó la sanción máxima legal de 20.000 UTA a cada una de las dos cadenas no acogidas a conciliación.
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Sentencia TDLC N° 119/2012](https://centrocompetencia.com/wp-content/uploads/2022/03/Sentencia_119_Corte_Suprema.pdf) | CentroCompetencia (copia del fallo) | `primaria` | 2012-01-31 | [Wayback ↺](https://web.archive.org/web/*/https://centrocompetencia.com/wp-content/uploads/2022/03/Sentencia_119_Corte_Suprema.pdf) |

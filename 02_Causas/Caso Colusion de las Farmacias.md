@@ -8,23 +8,9 @@ estado_judicial: cerrada_con_condena
 delito_principal: "[[Colusion y Atentado a la Libre Competencia]]"
 estado_verificacion: verificado
 fuentes:
-  - url: "https://centrocompetencia.com/wp-content/uploads/2022/03/Sentencia_119_Corte_Suprema.pdf"
-    titulo: "Sentencia TDLC N° 119/2012 y fallo Corte Suprema Rol 2578-2012"
-    medio: "CentroCompetencia (copia del fallo)"
-    tipo: primaria
-    fecha: 2012-09-07
-    consultado: 2026-10-19
-  - url: "https://www.df.cl/empresas/suprema-confirma-acuerdo-entre-fne-y-fasa-por-caso-colusion"
-    titulo: "Suprema confirma acuerdo entre FNE y FASA por caso colusión"
-    medio: "Diario Financiero"
-    tipo: secundaria
-    consultado: 2026-10-19
-  - url: "https://www.cooperativa.cl/noticias/site/artic/20191220/pags-amp/20191220104347.html"
-    titulo: "Grandes cadenas de farmacias deberán pagar compensaciones a clientes tras colusión"
-    medio: "Cooperativa"
-    tipo: secundaria
-    fecha: 2019-12-20
-    consultado: 2026-10-19
+  - "https://centrocompetencia.com/wp-content/uploads/2022/03/Sentencia_119_Corte_Suprema.pdf"
+  - "https://www.df.cl/empresas/suprema-confirma-acuerdo-entre-fne-y-fasa-por-caso-colusion"
+  - "https://www.cooperativa.cl/noticias/site/artic/20191220/pags-amp/20191220104347.html"
 tags:
   - causa
   - libre-competencia
@@ -71,13 +57,9 @@ SORT fecha ASC
 ```
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Sentencia TDLC N° 119/2012 y fallo Corte Suprema Rol 2578-2012](https://centrocompetencia.com/wp-content/uploads/2022/03/Sentencia_119_Corte_Suprema.pdf) | CentroCompetencia (copia del fallo) | `primaria` | 2012-09-07 | [Wayback ↺](https://web.archive.org/web/*/https://centrocompetencia.com/wp-content/uploads/2022/03/Sentencia_119_Corte_Suprema.pdf) |
+| [Suprema confirma acuerdo entre FNE y FASA por caso colusión](https://www.df.cl/empresas/suprema-confirma-acuerdo-entre-fne-y-fasa-por-caso-colusion) | Diario Financiero | `secundaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://www.df.cl/empresas/suprema-confirma-acuerdo-entre-fne-y-fasa-por-caso-colusion) |
+| [Grandes cadenas de farmacias deberán pagar compensaciones a clientes tras colusión](https://www.cooperativa.cl/noticias/site/artic/20191220/pags-amp/20191220104347.html) | Cooperativa | `secundaria` | 2019-12-20 | [Wayback ↺](https://web.archive.org/web/*/https://www.cooperativa.cl/noticias/site/artic/20191220/pags-amp/20191220104347.html) |

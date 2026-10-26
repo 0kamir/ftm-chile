@@ -9,18 +9,8 @@ causa_vinculada: "[[Caso Convenios]]"
 nexo_respaldado: "[[TRX-2022-12-20-Convenio-EnTi-01]]"
 estado_verificacion: verificado
 fuentes:
-  - url: "https://www.cnnchile.com/pais/formalizacion-camila-polizzi-convenios_20231129/"
-    titulo: "Formalización de Camila Polizzi en Caso Convenios"
-    medio: "CNN Chile"
-    tipo: secundaria
-    fecha: 2023-11-29
-    consultado: 2026-10-19
-  - url: "https://www.radioagricultura.cl/nacional/2023/08/07/caso-convenios-pdi-allana-gobierno-regional-del-biobio/"
-    titulo: "Caso Convenios: PDI allana Gobierno Regional del Biobío"
-    medio: "Radio Agricultura"
-    tipo: secundaria
-    fecha: 2023-08-07
-    consultado: 2026-10-19
+  - "https://www.cnnchile.com/pais/formalizacion-camila-polizzi-convenios_20231129/"
+  - "https://www.radioagricultura.cl/nacional/2023/08/07/caso-convenios-pdi-allana-gobierno-regional-del-biobio/"
 tags:
   - evidencia/resolucion-exenta
   - caso-convenios
@@ -43,13 +33,8 @@ tags:
 Acto administrativo del [[GORE Biobio]] (administración de [[Rodrigo Diaz Worner]]) que aprueba la transferencia en una sola cuota de **$250.635.000 CLP** a favor de [[Fundacion En Ti]], gestionada por [[Camila Polizzi Fonceca]], dando origen al nexo [[TRX-2022-12-20-Convenio-EnTi-01]] dentro del [[Caso Convenios]] e imputaciones por [[Fraude al Fisco]] y [[Lavado de Activos]].
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Formalización de Camila Polizzi en Caso Convenios](https://www.cnnchile.com/pais/formalizacion-camila-polizzi-convenios_20231129/) | CNN Chile | `secundaria` | 2023-11-29 | [Wayback ↺](https://web.archive.org/web/*/https://www.cnnchile.com/pais/formalizacion-camila-polizzi-convenios_20231129/) |
+| [Caso Convenios: PDI allana Gobierno Regional del Biobío](https://www.radioagricultura.cl/nacional/2023/08/07/caso-convenios-pdi-allana-gobierno-regional-del-biobio/) | Radio Agricultura | `secundaria` | 2023-08-07 | [Wayback ↺](https://web.archive.org/web/*/https://www.radioagricultura.cl/nacional/2023/08/07/caso-convenios-pdi-allana-gobierno-regional-del-biobio/) |

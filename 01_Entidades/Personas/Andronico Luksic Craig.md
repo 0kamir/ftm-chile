@@ -8,6 +8,13 @@ rol_principal: "Empresario y Ex Presidente del Holding Quiñenco S.A. y Banco de
 afiliacion_politica: "Independiente"
 situacion_procesal: ninguna
 medida_cautelar: "Sin medidas cautelares ni procesos judiciales vigentes"
+estado_verificacion: verificado
+fuentes:
+  - "https://www.biobiochile.cl/noticias/nacional/chile/2018/07/11/lectura-de-sentencia-caso-caval.shtml"
+  - "https://www.cnnchile.com/pais/rechazan-recurso-de-nulidad-presentado-por-natalia-compagnon_20181018/"
+  - "https://www.elciudadano.com/?p=524007"
+  - "https://www.fne.gob.cl/corte-suprema-acoge-parcialmente-reclamacion-de-la-fne-y-sanciona-a-todas-las-navieras-que-integraron-cartel-del-transporte-maritimo-de-vehiculos-hacia-chile-con-multas-totales-de-us-305-millones/"
+  - "https://www.fne.gob.cl/fne-pide-a-la-corte-suprema-que-eleve-sanciones-contra-navieras-que-integraron-cartel-de-transporte-de-vehiculos-hacia-chile/"
 tags:
   - entidad/persona
   - empresario
@@ -46,3 +53,13 @@ dv.table(
   ])
 );
 ```
+
+## Fuentes Verificables
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Lectura de sentencia Caso Caval](https://www.biobiochile.cl/noticias/nacional/chile/2018/07/11/lectura-de-sentencia-caso-caval.shtml) | BioBioChile | `secundaria` | 2018-07-11 | [Wayback ↺](https://web.archive.org/web/*/https://www.biobiochile.cl/noticias/nacional/chile/2018/07/11/lectura-de-sentencia-caso-caval.shtml) |
+| [Rechazan recurso de nulidad presentado por Natalia Compagnon](https://www.cnnchile.com/pais/rechazan-recurso-de-nulidad-presentado-por-natalia-compagnon_20181018/) | CNN Chile | `secundaria` | 2018-10-18 | [Wayback ↺](https://web.archive.org/web/*/https://www.cnnchile.com/pais/rechazan-recurso-de-nulidad-presentado-por-natalia-compagnon_20181018/) |
+| [Mauricio Valero fue absuelto](https://www.elciudadano.com/?p=524007) | El Ciudadano | `secundaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://www.elciudadano.com/?p=524007) |
+| [Corte Suprema acoge reclamación de la FNE y sanciona a todas las navieras que integraron cartel del transporte marítimo de vehículos hacia Chile con multas de US$ 30,5 millones](https://www.fne.gob.cl/corte-suprema-acoge-parcialmente-reclamacion-de-la-fne-y-sanciona-a-todas-las-navieras-que-integraron-cartel-del-transporte-maritimo-de-vehiculos-hacia-chile-con-multas-totales-de-us-305-millones/) | Fiscalía Nacional Económica (FNE) | `primaria` | 2020-08-14 | [Wayback ↺](https://web.archive.org/web/*/https://www.fne.gob.cl/corte-suprema-acoge-parcialmente-reclamacion-de-la-fne-y-sanciona-a-todas-las-navieras-que-integraron-cartel-del-transporte-maritimo-de-vehiculos-hacia-chile-con-multas-totales-de-us-305-millones/) |
+| [FNE pide a la Corte Suprema que eleve sanciones contra navieras que integraron cartel de transporte de vehículos hacia Chile](https://www.fne.gob.cl/fne-pide-a-la-corte-suprema-que-eleve-sanciones-contra-navieras-que-integraron-cartel-de-transporte-de-vehiculos-hacia-chile/) | Fiscalía Nacional Económica (FNE) | `primaria` | 2017-08-18 | [Wayback ↺](https://web.archive.org/web/*/https://www.fne.gob.cl/fne-pide-a-la-corte-suprema-que-eleve-sanciones-contra-navieras-que-integraron-cartel-de-transporte-de-vehiculos-hacia-chile/) |

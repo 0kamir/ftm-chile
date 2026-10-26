@@ -15,6 +15,11 @@ causa_vinculada: "[[Caso CEMA Chile]]"
 evidencia_soporte: "[[Disolucion-CDE-Fundacion-CEMAChile-2021]]"
 historial_correcciones:
   - "2026-10-19: monto_clp $10.500.000.000 llevado a 0; la cifra no aparece en ninguna fuente verificable."
+estado_verificacion: verificado
+fuentes:
+  - "https://www.emol.com/noticias/Nacional/2021/12/16/1041401/fallecio-lucia-hiriart.html"
+  - "https://www.theclinic.cl/2016/08/23/caso-cema-chile-fraude-al-fisco/"
+  - "https://www.theclinic.cl/2016/12/29/lo-que-declaro-lucia-hiriart-por-el-caso-cema-chile-por-mi-no-pasaba-ni-un-centavo/"
 tags:
   - nexo/desviacion-fondos
   - caso-cema-chile
@@ -43,3 +48,11 @@ tags:
 > Las cifras en pesos mencionadas en esta nota no aparecen en ninguna fuente verificable y no se contabilizan en los totales del vault (antes: $10.500.000.000 CLP).
 
 Apropiación estatutaria, venta comercial a terceros y posterior embargo y restitución forzosa al Fisco de Chile del patrimonio inmobiliario transferido gratuitamente por el Estado entre 1973 y 1990 a la [[Fundacion CEMA Chile]], presidida vitaliciamente por [[Lucia Hiriart Rodriguez]]. Tras las primeras pesquisas de desvíos de fondos de CEMA hacia la familia Pinochet detectadas por el ministro [[Sergio Munoz Gajardo]] en el [[Caso Riggs]], la reapertura judicial de 2016 en el [[Caso CEMA Chile]] investigó ventas inmobiliarias por más de `$8.900.000.000 CLP` y derivó en la disolución de la fundación vía CDE (2021) y el traspaso de sus bienes al Fisco y a fundaciones de beneficencia (según Emol, el Estado recuperó más de $18.000 millones; la cifra de $10.500 millones previa no tiene fuente) ([[Disolucion-CDE-Fundacion-CEMAChile-2021]]).
+
+## Fuentes Verificables
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Falleció Lucía Hiriart (menciona recuperación de bienes vía CDE)](https://www.emol.com/noticias/Nacional/2021/12/16/1041401/fallecio-lucia-hiriart.html) | Emol | `secundaria` | 2021-12-16 | [Wayback ↺](https://web.archive.org/web/*/https://www.emol.com/noticias/Nacional/2021/12/16/1041401/fallecio-lucia-hiriart.html) |
+| [Caso CEMA Chile: querella por fraude al fisco](https://www.theclinic.cl/2016/08/23/caso-cema-chile-fraude-al-fisco/) | The Clinic | `secundaria` | 2016-08-23 | [Wayback ↺](https://web.archive.org/web/*/https://www.theclinic.cl/2016/08/23/caso-cema-chile-fraude-al-fisco/) |
+| [Lo que declaró Lucía Hiriart por el caso CEMA Chile](https://www.theclinic.cl/2016/12/29/lo-que-declaro-lucia-hiriart-por-el-caso-cema-chile-por-mi-no-pasaba-ni-un-centavo/) | The Clinic | `secundaria` | 2016-12-29 | [Wayback ↺](https://web.archive.org/web/*/https://www.theclinic.cl/2016/12/29/lo-que-declaro-lucia-hiriart-por-el-caso-cema-chile-por-mi-no-pasaba-ni-un-centavo/) |

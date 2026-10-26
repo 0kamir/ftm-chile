@@ -13,6 +13,10 @@ firmante_destino: "[[Oscar Aitken Lavanchy]]"
 delito_imputado: "[[Malversacion de Caudales Publicos]]"
 causa_vinculada: "[[Caso Riggs]]"
 evidencia_soporte: "[[Sentencia-Corte-Suprema-CasoRiggs-2018]]"
+estado_verificacion: verificado
+fuentes:
+  - "https://www.cnnchile.com/pais/caso-riggs-fue-cerrado-por-la-corte-suprema-tras-14-anos/"
+  - "https://www.theclinic.cl/2018/08/25/ordenan-decomiso-de-bienes-de-pinochet-por-mas-de-us-16-millones/"
 tags:
   - nexo/desviacion-fondos
   - caso-riggs
@@ -38,3 +42,10 @@ tags:
 
 ## Descripción del Hecho
 Sustracción y desvío sistemático de caudales públicos provenientes de las partidas de gastos reservados de la Comandancia en Jefe del Ejército ([[Comando de Apoyo a la Fuerza del Ejercito]]) y de la Presidencia de la República bajo el mando de [[Augusto Pinochet Ugarte]], canalizados a través de valijas diplomáticas, agregadurías militares y transferencias del Banco Riggs hacia más de **125 cuentas bancarias secretas**, depósitos a plazo y sociedades *offshore* (*Ashburton Company Ltd.*, *Althorp Investment Co.*) administradas con la intervención de [[Oscar Aitken Lavanchy]] bajo nombres falsos (*"Daniel López"*). El peritaje de la Universidad de Chile en el [[Caso Riggs]], instruido inicialmente por [[Sergio Munoz Gajardo]], determinó que **US$ 17,86 millones** (`$15.800.000.000 CLP`) carecían de justificación lícita, culminando en la condena por [[Malversacion de Caudales Publicos]] y el comiso definitivo ordenado por la [[Corte Suprema de Chile]] en [[Sentencia-Corte-Suprema-CasoRiggs-2018]].
+
+## Fuentes Verificables
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Caso Riggs fue cerrado por la Corte Suprema tras 14 años](https://www.cnnchile.com/pais/caso-riggs-fue-cerrado-por-la-corte-suprema-tras-14-anos/) | CNN Chile | `secundaria` | 2018-08-24 | [Wayback ↺](https://web.archive.org/web/*/https://www.cnnchile.com/pais/caso-riggs-fue-cerrado-por-la-corte-suprema-tras-14-anos/) |
+| [Ordenan decomiso de bienes de Pinochet](https://www.theclinic.cl/2018/08/25/ordenan-decomiso-de-bienes-de-pinochet-por-mas-de-us-16-millones/) | The Clinic | `secundaria` | 2018-08-25 | [Wayback ↺](https://web.archive.org/web/*/https://www.theclinic.cl/2018/08/25/ordenan-decomiso-de-bienes-de-pinochet-por-mas-de-us-16-millones/) |

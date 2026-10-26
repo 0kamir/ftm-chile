@@ -4,6 +4,9 @@ articulo_cp: "Artículo 239 del Código Penal"
 bien_juridico: "Probidad administrativa y patrimonio fiscal"
 pena_referencial: "Presidio menor en su grado medio a presidio mayor en su grado medio (según monto en UTM)"
 prescripcion_anos: 5
+estado_verificacion: verificado
+fuentes:
+  - "https://www.bcn.cl/leychile/navegar?idNorma=1984"
 tags:
   - delito/fraude-al-fisco
 ---
@@ -31,3 +34,9 @@ FROM "03_Hechos_y_Nexos"
 WHERE contains(string(delito_imputado), this.file.name)
 SORT fecha DESC
 ```
+
+## Fuentes Verificables
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Código Penal de Chile — Artículo 239 (Fraude al Fisco)](https://www.bcn.cl/leychile/navegar?idNorma=1984) | Biblioteca del Congreso Nacional (BCN LeyChile) | `primaria` | 1874-11-12 | [Wayback ↺](https://web.archive.org/web/*/https://www.bcn.cl/leychile/navegar?idNorma=1984) |

@@ -7,6 +7,10 @@ rol_principal: "Empresario Minero, Ex Presidente de la CPC y Ex Presidente de la
 afiliacion_politica: "Independiente (Dirigente Gremial Empresarial)"
 situacion_procesal: testigo_clave
 medida_cautelar: "Fallecido en julio de 2021 (Incluido en las auditorías del SII por sociedades offshore en Panamá e Islas Vírgenes Británicas)"
+estado_verificacion: verificado
+fuentes:
+  - "https://ciperchile.cl/2016/04/04/the-panama-papers-los-secretos-de-chilenos-en-paraisos-fiscales-salen-a-la-luz/"
+  - "https://offshoreleaks.icij.org/"
 tags:
   - entidad/persona
   - panama-papers
@@ -39,3 +43,10 @@ FROM "03_Hechos_y_Nexos"
 WHERE contains(string(firmante_origen), this.file.name) OR contains(string(firmante_destino), this.file.name)
 SORT fecha ASC
 ```
+
+## Fuentes Verificables
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [The Panama Papers: los secretos de chilenos en paraísos fiscales](https://ciperchile.cl/2016/04/04/the-panama-papers-los-secretos-de-chilenos-en-paraisos-fiscales-salen-a-la-luz/) | CIPER Chile | `secundaria` | 2016-04-04 | [Wayback ↺](https://web.archive.org/web/*/https://ciperchile.cl/2016/04/04/the-panama-papers-los-secretos-de-chilenos-en-paraisos-fiscales-salen-a-la-luz/) |
+| [ICIJ Offshore Leaks Database](https://offshoreleaks.icij.org/) | ICIJ | `primaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://offshoreleaks.icij.org/) |

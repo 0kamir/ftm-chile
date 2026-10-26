@@ -47,6 +47,12 @@ def main() -> int:
             meta = yaml.safe_load(m.group(1)) or {}
             tipo = meta.get("tipo_nodo")
 
+            fuentes_urls = " | ".join(
+                str(fu.get("url") if isinstance(fu, dict) else fu)
+                for fu in (meta.get("fuentes") or [])
+                if str(fu.get("url") if isinstance(fu, dict) else fu).startswith(("http://", "https://"))
+            )
+
             if tipo == "nexo_transaccion":
                 transacciones.append(
                     {
@@ -62,6 +68,7 @@ def main() -> int:
                         "causa_vinculada": clean_link(meta.get("causa_vinculada")),
                         "delito_imputado": clean_link(meta.get("delito_imputado")),
                         "evidencia_soporte": clean_link(meta.get("evidencia_soporte")),
+                        "fuentes_urls": fuentes_urls,
                     }
                 )
             elif tipo == "persona":
@@ -73,6 +80,7 @@ def main() -> int:
                         "afiliacion_politica": clean_link(meta.get("afiliacion_politica")),
                         "situacion_procesal": str(meta.get("situacion_procesal", "")),
                         "medida_cautelar": str(meta.get("medida_cautelar", "")),
+                        "fuentes_urls": fuentes_urls,
                     }
                 )
             elif tipo in ("entidad_publica", "entidad_privada", "partido_politico"):
@@ -97,6 +105,7 @@ def main() -> int:
                             or meta.get("superior_jerarquico")
                             or ""
                         ),
+                        "fuentes_urls": fuentes_urls,
                     }
                 )
 

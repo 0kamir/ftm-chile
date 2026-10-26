@@ -6,34 +6,14 @@ tribunal_o_fiscalia: "Superintendencia de Valores y Seguros (CMF) / Corte de Ape
 fiscal_a_cargo: "Superintendencia de Valores y Seguros (Resolución Exenta N° 306-2007) / Ministro Luis Correa Bulo (Causa Banco de Talca 1982)"
 estado_judicial: cerrada_con_condena
 delito_principal: "[[Negociacion Incompatible]]"
-estado_verificacion: verificado
-fuentes:
-  - url: "https://www.ciperchile.cl/2009/09/29/el-directorio-de-lan-que-se-transformo-en-la-peor-pesadilla-de-pinera/"
-    titulo: "El directorio de Lan que se transformó en la peor pesadilla de Sebastián Piñera"
-    medio: "CIPER Chile"
-    tipo: secundaria
-    fecha: 2009-09-29
-    consultado: 2026-10-19
-  - url: "https://www.cooperativa.cl/noticias/site/artic/20121128/pags-amp/20121128154834.html"
-    titulo: "Suprema ratificó multa contra dueños de LAN por comprar acciones con información privilegiada"
-    medio: "Cooperativa"
-    tipo: secundaria
-    fecha: 2012-11-28
-    consultado: 2026-10-19
-  - url: "https://www.emol.com/noticias/nacional/2009/07/27/368966/pinera-y-caso-banco-de-talca-fui-victima-de-un-acto-injusto-ilegal-y-arbitrario.html"
-    titulo: "Piñera y caso Banco de Talca: 'Fui víctima de un acto injusto, ilegal y arbitrario'"
-    medio: "Emol"
-    tipo: secundaria
-    fecha: 2009-07-27
-    consultado: 2026-10-19
-  - url: "https://eldesconcierto.cl/2017/02/27/del-banco-talca-exalmar-5-momentos-pinera-se-vio-complicado-la-justicia"
-    titulo: "Del Banco de Talca a Exalmar: 5 momentos en que Piñera se vio complicado con la justicia"
-    medio: "El Desconcierto"
-    tipo: secundaria
-    fecha: 2017-02-27
-    consultado: 2026-10-19
 historial_correcciones:
   - "Resolución Exenta SVS N° 306 (06-07-2007): multa de 19.470 UF por infracción al deber de abstención (art. 165 Ley 18.045). Banco de Talca (1982): orden de detención anulada por la Corte Suprema tras un amparo; Piñera no fue condenado."
+estado_verificacion: verificado
+fuentes:
+  - "https://www.ciperchile.cl/2009/09/29/el-directorio-de-lan-que-se-transformo-en-la-peor-pesadilla-de-pinera/"
+  - "https://www.cooperativa.cl/noticias/site/artic/20121128/pags-amp/20121128154834.html"
+  - "https://www.emol.com/noticias/nacional/2009/07/27/368966/pinera-y-caso-banco-de-talca-fui-victima-de-un-acto-injusto-ilegal-y-arbitrario.html"
+  - "https://eldesconcierto.cl/2017/02/27/del-banco-talca-exalmar-5-momentos-pinera-se-vio-complicado-la-justicia"
 tags:
   - causa
   - caso-lan
@@ -75,13 +55,10 @@ SORT fecha ASC
 ```
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [El directorio de Lan que se transformó en la peor pesadilla de Sebastián Piñera](https://www.ciperchile.cl/2009/09/29/el-directorio-de-lan-que-se-transformo-en-la-peor-pesadilla-de-pinera/) | CIPER Chile | `secundaria` | 2009-09-29 | [Wayback ↺](https://web.archive.org/web/*/https://www.ciperchile.cl/2009/09/29/el-directorio-de-lan-que-se-transformo-en-la-peor-pesadilla-de-pinera/) |
+| [Suprema ratificó multa contra dueños de LAN por comprar acciones con información privilegiada](https://www.cooperativa.cl/noticias/site/artic/20121128/pags-amp/20121128154834.html) | Cooperativa | `secundaria` | 2012-11-28 | [Wayback ↺](https://web.archive.org/web/*/https://www.cooperativa.cl/noticias/site/artic/20121128/pags-amp/20121128154834.html) |
+| [Piñera y caso Banco de Talca: 'Fui víctima de un acto injusto, ilegal y arbitrario'](https://www.emol.com/noticias/nacional/2009/07/27/368966/pinera-y-caso-banco-de-talca-fui-victima-de-un-acto-injusto-ilegal-y-arbitrario.html) | Emol | `secundaria` | 2009-07-27 | [Wayback ↺](https://web.archive.org/web/*/https://www.emol.com/noticias/nacional/2009/07/27/368966/pinera-y-caso-banco-de-talca-fui-victima-de-un-acto-injusto-ilegal-y-arbitrario.html) |
+| [Del Banco de Talca a Exalmar: 5 momentos en que Piñera se vio complicado con la justicia](https://eldesconcierto.cl/2017/02/27/del-banco-talca-exalmar-5-momentos-pinera-se-vio-complicado-la-justicia) | El Desconcierto | `secundaria` | 2017-02-27 | [Wayback ↺](https://web.archive.org/web/*/https://eldesconcierto.cl/2017/02/27/del-banco-talca-exalmar-5-momentos-pinera-se-vio-complicado-la-justicia) |

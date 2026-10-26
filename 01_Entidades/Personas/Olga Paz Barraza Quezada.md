@@ -6,21 +6,15 @@ rol_principal: "Imputada señalada por la Fiscalía como líder del 'Clan Barraz
 afiliacion_politica: "Independiente"
 situacion_procesal: formalizado
 medida_cautelar: ""
-estado_verificacion: parcial
-fuentes: 
-  - url: "https://www.latercera.com/la-tercera-pm/noticia/expediente-secreto-del-sii-como-funcionaba-los-seis-clanes-que-crearon-el-mecanismo-del-fraude-tributario-mas-grande-de-la-historia/I4RBDAJD2JEZZJLGXGIDE7ZR6A/"
-    titulo: "Expediente secreto del SII: cómo funcionaban los seis clanes del fraude tributario"
-    medio: "La Tercera"
-    tipo: secundaria
-    consultado: 2026-10-19
-  - url: "https://www.latercera.com/nacional/noticia/el-listado-de-los-55-imputados-por-el-megafraude-tributario/JEH5YAOVRJHAPMLM5UIGN3N4CM/"
-    titulo: "El listado de los 55 imputados por el megafraude tributario"
-    medio: "La Tercera"
-    tipo: secundaria
-    fecha: 2023-12-15
-    consultado: 2026-10-19
 historial_correcciones:
   - "Nombre y rol corregidos el 2026-10-19 según el listado publicado por la prensa; RUT eliminado por no constar en fuente pública."
+estado_verificacion: parcial
+fuentes:
+  - "https://www.latercera.com/la-tercera-pm/noticia/expediente-secreto-del-sii-como-funcionaba-los-seis-clanes-que-crearon-el-mecanismo-del-fraude-tributario-mas-grande-de-la-historia/I4RBDAJD2JEZZJLGXGIDE7ZR6A/"
+  - "https://www.latercera.com/nacional/noticia/el-listado-de-los-55-imputados-por-el-megafraude-tributario/JEH5YAOVRJHAPMLM5UIGN3N4CM/"
+  - "https://www.biobiochile.cl/noticias/economia/negocios-y-empresas/2023/12/15/sii-confirma-que-55-empresarios-detenidos-concretaron-el-mayor-fraude-de-la-historia-contra-el-fisco.shtml"
+  - "https://www.latercera.com/nacional/noticia/megafraude-tributario-clan-de-pavez-canessa-vendia-facturas-falsas-y-contaba-con-un-notario-suplente-en-la-organizacion/552EKQIRDRFKBNGSSO2I3L2N3I/"
+  - "https://cooperativa.cl/noticias/pais/judicial/denuncias-de-corrupcion/caso-tributos-fiscalia-pide-prision-preventiva-para-26-empresarios/2023-12-18/164214.html"
 tags:
   - entidad/persona
   - megafraude-sii
@@ -59,3 +53,13 @@ dv.table(
   ])
 );
 ```
+
+## Fuentes Verificables
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Expediente secreto del SII: cómo funcionaban los seis clanes del fraude tributario](https://www.latercera.com/la-tercera-pm/noticia/expediente-secreto-del-sii-como-funcionaba-los-seis-clanes-que-crearon-el-mecanismo-del-fraude-tributario-mas-grande-de-la-historia/I4RBDAJD2JEZZJLGXGIDE7ZR6A/) | La Tercera | `secundaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://www.latercera.com/la-tercera-pm/noticia/expediente-secreto-del-sii-como-funcionaba-los-seis-clanes-que-crearon-el-mecanismo-del-fraude-tributario-mas-grande-de-la-historia/I4RBDAJD2JEZZJLGXGIDE7ZR6A/) |
+| [El listado de los 55 imputados por el megafraude tributario](https://www.latercera.com/nacional/noticia/el-listado-de-los-55-imputados-por-el-megafraude-tributario/JEH5YAOVRJHAPMLM5UIGN3N4CM/) | La Tercera | `secundaria` | 2023-12-15 | [Wayback ↺](https://web.archive.org/web/*/https://www.latercera.com/nacional/noticia/el-listado-de-los-55-imputados-por-el-megafraude-tributario/JEH5YAOVRJHAPMLM5UIGN3N4CM/) |
+| [SII confirma que 55 empresarios detenidos concretaron el mayor fraude de la historia contra el fisco](https://www.biobiochile.cl/noticias/economia/negocios-y-empresas/2023/12/15/sii-confirma-que-55-empresarios-detenidos-concretaron-el-mayor-fraude-de-la-historia-contra-el-fisco.shtml) | BioBioChile | `secundaria` | 2023-12-15 | [Wayback ↺](https://web.archive.org/web/*/https://www.biobiochile.cl/noticias/economia/negocios-y-empresas/2023/12/15/sii-confirma-que-55-empresarios-detenidos-concretaron-el-mayor-fraude-de-la-historia-contra-el-fisco.shtml) |
+| [Megafraude tributario: clan Pavez Canessa vendía facturas falsas](https://www.latercera.com/nacional/noticia/megafraude-tributario-clan-de-pavez-canessa-vendia-facturas-falsas-y-contaba-con-un-notario-suplente-en-la-organizacion/552EKQIRDRFKBNGSSO2I3L2N3I/) | La Tercera | `secundaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://www.latercera.com/nacional/noticia/megafraude-tributario-clan-de-pavez-canessa-vendia-facturas-falsas-y-contaba-con-un-notario-suplente-en-la-organizacion/552EKQIRDRFKBNGSSO2I3L2N3I/) |
+| [Caso Tributos: Fiscalía pide prisión preventiva para 26 empresarios](https://cooperativa.cl/noticias/pais/judicial/denuncias-de-corrupcion/caso-tributos-fiscalia-pide-prision-preventiva-para-26-empresarios/2023-12-18/164214.html) | Cooperativa | `secundaria` | 2023-12-18 | [Wayback ↺](https://web.archive.org/web/*/https://cooperativa.cl/noticias/pais/judicial/denuncias-de-corrupcion/caso-tributos-fiscalia-pide-prision-preventiva-para-26-empresarios/2023-12-18/164214.html) |

@@ -6,27 +6,13 @@ tribunal_o_fiscalia: "1° Juzgado de Garantía de Santiago / Fiscalía Regional 
 fiscal_a_cargo: "Eduardo Baeza Cervela / José Luis Pérez Calaf"
 estado_judicial: formalizada_con_prisiones_preventivas
 delito_principal: "[[Delito Tributario]]"
-estado_verificacion: verificado
-fuentes:
-  - url: "https://www.biobiochile.cl/noticias/economia/negocios-y-empresas/2023/12/15/sii-confirma-que-55-empresarios-detenidos-concretaron-el-mayor-fraude-de-la-historia-contra-el-fisco.shtml"
-    titulo: "SII confirma que 55 empresarios detenidos concretaron el mayor fraude de la historia contra el fisco"
-    medio: "BioBioChile"
-    tipo: secundaria
-    fecha: 2023-12-15
-    consultado: 2026-10-19
-  - url: "https://www.latercera.com/nacional/noticia/megafraude-tributario-clan-de-pavez-canessa-vendia-facturas-falsas-y-contaba-con-un-notario-suplente-en-la-organizacion/552EKQIRDRFKBNGSSO2I3L2N3I/"
-    titulo: "Megafraude tributario: clan Pavez Canessa vendía facturas falsas"
-    medio: "La Tercera"
-    tipo: secundaria
-    consultado: 2026-10-19
-  - url: "https://cooperativa.cl/noticias/pais/judicial/denuncias-de-corrupcion/caso-tributos-fiscalia-pide-prision-preventiva-para-26-empresarios/2023-12-18/164214.html"
-    titulo: "Caso Tributos: Fiscalía pide prisión preventiva para 26 empresarios"
-    medio: "Cooperativa"
-    tipo: secundaria
-    fecha: 2023-12-18
-    consultado: 2026-10-19
 historial_correcciones:
   - "Personas renombradas el 2026-10-19 según el listado publicado por La Tercera (Pavez Canessa, Galaz Rojas, Sacco Croxatto, Jiménez Farías). Se retiraron dos sociedades y un TRX de lavado sin fuente."
+estado_verificacion: verificado
+fuentes:
+  - "https://www.biobiochile.cl/noticias/economia/negocios-y-empresas/2023/12/15/sii-confirma-que-55-empresarios-detenidos-concretaron-el-mayor-fraude-de-la-historia-contra-el-fisco.shtml"
+  - "https://www.latercera.com/nacional/noticia/megafraude-tributario-clan-de-pavez-canessa-vendia-facturas-falsas-y-contaba-con-un-notario-suplente-en-la-organizacion/552EKQIRDRFKBNGSSO2I3L2N3I/"
+  - "https://cooperativa.cl/noticias/pais/judicial/denuncias-de-corrupcion/caso-tributos-fiscalia-pide-prision-preventiva-para-26-empresarios/2023-12-18/164214.html"
 tags:
   - causa
   - operacion-tributos
@@ -74,13 +60,9 @@ SORT fecha ASC
 ```
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [SII confirma que 55 empresarios detenidos concretaron el mayor fraude de la historia contra el fisco](https://www.biobiochile.cl/noticias/economia/negocios-y-empresas/2023/12/15/sii-confirma-que-55-empresarios-detenidos-concretaron-el-mayor-fraude-de-la-historia-contra-el-fisco.shtml) | BioBioChile | `secundaria` | 2023-12-15 | [Wayback ↺](https://web.archive.org/web/*/https://www.biobiochile.cl/noticias/economia/negocios-y-empresas/2023/12/15/sii-confirma-que-55-empresarios-detenidos-concretaron-el-mayor-fraude-de-la-historia-contra-el-fisco.shtml) |
+| [Megafraude tributario: clan Pavez Canessa vendía facturas falsas](https://www.latercera.com/nacional/noticia/megafraude-tributario-clan-de-pavez-canessa-vendia-facturas-falsas-y-contaba-con-un-notario-suplente-en-la-organizacion/552EKQIRDRFKBNGSSO2I3L2N3I/) | La Tercera | `secundaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://www.latercera.com/nacional/noticia/megafraude-tributario-clan-de-pavez-canessa-vendia-facturas-falsas-y-contaba-con-un-notario-suplente-en-la-organizacion/552EKQIRDRFKBNGSSO2I3L2N3I/) |
+| [Caso Tributos: Fiscalía pide prisión preventiva para 26 empresarios](https://cooperativa.cl/noticias/pais/judicial/denuncias-de-corrupcion/caso-tributos-fiscalia-pide-prision-preventiva-para-26-empresarios/2023-12-18/164214.html) | Cooperativa | `secundaria` | 2023-12-18 | [Wayback ↺](https://web.archive.org/web/*/https://cooperativa.cl/noticias/pais/judicial/denuncias-de-corrupcion/caso-tributos-fiscalia-pide-prision-preventiva-para-26-empresarios/2023-12-18/164214.html) |

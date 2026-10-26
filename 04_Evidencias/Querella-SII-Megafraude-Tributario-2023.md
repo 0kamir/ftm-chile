@@ -9,12 +9,7 @@ causa_vinculada: "[[Caso Megafraude Tributario Operacion Tributos]]"
 nexo_respaldado: "[[TRX-2023-12-14-Perjuicio-Fiscal-Operacion-Tributos-01]]"
 estado_verificacion: verificado
 fuentes:
-  - url: "https://www.biobiochile.cl/noticias/economia/negocios-y-empresas/2023/12/15/sii-confirma-que-55-empresarios-detenidos-concretaron-el-mayor-fraude-de-la-historia-contra-el-fisco.shtml"
-    titulo: "SII confirma que 55 empresarios detenidos concretaron el mayor fraude"
-    medio: "BioBioChile"
-    tipo: secundaria
-    fecha: 2023-12-15
-    consultado: 2026-10-19
+  - "https://www.biobiochile.cl/noticias/economia/negocios-y-empresas/2023/12/15/sii-confirma-que-55-empresarios-detenidos-concretaron-el-mayor-fraude-de-la-historia-contra-el-fisco.shtml"
 tags:
   - evidencia/querella
   - sii
@@ -38,13 +33,7 @@ tags:
 Querella del [[Servicio Impuestos Internos]] ante el 1° Juzgado de Garantía de Santiago que, junto a la acción de Aduanas, dio origen a la investigación de la Fiscalía Metropolitana Occidente (fiscal Eduardo Baeza) y la BRILAC de la PDI. Según el SII, el mecanismo operó con más de 100.000 facturas falsas y un perjuicio estimado de $240.000 millones. El texto de la querella no está publicado; su contenido se conoce por la prensa.
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [SII confirma que 55 empresarios detenidos concretaron el mayor fraude](https://www.biobiochile.cl/noticias/economia/negocios-y-empresas/2023/12/15/sii-confirma-que-55-empresarios-detenidos-concretaron-el-mayor-fraude-de-la-historia-contra-el-fisco.shtml) | BioBioChile | `secundaria` | 2023-12-15 | [Wayback ↺](https://web.archive.org/web/*/https://www.biobiochile.cl/noticias/economia/negocios-y-empresas/2023/12/15/sii-confirma-que-55-empresarios-detenidos-concretaron-el-mayor-fraude-de-la-historia-contra-el-fisco.shtml) |

@@ -15,6 +15,10 @@ causa_vinculada: "[[Caso Panama Papers Chile]]"
 evidencia_soporte: "[[Filtracion-ICIJ-PanamaPapers-Chile-2016]]"
 historial_correcciones:
   - "2026-10-19: monto_clp $3.800.000.000 llevado a 0; la cifra no aparece en ninguna fuente verificable."
+estado_verificacion: verificado
+fuentes:
+  - "https://ciperchile.cl/2016/04/04/the-panama-papers-los-secretos-de-chilenos-en-paraisos-fiscales-salen-a-la-luz/"
+  - "https://offshoreleaks.icij.org/"
 tags:
   - nexo/desviacion-fondos
   - panama-papers
@@ -44,3 +48,10 @@ tags:
 > Las cifras en pesos mencionadas en esta nota no aparecen en ninguna fuente verificable y no se contabilizan en los totales del vault (antes: $3.800.000.000 CLP).
 
 Intersección documental acreditada en los archivos internos de [[Mossack Fonseca y Sociedades Offshore Panama]] ([[Filtracion-ICIJ-PanamaPapers-Chile-2016]]) que documenta que el bufete panameño administró y prestó servicios de agente residente en las Islas Vírgenes Británicas y Bahamas para sociedades de papel integradas en el circuito de [[Riggs Bank y Sociedades Offshore Ashburton]], estructuradas con intervención de [[Oscar Aitken Lavanchy]] para ocultar caudales de [[Augusto Pinochet Ugarte]] investigados en el [[Caso Riggs]] y posteriormente afectos al comiso de la [[Corte Suprema de Chile]] ([[Sentencia-Corte-Suprema-CasoRiggs-2018]]).
+
+## Fuentes Verificables
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [The Panama Papers: los secretos de chilenos en paraísos fiscales](https://ciperchile.cl/2016/04/04/the-panama-papers-los-secretos-de-chilenos-en-paraisos-fiscales-salen-a-la-luz/) | CIPER Chile | `secundaria` | 2016-04-04 | [Wayback ↺](https://web.archive.org/web/*/https://ciperchile.cl/2016/04/04/the-panama-papers-los-secretos-de-chilenos-en-paraisos-fiscales-salen-a-la-luz/) |
+| [ICIJ Offshore Leaks Database](https://offshoreleaks.icij.org/) | ICIJ | `primaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://offshoreleaks.icij.org/) |

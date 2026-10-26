@@ -6,28 +6,13 @@ tribunal_o_fiscalia: "Corte de Apelaciones de Santiago / 34° Juzgado del Crimen
 fiscal_a_cargo: "Ministro en Visita Guillermo de la Barra Dünner / Consejo de Defensa del Estado"
 estado_judicial: cerrada_sin_condena
 delito_principal: "[[Malversacion de Caudales Publicos]]"
-estado_verificacion: parcial
-fuentes:
-  - url: "https://www.theclinic.cl/2016/08/23/caso-cema-chile-fraude-al-fisco/"
-    titulo: "Caso CEMA Chile: querella por fraude al fisco"
-    medio: "The Clinic"
-    tipo: secundaria
-    fecha: 2016-08-23
-    consultado: 2026-10-19
-  - url: "https://www.theclinic.cl/2016/12/29/lo-que-declaro-lucia-hiriart-por-el-caso-cema-chile-por-mi-no-pasaba-ni-un-centavo/"
-    titulo: "Lo que declaró Lucía Hiriart por el caso CEMA Chile"
-    medio: "The Clinic"
-    tipo: secundaria
-    fecha: 2016-12-29
-    consultado: 2026-10-19
-  - url: "https://www.emol.com/noticias/Nacional/2021/12/16/1041401/fallecio-lucia-hiriart.html"
-    titulo: "Falleció Lucía Hiriart"
-    medio: "Emol"
-    tipo: secundaria
-    fecha: 2021-12-16
-    consultado: 2026-10-19
 historial_correcciones:
   - "estado_judicial corregido a cerrada_sin_condena (2026-10-19): la arista penal fue sobreseída temporalmente (2013) y la fundación se disolvió vía CDE (2021)."
+estado_verificacion: parcial
+fuentes:
+  - "https://www.theclinic.cl/2016/08/23/caso-cema-chile-fraude-al-fisco/"
+  - "https://www.theclinic.cl/2016/12/29/lo-que-declaro-lucia-hiriart-por-el-caso-cema-chile-por-mi-no-pasaba-ni-un-centavo/"
+  - "https://www.emol.com/noticias/Nacional/2021/12/16/1041401/fallecio-lucia-hiriart.html"
 tags:
   - causa
   - caso-cema-chile
@@ -69,13 +54,9 @@ SORT fecha ASC
 ```
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Caso CEMA Chile: querella por fraude al fisco](https://www.theclinic.cl/2016/08/23/caso-cema-chile-fraude-al-fisco/) | The Clinic | `secundaria` | 2016-08-23 | [Wayback ↺](https://web.archive.org/web/*/https://www.theclinic.cl/2016/08/23/caso-cema-chile-fraude-al-fisco/) |
+| [Lo que declaró Lucía Hiriart por el caso CEMA Chile](https://www.theclinic.cl/2016/12/29/lo-que-declaro-lucia-hiriart-por-el-caso-cema-chile-por-mi-no-pasaba-ni-un-centavo/) | The Clinic | `secundaria` | 2016-12-29 | [Wayback ↺](https://web.archive.org/web/*/https://www.theclinic.cl/2016/12/29/lo-que-declaro-lucia-hiriart-por-el-caso-cema-chile-por-mi-no-pasaba-ni-un-centavo/) |
+| [Falleció Lucía Hiriart](https://www.emol.com/noticias/Nacional/2021/12/16/1041401/fallecio-lucia-hiriart.html) | Emol | `secundaria` | 2021-12-16 | [Wayback ↺](https://web.archive.org/web/*/https://www.emol.com/noticias/Nacional/2021/12/16/1041401/fallecio-lucia-hiriart.html) |

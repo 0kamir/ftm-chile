@@ -4,6 +4,9 @@ articulo_cp: "Artículo 27 de la Ley N° 19.913 (UAF)"
 bien_juridico: "Orden público económico y administración de justicia"
 pena_referencial: "Presidio mayor en sus grados mínimo a medio y multa de 200 a 1.000 UTM"
 prescripcion_anos: 10
+estado_verificacion: verificado
+fuentes:
+  - "https://www.bcn.cl/leychile/navegar?idNorma=219119"
 tags:
   - delito/lavado-de-activos
 ---
@@ -30,3 +33,9 @@ FROM "03_Hechos_y_Nexos"
 WHERE contains(string(delito_imputado), this.file.name)
 SORT fecha DESC
 ```
+
+## Fuentes Verificables
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Ley N° 19.913 — Crea la Unidad de Análisis Financiero y modifica normas sobre Lavado de Activos (Art. 27)](https://www.bcn.cl/leychile/navegar?idNorma=219119) | Biblioteca del Congreso Nacional (BCN LeyChile) | `primaria` | 2003-12-18 | [Wayback ↺](https://web.archive.org/web/*/https://www.bcn.cl/leychile/navegar?idNorma=219119) |

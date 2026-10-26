@@ -3,10 +3,16 @@ tipo_nodo: persona
 rut: ""
 aliases:
   - "Loreto Letelier"
-rol_principal: "Abogada y Ex Candidata a Diputada por el Distrito 9 (Pasada al Tribunal Supremo de la UDI en 2017)"
+rol_principal: "Abogada y excandidata a diputada por el Distrito 9 (2017)"
 afiliacion_politica: "[[Union Democrata Independiente]]"
-situacion_procesal: testigo_clave
-medida_cautelar: "Sin medidas cautelares penales (Sometida al Tribunal Supremo de la UDI y marginada de la colectividad en 2017)"
+situacion_procesal: ninguna
+medida_cautelar: "Sin causa penal. En 2017 la directiva de la UDI derivó su candidatura al Tribunal Supremo del partido y le retiró respaldo; no se encontró el resultado de ese proceso"
+historial_correcciones:
+  - "2026-10-26: se retiraron el relato sobre celebraciones de la UDI en Punta de Tralca (que mencionaba a Jovino Novoa y Juan Antonio Coloma) y la frase sobre educación gratuita, porque su única fuente da 404 y no se encontró otra. Se reemplazó la fuente de Cooperativa (404) por T13 y CNN Chile."
+estado_verificacion: verificado
+fuentes:
+  - "https://www.t13.cl/noticia/politica/udi-manda-tribunal-supremo-candidaturas-loreto-letelier-y-rodrigo-perez"
+  - "https://www.cnnchile.com/pais/las-reacciones-tras-los-dichos-de-loreto-letelier-sobre-el-caso-quemados/"
 tags:
   - entidad/persona
   - udi
@@ -23,13 +29,17 @@ tags:
 - **Sanción Partidaria**: `= this.medida_cautelar`
 
 ## Síntesis y Registro OSINT
-Abogada y militante histórica desde su juventud en la [[Union Democrata Independiente]], por la cual fue inscrita como candidata a diputada por el Distrito 9 (Región Metropolitana) en las elecciones parlamentarias de 2017. Su figura concentra tres episodios de alto impacto público y documental sobre la interna de la colectividad que derivaron en su paso al Tribunal Supremo y marginación del partido:
+Abogada y militante histórica desde su juventud en la [[Union Democrata Independiente]], por la cual fue inscrita como candidata a diputada por el Distrito 9 (Región Metropolitana) en las elecciones parlamentarias de 2017. Su paso por la política se conoce sobre todo por el siguiente episodio:
 
-1. **Desclasificación de los "Retiros Espirituales" y Celebraciones de la UDI en Punta de Tralca (Agosto de 2017)**: En una entrevista en el programa *"Con las Manos en la Masa"* del canal Vía X, relató su ingreso a la Juventud UDI durante su adolescencia y describió la trastienda de los denominados *"retiros espirituales políticos"* organizados por el partido en **Punta de Tralca**. En su declaración pública afirmó que, tras las jornadas de formación doctrina, se realizaban celebraciones nocturnas en las que los máximos líderes históricos ("coroneles") y senadores de la [[Union Democrata Independiente]] —mencionando explícitamente a [[Jovino Novoa Vasquez]] y a Juan Antonio Coloma— terminaban de madrugada *"bailando arriba de las mesas, sacándose la camisa y con la corbata en la cabeza"*.
-2. **Polémica sobre la "Educación Gratuita en Internet" (Junio de 2017)**: Durante la campaña parlamentaria afirmó públicamente que *"la educación gratuita y de calidad ya existe y está en internet"*, comparándose posteriormente con Cristóbal Colón y Thomas Alva Edison al declararse *"incomprendida"*.
-3. **Declaraciones Negacionistas sobre el *Caso Quemados* y Marginación Partidaria (Septiembre de 2017)**: En septiembre de 2017 publicó declaraciones afirmando que las víctimas del *Caso Quemados* de 1986 (Carmen Gloria Quintana y Rodrigo Rojas de Negri) se habían quemado a sí mismas con bombas molotov, pese a las sentencias judiciales ejecutoriadas que acreditaron la responsabilidad de patrullas militares. Sus dichos provocaron el rechazo público del entonces candidato presidencial de Chile Vamos, [[Sebastian Pinera Echenique]], y de la directiva de la [[Union Democrata Independiente]], que la remitió al **Tribunal Supremo** para su expulsión y le retiró todo respaldo político y financiero de campaña (obteniendo apenas el `0,59%` de los votos).
+- **Declaraciones sobre el *Caso Quemados* (septiembre de 2017)**: escribió en redes sociales que las víctimas del *Caso Quemados* de 1986 (Carmen Gloria Quintana y Rodrigo Rojas de Negri) se habían quemado con sus propias bombas molotov, contra lo establecido por los tribunales, que atribuyeron los hechos a una patrulla militar. Sus dichos fueron rechazados por la directiva de la [[Union Democrata Independiente]], que le retiró respaldo y derivó su candidatura al Tribunal Supremo del partido. No se encontró el resultado de ese proceso.
 
 ## Vínculos Partidarios y Referencias Cruzadas en el Vault
 - **Partido Político**: [[Union Democrata Independiente]]
-- **Dirigente Histórico Aludido**: [[Jovino Novoa Vasquez]]
 - **Candidato Presidencial de la Coalición (2017)**: [[Sebastian Pinera Echenique]]
+
+## Fuentes Verificables
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [UDI manda al Tribunal Supremo candidaturas de Loreto Letelier y Rodrigo Pérez](https://www.t13.cl/noticia/politica/udi-manda-tribunal-supremo-candidaturas-loreto-letelier-y-rodrigo-perez) | T13 | `secundaria` | 2017-10-02 | [Wayback ↺](https://web.archive.org/web/*/https://www.t13.cl/noticia/politica/udi-manda-tribunal-supremo-candidaturas-loreto-letelier-y-rodrigo-perez) |
+| [Las reacciones tras los dichos de Loreto Letelier sobre el caso Quemados](https://www.cnnchile.com/pais/las-reacciones-tras-los-dichos-de-loreto-letelier-sobre-el-caso-quemados/) | CNN Chile | `secundaria` | 2017-09-27 | [Wayback ↺](https://web.archive.org/web/*/https://www.cnnchile.com/pais/las-reacciones-tras-los-dichos-de-loreto-letelier-sobre-el-caso-quemados/) |

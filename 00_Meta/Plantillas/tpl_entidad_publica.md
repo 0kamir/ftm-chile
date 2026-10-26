@@ -4,6 +4,9 @@ rut: ""
 categoria: Ministerio # GORE | Ministerio | Municipio | Poder Judicial
 region: ""
 superior_jerarquico: ""
+estado_verificacion: pendiente # verificado | parcial | desactualizado | sin_fuente | pendiente
+fuentes:
+  - "https://"
 tags:
   - entidad/publica
 ---
@@ -33,3 +36,9 @@ SORT fecha DESC
 
 ## Observaciones de Contraloría / Auditoría
 - 
+
+## Fuentes Verificables
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Título del documento o nota](https://) | Medio | `primaria` | YYYY-MM-DD | [copia](https://web.archive.org/) |

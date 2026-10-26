@@ -55,6 +55,11 @@ def main() -> int:
             meta = yaml.safe_load(m.group(1)) or {}
             tipo = meta.get("tipo_nodo")
             eid = ftm_id(name)
+            urls_fuentes = [
+                str(fu.get("url") if isinstance(fu, dict) else fu)
+                for fu in (meta.get("fuentes") or [])
+                if str(fu.get("url") if isinstance(fu, dict) else fu).startswith(("http://", "https://"))
+            ]
 
             if tipo == "persona":
                 ent = {
@@ -133,7 +138,7 @@ def main() -> int:
                         "date": [str(meta.get("fecha_emision", ""))],
                         "summary": [str(meta.get("tipo_documento", ""))],
                         "publisher": [clean_link(meta.get("organismo_emisor"))],
-                        "sourceUrl": [str(meta.get("fuente_osint", ""))],
+                        "sourceUrl": urls_fuentes or [str(meta.get("fuente_osint", ""))],
                     },
                 }
                 entities.append(ent)
@@ -160,9 +165,13 @@ def main() -> int:
                         "program": [str(meta.get("tipo_nexo", ""))],
                         "project": [ftm_id(causa)],
                         "proof": [ftm_id(evid)],
+                        "sourceUrl": urls_fuentes,
                     },
                 }
                 entities.append(ent)
+
+            if entities and entities[-1]["id"] == eid and urls_fuentes:
+                entities[-1]["properties"].setdefault("sourceUrl", urls_fuentes)
 
     with open(OUT_FTM, "w", encoding="utf-8") as f:
         for e in entities:

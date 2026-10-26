@@ -4,6 +4,9 @@ articulo_cp: "Artículos 193, 194 y 196 del Código Penal de Chile"
 bien_juridico: "Fe pública, autenticidad probatoria y veracidad de documentos estatales"
 pena_referencial: "Presidio menor en su grado máximo a presidio mayor en su grado mínimo"
 prescripcion_anos: 5
+estado_verificacion: verificado
+fuentes:
+  - "https://www.bcn.cl/leychile/navegar?idNorma=1984"
 tags:
   - delito/falsificacion-instrumento-publico
   - fe-publica
@@ -33,3 +36,9 @@ FROM "03_Hechos_y_Nexos"
 WHERE contains(string(delito_imputado), this.file.name)
 SORT fecha DESC
 ```
+
+## Fuentes Verificables
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Código Penal de Chile — Artículos 193, 194 y 196 (Falsificación de Instrumento Público)](https://www.bcn.cl/leychile/navegar?idNorma=1984) | Biblioteca del Congreso Nacional (BCN LeyChile) | `primaria` | 1874-11-12 | [Wayback ↺](https://web.archive.org/web/*/https://www.bcn.cl/leychile/navegar?idNorma=1984) |

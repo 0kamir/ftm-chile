@@ -8,6 +8,11 @@ rol_principal: "Senadora de la República (ex Diputada por el Distrito 6) y Diri
 afiliacion_politica: "[[Renovacion Nacional]]"
 situacion_procesal: investigada
 medida_cautelar: "Sin formalización; sujeta a diligencias de entrada, registro e incautación de dispositivos por la URAC y OS9"
+estado_verificacion: verificado
+fuentes:
+  - "https://www.ciperchile.cl/2026/05/06/fiscalia-ingresa-al-senado-por-investigacion-contra-camila-flores-por-posible-fraude-al-fisco/"
+  - "https://www.emol.com/noticias/Nacional/2026/04/09/1196710/camila-flores-investigacion-fraude-fisco.html"
+  - "https://www.diarioconstitucional.cl/2026/05/09/rn-remite-a-camila-flores-al-tribunal-supremo-en-medio-de-investigacion-por-presunto-fraude-al-fisco/"
 tags:
   - entidad/persona
   - senadora
@@ -53,3 +58,11 @@ dv.table(
   ])
 );
 ```
+
+## Fuentes Verificables
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Fiscalía ingresa al Senado por investigación contra Camila Flores](https://www.ciperchile.cl/2026/05/06/fiscalia-ingresa-al-senado-por-investigacion-contra-camila-flores-por-posible-fraude-al-fisco/) | CIPER Chile | `secundaria` | 2026-05-06 | [Wayback ↺](https://web.archive.org/web/*/https://www.ciperchile.cl/2026/05/06/fiscalia-ingresa-al-senado-por-investigacion-contra-camila-flores-por-posible-fraude-al-fisco/) |
+| [Camila Flores: investigación por fraude al fisco](https://www.emol.com/noticias/Nacional/2026/04/09/1196710/camila-flores-investigacion-fraude-fisco.html) | Emol | `secundaria` | 2026-04-09 | [Wayback ↺](https://web.archive.org/web/*/https://www.emol.com/noticias/Nacional/2026/04/09/1196710/camila-flores-investigacion-fraude-fisco.html) |
+| [RN remite a Camila Flores al Tribunal Supremo](https://www.diarioconstitucional.cl/2026/05/09/rn-remite-a-camila-flores-al-tribunal-supremo-en-medio-de-investigacion-por-presunto-fraude-al-fisco/) | Diario Constitucional | `secundaria` | 2026-05-09 | [Wayback ↺](https://web.archive.org/web/*/https://www.diarioconstitucional.cl/2026/05/09/rn-remite-a-camila-flores-al-tribunal-supremo-en-medio-de-investigacion-por-presunto-fraude-al-fisco/) |

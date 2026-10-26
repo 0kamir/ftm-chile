@@ -4,6 +4,9 @@ articulo_cp: "Artículos 246 y 247 del Código Penal de Chile"
 bien_juridico: "Reserva de la información pública y deber de fidelidad funcionaria"
 pena_referencial: "Suspensión del empleo en sus grados mínimo a medio y multa de seis a veinte UTM"
 prescripcion_anos: 5
+estado_verificacion: verificado
+fuentes:
+  - "https://www.bcn.cl/leychile/navegar?idNorma=1984"
 tags:
   - delito/violacion-secreto
 ---
@@ -32,3 +35,9 @@ FROM "03_Hechos_y_Nexos"
 WHERE contains(string(delito_imputado), this.file.name)
 SORT fecha DESC
 ```
+
+## Fuentes Verificables
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Código Penal de Chile — Artículos 246 y 247 (Violación de Secreto)](https://www.bcn.cl/leychile/navegar?idNorma=1984) | Biblioteca del Congreso Nacional (BCN LeyChile) | `primaria` | 1874-11-12 | [Wayback ↺](https://web.archive.org/web/*/https://www.bcn.cl/leychile/navegar?idNorma=1984) |

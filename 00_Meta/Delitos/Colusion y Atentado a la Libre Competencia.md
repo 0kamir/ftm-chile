@@ -4,6 +4,10 @@ articulo_cp: "Artículo 3° inciso segundo letra a) del Decreto Ley N° 211 y Ar
 bien_juridico: "Libre competencia, orden público económico y bienestar de los consumidores"
 pena_referencial: "Presidio menor en su grado máximo a presidio mayor en su grado mínimo (3 años y un día a 10 años) y multas a beneficio fiscal"
 prescripcion_anos: 5
+estado_verificacion: verificado
+fuentes:
+  - "https://www.bcn.cl/leychile/navegar?idNorma=5872"
+  - "https://www.bcn.cl/leychile/navegar?idNorma=1094077"
 tags:
   - delito/colusion
   - libre-competencia
@@ -34,3 +38,10 @@ FROM "03_Hechos_y_Nexos"
 WHERE contains(string(delito_imputado), this.file.name)
 SORT fecha DESC
 ```
+
+## Fuentes Verificables
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Decreto Ley N° 211 — Defensa de la Libre Competencia (Art. 3° y Art. 62)](https://www.bcn.cl/leychile/navegar?idNorma=5872) | Biblioteca del Congreso Nacional (BCN LeyChile) | `primaria` | 1973-12-22 | [Wayback ↺](https://web.archive.org/web/*/https://www.bcn.cl/leychile/navegar?idNorma=5872) |
+| [Ley N° 20.945 — Perfecciona el Sistema de Defensa de la Libre Competencia y tipifica la colusión](https://www.bcn.cl/leychile/navegar?idNorma=1094077) | Biblioteca del Congreso Nacional (BCN LeyChile) | `primaria` | 2016-08-30 | [Wayback ↺](https://web.archive.org/web/*/https://www.bcn.cl/leychile/navegar?idNorma=1094077) |

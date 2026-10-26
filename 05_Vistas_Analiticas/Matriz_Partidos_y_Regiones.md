@@ -108,3 +108,74 @@ TABLE WITHOUT ID
 FROM "01_Entidades/Partidos"
 SORT sigla ASC
 ```
+
+---
+
+## 4. Cruce Forense: Empresas Condenadas / Sancionadas con Flujos hacia Partidos y Políticos
+
+Esta vista cruza automáticamente las **entidades privadas (`01_Entidades/Privadas/`)** que registran **condenas o sanciones firmes** (o cuyos controladores/representantes fueron condenados) con aquellas que presentan aristas (`03_Hechos_y_Nexos/`) dirigidas hacia **partidos políticos (`01_Entidades/Partidos/`)** o **operadores/autoridades con militancia partidaria**.
+
+```dataviewjs
+const nexos = dv.pages('"03_Hechos_y_Nexos"');
+const fmt = new Intl.NumberFormat('es-CL', { style: 'currency', currency: 'CLP', maximumFractionDigits: 0 });
+const empresas = {};
+
+for (let n of nexos) {
+  const orig = n.entidad_origen ? dv.page(n.entidad_origen.path) : null;
+  const dest = n.entidad_destino ? dv.page(n.entidad_destino.path) : null;
+  const fOrig = n.firmante_origen ? dv.page(n.firmante_origen.path) : null;
+  const fDest = n.firmante_destino ? dv.page(n.firmante_destino.path) : null;
+
+  for (let emp of [orig, dest]) {
+    if (!emp || emp.tipo_nodo !== "entidad_privada") continue;
+    const key = emp.file.name;
+    if (!empresas[key]) {
+      const rep = emp.representante_legal ? dv.page(emp.representante_legal.path) : null;
+      empresas[key] = {
+        link: emp.file.link,
+        repCondenado: rep && (rep.situacion_procesal === "condenado" || rep.situacion_procesal === "sancionado_administrativamente"),
+        tieneSentencia: false,
+        partidosDest: new Set(),
+        politicosDest: new Set(),
+        causas: new Set(),
+        montoPol: 0
+      };
+    }
+    const e = empresas[key];
+    if (n.monto_origen === "sentencia" || n.monto_origen === "resolucion_administrativa") {
+      e.tieneSentencia = true;
+    }
+    if (n.causa_vinculada) e.causas.add(String(n.causa_vinculada));
+
+    let esFlujoPolitico = false;
+    if (dest && dest.tipo_nodo === "partido_politico") {
+      e.partidosDest.add(String(dest.file.link));
+      esFlujoPolitico = true;
+    }
+    if (fDest && fDest.afiliacion_politica && !String(fDest.afiliacion_politica).startsWith("Independiente")) {
+      e.partidosDest.add(String(fDest.afiliacion_politica));
+      e.politicosDest.add(String(fDest.file.link));
+      esFlujoPolitico = true;
+    }
+    if (esFlujoPolitico && orig && orig.file.name === key) {
+      e.montoPol += Number(n.monto_clp || 0);
+    }
+  }
+}
+
+const filasEmp = Object.values(empresas)
+  .filter(e => (e.tieneSentencia || e.repCondenado) && e.partidosDest.size > 0)
+  .sort((a, b) => b.montoPol - a.montoPol)
+  .map(e => [
+    e.link,
+    Array.from(e.causas).join(", "),
+    Array.from(e.partidosDest).join(", "),
+    Array.from(e.politicosDest).join(", "),
+    fmt.format(e.montoPol)
+  ]);
+
+dv.table(
+  ["Empresa Condenada / Sancionada", "Causas Vinculadas", "Partidos Beneficiados / Vinculados", "Políticos / Autoridades Receptoras", "Flujo Político Registrado (CLP)"],
+  filasEmp
+);
+```

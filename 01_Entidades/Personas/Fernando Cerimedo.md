@@ -10,12 +10,10 @@ situacion_procesal: investigado
 medida_cautelar: "Indiciado por la Policía Federal de Brasil (nov-2024) sin ser acusado por la PGR; investigado en Chile por la Fiscalía Centro Norte (sin formalización)"
 estado_verificacion: parcial
 fuentes:
-  - url: "https://apublica.org/2025/09/julgamento-stf-quem-foi-indiciado-mas-nao-deve-ser-julgado/"
-    titulo: "Julgamento no STF: quem foi indiciado mas não deve ser julgado"
-    medio: "Agência Pública"
-    tipo: secundaria
-    fecha: 2025-09-01
-    consultado: 2026-10-19
+  - "https://apublica.org/2025/09/julgamento-stf-quem-foi-indiciado-mas-nao-deve-ser-julgado/"
+  - "https://www.theclinic.cl/2026/08/28/el-dia-que-el-rey-de-los-trolls-llego-a-la-sede-de-rn-la-viralizada-foto-con-cerimedo-que-reunio-a-figuras-ligadas-a-la-udi-parisi-y-el-actual-segundo-piso/"
+  - "https://www.cnnchile.com/pais/fiscalia-centro-norte-abre-investigacion-por-presuntos-delitos-informaticos-vinculados-a-fernando-cerimedo/"
+  - "https://www.pauta.cl/actualidad/2026/09/04/fiscalia-centro-norte-abre-investigacion-por-eventual-intervencion-de-fernando-cerimedo-en-procesos-electorales-en-chile.html"
 tags:
   - entidad/persona
   - consultor-digital
@@ -74,13 +72,10 @@ dv.table(
 ```
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Julgamento no STF: quem foi indiciado mas não deve ser julgado](https://apublica.org/2025/09/julgamento-stf-quem-foi-indiciado-mas-nao-deve-ser-julgado/) | Agência Pública | `secundaria` | 2025-09-01 | [Wayback ↺](https://web.archive.org/web/*/https://apublica.org/2025/09/julgamento-stf-quem-foi-indiciado-mas-nao-deve-ser-julgado/) |
+| [El día que el 'rey de los trolls' llegó a la sede de RN](https://www.theclinic.cl/2026/08/28/el-dia-que-el-rey-de-los-trolls-llego-a-la-sede-de-rn-la-viralizada-foto-con-cerimedo-que-reunio-a-figuras-ligadas-a-la-udi-parisi-y-el-actual-segundo-piso/) | The Clinic | `secundaria` | 2026-08-28 | [Wayback ↺](https://web.archive.org/web/*/https://www.theclinic.cl/2026/08/28/el-dia-que-el-rey-de-los-trolls-llego-a-la-sede-de-rn-la-viralizada-foto-con-cerimedo-que-reunio-a-figuras-ligadas-a-la-udi-parisi-y-el-actual-segundo-piso/) |
+| [Fiscalía Centro Norte abre investigación por presuntos delitos informáticos vinculados a Fernando Cerimedo](https://www.cnnchile.com/pais/fiscalia-centro-norte-abre-investigacion-por-presuntos-delitos-informaticos-vinculados-a-fernando-cerimedo/) | CNN Chile | `secundaria` | 2026-09-03 | [Wayback ↺](https://web.archive.org/web/*/https://www.cnnchile.com/pais/fiscalia-centro-norte-abre-investigacion-por-presuntos-delitos-informaticos-vinculados-a-fernando-cerimedo/) |
+| [Fiscalía Centro Norte abre investigación por eventual intervención de Cerimedo en procesos electorales](https://www.pauta.cl/actualidad/2026/09/04/fiscalia-centro-norte-abre-investigacion-por-eventual-intervencion-de-fernando-cerimedo-en-procesos-electorales-en-chile.html) | Pauta | `secundaria` | 2026-09-04 | [Wayback ↺](https://web.archive.org/web/*/https://www.pauta.cl/actualidad/2026/09/04/fiscalia-centro-norte-abre-investigacion-por-eventual-intervencion-de-fernando-cerimedo-en-procesos-electorales-en-chile.html) |

@@ -5,15 +5,15 @@ razon_social: "Farmacias Cruz Verde S.A. (Socofar)"
 fecha_constitucion: 1984-01-05
 objeto_social: "Distribución, droguería, importación y venta al por menor de medicamentos e insumos médicos"
 representante_legal: "Eduardo Castillo Castillo"
-estado_verificacion: parcial
-fuentes:
-  - url: "https://www.portalchile.org/empresa/farmacias-cruz-verde-spa-89807200"
-    titulo: "Registro de RUT: Farmacias Cruz Verde"
-    medio: "PortalChile (datos SII)"
-    tipo: secundaria
-    consultado: 2026-10-19
 historial_correcciones:
   - "RUT corregido el 2026-10-19: el vault registraba 96.677.000-7, que no corresponde a la empresa; el RUT verificado es 89.807.200-2."
+estado_verificacion: parcial
+fuentes:
+  - "https://www.portalchile.org/empresa/farmacias-cruz-verde-spa-89807200"
+  - "https://centrocompetencia.com/wp-content/uploads/2022/03/Sentencia_119_Corte_Suprema.pdf"
+  - "https://www.df.cl/empresas/suprema-confirma-acuerdo-entre-fne-y-fasa-por-caso-colusion"
+  - "https://www.cooperativa.cl/noticias/site/artic/20191220/pags-amp/20191220104347.html"
+  - "https://www.theclinic.cl/2012/09/07/suprema-le-hace-una-tapa-de-100-metros-a-farmacias-por-reclamo-sobre-multas-en-caso-colusion/"
 tags:
   - entidad/privada
   - farmacias
@@ -50,13 +50,11 @@ SORT fecha ASC
 ```
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Registro de RUT: Farmacias Cruz Verde](https://www.portalchile.org/empresa/farmacias-cruz-verde-spa-89807200) | PortalChile (datos SII) | `secundaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://www.portalchile.org/empresa/farmacias-cruz-verde-spa-89807200) |
+| [Sentencia TDLC N° 119/2012](https://centrocompetencia.com/wp-content/uploads/2022/03/Sentencia_119_Corte_Suprema.pdf) | CentroCompetencia (copia del fallo) | `primaria` | 2012-01-31 | [Wayback ↺](https://web.archive.org/web/*/https://centrocompetencia.com/wp-content/uploads/2022/03/Sentencia_119_Corte_Suprema.pdf) |
+| [Suprema confirma acuerdo entre FNE y FASA por caso colusión](https://www.df.cl/empresas/suprema-confirma-acuerdo-entre-fne-y-fasa-por-caso-colusion) | Diario Financiero | `secundaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://www.df.cl/empresas/suprema-confirma-acuerdo-entre-fne-y-fasa-por-caso-colusion) |
+| [Grandes cadenas de farmacias deberán pagar compensaciones a clientes tras colusión](https://www.cooperativa.cl/noticias/site/artic/20191220/pags-amp/20191220104347.html) | Cooperativa | `secundaria` | 2019-12-20 | [Wayback ↺](https://web.archive.org/web/*/https://www.cooperativa.cl/noticias/site/artic/20191220/pags-amp/20191220104347.html) |
+| [Suprema rechaza reclamo de farmacias sobre multas](https://www.theclinic.cl/2012/09/07/suprema-le-hace-una-tapa-de-100-metros-a-farmacias-por-reclamo-sobre-multas-en-caso-colusion/) | The Clinic | `secundaria` | 2012-09-07 | [Wayback ↺](https://web.archive.org/web/*/https://www.theclinic.cl/2012/09/07/suprema-le-hace-una-tapa-de-100-metros-a-farmacias-por-reclamo-sobre-multas-en-caso-colusion/) |

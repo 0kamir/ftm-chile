@@ -9,18 +9,8 @@ causa_vinculada: "[[Caso Convenios]]"
 nexo_respaldado: "[[TRX-2022-10-03-Convenio-DV-01]]"
 estado_verificacion: verificado
 fuentes:
-  - url: "https://www.biobiochile.cl/noticias/nacional/chile/2023/06/22/caso-democracia-viva-contratos-evitaron-revision-de-contraloria-al-ser-pagados-de-forma-parcializada.shtml"
-    titulo: "Caso Democracia Viva: contratos evitaron revisión de Contraloría al ser pagados de forma parcializada"
-    medio: "BioBioChile"
-    tipo: secundaria
-    fecha: 2023-06-22
-    consultado: 2026-10-19
-  - url: "https://www.latercera.com/nacional/noticia/tras-informe-sobre-democracia-viva-contralor-afirma-que-hubo-corrupcion-y-asegura-que-es-imposible-que-se-restituyan-los-dineros/YBJ555PO75H6FPOLMU5HOOF7KM/"
-    titulo: "Tras informe sobre Democracia Viva, contralor afirma que hubo corrupción"
-    medio: "La Tercera"
-    tipo: secundaria
-    fecha: 2023-08-31
-    consultado: 2026-10-19
+  - "https://www.biobiochile.cl/noticias/nacional/chile/2023/06/22/caso-democracia-viva-contratos-evitaron-revision-de-contraloria-al-ser-pagados-de-forma-parcializada.shtml"
+  - "https://www.latercera.com/nacional/noticia/tras-informe-sobre-democracia-viva-contralor-afirma-que-hubo-corrupcion-y-asegura-que-es-imposible-que-se-restituyan-los-dineros/YBJ555PO75H6FPOLMU5HOOF7KM/"
 tags:
   - evidencia/resolucion-exenta
   - caso-convenios
@@ -52,13 +42,8 @@ El Informe de Investigación Especial de la Contraloría Regional de Antofagasta
 3. Rendiciones de cuentas observadas y carentes de respaldo documental suficiente para acreditar la ejecución efectiva de las obras en campamentos.
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Caso Democracia Viva: contratos evitaron revisión de Contraloría al ser pagados de forma parcializada](https://www.biobiochile.cl/noticias/nacional/chile/2023/06/22/caso-democracia-viva-contratos-evitaron-revision-de-contraloria-al-ser-pagados-de-forma-parcializada.shtml) | BioBioChile | `secundaria` | 2023-06-22 | [Wayback ↺](https://web.archive.org/web/*/https://www.biobiochile.cl/noticias/nacional/chile/2023/06/22/caso-democracia-viva-contratos-evitaron-revision-de-contraloria-al-ser-pagados-de-forma-parcializada.shtml) |
+| [Tras informe sobre Democracia Viva, contralor afirma que hubo corrupción](https://www.latercera.com/nacional/noticia/tras-informe-sobre-democracia-viva-contralor-afirma-que-hubo-corrupcion-y-asegura-que-es-imposible-que-se-restituyan-los-dineros/YBJ555PO75H6FPOLMU5HOOF7KM/) | La Tercera | `secundaria` | 2023-08-31 | [Wayback ↺](https://web.archive.org/web/*/https://www.latercera.com/nacional/noticia/tras-informe-sobre-democracia-viva-contralor-afirma-que-hubo-corrupcion-y-asegura-que-es-imposible-que-se-restituyan-los-dineros/YBJ555PO75H6FPOLMU5HOOF7KM/) |

@@ -9,13 +9,7 @@ causa_vinculada: "[[Causa Vinculada]]"
 nexo_respaldado: "[[Nexo Respaldado]]"
 estado_verificacion: pendiente # verificado | parcial | desactualizado | sin_fuente | pendiente
 fuentes:
-  - url: "https://"
-    titulo: ""
-    medio: ""
-    tipo: primaria # primaria (documento oficial) | secundaria (prensa / academia)
-    fecha: YYYY-MM-DD
-    archivo: "https://web.archive.org/"
-    consultado: YYYY-MM-DD
+  - "https://"
 tags:
   - evidencia
 ---
@@ -36,13 +30,7 @@ tags:
 Qué acredita el documento, citando textualmente los pasajes relevantes y su ubicación (página, considerando, numeral).
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [Título del documento o nota](https://) | Medio | `primaria` | YYYY-MM-DD | [copia](https://web.archive.org/) |

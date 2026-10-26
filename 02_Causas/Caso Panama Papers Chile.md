@@ -6,21 +6,12 @@ tribunal_o_fiscalia: "Servicio de Impuestos Internos (Subdirección de Fiscaliza
 fiscal_a_cargo: "Subdirección de Fiscalización SII / Unidad Especializada Anticorrupción y Lavado de Activos (UNAC)"
 estado_judicial: en_investigacion
 delito_principal: "[[Delito Tributario]]"
-estado_verificacion: parcial
-fuentes:
-  - url: "https://ciperchile.cl/2016/04/04/the-panama-papers-los-secretos-de-chilenos-en-paraisos-fiscales-salen-a-la-luz/"
-    titulo: "The Panama Papers: los secretos de chilenos en paraísos fiscales salen a la luz"
-    medio: "CIPER Chile"
-    tipo: secundaria
-    fecha: 2016-04-04
-    consultado: 2026-10-19
-  - url: "https://offshoreleaks.icij.org/"
-    titulo: "ICIJ Offshore Leaks Database"
-    medio: "ICIJ"
-    tipo: primaria
-    consultado: 2026-10-19
 historial_correcciones:
   - "Aparecer en Panama Papers no implica ilegalidad (CIPER 2016: 'aún no hay evidencias de ilegalidades'). No se encontró fuente para la actuación del SII/UAF ni para el RUC indicado."
+estado_verificacion: parcial
+fuentes:
+  - "https://ciperchile.cl/2016/04/04/the-panama-papers-los-secretos-de-chilenos-en-paraisos-fiscales-salen-a-la-luz/"
+  - "https://offshoreleaks.icij.org/"
 tags:
   - causa
   - panama-papers
@@ -64,13 +55,8 @@ SORT fecha ASC
 ```
 
 ## Fuentes Verificables
-```dataview
-TABLE WITHOUT ID
-  elink(f.url, f.titulo) AS "Fuente",
-  f.medio AS "Medio / Organismo",
-  f.tipo AS "Tipo",
-  f.fecha AS "Fecha",
-  choice(f.archivo, elink(f.archivo, "copia"), "—") AS "Archivo"
-FLATTEN fuentes AS f
-WHERE file.path = this.file.path
-```
+
+| Fuente (Link URL) | Medio / Organismo | Tipo | Fecha | Archivo |
+| :--- | :--- | :---: | :---: | :---: |
+| [The Panama Papers: los secretos de chilenos en paraísos fiscales salen a la luz](https://ciperchile.cl/2016/04/04/the-panama-papers-los-secretos-de-chilenos-en-paraisos-fiscales-salen-a-la-luz/) | CIPER Chile | `secundaria` | 2016-04-04 | [Wayback ↺](https://web.archive.org/web/*/https://ciperchile.cl/2016/04/04/the-panama-papers-los-secretos-de-chilenos-en-paraisos-fiscales-salen-a-la-luz/) |
+| [ICIJ Offshore Leaks Database](https://offshoreleaks.icij.org/) | ICIJ | `primaria` | 2026-10-19 | [Wayback ↺](https://web.archive.org/web/*/https://offshoreleaks.icij.org/) |
